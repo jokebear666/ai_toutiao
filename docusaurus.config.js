@@ -14,7 +14,7 @@ const dynamicBaseUrl = process.env.DOCUSAURUS_BASE_URL || (isDev ? '/' : '/ai_to
 const config = {
   title: 'AI头条',
   tagline: 'AI头条',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon_b.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -78,7 +78,7 @@ const config = {
         title: 'AI头条',
         logo: {
           alt: 'AI头条',
-          src: 'img/favicon.ico',
+          src: 'img/favicon_b.ico',
         },
         hideOnScroll: false,
         items: [
@@ -101,10 +101,14 @@ const config = {
           },
         ],
       },
-      footer: {
-        style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} jokebear666, Inc. Built with Docusaurus.`,
-      },
+      hotAds: [
+        { img: 'img/ads_2.png', href: 'https://xhslink.com/m/2lTbaZQ1RbP', alt: '草莓师姐' },
+        { img: 'img/ads_3.png', href: 'hhttps://xhslink.com/m/2lTbaZQ1RbP', alt: '草莓师姐' }
+      ],
+      // footer: {
+      //   style: 'dark',
+      //   copyright: `Copyright © ${new Date().getFullYear()} jokebear666, Inc. Built with Docusaurus.`,
+      // },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,

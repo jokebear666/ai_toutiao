@@ -8,6 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
+const isDev = process.env.NODE_ENV === 'development';
+const dynamicBaseUrl = process.env.DOCUSAURUS_BASE_URL || (isDev ? '/' : '/ai_toutiao');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'AI头条',
@@ -23,7 +25,7 @@ const config = {
   url: 'https://jokebear666.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: dynamicBaseUrl,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.

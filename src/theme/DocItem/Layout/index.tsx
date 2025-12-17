@@ -17,9 +17,9 @@ export default function LayoutWrapper(props: Props) {
   }
   return (
     <div className="content-with-ads">
-      <div className="content-main">
+      <div className="content-main"><div className="content-inner">
         <Layout {...props} />
-      </div>
+      </div></div>
       <aside className="content-right-ads">
         {ads.map((ad: any, idx: number) => (
           <a className="content-ad" key={idx} href={ad.href} target="_blank" rel="noopener noreferrer">

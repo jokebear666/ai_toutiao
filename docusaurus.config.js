@@ -95,15 +95,21 @@ const config = {
             activeBaseRegex: '^/category/paper'
           },
           {
-            href: 'https://github.com/jokebear666',
-            label: 'GitHub',
+            to: '/sponsor/advertise',
+            label: '赞助商',
             position: 'right',
+            activeBaseRegex: '^/sponsor/'
           },
+          // {
+          //   href: 'https://github.com/jokebear666',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // },
         ],
       },
       hotAds: [
         { img: 'img/ads_2.png', href: 'https://xhslink.com/m/2lTbaZQ1RbP', alt: '草莓师姐' },
-        { img: 'img/ads_3.png', href: 'hhttps://xhslink.com/m/2lTbaZQ1RbP', alt: '草莓师姐' }
+        { img: 'img/ads_3.png', href: 'https://xhslink.com/m/2lTbaZQ1RbP', alt: '草莓师姐' }
       ],
       // footer: {
       //   style: 'dark',

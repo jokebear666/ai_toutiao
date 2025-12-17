@@ -174,33 +174,13 @@ class CompletePaperProcessor:
                     if paper_id in seen_papers:
                         print(f"跳过重复论文: {paper_info.get('title', 'N/A')}")
                         continue
-                    
-                    # 检查是否是revised version
                     if paper_info.get('replaced', False):
-                        # print(f"跳过revised version的论文: {paper_info.get('title', 'N/A')}")
                         continue
-                    
-                    # 应用筛选逻辑
-                    should_add = False
-                    paper_categories = paper_info.get('categories', [])
-                    
-                    # 先判断是否是cs.DC，是的话直接should_add，再判断cs.AI/cs.LG
-                    if "cs.DC" in paper_categories:
-                        should_add = True
-                    elif any(cat in paper_categories for cat in categories):
-                        if any(cat in ['cs.AI', 'cs.LG'] for cat in paper_categories):
-                            summary_lower = paper_info.get("summary", "").lower()
-                            # 标注匹配情况以便后续统计
-                            paper_info['rl_match'] = "reinforcement learning" in summary_lower
-                            paper_info['accelerat_match'] = "accelerat" in summary_lower
-                            if paper_info['rl_match'] or paper_info['accelerat_match']:
-                                should_add = True
-                        else:
-                            should_add = True
-                    
-                    if should_add:
-                        all_papers.append(paper_info)
-                        seen_papers.add(paper_id)
+                    summary_lower = (paper_info.get("summary", "") or "").lower()
+                    paper_info['rl_match'] = "reinforcement learning" in summary_lower
+                    paper_info['accelerat_match'] = "accelerat" in summary_lower
+                    all_papers.append(paper_info)
+                    seen_papers.add(paper_id)
             
             print(f"成功获取 {len(all_papers)} 篇论文")
             for i, paper in enumerate(all_papers):
@@ -509,18 +489,9 @@ llm_summary: <2-3 sentences simple summary (method+conclusion)>
             return "", "", [], "", ""
 
     def process_single_paper(self, paper):
-        # 对于非 cs.DC 的论文，跳过PDF/LLM流程，仅用于简化输出
         categories = paper.get('categories', []) or []
         title = paper.get('title', '')
-        
-        if not any(cat == 'cs.DC' for cat in categories):
-            paper['simple_only'] = True
-            # 不再计算兴趣
-            paper['is_interested'] = True
-            print(f"简化处理(非cs.DC): {title}")
-            return paper
 
-        # cs.DC 才进行完整处理
         summary = paper.get('summary', '')
         pdf_link = paper.get('pdf_link', '')
         print(f"处理论文: {title}")
@@ -662,12 +633,7 @@ llm_summary: <2-3 sentences simple summary (method+conclusion)>
             arxiv_prefix = self.get_arxiv_prefix(date_str)
         else:
             arxiv_prefix = ""
-        if not any(cat == 'cs.DC' for cat in categories):
-            pdf_link = paper.get('pdf_link', '')
-            paper_link = pdf_link if pdf_link and pdf_link != 'N/A' else paper.get('id', '')
-            return f"- {arxiv_prefix} {title} [link]({paper_link})\n"
-
-        # cs.DC 使用详细格式
+        # 使用详细格式
         authors = ', '.join(paper.get('authors', []))
         pdf_link = paper.get('pdf_link', 'N/A')
         
@@ -827,6 +793,116 @@ llm_summary: <2-3 sentences simple summary (method+conclusion)>
         
         print(f"创建新的周文件: {filepath}")
 
+    def _safe_category(self, cat):
+        return (cat or 'unknown').replace('.', '_').replace('/', '_').replace(' ', '_')
+
+    def find_or_create_weekly_file_for_category(self, date_str, category):
+        week_range = self.get_week_range(date_str)
+        if not week_range:
+            return None
+        safe = self._safe_category(category)
+        dir_path = os.path.join(self.docs_daily_path, safe)
+        if not os.path.exists(dir_path):
+            os.makedirs(dir_path)
+        self.ensure_category_index_file(category)
+        filepath = os.path.join(dir_path, f"{week_range}.md")
+        if not os.path.exists(filepath):
+            self.create_weekly_file_for_category(filepath, week_range, category)
+        return filepath
+
+    def create_weekly_file_for_category(self, filepath, week_range, category):
+        content = f"# {week_range} ({category})\n\n"
+        with open(filepath, 'w', encoding='utf-8') as f:
+            f.write(content)
+        print(f"创建新的类别周文件: {filepath}")
+
+    def ensure_category_index_file(self, category):
+        safe = self._safe_category(category)
+        dir_path = os.path.join(self.docs_daily_path, safe)
+        if not os.path.exists(dir_path):
+            os.makedirs(dir_path)
+        meta_path = os.path.join(dir_path, "_category_.json")
+        if not os.path.exists(meta_path):
+            payload = {
+                "label": category,
+                "position": 1,
+                "link": {"type": "generated-index"}
+            }
+            with open(meta_path, 'w', encoding='utf-8') as f:
+                json.dump(payload, f, ensure_ascii=False, indent=2)
+            print(f"创建类别索引文件: {meta_path}")
+
+    def ensure_category_indices(self):
+        for entry in os.listdir(self.docs_daily_path):
+            full = os.path.join(self.docs_daily_path, entry)
+            if os.path.isdir(full):
+                meta_path = os.path.join(full, "_category_.json")
+                if not os.path.exists(meta_path):
+                    label = entry.replace('_', '.')
+                    payload = {
+                        "label": label,
+                        "position": 2,
+                        "collapsible": True,
+                        "link": {"type": "generated-index"}
+                    }
+                    with open(meta_path, 'w', encoding='utf-8') as f:
+                        json.dump(payload, f, ensure_ascii=False, indent=2)
+                    print(f"创建缺失的类别索引文件: {meta_path}")
+
+    def update_markdown_file_for_category(self, filepath, papers, date_str, category):
+        if not papers:
+            return
+        existing_content = ""
+        if os.path.exists(filepath):
+            with open(filepath, 'r', encoding='utf-8') as f:
+                existing_content = f.read()
+        date_section_pattern = re.compile(r"(^|\n)##\s*(\d{4}-\d{2}-\d{2}).*?(?=\n##\s|\Z)", re.DOTALL)
+        all_sections = []
+        for m in date_section_pattern.finditer(existing_content):
+            section_start = m.start()
+            section_content = m.group(0).lstrip('\n')
+            section_date = m.group(2)
+            all_sections.append((section_date, section_content, section_start))
+        papers_content = f"## {date_str}\n\n"
+        for paper in papers:
+            papers_content += self.format_paper_with_enhanced_info(paper, date_str=date_str)
+        replaced = False
+        for idx, (dt, _, start_idx) in enumerate(all_sections):
+            if dt == date_str:
+                before = existing_content[:start_idx].rstrip('\n')
+                after_idx = start_idx + len(_)
+                after = existing_content[after_idx:]
+                new_content = before
+                if new_content and not new_content.endswith('\n'):
+                    new_content += "\n"
+                new_content += "\n" + papers_content
+                if after and not after.startswith('\n'):
+                    new_content += "\n"
+                new_content += after.lstrip('\n')
+                replaced = True
+                with open(filepath, 'w', encoding='utf-8') as f:
+                    f.write(new_content.strip() + '\n')
+                return
+        insert_idx = None
+        for idx, (dt, _, start_idx) in enumerate(all_sections):
+            if dt > date_str:
+                insert_idx = start_idx
+                break
+        if insert_idx is not None:
+            before = existing_content[:insert_idx].rstrip('\n')
+            after = existing_content[insert_idx:]
+            new_content = before
+            if new_content and not new_content.endswith('\n'):
+                new_content += "\n"
+            new_content += "\n" + papers_content
+            if after and not after.startswith('\n'):
+                new_content += "\n"
+            new_content += after.lstrip('\n')
+        else:
+            new_content = existing_content.rstrip() + "\n\n" + papers_content
+        with open(filepath, 'w', encoding='utf-8') as f:
+            f.write(new_content.strip() + '\n')
+
     # ==================== 主处理流程 ====================
     
     def process_papers_by_date(self, target_date=None, categories=['cs.DC', 'cs.AI'], max_workers=2, max_papers=10, html_content=None):
@@ -904,6 +980,16 @@ llm_summary: <2-3 sentences simple summary (method+conclusion)>
             print(f"处理完成！论文已添加到: {weekly_file}")
         else:
             print("无法创建或找到周文件")
+
+        category_map = {}
+        for p in processed_papers:
+            for cat in (p.get('categories') or []):
+                category_map.setdefault(cat, []).append(p)
+        for cat, cat_papers in category_map.items():
+            cat_weekly_file = self.find_or_create_weekly_file_for_category(single_date, cat)
+            if cat_weekly_file:
+                self.update_markdown_file_for_category(cat_weekly_file, cat_papers, single_date, cat)
+                print(f"类别 {cat} 的论文已添加到: {cat_weekly_file}")
         
         # 完成后写入arxiv_date.txt
         append_to_processed(single_date)
@@ -957,7 +1043,6 @@ def main():
     # 处理论文（传递已下载的HTML内容）
     processor.process_papers_by_date(
         target_date=target_date,
-        categories=['cs.DC', 'cs.AI', 'cs.LG'],  # 可以修改分类
         max_workers=10,  # 并发数量，建议不要太高
         max_papers=None,    # 测试时限制论文数量，正式使用时可以设为None
         html_content=html_content  # 传递已下载的HTML内容

@@ -6,6 +6,7 @@
 """
 
 import requests
+import argparse
 import xml.etree.ElementTree as ET
 import json
 import csv
@@ -134,7 +135,7 @@ class CompletePaperProcessor:
     
     # ==================== arXiv论文获取功能 ====================
 
-    def fetch_arxiv_papers(self, categories=['cs.DC', 'cs.AI'], max_results=2000, target_date=None, html_content=None):
+    def fetch_arxiv_papers(self, categories=['cs.DC', 'cs.AI'], max_results=2000, target_date=None, html_content=None, include_categories=None):
         """
         从arXiv HTML内容获取指定分类的论文，并根据papers.jsonl去重与增补
         
@@ -174,11 +175,18 @@ class CompletePaperProcessor:
                     if paper_id in seen_papers:
                         print(f"跳过重复论文: {paper_info.get('title', 'N/A')}")
                         continue
+                    # 跳过修订版
                     if paper_info.get('replaced', False):
                         continue
+                    # 标注关键词匹配情况（用于统计展示）
                     summary_lower = (paper_info.get("summary", "") or "").lower()
                     paper_info['rl_match'] = "reinforcement learning" in summary_lower
                     paper_info['accelerat_match'] = "accelerat" in summary_lower
+                    # 可选：仅保留指定类别（测试时节省成本）
+                    if include_categories:
+                        cats = paper_info.get('categories') or []
+                        if not any(cat in include_categories for cat in cats):
+                            continue
                     all_papers.append(paper_info)
                     seen_papers.add(paper_id)
             
@@ -905,7 +913,7 @@ llm_summary: <2-3 sentences simple summary (method+conclusion)>
 
     # ==================== 主处理流程 ====================
     
-    def process_papers_by_date(self, target_date=None, categories=['cs.DC', 'cs.AI'], max_workers=2, max_papers=10, html_content=None):
+    def process_papers_by_date(self, target_date=None, categories=['cs.DC', 'cs.AI'], max_workers=2, max_papers=10, html_content=None, include_categories=None):
         """
         根据指定日期处理论文的完整流程
 
@@ -932,7 +940,7 @@ llm_summary: <2-3 sentences simple summary (method+conclusion)>
         print(f"\n==== 处理 {single_date} ====")
         # 1. 从arXiv获取论文
         print("步骤1: 从arXiv获取论文...")
-        papers = self.fetch_arxiv_papers(categories=categories, max_results=1024, target_date=single_date, html_content=html_content)
+        papers = self.fetch_arxiv_papers(categories=categories, max_results=1024, target_date=single_date, html_content=html_content, include_categories=include_categories)
 
         if not papers:
             print(f"日期 {single_date} 没有找到论文")
@@ -1037,15 +1045,28 @@ def main():
         print(f"日期 {target_date} 已经处理过，自动退出。")
         return
 
-    # 创建处理器
+    # 解析命令行参数（测试用途）
+    parser = argparse.ArgumentParser(description="Process arXiv cs/new papers")
+    parser.add_argument("--include-categories", type=str, default=None, help="仅处理指定类别，逗号分隔，例如: cs.AI,cs.LG")
+    parser.add_argument("--max-papers", type=int, default=None, help="限制最大论文数量用于测试")
+    parser.add_argument("--max-workers", type=int, default=10, help="并发线程数")
+    args = parser.parse_args()
+
+    include_categories = None
+    if args.include_categories:
+        include_categories = [s.strip() for s in args.include_categories.split(',') if s.strip()]
+
+    max_papers = args.max_papers
+    max_workers = args.max_workers
+
+    # 创建处理器并处理论文
     processor = CompletePaperProcessor()
-    
-    # 处理论文（传递已下载的HTML内容）
     processor.process_papers_by_date(
         target_date=target_date,
-        max_workers=10,  # 并发数量，建议不要太高
-        max_papers=None,    # 测试时限制论文数量，正式使用时可以设为None
-        html_content=html_content  # 传递已下载的HTML内容
+        max_workers=max_workers,
+        max_papers=max_papers,
+        html_content=html_content,
+        include_categories=include_categories
     )
 
 if __name__ == "__main__":

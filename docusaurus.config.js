@@ -83,6 +83,12 @@ const config = {
         hideOnScroll: false,
         items: [
           {
+            to: '/arxiv-daily',
+            label: 'Arxiv每日论文',
+            position: 'left',
+            activeBaseRegex: '^/arxiv-daily'
+          },
+          {
             to: '/category/daily',
             label: 'Daily',
             position: 'left',

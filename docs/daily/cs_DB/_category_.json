@@ -2,6 +2,7 @@
   "label": "cs.DB",
   "position": 1,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "slug": "/daily/csdb"
   }
 }

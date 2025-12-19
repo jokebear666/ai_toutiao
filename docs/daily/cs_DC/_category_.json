@@ -3,6 +3,7 @@
   "position": 1,
   "collapsible": true,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "slug": "/daily/csdc"
   }
 }

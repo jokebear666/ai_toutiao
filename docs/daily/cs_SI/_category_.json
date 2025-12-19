@@ -2,6 +2,7 @@
   "label": "cs.SI",
   "position": 1,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "slug": "/daily/cssi"
   }
 }

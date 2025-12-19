@@ -11,6 +11,11 @@ jobs:
     env:
       DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
       INCLUDE_CATEGORIES: ${{ vars.INCLUDE_CATEGORIES }}
+      R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      R2_ENDPOINT_URL: ${{ secrets.R2_ENDPOINT_URL }}
+      R2_BUCKET: ${{ secrets.R2_BUCKET }}
+      R2_PUBLIC_URL: ${{ secrets.R2_PUBLIC_URL }}
 
     steps:
       - name: Checkout repository
@@ -27,13 +32,21 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      - name: Run script with today's date
+      - name: Install additional dependencies for thumbnails
+        run: |
+          pip install pymupdf boto3 pillow
+
+      - name: Run script with today's date (with thumbnails)
         run: |
           if [ -n "$INCLUDE_CATEGORIES" ]; then
-            python get_daily_arxiv_paper.py --include-categories "$INCLUDE_CATEGORIES"
+            python get_daily_arxiv_paper.py --include-categories "$INCLUDE_CATEGORIES" --generate-thumbnails
           else
-            python get_daily_arxiv_paper.py
+            python get_daily_arxiv_paper.py --generate-thumbnails
           fi
+
+      - name: Build arXiv daily JSON (last 3 months)
+        run: |
+          python build_arxiv_daily_json.py --months 3 --max-items-per-cat 128 --output static/data/arxiv_daily.json
 
       - name: Commit and push changes
         run: |

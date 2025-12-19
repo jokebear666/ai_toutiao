@@ -109,7 +109,7 @@ def extract_date_from_html(html_content=None, url="https://arxiv.org/list/cs/new
         return None
 
 class CompletePaperProcessor:
-    def __init__(self, docs_daily_path="docs/daily", temp_dir="temp_pdfs"):
+    def __init__(self, docs_daily_path="docs/daily", temp_dir="temp_pdfs", enable_thumbnails=False):
         """
         初始化完整的论文处理器
         
@@ -119,6 +119,7 @@ class CompletePaperProcessor:
         """
         self.docs_daily_path = docs_daily_path
         self.temp_dir = temp_dir
+        self.enable_thumbnails = enable_thumbnails
         self.ensure_directories()
         
         # 初始化OpenAI客户端
@@ -410,6 +411,109 @@ class CompletePaperProcessor:
             print(f"下载PDF失败 {pdf_url}: {e}")
             return None
 
+    def extract_first_image(self, pdf_path):
+        """尝试从PDF前两页提取第一张图片，返回(bytes, ext)"""
+        try:
+            import fitz  # PyMuPDF
+            doc = fitz.open(pdf_path)
+            page_limit = min(2, len(doc))
+            for page_num in range(page_limit):
+                page = doc.load_page(page_num)
+                image_list = page.get_images(full=True)
+                if image_list:
+                    image_list.sort(key=lambda img: (img[2] or 0) * (img[3] or 0), reverse=True)
+                    xref = image_list[0][0]
+                    base_image = doc.extract_image(xref)
+                    image_bytes = base_image.get("image")
+                    ext = base_image.get("ext", "png")
+                    if image_bytes:
+                        return image_bytes, ext
+            return None, None
+        except Exception as e:
+            print(f"提取图片失败: {e}")
+            return None, None
+
+    def render_first_page(self, pdf_path, max_width=640):
+        """将PDF第一页渲染为位图，返回(webp字节, 'webp')"""
+        try:
+            import fitz  # PyMuPDF
+            doc = fitz.open(pdf_path)
+            if len(doc) == 0:
+                return None, None
+            page = doc.load_page(0)
+            width = page.rect.width or 1.0
+            zoom = max_width / width
+            mat = fitz.Matrix(zoom, zoom)
+            pix = page.get_pixmap(matrix=mat, alpha=False)
+            return pix.tobytes("webp"), "webp"
+        except Exception as e:
+            print(f"渲染页面失败: {e}")
+            return None, None
+
+    def upload_to_r2(self, image_bytes, ext="webp"):
+        """上传字节到Cloudflare R2，返回公共URL或None"""
+        try:
+            import boto3
+            from botocore.config import Config
+            import hashlib
+            import os as _os
+
+            endpoint = _os.environ.get("R2_ENDPOINT_URL")
+            access_key = _os.environ.get("R2_ACCESS_KEY_ID")
+            secret_key = _os.environ.get("R2_SECRET_ACCESS_KEY")
+            bucket = _os.environ.get("R2_BUCKET")
+            public_url = _os.environ.get("R2_PUBLIC_URL")
+
+            if not all([endpoint, access_key, secret_key, bucket, public_url]):
+                print("R2环境变量未配置完整，跳过上传")
+                return None
+
+            s3 = boto3.client(
+                "s3",
+                region_name="auto",
+                endpoint_url=endpoint,
+                aws_access_key_id=access_key,
+                aws_secret_access_key=secret_key,
+                config=Config(signature_version="s3v4"),
+            )
+
+            hash_str = hashlib.sha256(image_bytes).hexdigest()
+            key = f"thumbnails/{hash_str}_w640_q70.{ext}"
+            content_type = f"image/{'jpeg' if ext == 'jpg' else ext}"
+
+            s3.put_object(
+                Bucket=bucket,
+                Key=key,
+                Body=image_bytes,
+                ContentType=content_type,
+                CacheControl="public, max-age=31536000, immutable",
+            )
+
+            return f"{public_url}/{key}"
+        except Exception as e:
+            print(f"上传R2失败: {e}")
+            return None
+
+    def convert_to_webp(self, image_bytes, max_width=640, quality=70):
+        """将任意图片字节转换为WEBP指定宽度与质量，返回bytes"""
+        try:
+            from PIL import Image
+            import io
+            buf = io.BytesIO(image_bytes)
+            img = Image.open(buf)
+            if img.mode in ("RGBA", "P"):
+                img = img.convert("RGB")
+            w, h = img.size
+            if w > max_width:
+                scale = max_width / float(w)
+                img = img.resize((int(w * scale), int(h * scale)), Image.LANCZOS)
+            out = io.BytesIO()
+            img.save(out, format="WEBP", quality=quality, method=6)
+            return out.getvalue(), "webp"
+        except Exception as e:
+            print(f"WEBP转换失败: {e}")
+            return None, None
+
     def extract_first_page_text(self, pdf_path):
         """提取PDF第一页的文本内容"""
         if not PDF_AVAILABLE:
@@ -522,12 +626,28 @@ llm_summary: <2-3 sentences simple summary (method+conclusion)>
         
         # 提取第一页文本
         first_page_text = self.extract_first_page_text(pdf_path)
-        
+
         # 调用API获取标签、机构，并获取LLM总结
         tag1, tag2, tag3_list, institution, llm_summary = self.call_api_for_tags_institution_interest(
             title, summary, first_page_text
         )
         
+        # 生成缩略图（可选）
+        thumbnail_url = None
+        try:
+            if self.enable_thumbnails and pdf_path:
+                img_bytes, ext = self.extract_first_image(pdf_path)
+                if not img_bytes:
+                    img_bytes, ext = self.render_first_page(pdf_path)
+                if img_bytes:
+                    if (ext or "").lower() != "webp":
+                        converted, cext = self.convert_to_webp(img_bytes)
+                        if converted:
+                            img_bytes, ext = converted, cext
+                    thumbnail_url = self.upload_to_r2(img_bytes, ext or "webp")
+        except Exception as _e:
+            print(f"生成缩略图失败: {_e}")
+
         # 更新论文信息
         paper['tag1'] = tag1
         paper['tag2'] = tag2
@@ -537,6 +657,8 @@ llm_summary: <2-3 sentences simple summary (method+conclusion)>
         paper['is_interested'] = True
         paper['llm_summary'] = llm_summary
         paper['simple_only'] = False
+        if thumbnail_url:
+            paper['thumbnail'] = thumbnail_url
         
         # 清理临时PDF文件
         try:
@@ -664,6 +786,9 @@ llm_summary: <2-3 sentences simple summary (method+conclusion)>
   - **institution:** {institution}
   - **link:** {pdf_link}
 """
+        thumb = paper.get('thumbnail')
+        if thumb:
+            formatted_text += f"  - **thumbnail:** {thumb}\n"
         if llm_summary:
             # 转义MDX特殊字符：大括号{}会被MDX解析为JSX表达式，需要转义
             escaped_summary = llm_summary.replace('<', '&lt;').replace('>', '&gt;').replace('{', '\\{').replace('}', '\\}')
@@ -804,6 +929,11 @@ llm_summary: <2-3 sentences simple summary (method+conclusion)>
     def _safe_category(self, cat):
         return (cat or 'unknown').replace('.', '_').replace('/', '_').replace(' ', '_')
 
+    def _norm_category(self, cat):
+        """将类别规范化为小写且仅含字母数字（用于URL短slug）"""
+        s = (cat or '').lower()
+        return re.sub(r'[^a-z0-9]', '', s)
+
     def find_or_create_weekly_file_for_category(self, date_str, category):
         week_range = self.get_week_range(date_str)
         if not week_range:
@@ -819,9 +949,11 @@ llm_summary: <2-3 sentences simple summary (method+conclusion)>
         return filepath
 
     def create_weekly_file_for_category(self, filepath, week_range, category):
+        norm = self._norm_category(category)
+        frontmatter = f"---\nslug: /daily/{norm}/{week_range}\n---\n"
         content = f"# {week_range} ({category})\n\n"
         with open(filepath, 'w', encoding='utf-8') as f:
-            f.write(content)
+            f.write(frontmatter + content)
         print(f"创建新的类别周文件: {filepath}")
 
     def ensure_category_index_file(self, category):
@@ -831,10 +963,11 @@ llm_summary: <2-3 sentences simple summary (method+conclusion)>
             os.makedirs(dir_path)
         meta_path = os.path.join(dir_path, "_category_.json")
         if not os.path.exists(meta_path):
+            norm = self._norm_category(category)
             payload = {
                 "label": category,
                 "position": 1,
-                "link": {"type": "generated-index"}
+                "link": {"type": "generated-index", "slug": f"/daily/{norm}"}
             }
             with open(meta_path, 'w', encoding='utf-8') as f:
                 json.dump(payload, f, ensure_ascii=False, indent=2)
@@ -847,11 +980,12 @@ llm_summary: <2-3 sentences simple summary (method+conclusion)>
                 meta_path = os.path.join(full, "_category_.json")
                 if not os.path.exists(meta_path):
                     label = entry.replace('_', '.')
+                    norm = self._norm_category(label)
                     payload = {
                         "label": label,
                         "position": 2,
                         "collapsible": True,
-                        "link": {"type": "generated-index"}
+                        "link": {"type": "generated-index", "slug": f"/daily/{norm}"}
                     }
                     with open(meta_path, 'w', encoding='utf-8') as f:
                         json.dump(payload, f, ensure_ascii=False, indent=2)
@@ -1050,6 +1184,7 @@ def main():
     parser.add_argument("--include-categories", type=str, default=None, help="仅处理指定类别，逗号分隔，例如: cs.AI,cs.LG")
     parser.add_argument("--max-papers", type=int, default=None, help="限制最大论文数量用于测试")
     parser.add_argument("--max-workers", type=int, default=10, help="并发线程数")
+    parser.add_argument("--generate-thumbnails", action="store_true", help="启用PDF缩略图生成并上传到R2")
     args = parser.parse_args()
 
     include_categories = None
@@ -1060,7 +1195,7 @@ def main():
     max_workers = args.max_workers
 
     # 创建处理器并处理论文
-    processor = CompletePaperProcessor()
+    processor = CompletePaperProcessor(enable_thumbnails=args.generate_thumbnails)
     processor.process_papers_by_date(
         target_date=target_date,
         max_workers=max_workers,

@@ -1,0 +1,2139 @@
+{
+  "categories": [
+    {
+      "label": "cs.AI",
+      "slug": "csai",
+      "week": "20251215-20251221",
+      "items": [
+        {
+          "title": "Promoting Fairness in Information Access within Social Networks",
+          "authors": "Changan Liu, Xiaotian Zhou, Ahad N. Zehmakan, Zhongzhi Zhang",
+          "link": "https://arxiv.org/pdf/2512.14711",
+          "day": "2025-12-18",
+          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6ae06f86b827d8014c2a6dfa1ed0519a69450f1915b4f28d07a63031ccb31347_w640_q70.webp"
+        },
+        {
+          "title": "Autonomous Source Knowledge Selection in Multi-Domain Adaptation",
+          "authors": "Keqiuyin Li, Jie Lu, Hua Zuo, Guangquan Zhang",
+          "link": "https://arxiv.org/pdf/2512.14710",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Improving Underwater Acoustic Classification Through Learnable Gabor Filter Convolution and Attention Mechanisms",
+          "authors": "Lucas Cesar Ferreira Domingos, Russell Brinkworth, Paulo Eduardo Santos, Karl Sammut",
+          "link": "https://arxiv.org/pdf/2512.14714",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Tourists Profiling by Interest Analysis",
+          "authors": "Sonia Djebali, Quentin Gabot, Guillaume Guerard",
+          "link": "https://arxiv.org/pdf/2512.14704",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "LLM as a Neural Architect: Controlled Generation of Image Captioning Models Under Strict API Contracts",
+          "authors": "Krunal Jesani, Dmitry Ignatov, Radu Timofte",
+          "link": "https://arxiv.org/pdf/2512.14706",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Attention as Binding: A Vector-Symbolic Perspective on Transformer Reasoning",
+          "authors": "Sahil Rajesh Dhayalkar",
+          "link": "https://arxiv.org/pdf/2512.14709",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "SepsisSuite: Beyond Risk Stratification -- A Comparative Analysis of Deep Fusion vs. Expert Stacking for Prescriptive Sepsis AI",
+          "authors": "Ryan Cartularo",
+          "link": "https://arxiv.org/pdf/2512.14712",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "How a Bit Becomes a Story: Semantic Steering via Differentiable Fault Injection",
+          "authors": "Zafaryab Haider, Md Hafizur Rahman, Shane Moeykens, Vijay Devabhaktuni, Prabuddha Chakraborty",
+          "link": "https://arxiv.org/pdf/2512.14715",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Hybrid Attribution Priors for Explainable and Robust Model Training",
+          "authors": "Zhuoran Zhang, Feng Zhang, Shangyuan Li, Yang Shi, Yuanxing Zhang, Wei Chen, Tengjiao Wang, Kam-Fai Wong",
+          "link": "https://arxiv.org/pdf/2512.14719",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "SEED: Spectral Entropy-Guided Evaluation of SpatialTemporal Dependencies for Multivariate Time Series Forecasting",
+          "authors": "Feng Xiong, Zongxia Xie, Yanru Sun, Haoyu Wang, Jianhong Lin",
+          "link": "https://arxiv.org/pdf/2512.14718",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Generative Urban Flow Modeling: From Geometry to Airflow with Graph Diffusion",
+          "authors": "Francisco Giral, Álvaro Manzano, Ignacio Gómez, Petros Koumoutsakos, Soledad Le Clainche",
+          "link": "https://arxiv.org/pdf/2512.14725",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "HATSolver: Learning Groebner Bases with Hierarchical Attention Transformers",
+          "authors": "Mohamed Malhou, Ludovic Perret, Kristin Lauter",
+          "link": "https://arxiv.org/pdf/2512.14722",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Quantum Decision Transformers (QDT): Synergistic Entanglement and Interference for Offline Reinforcement Learning",
+          "authors": "Abraham Itzhak Weinberg",
+          "link": "https://arxiv.org/pdf/2512.14726",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "SoMe: A Realistic Benchmark for LLM-based Social Media Agents",
+          "authors": "Dizhan Xue, Jing Cui, Shengsheng Qian, Chuanrui Hu, Changsheng Xu",
+          "link": "https://arxiv.org/pdf/2512.14720",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "A Critical Perspective on Finite Sample Conformal Prediction Theory in Medical Applications",
+          "authors": "Klaus-Rudolf Kladny, Bernhard Schölkopf, Lisa Koch, Christian F. Baumgartner, Michael Muehlebach",
+          "link": "https://arxiv.org/pdf/2512.14727",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "INFORM-CT: INtegrating LLMs and VLMs FOR Incidental Findings Management in Abdominal CT",
+          "authors": "Idan Tankel, Nir Mazor, Rafi Brada, Christina LeBedis, Guy ben-Yosef",
+          "link": "https://arxiv.org/pdf/2512.14732",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Semantic Geometry for policy-constrained interpretation",
+          "authors": "Nikit Phadke",
+          "link": "https://arxiv.org/pdf/2512.14731",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Zero-Knowledge Audit for Internet of Agents: Privacy-Preserving Communication Verification with Model Context Protocol",
+          "authors": "Guanlin Jing, Huayi Qi",
+          "link": "https://arxiv.org/pdf/2512.14737",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Quantum-Augmented AI/ML for O-RAN: Hierarchical Threat Detection with Synergistic Intelligence and Interpretability (Technical Report)",
+          "authors": "Tan Le, Van Le, Sachin Shetty",
+          "link": "https://arxiv.org/pdf/2512.14742",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Persistent Backdoor Attacks under Continual Fine-Tuning of LLMs",
+          "authors": "Jing Cui, Yufei Han, Jianbin Jiao, Junge Zhang",
+          "link": "https://arxiv.org/pdf/2512.14741",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Factor(U,T): Controlling Untrusted AI by Monitoring their Plans",
+          "authors": "Edward Lue Chee Lip, Anthony Channg, Diana Kim, Aaron Sandoval, Kevin Zhu",
+          "link": "https://arxiv.org/pdf/2512.14745",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "CODE ACROSTIC: Robust Watermarking for Code Generation",
+          "authors": "Li Lin, Siyuan Xin, Yang Cao, Xiaochun Cao",
+          "link": "https://arxiv.org/pdf/2512.14753",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Cyberswarm: a novel swarm intelligence algorithm inspired by cyber community dynamics",
+          "authors": "Abdelsadeq Elfergany, Ammar Adl, Mohammed Kayed",
+          "link": "https://arxiv.org/pdf/2512.14752",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "One Leak Away: How Pretrained Model Exposure Amplifies Jailbreak Risks in Finetuned LLMs",
+          "authors": "Yixin Tan, Zhe Yu, Jun Sakuma",
+          "link": "https://arxiv.org/pdf/2512.14751",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Revisiting the Reliability of Language Models in Instruction-Following",
+          "authors": "Jianshuo Dong, Yutong Zhang, Yan Liu, Zhenyu Zhong, Tao Wei, Chao Zhang, Han Qiu",
+          "link": "https://arxiv.org/pdf/2512.14754",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "CAPE: Capability Achievement via Policy Execution",
+          "authors": "David Ball",
+          "link": "https://arxiv.org/pdf/2512.14761",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Guided Discrete Diffusion for Constraint Satisfaction Problems",
+          "authors": "Justin Jung",
+          "link": "https://arxiv.org/pdf/2512.14765",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Workflows vs Agents for Code Translation",
+          "authors": "Henry Gray, Tom Yotam, Octavian Udrea",
+          "link": "https://arxiv.org/pdf/2512.14762",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Improving VQA Reliability: A Dual-Assessment Approach with Self-Reflection and Cross-Model Verification",
+          "authors": "Xixian Wu, Yang Ou, Pengchao Tian, Zian Yang, Jielei Zhang, Peiyi Li, Longwen Gao",
+          "link": "https://arxiv.org/pdf/2512.14770",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "GR-Agent: Adaptive Graph Reasoning Agent under Incomplete Knowledge",
+          "authors": "Dongzhuoran Zhou, Yuqicheng Zhu, Xiaxia Wang, Hongkuan Zhou, Jiaoyan Chen, Steffen Staab, Yuan He, Evgeny Kharlamov",
+          "link": "https://arxiv.org/pdf/2512.14766",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Privacy-Preserving Feature Valuation in Vertical Federated Learning Using Shapley-CMI and PSI Permutation",
+          "authors": "Unai Laskurain, Aitor Aguirre-Ortuzar, Urko Zurutuza",
+          "link": "https://arxiv.org/pdf/2512.14767",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Incentives or Ontology? A Structural Rebuttal to OpenAI's Hallucination Thesis",
+          "authors": "Richard Ackermann, Simeon Emanuilov",
+          "link": "https://arxiv.org/pdf/2512.14801",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "IaC Generation with LLMs: An Error Taxonomy and A Study on Configuration Knowledge Injection",
+          "authors": "Roman Nekrasov, Stefano Fossati, Indika Kumara, Damian Andrew Tamburri, Willem-Jan van den Heuvel",
+          "link": "https://arxiv.org/pdf/2512.14792",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Sharing State Between Prompts and Programs",
+          "authors": "Ellie Y. Cheng, Logan Weber, Tian Jin, Michael Carbin",
+          "link": "https://arxiv.org/pdf/2512.14805",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Let the Barbarians In: How AI Can Accelerate Systems Performance Research",
+          "authors": "Audrey Cheng, Shu Liu, Melissa Pan, Zhifei Li, Shubham Agarwal, Mert Cemri, Bowen Wang, Alexander Krentsel, Tian Xia, Jongseok Park, Shuo Yang, Jeff Chen, Lakshya Agrawal, Ashwin Naren, Shulu Li, Ruiying Ma, Aditya Desai, Jiarong Xing, Koushik Sen, Matei Zaharia, Ion Stoica",
+          "link": "https://arxiv.org/pdf/2512.14806",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "MALCDF: A Distributed Multi-Agent LLM Framework for Real-Time Cyber",
+          "authors": "Arth Bhardwaj, Sia Godika, Yuvam Loonker",
+          "link": "https://arxiv.org/pdf/2512.14846",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Penetration Testing of Agentic AI: A Comparative Security Analysis Across Models and Frameworks",
+          "authors": "Viet K. Nguyen, Mohammad I. Husain",
+          "link": "https://arxiv.org/pdf/2512.14860",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "A Roadmap for Applying Graph Neural Networks to Numerical Data: Insights from Cementitious Materials",
+          "authors": "Mahmuda Sharmin, Taihao Han, Jie Huang, Narayanan Neithalath, Gaurav Sant, Aditya Kumar",
+          "link": "https://arxiv.org/pdf/2512.14855",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Entropy-Reservoir Bregman Projection: An Information-Geometric Unification of Model Collapse",
+          "authors": "Jingwei Chen",
+          "link": "https://arxiv.org/pdf/2512.14879",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "OLR-WA: Online Weighted Average Linear Regression in Multivariate Data Streams",
+          "authors": "Mohammad Abu-Shaira, Alejandro Rodriguez, Greg Speegle, Victor Sheng, Ishfaq Ahmad",
+          "link": "https://arxiv.org/pdf/2512.14892",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Integrating Large Language Models and Knowledge Graphs to Capture Political Viewpoints in News Media",
+          "authors": "Massimiliano Fadda, Enrico Motta, Francesco Osborne, Diego Reforgiato Recupero, Angelo Salatino",
+          "link": "https://arxiv.org/pdf/2512.14887",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "DrugRAG: Enhancing Pharmacy LLM Performance Through A Novel Retrieval-Augmented Generation Pipeline",
+          "authors": "Houman Kazemzadeh, Kiarash Mokhtari Dizaji, Seyed Reza Tavakoli, Farbod Davoodi, MohammadReza KarimiNejad, Parham Abed Azad, Ali Sabzi, Armin Khosravi, Siavash Ahmadi, Mohammad Hossein Rohban, Glolamali Aminian, Tahereh Javaheri",
+          "link": "https://arxiv.org/pdf/2512.14896",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "AgroAskAI: A Multi-Agentic AI Framework for Supporting Smallholder Farmers' Enquiries Globally",
+          "authors": "Nadine Angela Cantonjos, Arpita Biswas",
+          "link": "https://arxiv.org/pdf/2512.14910",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Imitation Learning for Multi-turn LM Agents via On-policy Expert Corrections",
+          "authors": "Niklas Lauffer, Xiang Deng, Srivatsa Kundurthy, Brad Kenstler, Jeff Da",
+          "link": "https://arxiv.org/pdf/2512.14895",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Parameter Efficient Multimodal Instruction Tuning for Romanian Vision Language Models",
+          "authors": "George-Andrei Dima, Dumitru-Clementin Cercel",
+          "link": "https://arxiv.org/pdf/2512.14926",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Improving Pre-trained Segmentation Models using Post-Processing",
+          "authors": "Abhijeet Parida, Daniel Capellán-Martín, Zhifan Jiang, Nishad Kulkarni, Krithika Iyer, Austin Tapp, Syed Muhammad Anwar, María J. Ledesma-Carbayo, Marius George Linguraru",
+          "link": "https://arxiv.org/pdf/2512.14937",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "TalkVerse: Democratizing Minute-Long Audio-Driven Video Generation",
+          "authors": "Zhenzhi Wang, Jian Wang, Ke Ma, Dahua Lin, Bing Zhou",
+          "link": "https://arxiv.org/pdf/2512.14938",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "EVICPRESS: Joint KV-Cache Compression and Eviction for Efficient LLM Serving",
+          "authors": "Shaoting Feng, Yuhan Liu, Hanchen Li, Xiaokun Chen, Samuel Shen, Kuntai Du, Zhuohan Gu, Rui Zhang, Yuyang Huang, Yihua Cheng, Jiayi Yao, Qizheng Zhang, Ganesh Ananthanarayanan, Junchen Jiang",
+          "link": "https://arxiv.org/pdf/2512.14946",
+          "day": "2025-12-18",
+          "thumbnail": null
+        }
+      ]
+    },
+    {
+      "label": "cs.CE",
+      "slug": "csce",
+      "week": "20251215-20251221",
+      "items": [
+        {
+          "title": "A Roadmap for Applying Graph Neural Networks to Numerical Data: Insights from Cementitious Materials",
+          "authors": "Mahmuda Sharmin, Taihao Han, Jie Huang, Narayanan Neithalath, Gaurav Sant, Aditya Kumar",
+          "link": "https://arxiv.org/pdf/2512.14855",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Neural Modular Physics for Elastic Simulation",
+          "authors": "Yifei Li, Haixu Wu, Zeyi Xu, Tuur Stuyck, Wojciech Matusik",
+          "link": "https://arxiv.org/pdf/2512.15083",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "HD-Prot: A Protein Language Model for Joint Sequence-Structure Modeling with Continuous Structure Tokens",
+          "authors": "Yi Zhou, Haohao Qu, Yunqing Liu, Shanru Lin, Le Song, Wenqi Fan",
+          "link": "https://arxiv.org/pdf/2512.15133",
+          "day": "2025-12-18",
+          "thumbnail": null
+        }
+      ]
+    },
+    {
+      "label": "cs.CL",
+      "slug": "cscl",
+      "week": "20251215-20251221",
+      "items": [
+        {
+          "title": "LLM as a Neural Architect: Controlled Generation of Image Captioning Models Under Strict API Contracts",
+          "authors": "Krunal Jesani, Dmitry Ignatov, Radu Timofte",
+          "link": "https://arxiv.org/pdf/2512.14706",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "SepsisSuite: Beyond Risk Stratification -- A Comparative Analysis of Deep Fusion vs. Expert Stacking for Prescriptive Sepsis AI",
+          "authors": "Ryan Cartularo",
+          "link": "https://arxiv.org/pdf/2512.14712",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "SoMe: A Realistic Benchmark for LLM-based Social Media Agents",
+          "authors": "Dizhan Xue, Jing Cui, Shengsheng Qian, Chuanrui Hu, Changsheng Xu",
+          "link": "https://arxiv.org/pdf/2512.14720",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "NoveltyRank: Estimating Conceptual Novelty of AI Papers",
+          "authors": "Zhengxu Yan, Han Li, Yuming Feng",
+          "link": "https://arxiv.org/pdf/2512.14738",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Revisiting the Reliability of Language Models in Instruction-Following",
+          "authors": "Jianshuo Dong, Yutong Zhang, Yan Liu, Zhenyu Zhong, Tao Wei, Chao Zhang, Han Qiu",
+          "link": "https://arxiv.org/pdf/2512.14754",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Incentives or Ontology? A Structural Rebuttal to OpenAI's Hallucination Thesis",
+          "authors": "Richard Ackermann, Simeon Emanuilov",
+          "link": "https://arxiv.org/pdf/2512.14801",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Audio MultiChallenge: A Multi-Turn Evaluation of Spoken Dialogue Systems on Natural Human Interaction",
+          "authors": "Advait Gosai, Tyler Vuong, Utkarsh Tyagi, Steven Li, Wenjia You, Miheer Bavare, Arda Uçar, Zhongwang Fang, Brian Jang, Bing Liu, Yunzhong He",
+          "link": "https://arxiv.org/pdf/2512.14865",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Task Matrices: Linear Maps for Cross-Model Finetuning Transfer",
+          "authors": "Darrin O' Brien, Dhikshith Gajulapalli, Eric Xia",
+          "link": "https://arxiv.org/pdf/2512.14880",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Integrating Large Language Models and Knowledge Graphs to Capture Political Viewpoints in News Media",
+          "authors": "Massimiliano Fadda, Enrico Motta, Francesco Osborne, Diego Reforgiato Recupero, Angelo Salatino",
+          "link": "https://arxiv.org/pdf/2512.14887",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "DrugRAG: Enhancing Pharmacy LLM Performance Through A Novel Retrieval-Augmented Generation Pipeline",
+          "authors": "Houman Kazemzadeh, Kiarash Mokhtari Dizaji, Seyed Reza Tavakoli, Farbod Davoodi, MohammadReza KarimiNejad, Parham Abed Azad, Ali Sabzi, Armin Khosravi, Siavash Ahmadi, Mohammad Hossein Rohban, Glolamali Aminian, Tahereh Javaheri",
+          "link": "https://arxiv.org/pdf/2512.14896",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Parameter Efficient Multimodal Instruction Tuning for Romanian Vision Language Models",
+          "authors": "George-Andrei Dima, Dumitru-Clementin Cercel",
+          "link": "https://arxiv.org/pdf/2512.14926",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Cross-Tokenizer Likelihood Scoring Algorithms for Language Model Distillation",
+          "authors": "Buu Phan, Ashish Khisti, Karen Ullrich",
+          "link": "https://arxiv.org/pdf/2512.14954",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Prompt Repetition Improves Non-Reasoning LLMs",
+          "authors": "Yaniv Leviathan, Matan Kalman, Yossi Matias",
+          "link": "https://arxiv.org/pdf/2512.14982",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Evaluating Large Language Models on Multimodal Chemistry Olympiad Exams",
+          "authors": "Yiming Cui, Xin Yao, Yuxuan Qin, Xin Li, Shijin Wang, Guoping Hu",
+          "link": "https://arxiv.org/pdf/2512.14989",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "DreamPRM-Code: Function-as-Step Process Reward Model with Label Correction for LLM Coding",
+          "authors": "Ruiyi Zhang, Peijia Qin, Qi Cao, Pengtao Xie",
+          "link": "https://arxiv.org/pdf/2512.15000",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "HERO: Hierarchical Traversable 3D Scene Graphs for Embodied Navigation Among Movable Obstacles",
+          "authors": "Yunheng Wang, Yixiao Feng, Yuetong Fang, Shuning Zhang, Tan Jing, Jian Li, Xiangrui Jiang, Renjing Xu",
+          "link": "https://arxiv.org/pdf/2512.15047",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "The Meta-Prompting Protocol: Orchestrating LLMs via Adversarial Feedback Loops",
+          "authors": "Fanzhe Fu",
+          "link": "https://arxiv.org/pdf/2512.15053",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "SGM: Safety Glasses for Multimodal Large Language Models via Neuron-Level Detoxification",
+          "authors": "Hongbo Wang, MaungMaung AprilPyone, Isao Echizen",
+          "link": "https://arxiv.org/pdf/2512.15052",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "The Semantic Illusion: Certified Limits of Embedding-Based Hallucination Detection in RAG Systems",
+          "authors": "Debu Sinha",
+          "link": "https://arxiv.org/pdf/2512.15068",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Quantifying Return on Security Controls in LLM Systems",
+          "authors": "Richard Helder Moulton, Austin O'Brien, John D. Hastings",
+          "link": "https://arxiv.org/pdf/2512.15081",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "From Isolation to Entanglement: When Do Interpretability Methods Identify and Disentangle Known Concepts?",
+          "authors": "Aaron Mueller, Andrew Lee, Shruti Joshi, Ekdeep Singh Lubana, Dhanya Sridhar, Patrik Reizinger",
+          "link": "https://arxiv.org/pdf/2512.15134",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "MCP-SafetyBench: A Benchmark for Safety Evaluation of Large Language Models with Real-World MCP Servers",
+          "authors": "Xuanjun Zong, Zhiqi Shen, Lei Wang, Yunshi Lan, Chao Yang",
+          "link": "https://arxiv.org/pdf/2512.15163",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "RFKG-CoT: Relation-Driven Adaptive Hop-count Selection and Few-Shot Path Guidance for Knowledge-Aware QA",
+          "authors": "Chao Zhang, Minghan Li, Tianrui Lv, Guodong Zhou",
+          "link": "https://arxiv.org/pdf/2512.15219",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Yes-MT's Submission to the Low-Resource Indic Language Translation Shared Task in WMT 2024",
+          "authors": "Yash Bhaskar, Parameswari Krishnamurthy",
+          "link": "https://arxiv.org/pdf/2512.15226",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Well Begun, Half Done: Reinforcement Learning with Prefix Optimization for LLM Reasoning",
+          "authors": "Yiliu Sun, Zicheng Zhao, Yang Wei, Yanfang Zhang, Chen Gong",
+          "link": "https://arxiv.org/pdf/2512.15274",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "ChatGPT and Gemini participated in the Korean College Scholastic Ability Test -- Earth Science I",
+          "authors": "Seok-Hyun Ga, Chun-Yen Chang",
+          "link": "https://arxiv.org/pdf/2512.15298",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Evaluating LLMs for Zeolite Synthesis Event Extraction (ZSEE): A Systematic Analysis of Prompting Strategies",
+          "authors": "Charan Prakash Rathore, Saumi Ray, Dhruv Kumar",
+          "link": "https://arxiv.org/pdf/2512.15312",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Adversarial versification in portuguese as a jailbreak operator in LLMs",
+          "authors": "Joao Queiroz",
+          "link": "https://arxiv.org/pdf/2512.15353",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Emotion Recognition in Signers",
+          "authors": "Kotaro Funakoshi, Yaoxiong Zhu",
+          "link": "https://arxiv.org/pdf/2512.15376",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Tracking Temporal Dynamics of Vector Sets with Gaussian Process",
+          "authors": "Taichi Aida, Mamoru Komachi, Toshinobu Ogiso, Hiroya Takamura, Daichi Mochihashi",
+          "link": "https://arxiv.org/pdf/2512.15538",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Evaluating Metrics for Safety with LLM-as-Judges",
+          "authors": "Kester Clegg, Richard Hawkins, Ibrahim Habli, Tom Lawton",
+          "link": "https://arxiv.org/pdf/2512.15617",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "How Much is Too Much? Exploring LoRA Rank Trade-offs for Retaining Knowledge and Domain Robustness",
+          "authors": "Darshita Rathore, Vineet Kumar, Chetna Bansal, Anindya Moitra",
+          "link": "https://arxiv.org/pdf/2512.15634",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "PPSEBM: An Energy-Based Model with Progressive Parameter Selection for Continual Learning",
+          "authors": "Xiaodi Li, Dingcheng Li, Rujun Gao, Mahmoud Zamani, Feng Mi, Latifur Khan",
+          "link": "https://arxiv.org/pdf/2512.15658",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Explaining the Reasoning of Large Language Models Using Attribution Graphs",
+          "authors": "Chase Walker, Rickard Ewetz",
+          "link": "https://arxiv.org/pdf/2512.15663",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "VTCBench: Can Vision-Language Models Understand Long Context with Vision-Text Compression?",
+          "authors": "Hongbo Zhao, Meng Wang, Fei Zhu, Wenzhuo Liu, Bolin Ni, Fanhu Zeng, Gaofeng Meng, Zhaoxiang Zhang",
+          "link": "https://arxiv.org/pdf/2512.15649",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Activation Oracles: Training and Evaluating LLMs as General-Purpose Activation Explainers",
+          "authors": "Adam Karvonen, James Chua, Clément Dumas, Kit Fraser-Taliente, Subhash Kantamneni, Julian Minder, Euan Ong, Arnab Sen Sharma, Daniel Wen, Owain Evans, Samuel Marks",
+          "link": "https://arxiv.org/pdf/2512.15674",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Predictive Concept Decoders: Training Scalable End-to-End Interpretability Assistants",
+          "authors": "Vincent Huang, Dami Choi, Daniel D. Johnson, Sarah Schwettmann, Jacob Steinhardt",
+          "link": "https://arxiv.org/pdf/2512.15712",
+          "day": "2025-12-18",
+          "thumbnail": null
+        }
+      ]
+    },
+    {
+      "label": "cs.CR",
+      "slug": "cscr",
+      "week": "20251215-20251221",
+      "items": [
+        {
+          "title": "Zero-Knowledge Audit for Internet of Agents: Privacy-Preserving Communication Verification with Model Context Protocol",
+          "authors": "Guanlin Jing, Huayi Qi",
+          "link": "https://arxiv.org/pdf/2512.14737",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Quantum-Augmented AI/ML for O-RAN: Hierarchical Threat Detection with Synergistic Intelligence and Interpretability (Technical Report)",
+          "authors": "Tan Le, Van Le, Sachin Shetty",
+          "link": "https://arxiv.org/pdf/2512.14742",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Persistent Backdoor Attacks under Continual Fine-Tuning of LLMs",
+          "authors": "Jing Cui, Yufei Han, Jianbin Jiao, Junge Zhang",
+          "link": "https://arxiv.org/pdf/2512.14741",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Factor(U,T): Controlling Untrusted AI by Monitoring their Plans",
+          "authors": "Edward Lue Chee Lip, Anthony Channg, Diana Kim, Aaron Sandoval, Kevin Zhu",
+          "link": "https://arxiv.org/pdf/2512.14745",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "CODE ACROSTIC: Robust Watermarking for Code Generation",
+          "authors": "Li Lin, Siyuan Xin, Yang Cao, Xiaochun Cao",
+          "link": "https://arxiv.org/pdf/2512.14753",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "One Leak Away: How Pretrained Model Exposure Amplifies Jailbreak Risks in Finetuned LLMs",
+          "authors": "Yixin Tan, Zhe Yu, Jun Sakuma",
+          "link": "https://arxiv.org/pdf/2512.14751",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Privacy-Preserving Feature Valuation in Vertical Federated Learning Using Shapley-CMI and PSI Permutation",
+          "authors": "Unai Laskurain, Aitor Aguirre-Ortuzar, Urko Zurutuza",
+          "link": "https://arxiv.org/pdf/2512.14767",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "MALCDF: A Distributed Multi-Agent LLM Framework for Real-Time Cyber",
+          "authors": "Arth Bhardwaj, Sia Godika, Yuvam Loonker",
+          "link": "https://arxiv.org/pdf/2512.14846",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Penetration Testing of Agentic AI: A Comparative Security Analysis Across Models and Frameworks",
+          "authors": "Viet K. Nguyen, Mohammad I. Husain",
+          "link": "https://arxiv.org/pdf/2512.14860",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Cloud Security Leveraging AI: A Fusion-Based AISOC for Malware and Log Behaviour Detection",
+          "authors": "Nnamdi Philip Okonkwo, Lubna Luxmi Dhirani",
+          "link": "https://arxiv.org/pdf/2512.14935",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Intrusion Detection in Internet of Vehicles Using Machine Learning",
+          "authors": "Hop Le, Izzat Alsmadi",
+          "link": "https://arxiv.org/pdf/2512.14958",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "SeBERTis: A Framework for Producing Classifiers of Security-Related Issue Reports",
+          "authors": "Sogol Masoumzadeh, Yufei Li, Shane McIntosh, Dániel Varró, Lili Wei",
+          "link": "https://arxiv.org/pdf/2512.15003",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Quantifying Return on Security Controls in LLM Systems",
+          "authors": "Richard Helder Moulton, Austin O'Brien, John D. Hastings",
+          "link": "https://arxiv.org/pdf/2512.15081",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "An Efficient Gradient-Based Inference Attack for Federated Learning",
+          "authors": "Pablo Montaña-Fernández, Ines Ortega-Fernandez",
+          "link": "https://arxiv.org/pdf/2512.15143",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Quantum Machine Learning for Cybersecurity: A Taxonomy and Future Directions",
+          "authors": "Siva Sai, Ishika Goyal, Shubham Sharma, Sri Harshita Manuri, Vinay Chamola, Rajkumar Buyya",
+          "link": "https://arxiv.org/pdf/2512.15286",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Bits for Privacy: Evaluating Post-Training Quantization via Membership Inference",
+          "authors": "Chenxiang Zhang, Tongxi Qu, Zhong Li, Tian Zhang, Jun Pang, Sjouke Mauw",
+          "link": "https://arxiv.org/pdf/2512.15335",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Remotely Detectable Robot Policy Watermarking",
+          "authors": "Michael Amir, Manon Flageat, Amanda Prorok",
+          "link": "https://arxiv.org/pdf/2512.15379",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "How Do Semantically Equivalent Code Transformations Impact Membership Inference on LLMs for Code?",
+          "authors": "Hua Yang, Alejandro Velasco, Thanh Le-Cong, Md Nazmul Haque, Bowen Xu, Denys Poshyvanyk",
+          "link": "https://arxiv.org/pdf/2512.15468",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Attention in Motion: Secure Platooning via Transformer-based Misbehavior Detection",
+          "authors": "Konstantinos Kalogiannis, Ahmed Mohamed Hussain, Hexu Li, Panos Papadimitratos",
+          "link": "https://arxiv.org/pdf/2512.15503",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "BashArena: A Control Setting for Highly Privileged AI Agents",
+          "authors": "Adam Kaufman, James Lucassen, Tyler Tracy, Cody Rushing, Aryan Bhatt",
+          "link": "https://arxiv.org/pdf/2512.15688",
+          "day": "2025-12-18",
+          "thumbnail": null
+        }
+      ]
+    },
+    {
+      "label": "cs.CV",
+      "slug": "cscv",
+      "week": "20251215-20251221",
+      "items": [
+        {
+          "title": "LLM as a Neural Architect: Controlled Generation of Image Captioning Models Under Strict API Contracts",
+          "authors": "Krunal Jesani, Dmitry Ignatov, Radu Timofte",
+          "link": "https://arxiv.org/pdf/2512.14706",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "SepsisSuite: Beyond Risk Stratification -- A Comparative Analysis of Deep Fusion vs. Expert Stacking for Prescriptive Sepsis AI",
+          "authors": "Ryan Cartularo",
+          "link": "https://arxiv.org/pdf/2512.14712",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "INFORM-CT: INtegrating LLMs and VLMs FOR Incidental Findings Management in Abdominal CT",
+          "authors": "Idan Tankel, Nir Mazor, Rafi Brada, Christina LeBedis, Guy ben-Yosef",
+          "link": "https://arxiv.org/pdf/2512.14732",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "SkyCap: Bitemporal VHR Optical-SAR Quartets for Amplitude Change Detection and Foundation-Model Evaluation",
+          "authors": "Paul Weinmann, Ferdinand Schenck, Martin Šiklar",
+          "link": "https://arxiv.org/pdf/2512.14755",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "SocialNav-MoE: A Mixture-of-Experts Vision Language Model for Socially Compliant Navigation with Reinforcement Fine-Tuning",
+          "authors": "Tomohito Kawabata, Xinyu Zhang, Ling Xiao",
+          "link": "https://arxiv.org/pdf/2512.14757",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "The Renaissance of Expert Systems: Optical Recognition of Printed Chinese Jianpu Musical Scores with Lyrics",
+          "authors": "Fan Bu, Rongfeng Li, Zijin Li, Ya Li, Linfeng Fan, Pei Huang",
+          "link": "https://arxiv.org/pdf/2512.14758",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "AquaDiff: Diffusion-Based Underwater Image Enhancement for Addressing Color Distortion",
+          "authors": "Afrah Shaahid, Muzammil Behzad",
+          "link": "https://arxiv.org/pdf/2512.14760",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Improving VQA Reliability: A Dual-Assessment Approach with Self-Reflection and Cross-Model Verification",
+          "authors": "Xixian Wu, Yang Ou, Pengchao Tian, Zian Yang, Jielei Zhang, Peiyi Li, Longwen Gao",
+          "link": "https://arxiv.org/pdf/2512.14770",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "HERBench: A Benchmark for Multi-Evidence Integration in Video Question Answering",
+          "authors": "Dan Ben-Ami, Gabriele Serussi, Kobi Cohen, Chaim Baskin",
+          "link": "https://arxiv.org/pdf/2512.14870",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Isolated Sign Language Recognition with Segmentation and Pose Estimation",
+          "authors": "Daniel Perkins, Davis Hunter, Dhrumil Patel, Galen Flanagan",
+          "link": "https://arxiv.org/pdf/2512.14876",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Visual-textual Dermatoglyphic Animal Biometrics: A First Case Study on Panthera tigris",
+          "authors": "Wenshuo Li, Majid Mirmehdi, Tilo Burghardt",
+          "link": "https://arxiv.org/pdf/2512.14878",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Task Matrices: Linear Maps for Cross-Model Finetuning Transfer",
+          "authors": "Darrin O' Brien, Dhikshith Gajulapalli, Eric Xia",
+          "link": "https://arxiv.org/pdf/2512.14880",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Vibe Spaces for Creatively Connecting and Expressing Visual Concepts",
+          "authors": "Huzheng Yang, Katherine Xu, Andrew Lu, Michael D. Grossberg, Yutong Bai, Jianbo Shi",
+          "link": "https://arxiv.org/pdf/2512.14884",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "PANDA-PLUS-Bench: A Clinical Benchmark for Evaluating Robustness of AI Foundation Models in Prostate Cancer Diagnosis",
+          "authors": "Joshua L. Ebbert, Dennis Della Corte",
+          "link": "https://arxiv.org/pdf/2512.14922",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Improving Pre-trained Segmentation Models using Post-Processing",
+          "authors": "Abhijeet Parida, Daniel Capellán-Martín, Zhifan Jiang, Nishad Kulkarni, Krithika Iyer, Austin Tapp, Syed Muhammad Anwar, María J. Ledesma-Carbayo, Marius George Linguraru",
+          "link": "https://arxiv.org/pdf/2512.14937",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "TalkVerse: Democratizing Minute-Long Audio-Driven Video Generation",
+          "authors": "Zhenzhi Wang, Jian Wang, Ke Ma, Dahua Lin, Bing Zhou",
+          "link": "https://arxiv.org/pdf/2512.14938",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Puzzle Curriculum GRPO for Vision-Centric Reasoning",
+          "authors": "Ahmadreza Jeddi, Hakki Can Karaimer, Hue Nguyen, Zhongling Wang, Ke Zhao, Javad Rajabi, Ran Zhang, Raghav Goyal, Babak Taati, Radek Grzeszczuk",
+          "link": "https://arxiv.org/pdf/2512.14944",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Adaptive Multimodal Person Recognition: A Robust Framework for Handling Missing Modalities",
+          "authors": "Aref Farhadipour, Teodora Vukovic, Volker Dellwo, Petr Motlicek, Srikanth Madikeri",
+          "link": "https://arxiv.org/pdf/2512.14961",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Evaluating Large Language Models on Multimodal Chemistry Olympiad Exams",
+          "authors": "Yiming Cui, Xin Yao, Yuxuan Qin, Xin Li, Shijin Wang, Guoping Hu",
+          "link": "https://arxiv.org/pdf/2512.14989",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Where is the Watermark? Interpretable Watermark Detection at the Block Level",
+          "authors": "Maria Bulychev, Neil G. Marchant, Benjamin I. P. Rubinstein",
+          "link": "https://arxiv.org/pdf/2512.14994",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Beyond Proximity: A Keypoint-Trajectory Framework for Classifying Affiliative and Agonistic Social Networks in Dairy Cattle",
+          "authors": "Sibi Parivendan, Kashfia Sailunaz, Suresh Neethirajan",
+          "link": "https://arxiv.org/pdf/2512.14998",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Evaluating the Capability of Video Question Generation for Expert Knowledge Elicitation",
+          "authors": "Huaying Zhang, Atsushi Hashimoto, Tosho Hirasawa",
+          "link": "https://arxiv.org/pdf/2512.15006",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Model Agnostic Preference Optimization for Medical Image Segmentation",
+          "authors": "Yunseong Nam, Jiwon Jang, Dongkyu Won, Sang Hyun Park, Soopil Kim",
+          "link": "https://arxiv.org/pdf/2512.15009",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "HERO: Hierarchical Traversable 3D Scene Graphs for Embodied Navigation Among Movable Obstacles",
+          "authors": "Yunheng Wang, Yixiao Feng, Yuetong Fang, Shuning Zhang, Tan Jing, Jian Li, Xiangrui Jiang, Renjing Xu",
+          "link": "https://arxiv.org/pdf/2512.15047",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "MVGSR: Multi-View Consistent 3D Gaussian Super-Resolution via Epipolar Guidance",
+          "authors": "Kaizhe Zhang, Shinan Chen, Qian Zhao, Weizhan Zhang, Caixia Yan, Yudeng Xin",
+          "link": "https://arxiv.org/pdf/2512.15048",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Asynchronous Event Stream Noise Filtering for High-frequency Structure Deformation Measurement",
+          "authors": "Yifei Bian, Banglei Guan, Zibin Liu, Ang Su, Shiyao Zhu, Yang Shang, Qifeng Yu",
+          "link": "https://arxiv.org/pdf/2512.15055",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Tracking spatial temporal details in ultrasound long video via wavelet analysis and memory bank",
+          "authors": "Chenxiao Zhang, Runshi Zhang, Junchen Wang",
+          "link": "https://arxiv.org/pdf/2512.15066",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "PMMD: A pose-guided multi-view multi-modal diffusion for person generation",
+          "authors": "Ziyu Shang, Haoran Liu, Rongchao Zhang, Zhiqian Wei, Tongtong Feng",
+          "link": "https://arxiv.org/pdf/2512.15069",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Uni-Parser Technical Report",
+          "authors": "Xi Fang, Haoyi Tao, Shuwen Yang, Suyang Zhong, Haocheng Lu, Han Lyu, Chaozheng Huang, Xinyu Li, Linfeng Zhang, Guolin Ke",
+          "link": "https://arxiv.org/pdf/2512.15098",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Is Nano Banana Pro a Low-Level Vision All-Rounder? A Comprehensive Evaluation on 14 Tasks and 40 Datasets",
+          "authors": "Jialong Zuo, Haoyou Deng, Hanyu Zhou, Jiaxin Zhu, Yicheng Zhang, Yiwei Zhang, Yongxin Yan, Kaixing Huang, Weisen Chen, Yongtai Deng, Rui Jin, Nong Sang, Changxin Gao",
+          "link": "https://arxiv.org/pdf/2512.15110",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "BEV-Patch-PF: Particle Filtering with BEV-Aerial Feature Matching for Off-Road Geo-Localization",
+          "authors": "Dongmyeong Lee, Jesse Quattrociocchi, Christian Ellis, Rwik Rana, Amanda Adkins, Adam Uccello, Garrett Warnell, Joydeep Biswas",
+          "link": "https://arxiv.org/pdf/2512.15111",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "3DProxyImg: Controllable 3D-Aware Animation Synthesis from Single Image via 2D-3D Aligned Proxy Embedding",
+          "authors": "Yupeng Zhu, Xiongzhen Zhang, Ye Chen, Bingbing Ni",
+          "link": "https://arxiv.org/pdf/2512.15126",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Borrowing from anything: A generalizable framework for reference-guided instance editing",
+          "authors": "Shengxiao Zhou, Chenghua Li, Jianhao Huang, Qinghao Hu, Yifan Zhang",
+          "link": "https://arxiv.org/pdf/2512.15138",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Explainable Action Form Assessment by Exploiting Multimodal Chain-of-Thoughts Reasoning",
+          "authors": "Mengshi Qi, Yeteng Wu, Xianlin Zhang, Huadong Ma",
+          "link": "https://arxiv.org/pdf/2512.15153",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "EagleVision: A Dual-Stage Framework with BEV-grounding-based Chain-of-Thought for Spatial Intelligence",
+          "authors": "Jiaxu Wan, Xu Wang, Mengwei Xie, Hang Zhang, Mu Xu, Yang Han, Hong Zhang, Ding Yuan, Yifan Yang",
+          "link": "https://arxiv.org/pdf/2512.15160",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Criticality Metrics for Relevance Classification in Safety Evaluation of Object Detection in Automated Driving",
+          "authors": "Jörg Gamerdinger, Sven Teufel, Stephan Amann, Oliver Bringmann",
+          "link": "https://arxiv.org/pdf/2512.15181",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Cross-modal ultra-scale learning with tri-modalities of renal biopsy images for glomerular multi-disease auxiliary diagnosis",
+          "authors": "Kaixing Long, Danyi Weng, Yun Mi, Zhentai Zhang, Yanmeng Lu, Jian Geng, Zhitao Zhou, Liming Zhong, Qianjin Feng, Wei Yang, Lei Cao",
+          "link": "https://arxiv.org/pdf/2512.15171",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Robust and Calibrated Detection of Authentic Multimedia Content",
+          "authors": "Sarim Hashmi, Abdelrahman Elsayed, Mohammed Talha Alam, Samuele Poppi, Nils Lukas",
+          "link": "https://arxiv.org/pdf/2512.15182",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "ERIENet: An Efficient RAW Image Enhancement Network under Low-Light Environment",
+          "authors": "Jianan Wang, Yang Hong, Hesong Li, Tao Wang, Songrong Liu, Ying Fu",
+          "link": "https://arxiv.org/pdf/2512.15186",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "EPSM: A Novel Metric to Evaluate the Safety of Environmental Perception in Autonomous Driving",
+          "authors": "Jörg Gamerdinger, Sven Teufel, Stephan Amann, Lukas Marc Listl, Oliver Bringmann",
+          "link": "https://arxiv.org/pdf/2512.15195",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "From Camera to World: A Plug-and-Play Module for Human Mesh Transformation",
+          "authors": "Changhai Ma, Ziyu Wu, Yunkang Zhang, Qijun Ying, Boyan Liu, Xiaohui Cai",
+          "link": "https://arxiv.org/pdf/2512.15212",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "TBC: A Target-Background Contrast Metric for Low-Altitude Infrared and Visible Image Fusion",
+          "authors": "Yufeng Xie",
+          "link": "https://arxiv.org/pdf/2512.15211",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "SLCFormer: Spectral-Local Context Transformer with Physics-Grounded Flare Synthesis for Nighttime Flare Removal",
+          "authors": "Xiyu Zhu, Wei Wang, Xin Yuan, Xiao Wang",
+          "link": "https://arxiv.org/pdf/2512.15221",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Null-LoRA: Low-Rank Adaptation on Null Space",
+          "authors": "Yi Zhang, Yulei Kang, Haoxuan Chen, Jinxuan Li, ian-Fang Hu",
+          "link": "https://arxiv.org/pdf/2512.15233",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Assessing the Visual Enumeration Abilities of Specialized Counting Architectures and Vision-Language Models",
+          "authors": "Kuinan Hou, Jing Mi, Marco Zorzi, Lamberto Ballan, Alberto Testolin",
+          "link": "https://arxiv.org/pdf/2512.15254",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Intersectional Fairness in Vision-Language Models for Medical Image Disease Classification",
+          "authors": "Yupeng Zhang, Adam G. Dunn, Usman Naseem, Jinman Kim",
+          "link": "https://arxiv.org/pdf/2512.15249",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "MMMamba: A Versatile Cross-Modal In Context Fusion Framework for Pan-Sharpening and Zero-Shot Image Enhancement",
+          "authors": "Yingying Wang, Xuanhua He, Chen Wu, Jialing Huang, Suiyun Zhang, Rui Liu, Xinghao Ding, Haoxuan Che",
+          "link": "https://arxiv.org/pdf/2512.15261",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "KD360-VoxelBEV: LiDAR and 360-degree Camera Cross Modality Knowledge Distillation for Bird's-Eye-View Segmentation",
+          "authors": "Wenke E, Yixin Sun, Jiaxu Liu, Hubert P. H. Shum, Amir Atapour-Abarghouei, Toby P. Breckon",
+          "link": "https://arxiv.org/pdf/2512.15311",
+          "day": "2025-12-18",
+          "thumbnail": null
+        }
+      ]
+    },
+    {
+      "label": "cs.CY",
+      "slug": "cscy",
+      "week": "20251215-20251221",
+      "items": [
+        {
+          "title": "SepsisSuite: Beyond Risk Stratification -- A Comparative Analysis of Deep Fusion vs. Expert Stacking for Prescriptive Sepsis AI",
+          "authors": "Ryan Cartularo",
+          "link": "https://arxiv.org/pdf/2512.14712",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "AgroAskAI: A Multi-Agentic AI Framework for Supporting Smallholder Farmers' Enquiries Globally",
+          "authors": "Nadine Angela Cantonjos, Arpita Biswas",
+          "link": "https://arxiv.org/pdf/2512.14910",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Epistemic diversity across language models mitigates knowledge collapse",
+          "authors": "Damian Hodel, Jevin D. West",
+          "link": "https://arxiv.org/pdf/2512.15011",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Governing rapid technological change: Policy Delphi on the future of European AI governance",
+          "authors": "Atte Ojanen, Johannes Anttila, Thilo H. K. Thelitz, Anna Bjork",
+          "link": "https://arxiv.org/pdf/2512.15196",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "ChatGPT and Gemini participated in the Korean College Scholastic Ability Test -- Earth Science I",
+          "authors": "Seok-Hyun Ga, Chun-Yen Chang",
+          "link": "https://arxiv.org/pdf/2512.15298",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Exploring User Acceptance and Concerns toward LLM-powered Conversational Agents in Immersive Extended Reality",
+          "authors": "Efe Bozkir, Enkelejda Kasneci",
+          "link": "https://arxiv.org/pdf/2512.15343",
+          "day": "2025-12-18",
+          "thumbnail": null
+        }
+      ]
+    },
+    {
+      "label": "cs.DB",
+      "slug": "csdb",
+      "week": "20251215-20251221",
+      "items": [
+        {
+          "title": "Graph Pattern-based Association Rules Evaluated Under No-repeated-anything Semantics in the Graph Transactional Setting",
+          "authors": "Basil Ell",
+          "link": "https://arxiv.org/pdf/2512.15308",
+          "day": "2025-12-18",
+          "thumbnail": null
+        }
+      ]
+    },
+    {
+      "label": "cs.DC",
+      "slug": "csdc",
+      "week": "20251215-20251221",
+      "items": [
+        {
+          "title": "Privacy-Preserving Feature Valuation in Vertical Federated Learning Using Shapley-CMI and PSI Permutation",
+          "authors": "Unai Laskurain, Aitor Aguirre-Ortuzar, Urko Zurutuza",
+          "link": "https://arxiv.org/pdf/2512.14767",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "LLMQ: Efficient Lower-Precision Pretraining for Consumer GPUs",
+          "authors": "Erik Schultheis, Dan Alistarh",
+          "link": "https://arxiv.org/pdf/2512.15306",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Dynamic Rebatching for Efficient Early-Exit Inference with DREX",
+          "authors": "Xuting Liu, Daniel Alexander, Siva Kesava Reddy Kakarla, Behnaz Arzani, Vincent Liu",
+          "link": "https://arxiv.org/pdf/2512.15705",
+          "day": "2025-12-18",
+          "thumbnail": null
+        }
+      ]
+    },
+    {
+      "label": "cs.DS",
+      "slug": "csds",
+      "week": "20251215-20251221",
+      "items": [
+        {
+          "title": "Label-consistent clustering for evolving data",
+          "authors": "Ameet Gadekar, Aristides Gionis, Thibault Marette",
+          "link": "https://arxiv.org/pdf/2512.15210",
+          "day": "2025-12-18",
+          "thumbnail": null
+        }
+      ]
+    },
+    {
+      "label": "cs.GR",
+      "slug": "csgr",
+      "week": "20251215-20251221",
+      "items": [
+        {
+          "title": "Towards Physically-Based Sky-Modeling For Image Based Lighting",
+          "authors": "Ian J. Maquignaz",
+          "link": "https://arxiv.org/pdf/2512.15632",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Gaussian Pixel Codec Avatars: A Hybrid Representation for Efficient Rendering",
+          "authors": "Divam Gupta, Anuj Pahuja, Nemanja Bartolovic, Tomas Simon, Forrest Iandola, Giljoo Nam",
+          "link": "https://arxiv.org/pdf/2512.15711",
+          "day": "2025-12-18",
+          "thumbnail": null
+        }
+      ]
+    },
+    {
+      "label": "cs.GT",
+      "slug": "csgt",
+      "week": "20251215-20251221",
+      "items": [
+        {
+          "title": "A Decision-Theoretic Approach for Managing Misalignment",
+          "authors": "Daniel A. Herrmann, Abinav Chari, Isabelle Qian, Sree Sharvesh, B. A. Levinstein",
+          "link": "https://arxiv.org/pdf/2512.15584",
+          "day": "2025-12-18",
+          "thumbnail": null
+        }
+      ]
+    },
+    {
+      "label": "cs.HC",
+      "slug": "cshc",
+      "week": "20251215-20251221",
+      "items": [
+        {
+          "title": "I am here for you\": How relational conversational AI appeals to adolescents, especially those who are socially and emotionally vulnerable",
+          "authors": "Pilyoung Kim, Yun Xie, Sujin Yang",
+          "link": "https://arxiv.org/pdf/2512.15117",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Managing Ambiguity: A Proof of Concept of Human-AI Symbiotic Sense-making based on Quantum-Inspired Cognitive Mechanism of Rogue Variable Detection",
+          "authors": "Agnieszka Bienkowska, Jacek Malecki, Alexander Mathiesen-Ohman, Katarzyna Tworek",
+          "link": "https://arxiv.org/pdf/2512.15325",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Exploring User Acceptance and Concerns toward LLM-powered Conversational Agents in Immersive Extended Reality",
+          "authors": "Efe Bozkir, Enkelejda Kasneci",
+          "link": "https://arxiv.org/pdf/2512.15343",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Intent-Driven UAM Rescheduling",
+          "authors": "Jeongseok Kim, Kangjin Kim",
+          "link": "https://arxiv.org/pdf/2512.15462",
+          "day": "2025-12-18",
+          "thumbnail": null
+        }
+      ]
+    },
+    {
+      "label": "cs.IR",
+      "slug": "csir",
+      "week": "20251215-20251221",
+      "items": [
+        {
+          "title": "Where to Explore: A Reach and Cost-Aware Approach for Unbiased Data Collection in Recommender Systems",
+          "authors": "Qiang Chen, Venkatesh Ganapati Hegde",
+          "link": "https://arxiv.org/pdf/2512.14733",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Integrating Large Language Models and Knowledge Graphs to Capture Political Viewpoints in News Media",
+          "authors": "Massimiliano Fadda, Enrico Motta, Francesco Osborne, Diego Reforgiato Recupero, Angelo Salatino",
+          "link": "https://arxiv.org/pdf/2512.14887",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Topological Metric for Unsupervised Embedding Quality Evaluation",
+          "authors": "Aleksei Shestov, Anton Klenitskiy, Daria Denisova, Amurkhan Dzagkoev, Daniil Petrovich, Andrey Savchenko, Maksim Makarenko",
+          "link": "https://arxiv.org/pdf/2512.15285",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Image Complexity-Aware Adaptive Retrieval for Efficient Vision-Language Models",
+          "authors": "Mikel Williams-Lekuona, Georgina Cosma",
+          "link": "https://arxiv.org/pdf/2512.15372",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "BERT and CNN integrated Neural Collaborative Filtering for Recommender Systems",
+          "authors": "Abdullah Al Munem, Sumona Yeasmin, Mohammad Rezwanul Huq",
+          "link": "https://arxiv.org/pdf/2512.15526",
+          "day": "2025-12-18",
+          "thumbnail": null
+        }
+      ]
+    },
+    {
+      "label": "cs.IT",
+      "slug": "csit",
+      "week": "20251215-20251221",
+      "items": [
+        {
+          "title": "Multi-Modal Semantic Communication",
+          "authors": "Matin Mortaheb, Erciyes Karakaya, Sennur Ulukus",
+          "link": "https://arxiv.org/pdf/2512.15691",
+          "day": "2025-12-18",
+          "thumbnail": null
+        }
+      ]
+    },
+    {
+      "label": "cs.LG",
+      "slug": "cslg",
+      "week": "20251215-20251221",
+      "items": [
+        {
+          "title": "Autonomous Source Knowledge Selection in Multi-Domain Adaptation",
+          "authors": "Keqiuyin Li, Jie Lu, Hua Zuo, Guangquan Zhang",
+          "link": "https://arxiv.org/pdf/2512.14710",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "A Bayesian latent class reinforcement learning framework to capture adaptive, feedback-driven travel behaviour",
+          "authors": "Georges Sfeir, Stephane Hess, Thomas O. Hancock, Filipe Rodrigues, Jamal Amani Rad, Michiel Bliemer, Matthew Beck, Fayyaz Khan",
+          "link": "https://arxiv.org/pdf/2512.14713",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "SGEMAS: A Self-Growing Ephemeral Multi-Agent System for Unsupervised Online Anomaly Detection via Entropic Homeostasis",
+          "authors": "Mustapha Hamdi",
+          "link": "https://arxiv.org/pdf/2512.14708",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "The Graph-Embedded Hazard Model (GEHM): Stochastic Network Survival Dynamics on Economic Graphs",
+          "authors": "Diego Vallarino",
+          "link": "https://arxiv.org/pdf/2512.14705",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Improving Underwater Acoustic Classification Through Learnable Gabor Filter Convolution and Attention Mechanisms",
+          "authors": "Lucas Cesar Ferreira Domingos, Russell Brinkworth, Paulo Eduardo Santos, Karl Sammut",
+          "link": "https://arxiv.org/pdf/2512.14714",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "LLM as a Neural Architect: Controlled Generation of Image Captioning Models Under Strict API Contracts",
+          "authors": "Krunal Jesani, Dmitry Ignatov, Radu Timofte",
+          "link": "https://arxiv.org/pdf/2512.14706",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Attention as Binding: A Vector-Symbolic Perspective on Transformer Reasoning",
+          "authors": "Sahil Rajesh Dhayalkar",
+          "link": "https://arxiv.org/pdf/2512.14709",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "SepsisSuite: Beyond Risk Stratification -- A Comparative Analysis of Deep Fusion vs. Expert Stacking for Prescriptive Sepsis AI",
+          "authors": "Ryan Cartularo",
+          "link": "https://arxiv.org/pdf/2512.14712",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Is GPT-OSS All You Need? Benchmarking Large Language Models for Financial Intelligence and the Surprising Efficiency Paradox",
+          "authors": "Ziqian Bi, Danyang Zhang, Junhao Song, Chiung-Yi Tseng",
+          "link": "https://arxiv.org/pdf/2512.14717",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "How a Bit Becomes a Story: Semantic Steering via Differentiable Fault Injection",
+          "authors": "Zafaryab Haider, Md Hafizur Rahman, Shane Moeykens, Vijay Devabhaktuni, Prabuddha Chakraborty",
+          "link": "https://arxiv.org/pdf/2512.14715",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Automatic Extraction of Rules for Generating Synthetic Patient Data From Real-World Population Data Using Glioblastoma as an Example",
+          "authors": "Arno Appenzeller, Nick Terzer, André Hohmeyer, Jan-Philipp Redlich, Sabine Luttmann, Friedrich Feuerhake, Nadine S. Schaadt, Timm Intemann, Sarah Teuber-Hanselmann, Stefan Nikolin, Joachim Weis, Klaus Kraywinkel, Pascal Birnstill",
+          "link": "https://arxiv.org/pdf/2512.14721",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Hybrid Attribution Priors for Explainable and Robust Model Training",
+          "authors": "Zhuoran Zhang, Feng Zhang, Shangyuan Li, Yang Shi, Yuanxing Zhang, Wei Chen, Tengjiao Wang, Kam-Fai Wong",
+          "link": "https://arxiv.org/pdf/2512.14719",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "SEED: Spectral Entropy-Guided Evaluation of SpatialTemporal Dependencies for Multivariate Time Series Forecasting",
+          "authors": "Feng Xiong, Zongxia Xie, Yanru Sun, Haoyu Wang, Jianhong Lin",
+          "link": "https://arxiv.org/pdf/2512.14718",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Generative Urban Flow Modeling: From Geometry to Airflow with Graph Diffusion",
+          "authors": "Francisco Giral, Álvaro Manzano, Ignacio Gómez, Petros Koumoutsakos, Soledad Le Clainche",
+          "link": "https://arxiv.org/pdf/2512.14725",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "HATSolver: Learning Groebner Bases with Hierarchical Attention Transformers",
+          "authors": "Mohamed Malhou, Ludovic Perret, Kristin Lauter",
+          "link": "https://arxiv.org/pdf/2512.14722",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Quantum Decision Transformers (QDT): Synergistic Entanglement and Interference for Offline Reinforcement Learning",
+          "authors": "Abraham Itzhak Weinberg",
+          "link": "https://arxiv.org/pdf/2512.14726",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "A Critical Perspective on Finite Sample Conformal Prediction Theory in Medical Applications",
+          "authors": "Klaus-Rudolf Kladny, Bernhard Schölkopf, Lisa Koch, Christian F. Baumgartner, Michael Muehlebach",
+          "link": "https://arxiv.org/pdf/2512.14727",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "A data-driven approach to inferring travel trajectory during peak hours in urban rail transit systems",
+          "authors": "Jie He, Yong Qin, Jianyuan Guo, Xuan Sun, Xuanchuan Zheng",
+          "link": "https://arxiv.org/pdf/2512.14728",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Inference Time Feature Injection: A Lightweight Approach for Real-Time Recommendation Freshness",
+          "authors": "Qiang Chen, Venkatesh Ganapati Hegde, Hongfei Li",
+          "link": "https://arxiv.org/pdf/2512.14734",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Where to Explore: A Reach and Cost-Aware Approach for Unbiased Data Collection in Recommender Systems",
+          "authors": "Qiang Chen, Venkatesh Ganapati Hegde",
+          "link": "https://arxiv.org/pdf/2512.14733",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "INFORM-CT: INtegrating LLMs and VLMs FOR Incidental Findings Management in Abdominal CT",
+          "authors": "Idan Tankel, Nir Mazor, Rafi Brada, Christina LeBedis, Guy ben-Yosef",
+          "link": "https://arxiv.org/pdf/2512.14732",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Semantic Geometry for policy-constrained interpretation",
+          "authors": "Nikit Phadke",
+          "link": "https://arxiv.org/pdf/2512.14731",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "NoveltyRank: Estimating Conceptual Novelty of AI Papers",
+          "authors": "Zhengxu Yan, Han Li, Yuming Feng",
+          "link": "https://arxiv.org/pdf/2512.14738",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Quantum-Augmented AI/ML for O-RAN: Hierarchical Threat Detection with Synergistic Intelligence and Interpretability (Technical Report)",
+          "authors": "Tan Le, Van Le, Sachin Shetty",
+          "link": "https://arxiv.org/pdf/2512.14742",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Compute the edge p-Laplacian centrality for air traffic network",
+          "authors": "Loc Hoang Tran, Bao Nguyen Tran, Luong Anh Tuan Nguyen",
+          "link": "https://arxiv.org/pdf/2512.14749",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "CAPE: Capability Achievement via Policy Execution",
+          "authors": "David Ball",
+          "link": "https://arxiv.org/pdf/2512.14761",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Guided Discrete Diffusion for Constraint Satisfaction Problems",
+          "authors": "Justin Jung",
+          "link": "https://arxiv.org/pdf/2512.14765",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "GR-Agent: Adaptive Graph Reasoning Agent under Incomplete Knowledge",
+          "authors": "Dongzhuoran Zhou, Yuqicheng Zhu, Xiaxia Wang, Hongkuan Zhou, Jiaoyan Chen, Steffen Staab, Yuan He, Evgeny Kharlamov",
+          "link": "https://arxiv.org/pdf/2512.14766",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Evaluating Weather Forecasts from a Decision Maker's Perspective",
+          "authors": "Kornelius Raeth, Nicole Ludwig",
+          "link": "https://arxiv.org/pdf/2512.14779",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Incentives or Ontology? A Structural Rebuttal to OpenAI's Hallucination Thesis",
+          "authors": "Richard Ackermann, Simeon Emanuilov",
+          "link": "https://arxiv.org/pdf/2512.14801",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Unreliable Uncertainty Estimates with Monte Carlo Dropout",
+          "authors": "Aslak Djupskås, Alexander Johannes Stasik, Signe Riemer-Sørensen",
+          "link": "https://arxiv.org/pdf/2512.14851",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Audio MultiChallenge: A Multi-Turn Evaluation of Spoken Dialogue Systems on Natural Human Interaction",
+          "authors": "Advait Gosai, Tyler Vuong, Utkarsh Tyagi, Steven Li, Wenjia You, Miheer Bavare, Arda Uçar, Zhongwang Fang, Brian Jang, Bing Liu, Yunzhong He",
+          "link": "https://arxiv.org/pdf/2512.14865",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "How Does Fourier Analysis Network Work? A Mechanism Analysis and a New Dual-Activation Layer Proposal",
+          "authors": "Sam Jeong, Hae Yong Kim",
+          "link": "https://arxiv.org/pdf/2512.14873",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Entropy-Reservoir Bregman Projection: An Information-Geometric Unification of Model Collapse",
+          "authors": "Jingwei Chen",
+          "link": "https://arxiv.org/pdf/2512.14879",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Task Matrices: Linear Maps for Cross-Model Finetuning Transfer",
+          "authors": "Darrin O' Brien, Dhikshith Gajulapalli, Eric Xia",
+          "link": "https://arxiv.org/pdf/2512.14880",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "OLR-WA: Online Weighted Average Linear Regression in Multivariate Data Streams",
+          "authors": "Mohammad Abu-Shaira, Alejandro Rodriguez, Greg Speegle, Victor Sheng, Ishfaq Ahmad",
+          "link": "https://arxiv.org/pdf/2512.14892",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "ATLAS: Adaptive Topology-based Learning at Scale for Homophilic and Heterophilic Graphs",
+          "authors": "Turja Kundu, Sanjukta Bhowmick",
+          "link": "https://arxiv.org/pdf/2512.14908",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Imitation Learning for Multi-turn LM Agents via On-policy Expert Corrections",
+          "authors": "Niklas Lauffer, Xiang Deng, Srivatsa Kundurthy, Brad Kenstler, Jeff Da",
+          "link": "https://arxiv.org/pdf/2512.14895",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Parameter Efficient Multimodal Instruction Tuning for Romanian Vision Language Models",
+          "authors": "George-Andrei Dima, Dumitru-Clementin Cercel",
+          "link": "https://arxiv.org/pdf/2512.14926",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Low-rank MMSE filters, Kronecker-product representation, and regularization: a new perspective",
+          "authors": "Daniel Gomes de Pinho Zanco, Leszek Szczecinski, Jacob Benesty, Eduardo Vinicius Kuhn",
+          "link": "https://arxiv.org/pdf/2512.14932",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Cloud Security Leveraging AI: A Fusion-Based AISOC for Malware and Log Behaviour Detection",
+          "authors": "Nnamdi Philip Okonkwo, Lubna Luxmi Dhirani",
+          "link": "https://arxiv.org/pdf/2512.14935",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Boundary condition enforcement with PINNs: a comparative study and verification on 3D geometries",
+          "authors": "Conor Rowan, Kai Hampleman, Kurt Maute, Alireza Doostan",
+          "link": "https://arxiv.org/pdf/2512.14941",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Cross-Tokenizer Likelihood Scoring Algorithms for Language Model Distillation",
+          "authors": "Buu Phan, Ashish Khisti, Karen Ullrich",
+          "link": "https://arxiv.org/pdf/2512.14954",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "EVICPRESS: Joint KV-Cache Compression and Eviction for Efficient LLM Serving",
+          "authors": "Shaoting Feng, Yuhan Liu, Hanchen Li, Xiaokun Chen, Samuel Shen, Kuntai Du, Zhuohan Gu, Rui Zhang, Yuyang Huang, Yihua Cheng, Jiayi Yao, Qizheng Zhang, Ganesh Ananthanarayanan, Junchen Jiang",
+          "link": "https://arxiv.org/pdf/2512.14946",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Intrusion Detection in Internet of Vehicles Using Machine Learning",
+          "authors": "Hop Le, Izzat Alsmadi",
+          "link": "https://arxiv.org/pdf/2512.14958",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Softly Constrained Denoisers for Diffusion Models",
+          "authors": "Victor M. Yeom Song, Severi Rissanen, Arno Solin, Samuel Kaski, Mingfei Sun",
+          "link": "https://arxiv.org/pdf/2512.14980",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Prompt Repetition Improves Non-Reasoning LLMs",
+          "authors": "Yaniv Leviathan, Matan Kalman, Yossi Matias",
+          "link": "https://arxiv.org/pdf/2512.14982",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Deep Learning and Elicitability for McKean-Vlasov FBSDEs With Common Noise",
+          "authors": "Felipe J. P. Antunes, Yuri F. Saporito, Sebastian Jaimungal",
+          "link": "https://arxiv.org/pdf/2512.14967",
+          "day": "2025-12-18",
+          "thumbnail": null
+        }
+      ]
+    },
+    {
+      "label": "cs.MA",
+      "slug": "csma",
+      "week": "20251215-20251221",
+      "items": [
+        {
+          "title": "SGEMAS: A Self-Growing Ephemeral Multi-Agent System for Unsupervised Online Anomaly Detection via Entropic Homeostasis",
+          "authors": "Mustapha Hamdi",
+          "link": "https://arxiv.org/pdf/2512.14708",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Epistemic diversity across language models mitigates knowledge collapse",
+          "authors": "Damian Hodel, Jevin D. West",
+          "link": "https://arxiv.org/pdf/2512.15011",
+          "day": "2025-12-18",
+          "thumbnail": null
+        }
+      ]
+    },
+    {
+      "label": "cs.MM",
+      "slug": "csmm",
+      "week": "20251215-20251221",
+      "items": [
+        {
+          "title": "TalkVerse: Democratizing Minute-Long Audio-Driven Video Generation",
+          "authors": "Zhenzhi Wang, Jian Wang, Ke Ma, Dahua Lin, Bing Zhou",
+          "link": "https://arxiv.org/pdf/2512.14938",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "A Preprocessing Framework for Video Machine Vision under Compression",
+          "authors": "Fei Zhao, Mengxi Guo, Shijie Zhao, Junlin Li, Li Zhang, Xiaodong Xie",
+          "link": "https://arxiv.org/pdf/2512.15331",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Image Complexity-Aware Adaptive Retrieval for Efficient Vision-Language Models",
+          "authors": "Mikel Williams-Lekuona, Georgina Cosma",
+          "link": "https://arxiv.org/pdf/2512.15372",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "VAAS: Vision-Attention Anomaly Scoring for Image Manipulation Detection in Digital Forensics",
+          "authors": "Opeyemi Bamigbade, Mark Scanlon, John Sheppard",
+          "link": "https://arxiv.org/pdf/2512.15512",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Generative Preprocessing for Image Compression with Pre-trained Diffusion Models",
+          "authors": "Mengxi Guo, Shijie Zhao, Junlin Li, Li Zhang",
+          "link": "https://arxiv.org/pdf/2512.15270",
+          "day": "2025-12-18",
+          "thumbnail": null
+        }
+      ]
+    },
+    {
+      "label": "cs.NE",
+      "slug": "csne",
+      "week": "20251215-20251221",
+      "items": [
+        {
+          "title": "SGEMAS: A Self-Growing Ephemeral Multi-Agent System for Unsupervised Online Anomaly Detection via Entropic Homeostasis",
+          "authors": "Mustapha Hamdi",
+          "link": "https://arxiv.org/pdf/2512.14708",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Offline Multi-Task Multi-Objective Data-Driven Evolutionary Algorithm with Language Surrogate Model and Implicit Q-Learning",
+          "authors": "Xian-Rong Zhang, Yue-Jiao Gong, Zeyuan Ma, Jun Zhang",
+          "link": "https://arxiv.org/pdf/2512.15149",
+          "day": "2025-12-18",
+          "thumbnail": null
+        }
+      ]
+    },
+    {
+      "label": "cs.NI",
+      "slug": "csni",
+      "week": "20251215-20251221",
+      "items": [
+        {
+          "title": "Agentic AI for Integrated Sensing and Communication: Analysis, Framework, and Case Study",
+          "authors": "Wenwen Xie, Geng Sun, Ruichen Zhang, Xuejie Liu, Yinqiu Liu, Jiacheng Wang, Dusit Niyato, Ping Zhang",
+          "link": "https://arxiv.org/pdf/2512.15044",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Attention in Motion: Secure Platooning via Transformer-based Misbehavior Detection",
+          "authors": "Konstantinos Kalogiannis, Ahmed Mohamed Hussain, Hexu Li, Panos Papadimitratos",
+          "link": "https://arxiv.org/pdf/2512.15503",
+          "day": "2025-12-18",
+          "thumbnail": null
+        }
+      ]
+    },
+    {
+      "label": "cs.OS",
+      "slug": "csos",
+      "week": "20251215-20251221",
+      "items": [
+        {
+          "title": "EVICPRESS: Joint KV-Cache Compression and Eviction for Efficient LLM Serving",
+          "authors": "Shaoting Feng, Yuhan Liu, Hanchen Li, Xiaokun Chen, Samuel Shen, Kuntai Du, Zhuohan Gu, Rui Zhang, Yuyang Huang, Yihua Cheng, Jiayi Yao, Qizheng Zhang, Ganesh Ananthanarayanan, Junchen Jiang",
+          "link": "https://arxiv.org/pdf/2512.14946",
+          "day": "2025-12-18",
+          "thumbnail": null
+        }
+      ]
+    },
+    {
+      "label": "cs.PL",
+      "slug": "cspl",
+      "week": "20251215-20251221",
+      "items": [
+        {
+          "title": "Sharing State Between Prompts and Programs",
+          "authors": "Ellie Y. Cheng, Logan Weber, Tian Jin, Michael Carbin",
+          "link": "https://arxiv.org/pdf/2512.14805",
+          "day": "2025-12-18",
+          "thumbnail": null
+        }
+      ]
+    },
+    {
+      "label": "cs.RO",
+      "slug": "csro",
+      "week": "20251215-20251221",
+      "items": [
+        {
+          "title": "SocialNav-MoE: A Mixture-of-Experts Vision Language Model for Socially Compliant Navigation with Reinforcement Fine-Tuning",
+          "authors": "Tomohito Kawabata, Xinyu Zhang, Ling Xiao",
+          "link": "https://arxiv.org/pdf/2512.14757",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "HERO: Hierarchical Traversable 3D Scene Graphs for Embodied Navigation Among Movable Obstacles",
+          "authors": "Yunheng Wang, Yixiao Feng, Yuetong Fang, Shuning Zhang, Tan Jing, Jian Li, Xiangrui Jiang, Renjing Xu",
+          "link": "https://arxiv.org/pdf/2512.15047",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "BEV-Patch-PF: Particle Filtering with BEV-Aerial Feature Matching for Off-Road Geo-Localization",
+          "authors": "Dongmyeong Lee, Jesse Quattrociocchi, Christian Ellis, Rwik Rana, Amanda Adkins, Adam Uccello, Garrett Warnell, Joydeep Biswas",
+          "link": "https://arxiv.org/pdf/2512.15111",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "I am here for you\": How relational conversational AI appeals to adolescents, especially those who are socially and emotionally vulnerable",
+          "authors": "Pilyoung Kim, Yun Xie, Sujin Yang",
+          "link": "https://arxiv.org/pdf/2512.15117",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Criticality Metrics for Relevance Classification in Safety Evaluation of Object Detection in Automated Driving",
+          "authors": "Jörg Gamerdinger, Sven Teufel, Stephan Amann, Oliver Bringmann",
+          "link": "https://arxiv.org/pdf/2512.15181",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "EPSM: A Novel Metric to Evaluate the Safety of Environmental Perception in Autonomous Driving",
+          "authors": "Jörg Gamerdinger, Sven Teufel, Stephan Amann, Lukas Marc Listl, Oliver Bringmann",
+          "link": "https://arxiv.org/pdf/2512.15195",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "VLA-AN: An Efficient and Onboard Vision-Language-Action Framework for Aerial Navigation in Complex Environments",
+          "authors": "Yuze Wu, Mo Zhu, Xingxing Li, Yuheng Du, Yuxin Fan, Wenjun Li, Xin Zhou, Fei Gao",
+          "link": "https://arxiv.org/pdf/2512.15258",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Remotely Detectable Robot Policy Watermarking",
+          "authors": "Michael Amir, Manon Flageat, Amanda Prorok",
+          "link": "https://arxiv.org/pdf/2512.15379",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "MiVLA: Towards Generalizable Vision-Language-Action Model with Human-Robot Mutual Imitation Pre-training",
+          "authors": "Zhenhan Yin, Xuanhan Wang, Jiahao Jiang, Kaiyuan Deng, Pengqi Chen, Shuangle Li, Chong Liu, Xing Xu, ingkuan Song, Lianli Gao, Heng Tao Shen",
+          "link": "https://arxiv.org/pdf/2512.15411",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Photorealistic Phantom Roads in Real Scenes: Disentangling 3D Hallucinations from Physical Geometry",
+          "authors": "Hoang Nguyen, Xiaohao Xu, Xiaonan Huang",
+          "link": "https://arxiv.org/pdf/2512.15423",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "mimic-video: Video-Action Models for Generalizable Robot Control Beyond VLAs",
+          "authors": "Jonas Pai, Liam Achenbach, Victoriano Montesinos, Benedek Forrai, Oier Mees, Elvis Nava",
+          "link": "https://arxiv.org/pdf/2512.15692",
+          "day": "2025-12-18",
+          "thumbnail": null
+        }
+      ]
+    },
+    {
+      "label": "cs.SC",
+      "slug": "cssc",
+      "week": "20251215-20251221",
+      "items": [
+        {
+          "title": "Intent-Driven UAM Rescheduling",
+          "authors": "Jeongseok Kim, Kangjin Kim",
+          "link": "https://arxiv.org/pdf/2512.15462",
+          "day": "2025-12-18",
+          "thumbnail": null
+        }
+      ]
+    },
+    {
+      "label": "cs.SD",
+      "slug": "cssd",
+      "week": "20251215-20251221",
+      "items": [
+        {
+          "title": "Improving Underwater Acoustic Classification Through Learnable Gabor Filter Convolution and Attention Mechanisms",
+          "authors": "Lucas Cesar Ferreira Domingos, Russell Brinkworth, Paulo Eduardo Santos, Karl Sammut",
+          "link": "https://arxiv.org/pdf/2512.14714",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Audio MultiChallenge: A Multi-Turn Evaluation of Spoken Dialogue Systems on Natural Human Interaction",
+          "authors": "Advait Gosai, Tyler Vuong, Utkarsh Tyagi, Steven Li, Wenjia You, Miheer Bavare, Arda Uçar, Zhongwang Fang, Brian Jang, Bing Liu, Yunzhong He",
+          "link": "https://arxiv.org/pdf/2512.14865",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "TalkVerse: Democratizing Minute-Long Audio-Driven Video Generation",
+          "authors": "Zhenzhi Wang, Jian Wang, Ke Ma, Dahua Lin, Bing Zhou",
+          "link": "https://arxiv.org/pdf/2512.14938",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Adaptive Multimodal Person Recognition: A Robust Framework for Handling Missing Modalities",
+          "authors": "Aref Farhadipour, Teodora Vukovic, Volker Dellwo, Petr Motlicek, Srikanth Madikeri",
+          "link": "https://arxiv.org/pdf/2512.14961",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "BEAT2AASIST model with layer fusion for ESDD 2026 Challenge",
+          "authors": "Sanghyeok Chung, Eujin Kim, Donggun Kim, Gaeun Heo, Jeongbin You, Nahyun Lee, Sunmook Choi, Soyul Han, Seungsang Oh, Il-Youp Kwak",
+          "link": "https://arxiv.org/pdf/2512.15180",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "O-EENC-SD: Efficient Online End-to-End Neural Clustering for Speaker Diarization",
+          "authors": "Elio Gruttadauria, Mathieu Fontaine, Jonathan Le Roux, Slim Essid",
+          "link": "https://arxiv.org/pdf/2512.15229",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Time-Varying Audio Effect Modeling by End-to-End Adversarial Training",
+          "authors": "Yann Bourdin, Pierrick Legrand, Fanny Roche",
+          "link": "https://arxiv.org/pdf/2512.15313",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "A Conditioned UNet for Music Source Separation",
+          "authors": "Ken O'Hanlon, Basil Woods, Lin Wang, Mark Sandler",
+          "link": "https://arxiv.org/pdf/2512.15532",
+          "day": "2025-12-18",
+          "thumbnail": null
+        }
+      ]
+    },
+    {
+      "label": "cs.SE",
+      "slug": "csse",
+      "week": "20251215-20251221",
+      "items": [
+        {
+          "title": "Revisiting the Reliability of Language Models in Instruction-Following",
+          "authors": "Jianshuo Dong, Yutong Zhang, Yan Liu, Zhenyu Zhong, Tao Wei, Chao Zhang, Han Qiu",
+          "link": "https://arxiv.org/pdf/2512.14754",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "CAPE: Capability Achievement via Policy Execution",
+          "authors": "David Ball",
+          "link": "https://arxiv.org/pdf/2512.14761",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Workflows vs Agents for Code Translation",
+          "authors": "Henry Gray, Tom Yotam, Octavian Udrea",
+          "link": "https://arxiv.org/pdf/2512.14762",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "IaC Generation with LLMs: An Error Taxonomy and A Study on Configuration Knowledge Injection",
+          "authors": "Roman Nekrasov, Stefano Fossati, Indika Kumara, Damian Andrew Tamburri, Willem-Jan van den Heuvel",
+          "link": "https://arxiv.org/pdf/2512.14792",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Let the Barbarians In: How AI Can Accelerate Systems Performance Research",
+          "authors": "Audrey Cheng, Shu Liu, Melissa Pan, Zhifei Li, Shubham Agarwal, Mert Cemri, Bowen Wang, Alexander Krentsel, Tian Xia, Jongseok Park, Shuo Yang, Jeff Chen, Lakshya Agrawal, Ashwin Naren, Shulu Li, Ruiying Ma, Aditya Desai, Jiarong Xing, Koushik Sen, Matei Zaharia, Ion Stoica",
+          "link": "https://arxiv.org/pdf/2512.14806",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Imitation Game: Reproducing Deep Learning Bugs Leveraging an Intelligent Agent",
+          "authors": "Mehil B Shah, Mohammad Masudur Rahman, Foutse Khomh",
+          "link": "https://arxiv.org/pdf/2512.14990",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "SeBERTis: A Framework for Producing Classifiers of Security-Related Issue Reports",
+          "authors": "Sogol Masoumzadeh, Yufei Li, Shane McIntosh, Dániel Varró, Lili Wei",
+          "link": "https://arxiv.org/pdf/2512.15003",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "The Meta-Prompting Protocol: Orchestrating LLMs via Adversarial Feedback Loops",
+          "authors": "Fanzhe Fu",
+          "link": "https://arxiv.org/pdf/2512.15053",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "On Assessing the Relevance of Code Reviews Authored by Generative Models",
+          "authors": "Robert Heumüller, Frank Ortmeier",
+          "link": "https://arxiv.org/pdf/2512.15466",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "How Do Semantically Equivalent Code Transformations Impact Membership Inference on LLMs for Code?",
+          "authors": "Hua Yang, Alejandro Velasco, Thanh Le-Cong, Md Nazmul Haque, Bowen Xu, Denys Poshyvanyk",
+          "link": "https://arxiv.org/pdf/2512.15468",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "FrontierCS: Evolving Challenges for Evolving Intelligence",
+          "authors": "Qiuyang Mang, Wenhao Chai, Zhifei Li, Huanzhi Mao, Shang Zhou, Alexander Du, Hanchen Li, Shu Liu, Edwin Chen, Yichuan Wang, Xieting Chu, Zerui Cheng, Yuan Xu, Tian Xia, Zirui Wang, Tianneng Shi, Jianzhu Yao, Yilong Zhao, Qizheng Zhang, Charlie Ruan, Zeyu Shen, Kaiyuan Liu, Runyuan He, Dong Xing, Zerui Li, Zirong Zeng, Yige Jiang, Lufeng Cheng, Ziyi Zhao, Youran Sun, Wesley Zheng, Meiyuwang Zhang, Ruyi Ji, Xuechang Tu, Zihan Zheng, Zexing Chen, Kangyang Zhou, Zhaozi Wang, Jingbang Chen, Aleksandra Korolova, Peter Henderson, Pramod Viswanath, Vijay Ganesh, Saining Xie, Zhuang Liu, Dawn Song, Sewon Min, Ion Stoica, Joseph E. Gonzalez, Jingbo Shang, Alvin Cheung",
+          "link": "https://arxiv.org/pdf/2512.15699",
+          "day": "2025-12-18",
+          "thumbnail": null
+        }
+      ]
+    },
+    {
+      "label": "cs.SI",
+      "slug": "cssi",
+      "week": "20251215-20251221",
+      "items": [
+        {
+          "title": "Promoting Fairness in Information Access within Social Networks",
+          "authors": "Changan Liu, Xiaotian Zhou, Ahad N. Zehmakan, Zhongzhi Zhang",
+          "link": "https://arxiv.org/pdf/2512.14711",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "The Graph-Embedded Hazard Model (GEHM): Stochastic Network Survival Dynamics on Economic Graphs",
+          "authors": "Diego Vallarino",
+          "link": "https://arxiv.org/pdf/2512.14705",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Tourists Profiling by Interest Analysis",
+          "authors": "Sonia Djebali, Quentin Gabot, Guillaume Guerard",
+          "link": "https://arxiv.org/pdf/2512.14704",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "SoMe: A Realistic Benchmark for LLM-based Social Media Agents",
+          "authors": "Dizhan Xue, Jing Cui, Shengsheng Qian, Chuanrui Hu, Changsheng Xu",
+          "link": "https://arxiv.org/pdf/2512.14720",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Compute the edge p-Laplacian centrality for air traffic network",
+          "authors": "Loc Hoang Tran, Bao Nguyen Tran, Luong Anh Tuan Nguyen",
+          "link": "https://arxiv.org/pdf/2512.14749",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Cyberswarm: a novel swarm intelligence algorithm inspired by cyber community dynamics",
+          "authors": "Abdelsadeq Elfergany, Ammar Adl, Mohammed Kayed",
+          "link": "https://arxiv.org/pdf/2512.14752",
+          "day": "2025-12-18",
+          "thumbnail": null
+        },
+        {
+          "title": "Model inference for ranking from pairwise comparisons",
+          "authors": "Daniel Sánchez Catalina, George T. Cantwell",
+          "link": "https://arxiv.org/pdf/2512.15269",
+          "day": "2025-12-18",
+          "thumbnail": null
+        }
+      ]
+    }
+  ]
+}

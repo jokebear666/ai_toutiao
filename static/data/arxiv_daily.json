@@ -6,6 +6,48 @@
       "week": "20251222-20251228",
       "items": [
         {
+          "title": "Asynchronous Pipeline Parallelism for Real-Time Multilingual Lip Synchronization in Video Communication Systems",
+          "authors": "Eren Caglar, Amirkia Rafiei Oskooei, Mehmet Kutanoglu, Mustafa Keles, Mehmet S. Aktas",
+          "link": "https://arxiv.org/pdf/2512.18318",
+          "day": "2025-12-23",
+          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cebe9351bb53769823b1c88539e177d6fdfcc6f0486087e27fabdd74f958fb64_w640_q70.webp"
+        },
+        {
+          "title": "Modality-Dependent Memory Mechanisms in Cross-Modal Neuromorphic Computing",
+          "authors": "Effiong Blessing, Chiung-Yi Tseng, Somshubhra Roy, Junaid Rehman, Isaac Nkrumah",
+          "link": "https://arxiv.org/pdf/2512.18575",
+          "day": "2025-12-23",
+          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cebe9351bb53769823b1c88539e177d6fdfcc6f0486087e27fabdd74f958fb64_w640_q70.webp"
+        },
+        {
+          "title": "FedVideoMAE: Efficient Privacy-Preserving Federated Video Moderation",
+          "authors": "Ziyuan Tao, Chuanzhi Xu, Sandaru Jayawardana, Wei Bao, Kanchana Thilakarathna, Teng Joon Lim",
+          "link": "https://arxiv.org/pdf/2512.18809",
+          "day": "2025-12-23",
+          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cebe9351bb53769823b1c88539e177d6fdfcc6f0486087e27fabdd74f958fb64_w640_q70.webp"
+        },
+        {
+          "title": "Let the Model Learn to Feel: Mode-Guided Tonality Injection for Symbolic Music Emotion Recognition",
+          "authors": "Haiying Xia, Zhongyi Huang, Yumei Tan, Shuxiang Song",
+          "link": "https://arxiv.org/pdf/2512.17946",
+          "day": "2025-12-23",
+          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/aedacd9a354294152071d6d27c0efa4f886652aa4466329c20cb28085c8676bd_w640_q70.webp"
+        },
+        {
+          "title": "Clustering-based Transfer Learning for Dynamic Multimodal MultiObjective Evolutionary Algorithm",
+          "authors": "Li Yan, Bolun Liu, Chao Li, Jing Liang, Kunjie Yu, Caitong Yue, Xuzhao Chai, Boyang Qu",
+          "link": "https://arxiv.org/pdf/2512.18947",
+          "day": "2025-12-23",
+          "thumbnail": null
+        },
+        {
+          "title": "OmniMER: Indonesian Multimodal Emotion Recognition via Auxiliary-Enhanced LLM Adaptation",
+          "authors": "Xueming Yan, Boyan Xu, Yaochu Jin, Lixian Xiao, Wenlong Ye, Runyang Cai, Zeqi Zheng, Jingfa Liu, Aimin Yang",
+          "link": "https://arxiv.org/pdf/2512.19379",
+          "day": "2025-12-23",
+          "thumbnail": null
+        },
+        {
           "title": "Navigating Taxonomic Expansions of Entity Sets Driven by Knowledge Bases",
           "authors": "Pietro Cofone, Giovanni Amendola, Marco Manna, Aldo Ricioppo",
           "link": "https://arxiv.org/pdf/2512.16953",
@@ -858,48 +900,6 @@
           "link": "https://arxiv.org/pdf/2512.15751",
           "day": "2025-12-19",
           "thumbnail": null
-        },
-        {
-          "title": "AdaGradSelect: An adaptive gradient-guided layer selection method for efficient fine-tuning of SLMs",
-          "authors": "Anshul Kumar, Gagan Raj Gupta, Manisha Chawla",
-          "link": "https://arxiv.org/pdf/2512.15764",
-          "day": "2025-12-19",
-          "thumbnail": null
-        },
-        {
-          "title": "Cross-Sample Augmented Test-Time Adaptation for Personalized Intraoperative Hypotension Prediction",
-          "authors": "Kanxue Li, Yibing Zhan, Hua Jin, Chongchong Qi, Xu Lin, Baosheng Yu",
-          "link": "https://arxiv.org/pdf/2512.15762",
-          "day": "2025-12-19",
-          "thumbnail": null
-        },
-        {
-          "title": "PHANTOM: Progressive High-fidelity Adversarial Network for Threat Object Modeling",
-          "authors": "Jamal Al-Karaki, Muhammad Al-Zafar Khan, Rand Derar Mohammad Al Athamneh",
-          "link": "https://arxiv.org/pdf/2512.15768",
-          "day": "2025-12-19",
-          "thumbnail": null
-        },
-        {
-          "title": "LOOPRAG: Enhancing Loop Transformation Optimization with Retrieval-Augmented Large Language Models",
-          "authors": "Yijie Zhi, Yayu Cao, Jianhua Dai, Xiaoyang Han, Jingwen Pu, Qingran Wu, Sheng Cheng, Ming Cai",
-          "link": "https://arxiv.org/pdf/2512.15766",
-          "day": "2025-12-19",
-          "thumbnail": null
-        },
-        {
-          "title": "Bridging Data and Physics: A Graph Neural Network-Based Hybrid Twin Framework",
-          "authors": "M. Gorpinich, B. Moya, S. Rodriguez, F. Meraghni, Y. Jaafra, A. Briot, M. Henner, R. Leon, F. Chinesta",
-          "link": "https://arxiv.org/pdf/2512.15767",
-          "day": "2025-12-19",
-          "thumbnail": null
-        },
-        {
-          "title": "TENG++: Time-Evolving Natural Gradient for Solving PDEs With Deep Neural Nets under General Boundary Conditions",
-          "authors": "Xinjie He, Chenggong Zhang",
-          "link": "https://arxiv.org/pdf/2512.15771",
-          "day": "2025-12-19",
-          "thumbnail": null
         }
       ]
     },
@@ -927,8 +927,36 @@
     {
       "label": "cs.CE",
       "slug": "csce",
-      "week": "20251215-20251221",
+      "week": "20251222-20251228",
       "items": [
+        {
+          "title": "BeamformNet: Deep Learning-Based Beamforming Method for DoA Estimation via Implicit Spatial Signal Focusing and Noise Suppression",
+          "authors": "Xuyao Deng, Yong Dou, Kele Xu",
+          "link": "https://arxiv.org/pdf/2512.18647",
+          "day": "2025-12-23",
+          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/84076bf0db962d61b309b836dc9620a6a7d03bf103ccbd6e7225f61b14e5692c_w640_q70.webp"
+        },
+        {
+          "title": "Mixed formulation and structure-preserving discretization of Cosserat rod dynamics in a port-Hamiltonian framework",
+          "authors": "Philipp L. Kinon, Simon R. Eugster, Peter Betsch",
+          "link": "https://arxiv.org/pdf/2512.19408",
+          "day": "2025-12-23",
+          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e2db71241f8b136e671bfbd60878ebfc82de055944b09b4fd5d0a608d13528f8_w640_q70.webp"
+        },
+        {
+          "title": "The Best of Both Worlds: Hybridizing Neural Operators and Solvers for Stable Long-Horizon Inference",
+          "authors": "Rajyasri Roy, Dibyajyoti Nayak, Somdatta Goswami",
+          "link": "https://arxiv.org/pdf/2512.19643",
+          "day": "2025-12-23",
+          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e2db71241f8b136e671bfbd60878ebfc82de055944b09b4fd5d0a608d13528f8_w640_q70.webp"
+        },
+        {
+          "title": "GLUE: Generative Latent Unification of Expertise-Informed Engineering Models",
+          "authors": "Tim Aebersold, Soheyl Massoudi, Mark D. Fuge",
+          "link": "https://arxiv.org/pdf/2512.19469",
+          "day": "2025-12-23",
+          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cfb699958bc64d8b342419ffb48e5f2645d78f06ee90425f67231f7ebceffcfc_w640_q70.webp"
+        },
         {
           "title": "Techno-economic optimization of a heat-pipe microreactor, part I: theory and cost optimization",
           "authors": "Paul Seurin, Dean Price, Luis Nunez",
@@ -999,6 +1027,13 @@
       "slug": "cscl",
       "week": "20251222-20251228",
       "items": [
+        {
+          "title": "Layout-Aware Text Editing for Efficient Transformation of Academic PDFs to Markdown",
+          "authors": "Changxu Duan",
+          "link": "https://arxiv.org/pdf/2512.18115",
+          "day": "2025-12-23",
+          "thumbnail": null
+        },
         {
           "title": "PAACE: A Plan-Aware Automated Agent Context Engineering Framework",
           "authors": "Kamer Ali Yuksel",
@@ -2078,6 +2113,48 @@
       "week": "20251222-20251228",
       "items": [
         {
+          "title": "Layout-Aware Text Editing for Efficient Transformation of Academic PDFs to Markdown",
+          "authors": "Changxu Duan",
+          "link": "https://arxiv.org/pdf/2512.18115",
+          "day": "2025-12-23",
+          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/55a03600bbbf89f98190599bd29b1a2f12ec3a4ac217e9251256ba5b1f3c6a42_w640_q70.webp"
+        },
+        {
+          "title": "Asynchronous Pipeline Parallelism for Real-Time Multilingual Lip Synchronization in Video Communication Systems",
+          "authors": "Eren Caglar, Amirkia Rafiei Oskooei, Mehmet Kutanoglu, Mustafa Keles, Mehmet S. Aktas",
+          "link": "https://arxiv.org/pdf/2512.18318",
+          "day": "2025-12-23",
+          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/55a03600bbbf89f98190599bd29b1a2f12ec3a4ac217e9251256ba5b1f3c6a42_w640_q70.webp"
+        },
+        {
+          "title": "PMPGuard: Catching Pseudo-Matched Pairs in Remote Sensing Image-Text Retrieval",
+          "authors": "Pengxiang Ouyang, Qing Ma, Zheng Wang, Cong Bai",
+          "link": "https://arxiv.org/pdf/2512.18660",
+          "day": "2025-12-23",
+          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/55a03600bbbf89f98190599bd29b1a2f12ec3a4ac217e9251256ba5b1f3c6a42_w640_q70.webp"
+        },
+        {
+          "title": "Tempo as the Stable Cue: Hierarchical Mixture of Tempo and Beat Experts for Music to 3D Dance Generation",
+          "authors": "Guangtao Lyu, Chenghao Xu, Qi Liu, Jiexi Yan, Muli Yang, Fen Fang, Cheng Deng",
+          "link": "https://arxiv.org/pdf/2512.18804",
+          "day": "2025-12-23",
+          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a4a50c7cb5fcadd432053a9cf11a5791010601ca6548cb28798420ee05830899_w640_q70.webp"
+        },
+        {
+          "title": "FedVideoMAE: Efficient Privacy-Preserving Federated Video Moderation",
+          "authors": "Ziyuan Tao, Chuanzhi Xu, Sandaru Jayawardana, Wei Bao, Kanchana Thilakarathna, Teng Joon Lim",
+          "link": "https://arxiv.org/pdf/2512.18809",
+          "day": "2025-12-23",
+          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cebe9351bb53769823b1c88539e177d6fdfcc6f0486087e27fabdd74f958fb64_w640_q70.webp"
+        },
+        {
+          "title": "Cross-modal Counterfactual Explanations: Uncovering Decision Factors and Dataset Biases in Subjective Classification",
+          "authors": "Alina Elena Baia, Andrea Cavallaro",
+          "link": "https://arxiv.org/pdf/2512.18864",
+          "day": "2025-12-23",
+          "thumbnail": null
+        },
+        {
           "title": "AVM: Towards Structure-Preserving Neural Response Modeling in the Visual Cortex Across Stimuli and Individuals",
           "authors": "Qi Xu, Shuai Gong, Xuming Ran, Haihua Luo, Yangfan Hu",
           "link": "https://arxiv.org/pdf/2512.16948",
@@ -2930,48 +3007,6 @@
           "link": "https://arxiv.org/pdf/2512.15885",
           "day": "2025-12-19",
           "thumbnail": null
-        },
-        {
-          "title": "SALVE: Sparse Autoencoder-Latent Vector Editing for Mechanistic Control of Neural Networks",
-          "authors": "Vegard Flovik",
-          "link": "https://arxiv.org/pdf/2512.15938",
-          "day": "2025-12-19",
-          "thumbnail": null
-        },
-        {
-          "title": "City Navigation in the Wild: Exploring Emergent Navigation from Web-Scale Knowledge in MLLMs",
-          "authors": "Dwip Dalal, Utkarsh Mishra, Narendra Ahuja, Nebojsa Jojic",
-          "link": "https://arxiv.org/pdf/2512.15933",
-          "day": "2025-12-19",
-          "thumbnail": null
-        },
-        {
-          "title": "R4: Retrieval-Augmented Reasoning for Vision-Language Models in 4D Spatio-Temporal Space",
-          "authors": "Tin Stribor Sohn, Maximilian Dillitzer, Jason J. Corso, Eric Sax",
-          "link": "https://arxiv.org/pdf/2512.15940",
-          "day": "2025-12-19",
-          "thumbnail": null
-        },
-        {
-          "title": "The Perceptual Observatory Characterizing Robustness and Grounding in MLLMs",
-          "authors": "Tejas Anvekar, Fenil Bardoliya, Pavan K. Turaga, Chitta Baral, Vivek Gupta",
-          "link": "https://arxiv.org/pdf/2512.15949",
-          "day": "2025-12-19",
-          "thumbnail": null
-        },
-        {
-          "title": "Seeing is Believing (and Predicting): Context-Aware Multi-Human Behavior Prediction with Vision Language Models",
-          "authors": "Utsav Panchal, Yuchen Liu, Luigi Palmieri, Ilche Georgievski, Marco Aiello",
-          "link": "https://arxiv.org/pdf/2512.15957",
-          "day": "2025-12-19",
-          "thumbnail": null
-        },
-        {
-          "title": "From Words to Wavelengths: VLMs for Few-Shot Multispectral Object Detection",
-          "authors": "Manuel Nkegoum, Minh-Tan Pham, Élisa Fromont, Bruno Avignon, Sébastien Lefèvre",
-          "link": "https://arxiv.org/pdf/2512.15971",
-          "day": "2025-12-19",
-          "thumbnail": null
         }
       ]
     },
@@ -3205,6 +3240,13 @@
       "week": "20251222-20251228",
       "items": [
         {
+          "title": "Asynchronous Pipeline Parallelism for Real-Time Multilingual Lip Synchronization in Video Communication Systems",
+          "authors": "Eren Caglar, Amirkia Rafiei Oskooei, Mehmet Kutanoglu, Mustafa Keles, Mehmet S. Aktas",
+          "link": "https://arxiv.org/pdf/2512.18318",
+          "day": "2025-12-23",
+          "thumbnail": null
+        },
+        {
           "title": "Dion2: A Simple Method to Shrink Matrix in Muon",
           "authors": "Kwangjun Ahn, Noah Amsel, John Langford",
           "link": "https://arxiv.org/pdf/2512.16928",
@@ -3323,6 +3365,20 @@
       "slug": "csdl",
       "week": "20251222-20251228",
       "items": [
+        {
+          "title": "Layout-Aware Text Editing for Efficient Transformation of Academic PDFs to Markdown",
+          "authors": "Changxu Duan",
+          "link": "https://arxiv.org/pdf/2512.18115",
+          "day": "2025-12-23",
+          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/223af4236b8054c115a63d9347b78cbbcaa60d4e4713a4121398da1ace059d38_w640_q70.webp"
+        },
+        {
+          "title": "Accelerating End-to-End PDF to Markdown Conversion Through Assisted Generation",
+          "authors": "Changxu Duan",
+          "link": "https://arxiv.org/pdf/2512.18122",
+          "day": "2025-12-23",
+          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/223af4236b8054c115a63d9347b78cbbcaa60d4e4713a4121398da1ace059d38_w640_q70.webp"
+        },
         {
           "title": "Intelligent Knowledge Mining Framework: Bridging AI Analysis and Trustworthy Preservation",
           "authors": "Binh Vu",
@@ -3876,6 +3932,41 @@
       "slug": "cslg",
       "week": "20251222-20251228",
       "items": [
+        {
+          "title": "Modality-Dependent Memory Mechanisms in Cross-Modal Neuromorphic Computing",
+          "authors": "Effiong Blessing, Chiung-Yi Tseng, Somshubhra Roy, Junaid Rehman, Isaac Nkrumah",
+          "link": "https://arxiv.org/pdf/2512.18575",
+          "day": "2025-12-23",
+          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/55a03600bbbf89f98190599bd29b1a2f12ec3a4ac217e9251256ba5b1f3c6a42_w640_q70.webp"
+        },
+        {
+          "title": "PMPGuard: Catching Pseudo-Matched Pairs in Remote Sensing Image-Text Retrieval",
+          "authors": "Pengxiang Ouyang, Qing Ma, Zheng Wang, Cong Bai",
+          "link": "https://arxiv.org/pdf/2512.18660",
+          "day": "2025-12-23",
+          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/55a03600bbbf89f98190599bd29b1a2f12ec3a4ac217e9251256ba5b1f3c6a42_w640_q70.webp"
+        },
+        {
+          "title": "OmniMER: Indonesian Multimodal Emotion Recognition via Auxiliary-Enhanced LLM Adaptation",
+          "authors": "Xueming Yan, Boyan Xu, Yaochu Jin, Lixian Xiao, Wenlong Ye, Runyang Cai, Zeqi Zheng, Jingfa Liu, Aimin Yang",
+          "link": "https://arxiv.org/pdf/2512.19379",
+          "day": "2025-12-23",
+          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e2db71241f8b136e671bfbd60878ebfc82de055944b09b4fd5d0a608d13528f8_w640_q70.webp"
+        },
+        {
+          "title": "The Best of Both Worlds: Hybridizing Neural Operators and Solvers for Stable Long-Horizon Inference",
+          "authors": "Rajyasri Roy, Dibyajyoti Nayak, Somdatta Goswami",
+          "link": "https://arxiv.org/pdf/2512.19643",
+          "day": "2025-12-23",
+          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e2db71241f8b136e671bfbd60878ebfc82de055944b09b4fd5d0a608d13528f8_w640_q70.webp"
+        },
+        {
+          "title": "GLUE: Generative Latent Unification of Expertise-Informed Engineering Models",
+          "authors": "Tim Aebersold, Soheyl Massoudi, Mark D. Fuge",
+          "link": "https://arxiv.org/pdf/2512.19469",
+          "day": "2025-12-23",
+          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cfb699958bc64d8b342419ffb48e5f2645d78f06ee90425f67231f7ebceffcfc_w640_q70.webp"
+        },
         {
           "title": "Dion2: A Simple Method to Shrink Matrix in Muon",
           "authors": "Kwangjun Ahn, Noah Amsel, John Langford",
@@ -4736,41 +4827,6 @@
           "link": "https://arxiv.org/pdf/2512.15746",
           "day": "2025-12-19",
           "thumbnail": null
-        },
-        {
-          "title": "How Do Graph Signals Affect Recommendation: Unveiling the Mystery of Low and High-Frequency Graph Signals",
-          "authors": "Feng Liu, Hao Cang, Huanhuan Yuan, Jiaqing Fan, Yongjing Hao, Fuzhen Zhuang, Guanfeng Liu, Pengpeng Zhao",
-          "link": "https://arxiv.org/pdf/2512.15744",
-          "day": "2025-12-19",
-          "thumbnail": null
-        },
-        {
-          "title": "SHARe-KAN: Holographic Vector Quantization for Memory-Bound Inference",
-          "authors": "Jeff Smith",
-          "link": "https://arxiv.org/pdf/2512.15742",
-          "day": "2025-12-19",
-          "thumbnail": null
-        },
-        {
-          "title": "Hybrid Quantum-Classical Ensemble Learning for S\\&P 500 Directional Prediction",
-          "authors": "Abraham Itzhak Weinberg",
-          "link": "https://arxiv.org/pdf/2512.15738",
-          "day": "2025-12-19",
-          "thumbnail": null
-        },
-        {
-          "title": "Anubuddhi: A Multi-Agent AI System for Designing and Simulating Quantum Optics Experiments",
-          "authors": "S. K. Rithvik",
-          "link": "https://arxiv.org/pdf/2512.15736",
-          "day": "2025-12-19",
-          "thumbnail": null
-        },
-        {
-          "title": "LLaDA2.0: Scaling Up Diffusion Language Models to 100B",
-          "authors": "Tiwei Bie, Maosong Cao, Kun Chen, Lun Du, Mingliang Gong, Zhuochen Gong, Yanmei Gu, Jiaqi Hu, Zenan Huang, Zhenzhong Lan, Chengxi Li, Chongxuan Li, Jianguo Li, Zehuan Li, Huabin Liu, Ling Liu, Guoshan Lu, Xiaocheng Lu, Yuxin Ma, Jianfeng Tan, Lanning Wei, Ji-Rong Wen, Yipeng Xing, Xiaolu Zhang, Junbo Zhao, Da Zheng, Jun Zhou, Junlin Zhou, Zhanchao Zhou, Liwang Zhu, Yihong Zhuang",
-          "link": "https://arxiv.org/pdf/2512.15745",
-          "day": "2025-12-19",
-          "thumbnail": null
         }
       ]
     },
@@ -4941,6 +4997,76 @@
       "week": "20251222-20251228",
       "items": [
         {
+          "title": "Layout-Aware Text Editing for Efficient Transformation of Academic PDFs to Markdown",
+          "authors": "Changxu Duan",
+          "link": "https://arxiv.org/pdf/2512.18115",
+          "day": "2025-12-23",
+          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/55a03600bbbf89f98190599bd29b1a2f12ec3a4ac217e9251256ba5b1f3c6a42_w640_q70.webp"
+        },
+        {
+          "title": "Asynchronous Pipeline Parallelism for Real-Time Multilingual Lip Synchronization in Video Communication Systems",
+          "authors": "Eren Caglar, Amirkia Rafiei Oskooei, Mehmet Kutanoglu, Mustafa Keles, Mehmet S. Aktas",
+          "link": "https://arxiv.org/pdf/2512.18318",
+          "day": "2025-12-23",
+          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/55a03600bbbf89f98190599bd29b1a2f12ec3a4ac217e9251256ba5b1f3c6a42_w640_q70.webp"
+        },
+        {
+          "title": "PMPGuard: Catching Pseudo-Matched Pairs in Remote Sensing Image-Text Retrieval",
+          "authors": "Pengxiang Ouyang, Qing Ma, Zheng Wang, Cong Bai",
+          "link": "https://arxiv.org/pdf/2512.18660",
+          "day": "2025-12-23",
+          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/55a03600bbbf89f98190599bd29b1a2f12ec3a4ac217e9251256ba5b1f3c6a42_w640_q70.webp"
+        },
+        {
+          "title": "Tempo as the Stable Cue: Hierarchical Mixture of Tempo and Beat Experts for Music to 3D Dance Generation",
+          "authors": "Guangtao Lyu, Chenghao Xu, Qi Liu, Jiexi Yan, Muli Yang, Fen Fang, Cheng Deng",
+          "link": "https://arxiv.org/pdf/2512.18804",
+          "day": "2025-12-23",
+          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a4a50c7cb5fcadd432053a9cf11a5791010601ca6548cb28798420ee05830899_w640_q70.webp"
+        },
+        {
+          "title": "Accelerating End-to-End PDF to Markdown Conversion Through Assisted Generation",
+          "authors": "Changxu Duan",
+          "link": "https://arxiv.org/pdf/2512.18122",
+          "day": "2025-12-23",
+          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/223af4236b8054c115a63d9347b78cbbcaa60d4e4713a4121398da1ace059d38_w640_q70.webp"
+        },
+        {
+          "title": "FedVideoMAE: Efficient Privacy-Preserving Federated Video Moderation",
+          "authors": "Ziyuan Tao, Chuanzhi Xu, Sandaru Jayawardana, Wei Bao, Kanchana Thilakarathna, Teng Joon Lim",
+          "link": "https://arxiv.org/pdf/2512.18809",
+          "day": "2025-12-23",
+          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cebe9351bb53769823b1c88539e177d6fdfcc6f0486087e27fabdd74f958fb64_w640_q70.webp"
+        },
+        {
+          "title": "Let the Model Learn to Feel: Mode-Guided Tonality Injection for Symbolic Music Emotion Recognition",
+          "authors": "Haiying Xia, Zhongyi Huang, Yumei Tan, Shuxiang Song",
+          "link": "https://arxiv.org/pdf/2512.17946",
+          "day": "2025-12-23",
+          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/aedacd9a354294152071d6d27c0efa4f886652aa4466329c20cb28085c8676bd_w640_q70.webp"
+        },
+        {
+          "title": "Cross-modal Counterfactual Explanations: Uncovering Decision Factors and Dataset Biases in Subjective Classification",
+          "authors": "Alina Elena Baia, Andrea Cavallaro",
+          "link": "https://arxiv.org/pdf/2512.18864",
+          "day": "2025-12-23",
+          "thumbnail": null
+        },
+        {
+          "title": "D$^{2}$Stream: Decoupled Dual-Stream Temporal-Speaker Interaction for Audio-Visual Speaker Detection",
+          "authors": "Junhao Xiao, Shun Feng, Zhiyu Wu, Jianjun Li, Zhiyuan Ma, Yi Chen",
+          "link": "https://arxiv.org/pdf/2512.19130",
+          "day": "2025-12-23",
+          "thumbnail": null
+        },
+        {
+          "title": "OmniMER: Indonesian Multimodal Emotion Recognition via Auxiliary-Enhanced LLM Adaptation",
+          "authors": "Xueming Yan, Boyan Xu, Yaochu Jin, Lixian Xiao, Wenlong Ye, Runyang Cai, Zeqi Zheng, Jingfa Liu, Aimin Yang",
+          "link": "https://arxiv.org/pdf/2512.19379",
+          "day": "2025-12-23",
+          "thumbnail": null
+        },
+        {
           "title": "Atom: Efficient On-Device Video-Language Pipelines Through Modular Reuse",
           "authors": "Kunjal Panchal, Saayan Mitra, Somdeb Sarkhel, Haoliang Wang, Ishita Dasgupta, Gang Wu, Hui Guan",
           "link": "https://arxiv.org/pdf/2512.17108",
@@ -5046,6 +5172,34 @@
       "week": "20251222-20251228",
       "items": [
         {
+          "title": "Modality-Dependent Memory Mechanisms in Cross-Modal Neuromorphic Computing",
+          "authors": "Effiong Blessing, Chiung-Yi Tseng, Somshubhra Roy, Junaid Rehman, Isaac Nkrumah",
+          "link": "https://arxiv.org/pdf/2512.18575",
+          "day": "2025-12-23",
+          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4da33778e99e37103df07570dfd86545a38d11c0d50209b625e3772ab01cbbbb_w640_q70.webp"
+        },
+        {
+          "title": "Benchmarking metaheuristic algorithms for the bi-objective redundancy allocation problem in repairable systems with multiple strategies",
+          "authors": "Mateusz Oszczypała, David Ibehej, Jakub Kudela",
+          "link": "https://arxiv.org/pdf/2512.18343",
+          "day": "2025-12-23",
+          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4da33778e99e37103df07570dfd86545a38d11c0d50209b625e3772ab01cbbbb_w640_q70.webp"
+        },
+        {
+          "title": "Clustering-based Transfer Learning for Dynamic Multimodal MultiObjective Evolutionary Algorithm",
+          "authors": "Li Yan, Bolun Liu, Chao Li, Jing Liang, Kunjie Yu, Caitong Yue, Xuzhao Chai, Boyang Qu",
+          "link": "https://arxiv.org/pdf/2512.18947",
+          "day": "2025-12-23",
+          "thumbnail": null
+        },
+        {
+          "title": "Learning-Assisted Multi-Operator Variable Neighborhood Search for Urban Cable Routing",
+          "authors": "Wei Liu, Tao Zhang, Chenhui Lin, Kaiwen Li, Rui Wang",
+          "link": "https://arxiv.org/pdf/2512.19321",
+          "day": "2025-12-23",
+          "thumbnail": null
+        },
+        {
           "title": "Optimisation of Aircraft Maintenance Schedules",
           "authors": "Neil Urquhart, Amir Rahimi, Efstathios-Al. Tingas",
           "link": "https://arxiv.org/pdf/2512.17412",
@@ -5143,6 +5297,13 @@
       "slug": "csni",
       "week": "20251222-20251228",
       "items": [
+        {
+          "title": "Asynchronous Pipeline Parallelism for Real-Time Multilingual Lip Synchronization in Video Communication Systems",
+          "authors": "Eren Caglar, Amirkia Rafiei Oskooei, Mehmet Kutanoglu, Mustafa Keles, Mehmet S. Aktas",
+          "link": "https://arxiv.org/pdf/2512.18318",
+          "day": "2025-12-23",
+          "thumbnail": null
+        },
         {
           "title": "Timely Information Updating for Mobile Devices Without and With ML Advice",
           "authors": "Yu-Pin Hsu, Yi-Hsuan Tseng",
@@ -5283,6 +5444,13 @@
       "slug": "csro",
       "week": "20251222-20251228",
       "items": [
+        {
+          "title": "Mixed formulation and structure-preserving discretization of Cosserat rod dynamics in a port-Hamiltonian framework",
+          "authors": "Philipp L. Kinon, Simon R. Eugster, Peter Betsch",
+          "link": "https://arxiv.org/pdf/2512.19408",
+          "day": "2025-12-23",
+          "thumbnail": null
+        },
         {
           "title": "Learning to Plan, Planning to Learn: Adaptive Hierarchical RL-MPC for Sample-Efficient Decision Making",
           "authors": "Toshiaki Hori, Jonathan DeCastro, Deepak Gopinath, Avinash Balachandran, Guy Rosman",
@@ -5598,6 +5766,20 @@
       "slug": "cssd",
       "week": "20251222-20251228",
       "items": [
+        {
+          "title": "Tempo as the Stable Cue: Hierarchical Mixture of Tempo and Beat Experts for Music to 3D Dance Generation",
+          "authors": "Guangtao Lyu, Chenghao Xu, Qi Liu, Jiexi Yan, Muli Yang, Fen Fang, Cheng Deng",
+          "link": "https://arxiv.org/pdf/2512.18804",
+          "day": "2025-12-23",
+          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a4a50c7cb5fcadd432053a9cf11a5791010601ca6548cb28798420ee05830899_w640_q70.webp"
+        },
+        {
+          "title": "Let the Model Learn to Feel: Mode-Guided Tonality Injection for Symbolic Music Emotion Recognition",
+          "authors": "Haiying Xia, Zhongyi Huang, Yumei Tan, Shuxiang Song",
+          "link": "https://arxiv.org/pdf/2512.17946",
+          "day": "2025-12-23",
+          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/aedacd9a354294152071d6d27c0efa4f886652aa4466329c20cb28085c8676bd_w640_q70.webp"
+        },
         {
           "title": "Do Foundational Audio Encoders Understand Music Structure?",
           "authors": "Keisuke Toyama, Zhi Zhong, Akira Takahashi, Shusuke Takahashi, Yuki Mitsufuji",

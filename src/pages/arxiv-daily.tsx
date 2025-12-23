@@ -124,22 +124,25 @@ export default function ArxivDailyPage() {
           </div>
           <div className="arxiv-grid">
             {activeItems.map((it, idx) => {
-              const h = 240 + ((idx % 3) * 60);
+              const h = 200 + ((idx % 3) * 40);
+              const firstAuthor = ((it.authors || '').split(',')[0] || '').trim();
               return (
                 <div key={idx} className="arxiv-card">
                   <div className="arxiv-card-image" style={{height: h}}>
                     {it.thumbnail ? (
                       <img src={it.thumbnail} loading="lazy" alt="" />
                     ) : null}
-                    <div className="arxiv-card-title">{it.title}</div>
                   </div>
                   <div className="arxiv-card-footer">
-                    <span className="arxiv-author">{it.authors || ''}</span>
-                    {it.link ? (
-                      <a className="arxiv-like" href={it.link} target="_blank" rel="noopener noreferrer">PDF</a>
-                    ) : (
-                      <span className="arxiv-like">{it.day || ''}</span>
-                    )}
+                    <div className="arxiv-footer-title">{it.title}</div>
+                    <div className="arxiv-footer-line">
+                      <span className="arxiv-author">{firstAuthor}</span>
+                      {it.link ? (
+                        <a className="arxiv-like" href={it.link} target="_blank" rel="noopener noreferrer">PDF</a>
+                      ) : (
+                        <span className="arxiv-like">{it.day || ''}</span>
+                      )}
+                    </div>
                   </div>
                 </div>
               );

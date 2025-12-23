@@ -50,12 +50,15 @@ def parse_week_md(file_path):
         start = hm.end()
         end = headers[i+1].start() if i+1 < len(headers) else len(content)
         section = content[start:end]
-        for tm in re.finditer(r'^-\s+\*\*\[[^\]]+\]\s*(.*?)\*\*', section, re.M):
+        tms = list(re.finditer(r'^-\s+\*\*\[[^\]]+\]\s*(.*?)\*\*', section, re.M))
+        for j, tm in enumerate(tms):
             title = tm.group(1).strip()
-            after = section[tm.end():]
-            am = re.search(r'^\s+-\s+\*\*authors:\*\*\s*(.+)$', after, re.M)
-            lm = re.search(r'^\s+-\s+\*\*link:\*\*\s*(\S+)', after, re.M)
-            tmn = re.search(r'^\s+-\s+\*\*thumbnail:\*\*\s*(\S+)', after, re.M)
+            entry_start = tm.end()
+            entry_end = tms[j+1].start() if j+1 < len(tms) else len(section)
+            entry = section[entry_start:entry_end]
+            am = re.search(r'^\s+-\s+\*\*authors:\*\*\s*(.+)$', entry, re.M)
+            lm = re.search(r'^\s+-\s+\*\*link:\*\*\s*(\S+)', entry, re.M)
+            tmn = re.search(r'^\s+-\s+\*\*thumbnail:\*\*\s*(\S+)', entry, re.M)
             authors = am.group(1).strip() if am else ""
             link = lm.group(1).strip() if lm else None
             thumbnail = tmn.group(1).strip() if tmn else None

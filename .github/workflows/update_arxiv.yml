@@ -11,6 +11,7 @@ jobs:
     env:
       DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
       INCLUDE_CATEGORIES: ${{ vars.INCLUDE_CATEGORIES }}
+      SKIP_LLM: ${{ vars.SKIP_LLM }}
       R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
       R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
       R2_ENDPOINT_URL: ${{ secrets.R2_ENDPOINT_URL }}
@@ -38,10 +39,14 @@ jobs:
 
       - name: Run script with today's date (with thumbnails)
         run: |
+          SKIP_ARG=""
+          if [ "$SKIP_LLM" = "true" ] || [ "$SKIP_LLM" = "1" ]; then
+            SKIP_ARG="--skip-llm"
+          fi
           if [ -n "$INCLUDE_CATEGORIES" ]; then
-            python get_daily_arxiv_paper.py --include-categories "$INCLUDE_CATEGORIES" --generate-thumbnails
+            python get_daily_arxiv_paper.py --include-categories "$INCLUDE_CATEGORIES" --generate-thumbnails $SKIP_ARG
           else
-            python get_daily_arxiv_paper.py --generate-thumbnails
+            python get_daily_arxiv_paper.py --generate-thumbnails $SKIP_ARG
           fi
 
       - name: Build arXiv daily JSON (last 3 months)

@@ -109,7 +109,7 @@ def extract_date_from_html(html_content=None, url="https://arxiv.org/list/cs/new
         return None
 
 class CompletePaperProcessor:
-    def __init__(self, docs_daily_path="docs/daily", temp_dir="temp_pdfs", enable_thumbnails=False):
+    def __init__(self, docs_daily_path="docs/daily", temp_dir="temp_pdfs", enable_thumbnails=False, enable_llm=True):
         """
         初始化完整的论文处理器
         
@@ -120,13 +120,16 @@ class CompletePaperProcessor:
         self.docs_daily_path = docs_daily_path
         self.temp_dir = temp_dir
         self.enable_thumbnails = enable_thumbnails
+        self.enable_llm = enable_llm
         self.ensure_directories()
         
         # 初始化OpenAI客户端
-        self.client = OpenAI(
-            api_key=os.environ.get('DEEPSEEK_API_KEY'),
-            base_url="https://api.deepseek.com"
-        )
+        self.client = None
+        if self.enable_llm:
+            self.client = OpenAI(
+                api_key=os.environ.get('DEEPSEEK_API_KEY'),
+                base_url="https://api.deepseek.com"
+            )
     
     def ensure_directories(self):
         """确保必要的目录存在"""
@@ -412,29 +415,41 @@ class CompletePaperProcessor:
             return None
 
     def extract_first_image(self, pdf_path):
-        """尝试从PDF前两页提取第一张图片，返回(bytes, ext)"""
         try:
-            import fitz  # PyMuPDF
+            import fitz
             doc = fitz.open(pdf_path)
-            page_limit = min(2, len(doc))
-            for page_num in range(page_limit):
+            candidates = []
+            for page_num in range(len(doc)):
                 page = doc.load_page(page_num)
                 image_list = page.get_images(full=True)
-                if image_list:
-                    image_list.sort(key=lambda img: (img[2] or 0) * (img[3] or 0), reverse=True)
-                    xref = image_list[0][0]
-                    base_image = doc.extract_image(xref)
-                    image_bytes = base_image.get("image")
-                    ext = base_image.get("ext", "png")
-                    if image_bytes:
-                        return image_bytes, ext
+                for img in image_list:
+                    w = img[2] or 0
+                    h = img[3] or 0
+                    if w < 256 or h < 256:
+                        continue
+                    area = w * h
+                    ar = (w / h) if h else 0
+                    if ar < 0.4 or ar > 2.5:
+                        continue
+                    candidates.append((area, page_num, img))
+            if not candidates:
+                return None, None
+            candidates.sort(key=lambda x: x[0], reverse=True)
+            _, page_num, best_img = candidates[0]
+            page = doc.load_page(page_num)
+            xref = best_img[0]
+            base = doc.extract_image(xref)
+            b = base.get("image")
+            ext = base.get("ext", "png")
+            if b:
+                return b, ext
             return None, None
         except Exception as e:
             print(f"提取图片失败: {e}")
             return None, None
 
     def render_first_page(self, pdf_path, max_width=640):
-        """将PDF第一页渲染为位图，返回(webp字节, 'webp')"""
+        """将PDF第一页渲染为位图，返回(png字节, 'png')"""
         try:
             import fitz  # PyMuPDF
             doc = fitz.open(pdf_path)
@@ -445,9 +460,197 @@ class CompletePaperProcessor:
             zoom = max_width / width
             mat = fitz.Matrix(zoom, zoom)
             pix = page.get_pixmap(matrix=mat, alpha=False)
-            return pix.tobytes("webp"), "webp"
+            return pix.tobytes("png"), "png"
+        except Exception as e:
+            print(f"将PDF第一页渲染为位图 渲染页面失败: {e}")
+            return None, None
+
+    def render_best_page(self, pdf_path, max_width=640):
+        try:
+            import fitz
+            doc = fitz.open(pdf_path)
+            if len(doc) == 0:
+                return None, None
+            best_total = -1
+            best_index = 0
+            for i in range(len(doc)):
+                page = doc.load_page(i)
+                imgs = page.get_images(full=True)
+                total = 0
+                for im in imgs:
+                    total += (im[2] or 0) * (im[3] or 0)
+                if total > best_total:
+                    best_total = total
+                    best_index = i
+            page = doc.load_page(best_index)
+            w = page.rect.width or 1.0
+            z = max_width / w
+            mat = fitz.Matrix(z, z)
+            pix = page.get_pixmap(matrix=mat, alpha=False)
+            return pix.tobytes("png"), "png"
         except Exception as e:
             print(f"渲染页面失败: {e}")
+            return None, None
+
+    def render_largest_image_region(self, pdf_path, max_width=640):
+        try:
+            import fitz
+            doc = fitz.open(pdf_path)
+            best = None
+            for i in range(len(doc)):
+                page = doc.load_page(i)
+                images = page.get_images(full=True)
+                for im in images:
+                    xref = im[0]
+                    rects = page.get_image_rects(xref)
+                    for r in rects:
+                        w = r.width
+                        h = r.height
+                        if w < 256 or h < 256:
+                            continue
+                        ar = w / h if h else 0
+                        if ar < 0.4 or ar > 2.5:
+                            continue
+                        area = w * h
+                        if best is None or area > best[0]:
+                            best = (area, i, r)
+            if not best:
+                return None, None
+            _, page_index, rect = best
+            page = doc.load_page(page_index)
+            w = rect.width or 1.0
+            z = max_width / w
+            mat = fitz.Matrix(z, z)
+            pix = page.get_pixmap(matrix=mat, alpha=False, clip=rect)
+            return pix.tobytes("png"), "png"
+        except Exception as e:
+            print(f"渲染区域失败: {e}")
+            return None, None
+
+    def render_figure_region_by_caption(self, pdf_path, figure_no=1, max_width=640):
+        try:
+            import fitz, re
+            doc = fitz.open(pdf_path)
+            patts = [fr"figure\s*{figure_no}\b", fr"fig\.\s*{figure_no}\b"]
+            for i in range(len(doc)):
+                page = doc.load_page(i)
+                blocks = page.get_text("blocks") or []
+                captions = []
+                for b in blocks:
+                    if not isinstance(b, (list, tuple)) or len(b) < 5:
+                        continue
+                    x0, y0, x1, y1, txt = b[0], b[1], b[2], b[3], b[4] if len(b) > 4 else ""
+                    t = (txt or "").lower()
+                    if any(re.search(p, t) for p in patts):
+                        captions.append((x0, y0, x1, y1))
+                if not captions:
+                    continue
+                images = page.get_images(full=True)
+                candidates = []
+                for im in images:
+                    xref = im[0]
+                    rects = page.get_image_rects(xref)
+                    for r in rects:
+                        w = r.width
+                        h = r.height
+                        if w < 256 or h < 256:
+                            continue
+                        ar = w / h if h else 0
+                        if ar < 0.4 or ar > 2.5:
+                            continue
+                        for (cx0, cy0, cx1, cy1) in captions:
+                            overlap_x = max(0, min(r.x1, cx1) - max(r.x0, cx0))
+                            base_w = min((cx1 - cx0) or 1.0, (r.x1 - r.x0) or 1.0)
+                            ratio = overlap_x / base_w
+                            dy = min(abs(r.y0 - cy1), abs(cy0 - r.y1))
+                            score = (ratio * 1000) - dy
+                            candidates.append((score, i, r))
+                if candidates:
+                    candidates.sort(key=lambda x: x[0], reverse=True)
+                    _, page_index, rect = candidates[0]
+                    page2 = doc.load_page(page_index)
+                    w = rect.width or 1.0
+                    z = max_width / w
+                    mat = fitz.Matrix(z, z)
+                    pix = page2.get_pixmap(matrix=mat, alpha=False, clip=rect)
+                    return pix.tobytes("png"), "png"
+            return None, None
+        except Exception as e:
+            print(f"按标题渲染失败: {e}")
+            return None, None
+
+    def render_figure_union_region_by_caption(self, pdf_path, figure_no=1, max_width=640, search_height=500, padding=5):
+        try:
+            import fitz, re
+            doc = fitz.open(pdf_path)
+            patt = re.compile(rf"^(figure|fig\.?)[\s]*{figure_no}[:.]", re.I)
+            for i in range(len(doc)):
+                page = doc.load_page(i)
+                blocks = page.get_text("blocks") or []
+                blocks.sort(key=lambda b: b[1] if len(b) > 1 else 0)
+                caption_rect = None
+                for b in blocks:
+                    if not isinstance(b, (list, tuple)) or len(b) < 5:
+                        continue
+                    txt = (b[4] or "").strip()
+                    if patt.match(txt):
+                        caption_rect = fitz.Rect(b[0], b[1], b[2], b[3])
+                        break
+                if not caption_rect:
+                    continue
+                search_bottom = caption_rect.y0
+                search_top = max(0, search_bottom - float(search_height))
+                rects = []
+                try:
+                    drawings = page.get_drawings() or []
+                except Exception:
+                    drawings = []
+                for d in drawings:
+                    r = d.get("rect")
+                    if not r:
+                        continue
+                    if r.y1 <= search_bottom + 10 and r.y0 >= search_top:
+                        if r.width > 5 or r.height > 5:
+                            rects.append(fitz.Rect(r.x0, r.y0, r.x1, r.y1))
+                images_added = False
+                try:
+                    infos = page.get_image_info() or []
+                    for info in infos:
+                        bb = info.get("bbox")
+                        if not bb:
+                            continue
+                        r = fitz.Rect(bb)
+                        if r.y1 <= search_bottom + 10 and r.y0 >= search_top:
+                            rects.append(r)
+                            images_added = True
+                except Exception:
+                    pass
+                if not images_added:
+                    images = page.get_images(full=True)
+                    for im in images:
+                        xref = im[0]
+                        rlist = page.get_image_rects(xref)
+                        for r in rlist:
+                            if r.y1 <= search_bottom + 10 and r.y0 >= search_top:
+                                rects.append(r)
+                if not rects:
+                    continue
+                final_rect = rects[0]
+                for r in rects[1:]:
+                    final_rect |= r
+                final_rect.x0 -= float(padding)
+                final_rect.y0 -= float(padding)
+                final_rect.x1 += float(padding)
+                final_rect.y1 = search_bottom + 2.0
+                final_rect = final_rect & page.rect
+                w = final_rect.width or 1.0
+                z = max_width / w
+                mat = fitz.Matrix(z, z)
+                pix = page.get_pixmap(matrix=mat, alpha=False, clip=final_rect)
+                return pix.tobytes("png"), "png"
+            return None, None
+        except Exception as e:
+            print(f"按标题联合渲染失败: {e}")
             return None, None
 
     def upload_to_r2(self, image_bytes, ext="webp"):
@@ -627,18 +830,28 @@ llm_summary: <2-3 sentences simple summary (method+conclusion)>
         # 提取第一页文本
         first_page_text = self.extract_first_page_text(pdf_path)
 
-        # 调用API获取标签、机构，并获取LLM总结
-        tag1, tag2, tag3_list, institution, llm_summary = self.call_api_for_tags_institution_interest(
-            title, summary, first_page_text
-        )
+        # 调用API获取标签、机构，并获取LLM总结（可禁用以节省token）
+        if self.enable_llm:
+            tag1, tag2, tag3_list, institution, llm_summary = self.call_api_for_tags_institution_interest(
+                title, summary, first_page_text
+            )
+        else:
+            tag1, tag2, tag3_list, institution = "", "", [], "TBD"
+            llm_summary = title
         
         # 生成缩略图（可选）
         thumbnail_url = None
         try:
             if self.enable_thumbnails and pdf_path:
-                img_bytes, ext = self.extract_first_image(pdf_path)
+                # img_bytes, ext = self.extract_first_image(pdf_path)
+                # if not img_bytes:
+                img_bytes, ext = self.render_figure_union_region_by_caption(pdf_path, figure_no=1)
                 if not img_bytes:
-                    img_bytes, ext = self.render_first_page(pdf_path)
+                    img_bytes, ext = self.render_figure_region_by_caption(pdf_path, figure_no=1)
+                if not img_bytes:
+                    img_bytes, ext = self.render_largest_image_region(pdf_path)
+                if not img_bytes:
+                    img_bytes, ext = self.render_best_page(pdf_path)
                 if img_bytes:
                     if (ext or "").lower() != "webp":
                         converted, cext = self.convert_to_webp(img_bytes)
@@ -1144,9 +1357,18 @@ def main():
         print("请先安装PyPDF2: pip install PyPDF2")
         return
     
-    # 检查API密钥
-    if not os.environ.get('DEEPSEEK_API_KEY'):
-        print("请设置DEEPSEEK_API_KEY环境变量")
+    # 解析命令行参数（测试用途）
+    parser = argparse.ArgumentParser(description="Process arXiv cs/new papers")
+    parser.add_argument("--include-categories", type=str, default=None, help="仅处理指定类别，逗号分隔，例如: cs.AI,cs.LG")
+    parser.add_argument("--max-papers", type=int, default=None, help="限制最大论文数量用于测试")
+    parser.add_argument("--max-workers", type=int, default=10, help="并发线程数")
+    parser.add_argument("--generate-thumbnails", action="store_true", help="启用PDF缩略图生成并上传到R2")
+    parser.add_argument("--skip-llm", action="store_true", help="跳过LLM总结，直接使用title作为总结")
+    args = parser.parse_args()
+
+    # 检查API密钥（在启用LLM时）
+    if not args.skip_llm and not os.environ.get('DEEPSEEK_API_KEY'):
+        print("请设置DEEPSEEK_API_KEY环境变量，或使用 --skip-llm")
         return
     
     # 从arXiv HTML页面下载HTML内容（只下载一次）
@@ -1179,14 +1401,6 @@ def main():
         print(f"日期 {target_date} 已经处理过，自动退出。")
         return
 
-    # 解析命令行参数（测试用途）
-    parser = argparse.ArgumentParser(description="Process arXiv cs/new papers")
-    parser.add_argument("--include-categories", type=str, default=None, help="仅处理指定类别，逗号分隔，例如: cs.AI,cs.LG")
-    parser.add_argument("--max-papers", type=int, default=None, help="限制最大论文数量用于测试")
-    parser.add_argument("--max-workers", type=int, default=10, help="并发线程数")
-    parser.add_argument("--generate-thumbnails", action="store_true", help="启用PDF缩略图生成并上传到R2")
-    args = parser.parse_args()
-
     include_categories = None
     if args.include_categories:
         include_categories = [s.strip() for s in args.include_categories.split(',') if s.strip()]
@@ -1195,7 +1409,7 @@ def main():
     max_workers = args.max_workers
 
     # 创建处理器并处理论文
-    processor = CompletePaperProcessor(enable_thumbnails=args.generate_thumbnails)
+    processor = CompletePaperProcessor(enable_thumbnails=args.generate_thumbnails, enable_llm=(not args.skip_llm))
     processor.process_papers_by_date(
         target_date=target_date,
         max_workers=max_workers,

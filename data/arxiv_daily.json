@@ -10,14 +10,14 @@
           "authors": "Eren Caglar, Amirkia Rafiei Oskooei, Mehmet Kutanoglu, Mustafa Keles, Mehmet S. Aktas",
           "link": "https://arxiv.org/pdf/2512.18318",
           "day": "2025-12-23",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cebe9351bb53769823b1c88539e177d6fdfcc6f0486087e27fabdd74f958fb64_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Modality-Dependent Memory Mechanisms in Cross-Modal Neuromorphic Computing",
           "authors": "Effiong Blessing, Chiung-Yi Tseng, Somshubhra Roy, Junaid Rehman, Isaac Nkrumah",
           "link": "https://arxiv.org/pdf/2512.18575",
           "day": "2025-12-23",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cebe9351bb53769823b1c88539e177d6fdfcc6f0486087e27fabdd74f958fb64_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "FedVideoMAE: Efficient Privacy-Preserving Federated Video Moderation",
@@ -52,21 +52,21 @@
           "authors": "Pietro Cofone, Giovanni Amendola, Marco Manna, Aldo Ricioppo",
           "link": "https://arxiv.org/pdf/2512.16953",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8b065cfa04bf6f3a4b29a1299ffe0b7dd4f84fbabb6368c76abaa339e1a0a77c_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Lights, Camera, Consistency: A Multistage Pipeline for Character-Stable AI Video Stories",
           "authors": "Chayan Jain, Rishant Sharma, Archit Garg, Ishan Bhanuka, Pratik Narang, Dhruv Kumar",
           "link": "https://arxiv.org/pdf/2512.16954",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8b065cfa04bf6f3a4b29a1299ffe0b7dd4f84fbabb6368c76abaa339e1a0a77c_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Enhancing Tree Species Classification: Insights from YOLOv8 and Explainable AI Applied to TLS Point Cloud Projections",
           "authors": "Adrian Straker, Paul Magdon, Marco Zullich, Maximilian Freudenberg, Christoph Kleinn, Johannes Breidenbach, Stefano Puliti, Nils Nölke",
           "link": "https://arxiv.org/pdf/2512.16950",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8b065cfa04bf6f3a4b29a1299ffe0b7dd4f84fbabb6368c76abaa339e1a0a77c_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Optimizing Text Search: A Novel Pattern Matching Algorithm Based on Ukkonen's Approach",
@@ -87,14 +87,14 @@
           "authors": "Kamer Ali Yuksel",
           "link": "https://arxiv.org/pdf/2512.16970",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/da83017a41e69234160f2c416b8a94507a537a66fd8a745a6bafc49c06817395_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "MemoryGraft: Persistent Compromise of LLM Agents via Poisoned Experience Retrieval",
           "authors": "Saksham Sahai Srivastava, Haoyu He",
           "link": "https://arxiv.org/pdf/2512.16962",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/da83017a41e69234160f2c416b8a94507a537a66fd8a745a6bafc49c06817395_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "InfoTok: Adaptive Discrete Video Tokenizer via Information-Theoretic Compression",
@@ -115,21 +115,21 @@
           "authors": "Erica Coppolillo, Simone Mungari",
           "link": "https://arxiv.org/pdf/2512.17027",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3a313962e09ceaa54a617d0e446a38a50ffa44d10894d76830f87cd1e74c0749_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "A Women's Health Benchmark for Large Language Models",
           "authors": "Victoria-Elisabeth Gruber, Razvan Marinescu, Diego Fajardo, Amin H. Nassar, Christopher Arkfeld, Alexandria Ludlow, Shama Patel, Mehrnoosh Samaei, Valerie Klug, Anna Huber, Marcel Gühner, Albert Botta i Orfila, Irene Lagoja, Kimya Tarr, Haleigh Larson, Mary Beth Howard",
           "link": "https://arxiv.org/pdf/2512.17028",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3a313962e09ceaa54a617d0e446a38a50ffa44d10894d76830f87cd1e74c0749_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Security Risks of Agentic Vehicles: A Systematic Analysis of Cognitive and Cross-Layer Threats",
           "authors": "Ali Eslami, Jiangbo Yu",
           "link": "https://arxiv.org/pdf/2512.17041",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3a313962e09ceaa54a617d0e446a38a50ffa44d10894d76830f87cd1e74c0749_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Adversarial VR: An Open-Source Testbed for Evaluating Adversarial Robustness of VR Cybersickness Detection and Mitigation",
@@ -150,7 +150,7 @@
           "authors": "Suhaib Abdurahman, Farzan Karimi-Malekabadi, Chenxiao Yu, Nour S. Kteily, Morteza Dehghani",
           "link": "https://arxiv.org/pdf/2512.17066",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/906b49597857a3cad8e1c9c8d6cdbec46e7807fe819943d1e6d91facfb7f18bd_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Knowledge Distillation with Structured Chain-of-Thought for Text-to-SQL",
@@ -164,7 +164,7 @@
           "authors": "Ohoud Alzahrani, Russell Beale, Bob Hendley",
           "link": "https://arxiv.org/pdf/2512.17067",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0ea02a6d58821ccc3cc89deee5daf014a7e650e133502a2a64e5cd69e54c8596_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "On the Role of Contextual Information and Ego States in LLM Agent Behavior for Transactional Analysis Dialogues",
@@ -185,35 +185,35 @@
           "authors": "Michael H. Coen",
           "link": "https://arxiv.org/pdf/2512.17083",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/38c83df2ce552270bc09f323934a96a0aad16af58e736a7049ccfd73afeed0d4_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Value Under Ignorance in Universal Artificial Intelligence",
           "authors": "Cole Wyeth, Marcus Hutter",
           "link": "https://arxiv.org/pdf/2512.17086",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/38c83df2ce552270bc09f323934a96a0aad16af58e736a7049ccfd73afeed0d4_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "How to Square Tensor Networks and Circuits Without Squaring Them",
           "authors": "Lorenzo Loconte, Adrián Javaloy, Antonio Vergari",
           "link": "https://arxiv.org/pdf/2512.17090",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/38c83df2ce552270bc09f323934a96a0aad16af58e736a7049ccfd73afeed0d4_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Learning to Plan, Planning to Learn: Adaptive Hierarchical RL-MPC for Sample-Efficient Decision Making",
           "authors": "Toshiaki Hori, Jonathan DeCastro, Deepak Gopinath, Avinash Balachandran, Guy Rosman",
           "link": "https://arxiv.org/pdf/2512.17091",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/38c83df2ce552270bc09f323934a96a0aad16af58e736a7049ccfd73afeed0d4_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "UniCoMTE: A Universal Counterfactual Framework for Explaining Time-Series Classifiers on ECG Data",
           "authors": "Justin Li, Efe Sencan, Jasper Zheng Duan, Vitus J. Leung, Stephan Tsaur, Ayse K. Coskun",
           "link": "https://arxiv.org/pdf/2512.17100",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/38c83df2ce552270bc09f323934a96a0aad16af58e736a7049ccfd73afeed0d4_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "A Solver-in-the-Loop Framework for Improving LLMs on Answer Set Programming for Logic Puzzle Solving",
@@ -234,7 +234,7 @@
           "authors": "Aaron Defazio, Konstantin Mishchenko, Parameswaran Raman, Hao-Jun Michael Shi, Lin Xiao",
           "link": "https://arxiv.org/pdf/2512.17131",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/13a0f6637b571493e14f364092f2d39a108d211bbddd588a88df25d1db4a8e1c_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "SDUM: A Scalable Deep Unrolled Model for Universal MRI Reconstruction",
@@ -255,7 +255,7 @@
           "authors": "Maher Mesto, Francisco Cruz",
           "link": "https://arxiv.org/pdf/2512.17180",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7767a7bc851a49f82148423782803913a5c377f60c4ce3a9cc7383c22a6d08a4_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "PILAR: Personalizing Augmented Reality Interactions with LLM-based Human-Centric and Trustworthy Explanations for Daily Use Cases",
@@ -283,7 +283,7 @@
           "authors": "Kai Liu, Zeli Lin, Weibo Wang, Linghe Kong, Yulun Zhang",
           "link": "https://arxiv.org/pdf/2512.17202",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/52e181750dd60029c711d4a23702ec5e96a39d86b1ce8c7f9c34de75f853c369_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Research on Dead Reckoning Algorithm for Self-Propelled Pipeline Robots in Three-Dimensional Complex Pipelines",
@@ -297,28 +297,28 @@
           "authors": "Wisnu Uriawan, Imany Fauzy Rahman, Muhamad Zidan, Irma Rohmatillah, Muhammad Arkan Raihan, Irma Dwiyanti",
           "link": "https://arxiv.org/pdf/2512.17218",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/801e0aab9fd9dcfb7d20ebc658880a9fa5c22a62c30b2127c1037ab48024b399_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Incorporating Error Level Noise Embedding for Improving LLM-Assisted Robustness in Persian Speech Recognition",
           "authors": "Zahra Rahmani, Hossein Sameti",
           "link": "https://arxiv.org/pdf/2512.17247",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/801e0aab9fd9dcfb7d20ebc658880a9fa5c22a62c30b2127c1037ab48024b399_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Privacy-Preserving Synthetic Dataset of Individual Daily Trajectories for City-Scale Mobility Analytics",
           "authors": "Jun'ichi Ozaki, Ryosuke Susuta, Takuhiro Moriyama, Yohei Shida",
           "link": "https://arxiv.org/pdf/2512.17239",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/801e0aab9fd9dcfb7d20ebc658880a9fa5c22a62c30b2127c1037ab48024b399_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "AlignDP: Hybrid Differential Privacy with Rarity-Aware Protection for LLMs",
           "authors": "Madhava Gaikwad",
           "link": "https://arxiv.org/pdf/2512.17251",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/801e0aab9fd9dcfb7d20ebc658880a9fa5c22a62c30b2127c1037ab48024b399_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Accelerating Multi-modal LLM Gaming Performance via Input Prediction and Mishit Correction",
@@ -339,7 +339,7 @@
           "authors": "Miru Hong, Minho Lee, Geonhee Jo, Jae-Hee So, Pascal Bauer, Sang-Ki Ko",
           "link": "https://arxiv.org/pdf/2512.17266",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/74363ce6b272cc866e0e9407e36b6e57863b7642ae94357d478230d1f46735a0_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "AutoMetrics: Approximate Human Judgements with Automatically Generated Evaluators",
@@ -360,7 +360,7 @@
           "authors": "Guoping Cai, Houjin Chen, Yanfeng Li, Jia Sun, Ziwei Chen, Qingzi Geng",
           "link": "https://arxiv.org/pdf/2512.17278",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6f03ca77cc9ebde43ea5a7c83c936ce7c8843b9c39c6b6c58614cb92eb1ce8fc_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Subjective Question Generation and Answer Evaluation using NLP",
@@ -374,28 +374,28 @@
           "authors": "Abdullah M. Zyarah, Dhireesha Kudithipudi",
           "link": "https://arxiv.org/pdf/2512.17299",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/283e413d1a1fd46323ee20a12df05789e8ef6dd69af3578d2d3e3e27ce803395_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Robust TTS Training via Self-Purifying Flow Matching for the WildSpoof 2026 TTS Track",
           "authors": "June Young Yi, Hyeongju Kim, Juheon Lee",
           "link": "https://arxiv.org/pdf/2512.17293",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/283e413d1a1fd46323ee20a12df05789e8ef6dd69af3578d2d3e3e27ce803395_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Large Language Models as Pokémon Battle Agents: Strategic Play and Content Generation",
           "authors": "Daksh Jain, Aarya Jain, Ashutosh Desai, Avyakt Verma, Ishan Bhanuka, Pratik Narang, Dhruv Kumar",
           "link": "https://arxiv.org/pdf/2512.17308",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/283e413d1a1fd46323ee20a12df05789e8ef6dd69af3578d2d3e3e27ce803395_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Explanation Beyond Intuition: A Testable Criterion for Inherent Explainability",
           "authors": "Michael Merry, Pat Riddle, Jim Warren",
           "link": "https://arxiv.org/pdf/2512.17316",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/283e413d1a1fd46323ee20a12df05789e8ef6dd69af3578d2d3e3e27ce803395_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "A Benchmark for Ultra-High-Resolution Remote Sensing MLLMs",
@@ -416,7 +416,7 @@
           "authors": "Zhengmian Hu",
           "link": "https://arxiv.org/pdf/2512.17373",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/74b74ccffb4336d971aedcab583ac81f676e7f75bb85a137f4255da4a692fafe_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "TakeAD: Preference-based Post-optimization for End-to-end Autonomous Driving with Expert Takeover Data",
@@ -430,7 +430,7 @@
           "authors": "Neil Urquhart, Amir Rahimi, Efstathios-Al. Tingas",
           "link": "https://arxiv.org/pdf/2512.17412",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/abd921f37f90b9dfaf497e986d1ae89307cf4b11dd527bf09bd11e36d239652c_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Detection and Analysis of Sensitive and Illegal Content on the Ethereum Blockchain Using Machine Learning Techniques",
@@ -451,7 +451,7 @@
           "authors": "Jan Hutter, Hua Chang Bakker, Stan Fris, Madelon Bernardy, Yuanna Liu",
           "link": "https://arxiv.org/pdf/2512.17442",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/077c20705c707ee562f1935988b006695cf25f213f2df392cb27846fedaf0d4a_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "SWE-Bench++: A Framework for the Scalable Generation of Software Engineering Benchmarks from Open-Source Repositories",
@@ -465,14 +465,14 @@
           "authors": "Javier Gonzalez-Ruiz, Carlos Rodriguez-Pardo, Iacopo Savelli, Alice Di Bella, Massimo Tavoni",
           "link": "https://arxiv.org/pdf/2512.17444",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e930d6ea2e25d38e443cede1cee5618870d8bd50e1307a179be023dcac63701d_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Learning What to Write: Write-Gated KV for Efficient Long-Context Inference",
           "authors": "Yen-Chieh Huang, Rui Fang, Ming-Syan Chen, Pi-Cheng Hsiu",
           "link": "https://arxiv.org/pdf/2512.17452",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e930d6ea2e25d38e443cede1cee5618870d8bd50e1307a179be023dcac63701d_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "A lightweight Spatial-Temporal Graph Neural Network for Long-term Time Series Forecasting",
@@ -486,21 +486,21 @@
           "authors": "Olivier Jeunen, Schaun Wheeler",
           "link": "https://arxiv.org/pdf/2512.17462",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f1824f6e52cce42d09258c21a8f994f87c3330105a845886e13a668bacd45e38_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Fair Voting Methods as a Catalyst for Democratic Resilience: A Trilogy on Legitimacy, Impact and AI Safeguarding",
           "authors": "Evangelos Pournaras",
           "link": "https://arxiv.org/pdf/2512.17461",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f1824f6e52cce42d09258c21a8f994f87c3330105a845886e13a668bacd45e38_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Translating the Rashomon Effect to Sequential Decision-Making Tasks",
           "authors": "Dennis Gross, Jørn Eirik Betten, Helge Spieker",
           "link": "https://arxiv.org/pdf/2512.17470",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f1824f6e52cce42d09258c21a8f994f87c3330105a845886e13a668bacd45e38_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "InsertAnywhere: Bridging 4D Scene Geometry and Diffusion Models for Realistic Video Object Insertion",
@@ -514,14 +514,14 @@
           "authors": "Muhammad Haris Khan",
           "link": "https://arxiv.org/pdf/2512.17519",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b624fc0656a14fc68753d26cc52e1c0a78d9633130c6881762bd87e498ed0875_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "SafeBench-Seq: A Homology-Clustered, CPU-Only Baseline for Protein Hazard Screening with Physicochemical/Composition Features and Cluster-Aware Confidence Intervals",
           "authors": "Muhammad Haris Khan",
           "link": "https://arxiv.org/pdf/2512.17527",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b624fc0656a14fc68753d26cc52e1c0a78d9633130c6881762bd87e498ed0875_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Robust-R1: Degradation-Aware Reasoning for Robust Visual Understanding",
@@ -535,14 +535,14 @@
           "authors": "Maliha Tabassum, M Shamim Kaiser",
           "link": "https://arxiv.org/pdf/2512.17559",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a3dde00da40b964ce086e0496d0c0c6f668bf5149ef5a44e30539fa3c614601b_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "When De-noising Hurts: A Systematic Study of Speech Enhancement Effects on Modern Medical ASR Systems",
           "authors": "Sujal Chondhekar, Vasanth Murukuri, Rushabh Vasani, Sanika Goyal, Rajshree Badami, Anushree Rana, Sanjana SN, Karthik Pandia, Sulabh Katiyar, Neha Jagadeesh, Sankalp Gulati",
           "link": "https://arxiv.org/pdf/2512.17562",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a3dde00da40b964ce086e0496d0c0c6f668bf5149ef5a44e30539fa3c614601b_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "ClothHMR: 3D Mesh Recovery of Humans in Diverse Clothing from Single Image",
@@ -556,28 +556,28 @@
           "authors": "Yikang Yue, Yishu Yin, Xuehai Qian",
           "link": "https://arxiv.org/pdf/2512.17570",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c1e72bae8c4d2dd504664f6eedc1a325466b12559df8aa6fc5fbe929fb95fcbf_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "A unified FLAIR hyperintensity segmentation model for various CNS tumor types and acquisition time points",
           "authors": "Mathilde Gajda Faanes, David Bouget, Asgeir S. Jakola, Timothy R. Smith, Vasileios K. Kavouridis, Francesco Latini, Margret Jensdottir, Peter Milos, Henrietta Nittby Redebrandt, Rickard L. Sjöberg, Rupavathana Mahesparan, Lars Kjelsberg Pedersen, Ole Solheim, Ingerid Reinertsen",
           "link": "https://arxiv.org/pdf/2512.17566",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c1e72bae8c4d2dd504664f6eedc1a325466b12559df8aa6fc5fbe929fb95fcbf_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "MAD-OOD: A Deep Learning Cluster-Driven Framework for an Out-of-Distribution Malware Detection and Classification",
           "authors": "Tosin Ige, Christopher Kiekintveld, Aritran Piplai, Asif Rahman, Olukunle Kolade, Sasidhar Kunapuli",
           "link": "https://arxiv.org/pdf/2512.17594",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c1e72bae8c4d2dd504664f6eedc1a325466b12559df8aa6fc5fbe929fb95fcbf_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "More Consistent Accuracy PINN via Alternating Easy-Hard Training",
           "authors": "Zhaoqian Gao, Min Yanga",
           "link": "https://arxiv.org/pdf/2512.17607",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c1e72bae8c4d2dd504664f6eedc1a325466b12559df8aa6fc5fbe929fb95fcbf_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "MGRegBench: A Novel Benchmark Dataset with Anatomical Landmarks for Mammography Image Registration",
@@ -591,7 +591,7 @@
           "authors": "Jakob De Moor, Hans Weytjens, Johannes De Smedt, Jochen De Weerdt",
           "link": "https://arxiv.org/pdf/2512.17629",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a948c761d13b2b79a39ce9d5e992677a2054a69ebce16f21dcf30264ab34a82f_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Trust-Region Adaptive Policy Optimization",
@@ -605,42 +605,42 @@
           "authors": "Anirban Majumdar, Ritam Raha, Rajarshi Roy, David Parker, Marta Kwiatkowska",
           "link": "https://arxiv.org/pdf/2512.17637",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1d0101cc9ad451bf594fefde69475b9ae7433ae4f0ec8954e841150d68840d01_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "STAR: Semantic-Traffic Alignment and Retrieval for Zero-Shot HTTPS Website Fingerprinting",
           "authors": "Yifei Cheng, Yujia Zhu, Baiyang Li, Xinhao Deng, Yitong Cai, Yaochen Ren, Qingyun Liu",
           "link": "https://arxiv.org/pdf/2512.17667",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1d0101cc9ad451bf594fefde69475b9ae7433ae4f0ec8954e841150d68840d01_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "You Only Train Once: Differentiable Subset Selection for Omics Data",
           "authors": "Daphné Chopard, Jorge da Silva Gonçalves, Irene Cannistraci, Thomas M. Sutter, Julia E. Vogt",
           "link": "https://arxiv.org/pdf/2512.17678",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1d0101cc9ad451bf594fefde69475b9ae7433ae4f0ec8954e841150d68840d01_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Learning Spatio-Temporal Feature Representations for Video-Based Gaze Estimation",
           "authors": "Alexandre Personnic, Mihai Bâce",
           "link": "https://arxiv.org/pdf/2512.17673",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1d0101cc9ad451bf594fefde69475b9ae7433ae4f0ec8954e841150d68840d01_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "An Empirical Study of Sampling Hyperparameters in Diffusion-Based Super-Resolution",
           "authors": "Yudhistira Arief Wibowo",
           "link": "https://arxiv.org/pdf/2512.17675",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1d0101cc9ad451bf594fefde69475b9ae7433ae4f0ec8954e841150d68840d01_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Digital and Web Forensics Model Cards, V1",
           "authors": "Paola Di Maio",
           "link": "https://arxiv.org/pdf/2512.17722",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1d0101cc9ad451bf594fefde69475b9ae7433ae4f0ec8954e841150d68840d01_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Diversity Recommendation via Causal Deconfounding of Co-purchase Relations and Counterfactual Exposure",
@@ -661,14 +661,14 @@
           "authors": "Dong Chen, Zhengqing Hu, Shixing Zhao, Yibo Guo",
           "link": "https://arxiv.org/pdf/2512.17771",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c26792d83b697ded69eb83a7cee4b4440d0b9637b6c3fbd2061ab2aef67d7bcd_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Bangla MedER: Multi-BERT Ensemble Approach for the Recognition of Bangla Medical Entity",
           "authors": "Tanjim Taharat Aurpa, Farzana Akter, Md. Mehedi Hasan, Shakil Ahmed, Shifat Ara Rafiq, Fatema Khan",
           "link": "https://arxiv.org/pdf/2512.17769",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c26792d83b697ded69eb83a7cee4b4440d0b9637b6c3fbd2061ab2aef67d7bcd_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Pix2NPHM: Learning to Regress NPHM Reconstructions From a Single Image",
@@ -682,28 +682,28 @@
           "authors": "Binh Vu",
           "link": "https://arxiv.org/pdf/2512.17795",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d8fb0b1e8242f96e5f0b2988237b2d0603a8f364d90cc833a33b2313d43b1ae4_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "LLM-based Behaviour Driven Development for Hardware Design",
           "authors": "Rolf Drechsler, Qian Liu",
           "link": "https://arxiv.org/pdf/2512.17814",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d8fb0b1e8242f96e5f0b2988237b2d0603a8f364d90cc833a33b2313d43b1ae4_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "ShareChat: A Dataset of Chatbot Conversations in the Wild",
           "authors": "Yueru Yan, Tuc Nguyen, Bo Su, Melissa Lieffers, Thai Le",
           "link": "https://arxiv.org/pdf/2512.17843",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d8fb0b1e8242f96e5f0b2988237b2d0603a8f364d90cc833a33b2313d43b1ae4_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Planning as Descent: Goal-Conditioned Latent Trajectory Synthesis in Learned Energy Landscapes",
           "authors": "Carlos Vélez García, Miguel Cazorla, Jorge Pomares",
           "link": "https://arxiv.org/pdf/2512.17846",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d8fb0b1e8242f96e5f0b2988237b2d0603a8f364d90cc833a33b2313d43b1ae4_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Animate Any Character in Any World",
@@ -717,7 +717,7 @@
           "authors": "Corey M. Abramson",
           "link": "https://arxiv.org/pdf/2512.17850",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e1a251648d46bb8da396759e99d563b9a2d57eb19fc5ed8f7ece18ccb7bfeeee_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "InfSplign: Inference-Time Spatial Alignment of Text-to-Image Diffusion Models",
@@ -731,7 +731,7 @@
           "authors": "Balram Singh, Ram Prakash Sharma, Somnath Dey",
           "link": "https://arxiv.org/pdf/2512.17864",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b3552d146c759bb8b81dd4441230819f44e04ae7530ed1ec49cc21133ed3f116_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "AnyTask: an Automated Task and Data Generation Framework for Advancing Sim-to-Real Policy Learning",
@@ -745,14 +745,14 @@
           "authors": "Herlock Rahimi",
           "link": "https://arxiv.org/pdf/2512.17878",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/42fca94c46885d829dda241902549fc6761186740477806e7cc7cc1b8d19368a_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Humanlike AI Design Increases Anthropomorphism but Yields Divergent Outcomes on Engagement and Trust Globally",
           "authors": "Robin Schimmelpfennig, Mark Díaz, Vinodkumar Prabhakaran, Aida Davani",
           "link": "https://arxiv.org/pdf/2512.17898",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/42fca94c46885d829dda241902549fc6761186740477806e7cc7cc1b8d19368a_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "RadarGen: Automotive Radar Point Cloud Generation from Cameras",
@@ -766,7 +766,7 @@
           "authors": "Jonathon Fox, William J Buchanan, Pavlos Papadopoulos",
           "link": "https://arxiv.org/pdf/2512.17902",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5f9db7b3665dbba1bcaed95897dff8a53103ef5bfe963b50f03c044189965a72_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "When Reasoning Meets Its Laws",
@@ -787,7 +787,7 @@
           "authors": "Jack Y. Araz, Michael Spannowsky",
           "link": "https://arxiv.org/pdf/2512.17048",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4d57b4723f1c065c80f840b86af58e96a683cea596741b961e8c90f8c5680da8_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Graph Attention Networks for Detecting Epilepsy from EEG Signals Using Accessible Hardware in Low-Resource Settings",
@@ -801,14 +801,14 @@
           "authors": "Sandeep Neela",
           "link": "https://arxiv.org/pdf/2512.17185",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/11a2356fa2a2cafe6887d85b978c67e18494f41d547e787460e381132d0f9508_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "From Priors to Predictions: Explaining and Visualizing Human Reasoning in a Graph Neural Network Framework",
           "authors": "Quan Do, Caroline Ahn, Leah Bakst, Michael Pascale, Joseph T. McGuire, Chantal E. Stern, Michael E. Hasselmo",
           "link": "https://arxiv.org/pdf/2512.17255",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/11a2356fa2a2cafe6887d85b978c67e18494f41d547e787460e381132d0f9508_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "HydroGym: A Reinforcement Learning Platform for Fluid Dynamics",
@@ -941,7 +941,7 @@
           "authors": "Philipp L. Kinon, Simon R. Eugster, Peter Betsch",
           "link": "https://arxiv.org/pdf/2512.19408",
           "day": "2025-12-23",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e2db71241f8b136e671bfbd60878ebfc82de055944b09b4fd5d0a608d13528f8_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "The Best of Both Worlds: Hybridizing Neural Operators and Solvers for Stable Long-Horizon Inference",
@@ -1039,7 +1039,7 @@
           "authors": "Kamer Ali Yuksel",
           "link": "https://arxiv.org/pdf/2512.16970",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/40fba3081819027f6af6208a55e87bd4bfc888d4ba6ce07d9baa5f158fbe6fa2_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Probing Scientific General Intelligence of LLMs with Scientist-Aligned Workflows",
@@ -1053,7 +1053,7 @@
           "authors": "Victoria-Elisabeth Gruber, Razvan Marinescu, Diego Fajardo, Amin H. Nassar, Christopher Arkfeld, Alexandria Ludlow, Shama Patel, Mehrnoosh Samaei, Valerie Klug, Anna Huber, Marcel Gühner, Albert Botta i Orfila, Irene Lagoja, Kimya Tarr, Haleigh Larson, Mary Beth Howard",
           "link": "https://arxiv.org/pdf/2512.17028",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/906b49597857a3cad8e1c9c8d6cdbec46e7807fe819943d1e6d91facfb7f18bd_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Knowledge Distillation with Structured Chain-of-Thought for Text-to-SQL",
@@ -1074,7 +1074,7 @@
           "authors": "Michael H. Coen",
           "link": "https://arxiv.org/pdf/2512.17083",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/38c83df2ce552270bc09f323934a96a0aad16af58e736a7049ccfd73afeed0d4_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "A Solver-in-the-Loop Framework for Improving LLMs on Answer Set Programming for Logic Puzzle Solving",
@@ -1088,7 +1088,7 @@
           "authors": "Zahra Rahmani, Hossein Sameti",
           "link": "https://arxiv.org/pdf/2512.17247",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/74363ce6b272cc866e0e9407e36b6e57863b7642ae94357d478230d1f46735a0_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "AutoMetrics: Approximate Human Judgements with Automatically Generated Evaluators",
@@ -1116,28 +1116,28 @@
           "authors": "Daksh Jain, Aarya Jain, Ashutosh Desai, Avyakt Verma, Ishan Bhanuka, Pratik Narang, Dhruv Kumar",
           "link": "https://arxiv.org/pdf/2512.17308",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0ed7cbd6c6a04ef8f9a23147e56923de1ca94a48cc51c20cfa98200b90baa146_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Task Schema and Binding: A Double Dissociation Study of In-Context Learning",
           "authors": "Chaeha Kim",
           "link": "https://arxiv.org/pdf/2512.17325",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0ed7cbd6c6a04ef8f9a23147e56923de1ca94a48cc51c20cfa98200b90baa146_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "AdvJudge-Zero: Binary Decision Flips in LLM-as-a-Judge via Adversarial Control Tokens",
           "authors": "Tung-Ling Li, Yuhao Wu, Hongliang Liu",
           "link": "https://arxiv.org/pdf/2512.17375",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0ed7cbd6c6a04ef8f9a23147e56923de1ca94a48cc51c20cfa98200b90baa146_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Are Vision Language Models Cross-Cultural Theory of Mind Reasoners?",
           "authors": "Zabir Al Nazi, G M Shahariar, Abrar Hossain, Wei Peng",
           "link": "https://arxiv.org/pdf/2512.17394",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0ed7cbd6c6a04ef8f9a23147e56923de1ca94a48cc51c20cfa98200b90baa146_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "RadImageNet-VQA: A Large-Scale CT and MRI Dataset for Radiologic Visual Question Answering",
@@ -1158,7 +1158,7 @@
           "authors": "Menna Elgabry, Ali Hamdi",
           "link": "https://arxiv.org/pdf/2512.17630",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6a15f186f48b4cc77c0d16272783515a0f56f75b51cf745384fc582f7e77f37a_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "AncientBench: Towards Comprehensive Evaluation on Excavated and Transmitted Chinese Corpora",
@@ -1172,14 +1172,14 @@
           "authors": "Tanjim Taharat Aurpa, Farzana Akter, Md. Mehedi Hasan, Shakil Ahmed, Shifat Ara Rafiq, Fatema Khan",
           "link": "https://arxiv.org/pdf/2512.17769",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5f9db7b3665dbba1bcaed95897dff8a53103ef5bfe963b50f03c044189965a72_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "ShareChat: A Dataset of Chatbot Conversations in the Wild",
           "authors": "Yueru Yan, Tuc Nguyen, Bo Su, Melissa Lieffers, Thai Le",
           "link": "https://arxiv.org/pdf/2512.17843",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5f9db7b3665dbba1bcaed95897dff8a53103ef5bfe963b50f03c044189965a72_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "When Reasoning Meets Its Laws",
@@ -1718,7 +1718,7 @@
           "authors": "Saksham Sahai Srivastava, Haoyu He",
           "link": "https://arxiv.org/pdf/2512.16962",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3a313962e09ceaa54a617d0e446a38a50ffa44d10894d76830f87cd1e74c0749_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Adversarial VR: An Open-Source Testbed for Evaluating Adversarial Robustness of VR Cybersickness Detection and Mitigation",
@@ -1739,21 +1739,21 @@
           "authors": "Madhava Gaikwad",
           "link": "https://arxiv.org/pdf/2512.17251",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f38ab38719abeec4c59d997e57b2ecf1dd76acec3485b40aa5ccef81258f3179_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Practical Framework for Privacy-Preserving and Byzantine-robust Federated Learning",
           "authors": "Baolei Zhang, Minghong Fang, Zhuqing Liu, Biao Yi, Peizhao Zhou, Yuan Wang, Tong Li, Zheli Liu",
           "link": "https://arxiv.org/pdf/2512.17254",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f38ab38719abeec4c59d997e57b2ecf1dd76acec3485b40aa5ccef81258f3179_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "AdvJudge-Zero: Binary Decision Flips in LLM-as-a-Judge via Adversarial Control Tokens",
           "authors": "Tung-Ling Li, Yuhao Wu, Hongliang Liu",
           "link": "https://arxiv.org/pdf/2512.17375",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f38ab38719abeec4c59d997e57b2ecf1dd76acec3485b40aa5ccef81258f3179_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "DeepShare: Sharing ReLU Across Channels and Layers for Efficient Private Inference",
@@ -2117,14 +2117,14 @@
           "authors": "Changxu Duan",
           "link": "https://arxiv.org/pdf/2512.18115",
           "day": "2025-12-23",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/55a03600bbbf89f98190599bd29b1a2f12ec3a4ac217e9251256ba5b1f3c6a42_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Asynchronous Pipeline Parallelism for Real-Time Multilingual Lip Synchronization in Video Communication Systems",
           "authors": "Eren Caglar, Amirkia Rafiei Oskooei, Mehmet Kutanoglu, Mustafa Keles, Mehmet S. Aktas",
           "link": "https://arxiv.org/pdf/2512.18318",
           "day": "2025-12-23",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/55a03600bbbf89f98190599bd29b1a2f12ec3a4ac217e9251256ba5b1f3c6a42_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "PMPGuard: Catching Pseudo-Matched Pairs in Remote Sensing Image-Text Retrieval",
@@ -2159,21 +2159,21 @@
           "authors": "Qi Xu, Shuai Gong, Xuming Ran, Haihua Luo, Yangfan Hu",
           "link": "https://arxiv.org/pdf/2512.16948",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f77d0c91314abfde67968e7d31c4f0423abf8cdee43f2eaa3b2d640c1e5984a3_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Lights, Camera, Consistency: A Multistage Pipeline for Character-Stable AI Video Stories",
           "authors": "Chayan Jain, Rishant Sharma, Archit Garg, Ishan Bhanuka, Pratik Narang, Dhruv Kumar",
           "link": "https://arxiv.org/pdf/2512.16954",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f77d0c91314abfde67968e7d31c4f0423abf8cdee43f2eaa3b2d640c1e5984a3_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Enhancing Tree Species Classification: Insights from YOLOv8 and Explainable AI Applied to TLS Point Cloud Projections",
           "authors": "Adrian Straker, Paul Magdon, Marco Zullich, Maximilian Freudenberg, Christoph Kleinn, Johannes Breidenbach, Stefano Puliti, Nils Nölke",
           "link": "https://arxiv.org/pdf/2512.16950",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f77d0c91314abfde67968e7d31c4f0423abf8cdee43f2eaa3b2d640c1e5984a3_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Comparison of deep learning models: CNN and VGG-16 in identifying pornographic content",
@@ -2201,7 +2201,7 @@
           "authors": "Mohammed Irfan Kurpath, Jaseel Muhammad Kaithakkodan, Jinxing Zhou, Sahal Shaji Mullappilly, Mohammad Almansoori, Noor Ahsan, Beknur Kalmakhanbet, Sambal Shikhar, Rishabh Lalla, Jean Lahoud, Mariette Awad, Fahad Shahbaz Khan, Salman Khan, Rao Muhammad Anwer, Hisham Cholakkal",
           "link": "https://arxiv.org/pdf/2512.16978",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1c2b434a364e1db7fb30807eeda54f751647c7d8a35266a66353a42fbc7d8ed6_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Endo-SemiS: Towards Robust Semi-Supervised Image Segmentation for Endoscopic Video",
@@ -2222,7 +2222,7 @@
           "authors": "Martin Schwartz, Fajwel Fogel, Nikola Besic, Damien Robert, Louis Geist, Jean-Pierre Renaud, Jean-Matthieu Monnet, Clemens Mosig, Cédric Vega, Alexandre d'Aspremont, Loic Landrieu, Philippe Ciais",
           "link": "https://arxiv.org/pdf/2512.17021",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/984284ddd81cfd062ac9ad33ace38b4ec632b0ff9087f0906272c5b5d34e4175_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Infinite-Homography as Robust Conditioning for Camera-Controlled Video Generation",
@@ -2236,7 +2236,7 @@
           "authors": "Panagiota Gatoula, George Dimas, Dimitris K. Iakovidis",
           "link": "https://arxiv.org/pdf/2512.17080",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d9785766bd69495591006a354948b34ae7d717dcbb9e1e10f4bd690b1e6c2569_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "DGH: Dynamic Gaussian Hair",
@@ -2299,7 +2299,7 @@
           "authors": "Matias Quintana, Fangqi Liu, Jussi Torkko, Youlong Gu, Xiucheng Liang, Yujun Hou, Koichi Ito, Yihan Zhu, Mahmoud Abdelrahman, Tuuli Toivonen, Yi Lu, Filip Biljecki",
           "link": "https://arxiv.org/pdf/2512.17186",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b2a684e0cd1c8feea699186681976c3ac00a45866e1c3b726129daedbf69d23e_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Globally Optimal Solution to the Generalized Relative Pose Estimation Problem using Affine Correspondences",
@@ -2320,7 +2320,7 @@
           "authors": "Kai Liu, Zeli Lin, Weibo Wang, Linghe Kong, Yulun Zhang",
           "link": "https://arxiv.org/pdf/2512.17202",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7bfcb7d02fac2a6f117f80403719551786b6b7722d6b86bf1338ef9e18ddda6b_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Reasoning Palette: Modulating Reasoning via Latent Contextualization for Controllable Exploration for (V)LMs",
@@ -2341,7 +2341,7 @@
           "authors": "Son Tung Nguyen, Tobias Fischer, Alejandro Fontan, Michael Milford",
           "link": "https://arxiv.org/pdf/2512.17226",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/344c53941f8829675f0d24c7d720447ce983b23a243af49de527a0a89a83b47b_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "DAVE: A VLM Vision Encoder for Document Understanding and Web Agents",
@@ -2383,21 +2383,21 @@
           "authors": "Dong Zifei, Wu Wenjie, Hao Jinkui, Chen Tianqi, Weng Ziqiao, Zhou Bo",
           "link": "https://arxiv.org/pdf/2512.17263",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/abd921f37f90b9dfaf497e986d1ae89307cf4b11dd527bf09bd11e36d239652c_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "WDFFU-Mamba: A Wavelet-guided Dual-attention Feature Fusion Mamba for Breast Tumor Segmentation in Ultrasound Images",
           "authors": "Guoping Cai, Houjin Chen, Yanfeng Li, Jia Sun, Ziwei Chen, Qingzi Geng",
           "link": "https://arxiv.org/pdf/2512.17278",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/abd921f37f90b9dfaf497e986d1ae89307cf4b11dd527bf09bd11e36d239652c_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Diagnostic Performance of Universal-Learning Ultrasound AI Across Multiple Organs and Tasks: the UUSIC25 Challenge",
           "authors": "Zehui Lin, Luyi Han, Xin Wang, Ying Zhou, Yanming Zhang, Tianyu Zhang, Lingyun Bao, Shandong Wu, Dong Xu, Tao Tan, UUSIC25 Challenge Consortium",
           "link": "https://arxiv.org/pdf/2512.17279",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/abd921f37f90b9dfaf497e986d1ae89307cf4b11dd527bf09bd11e36d239652c_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Vision-Language Model Guided Image Restoration",
@@ -2474,14 +2474,14 @@
           "authors": "Sander Moonemans, Sebastiaan Ram, Frédérique Meeuwsen, Carlijn Lems, Jeroen van der Laak, Geert Litjens, Francesco Ciompi",
           "link": "https://arxiv.org/pdf/2512.17326",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c9efc7d352cf45ecba0837aaa2807f3af645c0b85f2e4138960afaf786d151d9_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Rotterdam artery-vein segmentation (RAV) dataset",
           "authors": "Jose Vargas Quiros, Bart Liefers, Karin van Garderen, Jeroen Vermeulen, Eyened Reading Center, Caroline Klaver",
           "link": "https://arxiv.org/pdf/2512.17322",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c9efc7d352cf45ecba0837aaa2807f3af645c0b85f2e4138960afaf786d151d9_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "DESSERT: Diffusion-based Event-driven Single-frame Synthesis via Residual Training",
@@ -2523,7 +2523,7 @@
           "authors": "Zabir Al Nazi, G M Shahariar, Abrar Hossain, Wei Peng",
           "link": "https://arxiv.org/pdf/2512.17394",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0ed7cbd6c6a04ef8f9a23147e56923de1ca94a48cc51c20cfa98200b90baa146_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "RadImageNet-VQA: A Large-Scale CT and MRI Dataset for Radiologic Visual Question Answering",
@@ -2537,14 +2537,14 @@
           "authors": "Martin Krebs, Jan Obdržálek, Vít Musil, Tomáš Brázdil",
           "link": "https://arxiv.org/pdf/2512.17416",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f5131a57d5cef340803d1dd4e55e39db8e4fc7a8b7925e87579be976c079279c_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "AIFloodSense: A Global Aerial Imagery Dataset for Semantic Segmentation and Understanding of Flooded Environments",
           "authors": "Georgios Simantiris, Konstantinos Bacharidis, Apostolos Papanikolaou, Petros Giannakakis, Costas Panagiotakis",
           "link": "https://arxiv.org/pdf/2512.17432",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f5131a57d5cef340803d1dd4e55e39db8e4fc7a8b7925e87579be976c079279c_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Xiaomi MiMo-VL-Miloco Technical Report",
@@ -2586,14 +2586,14 @@
           "authors": "Peshawa J. Muhammad Ali, Navin Vincent, Saman S. Abdulla, Han N. Mohammed Fadhl, Anders Blilie, Kelvin Szolnoky, Julia Anna Mielcarz, Xiaoyi Ji, Nita Mulliqi, Abdulbasit K. Al-Talabani, Kimmo Kartasalo",
           "link": "https://arxiv.org/pdf/2512.17499",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/80d6684c681e0605e017a84878993e58d1f060cd6906ad893ab11cebf1a5f9d2_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "LumiCtrl : Learning Illuminant Prompts for Lighting Control in Personalized Text-to-Image Models",
           "authors": "Muhammad Atif Butt, Kai Wang, Javier Vazquez-Corral, Joost Van De Weijer",
           "link": "https://arxiv.org/pdf/2512.17489",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/80d6684c681e0605e017a84878993e58d1f060cd6906ad893ab11cebf1a5f9d2_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "MMLANDMARKS: a Cross-View Instance-Level Benchmark for Geo-Spatial Understanding",
@@ -2621,7 +2621,7 @@
           "authors": "Siemen Brussee, Pieter A. Valkema, Jurre A. J. Weijer, Thom Doeleman, Anne M.R. Schrader, Jesper Kers",
           "link": "https://arxiv.org/pdf/2512.17517",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6ce0955de2a0c97faf7100d95c356843de584cdb63f24134f9bcbf1fef3e760a_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Foundation Model Priors Enhance Object Focus in Feature Space for Source-Free Object Detection",
@@ -2670,7 +2670,7 @@
           "authors": "Mathilde Gajda Faanes, David Bouget, Asgeir S. Jakola, Timothy R. Smith, Vasileios K. Kavouridis, Francesco Latini, Margret Jensdottir, Peter Milos, Henrietta Nittby Redebrandt, Rickard L. Sjöberg, Rupavathana Mahesparan, Lars Kjelsberg Pedersen, Ole Solheim, Ingerid Reinertsen",
           "link": "https://arxiv.org/pdf/2512.17566",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/01defbd3ee3e8db15e4c76b08a2c5a3cbb6ba5c53643caf0e06f01bee07f1f49_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "RoomEditor++: A Parameter-Sharing Diffusion Architecture for High-Fidelity Furniture Synthesis",
@@ -2684,14 +2684,14 @@
           "authors": "Annika Reinke, Evangelia Christodoulou, Sthuthi Sadananda, A. Emre Kavur, Khrystyna Faryna, Daan Schouten, Bennett A. Landman, Carole Sudre, Olivier Colliot, Nick Heller, Sophie Loizillon, Martin Maška, Maëlys Solal, Arya Yazdan-Panah, Vilma Bozgo, Ömer Sümer, Siem de Jong, Sophie Fischer, Michal Kozubek, Tim Rädsch, Nadim Hammoud, Fruzsina Molnár-Gábor, Steven Hicks, Michael A. Riegler, Anindo Saha, Vajira Thambawita, Pal Halvorsen, Amelia Jiménez-Sánchez, Qingyang Yang, Veronika Cheplygina, Sabrina Bottazzi, Alexander Seitel, Spyridon Bakas, Alexandros Karargyris, Kiran Vaidhya Venkadesh, Bram van Ginneken, Lena Maier-Hein",
           "link": "https://arxiv.org/pdf/2512.17581",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5fc017d71c05a87d24f1951648fbc337f6dcf0174a07c6e9b18d306437014285_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "MAD-OOD: A Deep Learning Cluster-Driven Framework for an Out-of-Distribution Malware Detection and Classification",
           "authors": "Tosin Ige, Christopher Kiekintveld, Aritran Piplai, Asif Rahman, Olukunle Kolade, Sasidhar Kunapuli",
           "link": "https://arxiv.org/pdf/2512.17594",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5fc017d71c05a87d24f1951648fbc337f6dcf0174a07c6e9b18d306437014285_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "3One2: One-step Regression Plus One-step Diffusion for One-hot Modulation in Dual-path Video Snapshot Compressive Imaging",
@@ -2754,7 +2754,7 @@
           "authors": "Evangelos Sariyanidi, Gokul Nair, Lisa Yankowitz, Casey J. Zampella, Mohan Kashyap Pargi, Aashvi Manakiwala, Maya McNealis, John D. Herrington, Jeffrey Cohn, Robert T. Schultz, Birkan Tunc",
           "link": "https://arxiv.org/pdf/2512.17655",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/089843bf864a7cfe4c272a400ced858a82e7f97256cba2c56898e8f4e4591dff_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Generative Human-Object Interaction Detection via Differentiable Cognitive Steering of Multi-modal LLMs",
@@ -2768,21 +2768,21 @@
           "authors": "Alexandre Personnic, Mihai Bâce",
           "link": "https://arxiv.org/pdf/2512.17673",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/291c2533d43a0bee45ee61d6f189d197b685c110c8fea100f87b6b779dda6aaf_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "An Empirical Study of Sampling Hyperparameters in Diffusion-Based Super-Resolution",
           "authors": "Yudhistira Arief Wibowo",
           "link": "https://arxiv.org/pdf/2512.17675",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/291c2533d43a0bee45ee61d6f189d197b685c110c8fea100f87b6b779dda6aaf_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "SAVeD: A First-Person Social Media Video Dataset for ADAS-equipped vehicle Near-Miss and Crash Event Analyses",
           "authors": "Shaoyan Zhai, Mohamed Abdel-Aty, Chenzhu Wang, Rodrigo Vena Garcia",
           "link": "https://arxiv.org/pdf/2512.17724",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/291c2533d43a0bee45ee61d6f189d197b685c110c8fea100f87b6b779dda6aaf_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "FlexAvatar: Flexible Large Reconstruction Model for Animatable Gaussian Head Avatars with Detailed Deformation",
@@ -2796,7 +2796,7 @@
           "authors": "Qian Zeng, Yihui Wang, Shu Yang, Yingxue Xu, Fengtao Zhou, Jiabo Ma, Dejia Cai, Zhengyu Zhang, Lijuan Qu, Yu Wang, Li Liang, Hao Chen",
           "link": "https://arxiv.org/pdf/2512.17726",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3b69dc4fb6ce4ab4ca6cc4b1419cbe29e322a1c22a4599cafb0bf6800683cf49_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "AdaptPrompt: Parameter-Efficient Adaptation of VLMs for Generalizable Deepfake Detection",
@@ -2810,21 +2810,21 @@
           "authors": "Yohanes Yudhi Adikusuma, Qixing Huang, Ying He",
           "link": "https://arxiv.org/pdf/2512.17781",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c26792d83b697ded69eb83a7cee4b4440d0b9637b6c3fbd2061ab2aef67d7bcd_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "UrbanDIFF: A Denoising Diffusion Model for Spatial Gap Filling of Urban Land Surface Temperature Under Dense Cloud Cover",
           "authors": "Arya Chavoshi, Hassan Dashtian, Naveen Sudharsan, Dev Niyogi",
           "link": "https://arxiv.org/pdf/2512.17782",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c26792d83b697ded69eb83a7cee4b4440d0b9637b6c3fbd2061ab2aef67d7bcd_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Long-Range depth estimation using learning based Hybrid Distortion Model for CCTV cameras",
           "authors": "Ami Pandat, Punna Rajasekhar, G.Aravamuthan, Gopika Vinod, Rohit Shukla",
           "link": "https://arxiv.org/pdf/2512.17784",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c26792d83b697ded69eb83a7cee4b4440d0b9637b6c3fbd2061ab2aef67d7bcd_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Pix2NPHM: Learning to Regress NPHM Reconstructions From a Single Image",
@@ -2859,7 +2859,7 @@
           "authors": "Mengkun Chen, Sanidhya D. Tripathi, James W. Tunnell",
           "link": "https://arxiv.org/pdf/2512.17852",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e1a251648d46bb8da396759e99d563b9a2d57eb19fc5ed8f7ece18ccb7bfeeee_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "InfSplign: Inference-Time Spatial Alignment of Text-to-Image Diffusion Models",
@@ -2873,7 +2873,7 @@
           "authors": "Balram Singh, Ram Prakash Sharma, Somnath Dey",
           "link": "https://arxiv.org/pdf/2512.17864",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c3be976f0784a55cb3060e705b880d59783015427100e3ca645b5aa22bfe5f76_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Keypoint Counting Classifiers: Turning Vision Transformers into Self-Explainable Models Without Training",
@@ -2915,14 +2915,14 @@
           "authors": "Jonathon Fox, William J Buchanan, Pavlos Papadopoulos",
           "link": "https://arxiv.org/pdf/2512.17902",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0d67a89ae639d29f772540022b521f1cb6c865bf4eff8ab082f8c6e9eeeaaa6a_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Colormap-Enhanced Vision Transformers for MRI-Based Multiclass (4-Class) Alzheimer's Disease Classification",
           "authors": "Faisal Ahmed",
           "link": "https://arxiv.org/pdf/2512.16964",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0d67a89ae639d29f772540022b521f1cb6c865bf4eff8ab082f8c6e9eeeaaa6a_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Dexterous World Models",
@@ -3251,14 +3251,14 @@
           "authors": "Kwangjun Ahn, Noah Amsel, John Langford",
           "link": "https://arxiv.org/pdf/2512.16928",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/09a9feeec6bf4367fbf82a987484881d47da3c3be2e4b769373b648eb200942b_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Practical Framework for Privacy-Preserving and Byzantine-robust Federated Learning",
           "authors": "Baolei Zhang, Minghong Fang, Zhuqing Liu, Biao Yi, Peizhao Zhou, Yuan Wang, Tong Li, Zheli Liu",
           "link": "https://arxiv.org/pdf/2512.17254",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/09a9feeec6bf4367fbf82a987484881d47da3c3be2e4b769373b648eb200942b_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Adaptive Graph Pruning with Sudden-Events Evaluation for Traffic Prediction using Online Semi-Decentralized ST-GNNs",
@@ -3370,7 +3370,7 @@
           "authors": "Changxu Duan",
           "link": "https://arxiv.org/pdf/2512.18115",
           "day": "2025-12-23",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/223af4236b8054c115a63d9347b78cbbcaa60d4e4713a4121398da1ace059d38_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Accelerating End-to-End PDF to Markdown Conversion Through Assisted Generation",
@@ -3587,7 +3587,7 @@
           "authors": "Ohoud Alzahrani, Russell Beale, Bob Hendley",
           "link": "https://arxiv.org/pdf/2512.17067",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7767a7bc851a49f82148423782803913a5c377f60c4ce3a9cc7383c22a6d08a4_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "PILAR: Personalizing Augmented Reality Interactions with LLM-based Human-Centric and Trustworthy Explanations for Daily Use Cases",
@@ -3727,7 +3727,7 @@
           "authors": "Erica Coppolillo, Simone Mungari",
           "link": "https://arxiv.org/pdf/2512.17027",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ea9a6c4b5b64bc9b1ed96212005ee492c3fd2ae615fc413250d7a6ef7c3bc712_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "ABE-CLIP: Training-Free Attribute Binding Enhancement for Compositional Image-Text Matching",
@@ -3748,14 +3748,14 @@
           "authors": "Jan Hutter, Hua Chang Bakker, Stan Fris, Madelon Bernardy, Yuanna Liu",
           "link": "https://arxiv.org/pdf/2512.17442",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1d0101cc9ad451bf594fefde69475b9ae7433ae4f0ec8954e841150d68840d01_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Behavioural Effects of Agentic Messaging: A Case Study on a Financial Service Application",
           "authors": "Olivier Jeunen, Schaun Wheeler",
           "link": "https://arxiv.org/pdf/2512.17462",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1d0101cc9ad451bf594fefde69475b9ae7433ae4f0ec8954e841150d68840d01_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Diversity Recommendation via Causal Deconfounding of Co-purchase Relations and Counterfactual Exposure",
@@ -3937,7 +3937,7 @@
           "authors": "Effiong Blessing, Chiung-Yi Tseng, Somshubhra Roy, Junaid Rehman, Isaac Nkrumah",
           "link": "https://arxiv.org/pdf/2512.18575",
           "day": "2025-12-23",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/55a03600bbbf89f98190599bd29b1a2f12ec3a4ac217e9251256ba5b1f3c6a42_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "PMPGuard: Catching Pseudo-Matched Pairs in Remote Sensing Image-Text Retrieval",
@@ -3951,7 +3951,7 @@
           "authors": "Xueming Yan, Boyan Xu, Yaochu Jin, Lixian Xiao, Wenlong Ye, Runyang Cai, Zeqi Zheng, Jingfa Liu, Aimin Yang",
           "link": "https://arxiv.org/pdf/2512.19379",
           "day": "2025-12-23",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e2db71241f8b136e671bfbd60878ebfc82de055944b09b4fd5d0a608d13528f8_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "The Best of Both Worlds: Hybridizing Neural Operators and Solvers for Stable Long-Horizon Inference",
@@ -3972,14 +3972,14 @@
           "authors": "Kwangjun Ahn, Noah Amsel, John Langford",
           "link": "https://arxiv.org/pdf/2512.16928",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c743ebe3d40c5416b7ff367b0e7e93ca8ff7bf1bd771b2359d8a7333521abcbc_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "BIONIX: A Wireless, Low-Cost Prosthetic Arm with Dual-Signal EEG and EMG Control",
           "authors": "Pranesh Sathish Kumar",
           "link": "https://arxiv.org/pdf/2512.16929",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c743ebe3d40c5416b7ff367b0e7e93ca8ff7bf1bd771b2359d8a7333521abcbc_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "SpIDER: Spatially Informed Dense Embedding Retrieval for Software Issue Localization",
@@ -4000,42 +4000,42 @@
           "authors": "Zhongpan Tang",
           "link": "https://arxiv.org/pdf/2512.16963",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/40fba3081819027f6af6208a55e87bd4bfc888d4ba6ce07d9baa5f158fbe6fa2_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "PAACE: A Plan-Aware Automated Agent Context Engineering Framework",
           "authors": "Kamer Ali Yuksel",
           "link": "https://arxiv.org/pdf/2512.16970",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/40fba3081819027f6af6208a55e87bd4bfc888d4ba6ce07d9baa5f158fbe6fa2_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "MemoryGraft: Persistent Compromise of LLM Agents via Poisoned Experience Retrieval",
           "authors": "Saksham Sahai Srivastava, Haoyu He",
           "link": "https://arxiv.org/pdf/2512.16962",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/40fba3081819027f6af6208a55e87bd4bfc888d4ba6ce07d9baa5f158fbe6fa2_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Physics-Informed Lightweight Machine Learning for Aviation Visibility Nowcasting Across Multiple Climatic Regimes",
           "authors": "Marcelo Cerda Castillo",
           "link": "https://arxiv.org/pdf/2512.16967",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/40fba3081819027f6af6208a55e87bd4bfc888d4ba6ce07d9baa5f158fbe6fa2_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "QSMOTE-PGM/kPGM: QSMOTE Based PGM and kPGM for Imbalanced Dataset Classification",
           "authors": "Bikash K. Behera, Giuseppe Sergioli, Robert Giuntini",
           "link": "https://arxiv.org/pdf/2512.16960",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/40fba3081819027f6af6208a55e87bd4bfc888d4ba6ce07d9baa5f158fbe6fa2_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Turn-PPO: Turn-Level Advantage Estimation with PPO for Improved Multi-Turn RL in Agentic LLMs",
           "authors": "Junbo Li, Peng Zhou, Rui Meng, Meet P. Vadera, Lihong Li, Yang Li",
           "link": "https://arxiv.org/pdf/2512.17008",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/40fba3081819027f6af6208a55e87bd4bfc888d4ba6ce07d9baa5f158fbe6fa2_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Probing Scientific General Intelligence of LLMs with Scientist-Aligned Workflows",
@@ -4049,21 +4049,21 @@
           "authors": "Victoria-Elisabeth Gruber, Razvan Marinescu, Diego Fajardo, Amin H. Nassar, Christopher Arkfeld, Alexandria Ludlow, Shama Patel, Mehrnoosh Samaei, Valerie Klug, Anna Huber, Marcel Gühner, Albert Botta i Orfila, Irene Lagoja, Kimya Tarr, Haleigh Larson, Mary Beth Howard",
           "link": "https://arxiv.org/pdf/2512.17028",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a1d880d31eb189fff50465aa10379459bec7bfbbf666206f8ad6ea98793a534a_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "GB-DQN: Gradient Boosted DQN Models for Non-stationary Reinforcement Learning",
           "authors": "Chang-Hwan Lee, Chanseung Lee",
           "link": "https://arxiv.org/pdf/2512.17034",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a1d880d31eb189fff50465aa10379459bec7bfbbf666206f8ad6ea98793a534a_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "SFBD-OMNI: Bridge models for lossy measurement restoration with limited clean samples",
           "authors": "Haoye Lu, Yaoliang Yu, Darren Ho",
           "link": "https://arxiv.org/pdf/2512.17051",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a1d880d31eb189fff50465aa10379459bec7bfbbf666206f8ad6ea98793a534a_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Dynamic Tool Dependency Retrieval for Efficient Function Calling",
@@ -4077,7 +4077,7 @@
           "authors": "Vladimir G. Pestov",
           "link": "https://arxiv.org/pdf/2512.17058",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9501255b38adfbd4ed3cb05e9a136df6cf358b6420281716744f14c17554a871_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Can Large Reasoning Models Improve Accuracy on Mathematical Tasks Using Flawed Thinking?",
@@ -4105,21 +4105,21 @@
           "authors": "Lorenzo Loconte, Adrián Javaloy, Antonio Vergari",
           "link": "https://arxiv.org/pdf/2512.17090",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1ae01de3bb190d7134b2995b14582f1e46ed434d4588a9e6017b7c9282b01074_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Learning to Plan, Planning to Learn: Adaptive Hierarchical RL-MPC for Sample-Efficient Decision Making",
           "authors": "Toshiaki Hori, Jonathan DeCastro, Deepak Gopinath, Avinash Balachandran, Guy Rosman",
           "link": "https://arxiv.org/pdf/2512.17091",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1ae01de3bb190d7134b2995b14582f1e46ed434d4588a9e6017b7c9282b01074_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "UniCoMTE: A Universal Counterfactual Framework for Explaining Time-Series Classifiers on ECG Data",
           "authors": "Justin Li, Efe Sencan, Jasper Zheng Duan, Vitus J. Leung, Stephan Tsaur, Ayse K. Coskun",
           "link": "https://arxiv.org/pdf/2512.17100",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1ae01de3bb190d7134b2995b14582f1e46ed434d4588a9e6017b7c9282b01074_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Atom: Efficient On-Device Video-Language Pipelines Through Modular Reuse",
@@ -4140,7 +4140,7 @@
           "authors": "Alireza Moayedikia, Alicia Troncoso",
           "link": "https://arxiv.org/pdf/2512.17109",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/bcadf51218711774df214ce0c80d2175e2b72d14b2fab69a5a27aebd9bc17bd2_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "The Effect of Negation on CLIP in Medical Imaging: Limitations of Contrastive Language-Image Pretraining",
@@ -4161,14 +4161,14 @@
           "authors": "Seong Ho Pahng, Guoye Guan, Benjamin Fefferman, Sahand Hormoz",
           "link": "https://arxiv.org/pdf/2512.17129",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/edf3a867526cb70d49c0816641a925b129fe30dc5f7871777c74f463824654df_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Smoothing DiLoCo with Primal Averaging for Faster Training of LLMs",
           "authors": "Aaron Defazio, Konstantin Mishchenko, Parameswaran Raman, Hao-Jun Michael Shi, Lin Xiao",
           "link": "https://arxiv.org/pdf/2512.17131",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/edf3a867526cb70d49c0816641a925b129fe30dc5f7871777c74f463824654df_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Biosecurity-Aware AI: Agentic Risk Auditing of Soft Prompt Attacks on ESM-Based Variant Predictors",
@@ -4182,28 +4182,28 @@
           "authors": "Liad Lea Didi, Kobi Cohen",
           "link": "https://arxiv.org/pdf/2512.17161",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/75c86c0e9aa8fe8870d86c5f63baf1ccd89856e7434ece25e03ba384660733fc_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "BumpNet: A Sparse Neural Network Framework for Learning PDE Solutions",
           "authors": "Shao-Ting Chiu, Ioannis G. Kevrekidis, Ulisses Braga-Neto",
           "link": "https://arxiv.org/pdf/2512.17198",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/75c86c0e9aa8fe8870d86c5f63baf1ccd89856e7434ece25e03ba384660733fc_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Learning solution operator of dynamical systems with diffusion maps kernel ridge regression",
           "authors": "Jiwoo Song, Daning Huang, John Harlim",
           "link": "https://arxiv.org/pdf/2512.17203",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/75c86c0e9aa8fe8870d86c5f63baf1ccd89856e7434ece25e03ba384660733fc_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Do Foundational Audio Encoders Understand Music Structure?",
           "authors": "Keisuke Toyama, Zhi Zhong, Akira Takahashi, Shusuke Takahashi, Yuki Mitsufuji",
           "link": "https://arxiv.org/pdf/2512.17209",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/75c86c0e9aa8fe8870d86c5f63baf1ccd89856e7434ece25e03ba384660733fc_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "CheXPO-v2: Preference Optimization for Chest X-ray VLMs with Knowledge Graph Consistency",
@@ -4217,35 +4217,35 @@
           "authors": "Madhava Gaikwad",
           "link": "https://arxiv.org/pdf/2512.17251",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a60caf6cec7c2ab0bdf36d4e5ba8513e86e73ba9dc3d215615ad6190a8df9091_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Practical Framework for Privacy-Preserving and Byzantine-robust Federated Learning",
           "authors": "Baolei Zhang, Minghong Fang, Zhuqing Liu, Biao Yi, Peizhao Zhou, Yuan Wang, Tong Li, Zheli Liu",
           "link": "https://arxiv.org/pdf/2512.17254",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a60caf6cec7c2ab0bdf36d4e5ba8513e86e73ba9dc3d215615ad6190a8df9091_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Electric Vehicle Charging Load Forecasting: An Experimental Comparison of Machine Learning Methods",
           "authors": "Iason Kyriakopoulos, Yannis Theodoridis",
           "link": "https://arxiv.org/pdf/2512.17257",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a60caf6cec7c2ab0bdf36d4e5ba8513e86e73ba9dc3d215615ad6190a8df9091_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "SHARP-QoS: Sparsely-gated Hierarchical Adaptive Routing for joint Prediction of QoS",
           "authors": "Suraj Kumar, Arvind Kumar, Soumi Chattopadhyay",
           "link": "https://arxiv.org/pdf/2512.17262",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a60caf6cec7c2ab0bdf36d4e5ba8513e86e73ba9dc3d215615ad6190a8df9091_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "A Theoretical Analysis of State Similarity Between Markov Decision Processes",
           "authors": "Zhenyu Tao, Wei Xu, Xiaohu You",
           "link": "https://arxiv.org/pdf/2512.17265",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a60caf6cec7c2ab0bdf36d4e5ba8513e86e73ba9dc3d215615ad6190a8df9091_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Verifiability-First Agents: Provable Observability and Lightweight Audit Agents for Controlling Autonomous LLM Systems",
@@ -4259,7 +4259,7 @@
           "authors": "Alireza Moayedikia, Sara Fin",
           "link": "https://arxiv.org/pdf/2512.17276",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/85ede876c98e7e8d1d360bf9eb2cb767cc2570e218ebc72489f68b5cec65ce55_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Understanding Generalization in Role-Playing Models via Information Theory",
@@ -4273,7 +4273,7 @@
           "authors": "Farinaz Mostajeran, Aruzhan Tleubek, Salah A Faroughi",
           "link": "https://arxiv.org/pdf/2512.17273",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f351bf91dbfa3f8f187d67a36cb3c88f1014690a13606c70e860bd376621c71f_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Warmer for Less: A Cost-Efficient Strategy for Cold-Start Recommendations at Pinterest",
@@ -4287,28 +4287,28 @@
           "authors": "Ioannis Stylianou, Achintya kr. Sarkar, Nauman Dawalatabad, James Glass, Zheng-Hua Tan",
           "link": "https://arxiv.org/pdf/2512.17281",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/09a9feeec6bf4367fbf82a987484881d47da3c3be2e4b769373b648eb200942b_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "M2RU: Memristive Minion Recurrent Unit for Continual Learning at the Edge",
           "authors": "Abdullah M. Zyarah, Dhireesha Kudithipudi",
           "link": "https://arxiv.org/pdf/2512.17299",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/09a9feeec6bf4367fbf82a987484881d47da3c3be2e4b769373b648eb200942b_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Explanation Beyond Intuition: A Testable Criterion for Inherent Explainability",
           "authors": "Michael Merry, Pat Riddle, Jim Warren",
           "link": "https://arxiv.org/pdf/2512.17316",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/09a9feeec6bf4367fbf82a987484881d47da3c3be2e4b769373b648eb200942b_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Task Schema and Binding: A Double Dissociation Study of In-Context Learning",
           "authors": "Chaeha Kim",
           "link": "https://arxiv.org/pdf/2512.17325",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/09a9feeec6bf4367fbf82a987484881d47da3c3be2e4b769373b648eb200942b_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Adaptive Graph Pruning with Sudden-Events Evaluation for Traffic Prediction using Online Semi-Decentralized ST-GNNs",
@@ -4322,21 +4322,21 @@
           "authors": "Yidong Chai, Yi Liu, Mohammadreza Ebrahimi, Weifeng Li, Balaji Padmanabhan",
           "link": "https://arxiv.org/pdf/2512.17367",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f38ab38719abeec4c59d997e57b2ecf1dd76acec3485b40aa5ccef81258f3179_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "AdvJudge-Zero: Binary Decision Flips in LLM-as-a-Judge via Adversarial Control Tokens",
           "authors": "Tung-Ling Li, Yuhao Wu, Hongliang Liu",
           "link": "https://arxiv.org/pdf/2512.17375",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f38ab38719abeec4c59d997e57b2ecf1dd76acec3485b40aa5ccef81258f3179_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Timely Information Updating for Mobile Devices Without and With ML Advice",
           "authors": "Yu-Pin Hsu, Yi-Hsuan Tseng",
           "link": "https://arxiv.org/pdf/2512.17381",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f38ab38719abeec4c59d997e57b2ecf1dd76acec3485b40aa5ccef81258f3179_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "DeepShare: Sharing ReLU Across Channels and Layers for Efficient Private Inference",
@@ -4350,7 +4350,7 @@
           "authors": "Dishantkumar Sutariya, Eike Petersen",
           "link": "https://arxiv.org/pdf/2512.17409",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/077c20705c707ee562f1935988b006695cf25f213f2df392cb27846fedaf0d4a_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "SWE-Bench++: A Framework for the Scalable Generation of Software Engineering Benchmarks from Open-Source Repositories",
@@ -4364,7 +4364,7 @@
           "authors": "Javier Gonzalez-Ruiz, Carlos Rodriguez-Pardo, Iacopo Savelli, Alice Di Bella, Massimo Tavoni",
           "link": "https://arxiv.org/pdf/2512.17444",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6eb14eac17bf3aa4e9ce145e08ce4eae06c5adaaf8ccf31ca3fa25a7f3835fa0_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "MULTIAQUA: A multimodal maritime dataset and robust training strategies for multimodal semantic segmentation",
@@ -4378,14 +4378,14 @@
           "authors": "Emmanuel Charleson Dapaah, Jens Grabowski",
           "link": "https://arxiv.org/pdf/2512.17460",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e930d6ea2e25d38e443cede1cee5618870d8bd50e1307a179be023dcac63701d_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Learning What to Write: Write-Gated KV for Efficient Long-Context Inference",
           "authors": "Yen-Chieh Huang, Rui Fang, Ming-Syan Chen, Pi-Cheng Hsiu",
           "link": "https://arxiv.org/pdf/2512.17452",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e930d6ea2e25d38e443cede1cee5618870d8bd50e1307a179be023dcac63701d_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "A lightweight Spatial-Temporal Graph Neural Network for Long-term Time Series Forecasting",
@@ -4399,28 +4399,28 @@
           "authors": "Olivier Jeunen, Schaun Wheeler",
           "link": "https://arxiv.org/pdf/2512.17462",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/67c12280225e186b761a6952a367a2b042a6fcd1886ac481e9bc15f5f81ee64a_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Linear Attention for Joint Power Optimization and User-Centric Clustering in Cell-Free Networks",
           "authors": "Irched Chafaa, Giacomo Bacci, Luca Sanguinetti",
           "link": "https://arxiv.org/pdf/2512.17466",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/67c12280225e186b761a6952a367a2b042a6fcd1886ac481e9bc15f5f81ee64a_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Translating the Rashomon Effect to Sequential Decision-Making Tasks",
           "authors": "Dennis Gross, Jørn Eirik Betten, Helge Spieker",
           "link": "https://arxiv.org/pdf/2512.17470",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/67c12280225e186b761a6952a367a2b042a6fcd1886ac481e9bc15f5f81ee64a_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Deep Learning-Based Surrogate Creep Modelling in Inconel 625: A High-Temperature Alloy Study",
           "authors": "Shubham Das, Kaushal Singhania, Amit Sadhu, Suprabhat Das, Arghya Nandi",
           "link": "https://arxiv.org/pdf/2512.17477",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/67c12280225e186b761a6952a367a2b042a6fcd1886ac481e9bc15f5f81ee64a_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "TwinSegNet: A Digital Twin-Enabled Federated Learning Framework for Brain Tumor Analysis",
@@ -4434,42 +4434,42 @@
           "authors": "Siemen Brussee, Pieter A. Valkema, Jurre A. J. Weijer, Thom Doeleman, Anne M.R. Schrader, Jesper Kers",
           "link": "https://arxiv.org/pdf/2512.17517",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/65d961bcef453cdff273d0991a97111419acf476f8d34e21f66dbd356156dfa7_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "SafeBench-Seq: A Homology-Clustered, CPU-Only Baseline for Protein Hazard Screening with Physicochemical/Composition Features and Cluster-Aware Confidence Intervals",
           "authors": "Muhammad Haris Khan",
           "link": "https://arxiv.org/pdf/2512.17527",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/65d961bcef453cdff273d0991a97111419acf476f8d34e21f66dbd356156dfa7_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "NetworkFF: Unified Layer Optimization in Forward-Only Neural Networks",
           "authors": "Salar Beigzad",
           "link": "https://arxiv.org/pdf/2512.17531",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/65d961bcef453cdff273d0991a97111419acf476f8d34e21f66dbd356156dfa7_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Bayesian Optimisation: Which Constraints Matter?",
           "authors": "Xietao Wang Lin, Juan Ungredda, Max Butler, James Town, Alma Rahat, Hemant Singh, Juergen Branke",
           "link": "https://arxiv.org/pdf/2512.17569",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/65d961bcef453cdff273d0991a97111419acf476f8d34e21f66dbd356156dfa7_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "When De-noising Hurts: A Systematic Study of Speech Enhancement Effects on Modern Medical ASR Systems",
           "authors": "Sujal Chondhekar, Vasanth Murukuri, Rushabh Vasani, Sanika Goyal, Rajshree Badami, Anushree Rana, Sanjana SN, Karthik Pandia, Sulabh Katiyar, Neha Jagadeesh, Sankalp Gulati",
           "link": "https://arxiv.org/pdf/2512.17562",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/65d961bcef453cdff273d0991a97111419acf476f8d34e21f66dbd356156dfa7_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "GreedySnake: Accelerating SSD-Offloaded LLM Training with Efficient Scheduling and Optimizer Step Overlapping",
           "authors": "Yikang Yue, Yishu Yin, Xuehai Qian",
           "link": "https://arxiv.org/pdf/2512.17570",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/65d961bcef453cdff273d0991a97111419acf476f8d34e21f66dbd356156dfa7_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Enabling Disaggregated Multi-Stage MLLM Inference via GPU-Internal Scheduling and Resource Sharing",
@@ -4483,7 +4483,7 @@
           "authors": "Arthur Guijt, Dirk Thierens, Ellen Kerkhof, Jan Wiersma, Tanja Alderliesten, Peter A.N. Bosman",
           "link": "https://arxiv.org/pdf/2512.17592",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a74e4c69d21da3d9d39474c8e185aec564c37a98f7b8fa85563d3b895bd7a484_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Machine Learning for Static and Single-Event Dynamic Complex Network Analysis",
@@ -4497,21 +4497,21 @@
           "authors": "Christophe Prieur, Mircea Lazar, Bogdan Robu",
           "link": "https://arxiv.org/pdf/2512.17593",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/40dd4c52ca67a3f1ecc6ec7068de338a3616940aa4e51935c5ce5f30430ebbfe_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "MAD-OOD: A Deep Learning Cluster-Driven Framework for an Out-of-Distribution Malware Detection and Classification",
           "authors": "Tosin Ige, Christopher Kiekintveld, Aritran Piplai, Asif Rahman, Olukunle Kolade, Sasidhar Kunapuli",
           "link": "https://arxiv.org/pdf/2512.17594",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/40dd4c52ca67a3f1ecc6ec7068de338a3616940aa4e51935c5ce5f30430ebbfe_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "A Systems-Theoretic View on the Convergence of Algorithms under Disturbances",
           "authors": "Guner Dilsad Er, Sebastian Trimpe, Michael Muehlebach",
           "link": "https://arxiv.org/pdf/2512.17598",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/40dd4c52ca67a3f1ecc6ec7068de338a3616940aa4e51935c5ce5f30430ebbfe_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Learning Safe Autonomous Driving Policies Using Predictive Safety Representations",
@@ -4525,21 +4525,21 @@
           "authors": "Zhaoqian Gao, Min Yanga",
           "link": "https://arxiv.org/pdf/2512.17607",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a948c761d13b2b79a39ce9d5e992677a2054a69ebce16f21dcf30264ab34a82f_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "SCOPE: Sequential Causal Optimization of Process Interventions",
           "authors": "Jakob De Moor, Hans Weytjens, Johannes De Smedt, Jochen De Weerdt",
           "link": "https://arxiv.org/pdf/2512.17629",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a948c761d13b2b79a39ce9d5e992677a2054a69ebce16f21dcf30264ab34a82f_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Confidence-Credibility Aware Weighted Ensembles of Small LLMs Outperform Large LLMs in Emotion Detection",
           "authors": "Menna Elgabry, Ali Hamdi",
           "link": "https://arxiv.org/pdf/2512.17630",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a948c761d13b2b79a39ce9d5e992677a2054a69ebce16f21dcf30264ab34a82f_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Trust-Region Adaptive Policy Optimization",
@@ -4553,14 +4553,14 @@
           "authors": "Felix Lehner, Pasquale Lombardo, Susana Castillo, Oliver Hupe, Marcus Magnor",
           "link": "https://arxiv.org/pdf/2512.17654",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b7977f39cb797f71021c4776c090587d8f5e8e7c33c06e677b445877e8ad4c5d_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Polyharmonic Cascade",
           "authors": "Yuriy N. Bakhvalov",
           "link": "https://arxiv.org/pdf/2512.17671",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b7977f39cb797f71021c4776c090587d8f5e8e7c33c06e677b445877e8ad4c5d_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Vidarc: Embodied Video Diffusion Model for Closed-loop Control",
@@ -4574,49 +4574,49 @@
           "authors": "Daphné Chopard, Jorge da Silva Gonçalves, Irene Cannistraci, Thomas M. Sutter, Julia E. Vogt",
           "link": "https://arxiv.org/pdf/2512.17678",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ec09016ca3c7c620b69a1f11fd5eac67d6cf0e41b74b5709b9e32e919c36ac8f_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Spatially-informed transformers: Injecting geostatistical covariance biases into self-attention for spatio-temporal forecasting",
           "authors": "Yuri Calleo",
           "link": "https://arxiv.org/pdf/2512.17696",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ec09016ca3c7c620b69a1f11fd5eac67d6cf0e41b74b5709b9e32e919c36ac8f_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Mitigating Forgetting in Low Rank Adaptation",
           "authors": "Joanna Sliwa, Frank Schneider, Philipp Hennig, Jose Miguel Hernandez-Lobato",
           "link": "https://arxiv.org/pdf/2512.17720",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ec09016ca3c7c620b69a1f11fd5eac67d6cf0e41b74b5709b9e32e919c36ac8f_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Convergence Guarantees for Federated SARSA with Local Training and Heterogeneous Agents",
           "authors": "Paul Mangold, Eloïse Berthier, Eric Moulines",
           "link": "https://arxiv.org/pdf/2512.17688",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ec09016ca3c7c620b69a1f11fd5eac67d6cf0e41b74b5709b9e32e919c36ac8f_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Can You Hear Me Now? A Benchmark for Long-Range Graph Propagation",
           "authors": "Luca Miglior, Matteo Tolloso, Alessio Gravina, Davide Bacciu",
           "link": "https://arxiv.org/pdf/2512.17762",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ec09016ca3c7c620b69a1f11fd5eac67d6cf0e41b74b5709b9e32e919c36ac8f_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Easy Adaptation: An Efficient Task-Specific Knowledge Injection Method for Large Models in Resource-Constrained Environments",
           "authors": "Dong Chen, Zhengqing Hu, Shixing Zhao, Yibo Guo",
           "link": "https://arxiv.org/pdf/2512.17771",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ec09016ca3c7c620b69a1f11fd5eac67d6cf0e41b74b5709b9e32e919c36ac8f_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Exploiting ID-Text Complementarity via Ensembling for Sequential Recommendation",
           "authors": "Liam Collins, Bhuvesh Kumar, Clark Mingxuan Ju, Tong Zhao, Donald Loveland, Leonardo Neves, Neil Shah",
           "link": "https://arxiv.org/pdf/2512.17820",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ec09016ca3c7c620b69a1f11fd5eac67d6cf0e41b74b5709b9e32e919c36ac8f_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Calibratable Disambiguation Loss for Multi-Instance Partial-Label Learning",
@@ -4630,21 +4630,21 @@
           "authors": "Aditya Gahlawat, Ahmed Aboudonia, Sandeep Banik, Naira Hovakimyan, Nikolai Matni, Aaron D. Ames, Gioele Zardini, Alberto Speranzon",
           "link": "https://arxiv.org/pdf/2512.17899",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a1578e85cb159e2bf39916b0de61ec0b774772fc5c07fb3edc1f869eea3ea32e_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Weighted Stochastic Differential Equation to Implement Wasserstein-Fisher-Rao Gradient Flow",
           "authors": "Herlock Rahimi",
           "link": "https://arxiv.org/pdf/2512.17878",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a1578e85cb159e2bf39916b0de61ec0b774772fc5c07fb3edc1f869eea3ea32e_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Regularized Random Fourier Features and Finite Element Reconstruction for Operator Learning in Sobolev Space",
           "authors": "Xinyue Yu, Hayden Schaeffer",
           "link": "https://arxiv.org/pdf/2512.17884",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a1578e85cb159e2bf39916b0de61ec0b774772fc5c07fb3edc1f869eea3ea32e_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Visually Prompted Benchmarks Are Surprisingly Fragile",
@@ -4665,14 +4665,14 @@
           "authors": "Benjamin S. H. Lyo, Eero P. Simoncelli, Cristina Savin",
           "link": "https://arxiv.org/pdf/2512.17127",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/abb5eab47c4353057728b3e9889e13b412f6c11ae6703f713d247c4724fbb909_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Colormap-Enhanced Vision Transformers for MRI-Based Multiclass (4-Class) Alzheimer's Disease Classification",
           "authors": "Faisal Ahmed",
           "link": "https://arxiv.org/pdf/2512.16964",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/abb5eab47c4353057728b3e9889e13b412f6c11ae6703f713d247c4724fbb909_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Re-Depth Anything: Test-Time Depth Refinement via Self-Supervised Re-lighting",
@@ -4693,35 +4693,35 @@
           "authors": "Nalin Arora, Aviral Chauhan, Siddhant Rana, Mahansh Aditya, Sumit Bhagat, Aditya Kumar, Akash Kumar, Akanksh Semar, Ayush Vikram Singh, Ganesh Bagler",
           "link": "https://arxiv.org/pdf/2512.17169",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e0fcb546d51f53548e0556b6cedd431012b18af3f725ab1ca0c73a63485285ea_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Systemic Risk Radar: A Multi-Layer Graph Framework for Early Market Crash Warning",
           "authors": "Sandeep Neela",
           "link": "https://arxiv.org/pdf/2512.17185",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e0fcb546d51f53548e0556b6cedd431012b18af3f725ab1ca0c73a63485285ea_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Penalized Fair Regression for Multiple Groups in Chronic Kidney Disease",
           "authors": "Carter H. Nakamoto, Lucia Lushi Chen, Agata Foryciarz, Sherri Rose",
           "link": "https://arxiv.org/pdf/2512.17340",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e0fcb546d51f53548e0556b6cedd431012b18af3f725ab1ca0c73a63485285ea_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Alternating Direction Method of Multipliers for Nonlinear Matrix Decompositions",
           "authors": "Atharva Awari, Nicolas Gillis, Arnaud Vandaele",
           "link": "https://arxiv.org/pdf/2512.17473",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e0fcb546d51f53548e0556b6cedd431012b18af3f725ab1ca0c73a63485285ea_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Resource-efficient medical image classification for edge devices",
           "authors": "Mahsa Lavaei, Zahra Abadi, Salar Beigzad, Alireza Maleki",
           "link": "https://arxiv.org/pdf/2512.17515",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e0fcb546d51f53548e0556b6cedd431012b18af3f725ab1ca0c73a63485285ea_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Machine Learning Assisted Parameter Tuning on Wavelet Transform Amorphous Radial Distribution Function",
@@ -4735,14 +4735,14 @@
           "authors": "Xiaosi Gu, Ayaka Sakata, Tomoyuki Obuchi",
           "link": "https://arxiv.org/pdf/2512.17426",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/11a2356fa2a2cafe6887d85b978c67e18494f41d547e787460e381132d0f9508_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Sharp Structure-Agnostic Lower Bounds for General Functional Estimation",
           "authors": "Jikai Jin, Vasilis Syrgkanis",
           "link": "https://arxiv.org/pdf/2512.17341",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/11a2356fa2a2cafe6887d85b978c67e18494f41d547e787460e381132d0f9508_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "HydroGym: A Reinforcement Learning Platform for Fluid Dynamics",
@@ -4756,14 +4756,14 @@
           "authors": "Madhav R. Muthyala, Farshud Sorourifar, Tianhong Tan, You Peng, Joel A. Paulson",
           "link": "https://arxiv.org/pdf/2512.17659",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/497a14da92ec4e58a3716d9bb6044a8b43d59d0f8ab0aff8c6e70b0d8e5325c9_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Imputation Uncertainty in Interpretable Machine Learning Methods",
           "authors": "Pegah Golchian, Marvin N. Wright",
           "link": "https://arxiv.org/pdf/2512.17689",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/497a14da92ec4e58a3716d9bb6044a8b43d59d0f8ab0aff8c6e70b0d8e5325c9_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "SkinGenBench: Generative Model and Preprocessing Effects for Synthetic Dermoscopic Augmentation in Melanoma Diagnosis",
@@ -4777,14 +4777,14 @@
           "authors": "Shengdu Chai, Chen Lin, Xinyang Dong, Yuqiang Li, Wanli Ouyang, Lei Wang, X.C. Xie",
           "link": "https://arxiv.org/pdf/2512.17703",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ebe1fee674daeeb2ff62e605cac35448ddb7b933f1a6948f0aa461b318710117_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Domain-Aware Quantum Circuit for QML",
           "authors": "Gurinder Singh, Thaddeus Pellegrini, Kenneth M. Merz Jr",
           "link": "https://arxiv.org/pdf/2512.17800",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ebe1fee674daeeb2ff62e605cac35448ddb7b933f1a6948f0aa461b318710117_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Breast Cancer Neoadjuvant Chemotherapy Treatment Response Prediction Using Aligned Longitudinal MRI and Clinical Data",
@@ -4896,7 +4896,7 @@
           "authors": "Kamer Ali Yuksel",
           "link": "https://arxiv.org/pdf/2512.16970",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0ea02a6d58821ccc3cc89deee5daf014a7e650e133502a2a64e5cd69e54c8596_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "On the Role of Contextual Information and Ego States in LLM Agent Behavior for Transactional Analysis Dialogues",
@@ -4910,7 +4910,7 @@
           "authors": "Seong Ho Pahng, Guoye Guan, Benjamin Fefferman, Sahand Hormoz",
           "link": "https://arxiv.org/pdf/2512.17129",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a60caf6cec7c2ab0bdf36d4e5ba8513e86e73ba9dc3d215615ad6190a8df9091_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Verifiability-First Agents: Provable Observability and Lightweight Audit Agents for Controlling Autonomous LLM Systems",
@@ -5001,14 +5001,14 @@
           "authors": "Changxu Duan",
           "link": "https://arxiv.org/pdf/2512.18115",
           "day": "2025-12-23",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/55a03600bbbf89f98190599bd29b1a2f12ec3a4ac217e9251256ba5b1f3c6a42_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Asynchronous Pipeline Parallelism for Real-Time Multilingual Lip Synchronization in Video Communication Systems",
           "authors": "Eren Caglar, Amirkia Rafiei Oskooei, Mehmet Kutanoglu, Mustafa Keles, Mehmet S. Aktas",
           "link": "https://arxiv.org/pdf/2512.18318",
           "day": "2025-12-23",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/55a03600bbbf89f98190599bd29b1a2f12ec3a4ac217e9251256ba5b1f3c6a42_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "PMPGuard: Catching Pseudo-Matched Pairs in Remote Sensing Image-Text Retrieval",
@@ -5176,7 +5176,7 @@
           "authors": "Effiong Blessing, Chiung-Yi Tseng, Somshubhra Roy, Junaid Rehman, Isaac Nkrumah",
           "link": "https://arxiv.org/pdf/2512.18575",
           "day": "2025-12-23",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4da33778e99e37103df07570dfd86545a38d11c0d50209b625e3772ab01cbbbb_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Benchmarking metaheuristic algorithms for the bi-objective redundancy allocation problem in repairable systems with multiple strategies",
@@ -5204,21 +5204,21 @@
           "authors": "Neil Urquhart, Amir Rahimi, Efstathios-Al. Tingas",
           "link": "https://arxiv.org/pdf/2512.17412",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4d57b4723f1c065c80f840b86af58e96a683cea596741b961e8c90f8c5680da8_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Assessing Long-Term Electricity Market Design for Ambitious Decarbonization Targets using Multi-Agent Reinforcement Learning",
           "authors": "Javier Gonzalez-Ruiz, Carlos Rodriguez-Pardo, Iacopo Savelli, Alice Di Bella, Massimo Tavoni",
           "link": "https://arxiv.org/pdf/2512.17444",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4d57b4723f1c065c80f840b86af58e96a683cea596741b961e8c90f8c5680da8_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "PathBench-MIL: A Comprehensive AutoML and Benchmarking Framework for Multiple Instance Learning in Histopathology",
           "authors": "Siemen Brussee, Pieter A. Valkema, Jurre A. J. Weijer, Thom Doeleman, Anne M.R. Schrader, Jesper Kers",
           "link": "https://arxiv.org/pdf/2512.17517",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4d57b4723f1c065c80f840b86af58e96a683cea596741b961e8c90f8c5680da8_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Graph Attention Networks for Detecting Epilepsy from EEG Signals Using Accessible Hardware in Low-Resource Settings",
@@ -5456,21 +5456,21 @@
           "authors": "Toshiaki Hori, Jonathan DeCastro, Deepak Gopinath, Avinash Balachandran, Guy Rosman",
           "link": "https://arxiv.org/pdf/2512.17091",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/52e181750dd60029c711d4a23702ec5e96a39d86b1ce8c7f9c34de75f853c369_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "DiffeoMorph: Learning to Morph 3D Shapes Using Differentiable Agent-Based Simulations",
           "authors": "Seong Ho Pahng, Guoye Guan, Benjamin Fefferman, Sahand Hormoz",
           "link": "https://arxiv.org/pdf/2512.17129",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/52e181750dd60029c711d4a23702ec5e96a39d86b1ce8c7f9c34de75f853c369_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Conservative Bias in Multi-Teacher Learning: Why Agents Prefer Low-Reward Advisors",
           "authors": "Maher Mesto, Francisco Cruz",
           "link": "https://arxiv.org/pdf/2512.17180",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/52e181750dd60029c711d4a23702ec5e96a39d86b1ce8c7f9c34de75f853c369_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "Research on Dead Reckoning Algorithm for Self-Propelled Pipeline Robots in Three-Dimensional Complex Pipelines",
@@ -5512,7 +5512,7 @@
           "authors": "Carlos Vélez García, Miguel Cazorla, Jorge Pomares",
           "link": "https://arxiv.org/pdf/2512.17846",
           "day": "2025-12-22",
-          "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b3552d146c759bb8b81dd4441230819f44e04ae7530ed1ec49cc21133ed3f116_w640_q70.webp"
+          "thumbnail": null
         },
         {
           "title": "AnyTask: an Automated Task and Data Generation Framework for Advancing Sim-to-Real Policy Learning",

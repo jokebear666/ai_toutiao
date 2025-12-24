@@ -965,12 +965,29 @@ llm_summary: <2-3 sentences simple summary (method+conclusion)>
         
         return title
 
+    def escape_mdx(self, text):
+        """
+        转义 MDX 特殊字符
+        主要是 { 和 }，因为它们在 MDX 中被视为 JavaScript 表达式的开始和结束
+        """
+        if not text:
+            return text
+        # 避免重复转义：如果已经是 \{ 或 \} 则不处理
+        # 这里简单处理，直接替换所有未转义的
+        # 使用正则 lookbehind 可能会更准确，但简单的 replace 通常足够，
+        # 除非原文真的包含 \{ 且不想被再次转义。
+        # 考虑到 LaTeX 清理后应该没有 \{ 了，直接 replace 即可。
+        return text.replace('{', '\\{').replace('}', '\\}')
+
     def format_paper_with_enhanced_info(self, paper, date_str=None):
         # 非 cs.DC 使用简化格式：- [arXivYYMMDD] title [link](https://...)
         categories = paper.get('categories', []) or []
         title = paper.get('title', 'N/A')
         # 清理标题中的 LaTeX 语法
         title = self.clean_latex_in_title(title)
+        # 转义 MDX 特殊字符
+        title = self.escape_mdx(title)
+        
         arxiv_prefix = ""
         if date_str is not None:
             arxiv_prefix = self.get_arxiv_prefix(date_str)
@@ -978,19 +995,24 @@ llm_summary: <2-3 sentences simple summary (method+conclusion)>
             arxiv_prefix = ""
         # 使用详细格式
         authors = ', '.join(paper.get('authors', []))
+        authors = self.escape_mdx(authors)
+        
         pdf_link = paper.get('pdf_link', 'N/A')
         
         tags = []
         if paper.get('tag1'):
-            tags.append("[" + paper['tag1'] + "]")
+            tags.append("[" + self.escape_mdx(paper['tag1']) + "]")
         if paper.get('tag2'):
-            tags.append("[" + paper['tag2'] + "]")
+            tags.append("[" + self.escape_mdx(paper['tag2']) + "]")
         if paper.get('tag3'):
             tag3_items = [t.strip() for t in paper['tag3'].split(',') if t.strip()]
             if tag3_items:
-                tags.append('[' + ', '.join(tag3_items) + ']')
+                tags.append('[' + ', '.join([self.escape_mdx(t) for t in tag3_items]) + ']')
         tags_str = ', '.join(tags) if tags else 'TBD'
+        
         institution = paper.get('institution', 'TBD')
+        institution = self.escape_mdx(institution)
+        
         llm_summary = paper.get('llm_summary', '').strip()
         
         formatted_text = f"""- **{arxiv_prefix} {title}**
@@ -1004,6 +1026,7 @@ llm_summary: <2-3 sentences simple summary (method+conclusion)>
             formatted_text += f"  - **thumbnail:** {thumb}\n"
         if llm_summary:
             # 转义MDX特殊字符：大括号{}会被MDX解析为JSX表达式，需要转义
+            # 这里也处理 < >
             escaped_summary = llm_summary.replace('<', '&lt;').replace('>', '&gt;').replace('{', '\\{').replace('}', '\\}')
             formatted_text += f"  - **Simple LLM Summary:** {escaped_summary}\n"
         formatted_text += "\n"

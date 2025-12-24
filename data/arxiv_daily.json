@@ -538,7 +538,7 @@
           "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b076c18a7407a2fa23f502051cf18d209fb696f05cbca7af89a2db3703250585_w640_q70.webp"
         },
         {
-          "title": "${D}^{3}${ETOR}: ${D}$ebate-Enhanced Pseudo Labeling and Frequency-Aware Progressive ${D}$ebiasing for Weakly-Supervised Camouflaged Object ${D}$etection with Scribble Annotations",
+          "title": "$\\{D\\}^\\{3\\}$\\{ETOR\\}: $\\{D\\}$ebate-Enhanced Pseudo Labeling and Frequency-Aware Progressive $\\{D\\}$ebiasing for Weakly-Supervised Camouflaged Object $\\{D\\}$etection with Scribble Annotations",
           "authors": "Jiawei Ge, Jiuxin Cao, Xinyi Li, Xuelin Zhu, Chang Liu, Bo Liu, Chen Feng, Ioannis Patras",
           "link": "https://arxiv.org/pdf/2512.20260",
           "day": "2025-12-24",
@@ -3380,7 +3380,7 @@
           "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b4f8150acede0f77c8c88a8f6399592fa53d83830252a9609aa77972be050f28_w640_q70.webp"
         },
         {
-          "title": "${D}^{3}${ETOR}: ${D}$ebate-Enhanced Pseudo Labeling and Frequency-Aware Progressive ${D}$ebiasing for Weakly-Supervised Camouflaged Object ${D}$etection with Scribble Annotations",
+          "title": "$\\{D\\}^\\{3\\}$\\{ETOR\\}: $\\{D\\}$ebate-Enhanced Pseudo Labeling and Frequency-Aware Progressive $\\{D\\}$ebiasing for Weakly-Supervised Camouflaged Object $\\{D\\}$etection with Scribble Annotations",
           "authors": "Jiawei Ge, Jiuxin Cao, Xinyi Li, Xuelin Zhu, Chang Liu, Bo Liu, Chen Feng, Ioannis Patras",
           "link": "https://arxiv.org/pdf/2512.20260",
           "day": "2025-12-24",
@@ -7853,7 +7853,7 @@
           "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/54def5a8025f36fedd1db00274e2f13348c15e8cd933c948a5286d52b31223ae_w640_q70.webp"
         },
         {
-          "title": "D$^{2}$Stream: Decoupled Dual-Stream Temporal-Speaker Interaction for Audio-Visual Speaker Detection",
+          "title": "D$^\\{2\\}$Stream: Decoupled Dual-Stream Temporal-Speaker Interaction for Audio-Visual Speaker Detection",
           "authors": "Junhao Xiao, Shun Feng, Zhiyu Wu, Jianjun Li, Zhiyuan Ma, Yi Chen",
           "link": "https://arxiv.org/pdf/2512.19130",
           "day": "2025-12-23",

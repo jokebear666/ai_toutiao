@@ -263,6 +263,33 @@ graph TD;
         self.assertEqual(mermaid.strip(), "graph TD;\n    A-->B;")
         print("Passed irregular format test.")
 
+    def test_call_api_with_wrapped_content(self):
+        print("\nTesting extraction with content wrapped in < >...")
+        mock_response_content = """
+tag1: t1
+tag2: t2
+tag3: t3
+institution: inst
+code: c
+contributions: <1. contri.>
+summary: <This is a summary.>
+mermaid:
+```mermaid
+graph LR
+A-->B
+```
+"""
+        mock_completion = MagicMock()
+        mock_completion.choices = [MagicMock(message=MagicMock(content=mock_response_content))]
+        self.processor.client.chat.completions.create.return_value = mock_completion
+
+        result = self.processor.call_api_for_tags_institution_interest("Title", "Abs", "Text")
+        tag1, tag2, tag3_list, institution, code, contributions, llm_summary, mermaid = result
+
+        self.assertEqual(contributions, "1. contri.")
+        self.assertEqual(llm_summary, "This is a summary.")
+        print("Passed wrapped content test.")
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Test paper extraction logic.')
     parser.add_argument('--id', type=str, help='Run real extraction on a specific arXiv ID (e.g., 2312.00752)')

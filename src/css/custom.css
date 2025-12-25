@@ -109,8 +109,8 @@ body, .main-wrapper { background: #ffffff; }
 .arxiv-grid { column-count: 4; column-gap: 28px; position: relative; z-index: 1; }
 /* 卡片颜色 */
 .arxiv-card { break-inside: avoid; margin-bottom: 50px; border-radius: 14px; background: #ffffff; border: 1px solid #ffffff; box-shadow: 0 1px 2px rgba(0,0,0,0.06); overflow: hidden; }
-.arxiv-card-image { background: linear-gradient(135deg,#e5e7eb,#f9fafb); position: relative; display: block; padding: 0; }
-.arxiv-card-image img { width: 100%; height: auto; display: block; }
+.arxiv-card-image { background: linear-gradient(135deg,#e5e7eb,#f9fafb); position: relative; display: block; padding: 0;  }
+.arxiv-card-image img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .arxiv-card-title { padding: 8px 10px; font-weight: 600; }
 .arxiv-card-footer { display: grid; gap: 6px; padding: 12px 14px; font-size: 12px; color: #6b7280; }
 .arxiv-footer-title { font-weight: 700; color: #111827; font-size: 13px; }

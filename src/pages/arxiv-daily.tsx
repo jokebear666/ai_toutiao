@@ -151,7 +151,7 @@ export default function ArxivDailyPage() {
         <aside className="arxiv-right-ads">
           {hotAds && Array.isArray(hotAds) && hotAds.map((a: any, idx: number) => (
             <a key={idx} className="arxiv-ad" href={a.href} target="_blank" rel="noopener noreferrer">
-              <img src={useBaseUrl('/' + a.img)} alt={a.alt || ''} />
+              <img src={useBaseUrl('/' + a.img)} alt={a.alt || ''} loading="lazy" decoding="async" />
             </a>
           ))}
         </aside>

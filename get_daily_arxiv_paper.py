@@ -868,6 +868,12 @@ graph LR
             if mermaid_lines:
                 mermaid = '\n'.join(mermaid_lines)
             
+            # 清理可能被包裹的 < > (Clean up potential wrapping < >)
+            if contributions.strip().startswith("<") and contributions.strip().endswith(">"):
+                contributions = contributions.strip()[1:-1].strip()
+            if llm_summary.strip().startswith("<") and llm_summary.strip().endswith(">"):
+                llm_summary = llm_summary.strip()[1:-1].strip()
+            
             tag3_list = [t.strip() for t in tag3.split(',') if t.strip()]
             return tag1, tag2, tag3_list, institution, code, contributions, llm_summary, mermaid
 

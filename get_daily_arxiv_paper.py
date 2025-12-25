@@ -736,28 +736,68 @@ class CompletePaperProcessor:
             return f"PDF处理错误: {e}"
 
     def call_api_for_tags_institution_interest(self, title, abstract, first_page_text):
-        # ...实现保持不变...
         prompt = f"""\
+Role: You are an expert Computer Science researcher and paper reviewer.
+
+Input Data:
 Title: {title}
 Abstract: {abstract}
 First Page Content: {first_page_text}
 
-Please analyze the provided paper (including its title, abstract, first page content, and author information) and generate the following structured output:
+Task: Please analyze the provided paper content and generate a structured analysis report following the strict rules below.
 
-- Assign three tags:
-    - tag1: Choose one of "ai", "sys", or "mlsys" based on the content. If the content is about AI algorithms, then tag1 is "ai"; if the content is about traditional system, then tag1 is "sys"; if the content is about machine learning or deep learning or AI and system, then tag1 is "mlsys".
-    - tag2: If tag1 is "mlsys", select one specific subfield from the following list: "llm training", "llm inference", "multi-modal training", "multi-modal inference", "diffusion training", "diffusion inference", "post-training", "cluster infrastructure", "GPU kernels", "fault-tolerance" or "others". If tag1 is "ai" or "sys", assign any reasonable domain-specific category for tag2.
-    - tag3: Provide a comma-separated list of specific methods, techniques, or keywords used in the paper (e.g., "tensor parallelism, quantization, flash attention"). For "ai" or "sys" papers, this can be any relevant technical terms.
+### Analysis Rules:
 
-- Identify the institution(s): Infer the main research institution(s) from author affiliations or email domains if explicit affiliations are missing.
-- Finally, provide a brief llm_summary in English (2–3 sentences) describing the paper’s core method and main conclusion.
+1. **Tag Assignment**:
+    - **tag1 (Broad Category)**: Choose ONE from the following expanded list based on the primary domain:
+        - "mlsys": Machine Learning Systems (intersection of AI and Systems, e.g., training infra, inference optimization).
+        - "ai": General Artificial Intelligence (theory, pure ML algorithms, RL).
+        - "cv": Computer Vision.
+        - "nlp": Natural Language Processing.
+        - "sys": Traditional Systems (OS, distributed systems, storage, networking without AI focus).
+        - "sec": Security & Privacy.
+        - "se": Software Engineering.
+        - "db": Databases.
+        - "hpc": High Performance Computing.
+        - "other": If none of the above fit.
+    
+    - **tag2 (Specific Subfield)**:
+        - If tag1 is **"mlsys"**, choose ONE from this expanded list:
+            "llm training", "llm inference", "rag (retrieval-augmented generation)", "agent system", "multi-modal training", "multi-modal inference", "diffusion models", "post-training (sft/rlhf)", "model compression (quantization/pruning)", "compiler & ir", "memory & caching", "cluster infrastructure", "gpu kernels", "communication & networking", "fault-tolerance", "federated learning", "on-device ai", "others".
+        - If tag1 is NOT "mlsys", assign a specific, standard academic sub-field (e.g., for "cv": "object detection"; for "nlp": "machine translation").
 
-Output format (strictly follow, no extra text or code blocks):
+    - **tag3 (Keywords)**: Provide a comma-separated list of 3-5 specific technical keywords used in the paper (e.g., "FlashAttention, LoRA, Ring-AllReduce").
+
+2. **Information Extraction**:
+    - **Institution**: Infer the main research institution(s) from affiliations or email domains.
+    - **Code**: Extract the GitHub or project page URL if explicitly mentioned. If not found, output "None".
+    - **Contributions**: Summarize the paper's 3 key contributions (innovations) as a numbered list.
+
+3. **Summarization**:
+    - **Summary**: A concise 2-3 sentence summary in English describing the core problem, the proposed method, and the main conclusion.
+
+4. **Visualization**:
+    - **Mindmap**: Generate a Mermaid.js `graph LR` diagram code block based on the Abstract to visualize the paper's logic.
+        - Layout: Left-to-Right tree structure (`graph LR`).
+        - Language: Use **Bilingual (Chinese + English)** for all node text.
+        - Structure: Root(Paper Title) --> Nodes for Problem(核心问题/Problem), Method(主要方法/Method), Results(关键结果/Results).
+        - Keep node text very short and concise.
+
+### Output Format:
+(Strictly follow this format. Do not output markdown code blocks for the text parts, only for the mermaid part.)
+
 tag1: <tag1>
 tag2: <tag2>
 tag3: <tag3, tag3, ...>
 institution: <institution>
-llm_summary: <2-3 sentences simple summary (method+conclusion)>
+code: <code>
+contributions: <contribution 1, contribution 2, ...>
+summary: <2-3 sentences simple summary (method+conclusion)>
+mermaid:
+```mermaid
+graph LR
+<mermaid code here using Bilingual>
+```
 """
         try:
             response = self.client.chat.completions.create(
@@ -771,37 +811,69 @@ llm_summary: <2-3 sentences simple summary (method+conclusion)>
             result = response.choices[0].message.content.strip()
             
             # 解析结果
-            lines = [line.strip() for line in result.splitlines() if line.strip()]
-            tag1, tag2, tag3, institution, llm_summary = "", "", "", "", ""
-            reading_summary = False
-            summary_lines = []
+            # 注意：不能直接 strip 每一行，因为 mermaid 需要保留缩进
+            # 但我们需要过滤掉空行，除非是在 mermaid 块中
+            raw_lines = result.splitlines()
+            tag1, tag2, tag3, institution, code, contributions, llm_summary, mermaid = "", "", "", "", "", "", "", ""
             
-            for line in lines:
+            current_field = None
+            mermaid_lines = []
+            reading_mermaid = False
+            
+            for raw_line in raw_lines:
+                # 去除两端空白用于判断 tag，但保留原始行用于 mermaid
+                line = raw_line.strip()
+                if not line and not reading_mermaid:
+                    continue
+
                 if line.lower().startswith("tag1:"):
                     tag1 = line.split(":", 1)[1].strip()
+                    current_field = "tag1"
                 elif line.lower().startswith("tag2:"):
                     tag2 = line.split(":", 1)[1].strip()
+                    current_field = "tag2"
                 elif line.lower().startswith("tag3:"):
                     tag3 = line.split(":", 1)[1].strip()
+                    current_field = "tag3"
                 elif line.lower().startswith("institution:"):
                     institution = line.split(":", 1)[1].strip()
-                elif line.lower().startswith("llm_summary:"):
-                    reading_summary = True
-                    summary_line = line.split(":", 1)[1].strip()
-                    if summary_line:
-                        summary_lines.append(summary_line)
-                elif reading_summary:
-                    summary_lines.append(line)
+                    current_field = "institution"
+                elif line.lower().startswith("code:"):
+                    code = line.split(":", 1)[1].strip()
+                    current_field = "code"
+                elif line.lower().startswith("contributions:"):
+                    contributions = line.split(":", 1)[1].strip()
+                    current_field = "contributions"
+                elif line.lower().startswith("summary:") or line.lower().startswith("llm_summary:"):
+                    llm_summary = line.split(":", 1)[1].strip()
+                    current_field = "llm_summary"
+                elif line.lower().startswith("mermaid:"):
+                    current_field = "mermaid"
+                elif line.startswith("```mermaid"):
+                    reading_mermaid = True
+                    current_field = "mermaid_block"
+                elif line.startswith("```") and reading_mermaid:
+                    reading_mermaid = False
+                    current_field = None
+                else:
+                    # 处理多行内容
+                    if reading_mermaid:
+                        # 对于 mermaid，使用原始行（保留缩进）
+                        mermaid_lines.append(raw_line)
+                    elif current_field == "contributions":
+                        contributions += " " + line
+                    elif current_field == "llm_summary":
+                        llm_summary += " " + line
             
-            if summary_lines:
-                llm_summary = ' '.join(summary_lines).strip()
+            if mermaid_lines:
+                mermaid = '\n'.join(mermaid_lines)
             
             tag3_list = [t.strip() for t in tag3.split(',') if t.strip()]
-            return tag1, tag2, tag3_list, institution, llm_summary
+            return tag1, tag2, tag3_list, institution, code, contributions, llm_summary, mermaid
 
         except Exception as e:
             print(f"API调用失败: {e}")
-            return "", "", [], "", ""
+            return "", "", [], "", "", "", "", ""
 
     def process_single_paper(self, paper):
         categories = paper.get('categories', []) or []
@@ -832,12 +904,11 @@ llm_summary: <2-3 sentences simple summary (method+conclusion)>
 
         # 调用API获取标签、机构，并获取LLM总结（可禁用以节省token）
         if self.enable_llm:
-            tag1, tag2, tag3_list, institution, llm_summary = self.call_api_for_tags_institution_interest(
+            tag1, tag2, tag3_list, institution, code, contributions, llm_summary, mermaid = self.call_api_for_tags_institution_interest(
                 title, summary, first_page_text
             )
         else:
-            tag1, tag2, tag3_list, institution = "", "", [], "TBD"
-            llm_summary = title
+            tag1, tag2, tag3_list, institution, code, contributions, llm_summary, mermaid = "", "", [], "TBD", "", "", title, ""
         
         # 生成缩略图（可选）
         thumbnail_url = None
@@ -866,9 +937,12 @@ llm_summary: <2-3 sentences simple summary (method+conclusion)>
         paper['tag2'] = tag2
         paper['tag3'] = ', '.join(tag3_list)
         paper['institution'] = institution
+        paper['code'] = code
+        paper['contributions'] = contributions
         # 所有 cs.DC 都输出
         paper['is_interested'] = True
         paper['llm_summary'] = llm_summary
+        paper['mermaid'] = mermaid
         paper['simple_only'] = False
         if thumbnail_url:
             paper['thumbnail'] = thumbnail_url
@@ -1013,6 +1087,19 @@ llm_summary: <2-3 sentences simple summary (method+conclusion)>
         institution = paper.get('institution', 'TBD')
         institution = self.escape_mdx(institution)
         
+        code = paper.get('code', 'None')
+        if code and code.lower() != 'none':
+            code = self.escape_mdx(code)
+            
+        contributions = paper.get('contributions', '')
+        if contributions:
+            contributions = self.escape_mdx(contributions)
+            
+        mermaid = paper.get('mermaid', '')
+        # Mermaid 不需要转义 MDX，因为它在代码块中，但我们要确保它放在 ```mermaid 块里
+        # 如果 API 返回的 mermaid 已经包含了 ```mermaid，则不需要额外添加，否则添加
+        # 这里的 mermaid 是纯代码，没有 ``` 包裹
+        
         llm_summary = paper.get('llm_summary', '').strip()
         
         formatted_text = f"""- **{arxiv_prefix} {title}**
@@ -1021,6 +1108,12 @@ llm_summary: <2-3 sentences simple summary (method+conclusion)>
   - **institution:** {institution}
   - **link:** {pdf_link}
 """
+        if code and code.lower() != 'none':
+            formatted_text += f"  - **code:** {code}\n"
+            
+        if contributions:
+            formatted_text += f"  - **contributions:** {contributions}\n"
+            
         thumb = paper.get('thumbnail')
         if thumb:
             formatted_text += f"  - **thumbnail:** {thumb}\n"
@@ -1029,6 +1122,15 @@ llm_summary: <2-3 sentences simple summary (method+conclusion)>
             # 这里也处理 < >
             escaped_summary = llm_summary.replace('<', '&lt;').replace('>', '&gt;').replace('{', '\\{').replace('}', '\\}')
             formatted_text += f"  - **Simple LLM Summary:** {escaped_summary}\n"
+            
+        if mermaid:
+            # 为 mermaid 增加缩进，使其属于当前 list item
+            mermaid_block = "  - **Mindmap:**\n\n"
+            mermaid_lines = mermaid.split('\n')
+            indented_mermaid = '\n'.join(['    ' + line for line in mermaid_lines])
+            mermaid_block += f"    ```mermaid\n{indented_mermaid}\n    ```\n"
+            formatted_text += mermaid_block
+            
         formatted_text += "\n"
         return formatted_text
 

@@ -124,11 +124,10 @@ export default function ArxivDailyPage() {
           </div>
           <div className="arxiv-grid">
             {activeItems.map((it, idx) => {
-              const h = 200 + ((idx % 3) * 40);
               const firstAuthor = ((it.authors || '').split(',')[0] || '').trim();
               return (
                 <div key={idx} className="arxiv-card">
-                  <div className="arxiv-card-image" style={{height: h}}>
+                  <div className="arxiv-card-image">
                     {it.thumbnail ? (
                       <img src={it.thumbnail} loading="lazy" alt="" />
                     ) : null}

@@ -641,7 +641,9 @@ class CompletePaperProcessor:
                 final_rect.x0 -= float(padding)
                 final_rect.y0 -= float(padding)
                 final_rect.x1 += float(padding)
-                final_rect.y1 = search_bottom + 2.0
+                # search_bottom 是标题文字的顶部。原逻辑 +2.0 可能会包含标题文字的上沿。
+                # 调整为 -2.0，向上收缩，留出空隙，避免切入文字。
+                final_rect.y1 = search_bottom - 2.0
                 final_rect = final_rect & page.rect
                 w = final_rect.width or 1.0
                 z = max_width / w
@@ -777,8 +779,8 @@ Task: Please analyze the provided paper content and generate a structured analys
     - **Summary**: A concise 2-3 sentence summary in English describing the core problem, the proposed method, and the main conclusion.
 
 4. **Visualization**:
-    - **Mindmap**: Generate a Mermaid.js `graph LR` diagram code block based on the Abstract to visualize the paper's logic.
-        - Layout: Left-to-Right tree structure (`graph LR`).
+    - **Mindmap**: Generate a Mermaid.js `graph TB` diagram code block based on the Abstract to visualize the paper's logic.
+        - Layout: Top-to-Bottom tree structure (`graph TB`).
         - Language: Use **Bilingual (Chinese + English)** for all node text.
         - Structure: Root(Paper Title) --> Nodes for Problem(核心问题/Problem), Method(主要方法/Method), Results(关键结果/Results).
         - Keep node text very short and concise.
@@ -795,7 +797,7 @@ contributions: <contribution 1, contribution 2, ...>
 summary: <2-3 sentences simple summary (method+conclusion)>
 mermaid:
 ```mermaid
-graph LR
+graph TB
 <mermaid code here using Bilingual>
 ```
 """

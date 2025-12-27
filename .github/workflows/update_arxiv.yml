@@ -51,7 +51,7 @@ jobs:
 
       - name: Build arXiv daily JSON (last 3 months)
         run: |
-          python build_arxiv_daily_json.py --months 3 --max-items-per-cat 128 --output static/data/arxiv_daily.json
+          python build_arxiv_daily_json.py --months 3 --max-items-per-cat 256 --output static/data/arxiv_daily.json
 
       - name: Commit and push changes
         run: |

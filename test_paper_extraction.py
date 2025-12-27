@@ -151,7 +151,7 @@ contributions: 1. Proposed Method A. 2. Achieved SOTA. 3. Open sourced code.
 summary: This paper proposes Method A for efficient LLM training. It achieves SOTA results.
 mermaid:
 ```mermaid
-graph LR
+graph TB
   A((标题/Title)) --> B(问题/Problem)
   B --> B1(训练慢/Slow training)
   A --> C(方法/Method)
@@ -198,7 +198,7 @@ graph LR
         self.assertEqual(llm_summary, "This paper proposes Method A for efficient LLM training. It achieves SOTA results.")
         
         # 验证 Mermaid 提取
-        expected_mermaid = """graph LR
+        expected_mermaid = """graph TB
   A((标题/Title)) --> B(问题/Problem)
   B --> B1(训练慢/Slow training)
   A --> C(方法/Method)

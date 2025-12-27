@@ -64,7 +64,11 @@ const DetailModal = ({ paper, onClose }: { paper: PaperItem; onClose: () => void
                 <div style={{ width: '100%', height: '100%', left: '100%', position: 'absolute', display: 'flex', justifyContent: 'center', alignItems: 'center', overflow: 'auto', padding: '20px' }}>
                      {paper.mindmap ? (
                         <div style={{ minWidth: '100%', minHeight: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                            <Mermaid value={paper.mindmap.replace(/"/g, '”')} />
+                            <Mermaid value={paper.mindmap
+                                .replace(/"/g, '”')
+                                .replace(/\(/g, '（')
+                                .replace(/\)/g, '）')
+                            } />
                         </div>
                      ) : (
                         <div style={{color: '#999'}}>No Mindmap Available</div>
@@ -268,6 +272,7 @@ export default function ArxivDailyPage() {
   const overflowCats = useMemo(() => displayCats.slice(8), [displayCats]);
   const [moreOpen, setMoreOpen] = useState(false);
   const activeItems = useMemo(() => (data.find(c => c.slug === active)?.items || []), [data, active]);
+  const allItems = useMemo(() => data.flatMap(c => c.items || []), [data]);
 
   const availableDates = useMemo(() => {
     const dates = new Set(activeItems.map(it => it.day).filter(Boolean) as string[]);
@@ -275,7 +280,7 @@ export default function ArxivDailyPage() {
   }, [activeItems]);
 
   const [selectedDate, setSelectedDate] = useState<string | null>(null);
-
+  
   useEffect(() => {
     if (availableDates.length > 0) {
       setSelectedDate(availableDates[0]);
@@ -284,12 +289,17 @@ export default function ArxivDailyPage() {
     }
   }, [active, availableDates]);
 
+  const [googleTranslateInit, setGoogleTranslateInit] = useState(false);
+  
+  // ... (google translate useEffect) ...
+
   const [searchQuery, setSearchQuery] = useState('');
 
   const displayItems = useMemo(() => {
     if (searchQuery.trim()) {
       const lowerQuery = searchQuery.toLowerCase();
-      return activeItems.filter(it => {
+      // Use allItems for search instead of activeItems
+      return allItems.filter(it => {
         const titleMatch = (it.title || '').toLowerCase().includes(lowerQuery);
         const tagsMatch = (it.tags || []).some(tag => tag.toLowerCase().includes(lowerQuery));
         return titleMatch || tagsMatch;
@@ -297,7 +307,7 @@ export default function ArxivDailyPage() {
     }
     if (!selectedDate) return activeItems;
     return activeItems.filter(it => it.day === selectedDate);
-  }, [activeItems, selectedDate, searchQuery]);
+  }, [activeItems, allItems, selectedDate, searchQuery]);
 
   return (
     <Layout title="Arxiv每日论文">

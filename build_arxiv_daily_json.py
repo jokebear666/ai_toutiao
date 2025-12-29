@@ -34,6 +34,12 @@ def recent_week_files(dir_path, months=3):
     candidates.sort(key=lambda x: x[0])
     return [os.path.join(dir_path, n) for _, n in candidates]
 
+def escape_mdx_content(text):
+    if not text:
+        return text
+    # 替换 < 后跟数字的情况，例如 <0.5 -> &lt;0.5，避免 MDX 解析错误
+    return re.sub(r'<(\d)', r'&lt;\1', text)
+
 def parse_week_md(file_path):
     if not file_path or not os.path.exists(file_path):
         return {"week": "", "items": []}
@@ -75,6 +81,10 @@ def parse_week_md(file_path):
             contributions = cm.group(1).strip() if cm else ""
             summary = sm.group(1).strip() if sm else ""
             mindmap = mm.group(1).strip() if mm else ""
+
+            # 转义可能导致 MDX 错误的字符
+            contributions = escape_mdx_content(contributions)
+            summary = escape_mdx_content(summary)
             
             # 修复Mermaid渲染因引号导致的错误
             if mindmap:

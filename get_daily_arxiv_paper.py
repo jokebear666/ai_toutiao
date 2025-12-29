@@ -1051,6 +1051,7 @@ graph TB
         """
         转义 MDX 特殊字符
         主要是 { 和 }，因为它们在 MDX 中被视为 JavaScript 表达式的开始和结束
+        同时转义 < 为 &lt; 避免被解析为 JSX 标签
         """
         if not text:
             return text
@@ -1059,7 +1060,11 @@ graph TB
         # 使用正则 lookbehind 可能会更准确，但简单的 replace 通常足够，
         # 除非原文真的包含 \{ 且不想被再次转义。
         # 考虑到 LaTeX 清理后应该没有 \{ 了，直接 replace 即可。
-        return text.replace('{', '\\{').replace('}', '\\}')
+        text = text.replace('{', '\\{').replace('}', '\\}')
+        # 转义 <，避免 <0.5 被解析为 JSX
+        # 同时也转义 > 为 &gt; 保持一致性（虽然 MDX 不强制转义 >）
+        text = text.replace('<', '&lt;').replace('>', '&gt;')
+        return text
 
     def format_paper_with_enhanced_info(self, paper, date_str=None):
         # 非 cs.DC 使用简化格式：- [arXivYYMMDD] title [link](https://...)
@@ -1126,9 +1131,8 @@ graph TB
         if thumb:
             formatted_text += f"  - **thumbnail:** {thumb}\n"
         if llm_summary:
-            # 转义MDX特殊字符：大括号{}会被MDX解析为JSX表达式，需要转义
-            # 这里也处理 < >
-            escaped_summary = llm_summary.replace('<', '&lt;').replace('>', '&gt;').replace('{', '\\{').replace('}', '\\}')
+            # 转义MDX特殊字符
+            escaped_summary = self.escape_mdx(llm_summary)
             formatted_text += f"  - **Simple LLM Summary:** {escaped_summary}\n"
             
         if mermaid:

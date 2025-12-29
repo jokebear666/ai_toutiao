@@ -66,7 +66,8 @@ const DetailModal = ({ paper, onClose }: { paper: PaperItem; onClose: () => void
                         <div style={{ minWidth: '100%', minHeight: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                             <Mermaid value={paper.mindmap
                                 .replace(/"/g, '”')
-                                .replace(/\(/g, '（')
+                                .replace(/(\w+)\((.*)\)/g, '$1[$2]') // Convert ID(...) to ID[...]
+                                .replace(/\(/g, '（') // Escape remaining parens
                                 .replace(/\)/g, '）')
                             } />
                         </div>

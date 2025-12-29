@@ -335,10 +335,46 @@ export default function ArxivDailyPage() {
   // ... (google translate useEffect) ...
 
   const [searchQuery, setSearchQuery] = useState('');
+  const [translatedQuery, setTranslatedQuery] = useState('');
+
+  // Auto-translate Chinese query to English for better search results
+  useEffect(() => {
+    const query = searchQuery.trim();
+    if (!query) {
+      setTranslatedQuery('');
+      return;
+    }
+
+    // Check if query contains Chinese characters
+    const hasChinese = /[\u4e00-\u9fa5]/.test(query);
+    if (!hasChinese) {
+      setTranslatedQuery(query);
+      return;
+    }
+
+    // Debounce translation to avoid too many requests
+    const timer = setTimeout(async () => {
+      try {
+        const res = await fetch(`https://translate.googleapis.com/translate_a/single?client=gtx&sl=zh-CN&tl=en&dt=t&q=${encodeURIComponent(query)}`);
+        const data = await res.json();
+        if (data && data[0] && data[0][0] && data[0][0][0]) {
+            setTranslatedQuery(data[0][0][0]);
+        }
+      } catch (e) {
+        // Fallback to original query on error
+        setTranslatedQuery(query);
+      }
+    }, 500);
+
+    return () => clearTimeout(timer);
+  }, [searchQuery]);
 
   const displayItems = useMemo(() => {
-    if (searchQuery.trim()) {
-      const lowerQuery = searchQuery.toLowerCase();
+    // Use translatedQuery for filtering if available, otherwise searchQuery
+    const effectiveQuery = translatedQuery || searchQuery;
+    
+    if (effectiveQuery.trim()) {
+      const lowerQuery = effectiveQuery.toLowerCase();
       // Use searchIndex for search
       return searchIndex.filter(it => {
         const titleMatch = (it.title || '').toLowerCase().includes(lowerQuery);
@@ -348,7 +384,7 @@ export default function ArxivDailyPage() {
     }
     if (!selectedDate) return activeItems;
     return activeItems.filter(it => it.day === selectedDate);
-  }, [activeItems, searchIndex, selectedDate, searchQuery]);
+  }, [activeItems, searchIndex, selectedDate, searchQuery, translatedQuery]);
 
   const handleCardClick = async (it: PaperItem) => {
       // If search mode and item has slug (from search index), we might need to load full data
@@ -431,10 +467,6 @@ export default function ArxivDailyPage() {
                     </svg>
                   </button>
               )}
-            </div>
-            <div className="arxiv-top-links">
-              <a href="#">创作中心</a>
-              <a href="#">业务合作</a>
             </div>
           </div>
           <div className="arxiv-pills">

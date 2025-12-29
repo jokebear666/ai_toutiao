@@ -1,0 +1,138 @@
+{
+  "label": "cs.DM",
+  "slug": "csdm",
+  "week": "20251229-20260104",
+  "items": [
+    {
+      "title": "First-Order Logic and Twin-Width for Some Geometric Graphs",
+      "authors": "Colin Geniet, Gunwoo Kim, Lucas Meijer",
+      "institution": "Institute for Basic Science (IBS), KAIST, Utrecht University",
+      "link": "https://arxiv.org/pdf/2512.21896",
+      "code": null,
+      "tags": [
+        "parameterized complexity",
+        "twin-width",
+        "first-order logic",
+        "model checking",
+        "geometric graphs",
+        "FPT"
+      ],
+      "day": "2025-12-29",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/813ec0f508efb48269593ee0f1c17c2ef7df235eda75353b1d1b0c5e93732fd3_w640_q70.webp",
+      "contributions": "1. Proved that delineation (the equivalence between tractable FO model checking and bounded twin-width) holds for intersection graphs of non-degenerate axis-parallel unit segments. 2. Showed that delineation fails for visibility graphs of 1.5D terrains. 3. Proved delineation for intersection graphs of circular arcs.",
+      "summary": "This paper investigates the relationship between tractable first-order (FO) logic model checking and the graph parameter twin-width for specific geometric graph classes. It answers open questions by proving this equivalence (delineation) holds for intersection graphs of axis-parallel unit segments and circular arcs, but fails for visibility graphs of 1.5D terrains. The work leverages the theory of twin-width for ordered graphs, exploiting natural vertex orderings in geometric representations.",
+      "mindmap": "graph TB\n        A[First-Order Logic and Twin-Width for Some Geometric Graphs] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1(几何图类的FO模型检查复杂性/FO Model Checking Complexity for Geometric Graph Classes)\n        C --> C1(利用有序图的双宽理论/Using Twin-width Theory for Ordered Graphs)\n        D --> D1(证明轴平行单位线段图与圆弧图存在描绘/Prove Delineation for Axis-Parallel Unit Segment & Circular Arc Graphs)\n        D --> D2(证明1.5D地形可见性图不存在描绘/Prove Delineation Fails for 1.5D Terrain Visibility Graphs)"
+    },
+    {
+      "title": "Fairness in the k-Server Problem",
+      "authors": "Mohammadreza Daneshvaramoli, Helia Karisani, Mohammad Hajiesmaili, Shahin Kamali, Cameron Musco",
+      "institution": "University of Massachusetts Amherst, York University",
+      "link": "https://arxiv.org/pdf/2512.20960",
+      "code": null,
+      "tags": [
+        "online algorithms",
+        "k-server problem",
+        "fairness",
+        "competitive analysis",
+        "Double Coverage Algorithm",
+        "oblivious adversary"
+      ],
+      "day": "2025-12-25",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8d9ce9b45db4e96b8f0700fa006229951ae693c27289e148cbcbc25a0c7ddc81_w640_q70.webp",
+      "contributions": "1. Introduced a formal notion of (α, β)-fairness for the k-server problem, aiming to equitably distribute movement costs among servers. 2. Provided deterministic and randomized algorithms that transform optimal/competitive solutions into fair ones with minimal cost increase in offline and online (oblivious adversary) settings. 3. Analyzed the fairness properties of classic algorithms like Double Coverage Algorithm (DCA) and FIFO on specific metrics (line, tree, uniform), showing both positive and negative results.",
+      "summary": "This paper formally studies fairness in the k-server problem, introducing a new fairness metric and algorithms to achieve it. The authors show fairness can be added to both offline and online solutions with minimal performance loss against an oblivious adversary, and analyze the fairness of classic deterministic algorithms on specific metric spaces.",
+      "mindmap": "graph LR\n    A[Fairness in the k-Server Problem] --> B[核心问题/Problem: 如何在k-server问题中公平分配服务器移动成本?]\n    A --> C[主要方法/Method: 定义(α, β)-公平性; 设计算法将最优/竞争性解转化为公平解]\n    A --> D[关键结果/Results: 离线和在线(非适应性对手)设置下可公平且保持竞争力; DCA在特定度量下公平]"
+    },
+    {
+      "title": "Algorithm for Interpretable Graph Features via Motivic Persistent Cohomology",
+      "authors": "Yoshihiro Maruyama",
+      "institution": "TBD",
+      "link": "https://arxiv.org/pdf/2512.20311",
+      "code": null,
+      "tags": [],
+      "day": "2025-12-24",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/862ac961bd55b0b8dc1a2ea1c32580f402c570473c4f0ee0635c937b87e810e8_w640_q70.webp",
+      "contributions": "",
+      "summary": "Algorithm for Interpretable Graph Features via Motivic Persistent Cohomology",
+      "mindmap": ""
+    },
+    {
+      "title": "Top-K Exterior Power Persistent Homology: Algorithm, Structure, and Stability",
+      "authors": "Yoshihiro Maruyama",
+      "institution": "TBD",
+      "link": "https://arxiv.org/pdf/2512.20325",
+      "code": null,
+      "tags": [],
+      "day": "2025-12-24",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d819bb4159585b74aeaf35355e16ef7a49b64ef54f670ff861804098262da1c5_w640_q70.webp",
+      "contributions": "",
+      "summary": "Top-K Exterior Power Persistent Homology: Algorithm, Structure, and Stability",
+      "mindmap": ""
+    },
+    {
+      "title": "Quantum Gates from Wolfram Model Multiway Rewriting Systems",
+      "authors": "Furkan Semih Dündar, Xerxes D. Arsiwalla, Hatem Elshatlawy",
+      "institution": "TBD",
+      "link": "https://arxiv.org/pdf/2512.20587",
+      "code": null,
+      "tags": [],
+      "day": "2025-12-24",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/93eb667380fba838012de4c52bb5694b3e14097efd676de73212c3fb17022966_w640_q70.webp",
+      "contributions": "",
+      "summary": "Quantum Gates from Wolfram Model Multiway Rewriting Systems",
+      "mindmap": ""
+    },
+    {
+      "title": "Finding Cliques in Geometric Intersection Graphs with Grounded or Stabbed Constraints",
+      "authors": "J. Mark Keil, Debajyoti Mondal",
+      "institution": "TBD",
+      "link": "https://arxiv.org/pdf/2512.18223",
+      "code": null,
+      "tags": [],
+      "day": "2025-12-23",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cb1aded1988dcb024ebe8636f9301ea983edbf10ba9d554ba51128db793d2c95_w640_q70.webp",
+      "contributions": "",
+      "summary": "Finding Cliques in Geometric Intersection Graphs with Grounded or Stabbed Constraints",
+      "mindmap": ""
+    },
+    {
+      "title": "Laplacian Network Optimization via Information Functions",
+      "authors": "Samuel Rosa, Radoslav Harman",
+      "institution": "TBD",
+      "link": "https://arxiv.org/pdf/2512.19279",
+      "code": null,
+      "tags": [],
+      "day": "2025-12-23",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/712987842554588bd466cff17520ce2d031679b1035b71b1d988dda878305a4d_w640_q70.webp",
+      "contributions": "",
+      "summary": "Laplacian Network Optimization via Information Functions",
+      "mindmap": ""
+    },
+    {
+      "title": "Results on cubic bent and weakly regular bent $p$-ary functions leading to a class of cubic ternary non-weakly regular bent functions",
+      "authors": "Claude Carlet, and Alexander Kholosha",
+      "institution": "TBD",
+      "link": "https://arxiv.org/pdf/2512.19313",
+      "code": null,
+      "tags": [],
+      "day": "2025-12-23",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e399ece012cdbacad7b141a0a279d467cf142f7aef408e9556b658e9c0fd0982_w640_q70.webp",
+      "contributions": "",
+      "summary": "Results on cubic bent and weakly regular bent $p$-ary functions leading to a class of cubic ternary non-weakly regular bent functions",
+      "mindmap": ""
+    },
+    {
+      "title": "Deep Learning for Unrelated-Machines Scheduling: Handling Variable Dimensions",
+      "authors": "Diego Hitzges, Guillaume Sagnol",
+      "institution": "TBD",
+      "link": "https://arxiv.org/pdf/2512.19527",
+      "code": null,
+      "tags": [],
+      "day": "2025-12-23",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f9be7dc2a227e30f57b54fae513beec5b2448e4823ad54422005ffd50328df87_w640_q70.webp",
+      "contributions": "",
+      "summary": "Deep Learning for Unrelated-Machines Scheduling: Handling Variable Dimensions",
+      "mindmap": ""
+    }
+  ]
+}

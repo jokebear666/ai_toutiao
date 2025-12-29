@@ -1,0 +1,231 @@
+{
+  "label": "cs.PF",
+  "slug": "cspf",
+  "week": "20251229-20260104",
+  "items": [
+    {
+      "title": "DeepCQ: General-Purpose Deep-Surrogate Framework for Lossy Compression Quality Prediction",
+      "authors": "Khondoker Mirazul Mumenin, Robert Underwood, Dong Dai, Jinzhen Wang, Sheng Di, Zarija Lukić, Franck Cappello",
+      "institution": "University of North Carolina at Charlotte, Argonne National Laboratory, University of Delaware, Lawrence Berkeley National Laboratory",
+      "link": "https://arxiv.org/pdf/2512.21433",
+      "code": null,
+      "tags": [
+        "model compression (quantization/pruning)",
+        "lossy compression",
+        "quality prediction",
+        "deep-surrogate",
+        "mixture-of-experts",
+        "feature-extraction"
+      ],
+      "day": "2025-12-29",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d06e831f83754144a92a117a184fdcc51da0584d4163390cf94b34d4175b77a1_w640_q70.webp",
+      "contributions": "1) A generalizable surrogate model for predicting compression quality across different compressors, quality metrics, and datasets. 2) A novel two-stage design that decouples expensive feature extraction from lightweight prediction for efficient training and modular inference. 3) A mixture-of-experts design to optimize performance and robustness for time-evolving scientific data.",
+      "summary": "This paper proposes DeepCQ, a deep-surrogate framework to efficiently predict the quality of data after lossy compression, which is traditionally computationally expensive to assess. The method uses a two-stage and mixture-of-experts design for generalizability and robustness across different compressors, metrics, and time-evolving datasets. The framework achieves high predictive accuracy (errors under 10%) on real-world applications, enabling informed compression decisions and reducing I/O and computational overhead.",
+      "mindmap": "graph TB\n        A[DeepCQ: 通用深度代理框架用于有损压缩质量预测] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[评估压缩后数据质量的计算成本高/Expensive to assess post-compression data quality]\n        C --> C1[两阶段设计: 特征提取 + 轻量预测/Two-stage design: feature extraction + lightweight prediction]\n        C --> C2[专家混合设计处理时变数据/Mixture-of-experts for time-evolving data]\n        D --> D1[预测误差普遍低于10%/Prediction errors generally under 10%]\n        D --> D2[显著优于现有方法/Significantly outperforms existing methods]"
+    },
+    {
+      "title": "Prefill vs. Decode Bottlenecks: SRAM-Frequency Tradeoffs and the Memory-Bandwidth Ceiling",
+      "authors": "Hannah Atmer, Yuan Yao, Thiemo Voigt, Stefanos Kaxiras",
+      "institution": "Uppsala University",
+      "link": "https://arxiv.org/pdf/2512.22066",
+      "code": null,
+      "tags": [
+        "llm inference",
+        "SRAM",
+        "frequency scaling",
+        "energy-delay product",
+        "systolic array",
+        "memory bandwidth"
+      ],
+      "day": "2025-12-29",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/52c2db009cb44a92a388e1684ea0d1bdb9ae27c0c4a4e683651eb7bd091bbe93_w640_q70.webp",
+      "contributions": "1. Quantified the distinct energy and performance impacts of SRAM size and operating frequency on the compute-bound prefill and memory-bound decode phases of LLM inference. 2. Demonstrated a counter-intuitive result: high compute frequency can reduce total energy by shortening execution time and reducing static energy more than the dynamic power increase. 3. Identified an optimal hardware configuration (high frequency, small SRAM buffer) that minimizes the energy-delay product, providing concrete design insights for energy-efficient accelerators.",
+      "summary": "This paper investigates how on-chip SRAM size and operating frequency affect the energy efficiency of LLM inference. Using a simulation methodology combining OpenRAM, LLMCompass, and ScaleSIM, it finds that a high-frequency, small-SRAM configuration optimizes the energy-delay product, as memory bandwidth caps decode phase improvements. The analysis provides architectural guidance for designing efficient LLM accelerators.",
+      "mindmap": "graph TB\n        Root[”Prefill vs. Decode Bottlenecks: SRAM-Frequency Tradeoffs and the Memory-Bandwidth Ceiling”] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[”核心问题/Problem<br>LLM推理能耗高，Prefill与Decode阶段瓶颈不同”] --> Problem_Sub1[”SRAM大小与频率如何影响能效？”]\n        Problem --> Problem_Sub2[”内存带宽如何限制性能？”]\n        Method[”主要方法/Method<br>结合OpenRAM, LLMCompass, ScaleSIM的模拟方法”] --> Method_Sub1[”能耗建模/Energy Modeling”]\n        Method --> Method_Sub2[”延迟模拟/Latency Simulation”]\n        Method --> Method_Sub3[”操作强度分析/Operational Intensity”]\n        Results[”关键结果/Results”] --> Results_Sub1[”总能耗主要由SRAM大小决定<br>大缓存增加静态能耗”]\n        Results --> Results_Sub2[”高频可降低总能耗<br>（减少静态能耗）”]\n        Results --> Results_Sub3[”最优配置：高频(1200-1400MHz) + 小缓存(32-64KB)”]"
+    },
+    {
+      "title": "LLM Swiss Round: Aggregating Multi-Benchmark Performance via Competitive Swiss-System Dynamics",
+      "authors": "Jiashuo Liu, Jiayun Wu, Chunjie Wu, Jingkai Liu, Zaiyuan Wang, Huan Zhou, Wenhao Huang, Hongseok Namkoong",
+      "institution": "ByteDance Seed, Carnegie Mellon University, Columbia University",
+      "link": "https://arxiv.org/pdf/2512.21010",
+      "code": null,
+      "tags": [
+        "llm evaluation",
+        "Competitive Swiss-System Dynamics",
+        "Expected Win Score",
+        "Failure Sensitivity Analysis",
+        "Monte Carlo Simulation",
+        "risk appetite"
+      ],
+      "day": "2025-12-25",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5c6a4e260d9e6100733ae95995348a1b30295905871b863cf4afa821492e22eb_w640_q70.webp",
+      "contributions": "1. Introduces the Competitive Swiss-System Dynamics (CSD) framework, a novel sequential contest simulation for holistic LLM ranking across multiple benchmarks, 2. Proposes the Expected Win Score via Monte Carlo Simulation to provide a statistically robust ranking that reduces noise from random pairing, 3. Implements Failure Sensitivity Analysis to profile models by risk appetite, distinguishing between robust generalists and aggressive specialists.",
+      "summary": "The paper addresses the limitations of static, fragmented LLM evaluation by proposing the Competitive Swiss-System Dynamics (CSD) framework, which simulates a multi-round sequential contest to aggregate performance across benchmarks dynamically. It uses Monte Carlo simulation to compute a robust Expected Win Score and includes a Failure Sensitivity Analysis to assess model risk profiles. The authors demonstrate that CSD provides a more nuanced and context-aware ranking than traditional methods, advancing risk-informed LLM evaluation.",
+      "mindmap": "graph LR\n    A[LLM Swiss Round: Aggregating Multi-Benchmark Performance via Competitive Swiss-System Dynamics] --> B[核心问题/Problem: Fragmented benchmarks and static scoring fail to capture dynamic competitive fitness and risk]\n    A --> C[主要方法/Method: Competitive Swiss-System Dynamics (CSD) with Monte Carlo Simulation and Failure Sensitivity Analysis]\n    A --> D[关键结果/Results: More nuanced, context-aware ranking distinguishing robust generalists vs. aggressive specialists]"
+    },
+    {
+      "title": "SHIRO: Near-Optimal Communication Strategies for Distributed Sparse Matrix Multiplication",
+      "authors": "Chen Zhuang, Lingqi Zhang, Benjamin Brock, Du Wu, Peng Chen, Toshio Endo, Satoshi Matsuoka, Mohamed Wahib",
+      "institution": "TBD",
+      "link": "https://arxiv.org/pdf/2512.20178",
+      "code": null,
+      "tags": [],
+      "day": "2025-12-24",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/340dca9738b4b1930a1331103d9fe185151f34d58d7be73cc31d211665f20128_w640_q70.webp",
+      "contributions": "",
+      "summary": "SHIRO: Near-Optimal Communication Strategies for Distributed Sparse Matrix Multiplication",
+      "mindmap": ""
+    },
+    {
+      "title": "Post-Quantum Cryptography in the 5G Core",
+      "authors": "Thomas Attema, Bor de Kock, Sandesh Manganahalli Jayaprakash, Dimitrios Schoinianakis, Thom Sijpesteijn, Rintse van de Vlasakker",
+      "institution": "TBD",
+      "link": "https://arxiv.org/pdf/2512.20243",
+      "code": null,
+      "tags": [],
+      "day": "2025-12-24",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/859dfd3ed6d1322ef0080bba0f59f3ae42dade36f0faa22a613bb943d0674177_w640_q70.webp",
+      "contributions": "",
+      "summary": "Post-Quantum Cryptography in the 5G Core",
+      "mindmap": ""
+    },
+    {
+      "title": "Performance Guarantees for Data Freshness in Resource-Constrained Adversarial IoT Systems",
+      "authors": "Aresh Dadlani, Muthukrishnan Senthil Kumar, Omid Ardakanian, Ioanis Nikolaidis",
+      "institution": "TBD",
+      "link": "https://arxiv.org/pdf/2512.18155",
+      "code": null,
+      "tags": [],
+      "day": "2025-12-23",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d85be01fabe34bdb9a8cff81bbd4c5ee2a64d11886db3b1b67c1b63f6ae6ce3b_w640_q70.webp",
+      "contributions": "",
+      "summary": "Performance Guarantees for Data Freshness in Resource-Constrained Adversarial IoT Systems",
+      "mindmap": ""
+    },
+    {
+      "title": "Age of Information with Age-Dependent Server Selection",
+      "authors": "Nail Akar, Ismail Cosandal, Sennur Ulukus",
+      "institution": "TBD",
+      "link": "https://arxiv.org/pdf/2512.18457",
+      "code": null,
+      "tags": [],
+      "day": "2025-12-23",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7e86459dce028a5878b3bc0d106b94e0a4f8147592507343a098f65b2532139a_w640_q70.webp",
+      "contributions": "",
+      "summary": "Age of Information with Age-Dependent Server Selection",
+      "mindmap": ""
+    },
+    {
+      "title": "RAPID-LLM: Resilience-Aware Performance analysis of Infrastructure for Distributed LLM Training and Inference",
+      "authors": "George Karfakis, Faraz Tahmasebi, Binglu Chen, Lime Yao, Saptarshi Mitra, Tianyue Pan, Hyoukjun Kwon, Puneet Gupta",
+      "institution": "TBD",
+      "link": "https://arxiv.org/pdf/2512.19606",
+      "code": null,
+      "tags": [],
+      "day": "2025-12-23",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6ba70ec7306532ca1c35d62f262fda2524e63fa17cc3a261b1800c846a6c06b2_w640_q70.webp",
+      "contributions": "",
+      "summary": "RAPID-LLM: Resilience-Aware Performance analysis of Infrastructure for Distributed LLM Training and Inference",
+      "mindmap": ""
+    },
+    {
+      "title": "GreedySnake: Accelerating SSD-Offloaded LLM Training with Efficient Scheduling and Optimizer Step Overlapping",
+      "authors": "Yikang Yue, Yishu Yin, Xuehai Qian",
+      "institution": "Tsinghua University, University of Illinois at Urbana-Champaign",
+      "link": "https://arxiv.org/pdf/2512.17570",
+      "code": null,
+      "tags": [
+        "llm training",
+        "vertical scheduling",
+        "optimizer step overlapping",
+        "SSD-offloaded training",
+        "gradient accumulation"
+      ],
+      "day": "2025-12-22",
+      "thumbnail": null,
+      "contributions": "",
+      "summary": "The paper introduces GreedySnake, a system that accelerates SSD-offloaded LLM training by using vertical scheduling to process all micro-batches per layer before moving to the next, and by overlapping the optimizer step with the next forward pass. This approach significantly reduces I/O bottlenecks and improves throughput compared to prior systems like ZeRO-Infinity, achieving up to 2.53x speedup for large models like GPT-175B.",
+      "mindmap": ""
+    },
+    {
+      "title": "AdaGradSelect: An adaptive gradient-guided layer selection method for efficient fine-tuning of SLMs",
+      "authors": "Anshul Kumar, Gagan Raj Gupta, Manisha Chawla",
+      "institution": "IIT Bhilai",
+      "link": "https://arxiv.org/pdf/2512.15764",
+      "code": null,
+      "tags": [
+        "llm training",
+        "AdaGradSelect",
+        "gradient-guided selection",
+        "Dirichlet-based sampling",
+        "epsilon-greedy exploration",
+        "selective block update",
+        "Parameter-Efficient Fine-Tuning (PEFT)"
+      ],
+      "day": "2025-12-19",
+      "thumbnail": null,
+      "contributions": "",
+      "summary": "This paper introduces AdaGradSelect, an adaptive method for efficiently fine-tuning Small Language Models (SLMs) by selecting which transformer blocks to update based on gradient norms, using a combination of Dirichlet-based sampling and epsilon-greedy exploration. It achieves performance close to full fine-tuning while training about 12% faster and using 35% less GPU memory, outperforming methods like LoRA on benchmarks such as GSM8K.",
+      "mindmap": ""
+    },
+    {
+      "title": "LOOPRAG: Enhancing Loop Transformation Optimization with Retrieval-Augmented Large Language Models",
+      "authors": "Yijie Zhi, Yayu Cao, Jianhua Dai, Xiaoyang Han, Jingwen Pu, Qingran Wu, Sheng Cheng, Ming Cai",
+      "institution": "Zhejiang University, Zhejiang Institute of Administration, Beijing ShenZhou Aerospace Software Technology Ltd.",
+      "link": "https://arxiv.org/pdf/2512.15766",
+      "code": null,
+      "tags": [
+        "llm inference",
+        "retrieval-augmented generation",
+        "loop transformation",
+        "static control part",
+        "feedback-based iterative mechanism",
+        "equivalence checking"
+      ],
+      "day": "2025-12-19",
+      "thumbnail": null,
+      "contributions": "",
+      "summary": "The paper proposes LOOPRAG, a retrieval-augmented generation framework that guides Large Language Models (LLMs) to perform effective loop transformation optimization. It uses a loop-aware retrieval algorithm and a feedback-based iterative mechanism with compilation and testing to generate correct and efficient code. The evaluation shows LOOPRAG achieves significant speedups over both traditional compilers and base LLMs on standard benchmark suites.",
+      "mindmap": ""
+    },
+    {
+      "title": "Optimizing Agentic Language Model Inference via Speculative Tool Calls",
+      "authors": "Daniel Nichols, Prajwal Singhania, Charles Jekel, Abhinav Bhatele, Harshitha Menon",
+      "institution": "Lawrence Livermore National Laboratory, University of Maryland",
+      "link": "https://arxiv.org/pdf/2512.15834",
+      "code": null,
+      "tags": [
+        "llm inference",
+        "speculative tool calls",
+        "tool cache",
+        "vLLM",
+        "prefix-caching"
+      ],
+      "day": "2025-12-19",
+      "thumbnail": null,
+      "contributions": "",
+      "summary": "This paper introduces system optimizations for language model agents that use external tools, specifically by speculating future tool calls and keeping sequences resident in the inference engine to reduce overhead. These methods lead to significant throughput improvements of hundreds of tokens per second. The authors also propose a new \"tool cache\" API to facilitate adoption of these optimizations.",
+      "mindmap": ""
+    },
+    {
+      "title": "XTC, A Research Platform for Optimizing AI Workload Operators",
+      "authors": "Pompougnac Hugo, Guillon Christophe, Noiry Sylvain, Dutilleul Alban, Iooss Guillaume, Rastello Fabrice",
+      "institution": "Univ. Grenoble Alpes, Inria, CNRS, Grenoble INP, LIG",
+      "link": "https://arxiv.org/pdf/2512.16512",
+      "code": null,
+      "tags": [
+        "GPU kernels",
+        "scheduling language",
+        "code generation",
+        "performance evaluation",
+        "compiler",
+        "autotuning"
+      ],
+      "day": "2025-12-19",
+      "thumbnail": null,
+      "contributions": "",
+      "summary": "The paper introduces XTC, a research platform that provides a unified scheduling language and API to decouple optimization strategies from compiler-specific code generation and measurement. This enables portable experimentation and fair performance comparison across different compiler frameworks. The main conclusion is that XTC accelerates research on AI operator optimization by providing a common, reproducible framework for scheduling and evaluation.",
+      "mindmap": ""
+    }
+  ]
+}

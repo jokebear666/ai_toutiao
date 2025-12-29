@@ -1,0 +1,351 @@
+{
+  "label": "cs.DB",
+  "slug": "csdb",
+  "week": "20251229-20260104",
+  "items": [
+    {
+      "title": "Harnessing Data Spaces to Build Intelligent Smart City Infrastructures Across the Cloud-Edge Continuum",
+      "authors": "Dimitrios Amaxilatis, Themistoklis Sarantakos, Nikolaos Tsironis, Souvik Sengupta, Kostas Ramantas, Jhofre Ojeda",
+      "institution": "Spark Works Ltd., IONOS SE, Iquadrat Informática S.L.",
+      "link": "https://arxiv.org/pdf/2512.21340",
+      "code": null,
+      "tags": [
+        "on-device ai",
+        "data spaces",
+        "cloud-edge continuum",
+        "containerized microservices",
+        "edge AI",
+        "intelligent infrastructure monitoring"
+      ],
+      "day": "2025-12-29",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5ae37cae2dac445e3682b661f116dd30e5d680105ac5070eb7b48c049ab9aff3_w640_q70.webp",
+      "contributions": "1. A real-world implementation of intelligent infrastructure monitoring within a data space-enabled cloud-edge framework, demonstrating practical integration. 2. Leveraging edge computing, containerized microservices, and interoperable data sharing to address challenges like sensor integration, data privacy, and scalability. 3. Showcasing the training and deployment of AI/ML services directly at the edge for optimized resource use and timely decision-making in smart city applications.",
+      "summary": "This paper presents a real-world use case for smart cities, implementing an intelligent climate monitoring system within a cloud-edge continuum framework enabled by data spaces. The method combines edge computing, containerized microservices, and secure data sharing to facilitate localized analytics and AI deployment. The conclusion highlights the transformative potential of integrating AI, edge computing, and data spaces for building efficient and resilient smart city infrastructures.",
+      "mindmap": "graph TB\n        A[Harnessing Data Spaces for Smart City Infrastructures] --> B[核心问题/Problem: Enhancing smart city efficiency, sustainability, and resilience with secure, interoperable data exchange]\n        A --> C[主要方法/Method: Data space-enabled cloud-edge framework with edge computing, containerized microservices, and edge AI/ML]\n        A --> D[关键结果/Results: Demonstrates practical use case for intelligent monitoring, enabling localized analytics, real-time inference, and trusted data collaboration]"
+    },
+    {
+      "title": "Query Carefully: Detecting the Unanswerables in Text-to-SQL Tasks",
+      "authors": "Jasmin Saxer, Isabella Maria Aigner, Luise Linzmeier, Andreas Weiler, Kurt Stockinger",
+      "institution": "Zurich University of Applied Sciences, University of Zurich",
+      "link": "https://arxiv.org/pdf/2512.21345",
+      "code": null,
+      "tags": [
+        "text-to-SQL",
+        "unanswerable question detection",
+        "few-shot prompting",
+        "biomedical databases"
+      ],
+      "day": "2025-12-29",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4d95c00b7fa86810771a1c8fb0ff6fd8768baaa0419f172cc5c7a3068ac67a64_w640_q70.webp",
+      "contributions": "1. Proposed Query Carefully, a pipeline integrating LLM-based SQL generation with explicit detection of unanswerable inputs. 2. Constructed OncoMX-NAQ, a benchmark dataset of 80 no-answer questions for biomedical text-to-SQL. 3. Demonstrated that balanced few-shot prompting with both answerable and unanswerable examples achieves high unanswerable-detection accuracy without degrading performance on answerable queries.",
+      "summary": "This paper addresses the risk of text-to-SQL systems generating executable but incorrect SQL for ambiguous or unanswerable queries, especially in biomedical contexts. The authors propose the Query Carefully pipeline, which uses an LLM with schema-aware prompts and few-shot examples to detect and abstain from unanswerable inputs. Their evaluation shows the method achieves high detection accuracy for structurally unanswerable queries, though challenges remain for semantic ambiguities like missing values.",
+      "mindmap": "graph TB\n        Root(”Query Carefully: Detecting the Unanswerables in Text-to-SQL Tasks”) --> Problem\n        Root --> Method\n        Root --> Results\n        Problem(”核心问题/Problem”) --> P1(”Text-to-SQL对不可回答查询生成可执行SQL/Text-to-SQL generates executable SQL for unanswerable queries”)\n        P1 --> P2(”生物医学领域风险高/High risk in biomedical contexts”)\n        Method(”主要方法/Method”) --> M1(”Query Carefully 管道/Query Carefully pipeline”)\n        M1 --> M2(”LLM (llama3.3:70b) + 模式感知提示 + 少样本/LLM (llama3.3:70b) + schema-aware prompts + few-shot”)\n        M2 --> M3(”包含可回答与不可回答示例/Includes answerable and unanswerable examples”)\n        Results(”关键结果/Results”) --> R1(”构建OncoMX-NAQ基准/Built OncoMX-NAQ benchmark”)\n        R1 --> R2(”不可回答检测准确率0.8/Unanswerable-detection accuracy 0.8”)\n        R2 --> R3(”结构性问题检测好，语义模糊挑战大/Good for structural, challenging for semantic ambiguity”)"
+    },
+    {
+      "title": "Weighted Fourier Factorizations: Optimal Gaussian Noise for Differentially Private Marginal and Product Queries",
+      "authors": "Christian Janos Lebeda, Aleksandar Nikolov, Haohua Tang",
+      "institution": "Inria, Université de Montpellier, INSERM, University of Toronto",
+      "link": "https://arxiv.org/pdf/2512.21499",
+      "code": null,
+      "tags": [
+        "differential privacy",
+        "factorization mechanism",
+        "Fourier basis",
+        "marginal queries",
+        "product queries",
+        "Gaussian noise"
+      ],
+      "day": "2025-12-29",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/589c857d3c263098ff5b7608b80fed9cb6cf72f1228f01d3ba136496420444dc_w640_q70.webp",
+      "contributions": "1. Proposes a simpler, polynomial-time algorithm for releasing weighted marginal queries under differential privacy using Fourier factorization, achieving exact optimality among factorization mechanisms. 2. Extends the algorithm to a more general class of product queries, maintaining exact optimality. 3. Shows the mechanism is almost optimal for extended marginal queries with threshold predicates, achieving optimal noise variance up to lower-order terms.",
+      "summary": "This paper proposes a new algorithm for releasing marginal and product queries under differential privacy by adding correlated Gaussian noise. The method works by releasing queries in the Fourier basis with independent, carefully calibrated noise and then reconstructing the answers, which is proven to be exactly optimal among factorization mechanisms and runs in polynomial time. It simplifies and improves upon prior work, extending optimality to more general query classes.",
+      "mindmap": "graph TB\n        A[Weighted Fourier Factorizations<br>加权傅里叶分解] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[Releasing marginal queries<br>with differential privacy<br>在差分隐私下发布边际查询]\n        C --> C1[Use Fourier basis &<br>independent Gaussian noise<br>使用傅里叶基和独立高斯噪声]\n        C --> C2[Reconstruct via<br>inverse Fourier transform<br>通过逆傅里叶变换重构]\n        D --> D1[Exactly optimal for<br>marginal & product queries<br>对边际和乘积查询精确最优]\n        D --> D2[Polynomial-time algorithm<br>多项式时间算法]\n        D --> D3[Simpler & better than<br>prior work (Xiao et al.)<br>比先前工作更简单更好]"
+    },
+    {
+      "title": "Embedding Samples Dispatching for Recommendation Model Training in Edge Environments",
+      "authors": "Guopeng Li, Haisheng Tan, Chi Zhang, Hongqiu Ni, Zilong Wang, Xinyue Zhang, Yang Xu, Han Tian",
+      "institution": "University of Science and Technology of China (USTC), Hefei University of Technology",
+      "link": "https://arxiv.org/pdf/2512.21615",
+      "code": null,
+      "tags": [
+        "memory & caching",
+        "edge computing",
+        "embedding cache",
+        "parameter server",
+        "sample dispatching",
+        "transmission cost"
+      ],
+      "day": "2025-12-29",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f94cc43f65f5fd909f8762bda535a33eea94f879931ebe1a563280cb0db1be81_w640_q70.webp",
+      "contributions": "1. Proposed ESD, a novel mechanism to optimize the dispatch of input embedding samples to edge workers to minimize embedding transmission cost. 2. Designed HybridDis, a dispatch decision method that combines an optimal algorithm and a heuristic to balance decision quality and resource consumption. 3. Implemented a prototype and demonstrated significant reductions in transmission cost (up to 36.76%) and training speedup (up to 1.74x) on real-world workloads.",
+      "summary": "This paper addresses the high communication cost of embedding transmission during Deep Learning Recommendation Model (DLRM) training in edge environments. It proposes ESD, a mechanism that dispatches input samples to edge workers to minimize expected transmission cost, using a hybrid decision method called HybridDis. Experimental results show that ESD significantly reduces transmission cost and speeds up end-to-end training compared to state-of-the-art methods.",
+      "mindmap": "graph TB\n        Root[”Embedding Samples Dispatching for Recommendation Model Training in Edge Environments<br>边缘环境中推荐模型训练的嵌入样本调度”] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[”核心问题/Problem<br>DLRM边缘训练中嵌入传输成本高”] --> P1[”挑战/Challenges<br>异构网络，资源受限”]\n        Method[”主要方法/Method<br>ESD机制与HybridDis调度”] --> M1[”方法核心/Core<br>基于预期传输成本的样本调度”]\n        Results[”关键结果/Results<br>减少传输成本，加速训练”] --> R1[”性能提升/Improvement<br>成本降低36.76%，速度提升1.74倍”]"
+    },
+    {
+      "title": "Compliance Rating Scheme: A Data Provenance Framework for Generative AI Datasets",
+      "authors": "Matyas Bohacek, Ignacio Vilanova Echavarri",
+      "institution": "Stanford University, Imperial College London",
+      "link": "https://arxiv.org/pdf/2512.21775",
+      "code": null,
+      "tags": [
+        "Data Provenance",
+        "Data Provenance",
+        "Compliance Rating",
+        "Generative AI",
+        "Dataset Ethics",
+        "Transparency"
+      ],
+      "day": "2025-12-29",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fa33a1fedd52ef1c87e9bf7d9a25dad61aae942ba50660263862470b9b677745_w640_q70.webp",
+      "contributions": "1. Proposes the Compliance Rating Scheme (CRS), a framework for evaluating dataset compliance with transparency, accountability, and security principles. 2. Develops and releases an open-source Python library that implements the CRS framework using data provenance technology. 3. Creates a tool that is both reactive (evaluating existing datasets) and proactive (guiding the responsible construction of new datasets).",
+      "summary": "The paper addresses the lack of ethical and legal oversight in the creation and sharing of datasets for Generative AI. It proposes the Compliance Rating Scheme (CRS) framework and an accompanying open-source library to assess and ensure dataset compliance with key principles. The work aims to improve traceability and accountability in the AI data supply chain.",
+      "mindmap": "graph TB\n        Root(”Compliance Rating Scheme: A Data Provenance Framework for Generative AI Datasets”) --> Problem(”核心问题/Problem”)\n        Root --> Method(”主要方法/Method”)\n        Root --> Results(”关键结果/Results”)\n        Problem --> P1(”数据集创建缺乏伦理与法律监督/Lack of ethical & legal oversight in dataset creation”)\n        Problem --> P2(”数据来源与合法性信息丢失/Loss of data origin & legitimacy info”)\n        Method --> M1(”提出合规评级方案(CRS)框架/Propose Compliance Rating Scheme (CRS) framework”)\n        Method --> M2(”开发基于数据溯源技术的开源库/Develop open-source library using data provenance”)\n        Results --> R1(”评估现有数据集的合规性/Evaluate compliance of existing datasets”)\n        Results --> R2(”指导负责任的新数据集构建/Guide responsible construction of new datasets”)"
+    },
+    {
+      "title": "Exploring the Heterogeneity of Tabular Data: A Diversity-aware Data Generator via LLMs",
+      "authors": "Yafeng Tang, Xiaoou Ding, Jianzhuo Du, Zishuo Yan, Zhuang Ma, Zheng Liang, Zekai Qian, Hongzhi Wang",
+      "institution": "Harbin Institute of Technology",
+      "link": "https://arxiv.org/pdf/2512.21915",
+      "code": "https://github.com/windblow32/DATE",
+      "tags": [
+        "others",
+        "Tabular Data Generation",
+        "Large Language Models",
+        "Multi-Arm Bandit",
+        "Data Diversity",
+        "In-context Learning"
+      ],
+      "day": "2025-12-29",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5d8fa8039f8a5fa0717fc5e4a9c7ba2cf1fd158e44821059f4a767bc88790eaf_w640_q70.webp",
+      "contributions": "1. Introduces DATE, a framework that partitions heterogeneous tabular data into diverse subsets to prepare high-quality examples for in-context learning. 2. Proves the selection problem in heterogeneous data generation lacks the greedy-choice property and designs a Multi-Arm Bandit-based sampling algorithm to balance diversity and quality. 3. Demonstrates that DATE-generated data improves downstream tasks like Direct Preference Optimization (DPO) and enhances LLM reasoning on target data.",
+      "summary": "This paper addresses the challenge of generating high-quality synthetic tabular data from heterogeneous distributions. It proposes DATE, a framework that uses LLMs with decision tree feedback for subset-specific generation and a Multi-Arm Bandit algorithm for data selection. Experiments show DATE outperforms existing methods, reducing error rates and improving downstream model performance.",
+      "mindmap": "graph TB\n        Root[”Exploring the Heterogeneity of Tabular Data: A Diversity-aware Data Generator via LLMs”] --> Problem[”核心问题/Problem: Real-world tabular data is heterogeneous, making universal generation models challenging”]\n        Root --> Method[”主要方法/Method: DATE framework partitions data, uses LLMs with decision tree feedback, and applies Multi-Arm Bandit for selection”]\n        Root --> Results[”关键结果/Results: Outperforms SOTA methods, reduces error rate by 23.75%, improves DPO and LLM reasoning”]"
+    },
+    {
+      "title": "MarineEval: Assessing the Marine Intelligence of Vision-Language Models",
+      "authors": "YuK-Kwan Wong, Tuan-An To, Jipeng Zhang, Ziqiang Zheng, Sai-Kit Yeung",
+      "institution": "Hong Kong University of Science and Technology",
+      "link": "https://arxiv.org/pdf/2512.21126",
+      "code": "https://marineeval.hkustvgd.com",
+      "tags": [
+        "vision-language models",
+        "marine intelligence",
+        "domain-specific evaluation",
+        "benchmark dataset"
+      ],
+      "day": "2025-12-25",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/98ea3a0e94d1e540398b18f5612700e51ce9e190b312a741182b20da5ecfacac_w640_q70.webp",
+      "contributions": "1. Introduces MarineEval, the first large-scale marine domain-specific dataset and benchmark for evaluating Vision-Language Models (VLMs). 2. Constructs a diverse dataset with 2,000 image-based QA pairs, covering 7 task dimensions and 20 capacity dimensions, validated by marine domain experts. 3. Provides a comprehensive benchmark evaluation of 17 existing VLMs, revealing their significant limitations in handling domain-specific marine questions and highlighting areas for future improvement.",
+      "summary": "This paper investigates whether existing general-purpose Vision-Language Models (VLMs) can act as domain experts for marine science. To evaluate this, the authors construct MarineEval, a large-scale, expert-verified benchmark dataset of 2,000 marine image-question-answer pairs. The benchmark reveals that current VLMs perform poorly on this domain-specific task, indicating a significant gap and need for future research in specialized VLM capabilities.",
+      "mindmap": "graph LR\n    A[MarineEval: Assessing the Marine Intelligence of Vision-Language Models] --> B(核心问题/Problem: Can VLMs act as marine domain experts?);\n    A --> C(主要方法/Method: Construct MarineEval benchmark with 2000 expert-verified marine image-QA pairs);\n    A --> D(关键结果/Results: Existing VLMs perform poorly, highlighting a large room for improvement);"
+    },
+    {
+      "title": "An Allele-Centric Pan-Graph-Matrix Representation for Scalable Pangenome Analysis",
+      "authors": "Roberto Garrone",
+      "institution": "University of Milano-Bicocca",
+      "link": "https://arxiv.org/pdf/2512.21320",
+      "code": null,
+      "tags": [
+        "computational genomics",
+        "pangenome representation",
+        "allele-centric modeling",
+        "sparse-dense hybrid encoding",
+        "genomic data compression"
+      ],
+      "day": "2025-12-25",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/47769022333474d616f56daabe2a8f15f3f606c9ff2cc86a0693b945b208b031_w640_q70.webp",
+      "contributions": "1. Introduces H1, a novel allele-centric pan-graph-matrix representation that treats alleles as first-class objects and uses adaptive per-allele compression for efficient storage. 2. Introduces H2, a path-centric dual representation derived from the same underlying data, which restores explicit haplotype ordering while maintaining information equivalence. 3. Demonstrates that the representation achieves substantial compression gains, particularly for structural variants, while remaining informationally equivalent to pangenome graphs.",
+      "summary": "The paper addresses the need for scalable, population-aware pangenome representations that unify different types of genomic variation. It proposes the H1 pan-graph-matrix, an allele-centric representation with adaptive compression, and its dual H2 representation. The method shows significant compression benefits, especially for structural variants, providing a unified foundation for large-scale pangenome analysis.",
+      "mindmap": "graph LR\n    A[An Allele-Centric Pan-Graph-Matrix Representation] --> B(核心问题/Problem: Scalable, unified pangenome representation for population-scale analysis)\n    A --> C(主要方法/Method: H1 allele-centric matrix with adaptive compression & H2 path-centric dual)\n    A --> D(关键结果/Results: Substantial compression gains, equivalent information, unified foundation)"
+    },
+    {
+      "title": "Asia Cup 2025: A Structured T20 Match-Level Dataset and Exploratory Analysis for Cricket Analytics",
+      "authors": "Kousar Raza, Faizan Ali",
+      "institution": "TBD",
+      "link": "https://arxiv.org/pdf/2512.19740",
+      "code": null,
+      "tags": [],
+      "day": "2025-12-24",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6f547c21d7d60b5ce4f92522c83aa7c297fc051a77b6eddf69ef405348fda9d8_w640_q70.webp",
+      "contributions": "",
+      "summary": "Asia Cup 2025: A Structured T20 Match-Level Dataset and Exploratory Analysis for Cricket Analytics",
+      "mindmap": ""
+    },
+    {
+      "title": "Risk-Aware GPU-Assisted Cardinality Estimation for Cost-Based Query Optimizers",
+      "authors": "Ilsun Chang",
+      "institution": "TBD",
+      "link": "https://arxiv.org/pdf/2512.19750",
+      "code": null,
+      "tags": [],
+      "day": "2025-12-24",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/22261640471da63aebf047b2045859846dac3cc2b34448b820a7154bc31cfb4f_w640_q70.webp",
+      "contributions": "",
+      "summary": "Risk-Aware GPU-Assisted Cardinality Estimation for Cost-Based Query Optimizers",
+      "mindmap": ""
+    },
+    {
+      "title": "Automated Training of Learned Database Components with Generative AI",
+      "authors": "Angjela Davitkova, Sebastian Michel",
+      "institution": "TBD",
+      "link": "https://arxiv.org/pdf/2512.20271",
+      "code": null,
+      "tags": [],
+      "day": "2025-12-24",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3cc880d38922c9b2f56b78a3d6cf42027fb2c3ae8eb0ea56ebd9907f0c6b0a8b_w640_q70.webp",
+      "contributions": "",
+      "summary": "Automated Training of Learned Database Components with Generative AI",
+      "mindmap": ""
+    },
+    {
+      "title": "Memelang: An Axial Grammar for LLM-Generated Vector-Relational Queries",
+      "authors": "Bri Holt",
+      "institution": "TBD",
+      "link": "https://arxiv.org/pdf/2512.17967",
+      "code": null,
+      "tags": [],
+      "day": "2025-12-23",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5ebc97e26c8b4495d4266d2df2068075acfc72cc34bd5761f186017a45a8314b_w640_q70.webp",
+      "contributions": "",
+      "summary": "Memelang: An Axial Grammar for LLM-Generated Vector-Relational Queries",
+      "mindmap": ""
+    },
+    {
+      "title": "Sync Without Guesswork: Incomplete Time Series Alignment",
+      "authors": "Ding Jia, Jingyu Zhu, Yu Sun, Aoqian Zhang, Shaoxu Song, Haiwei Zhang, Xiaojie Yuan",
+      "institution": "TBD",
+      "link": "https://arxiv.org/pdf/2512.18238",
+      "code": null,
+      "tags": [],
+      "day": "2025-12-23",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a5f4c126958228d6ea59af83cad80432da90bc8efb5266f0e8786181c748bb51_w640_q70.webp",
+      "contributions": "",
+      "summary": "Sync Without Guesswork: Incomplete Time Series Alignment",
+      "mindmap": ""
+    },
+    {
+      "title": "Towards Scalable Visual Data Wrangling via Direct Manipulation",
+      "authors": "El Kindi Rezig, Mir Mahathir Mohammad, Nicolas Baret, Ricardo Mayerhofer, Andrew McNutt, Paul Rosen",
+      "institution": "TBD",
+      "link": "https://arxiv.org/pdf/2512.18405",
+      "code": null,
+      "tags": [],
+      "day": "2025-12-23",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/790118e217a177acb4ecd824d816066f84640176a4ebb5ada4193f1841afa44c_w640_q70.webp",
+      "contributions": "",
+      "summary": "Towards Scalable Visual Data Wrangling via Direct Manipulation",
+      "mindmap": ""
+    },
+    {
+      "title": "A Multi-agent Text2SQL Framework using Small Language Models and Execution Feedback",
+      "authors": "Thanh Dat Hoang, Thanh Trung Huynh, Matthias Weidlich, Thanh Tam Nguyen, Tong Chen, Hongzhi Yin, Quoc Viet Hung Nguyen",
+      "institution": "TBD",
+      "link": "https://arxiv.org/pdf/2512.18622",
+      "code": null,
+      "tags": [],
+      "day": "2025-12-23",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d06b3e9f87e02f31154a7925036d456a7d4454e03d1f54e60c44ca1f788fae13_w640_q70.webp",
+      "contributions": "",
+      "summary": "A Multi-agent Text2SQL Framework using Small Language Models and Execution Feedback",
+      "mindmap": ""
+    },
+    {
+      "title": "A Computationally Efficient Framework for Overlapping Community Detection in Large Bipartite Graphs",
+      "authors": "Yue Zeng, Rong-Hua Li, Qiangqiang Dai, Guoren Wang",
+      "institution": "TBD",
+      "link": "https://arxiv.org/pdf/2512.19426",
+      "code": null,
+      "tags": [],
+      "day": "2025-12-23",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f33f4dadd12545035534b76bb1ee771a53f3293698ac5dc76cc68d188c95b15a_w640_q70.webp",
+      "contributions": "",
+      "summary": "A Computationally Efficient Framework for Overlapping Community Detection in Large Bipartite Graphs",
+      "mindmap": ""
+    },
+    {
+      "title": "Knowledge Distillation with Structured Chain-of-Thought for Text-to-SQL",
+      "authors": "Khushboo Thaker, Yony Bresler",
+      "institution": "Crater Labs",
+      "link": "https://arxiv.org/pdf/2512.17053",
+      "code": null,
+      "tags": [
+        "llm training",
+        "knowledge distillation",
+        "chain-of-thought",
+        "structured reasoning",
+        "query execution plan",
+        "text-to-sql"
+      ],
+      "day": "2025-12-22",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/906b49597857a3cad8e1c9c8d6cdbec46e7807fe819943d1e6d91facfb7f18bd_w640_q70.webp",
+      "contributions": "",
+      "summary": "The paper proposes Struct-SQL, a knowledge distillation framework that trains a small language model using a structured chain-of-thought derived from query execution plans, rather than unstructured reasoning traces. The distilled model achieves an 8.1% absolute improvement over an unstructured baseline, primarily due to a reduction in syntactic errors. This demonstrates that structured logical blueprints are beneficial for reliable SQL generation in small models.",
+      "mindmap": ""
+    },
+    {
+      "title": "Scaling Text2SQL via LLM-efficient Schema Filtering with Functional Dependency Graph Rerankers",
+      "authors": "Thanh Dat Hoang, Thanh Tam Nguyen, Thanh Trung Huynh, Hongzhi Yin, Quoc Viet Hung Nguyen",
+      "institution": "Griffith University, VinUniversity, The University of Queensland",
+      "link": "https://arxiv.org/pdf/2512.16083",
+      "code": null,
+      "tags": [
+        "llm inference",
+        "schema filtering",
+        "functional dependency graph",
+        "graph transformer",
+        "Steiner-tree heuristic",
+        "query-aware LLM encoder"
+      ],
+      "day": "2025-12-19",
+      "thumbnail": null,
+      "contributions": "",
+      "summary": "This paper introduces GRAST-SQL, a framework for scaling Text2SQL systems by efficiently filtering and compacting database schemas before prompting an LLM. It uses a query-aware LLM encoder, a graph transformer over functional dependencies, and a Steiner-tree heuristic to select a relevant, connectivity-preserving sub-schema. The method achieves high recall and precision while maintaining low latency and scaling to schemas with over 23,000 columns.",
+      "mindmap": ""
+    },
+    {
+      "title": "ModelTables: A Corpus of Tables about Models",
+      "authors": "Zhengyuan Dong, Victor Zhong, Renée J. Miller",
+      "institution": "University of Waterloo",
+      "link": "https://arxiv.org/pdf/2512.16106",
+      "code": null,
+      "tags": [
+        "others",
+        "table retrieval",
+        "model lakes",
+        "data lakes",
+        "unionable tables",
+        "joinable tables",
+        "dense retrieval",
+        "sparse retrieval",
+        "hybrid retrieval",
+        "benchmark construction"
+      ],
+      "day": "2025-12-19",
+      "thumbnail": null,
+      "contributions": "",
+      "summary": "This paper introduces ModelTables, a benchmark corpus of structured tables describing AI models, built from sources like Hugging Face model cards and GitHub READMEs. It evaluates table search methods, finding that table-based dense retrieval performs best but leaves significant room for improvement. The work provides a foundation for better semantic retrieval and organization of structured model knowledge.",
+      "mindmap": ""
+    },
+    {
+      "title": "Graph Pattern-based Association Rules Evaluated Under No-repeated-anything Semantics in the Graph Transactional Setting",
+      "authors": "Basil Ell",
+      "institution": "Bielefeld University, University of Oslo",
+      "link": "https://arxiv.org/pdf/2512.15308",
+      "code": null,
+      "tags": [
+        "graph mining",
+        "graph pattern-based association rules",
+        "no-repeated-anything semantics",
+        "confidence",
+        "lift",
+        "leverage",
+        "conviction"
+      ],
+      "day": "2025-12-18",
+      "thumbnail": null,
+      "contributions": "",
+      "summary": "This paper introduces Graph Pattern-based Association Rules (GPARs) for analyzing directed labeled multigraphs like RDF graphs. It evaluates these rules under a \"no-repeated-anything\" semantics to better account for graph topology and defines probabilistic metrics like confidence and lift. The framework is shown to extend beyond existing formalisms for graph data.",
+      "mindmap": ""
+    }
+  ]
+}

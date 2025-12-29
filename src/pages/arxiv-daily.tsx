@@ -16,8 +16,9 @@ type PaperItem = {
   contributions?: string;
   summary?: string;
   mindmap?: string;
+  slug?: string;
 };
-type CategoryData = { label: string; slug: string; week?: string; items: PaperItem[] };
+type CategoryData = { label: string; slug: string; week?: string; items?: PaperItem[] };
 
 const CodeIcon = () => (
   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -223,11 +224,15 @@ const CalendarWidget = ({ availableDates, selectedDate, onSelectDate }: { availa
 export default function ArxivDailyPage() {
   const {siteConfig} = useDocusaurusContext();
   const [data, setData] = useState<CategoryData[]>([]);
+  const [loadedCats, setLoadedCats] = useState<Set<string>>(new Set());
+  const [searchIndex, setSearchIndex] = useState<PaperItem[]>([]);
   const [active, setActive] = useState<string>('csai');
   const [selectedPaper, setSelectedPaper] = useState<PaperItem | null>(null);
   const dataUrl = useBaseUrl('/data/arxiv_daily.json');
+  const baseUrl = siteConfig.baseUrl || '/';
   const hotAds = (siteConfig?.themeConfig as any)?.hotAds || [];
 
+  // 1. Load Metadata (Categories list)
   useEffect(() => {
     let cancelled = false;
     (async () => {
@@ -237,15 +242,50 @@ export default function ArxivDailyPage() {
         const json = await res.json();
         const cats: CategoryData[] = json.categories || [];
         if (!cancelled) {
-          setData(cats);
-          if (cats.length && !cats.find(c => c.slug === active)) {
-            setActive(cats[0].slug);
+          // Initialize items as empty array to avoid undefined errors
+          const safeCats = cats.map(c => ({...c, items: c.items || []}));
+          setData(safeCats);
+          if (safeCats.length && !safeCats.find(c => c.slug === active)) {
+            setActive(safeCats[0].slug);
           }
         }
       } catch {}
     })();
     return () => { cancelled = true; };
   }, [dataUrl]);
+
+  // 2. Load Active Category Data
+  useEffect(() => {
+    if (!active || loadedCats.has(active)) return;
+    
+    (async () => {
+        try {
+            const cleanBase = baseUrl.endsWith('/') ? baseUrl : baseUrl + '/';
+            const url = `${cleanBase}data/arxiv_daily_${active}.json`;
+            const res = await fetch(url);
+            if (!res.ok) return;
+            const catData = await res.json();
+            
+            setData(prev => prev.map(c => c.slug === active ? { ...c, items: catData.items || [] } : c));
+            setLoadedCats(prev => new Set(prev).add(active));
+        } catch (e) { console.error("Failed to load category", active, e); }
+    })();
+  }, [active, loadedCats, baseUrl]);
+
+  // 3. Load Search Index
+  useEffect(() => {
+      (async () => {
+          try {
+             const cleanBase = baseUrl.endsWith('/') ? baseUrl : baseUrl + '/';
+             const url = `${cleanBase}data/arxiv_daily_search.json`;
+             const res = await fetch(url);
+             if (res.ok) {
+                 const idx = await res.json();
+                 setSearchIndex(idx);
+             }
+          } catch {}
+      })();
+  }, [baseUrl]);
 
   const zhMap = useMemo(() => ({
     ai: '人工智能', ce: '计算工程', cl: '计算语言学', cv: '计算机视觉', lg: '机器学习', dc: '分布式计算',
@@ -299,8 +339,8 @@ export default function ArxivDailyPage() {
   const displayItems = useMemo(() => {
     if (searchQuery.trim()) {
       const lowerQuery = searchQuery.toLowerCase();
-      // Use allItems for search instead of activeItems
-      return allItems.filter(it => {
+      // Use searchIndex for search
+      return searchIndex.filter(it => {
         const titleMatch = (it.title || '').toLowerCase().includes(lowerQuery);
         const tagsMatch = (it.tags || []).some(tag => tag.toLowerCase().includes(lowerQuery));
         return titleMatch || tagsMatch;
@@ -308,7 +348,45 @@ export default function ArxivDailyPage() {
     }
     if (!selectedDate) return activeItems;
     return activeItems.filter(it => it.day === selectedDate);
-  }, [activeItems, allItems, selectedDate, searchQuery]);
+  }, [activeItems, searchIndex, selectedDate, searchQuery]);
+
+  const handleCardClick = async (it: PaperItem) => {
+      // If search mode and item has slug (from search index), we might need to load full data
+      if (searchQuery.trim() && it.slug) {
+          const targetSlug = it.slug;
+          if (targetSlug !== active) {
+              setActive(targetSlug);
+          }
+
+          let fullItem = it;
+          // Check if we need to fetch full data
+          if (!loadedCats.has(targetSlug)) {
+             try {
+                 const cleanBase = baseUrl.endsWith('/') ? baseUrl : baseUrl + '/';
+                 const url = `${cleanBase}data/arxiv_daily_${targetSlug}.json`;
+                 const res = await fetch(url);
+                 const catData = await res.json();
+                 
+                 // Update state
+                 setData(prev => prev.map(c => c.slug === targetSlug ? { ...c, items: catData.items || [] } : c));
+                 setLoadedCats(prev => new Set(prev).add(targetSlug));
+                 
+                 // Find full item
+                 const found = catData.items?.find((i: PaperItem) => i.title === it.title);
+                 if (found) fullItem = found;
+             } catch (e) { console.error("Error loading details", e); }
+          } else {
+             // Already loaded, find it in data
+             const cat = data.find(c => c.slug === targetSlug);
+             const found = cat?.items?.find(i => i.title === it.title);
+             if (found) fullItem = found;
+          }
+          setSelectedPaper(fullItem);
+      } else {
+          // Normal mode or item without slug (shouldn't happen in search index)
+          setSelectedPaper(it);
+      }
+  };
 
   return (
     <Layout title="Arxiv每日论文">
@@ -337,6 +415,22 @@ export default function ArxivDailyPage() {
                   }
                 }}
               />
+              {searchQuery && (
+                  <button 
+                    className="arxiv-search-clear"
+                    onClick={() => {
+                        setSearchQuery('');
+                        if (availableDates.length > 0) {
+                            setSelectedDate(availableDates[0]);
+                        }
+                    }}
+                  >
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                  </button>
+              )}
             </div>
             <div className="arxiv-top-links">
               <a href="#">创作中心</a>
@@ -379,7 +473,7 @@ export default function ArxivDailyPage() {
             {displayItems.map((it, idx) => {
               const firstAuthor = ((it.authors || '').split(',')[0] || '').trim();
               return (
-                <div key={idx} className="arxiv-card" onClick={() => setSelectedPaper(it)}>
+                <div key={idx} className="arxiv-card" onClick={() => handleCardClick(it)}>
                   <div className="arxiv-card-image">
                     {it.thumbnail ? (
                       <img src={it.thumbnail} loading="lazy" alt="" />

@@ -1,0 +1,125 @@
+{
+  "label": "cs.DL",
+  "slug": "csdl",
+  "week": "20251229-20260104",
+  "items": [
+    {
+      "title": "Beyond Content: How Author Network Centrality Drives Citation Disparities in Top AI Conferences",
+      "authors": "Renlong Jie, Longfeng Zhao, Chen Chu, Danyang Jia, Zhen Wang",
+      "institution": "Northwestern Polytechnical University, Yunnan University of Finance and Economics",
+      "link": "https://arxiv.org/pdf/2512.21832",
+      "code": null,
+      "tags": [
+        "scientometrics",
+        "centrality metrics",
+        "beta regression",
+        "citation prediction",
+        "collaboration networks",
+        "HCTCD"
+      ],
+      "day": "2025-12-29",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0a10897772f2c60c9e053906cbd883c00cc245819e102b807a1780a44d095f89_w640_q70.webp",
+      "contributions": "1. Proposed a novel centrality metric (Harmonic Closeness with Temporal and Collaboration Count Decay - HCTCD) that incorporates temporal decay and collaboration intensity. 2. Advanced the methodological field by employing beta regression to model citation percentiles, appropriately handling the bounded nature of citation data. 3. Demonstrated that team-level centrality aggregation, particularly through exponentially weighted summation, explains citation variance more effectively than individual or rank-based approaches, highlighting the importance of collective network connectivity.",
+      "summary": "This study investigates how authors' positions in scientific collaboration networks influence citation disparities in top AI conferences. It proposes a new centrality metric (HCTCD) and uses beta regression to analyze data from NeurIPS, ICML, and ICLR. The findings show that long-term network centrality, especially at the team level, is a strong predictor of citations, challenging evaluation paradigms that focus solely on content.",
+      "mindmap": "graph TB\n        Root[”Beyond Content: How Author Network Centrality Drives Citation Disparities in Top AI Conferences<br>超越内容：作者网络中心性如何驱动顶级AI会议的引用差异”] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[”核心问题/Problem<br>Citation disparities driven by factors beyond research quality<br>引用差异由研究质量以外的因素驱动”] --> P1[”系统性偏见/Systemic Biases”]\n        P1 --> P2[”作者在网络中的结构位置/Author's Structural Network Position”]\n        Method[”主要方法/Method<br>Large-scale analysis & novel metrics<br>大规模分析与新指标”] --> M1[”Beta Regression<br>贝塔回归”]\n        M1 --> M2[”Models citation percentiles<br>建模引用百分位数”]\n        Method --> M3[”Proposed HCTCD centrality<br>提出HCTCD中心性”]\n        M3 --> M4[”Incorporates temporal decay & collaboration intensity<br>包含时间衰减与合作强度”]\n        Results[”关键结果/Results<br>Network centrality significantly impacts citations<br>网络中心性显著影响引用”] --> R1[”Long-term centrality > short-term metrics<br>长期中心性 > 短期指标”]\n        R1 --> R2[”Closeness & HCTCD are potent predictors<br>接近中心性与HCTCD是强预测因子”]\n        Results --> R3[”Team-level aggregation explains variance best<br>团队层面聚合最能解释方差”]\n        R3 --> R4[”Reduces prediction error in ML models<br>降低机器学习模型预测误差”]"
+    },
+    {
+      "title": "\"All You Need\" is Not All You Need for a Paper Title: On the Origins of a Scientific Meme",
+      "authors": "Anton Alyakin",
+      "institution": "TBD",
+      "link": "https://arxiv.org/pdf/2512.19700",
+      "code": null,
+      "tags": [],
+      "day": "2025-12-24",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f7dd2926116b7f555fd465c856929048f8fcdbf9a408910ee765667d89ab6c77_w640_q70.webp",
+      "contributions": "",
+      "summary": "\"All You Need\" is Not All You Need for a Paper Title: On the Origins of a Scientific Meme",
+      "mindmap": ""
+    },
+    {
+      "title": "Layout-Aware Text Editing for Efficient Transformation of Academic PDFs to Markdown",
+      "authors": "Changxu Duan",
+      "institution": "TBD",
+      "link": "https://arxiv.org/pdf/2512.18115",
+      "code": null,
+      "tags": [],
+      "day": "2025-12-23",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/13ec88807faf2814dad94d8489b36894b8aa8c290f9026ca2108a6c17ac22ca6_w640_q70.webp",
+      "contributions": "",
+      "summary": "Layout-Aware Text Editing for Efficient Transformation of Academic PDFs to Markdown",
+      "mindmap": ""
+    },
+    {
+      "title": "Accelerating End-to-End PDF to Markdown Conversion Through Assisted Generation",
+      "authors": "Changxu Duan",
+      "institution": "TBD",
+      "link": "https://arxiv.org/pdf/2512.18122",
+      "code": null,
+      "tags": [],
+      "day": "2025-12-23",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/58612e72a18b314f91299b4a4f61d1fb3eaebfbccaa97bca668eb194568e1396_w640_q70.webp",
+      "contributions": "",
+      "summary": "Accelerating End-to-End PDF to Markdown Conversion Through Assisted Generation",
+      "mindmap": ""
+    },
+    {
+      "title": "Improving Data Reusability in Interactive Information Retrieval: Insights from the Community",
+      "authors": "Tianji Jiang, Wenqi Li, Jiqun Liu",
+      "institution": "TBD",
+      "link": "https://arxiv.org/pdf/2512.18283",
+      "code": null,
+      "tags": [],
+      "day": "2025-12-23",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ad5fd35b3eb397c1cdccdf1de651dbc282de84bed1120a1a715ed8c742a75b03_w640_q70.webp",
+      "contributions": "",
+      "summary": "Improving Data Reusability in Interactive Information Retrieval: Insights from the Community",
+      "mindmap": ""
+    },
+    {
+      "title": "Research on Novelty Measurement Indicator of Academic Papers Based on the Atypical Recombination of Knowledge",
+      "authors": "Liang Guoqiang, Sun Jian, Lin Gege, Zhang Shuo",
+      "institution": "TBD",
+      "link": "https://arxiv.org/pdf/2512.18979",
+      "code": null,
+      "tags": [],
+      "day": "2025-12-23",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6047b1e27add4f4ec9bf622e7d3891d9b591f85ce203b7262f4124b8055bedf1_w640_q70.webp",
+      "contributions": "",
+      "summary": "Research on Novelty Measurement Indicator of Academic Papers Based on the Atypical Recombination of Knowledge",
+      "mindmap": ""
+    },
+    {
+      "title": "Multimodal LLMs for Historical Dataset Construction from Archival Image Scans: German Patents (1877-1918)",
+      "authors": "Niclas Griesshaber, Jochen Streb",
+      "institution": "TBD",
+      "link": "https://arxiv.org/pdf/2512.19675",
+      "code": null,
+      "tags": [],
+      "day": "2025-12-23",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d49754318d6e9803642e66f7555bb2551be305239532d52cb9f0b2b55048ad6b_w640_q70.webp",
+      "contributions": "",
+      "summary": "Multimodal LLMs for Historical Dataset Construction from Archival Image Scans: German Patents (1877-1918)",
+      "mindmap": ""
+    },
+    {
+      "title": "Intelligent Knowledge Mining Framework: Bridging AI Analysis and Trustworthy Preservation",
+      "authors": "Binh Vu",
+      "institution": "FernUniversität in Hagen",
+      "link": "https://arxiv.org/pdf/2512.17795",
+      "code": null,
+      "tags": [
+        "others",
+        "Knowledge Mining",
+        "Digital Preservation",
+        "Semantic Web",
+        "Data Integration",
+        "Dual-Stream Architecture"
+      ],
+      "day": "2025-12-22",
+      "thumbnail": null,
+      "contributions": "",
+      "summary": "The paper proposes the Intelligent Knowledge Mining Framework (IKMF), a conceptual dual-stream architecture that combines a horizontal AI-driven mining process with a parallel trustworthy archiving stream. It aims to bridge the gap between dynamic analysis and long-term preservation, transforming static data repositories into living, actionable knowledge ecosystems.",
+      "mindmap": ""
+    }
+  ]
+}

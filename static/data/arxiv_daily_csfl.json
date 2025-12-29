@@ -1,0 +1,85 @@
+{
+  "label": "cs.FL",
+  "slug": "csfl",
+  "week": "20251229-20260104",
+  "items": [
+    {
+      "title": "Quantitative Verification of Omega-regular Properties in Probabilistic Programming",
+      "authors": "Peixin Wang, Jianhao Bai, Min Zhang, C.-H. Luke Ong",
+      "institution": "East China Normal University, Nanyang Technological University",
+      "link": "https://arxiv.org/pdf/2512.21596",
+      "code": null,
+      "tags": [
+        "probabilistic programming and verification",
+        "temporal posterior inference",
+        "omega-regular properties",
+        "stochastic barrier certificates",
+        "Rabin automata",
+        "quantitative verification"
+      ],
+      "day": "2025-12-29",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c111a01f9d5e96a85d9b5c62645dae0f5bb40053d723e34cb57dc7f31554dcda_w640_q70.webp",
+      "contributions": "1. Introduces Temporal Posterior Inference (TPI), a new framework unifying probabilistic programming with temporal logic to compute posterior distributions over execution traces satisfying omega-regular properties. 2. Develops a novel method for computing rigorous upper and lower bounds on satisfaction probabilities by decomposing Rabin acceptance conditions and constructing sound stochastic barrier certificates. 3. Implements the approach in a prototype tool named TPInfer and demonstrates its effectiveness and efficiency on a suite of benchmarks.",
+      "summary": "This paper addresses the limitation of standard probabilistic program inference, which fails to capture temporal behavior, by proposing Temporal Posterior Inference (TPI). TPI computes posterior distributions over program traces that satisfy omega-regular temporal specifications, using a method based on stochastic barrier certificates to provide quantitative verification bounds. The approach is implemented in the TPInfer tool and shown to be effective for inference over rich temporal properties.",
+      "mindmap": "graph TB\n        Root(”Quantitative Verification of Omega-regular Properties in Probabilistic Programming”) --> Problem(”核心问题/Problem”)\n        Root --> Method(”主要方法/Method”)\n        Root --> Results(”关键结果/Results”)\n        Problem --> P1(”标准后验推断的局限/Limitation of Standard Posterior Inference”)\n        P1 --> P2(”无法捕捉程序执行的时间演化/Fails to capture temporal evolution”)\n        Method --> M1(”提出时间后验推断框架/Propose Temporal Posterior Inference (TPI)”)\n        M1 --> M2(”统一概率编程与时序逻辑/Unifies Probabilistic Programming & Temporal Logic”)\n        M2 --> M3(”基于随机屏障证书的定量验证方法/Quantitative Verification via Stochastic Barrier Certificates”)\n        Results --> R1(”实现原型工具 TPInfer/Implement Prototype Tool TPInfer”)\n        Results --> R2(”在基准测试中展示有效性与效率/Demonstrates Effectiveness & Efficiency on Benchmarks”)"
+    },
+    {
+      "title": "Symmaries: Automatic Inference of Formal Security Summaries for Java Programs",
+      "authors": "Narges Khakpour, Nicolas Berthier",
+      "institution": "TBD",
+      "link": "https://arxiv.org/pdf/2512.20396",
+      "code": null,
+      "tags": [],
+      "day": "2025-12-24",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a6bdfa1cdb9c42587497d38e68d6ea55a15a3372a5c197a241c9e2cf0c52caf1_w640_q70.webp",
+      "contributions": "",
+      "summary": "Symmaries: Automatic Inference of Formal Security Summaries for Java Programs",
+      "mindmap": ""
+    },
+    {
+      "title": "VeruSAGE: A Study of Agent-Based Verification for Rust Systems",
+      "authors": "Chenyuan Yang, Natalie Neamtu, Chris Hawblitzel, Jacob R. Lorch, Shan Lu",
+      "institution": "TBD",
+      "link": "https://arxiv.org/pdf/2512.18436",
+      "code": null,
+      "tags": [],
+      "day": "2025-12-23",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8a6dcac7fed2f39d9b3c88cf4fcec2c0a341fe5463b697a482bfb914d0610c67_w640_q70.webp",
+      "contributions": "",
+      "summary": "VeruSAGE: A Study of Agent-Based Verification for Rust Systems",
+      "mindmap": ""
+    },
+    {
+      "title": "On the complexity of computing Strahler numbers",
+      "authors": "Moses Ganardi, Markus Lohrey",
+      "institution": "TBD",
+      "link": "https://arxiv.org/pdf/2512.19060",
+      "code": null,
+      "tags": [],
+      "day": "2025-12-23",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/766e6fd373709e1db6e154a2587de62f4f4e26874de556b197f9b8ce5acbd6c2_w640_q70.webp",
+      "contributions": "",
+      "summary": "On the complexity of computing Strahler numbers",
+      "mindmap": ""
+    },
+    {
+      "title": "About Time: Model-free Reinforcement Learning with Timed Reward Machines",
+      "authors": "Anirban Majumdar, Ritam Raha, Rajarshi Roy, David Parker, Marta Kwiatkowska",
+      "institution": "Tata Institute of Fundamental Research, Max Planck Institute for Software Systems, University of Oxford",
+      "link": "https://arxiv.org/pdf/2512.17637",
+      "code": null,
+      "tags": [
+        "reinforcement learning",
+        "timed reward machines",
+        "tabular Q-learning",
+        "timed automata",
+        "counterfactual-imagining"
+      ],
+      "day": "2025-12-22",
+      "thumbnail": null,
+      "contributions": "",
+      "summary": "This paper proposes timed reward machines (TRMs), an extension of reward machines that incorporates timing constraints into the reward specification for reinforcement learning. The authors develop model-free RL algorithms, specifically using tabular Q-learning integrated with abstractions of timed automata and counterfactual-imagining heuristics, to learn optimal policies. The experimental results show that their approach successfully learns policies that achieve high rewards while satisfying the specified timing constraints.",
+      "mindmap": ""
+    }
+  ]
+}

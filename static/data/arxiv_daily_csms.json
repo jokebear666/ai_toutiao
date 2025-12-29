@@ -1,0 +1,40 @@
+{
+  "label": "cs.MS",
+  "slug": "csms",
+  "week": "20251229-20260104",
+  "items": [
+    {
+      "title": "Some Patterns of Duplications in the outputs of Mersenne Twister Pseudorandom Number Generator MT19937",
+      "authors": "Alain Schumacher, Takuji Nishimura, Makoto Matsumoto",
+      "institution": "SICAP R&D, Yamagata University, AMAGAERU Institute of Free Mathematics",
+      "link": "https://arxiv.org/pdf/2512.21678",
+      "code": null,
+      "tags": [
+        "pseudorandom number generation",
+        "Mersenne Twister",
+        "statistical tests",
+        "run-length distribution",
+        "linear recurrence",
+        "matrix sparseness"
+      ],
+      "day": "2025-12-29",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c5ed4ef3ce698fce7371b0c2d2270aad2355731f92eecd3697b292e4cb41bab5_w640_q70.webp",
+      "contributions": "1. Identified a new statistical failure in the widely-used MT19937 PRNG using a natural run-length distribution test. 2. Provided a mathematical theorem explaining the observed anomalies, linking them to the sparseness of a specific matrix in the generator's recursion. 3. Demonstrated that while the defect is theoretically significant, detecting it in practice requires an astronomical number of samples, thus assessing its practical severity.",
+      "summary": "This paper reports a new statistical flaw in the Mersenne Twister MT19937 pseudorandom number generator, where the distribution of run-lengths for identical 32-bit integers shows a significant anomaly (e.g., run-length 623 appears ~40 times more than expected). The authors mathematically analyze and prove that this failure is caused by the sparseness of a specific matrix in the generator's recurrence. They conclude that while this is a theoretical defect, its practical impact is minimal due to the extreme difficulty of detection.",
+      "mindmap": "graph TB\n        A[Some Patterns of Duplications in MT19937] --> B[核心问题/Problem: MT19937 fails a natural statistical test]\n        A --> C[主要方法/Method: Run-length distribution analysis & mathematical theorem]\n        A --> D[关键结果/Results: Run-length 623 anomaly explained; defect is not practically serious]"
+    },
+    {
+      "title": "HeylandCircle: A Computational Framework for the Geometric Reconstruction of the Heyland Circle Diagram",
+      "authors": "Anubhav Gupta, Abhinav Gupta",
+      "institution": "TBD",
+      "link": "https://arxiv.org/pdf/2512.20015",
+      "code": null,
+      "tags": [],
+      "day": "2025-12-24",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6335056c1e36745696241fef558fc0f3ac9a3124994d8901e1a67906880beebd_w640_q70.webp",
+      "contributions": "",
+      "summary": "HeylandCircle: A Computational Framework for the Geometric Reconstruction of the Heyland Circle Diagram",
+      "mindmap": ""
+    }
+  ]
+}

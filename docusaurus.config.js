@@ -9,7 +9,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const isDev = process.env.NODE_ENV === 'development';
-const dynamicBaseUrl = process.env.DOCUSAURUS_BASE_URL || (isDev ? '/' : '/ai_toutiao');
+const isVercel = !!process.env.VERCEL;
+const dynamicBaseUrl = process.env.DOCUSAURUS_BASE_URL || ((isDev || isVercel) ? '/' : '/ai_toutiao');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'AI头条',

@@ -155,9 +155,48 @@ def build(docs_dir, output_path, max_items_per_cat, months=3):
         cats_items = deduped[:max_items_per_cat]
         latest_week = weeks[-1] if weeks else ""
         categories.append({"label": label, "slug": slug, "week": latest_week, "items": cats_items})
+    
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    
+    # 1. Generate separate JSON files for each category
+    base_name = os.path.basename(output_path)
+    dir_name = os.path.dirname(output_path)
+    name_without_ext, ext = os.path.splitext(base_name)
+    
+    for cat in categories:
+        slug = cat['slug']
+        cat_filename = f"{name_without_ext}_{slug}{ext}"
+        cat_path = os.path.join(dir_name, cat_filename)
+        with open(cat_path, 'w', encoding='utf-8') as f:
+            json.dump(cat, f, ensure_ascii=False, indent=2)
+            
+    # 2. Generate search index (lightweight)
+    search_items = []
+    for cat in categories:
+        slug = cat['slug']
+        for item in cat['items']:
+            search_items.append({
+                "title": item.get('title'),
+                "day": item.get('day'),
+                "tags": item.get('tags'),
+                "authors": item.get('authors'),
+                "thumbnail": item.get('thumbnail'),
+                "slug": slug
+            })
+    search_path = os.path.join(dir_name, f"{name_without_ext}_search{ext}")
+    with open(search_path, 'w', encoding='utf-8') as f:
+        json.dump(search_items, f, ensure_ascii=False)
+
+    # 3. Write main file with metadata only (no items)
+    meta_categories = []
+    for cat in categories:
+        # Shallow copy to avoid modifying original if we needed it later (though we're done)
+        meta_cat = {k: v for k, v in cat.items() if k != 'items'}
+        meta_cat['items'] = [] # Empty items
+        meta_categories.append(meta_cat)
+
     with open(output_path, 'w', encoding='utf-8') as f:
-        json.dump({"categories": categories}, f, ensure_ascii=False, indent=2)
+        json.dump({"categories": meta_categories}, f, ensure_ascii=False, indent=2)
 
 def main():
     ap = argparse.ArgumentParser()

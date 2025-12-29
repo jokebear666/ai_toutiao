@@ -1,0 +1,80 @@
+{
+  "label": "cs.OS",
+  "slug": "csos",
+  "week": "20251229-20260104",
+  "items": [
+    {
+      "title": "LEFT-RS: A Lock-Free Fault-Tolerant Resource Sharing Protocol for Multicore Real-Time Systems",
+      "authors": "Nan Chen, Xiaotian Dai, Tong Cheng, Alan Burns, Iain Bate, Shuai Zhao",
+      "institution": "University of York, Sun Yat-sen University",
+      "link": "https://arxiv.org/pdf/2512.21701",
+      "code": null,
+      "tags": [
+        "real-time systems",
+        "lock-free",
+        "fault-tolerance",
+        "resource sharing",
+        "multicore",
+        "worst-case response time analysis"
+      ],
+      "day": "2025-12-29",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fb19a780f9199527b92c55981536e4b4108e6135efe187882739942a46ebf5ed_w640_q70.webp",
+      "contributions": "1. Proposes the LEFT-RS protocol, a lock-free design that allows concurrent read access to global resources and parallel entry into critical sections, improving efficiency. 2. Enhances fault resilience by limiting overhead and enabling tasks to complete earlier if others experience faults, reducing blocking. 3. Provides a comprehensive worst-case response time analysis to ensure timing guarantees for the proposed protocol.",
+      "summary": "The paper proposes LEFT-RS, a lock-free and fault-tolerant resource sharing protocol for multicore real-time systems. It allows tasks to concurrently access resources and enter critical sections in parallel, improving efficiency and resilience to transient faults. Evaluation shows it significantly outperforms existing methods, achieving up to an 84.5% average improvement in schedulability.",
+      "mindmap": "graph TB\n        Root[LEFT-RS: A Lock-Free Fault-Tolerant Resource Sharing Protocol] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem: Faults in critical sections cause error propagation; locking protocols lack fault tolerance, increasing blocking.]\n        Method[主要方法/Method: LEFT-RS protocol enables concurrent read access and parallel critical section entry for fault resilience.]\n        Results[关键结果/Results: Up to 84.5% average schedulability improvement over existing approaches.]"
+    },
+    {
+      "title": "pokiSEC: A Multi-Architecture, Containerized Ephemeral Malware Detonation Sandbox",
+      "authors": "Alejandro Avina, Yashas Hariprasad, Naveen Kumar Chaudhary",
+      "institution": "California State University, East Bay, National Forensic Sciences University",
+      "link": "https://arxiv.org/pdf/2512.20860",
+      "code": "https://github.com/PanLuvme/pokiSEC",
+      "tags": [
+        "malware analysis",
+        "Docker",
+        "QEMU",
+        "KVM",
+        "Universal Entrypoint",
+        "ephemeral container"
+      ],
+      "day": "2025-12-25",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/58898439e3246ec551b562bfb2380c7db3d016ac4d87b780a7f10e905d0bdaef_w640_q70.webp",
+      "contributions": "1. A lightweight, ephemeral malware detonation sandbox packaged entirely inside a Docker container, integrating QEMU with hardware acceleration and a browser-based workflow. 2. A Universal Entrypoint that performs runtime host-architecture detection and selects validated hypervisor configurations, enabling a single container to launch Windows guests on both ARM64 and x86_64 hosts. 3. Validation of the system on Apple Silicon (ARM64) and Ubuntu (AMD64), demonstrating interactive performance suitable for analyst workflows and consistent teardown via ephemeral container lifecycles.",
+      "summary": "This paper presents pokiSEC, a containerized sandbox for dynamic malware analysis that packages QEMU and a browser interface into a Docker container to improve portability and automation. Its key innovation is a Universal Entrypoint that detects the host architecture and configures the hypervisor accordingly, allowing the same container to run on both ARM64 and x86_64 systems. The system was validated on Apple Silicon and Ubuntu, showing it provides interactive performance and clean isolation through ephemeral containers.",
+      "mindmap": "graph LR\n    A[pokiSEC: 多架构容器化恶意软件引爆沙盒] --> B[核心问题/Problem]\n    A --> C[主要方法/Method]\n    A --> D[关键结果/Results]\n    B --> B1[恶意软件动态分析环境笨重且缺乏跨架构可移植性/Dynamic malware analysis environments are heavyweight and lack cross-architecture portability]\n    C --> C1[基于Docker的轻量级沙盒，集成QEMU与KVM/Lightweight sandbox in Docker container with QEMU and KVM]\n    C --> C2[通用入口点进行运行时架构检测与配置/Universal Entrypoint for runtime host-architecture detection and configuration]\n    D --> D1[在ARM64和x86_64主机上验证成功/Validated on ARM64 and x86_64 hosts]\n    D --> D2[提供交互式性能与一致的临时容器生命周期/Provides interactive performance and consistent ephemeral container lifecycle]"
+    },
+    {
+      "title": "VeruSAGE: A Study of Agent-Based Verification for Rust Systems",
+      "authors": "Chenyuan Yang, Natalie Neamtu, Chris Hawblitzel, Jacob R. Lorch, Shan Lu",
+      "institution": "TBD",
+      "link": "https://arxiv.org/pdf/2512.18436",
+      "code": null,
+      "tags": [],
+      "day": "2025-12-23",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8a6dcac7fed2f39d9b3c88cf4fcec2c0a341fe5463b697a482bfb914d0610c67_w640_q70.webp",
+      "contributions": "",
+      "summary": "VeruSAGE: A Study of Agent-Based Verification for Rust Systems",
+      "mindmap": ""
+    },
+    {
+      "title": "EVICPRESS: Joint KV-Cache Compression and Eviction for Efficient LLM Serving",
+      "authors": "Shaoting Feng, Yuhan Liu, Hanchen Li, Xiaokun Chen, Samuel Shen, Kuntai Du, Zhuohan Gu, Rui Zhang, Yuyang Huang, Yihua Cheng, Jiayi Yao, Qizheng Zhang, Ganesh Ananthanarayanan, Junchen Jiang",
+      "institution": "University of Chicago, UC Berkeley, Tensormesh, Inc., MIT, UC Santa Cruz, Stanford, Microsoft",
+      "link": "https://arxiv.org/pdf/2512.14946",
+      "code": null,
+      "tags": [
+        "llm inference",
+        "KV-cache management",
+        "lossy compression",
+        "adaptive eviction",
+        "utility function",
+        "multi-tier storage"
+      ],
+      "day": "2025-12-18",
+      "thumbnail": null,
+      "contributions": "",
+      "summary": "EVICPRESS is a KV-cache management system that jointly optimizes lossy compression and adaptive eviction across multiple storage tiers using a unified utility function. It improves LLM inference efficiency by maximizing fast-tier cache hit rates while preserving generation quality through context-aware compression. Evaluations show it achieves up to 2.19x faster time-to-first-token at equivalent quality compared to baselines.",
+      "mindmap": ""
+    }
+  ]
+}

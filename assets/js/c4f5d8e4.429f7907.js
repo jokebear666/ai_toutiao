@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[2634],{30192:(e,s,t)=>{t.r(s),t.d(s,{default:()=>i});t(96540);var r=t(56347),u=t(86025),a=t(74848);function i(){const e=(0,u.Ay)("/arxiv-daily");return(0,a.jsx)(r.rd,{to:e})}}}]);

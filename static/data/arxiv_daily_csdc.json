@@ -4,6 +4,848 @@
   "week": "20251229-20260104",
   "items": [
     {
+      "title": "GPU-Virt-Bench: A Comprehensive Benchmarking Framework for Software-Based GPU Virtualization Systems",
+      "authors": "Jithin VG, Ditto PS",
+      "institution": "Bud Ecosystem Inc",
+      "link": "https://arxiv.org/pdf/2512.22125",
+      "code": "https://github.com/BudEcosystem/GPU-Virt-Bench",
+      "tags": [
+        "llm inference",
+        "GPU Virtualization",
+        "Benchmarking",
+        "Multi-tenancy",
+        "CUDA",
+        "Performance Isolation"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0a1c9f2d4dfba1fc452a424ad0f1298f01afe6d95dfd39dd2ff3f0c1bac9430c_w640_q70.webp",
+      "contributions": "1. Proposed GPU-Virt-Bench, a comprehensive benchmarking framework with 56 metrics across 10 categories for evaluating software-based GPU virtualization systems. 2. Enabled systematic comparison between software virtualization approaches (e.g., HAMi-core, BUD-FCSP) and ideal hardware-based MIG behavior. 3. Demonstrated the framework's utility by revealing critical performance characteristics for production deployment decisions in multi-tenant environments.",
+      "summary": "This paper addresses the lack of standardized evaluation for software-based GPU virtualization systems, which are needed for efficient GPU sharing in AI/LLM workloads. The authors propose GPU-Virt-Bench, a comprehensive benchmarking framework that measures performance across multiple critical dimensions. The framework provides actionable insights for practitioners by comparing software solutions against hardware-based baselines.",
+      "mindmap": "graph TB\n        A[GPU-Virt-Bench: A Comprehensive Benchmarking Framework] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[GPU资源共享需求高，但软件虚拟化方案缺乏标准化评估/High demand for GPU sharing, but software virtualization lacks standardized evaluation]\n        C --> C1[提出包含56个指标、10个类别的综合基准测试框架/Propose a comprehensive benchmarking framework with 56 metrics across 10 categories]\n        D --> D1[系统比较软件方案与MIG，为生产部署提供关键性能洞察/Systematic comparison between software approaches and MIG provides key performance insights for deployment]"
+    },
+    {
+      "title": "SoDA: An Efficient Interaction Paradigm for the Agentic Web",
+      "authors": "Zicai Cui, Zhouyuan Jian, Weiwen Liu, Weinan Zhang",
+      "institution": "Shanghai Jiao Tong University, Shanghai Innovation Institute",
+      "link": "https://arxiv.org/pdf/2512.22135",
+      "code": null,
+      "tags": [
+        "agent system",
+        "Sovereign Digital Avatar",
+        "Intent-Permission Handshake",
+        "orthogonal decoupling",
+        "A2A protocols",
+        "dual-factor adaptive routing"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ef4bb1bba1b84bcf1102a80dc39b16d212412d68a7abea9ab0aac1dc9e23dedb_w640_q70.webp",
+      "contributions": "1. Proposes a user sovereignty interaction paradigm for the Agentic Web, decoupling memory from application logic to break data lock-in and shifting from explicit instruction to implicit intent alignment to reduce cognitive load. 2. Implements the paradigm via the Sovereign Digital Avatar (SoDA) with an orthogonal decoupling design of storage, computation, and interaction, establishing the principle of \"data as a persistent asset, model as a transient tool\". 3. Designs an Intent-Permission Handshake Mechanism based on A2A protocols with dual-factor adaptive routing for active risk governance in zero-trust environments.",
+      "summary": "This paper proposes the Sovereign Digital Avatar (SoDA), a new interaction paradigm for the Agentic Web that decouples user memory from applications and uses intent alignment to reduce cognitive load. It introduces an architecture with orthogonal decoupling and a secure handshake mechanism for zero-trust environments. Empirical results show it significantly reduces token consumption and user cognitive load compared to existing methods.",
+      "mindmap": "graph TB\n        A[SoDA: An Efficient Interaction Paradigm for the Agentic Web] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[数据锁定/Data Lock-in]\n        B --> B2[认知过载/Cognitive Overload]\n        C --> C1[主权数字化身/Sovereign Digital Avatar (SoDA)]\n        C --> C2[正交解耦设计/Orthogonal Decoupling Design]\n        C --> C3[意图-权限握手机制/Intent-Permission Handshake Mechanism]\n        D --> D1[降低令牌消耗/Reduces Token Consumption by 27-35%]\n        D --> D2[降低认知负载/Reduces Cognitive Load by 72% vs RAG, 88% vs Manual]"
+    },
+    {
+      "title": "SlimEdge: Lightweight Distributed DNN Deployment on Constrained Hardware",
+      "authors": "Mahadev Sunil Kumar, Arnab Raha, Debayan Das, Gopakumar G, Amitava Mukherjee",
+      "institution": "Accenture PLC, Intel Corporation, Indian Institute of Science, Amrita Vishwa Vidyapeetham, Birla Institute of Technology and Science",
+      "link": "https://arxiv.org/pdf/2512.22136",
+      "code": null,
+      "tags": [
+        "model compression (quantization/pruning)",
+        "Structured Pruning",
+        "Multi-Objective Optimization",
+        "Edge Inference",
+        "MVCNN",
+        "View-Adaptive Compression"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7687c3e58bfa2b22573745dffb608fb7c36a0c339dd9216829f78a284f51e662_w640_q70.webp",
+      "contributions": "1. Proposes a framework for lightweight DNN deployment that integrates structured pruning with multi-objective optimization to meet heterogeneous hardware constraints. 2. Demonstrates the framework on MVCNN by quantifying the contribution of individual views to accuracy for view-adaptive pruning budget allocation. 3. Shows experimentally that the compressed models meet user-specified accuracy and memory bounds while achieving 1.2x to 5.0x inference speedup across diverse hardware.",
+      "summary": "The paper addresses the challenge of deploying large DNNs on resource-constrained edge devices. It proposes SlimEdge, a method that combines structured pruning and multi-objective optimization to compress models like MVCNN while preserving task performance. The results show that this approach successfully meets specified accuracy and memory constraints while significantly reducing inference latency on various edge hardware platforms.",
+      "mindmap": "graph TB\n        A[SlimEdge: Lightweight Distributed DNN Deployment] --> B(核心问题/Problem: DNN部署在资源受限的边缘设备上/DNN deployment on resource-constrained edge devices)\n        A --> C(主要方法/Method: 结构化剪枝与多目标优化/Structured Pruning & Multi-Objective Optimization)\n        A --> D(关键结果/Results: 满足精度与内存约束，推理延迟降低1.2x-5.0x/Meets accuracy & memory bounds, 1.2x-5.0x latency reduction)"
+    },
+    {
+      "title": "HybridFlow: Adaptive Task Scheduling for Fast and Token-Efficient LLM Inference in Edge-Cloud Collaboration",
+      "authors": "Jiangwen Dong, Jiayu Li, Wanyu Lin",
+      "institution": "The Hong Kong Polytechnic University",
+      "link": "https://arxiv.org/pdf/2512.22137",
+      "code": null,
+      "tags": [
+        "llm inference",
+        "edge-cloud collaboration",
+        "task decomposition",
+        "adaptive routing",
+        "parallel execution",
+        "token-efficient inference"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a14e12f757065eef8f857ead7c55331977412b8a4d1ba64499c5c1457d797284_w640_q70.webp",
+      "contributions": "1. Proposes HybridFlow, a resource-adaptive inference framework for collaborative reasoning between edge and cloud LLMs. 2. Introduces a two-stage method involving dynamic task decomposition for parallel execution and a learned router for resource-aware subtask assignment. 3. Demonstrates effectiveness in reducing end-to-end inference time and token usage while maintaining accuracy on multiple reasoning benchmarks.",
+      "summary": "This paper addresses the challenges of high latency and token cost for LLM inference on edge devices by proposing HybridFlow, a framework that dynamically decomposes queries into parallel subtasks and adaptively routes them between edge and cloud models. The method reduces inference time and token consumption while preserving competitive accuracy, as validated on several reasoning benchmarks.",
+      "mindmap": "graph TB\n        Root(”HybridFlow: Adaptive Task Scheduling for Fast and Token-Efficient LLM Inference in Edge-Cloud Collaboration”) --> Problem(”核心问题/Problem”)\n        Root --> Method(”主要方法/Method”)\n        Root --> Results(”关键结果/Results”)\n        Problem --> P1(”LLM推理延迟高，Token消耗大/High LLM inference latency & token cost”)\n        Problem --> P2(”边缘设备资源受限/Resource-limited edge devices”)\n        Problem --> P3(”现有协作方法粗粒度，效率低/Existing coarse-grained collaboration is inefficient”)\n        Method --> M1(”任务分解与并行执行/Task Decomposition & Parallel Execution”)\n        Method --> M2(”资源感知子任务路由/Resource-Aware Subtask Routing”)\n        Results --> R1(”减少端到端推理时间/Reduces end-to-end inference time”)\n        Results --> R2(”降低总体Token使用/Lowers overall token usage”)\n        Results --> R3(”保持有竞争力的准确率/Maintains competitive accuracy”)"
+    },
+    {
+      "title": "HLS4PC: A Parametrizable Framework For Accelerating Point-Based 3D Point Cloud Models on FPGA",
+      "authors": "Amur Saqib Pal, Muhammad Mohsin Ghaffar, Faisal Shafait, Christian Weis, Norbert Wehn",
+      "institution": "National University of Sciences and Technology (Pakistan), RPTU Kaiserslautern-Landau (Germany)",
+      "link": "https://arxiv.org/pdf/2512.22139",
+      "code": "https://github.com/dll-ncai/HLS4PC",
+      "tags": [
+        "on-device ai",
+        "FPGA",
+        "HLS",
+        "Point Cloud",
+        "Model Compression",
+        "Fixed-Point"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/21433bfda0767bbdfcee46f13fb3acd9373d13bb741d87a755643767c9ad74f9_w640_q70.webp",
+      "contributions": "1. Proposed HLS4PC, a parameterizable HLS framework for accelerating point-based 3D point cloud models on FPGA. 2. Introduced PointMLP-Lite, a 4x less complex model variant created via hardware-aware compression techniques (URS, quantization, pruning, fusion). 3. Demonstrated FPGA acceleration achieving 3.56x higher throughput than prior work and outperforming GPU/CPU implementations.",
+      "summary": "This paper addresses the challenge of real-time 3D point cloud processing by proposing HLS4PC, a parameterizable FPGA acceleration framework. The method combines algorithmic optimizations and hardware-aware model compression to create an efficient fixed-point implementation, which significantly outperforms previous accelerators and GPU/CPU baselines in throughput.",
+      "mindmap": "graph TB\n        Root[HLS4PC: A Parametrizable Framework For Accelerating Point-Based 3D Point Cloud Models on FPGA] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem] --> P1[GPU under-utilization due to sparse, unstructured point cloud data]\n        P1 --> P2[High memory/computation demand hinders real-time performance]\n        Method[主要方法/Method] --> M1[Parameterizable HLS framework for FPGA]\n        M1 --> M2[Hardware-aware compression: URS, quantization, pruning, fusion]\n        M2 --> M3[Creates PointMLP-Lite model]\n        Results[关键结果/Results] --> R1[PointMLP-Lite: 4x less complex, ~2% accuracy drop]\n        R1 --> R2[3.56x higher throughput vs. prior work]\n        R2 --> R3[2.3x (GPU) and 22x (CPU) higher throughput]"
+    },
+    {
+      "title": "On Harnessing Idle Compute at the Edge for Foundation Model Training",
+      "authors": "Leyang Xue, Meghana Madhyastha, Myungjin Lee, Amos Storkey, Randal Burns, Mahesh K. Marina",
+      "institution": "The University of Edinburgh, Johns Hopkins University, Cisco Research",
+      "link": "https://arxiv.org/pdf/2512.22142",
+      "code": null,
+      "tags": [
+        "llm training",
+        "edge computing",
+        "tensor parallelism",
+        "parameter server",
+        "device heterogeneity",
+        "fault-tolerance"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0fefe0f72fa70ae7be2cad54f15e74f96fd08cc506630060214e298521278148_w640_q70.webp",
+      "contributions": "1. A novel selective hybrid tensor parallelism method to finely partition training operations for edge devices. 2. A parameter server-centric training framework to cope with device memory limits and avoid communication bottlenecks. 3. A cost optimization model to guide device selection and workload distribution, effectively handling device heterogeneity and churn.",
+      "summary": "The paper addresses the challenge of decentralized foundation model training on edge devices, which is hindered by memory limits, communication overhead, and device heterogeneity. It proposes Cleave, a new paradigm that uses selective hybrid tensor parallelism and a parameter server framework to partition training efficiently. The evaluation shows Cleave matches cloud-based training performance, scales to thousands of devices, and handles failures with much faster recovery than prior methods.",
+      "mindmap": "graph TB\n    A[On Harnessing Idle Compute at the Edge for Foundation Model Training] --> B[核心问题/Problem]\n    A --> C[主要方法/Method]\n    A --> D[关键结果/Results]\n    B --> B1[现有边缘训练方法性能不足/Existing edge training falls short]\n    B --> B2[设备内存与通信瓶颈/Device memory & communication bottlenecks]\n    B --> B3[设备异构性与动态性/Device heterogeneity & dynamism]\n    C --> C1[选择性混合张量并行/Selective hybrid tensor parallelism]\n    C --> C2[参数服务器框架/Parameter server framework]\n    C --> C3[成本优化模型/Cost optimization model]\n    D --> D1[匹配云端训练性能/Matches cloud-based training]\n    D --> D2[扩展至数千设备/Scales to thousands of devices]\n    D --> D3[快速故障恢复/Fast failure recovery]"
+    },
+    {
+      "title": "GPU Kernel Optimization Beyond Full Builds: An LLM Framework with Minimal Executable Programs",
+      "authors": "Ruifan Chu, Anbang Wang, Xiuxiu Bai, Shuai Liu, Xiaoshe Dong",
+      "institution": "School of Software Engineering, Xi’an Jiaotong University",
+      "link": "https://arxiv.org/pdf/2512.22147",
+      "code": null,
+      "tags": [
+        "gpu kernels",
+        "Minimal Executable Program (MEP)",
+        "Automatic Error Repair",
+        "Performance Pattern Inheritance",
+        "iterative optimization",
+        "cross-platform"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3fd593bd3569f30bdbf11d361054f51142863fb91e592b76bc4eb2f600850c5e_w640_q70.webp",
+      "contributions": "1. Proposes an end-to-end LLM framework that optimizes GPU kernels by constructing Minimal Executable Programs (MEPs) to avoid expensive full application builds and executions. 2. Introduces Automatic Error Repair and Performance Pattern Inheritance to automatically fix faults and reuse effective optimization strategies, reducing search cost. 3. Demonstrates cross-platform portability and effectiveness on NVIDIA GPUs and the Haiguang DCU platform, achieving significant speedups over direct LLM optimization.",
+      "summary": "The paper addresses the high cost of full builds for GPU kernel optimization in large HPC applications by proposing an LLM framework that uses Minimal Executable Programs (MEPs) for iterative optimization. The method integrates automatic error repair and performance pattern inheritance to maintain correctness and reuse strategies. It achieves substantial speedups across different hardware platforms without requiring full-source dependencies.",
+      "mindmap": "graph TB\n        A[GPU Kernel Optimization Beyond Full Builds: An LLM Framework with Minimal Executable Programs] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[Full builds & runs are expensive in large applications/大型应用中完整构建与运行成本高]\n        C --> C1[Construct Minimal Executable Program (MEP) for kernel/为内核构建最小可执行程序]\n        C --> C2[Multi-round iterative optimization with LLM feedback/基于LLM反馈的多轮迭代优化]\n        C --> C3[Integrate Automatic Error Repair & Performance Pattern Inheritance/集成自动错误修复与性能模式继承]\n        D --> D1[Achieves significant speedups (e.g., 5.05x, 7.77x)/获得显著加速比]\n        D --> D2[Cross-platform portability (NVIDIA, DCU)/跨平台可移植性]\n        D --> D3[Surpasses direct LLM optimization/超越直接LLM优化]"
+    },
+    {
+      "title": "Adaptive GPU Resource Allocation for Multi-Agent Collaborative Reasoning in Serverless Environments",
+      "authors": "Guilin Zhang, Wulan Guo, Ziqi Tan",
+      "institution": "George Washington University",
+      "link": "https://arxiv.org/pdf/2512.22149",
+      "code": null,
+      "tags": [
+        "agent system",
+        "serverless computing",
+        "GPU resource allocation",
+        "workload scheduling",
+        "multi-agent systems",
+        "collaborative reasoning"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2fe7e30427c00e4689f161fb9912d4d11cc091ed6dd1dae3c4ea2c5805084e3b_w640_q70.webp",
+      "contributions": "1. An adaptive GPU resource allocation framework for multi-agent systems in serverless environments that dynamically adjusts resources based on workload characteristics, agent priorities, and minimum requirements. 2. An O(N) complexity algorithm for real-time adaptation, enabling millisecond-scale reallocation to handle dynamic workload fluctuations. 3. A comprehensive evaluation demonstrating the framework's superiority over static and round-robin strategies, achieving 85% latency reduction while maintaining throughput and improving GPU utilization and cost-efficiency.",
+      "summary": "This paper proposes an adaptive GPU resource allocation framework to address the challenge of efficiently deploying heterogeneous multi-agent AI systems on serverless platforms. The method dynamically allocates resources using a real-time algorithm to handle varying computational demands and workload fluctuations. The results show it significantly reduces latency compared to baseline schedulers while maintaining throughput, offering a cost-effective solution for serverless multi-agent deployment.",
+      "mindmap": "graph TB\n        Root[”Adaptive GPU Resource Allocation for Multi-Agent Collaborative Reasoning in Serverless Environments<br/>面向无服务器环境的多智能体协同推理的自适应GPU资源分配”] --> Problem[”核心问题/Problem<br/>Heterogeneous agent workloads & dynamic demands on serverless GPU platforms<br/>多智能体工作负载异构与无服务器GPU平台动态需求”]\n        Root --> Method[”主要方法/Method<br/>Adaptive GPU resource allocation framework with O(N) real-time algorithm<br/>基于O(N)实时算法的自适应GPU资源分配框架”]\n        Root --> Results[”关键结果/Results<br/>85% latency reduction vs. round-robin, maintains throughput<br/>相比轮询调度延迟降低85%，保持吞吐量”]"
+    },
+    {
+      "title": "TL: Automatic End-to-End Compiler of Tile-Based Languages for Spatial Dataflow Architectures",
+      "authors": "Wei Li, Zhenyu Bai, Heru Wang, Pranav Dangi, Zhiqiang Zhang, Cheng Tan, Huiying Lan, Weng-Fai Wong, Tulika Mitra",
+      "institution": "National University of Singapore, Arizona State University, Google, Lumai Ltd.",
+      "link": "https://arxiv.org/pdf/2512.22168",
+      "code": null,
+      "tags": [
+        "compiler & ir",
+        "spatial dataflow",
+        "tile-based compilation",
+        "MLIR",
+        "on-chip network",
+        "hardware representation"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cce8d87d1dd357c986e9809985cc87b6430fd568820f39521500addb34e7eef7_w640_q70.webp",
+      "contributions": "1. An end-to-end compiler framework (TL) that compiles tile-based programs (e.g., Triton kernels) onto spatial dataflow architectures, focusing on distributing tile instances across cores. 2. A novel hardware representation that captures interconnect topology, memory hierarchy, and compute capabilities to enable architecture-specific optimizations and support diverse targets. 3. A practical implementation built on the MLIR ecosystem, providing a generic entry point for different front-ends and an end point for different back-ends, demonstrated with performance gains over vendor libraries.",
+      "summary": "This paper presents TL, an end-to-end compiler framework that tackles the limited programmability of spatial dataflow accelerators by automatically mapping tile-based workloads across distributed cores to optimize data reuse and reduce communications. TL introduces a hardware-aware representation and is built on MLIR to support diverse targets. Experiments show it can match or exceed the performance of hand-tuned vendor libraries on kernels like GEMM and FlashAttention.",
+      "mindmap": "graph TB\n        Root[TL: Automatic End-to-End Compiler] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem] --> P1[Limited Programmability of Spatial Accelerators<br/>空间加速器的有限可编程性]\n        Problem --> P2[Poor Performance of Naive Mappings<br/>朴素映射性能差]\n        Method[主要方法/Method] --> M1[End-to-End Tile-Based Compiler Framework<br/>端到端基于分块的编译器框架]\n        Method --> M2[Hardware Representation for Topology & Memory<br/>用于拓扑和内存的硬件表示]\n        Method --> M3[Built on MLIR Ecosystem<br/>基于MLIR生态系统构建]\n        Results[关键结果/Results] --> R1[Performance on par with/vs Vendor Library (GEMM)<br/>性能与厂商库相当/超越(GEMM)]\n        Results --> R2[Significant Speedup for FlashAttention<br/>FlashAttention显著加速]"
+    },
+    {
+      "title": "BitFlipScope: Scalable Fault Localization and Recovery for Bit-Flip Corruptions in LLMs",
+      "authors": "Muhammad Zeeshan Karamat, Sadman Saif, Christiana Chamon Garcia",
+      "institution": "Virginia Tech",
+      "link": "https://arxiv.org/pdf/2512.22174",
+      "code": null,
+      "tags": [
+        "fault-tolerance",
+        "bit-flip faults",
+        "fault localization",
+        "transformer reliability",
+        "residual-path perturbation",
+        "loss-sensitivity profiling"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e931785a8ed1d0dca51ed3c75265de72147ccd6e3d68df21de1c7cad78a1d912_w640_q70.webp",
+      "contributions": "1. Introduces BitFlipScope, a scalable software framework for localizing bit-flip corruptions in transformer-based LLMs under two deployment scenarios (with and without a clean reference model). 2. Proposes differential analysis for fault localization when a reference model is available and residual-path perturbation/loss-sensitivity profiling for localization when no reference exists. 3. Enables lightweight performance recovery for corrupted models without requiring costly fine-tuning or full retraining.",
+      "summary": "This paper introduces BitFlipScope, a framework for localizing and recovering from bit-flip corruptions in LLMs. It uses differential analysis with a reference model or perturbation-based profiling without one to identify fault-affected regions, enabling targeted recovery without full retraining. The work aims to improve fault resilience for LLMs in hardware-prone and adversarial environments.",
+      "mindmap": "graph TB\n        A[BitFlipScope: Scalable Fault Localization and Recovery for Bit-Flip Corruptions in LLMs] --> B[核心问题/Problem: Bit-flip faults corrupt LLM parameters, causing unpredictable behavior]\n        A --> C[主要方法/Method: Differential analysis with reference model; Residual-path perturbation & loss-sensitivity profiling without reference]\n        A --> D[关键结果/Results: Enables fault localization and lightweight recovery, improving fault-resilient LLM deployment]"
+    },
+    {
+      "title": "AiiDAlab: on the route to accelerate science",
+      "authors": "Aliaksandr V.Yakutovich, Jusong Yu, Daniel Hollas, Edan Bainglass, Corsin Battaglia, Miki Bonacci, Lucas Fernandez Vilanova, Stephan Henne, Anders Kaestner, Michel Kenzelmann, Graham Kimbell, Jakob Lass, Fabio Lopes, Daniel G. Mazzone, Andres Ortega-Guerrero, Xing Wang, Nicola Marzari, Carlo A. Pignedoli, Giovanni Pizzi",
+      "institution": "Empa, Paul Scherrer Institute, École Polytechnique Fédérale de Lausanne, University of Bristol",
+      "link": "https://arxiv.org/pdf/2512.22173",
+      "code": null,
+      "tags": [
+        "scientific workflow management",
+        "AiiDAlab",
+        "AiiDA",
+        "provenance tracking",
+        "FAIR principles",
+        "web-based interface"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ffb3ec2c93f3c0a0b3a1f69f46586695b4825664dea8e67ccbdf005064367c46_w640_q70.webp",
+      "contributions": "1. Development of the AiiDAlab platform, a web-based interface that simplifies access to and execution of complex computational workflows on supercomputers, lowering the barrier to entry for non-experts. 2. Maturation and expansion of the platform from its origins in computational materials science to support diverse scientific disciplines including quantum chemistry, atmospheric modeling, and experimental data analysis. 3. Integration with electronic laboratory notebooks (ELNs) and emphasis on automatic provenance tracking via AiiDA to enforce reproducibility and adherence to FAIR principles for generating Open Research Data.",
+      "summary": "The paper presents AiiDAlab, a web-based platform designed to simplify the execution of complex computational workflows on supercomputers. It abstracts away technical details, provides an intuitive interface, and automatically tracks simulation provenance to ensure reproducibility. The platform has evolved to accelerate scientific discovery across multiple disciplines by allowing researchers to focus on their science rather than computational challenges.",
+      "mindmap": "graph TB\n        Root[AiiDAlab: on the route to accelerate science]\n        Root --> Problem[核心问题/Problem]\n        Root --> Method[主要方法/Method]\n        Root --> Results[关键结果/Results]\n        Problem --> P1[复杂工作流执行需要专业知识/Complex workflow execution requires technical expertise]\n        Method --> M1[提供基于浏览器的用户界面/Provide web-browser-based user interface]\n        Method --> M2[底层AiiDA引擎自动追踪溯源/Underlying AiiDA engine automatically tracks provenance]\n        Results --> R1[跨多学科加速科学发现/Accelerates scientific discovery across multiple disciplines]\n        Results --> R2[确保可重复性与FAIR原则/Ensures reproducibility and FAIR principles]"
+    },
+    {
+      "title": "iOS as Acceleration",
+      "authors": "Alexander K. Chen",
+      "institution": "Independent High School Researcher (No institutional affiliation inferred)",
+      "link": "https://arxiv.org/pdf/2512.22180",
+      "code": null,
+      "tags": [
+        "on-device ai",
+        "distributed pipeline parallelism",
+        "mobile acceleration",
+        "iOS",
+        "memory constraints",
+        "thermal throttling"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2533767e76bdf97e302af13359b973b06a9948269cc9017131b6e880553cb6b9_w640_q70.webp",
+      "contributions": "1. Proposes a novel proof-of-concept system using distributed pipeline parallelism to harness iOS devices as computational accelerators for local ML tasks. 2. Demonstrates the system's effectiveness in accelerating modest model training (e.g., ResNet-34) and agentic LRM tool-usage, achieving a 44% decrease in training time in a specific setup. 3. Explores the unique potential of ubiquitous mobile devices with powerful processors and sensors (e.g., LiDAR, GPS) as cost-effective resources for embodied agentic AI and local compute, discussing practical use-cases and limitations.",
+      "summary": "This paper addresses the barrier of expensive compute for local machine learning by proposing a system that uses distributed pipeline parallelism to leverage underutilized iOS phones as accelerators. The method partitions model weights to circumvent mobile memory limits, successfully accelerating tasks like training ResNet-34. The work concludes that commonplace mobile devices have significant potential to contribute to ML, especially for local, cost-sensitive, or sensor-driven applications.",
+      "mindmap": "graph TB\n        A[iOS as Acceleration] --> B[核心问题/Problem: Powerful compute is a barrier for local ML; Cloud is not always viable]\n        A --> C[主要方法/Method: Use distributed pipeline parallelism to harness iOS devices as accelerators]\n        A --> D[关键结果/Results: Achieved faster training for modest models; Highlights mobile potential for ML]"
+    },
+    {
+      "title": "MatKV: Trading Compute for Flash Storage in LLM Inference",
+      "authors": "Kun-Woo Shin, Jay H. Park, Moonwook Oh, Yohan Jo, Jaeyoung Do, Sang-Won Lee",
+      "institution": "Seoul National University, Samsung Electronics",
+      "link": "https://arxiv.org/pdf/2512.22195",
+      "code": "https://github.com/kunwooshin/MatKV",
+      "tags": [
+        "llm inference",
+        "retrieval-augmented generation",
+        "key-value cache",
+        "flash storage",
+        "prefill optimization",
+        "power efficiency"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3d47111ab2d615579a09c00ff5a99f391f035b974cc23e324cddfbabf4d23cec_w640_q70.webp",
+      "contributions": "1. Proposes MatKV, a scheme to precompute and materialize KV vectors of RAG documents in flash storage to avoid recomputation during inference. 2. Demonstrates that MatKV reduces inference time and power consumption by half for RAG workloads with minimal accuracy impact. 3. Shows MatKV enables additional optimizations like overlapping KV loading with decoding and enabling the use of low-end GPUs for decoding.",
+      "summary": "The paper addresses the high compute and energy cost of the prefill phase in RAG-based LLM inference. It proposes MatKV, which precomputes and stores key-value vectors of documents in flash storage for reuse, trading compute for storage. Experiments show this approach halves inference time and power consumption while maintaining accuracy and enabling further hardware optimizations.",
+      "mindmap": "graph TB\n        Root[”MatKV: Trading Compute for Flash Storage in LLM Inference”] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[”核心问题/Problem<br>RAG推理中prefill阶段计算开销大<br>High compute cost of prefill in RAG inference”]\n        Method[”主要方法/Method<br>预计算并物化KV向量到闪存<br>Precompute & materialize KVs to flash storage”]\n        Results[”关键结果/Results<br>推理时间与能耗减半<br>Halves inference time & power consumption”]"
+    },
+    {
+      "title": "SPUMA: a minimally invasive approach to the GPU porting of OPENFOAM",
+      "authors": "Simone Bnà, Giuseppe Giaquinto, Ettore Fadiga, Tommaso Zanelli, Francesco Bottau",
+      "institution": "Cineca Supercomputing Centre, Università degli Studi di Napoli Federico II",
+      "link": "https://arxiv.org/pdf/2512.22215",
+      "code": null,
+      "tags": [
+        "computational fluid dynamics",
+        "GPU porting",
+        "unified memory",
+        "memory pool manager",
+        "OpenFOAM",
+        "scalability"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9ea486a67026343b5f3c7d85db1ef1ff1202af04d0bd147ef25d9dc29565e2b1_w640_q70.webp",
+      "contributions": "1. Presents SPUMA, a full GPU porting of OpenFOAM targeting both NVIDIA and AMD GPUs. 2. Implements a portable programming model with a memory pool manager leveraging unified memory for efficient GPU utilization. 3. Demonstrates significant performance and energy efficiency gains through extensive testing on pre-exascale clusters, showing up to 82% energy reduction compared to CPU simulations.",
+      "summary": "This paper addresses the challenge of GPU programmability for open-source CFD by introducing SPUMA, a portable GPU port of OpenFOAM that uses a memory pool manager with unified memory. The method was tested on LUMI and Leonardo clusters, showing strong scalability up to 65% efficiency and weak scalability up to 85%, while reducing energy consumption by up to 82% compared to CPU-based simulations.",
+      "mindmap": "graph TB\n        Root[SPUMA: a minimally invasive approach to the GPU porting of OPENFOAM] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem: GPU programmability challenge in open-source CFD] --> P1[GPU可编程性挑战/GPU Programmability Challenge]\n        Method[主要方法/Method: Portable GPU porting with memory pool] --> M1[便携式编程模型/Portable Programming Model]\n        Method --> M2[内存池管理器/Memory Pool Manager]\n        Method --> M3[利用统一内存/Leverages Unified Memory]\n        Results[关键结果/Results: Performance and energy efficiency on pre-exascale clusters] --> R1[强可扩展性达65%/Strong Scalability 65%]\n        Results --> R2[弱可扩展性达85%/Weak Scalability 85%]\n        Results --> R3[能耗降低82%/Energy Reduction 82%]"
+    },
+    {
+      "title": "Mirage Persistent Kernel: A Compiler and Runtime for Mega-Kernelizing Tensor Programs",
+      "authors": "Xinhao Cheng, Zhihao Zhang, Yu Zhou, Jianan Ji, Jinchen Jiang, Zepeng Zhao, Ziruo Xiao, Zihao Ye, Yingyi Huang, Ruihang Lai, Hongyi Jin, Bohan Hou, Mengdi Wu, Yixin Dong, Anthony Yip, Zihao Ye, Songting Wang, Wenqin Yang, Xupeng Miao, Tianqi Chen, Zhihao Jia",
+      "institution": "Carnegie Mellon University, Tsinghua University, NVIDIA, University of Michigan, Purdue University",
+      "link": "https://arxiv.org/pdf/2512.22219",
+      "code": "https://github.com/mirage-project/mirage",
+      "tags": [
+        "llm inference",
+        "megakernel",
+        "kernel fusion",
+        "SM-level graph",
+        "software pipelining",
+        "CUDA"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f886cd06ce6c0f773c062fa38aae0fa982d862cc66ef54da9fbbfd6cf62dd86a_w640_q70.webp",
+      "contributions": "1. Introduces an SM-level graph representation for capturing fine-grained data dependencies across GPU streaming multiprocessors. 2. Develops a compiler and an in-kernel parallel runtime that automatically transforms multi-operator inference into a single, high-performance mega-kernel. 3. Enables previously infeasible GPU optimizations like cross-operator software pipelining and fine-grained kernel overlap, significantly reducing inference latency.",
+      "summary": "The paper introduces Mirage Persistent Kernel (MPK), a compiler and runtime system that automatically fuses multiple GPU kernels for model inference into a single, optimized mega-kernel. It achieves this by using a novel SM-level graph representation and decentralized scheduling to enable fine-grained optimizations like software pipelining. Evaluation shows MPK reduces LLM inference latency by up to 1.7x, pushing performance close to hardware limits.",
+      "mindmap": "graph TB\n        A[Mirage Persistent Kernel<br>幻影持久内核] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[Kernel-per-operator execution<br>limits GPU optimization<br>逐算子内核执行限制GPU优化]\n        C --> C1[SM-level graph &<br>mega-kernel runtime<br>SM级图与巨型内核运行时]\n        D --> D1[Reduces inference latency<br>by up to 1.7x<br>推理延迟降低高达1.7倍]"
+    },
+    {
+      "title": "Scalable Cloud-Native Architectures for Intelligent PMU Data Processing",
+      "authors": "Nachiappan Chockalingam, Akshay Deshpande, Lokesh Butra, Ram Sekhar Bodala, Nitin Saksena, Adithya Parthasarathy, Balakrishna Pothineni, Akash Kumar Agarwal",
+      "institution": "IEEE, NTT Data, Amtrak, Albertsons Companies",
+      "link": "https://arxiv.org/pdf/2512.22231",
+      "code": null,
+      "tags": [
+        "cluster infrastructure",
+        "cloud-native",
+        "distributed stream processing",
+        "containerized microservices",
+        "elastic resource orchestration",
+        "edge-cloud hybrid"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/59263c4210b1af52fedb9e9660a5117d937ac4a63d70c41f31a04dc3c553429f_w640_q70.webp",
+      "contributions": "1. A comprehensive theoretical framework for AI-enhanced cloud-based PMU analytics. 2. Mathematical formulations for distributed machine learning optimized for PMU time-series data. 3. Analysis of edge-cloud hybrid architectures with integrated security and privacy considerations.",
+      "summary": "This paper proposes a scalable cloud-native architecture to address the latency and scalability challenges of processing high-frequency data from Phasor Measurement Units (PMUs) in smart grids. The method integrates AI with edge and cloud computing, using distributed stream processing and containerized microservices for real-time analytics. The analysis shows the architecture can achieve sub-second response times while scaling to large deployments, providing a robust foundation for next-generation grid analytics.",
+      "mindmap": "graph TB\n        Root[”Scalable Cloud-Native Architectures for Intelligent PMU Data Processing”] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[”核心问题/Problem<br>PMU数据规模大，传统架构延迟高，可扩展性差”]\n        Method[”主要方法/Method<br>云原生架构，集成AI、边缘与云计算，使用分布式流处理和微服务”]\n        Results[”关键结果/Results<br>实现亚秒级响应，可扩展至大规模部署，提供安全可靠的基础”]"
+    },
+    {
+      "title": "Valori: A Deterministic Memory Substrate for AI Systems",
+      "authors": "Varshith Gudur",
+      "institution": "Independent Researcher (Valori Kernel Project)",
+      "link": "https://arxiv.org/pdf/2512.22280",
+      "code": "https://github.com/varshith-Git/Valori-Kernel",
+      "tags": [
+        "memory & caching",
+        "deterministic memory",
+        "fixed-point arithmetic",
+        "vector embeddings",
+        "approximate nearest neighbor search",
+        "state machine"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2abb7ed17a8a06e6a2b8760f08fa9345391995aee74a3542cacf55dd051b383f_w640_q70.webp",
+      "contributions": "1. Identifies and characterizes the fundamental non-determinism in AI memory systems caused by hardware-dependent floating-point arithmetic, which leads to divergent memory states and retrieval results. 2. Proposes Valori, a deterministic AI memory substrate that replaces floating-point operations with fixed-point arithmetic (Q16.16) and models memory as a replayable state machine. 3. Demonstrates that Valori guarantees bit-identical memory states, snapshots, and search results across different hardware platforms (e.g., x86 vs. ARM), establishing deterministic memory as a necessary primitive for trustworthy AI.",
+      "summary": "The paper identifies non-determinism in AI memory systems due to hardware-dependent floating-point arithmetic, which compromises replayability and auditability. It proposes Valori, a memory substrate using fixed-point arithmetic and a state machine model to guarantee bit-identical behavior across platforms. The work concludes that deterministic memory is essential for building trustworthy AI systems.",
+      "mindmap": "graph TB\n        A[Valori: A Deterministic Memory Substrate for AI Systems] --> B\n        A --> C\n        A --> D\n        B[核心问题/Problem: AI内存非确定性/AI Memory Non-Determinism]\n        C[主要方法/Method: 固定点算术与状态机/Fixed-Point Arithmetic & State Machine]\n        D[关键结果/Results: 跨平台比特一致性/Cross-Platform Bit-Identical Results]"
+    },
+    {
+      "title": "Cost-Aware Text-to-SQL: An Empirical Study of Cloud Compute Costs for LLM-Generated Queries",
+      "authors": "Saurabh Deochake, Debajyoti Mukhopadhyay",
+      "institution": "SentinelOne, WIDiCoReL Research Lab",
+      "link": "https://arxiv.org/pdf/2512.22364",
+      "code": null,
+      "tags": [
+        "llm inference",
+        "Text-to-SQL",
+        "Cloud Cost Optimization",
+        "Query Efficiency",
+        "Large Language Models",
+        "Google BigQuery"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/06f17566f5fb65cb73b79b0dbb64bde11c2f87d177f02865af7fc2d8910e3ac4_w640_q70.webp",
+      "contributions": "1. Introduced a cloud-native cost evaluation methodology for Text-to-SQL systems, measuring bytes processed, slot utilization, and estimated query cost on production infrastructure. 2. Conducted an empirical evaluation of six LLMs on Google BigQuery, demonstrating that reasoning models achieve significantly lower cloud compute costs while maintaining high correctness. 3. Quantified cost variance across models, identified prevalent inefficiency patterns (e.g., missing partition filters), and provided deployment guidelines for cost-sensitive environments.",
+      "summary": "This paper studies the cloud compute costs of SQL queries generated by Large Language Models (LLMs) for Text-to-SQL tasks. By evaluating six state-of-the-art LLMs on Google BigQuery, it finds that reasoning models are more cost-efficient, processing far fewer bytes, and that execution time is a poor proxy for cloud cost. The work provides a new cost-focused evaluation methodology and guidelines for deploying cost-aware Text-to-SQL systems.",
+      "mindmap": "graph TB\n        A[Cost-Aware Text-to-SQL: An Empirical Study of Cloud Compute Costs for LLM-Generated Queries] --> B\n        A --> C\n        A --> D\n        B[核心问题/Problem<br>Existing efficiency metrics (e.g., VES) measure time, not cloud compute costs.] --> B1[问题背景/Context<br>LLMs achieve high Text-to-SQL accuracy, but cost efficiency in cloud deployments is unknown.]\n        C[主要方法/Method<br>Systematic evaluation of 6 LLMs on Google BigQuery (StackOverflow dataset).] --> C1[评估指标/Metrics<br>Measure bytes processed, slot utilization, estimated cost, and correctness.]\n        D[关键结果/Results] --> D1[发现1/Finding 1<br>Reasoning models process 44.5% fewer bytes with equivalent correctness.]\n        D --> D2[发现2/Finding 2<br>Weak correlation (r=0.16) between execution time and query cost.]\n        D --> D3[发现3/Finding 3<br>Up to 3.4x cost variance; standard models produce high-cost outliers.]"
+    },
+    {
+      "title": "Efficient Multi-Model Orchestration for Self-Hosted Large Language Models",
+      "authors": "Bhanu Prakash Vangala, Tanu Malik",
+      "institution": "University of Missouri",
+      "link": "https://arxiv.org/pdf/2512.22402",
+      "code": null,
+      "tags": [
+        "llm inference",
+        "Kubernetes",
+        "Helm",
+        "DistilBERT",
+        "scale-to-zero",
+        "hybrid routing"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/14e9270400ac5f7fbf1ac4048cb82d9527c762106e232f9cd97653eb0ab3bdb4_w640_q70.webp",
+      "contributions": "1. A unified Helm-based deployment system for self-hosted LLMs on Kubernetes, 2. An adaptive scale-to-zero automation mechanism for efficient GPU resource utilization, 3. A hybrid routing module combining keyword heuristics and a lightweight DistilBERT classifier to balance cost, latency, and accuracy.",
+      "summary": "The paper introduces \"Pick and Spin,\" a framework for efficient orchestration of self-hosted large language models. It addresses challenges in GPU utilization and workload routing by integrating Kubernetes-based deployment, adaptive scaling, and a hybrid routing strategy. The system demonstrates significant improvements in success rate, latency, and cost compared to static deployments.",
+      "mindmap": "graph TB\n        A[Efficient Multi-Model Orchestration for Self-Hosted LLMs] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[Self-hosted LLM deployment challenges: GPU utilization, workload routing, reliability/自托管LLM部署挑战：GPU利用率、工作负载路由、可靠性]\n        C --> C1[Pick and Spin Framework: Kubernetes, Helm, scale-to-zero, hybrid routing/Pick and Spin框架：Kubernetes, Helm, 缩容至零, 混合路由]\n        D --> D1[21.6% higher success rate, 30% lower latency, 33% lower cost/成功率提升21.6%，延迟降低30%，成本降低33%]"
+    },
+    {
+      "title": "Nightjar: Dynamic Adaptive Speculative Decoding for Large Language Models Serving",
+      "authors": "Rui Li, Zhaoning Zhang, Libo Zhang, Huaimin Wang, Xiang Fu, Zhiquan Lai",
+      "institution": "National University of Defense Technology",
+      "link": "https://arxiv.org/pdf/2512.22420",
+      "code": null,
+      "tags": [
+        "llm inference",
+        "speculative decoding",
+        "dynamic adaptation",
+        "multi-armed bandit",
+        "throughput optimization",
+        "latency reduction"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8c6466394cd16e760ca78e05f13eba9852a284e7e8231b58de2c71fbee1e7b39_w640_q70.webp",
+      "contributions": "1. Identifies the critical trade-off in speculative decoding: beneficial in memory-bound (low-load) scenarios but detrimental in compute-bound (high-load) scenarios due to verification overhead. 2. Proposes Nightjar, a novel learning-based algorithm that dynamically adapts the speculative length (or disables SD) based on real-time request load and batch size. 3. Demonstrates significant performance gains, achieving up to 14.8% higher throughput and 20.2% lower latency compared to standard speculative decoding.",
+      "summary": "The paper addresses the inefficiency of fixed-length speculative decoding in LLM serving, which fails to adapt to dynamic request loads. It proposes Nightjar, a learning-based algorithm that dynamically selects the optimal speculative length. Experiments show Nightjar significantly improves throughput and reduces latency compared to standard speculative decoding.",
+      "mindmap": "graph TB\n        A[Nightjar: Dynamic Adaptive Speculative Decoding] --> B[核心问题/Problem: Fixed speculative length fails under dynamic loads]\n        A --> C[主要方法/Method: Learning-based algorithm adapts speculative length]\n        A --> D[关键结果/Results: Higher throughput, lower latency]"
+    },
+    {
+      "title": "Role-Based Fault Tolerance System for LLM RL Post-Training",
+      "authors": "Zhenqian Chen, Baoquan Zhong, Xiang Li, Qing Dai, Xinkui Zhao, Miao Ye, Ren Cheng, Lufei Zhang, Jianwei Yin",
+      "institution": "Zhejiang University, State Key Laboratory of Mathematical Engineering and Advanced Computing",
+      "link": "https://arxiv.org/pdf/2512.22492",
+      "code": null,
+      "tags": [
+        "fault-tolerance",
+        "role-based fault tolerance",
+        "RL post-training",
+        "UCX communication",
+        "warm standby",
+        "Effective Training Time Ratio (ETTR)"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ceff77cfb9d0c7d7e763916b77716ee6534c3aa3d54d41253fef6ea4d9a86ec0_w640_q70.webp",
+      "contributions": "1. Proposes a role-based fault isolation and recovery system (RobustRL) for RL post-training, enabling recovery of only the failed component (trainer, rollout) instead of restarting the entire task. 2. Introduces a role-aware monitoring mechanism to accurately detect failures and avoid false positives/delays specific to different RL roles. 3. Implements dynamic, UCX-based point-to-point communication to reconnect recovered roles and synchronize weights immediately, replacing static collective communication.",
+      "summary": "The paper addresses the lack of fault tolerance for RL post-training of LLMs, which interleaves training and inference workloads. It proposes RobustRL, a system that isolates and recovers failed roles (e.g., trainer, rollout) individually using a Detect-Restart-Reconnect paradigm, instead of restarting the entire job. This approach significantly improves the Effective Training Time Ratio and reduces end-to-end training time compared to baseline methods.",
+      "mindmap": "graph TB\n        A[Role-Based Fault Tolerance System for LLM RL Post-Training] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[RL后训练混合训练与推理工作负载，易受双方故障影响/RL post-training mixes training & inference, vulnerable to faults from both]\n        B --> B2[现有容错框架未针对RL的异步执行优化/Existing FT frameworks not optimized for RL's async execution]\n        C --> C1[基于角色的故障隔离与恢复/Role-based fault isolation & recovery]\n        C --> C2[检测-重启-重连范式/Detect-Restart-Reconnect paradigm]\n        C2 --> C21[角色感知监控/Role-aware monitoring]\n        C2 --> C22[非中断式重启/Non-disruptive restart with warm standbys]\n        C2 --> C23[动态UCX点对点通信重连/Dynamic UCX P2P reconnection]\n        D --> D1[ETTR超过80%，优于基线的60%/ETTR >80%, better than baseline 60%]\n        D --> D2[端到端训练时间加快8.4%-17.4%/End-to-end training time 8.4%-17.4% faster]"
+    },
+    {
+      "title": "Object Abstraction To Streamline Edge-Cloud-Native Application Development",
+      "authors": "Pawissanutt Lertpongrujikorn",
+      "institution": "University of North Texas",
+      "link": "https://arxiv.org/pdf/2512.22534",
+      "code": null,
+      "tags": [
+        "serverless computing",
+        "edge computing",
+        "Object-as-a-Service (OaaS)",
+        "edge-cloud continuum",
+        "serverless",
+        "FaaS",
+        "declarative SLA"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fcd35442b8b6cfbc12c61e295e970899c2bfb10184fe06c88745b8fbf0137055_w640_q70.webp",
+      "contributions": "1. Proposed the Object-as-a-Service (OaaS) paradigm, unifying resource, state, and workflow management with the Oparaca prototype. 2. Extended OaaS to the edge-cloud continuum with OaaS-IoT/EdgeWeaver, improving performance and reducing code complexity. 3. Established an empirical methodology and commercialization pathway for cloud-native research grounded in practitioner needs.",
+      "summary": "This dissertation addresses the complexity and fragmentation in serverless and cloud-native development by proposing the Object-as-a-Service (OaaS) paradigm. It introduces a unified abstraction for resources, state, and workflows, and extends it to the edge-cloud continuum, demonstrating improved developer productivity and system performance. The work concludes that OaaS effectively hides infrastructure complexity, allowing developers to focus on application logic.",
+      "mindmap": "graph TB\n        Root(”Object Abstraction for Edge-Cloud-Native Apps<br>面向边缘云原生应用的对象抽象”) --> Problem\n        Root --> Method\n        Root --> Results\n        Problem(”核心问题/Problem”) --> P1(”Serverless 承诺与实践存在差距<br>Gap in serverless promise vs. practice”)\n        Problem --> P2(”基础设施碎片化与复杂化<br>Infrastructure fragmentation & complexity”)\n        Method(”主要方法/Method”) --> M1(”提出 OaaS 范式<br>Propose OaaS paradigm”)\n        Method --> M2(”开发 Oparaca 原型<br>Develop Oparaca prototype”)\n        Method --> M3(”扩展至边缘云连续体<br>Extend to edge-cloud continuum (OaaS-IoT)”)\n        Results(”关键结果/Results”) --> R1(”统一资源、状态、工作流管理<br>Unified resource, state, workflow management”)\n        Results --> R2(”性能开销可忽略，可扩展性领先<br>Negligible overhead, state-of-the-art scalability”)\n        Results --> R3(”任务完成更快，代码行数减少<br>Faster task completion, reduced lines of code”)"
+    },
+    {
+      "title": "RollArt: Scaling Agentic RL Training via Disaggregated Infrastructure",
+      "authors": "Wei Gao, Yuheng Zhao, Tianyuan Wu, Shaopan Xiong, Weixun Wang, Dakai An, Lunxi Cao, Dilxat Muhtar, Zichen Liu, Haizhou Zhao, Ju Huang, Siran Yang, Yongbin Li, Wenbo Su, Jiamang Wang, Lin Qu, Bo Zheng, Wei Wang",
+      "institution": "HKUST, Alibaba Group",
+      "link": "https://arxiv.org/pdf/2512.22560",
+      "code": "https://github.com/alibaba/ROLL",
+      "tags": [
+        "agent system",
+        "disaggregated infrastructure",
+        "hardware-affinity mapping",
+        "fine-grained asynchrony"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/dc8e408c613097b7b60bc32e41ec3137faa8dd94184658c8a802b65cbf57c593_w640_q70.webp",
+      "contributions": "1. A hardware-affinity workload mapping strategy that routes compute-bound and bandwidth-bound tasks to best-fit GPU devices. 2. A fine-grained asynchrony mechanism that manages execution at the trajectory level to mitigate resource bubbles and improve utilization. 3. A statefulness-aware computation design that offloads stateless components to serverless infrastructure for elastic scaling.",
+      "summary": "The paper presents RollArt, a distributed system designed to scale agentic reinforcement learning training on disaggregated infrastructure. It addresses the heterogeneity of agentic RL workloads by proposing three core techniques: hardware-affinity workload mapping, fine-grained asynchrony, and statefulness-aware computation. The system demonstrates significant improvements in training throughput, achieving 1.35-2.05x speedup over baselines, and scales to thousands of GPUs.",
+      "mindmap": "graph TB\n        Root[”RollArt: Scaling Agentic RL Training via Disaggregated Infrastructure”] --> Problem[”核心问题/Problem: Agentic RL workloads are heterogeneous, causing inefficiency in monolithic infrastructure.”]\n        Root --> Method[”主要方法/Method: Disaggregated system with hardware-affinity mapping, fine-grained asynchrony, and statefulness-aware computation.”]\n        Root --> Results[”关键结果/Results: Achieves 1.35-2.05x training speedup and scales to >3000 GPUs.”]"
+    },
+    {
+      "title": "Modality Inflation: Energy Characterization and Optimization Opportunities for MLLM Inference",
+      "authors": "Mona Moghadampanah, Adib Rezaei Shahmirzadi, Farhana Amin, Dimitrios S. Nikolopoulos",
+      "institution": "Virginia Tech",
+      "link": "https://arxiv.org/pdf/2512.22695",
+      "code": null,
+      "tags": [
+        "multi-modal inference",
+        "energy efficiency",
+        "dynamic voltage and frequency scaling (DVFS)",
+        "GPU underutilization",
+        "visual token sequences",
+        "stage-level analysis"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3f6dd42f6aa45e4d0992cdd9fa407ab5c4268e31f45ecafdc9b44861ceb445e1_w640_q70.webp",
+      "contributions": "1. Provides the first detailed, stage-level energy characterization of MLLM inference, identifying modality inflation as a key inefficiency. 2. Quantifies the significant energy overhead (17%-94%) of multimodal inference and reveals diverse bottlenecks (vision encoder vs. prefill) and GPU underutilization. 3. Demonstrates stage-wise DVFS as an effective optimization to reduce energy consumption with minimal performance impact.",
+      "summary": "This paper investigates the energy inefficiency of multimodal large language model (MLLM) inference, termed \"modality inflation,\" where extra encoding stages and longer token sequences increase energy consumption. It provides a stage-level energy analysis on GPUs, quantifying overheads and identifying bottlenecks, and proposes stage-wise dynamic voltage and frequency scaling (DVFS) as an effective optimization to save energy with modest performance loss.",
+      "mindmap": "graph TB\n        A[Modality Inflation: Energy Characterization and Optimization Opportunities for MLLM Inference] --> B[核心问题/Problem: Multimodal inference introduces unexplored energy trade-offs and inefficiencies (modality inflation)]\n        A --> C[主要方法/Method: Stage-level energy analysis (vision encoding, prefill, decode) on GPU, and proposes stage-wise DVFS optimization]\n        A --> D[关键结果/Results: Quantifies 17%-94% energy overhead, identifies bottlenecks and GPU underutilization, demonstrates DVFS saves energy with minor impact]"
+    },
+    {
+      "title": "OptiNIC: A Resilient and Tail-Optimal RDMA NIC for Distributed ML Workloads",
+      "authors": "Ertza Warraich, Ali Imran, Annus Zulfiqar, Shay Vargaftik, Sonia Fahmy, Muhammad Shahbaz",
+      "institution": "Purdue University, Broadcom, University of Michigan",
+      "link": "https://arxiv.org/pdf/2512.22743",
+      "code": null,
+      "tags": [
+        "communication & networking",
+        "RDMA",
+        "tail latency",
+        "collective communication",
+        "reliability",
+        "domain-specific transport"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3143921b3b275baf220b75c6f927e8a49b4fa31653bbd117324490a1b8f8da93_w640_q70.webp",
+      "contributions": "1. Proposes OptiNIC, a domain-specific RDMA transport that eliminates retransmissions and in-order delivery from the NIC, shifting to a best-effort, out-of-order model. 2. Introduces adaptive timeouts to trigger forward progress in case of data loss or delay, decoupling completion signaling from complete data delivery. 3. Shifts loss recovery to the ML pipeline (e.g., via Hadamard Transform and Erasure Coding) while retaining standard congestion control, improving performance and resilience for distributed ML workloads.",
+      "summary": "The paper identifies tail latency in collective communication as a major bottleneck for distributed ML. It proposes OptiNIC, a new RDMA transport that relaxes strict reliability guarantees based on ML's tolerance for data loss, using adaptive timeouts and moving recovery to the application layer. Evaluation shows OptiNIC significantly improves time-to-accuracy, throughput, and tail latency while reducing hardware resource usage.",
+      "mindmap": "graph TB\n        A[OptiNIC: A Resilient and Tail-Optimal RDMA NIC] --> B[核心问题/Problem: Tail latency in collective communication bottlenecks distributed ML scaling]\n        A --> C[主要方法/Method: Domain-specific RDMA transport with best-effort delivery, adaptive timeouts, and loss recovery in ML pipeline]\n        A --> D[关键结果/Results: Improves TTA 2x, throughput 1.6x, lowers 99th% latency 3.5x, cuts BRAM usage 2.7x]"
+    },
+    {
+      "title": "Two-Robot Computational Landscape: A Complete Characterization of Model Power in Minimal Mobile Robot Systems",
+      "authors": "Naoki Kitamura, Yuichi Sudo, Koichi Wada",
+      "institution": "The University of Osaka, Hosei University",
+      "link": "https://arxiv.org/pdf/2512.22770",
+      "code": null,
+      "tags": [
+        "distributed computing",
+        "autonomous mobile robots",
+        "Look-Compute-Move (LCM)",
+        "computational power hierarchy",
+        "finite-state robots",
+        "robots with lights"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ddce34ada1bbaebc271a0c17bbc6cf8413606d2887ebd22bfe77cc4c0e90d34a_w640_q70.webp",
+      "contributions": "1. Proves that under full synchrony, the FSTA (finite-state) and LUMI (robots with lights) models coincide for two robots, showing perfect synchrony can substitute for memory and communication at this minimal scale. 2. Shows that the FSTA and FCOM (finite-communication) models are orthogonal (bidirectionally incomparable), completing the landscape of incomparability. 3. Provides the first complete and exact characterization of the computational power hierarchy for two robots across all major models and schedulers using a novel simulation-free method.",
+      "summary": "This paper provides the first complete characterization of the computational power of two autonomous mobile robots across major models (OBLOT, FSTA, FCOM, LUMI) and schedulers. Using a novel simulation-free method, it reveals a landscape distinct from the general n-robot case, showing that perfect synchrony can substitute for memory and communication for two robots, and that FSTA and FCOM are orthogonal. This yields the first exact computational hierarchy for minimal robot systems.",
+      "mindmap": "graph TB\n        A[Two-Robot Computational Landscape] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[Two-robot computational hierarchy unresolved]\n        C --> C1[Simulation-free analysis method]\n        D --> D1[FSTA^F = LUMI^F under full sync]\n        D --> D2[FSTA and FCOM are orthogonal]\n        D --> D3[Complete landscape for two robots]"
+    },
+    {
+      "title": "Argus: Token Aware Distributed LLM Inference Optimization",
+      "authors": "Panlong Wu, Yifei Zhong, Danyang Chen, Ting Wang, Fangxin Wang",
+      "institution": "The Chinese University of Hong Kong, Shenzhen (CUHK-SZ)",
+      "link": "https://arxiv.org/pdf/2512.22925",
+      "code": null,
+      "tags": [
+        "llm inference",
+        "token-aware offloading",
+        "Lyapunov optimization",
+        "length prediction",
+        "edge-cloud systems",
+        "distributed inference"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2e6bf58921ba8401e4cc5e40322f2ce1b65861ebe0ac5f35cfead3e0339c7f09_w640_q70.webp",
+      "contributions": "1. A Length-Aware Semantics (LAS) module that predicts output token lengths for prompts using a fine-tuned language model with token-length-sensitive feature modulation. 2. A Lyapunov-guided Offloading Optimization (LOO) module that formulates long-term Quality-of-Experience optimization considering both LLM prefilling and decoding costs. 3. A novel Iterative Offloading Algorithm with Damping and Congestion Control (IODCC) to solve the resulting integer nonlinear programming problem under time-varying constraints.",
+      "summary": "This paper presents Argus, a token-aware distributed LLM inference framework for edge-cloud systems. It addresses inference time variability by predicting output token lengths and using Lyapunov optimization for efficient task offloading. Evaluations show Argus achieves robust and efficient performance in dynamic, heterogeneous environments.",
+      "mindmap": "graph TB\n        A[Argus: Token Aware Distributed LLM Inference Optimization] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[LLM推理时间可变性高 / High LLM Inference Time Variability]\n        B --> B2[动态异构边缘云环境 / Dynamic Heterogeneous Edge-Cloud Environment]\n        C --> C1[LAS: 输出长度预测 / LAS: Output Length Prediction]\n        C --> C2[LOO: 李雅普诺夫优化卸载 / LOO: Lyapunov Optimization Offloading]\n        C --> C3[IODCC: 迭代卸载算法 / IODCC: Iterative Offloading Algorithm]\n        D --> D1[鲁棒性能 / Robust Performance]\n        D --> D2[高效推理 / Efficient Inference]"
+    },
+    {
+      "title": "A Domain Decomposition-based Solver for Acoustic Wave propagation in Two-Dimensional Random Media",
+      "authors": "Sudhi Sharma Padillath Vasudevan",
+      "institution": "Carleton University",
+      "link": "https://arxiv.org/pdf/2512.23027",
+      "code": null,
+      "tags": [
+        "uncertainty quantification",
+        "stochastic Galerkin method",
+        "polynomial chaos expansion",
+        "domain decomposition",
+        "Neumann-Neumann preconditioner"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9a4a9c029830a2f5bbff0493a205dfd33bea894daf2a861a9f131c15f02f4b9d_w640_q70.webp",
+      "contributions": "1. Applies an intrusive stochastic Galerkin method with Polynomial Chaos Expansion to solve acoustic wave propagation in random media, transforming the stochastic PDE into a deterministic system. 2. Employs Domain Decomposition-based solvers to address the high computational cost associated with large-scale, high-dimensional stochastic systems. 3. Utilizes a conjugate gradient iterative solver with a two-level Neumann-Neumann preconditioner, demonstrating efficient scalability for the problem.",
+      "summary": "This paper tackles the high computational cost of simulating acoustic wave propagation in two-dimensional random media. It proposes a method combining an intrusive stochastic Galerkin approach with Polynomial Chaos Expansion and a Domain Decomposition-based linear solver preconditioned with a two-level Neumann-Neumann method. The results show that this approach provides an efficiently scalable solution for the problem.",
+      "mindmap": "graph TB\n        Root[基于域分解的二维随机介质声波传播求解器<br>A Domain Decomposition-based Solver for Acoustic Wave Propagation in 2D Random Media]\n        Root --> Problem[核心问题/Problem]\n        Root --> Method[主要方法/Method]\n        Root --> Results[关键结果/Results]\n        Problem --> P1[计算成本高<br>High Computational Cost]\n        P1 --> P2[网格、时间步、随机参数增加<br>Increasing Mesh, Time Step, Random Parameters]\n        Method --> M1[侵入式随机伽辽金法<br>Intrusive Stochastic Galerkin]\n        M1 --> M2[多项式混沌展开<br>Polynomial Chaos Expansion (PCE)]\n        Method --> M3[域分解求解器<br>Domain Decomposition Solver]\n        M3 --> M4[共轭梯度法+两层Neumann-Neumann预处理器<br>Conjugate Gradient with Two-level Neumann-Neumann Preconditioner]\n        Results --> R1[高效可扩展性<br>Efficient Scalability]"
+    },
+    {
+      "title": "Viability and Performance of a Private LLM Server for SMBs: A Benchmark Analysis of Qwen3-30B on Consumer-Grade Hardware",
+      "authors": "Alex Khalil, Guillaume Heilles, Maria Parraga, Simon Heilles",
+      "institution": "UCLouvain, Universidad Espíritu Santo, DENEM Labs",
+      "link": "https://arxiv.org/pdf/2512.23029",
+      "code": null,
+      "tags": [
+        "llm inference",
+        "quantization",
+        "mixture-of-experts",
+        "on-premise deployment",
+        "consumer-grade hardware",
+        "benchmark analysis"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ed34c10397ed5cae19c39a4a8e2a5a1f0fd64e2f76183b8ba093c74b9a79fe51_w640_q70.webp",
+      "contributions": "1. A comprehensive benchmarking framework for evaluating both the intrinsic model capabilities and the server-side performance (latency, throughput, scalability) of a private LLM deployment. 2. A practical demonstration and performance analysis of deploying a quantized, large-scale (30B parameter) Mixture-of-Experts model (Qwen3) on next-generation consumer-grade hardware (NVIDIA RTX 5090). 3. Evidence that a carefully configured on-premises LLM server can achieve performance comparable to cloud services, offering SMBs a viable, cost-effective, and privacy-preserving alternative.",
+      "summary": "This paper investigates the feasibility of deploying a private, high-performance LLM server for Small and Medium Businesses using consumer-grade hardware. It benchmarks a quantized Qwen3-30B model on an NVIDIA RTX 5090, evaluating both model capability and server performance under load. The results show that such an on-premises setup can achieve performance close to cloud services at a lower cost and with full data privacy.",
+      "mindmap": "graph TB\n        A[Viability and Performance of a Private LLM Server for SMBs<br>SMB私有LLM服务器的可行性与性能] --> B\n        A --> C\n        A --> D\n        B[核心问题/Problem<br>Cloud reliance: cost, privacy, sovereignty for SMBs<br>云依赖：成本、隐私、SMB主权]\n        C[主要方法/Method<br>Benchmark quantized Qwen3-30B on consumer hardware (RTX 5090)<br>在消费级硬件上对量化Qwen3-30B进行基准测试]\n        D[关键结果/Results<br>On-premises performance rivals cloud, viable for SMBs<br>本地性能媲美云端，对SMB可行]"
+    },
+    {
+      "title": "Osmotic Learning: A Self-Supervised Paradigm for Decentralized Contextual Data Representation",
+      "authors": "Mario Colosi, Reza Farahani, Maria Fazio, Radu Prodan, Massimo Villari",
+      "institution": "University of Messina, University of Klagenfurt, University of Innsbruck",
+      "link": "https://arxiv.org/pdf/2512.23096",
+      "code": null,
+      "tags": [
+        "federated learning",
+        "self-supervised learning",
+        "representation learning",
+        "distributed learning",
+        "decentralized clustering",
+        "contextual data"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f2b452fb94443ab9846af33524787f0bc6c709b6e90ae3be4e653738c6fe592b_w640_q70.webp",
+      "contributions": "1. Introduces Osmotic Learning (OSM-L), a novel self-supervised paradigm for learning from distributed data without raw data exchange. 2. Proposes an \"osmosis\" process that aligns local representations to converge to a dynamic equilibrium, capturing contextual patterns. 3. Demonstrates that OSM-L functions as a decentralized clustering mechanism, identifying correlated data groups during training.",
+      "summary": "This paper proposes Osmotic Learning (OSM-L), a self-supervised distributed learning paradigm that extracts higher-level latent knowledge from decentralized data sources without sharing raw data. It achieves this through an iterative \"osmosis\" process that aligns local representations to converge to a contextual equilibrium, also enabling decentralized clustering. Experimental results show OSM-L achieves high accuracy in local information alignment while preserving contextual integrity.",
+      "mindmap": "graph TB\n        A[Osmotic Learning: A Self-Supervised Paradigm for Decentralized Contextual Data Representation] --> B[核心问题/Problem: Extracting meaningful knowledge from distributed, heterogeneous data without raw data exchange]\n        A --> C[主要方法/Method: Osmotic Learning (OSM-L) - self-supervised paradigm using iterative alignment and ”osmosis” for representation convergence]\n        A --> D[关键结果/Results: Achieves >0.99 alignment accuracy and preserves contextual integrity; enables decentralized clustering]"
+    },
+    {
+      "title": "FairGFL: Privacy-Preserving Fairness-Aware Federated Learning with Overlapping Subgraphs",
+      "authors": "Zihao Zhou, Shusen Yang, Fangyuan Zhao, Xuebin Ren",
+      "institution": "Xi'an Jiaotong University",
+      "link": "https://arxiv.org/pdf/2512.23235",
+      "code": null,
+      "tags": [
+        "federated learning",
+        "graph federated learning",
+        "fairness",
+        "overlapping subgraphs",
+        "privacy-preserving",
+        "weighted aggregation"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c67614889dfdf1e0e6de4fd0bd950e8649eb4d988fb1661c29ef6c14b73bba25_w640_q70.webp",
+      "contributions": "1. Uncover and theoretically analyze the unfairness issue in graph federated learning caused by imbalanced overlapping subgraphs across clients. 2. Propose FairGFL, a novel algorithm that uses a privacy-preserving estimation of overlapping ratios and an interpretable weighted aggregation approach to enhance cross-client fairness. 3. Improve the tradeoff between model utility and fairness by integrating a carefully crafted regularizer into the federated composite loss function.",
+      "summary": "The paper identifies a fairness problem in graph federated learning when client subgraphs overlap in an imbalanced way. To solve this, it proposes FairGFL, a method that uses privacy-preserving overlap estimation and a fairness-aware regularizer to balance utility and fairness. Experiments show FairGFL outperforms baselines in both utility and fairness on benchmark datasets.",
+      "mindmap": "graph TB\n    A(FairGFL: Privacy-Preserving Fairness-Aware Federated Learning with Overlapping Subgraphs) --> B(核心问题/Problem: Imbalanced overlapping subgraphs cause unfairness in GFL)\n    A --> C(主要方法/Method: FairGFL with privacy-preserving overlap estimation, weighted aggregation, and fairness regularizer)\n    A --> D(关键结果/Results: Outperforms baselines in model utility and fairness)"
+    },
+    {
+      "title": "Splitwise: Collaborative Edge-Cloud Inference for LLMs via Lyapunov-Assisted DRL",
+      "authors": "Abolfazl Younesi, Abbas Shabrang Maryan, Elyas Oustad, Zahra Najafabadi Samani, Mohsen Ansari, Thomas Fahringer",
+      "institution": "University of Innsbruck, Sharif University of Technology",
+      "link": "https://arxiv.org/pdf/2512.23310",
+      "code": null,
+      "tags": [
+        "llm inference",
+        "Lyapunov Optimization",
+        "Deep Reinforcement Learning",
+        "Edge-Cloud Partitioning",
+        "Transformer Decomposition",
+        "Queue Stability"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/121b71aa214f4a7c1671c9df76bf67a9cd64f3cb9e74186606a380ce86f7634f_w640_q70.webp",
+      "contributions": "1. Proposes a fine-grained, adaptive partitioning framework (Splitwise) that decomposes transformer layers into attention heads and feed-forward sub-blocks, enabling exponentially more partition choices than layer-wise schemes. 2. Introduces a hierarchical DRL policy guided by Lyapunov optimization to jointly optimize latency, energy, and accuracy while guaranteeing queue stability under stochastic workloads and variable bandwidth. 3. Ensures robustness through partition checkpoints with exponential backoff recovery for communication failures, validated on real edge devices with large models.",
+      "summary": "The paper proposes Splitwise, a Lyapunov-assisted DRL framework for dynamically partitioning LLM inference between edge and cloud at a fine-grained sub-layer level. It aims to minimize latency and energy while maintaining accuracy under fluctuating network conditions. Experiments show Splitwise significantly reduces latency and energy consumption compared to existing methods.",
+      "mindmap": "graph TB\n        A[Splitwise: Collaborative Edge-Cloud Inference for LLMs via Lyapunov-Assisted DRL] --> B[核心问题/Problem: LLMs are hard to deploy on edge devices; cloud-only is slow; static partitions fail with bandwidth changes.]\n        A --> C[主要方法/Method: Fine-grained partition of transformer layers; Lyapunov-assisted DRL for adaptive optimization; checkpointing for robustness.]\n        A --> D[关键结果/Results: Reduces latency 1.4x-2.8x; cuts energy up to 41%; lowers 95th-percentile latency by 53-61%.]"
+    },
+    {
+      "title": "An SLO Driven and Cost-Aware Autoscaling Framework for Kubernetes",
+      "authors": "Vinoth Punniyamoorthy, Bikesh Kumar, Sumit Saha, Lokesh Butra, Mayilsamy Palanigounder, Akash Kumar Agarwal, Kabilan Kannan",
+      "institution": "IEEE, East West Bank, NTT Data, Albertsons",
+      "link": "https://arxiv.org/pdf/2512.23415",
+      "code": null,
+      "tags": [
+        "cluster infrastructure",
+        "Kubernetes",
+        "Autoscaling",
+        "AIOps",
+        "Service Level Objectives",
+        "Cost Optimization"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ce581ba4d1249deeba9f1bffa6739ebbe74df663542fef3893eee5e0a117ae2e_w640_q70.webp",
+      "contributions": "1. A gap-driven analysis of existing Kubernetes autoscaling approaches, highlighting their limitations. 2. A safe and explainable multi-signal autoscaling framework that integrates SLO-aware and cost-conscious control with demand forecasting. 3. Experimental evaluation demonstrating significant improvements in SLO violation duration, scaling response time, and infrastructure cost compared to baselines.",
+      "summary": "This paper addresses SLO violations and cost inefficiencies in Kubernetes autoscaling by proposing an AIOps-driven framework that uses multi-signal control and lightweight forecasting. The method integrates SLO and cost awareness to improve responsiveness and stability. Evaluation shows it reduces SLO violations by up to 31%, improves response time by 24%, and lowers cost by 18% compared to standard Kubernetes autoscalers.",
+      "mindmap": "graph TB\n        Root(”An SLO Driven and Cost-Aware Autoscaling Framework for Kubernetes”) --> Problem(”核心问题/Problem”)\n        Root --> Method(”主要方法/Method”)\n        Root --> Results(”关键结果/Results”)\n        Problem --> P1(”SLO违反与成本低效/SLO Violations & Cost Inefficiency”)\n        Problem --> P2(”反应式扩展与不透明逻辑/Reactive Scaling & Opaque Logic”)\n        Method --> M1(”AIOps驱动的多信号框架/AIOps-Driven Multi-Signal Framework”)\n        Method --> M2(”SLO与成本感知控制/SLO & Cost-Aware Control”)\n        Method --> M3(”轻量级需求预测/Lightweight Demand Forecasting”)\n        Results --> R1(”SLO违反时长减少31%/SLO Violation Duration Reduced by 31%”)\n        Results --> R2(”扩展响应时间提升24%/Scaling Response Time Improved by 24%”)\n        Results --> R3(”基础设施成本降低18%/Infrastructure Cost Lowered by 18%”)"
+    },
+    {
+      "title": "Local Rendezvous Hashing: Bounded Loads and Minimal Churn via Cache-Local Candidates",
+      "authors": "Yongjie Guan",
+      "institution": "Zhejiang University of Technology",
+      "link": "https://arxiv.org/pdf/2512.23434",
+      "code": null,
+      "tags": [
+        "distributed systems",
+        "consistent hashing",
+        "rendezvous hashing",
+        "load balancing",
+        "cache locality",
+        "minimal churn"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c40c222a782553ce278b2cbc43564ea8beed18effebd850b7b92ac28f04bda05_w640_q70.webp",
+      "contributions": "1. Introduces Local Rendezvous Hashing (LRH), which restricts HRW selection to a cache-local window of C distinct neighboring physical nodes on a ring. 2. Proposes next-distinct offsets to enforce bounded distinct candidate enumeration in exactly C ring steps. 3. Demonstrates that under fixed-candidate liveness failover, LRH achieves 0% excess churn while maintaining high throughput and good load balance.",
+      "summary": "This paper addresses the trade-off between load balance and performance in consistent hashing for distributed systems. It proposes Local Rendezvous Hashing (LRH), a method that performs a Highest Random Weight selection within a small, cache-local window of nodes on a ring. LRH achieves near-optimal load balance with minimal key churn and significantly higher lookup throughput compared to multi-probe consistent hashing.",
+      "mindmap": "graph TB\n        A[Local Rendezvous Hashing] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[Ring-based consistent hashing has high load imbalance or scattered memory accesses.]\n        C --> C1[Restrict HRW selection to a cache-local window of C distinct nodes.]\n        D --> D1[Reduces Max/Avg load to 1.0947 and achieves 60.05 Mkeys/s throughput.]"
+    },
+    {
+      "title": "Bitcoin-IPC: Scaling Bitcoin with a Network of Proof-of-Stake Subnets",
+      "authors": "Marko Vukolić, Orestis Alpos, Jakov Mitrovski, Themis Papameletiou, Nikola Ristić, Dionysis Zindros",
+      "institution": "Bitcoin Scaling Labs, Common Prefix",
+      "link": "https://arxiv.org/pdf/2512.23439",
+      "code": null,
+      "tags": [
+        "blockchain scalability",
+        "Bitcoin",
+        "Layer-2",
+        "Proof-of-Stake",
+        "interoperability",
+        "SegWit"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c762e73812d8ecf4dff85e3904f4f2897f640f483515f122ffbda6dd2edfabcc_w640_q70.webp",
+      "contributions": "1. Introduces Bitcoin-IPC, a protocol enabling permissionless creation of Proof-of-Stake Layer-2 subnets with stake denominated in Bitcoin (BTC). 2. Proposes a novel design embedded within Bitcoin's SegWit mechanism, inspired by SWIFT messaging, for seamless cross-subnet value transfer routed through Bitcoin L1. 3. Achieves significant scalability improvements, reducing transaction cost by up to 23x and increasing throughput from 7 to over 160 tps without modifying Bitcoin L1.",
+      "summary": "The paper addresses Bitcoin's limited transaction throughput for use as a Medium of Exchange. It proposes Bitcoin-IPC, a protocol that creates a network of programmable Proof-of-Stake Layer-2 chains (subnets) that use Bitcoin for security and settlement. The design significantly increases transaction throughput and reduces cost without requiring changes to the Bitcoin base layer.",
+      "mindmap": "graph TB\n        A[Bitcoin-IPC: Scaling Bitcoin with a Network of Proof-of-Stake Subnets] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[比特币作为交换媒介的可扩展性不足/Bitcoin's limited scalability as Medium of Exchange]\n        C --> C1[基于SegWit和SWIFT启发的L2 PoS子网协议/L2 PoS Subnet protocol inspired by SegWit & SWIFT]\n        D --> D1[吞吐量从7 tps提升至160+ tps/Throughput increased from 7 to 160+ tps]\n        D --> D2[每笔交易成本降低高达23倍/Tx cost reduced up to 23x]"
+    },
+    {
+      "title": "Decoupling Adaptive Control in TeaStore",
+      "authors": "Eddy Truyen",
+      "institution": "DistriNet, KU Leuven",
+      "link": "https://arxiv.org/pdf/2512.23495",
+      "code": null,
+      "tags": [
+        "self-adaptive systems",
+        "self-adaptation",
+        "microservices",
+        "control loop",
+        "operator pattern",
+        "software architecture"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/78e96b6ab1b10ae0a32ddc4e7967c5bedce7be1b0fe5db13bec216c9e0b657ae_w640_q70.webp",
+      "contributions": "1. Analyzes how software architectural methods, the cloud-native Operator pattern, and legacy programming techniques can decouple adaptive control from the application logic in a microservice system. 2. Examines the trade-offs between fine-grained expressive adaptation and system-wide control, highlighting when reuse of adaptation strategies is effective. 3. Proposes that these approaches are complementary and can be combined into a multi-tiered architecture for self-adaptive microservices.",
+      "summary": "This paper discusses the implementation of self-adaptation in the Adaptable TeaStore microservice benchmark. It examines different technical approaches (software architecture, Operator pattern, programming techniques) for decoupling the adaptive control logic from the application, analyzing their trade-offs. The main conclusion is that these approaches can be combined into a multi-tiered architecture for effective self-adaptive microservices.",
+      "mindmap": "graph TB\n        A[Decoupling Adaptive Control in TeaStore] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[实现微服务中的细粒度自适应/Implementing fine-grained self-adaptation in microservices]\n        C --> C1[软件架构方法/Software architectural methods]\n        C --> C2[Operator模式/Operator pattern]\n        C --> C3[传统编程技术/Legacy programming techniques]\n        D --> D1[权衡细粒度与系统范围控制/Trade-offs between fine-grained and system-wide control]\n        D --> D2[可组合的多层架构/Composable multi-tiered architecture]"
+    },
+    {
+      "title": "Fancy Some Chips for Your TeaStore? Modeling the Control of an Adaptable Discrete System",
+      "authors": "Anna Gallone, Simon Bliudze, Sophie Cerf, Olga Kouchnarenko",
+      "institution": "Université Marie et Louis Pasteur (FEMTO-ST), Univ. Lille (Inria, CNRS, CRIStAL)",
+      "link": "https://arxiv.org/pdf/2512.23496",
+      "code": "https://github.com/NwaitDev/Chips_Public,",
+      "tags": [
+        "modeling languages",
+        "control theory",
+        "distributed systems",
+        "Chips",
+        "control theory",
+        "component-based modeling",
+        "Adaptable TeaStore",
+        "BIP"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/80812c1a02bcd560c40919556c5ed13e3adfb056050e40a68f66bb940765d6f7_w640_q70.webp",
+      "contributions": "1. Introduces Chips, a novel language for designing models of complex, intertwined systems by mixing control theory with general-purpose programming concepts. 2. Enables systematic design, modeling, and analysis of adaptable systems through functional block descriptions. 3. Demonstrates the language's application and utility using a variation of the Adaptable TeaStore as a concrete running example.",
+      "summary": "This paper introduces Chips, a modeling language that combines control theory with programming concepts to facilitate the design and analysis of robust, component-based systems. The method is demonstrated on an Adaptable TeaStore application, showing how Chips can be used to systematically model complex, interacting entities like software, hardware, and services. The main conclusion is that Chips aids in ensuring system robustness and quality of service for web applications and cyber-physical systems.",
+      "mindmap": "graph TB\n        Root[Fancy Some Chips for Your TeaStore?<br/>Modeling the Control of an Adaptable Discrete System] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem<br/>Web应用需管理复杂、相互依赖的资源以确保鲁棒性] --> Problem_Detail[系统复杂/Complex System<br/>软件、硬件、网络、微服务交织]\n        Method[主要方法/Method<br/>提出Chips建模语言] --> Method_Detail1[混合概念/Mixed Concepts<br/>控制理论 + 通用编程语言]\n        Method --> Method_Detail2[功能块描述/Functional Blocks<br/>生成鲁棒的组件模型]\n        Results[关键结果/Results<br/>系统化设计、建模与分析] --> Results_Detail[案例演示/Case Study<br/>使用Adaptable TeaStore变体验证]"
+    },
+    {
+      "title": "Optimal Configuration of API Resources in Cloud Native Computing",
+      "authors": "Eddy Truyen, Wouter Joosen",
+      "institution": "DistriNet, KU Leuven",
+      "link": "https://arxiv.org/pdf/2512.23494",
+      "code": null,
+      "tags": [
+        "cloud computing",
+        "Kubernetes",
+        "resource optimization",
+        "microservices",
+        "DevOps",
+        "Bayesian optimization"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0fd4cec4e268968c920e0f358d7cea15fb1e4dc177e4b11b53180a3f5172ef65_w640_q70.webp",
+      "contributions": "1. Applies an existing black-box optimization framework to the largely unexplored problem of fine-tuning CPU and memory allocation during the DevOps Release phase, before deployment. 2. Empirically evaluates the framework using the TeaStore microservice application and provides a statistical comparison of different optimization algorithms, analyzing their trade-offs. 3. Provides practical guidance on when to use factor screening (for optimal configuration or algorithm comparison with a budget) versus pure Bayesian optimization (for finding a near-optimal configuration).",
+      "summary": "This paper applies a black-box optimization framework to tune Kubernetes CPU and memory resource configurations for microservices during the DevOps Release phase, a problem often overlooked in favor of runtime autoscaling. The evaluation on the TeaStore application shows that factor screening is useful for finding the optimal configuration within a budget, but Bayesian optimization without screening is better for finding a near-optimal solution.",
+      "mindmap": "graph TB\n        Root[”Optimal Configuration of API Resources in Cloud Native Computing<br/>云原生计算中API资源的最优配置”] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[”核心问题/Problem<br/>Untuned resource allocation before deployment<br/>部署前未调优的资源分配”] --> P1[”子问题/Sub-Problem<br/>Focus on Release phase, not Ops<br/>关注发布阶段，而非运维阶段”]\n        Method[”主要方法/Method<br/>Apply black-box optimization framework<br/>应用黑盒优化框架”] --> M1[”技术/Technique<br/>Factor screening & Bayesian optimization<br/>因子筛选与贝叶斯优化”]\n        Method --> M2[”评估/Evaluation<br/>Use TeaStore microservice app<br/>使用TeaStore微服务应用”]\n        Results[”关键结果/Results<br/>Guidance on screening vs. no screening<br/>关于是否使用筛选的指导”] --> R1[”结果1/Result 1<br/>Screening helps find optimal config with budget<br/>筛选有助于在预算内找到最优配置”]\n        Results --> R2[”结果2/Result 2<br/>Pure BO better for near-optimal config<br/>纯贝叶斯优化对寻找近似最优配置更好”]"
+    },
+    {
+      "title": "AdaptiFlow: An Extensible Framework for Event-Driven Autonomy in Cloud Microservices",
+      "authors": "Brice Arléon Zemtsop Ndadji, Simon Bliudze, Clément Quinton",
+      "institution": "Univ. Lille, CNRS, Inria, Centrale Lille, CRIStAL",
+      "link": "https://arxiv.org/pdf/2512.23499",
+      "code": null,
+      "tags": [
+        "autonomic computing",
+        "MAPE-K loop",
+        "decentralized adaptation",
+        "event-driven",
+        "rule-based",
+        "microservices"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6cea3a497714ae1ca6ead099b1f31177f6fe2bf3d4bc5a184a21835b1744db4a_w640_q70.webp",
+      "contributions": "1. A framework (AdaptiFlow) providing abstraction layers for the Monitor and Execute phases of the MAPE-K loop to enable autonomous microservices. 2. A lightweight, event-driven and rule-based mechanism for specifying adaptation logic, decoupling it from metrics collection and action execution. 3. A workflow for service instrumentation and evidence that decentralized adaptation can emerge from localized decisions without global coordination, validated through three adaptation scenarios (self-healing, self-protection, self-optimization).",
+      "summary": "This paper presents AdaptiFlow, a framework for building self-adaptive cloud microservices by decoupling metrics collection and action execution from adaptation logic using an event-driven, rule-based approach. It enables decentralized autonomy, allowing services to adapt locally without global coordination. The framework was validated on a benchmark, demonstrating practical implementation of self-healing, self-protection, and self-optimization scenarios with minimal code changes.",
+      "mindmap": "graph TB\n        A[AdaptiFlow: An Extensible Framework for Event-Driven Autonomy in Cloud Microservices] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[现有方案集中式控制不适用于微服务/Existing centralized control ill-suited for microservices]\n        C --> C1[基于MAPE-K的抽象层与事件驱动规则/MAPE-K abstraction layers & event-driven rules]\n        C --> C2[解耦监控、执行与逻辑/Decouple Monitor/Execute from adaptation logic]\n        D --> D1[实现三种自治场景/Implemented three autonomy scenarios]\n        D --> D2[去中心化适应无需全局协调/Decentralized adaptation without global coordination]"
+    },
+    {
+      "title": "Synthesis of signal processing algorithms with constraints on minimal parallelism and memory space",
+      "authors": "Sergey Salishev",
+      "institution": "Saint Petersburg State University",
+      "link": "https://arxiv.org/pdf/2512.22676",
+      "code": null,
+      "tags": [
+        "digital signal processing",
+        "computer arithmetic",
+        "high-performance computing",
+        "energy-efficient computing",
+        "integer-friendly approximation",
+        "conflict-free memory access",
+        "fast Fourier transform",
+        "fast Schur algorithm"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6fe50589b6f9e67a8e1acb929b6cfc7dcaecddcc5c1837d218c89e297ca79994_w640_q70.webp",
+      "contributions": "1. A power/energy consumption model for clocked CMOS logic to select optimal parallelism. 2. Integer-friendly approximation methods for elementary functions using constrained piecewise-polynomials to reduce lookup-table size. 3. Provably conflict-free data placement and execution order schemes for mixed-radix streaming FFT on multi-bank/single-port memories.",
+      "summary": "This thesis develops signal-processing algorithms and implementation schemes under constraints of minimal parallelism and memory space to improve energy efficiency. It proposes a power model, approximation methods, and conflict-free memory access schemes for FFT and fast Schur algorithms. The results provide constructive theorems and design trade-offs for building efficient specialized accelerators.",
+      "mindmap": "graph TB\n        Root[”Synthesis of signal processing algorithms with constraints on minimal parallelism and memory space<br>信号处理算法在最小并行度和内存空间约束下的综合”] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[”核心问题/Problem<br>Improving energy efficiency of low-power computing hardware<br>提高低功耗计算硬件的能效”]\n        Method[”主要方法/Method<br>1. Power/energy model for CMOS logic<br>CMOS逻辑功耗/能耗模型<br>2. Integer-friendly function approximation<br>整数友好函数近似<br>3. Conflict-free FFT schedules<br>无冲突FFT调度<br>4. Parallelism/memory analysis for fast Schur algorithm<br>快速Schur算法的并行度/内存分析”]\n        Results[”关键结果/Results<br>Constructive theorems, schedules, and design trade-offs for efficient specialized accelerators<br>为高效专用加速器提供构造性定理、调度方案和设计权衡”]"
+    },
+    {
+      "title": "Revisiting finite Abelian hidden subgroup problem and its distributed exact quantum algorithm",
+      "authors": "Ziyuan Dong, Xiang Fan, Tengxun Zhong, Daowen Qiu",
+      "institution": "Sun Yat-sen University",
+      "link": "https://arxiv.org/pdf/2512.22959",
+      "code": null,
+      "tags": [
+        "quantum computing",
+        "hidden subgroup problem",
+        "exact quantum algorithm",
+        "distributed quantum algorithm",
+        "amplitude amplification",
+        "Chinese Remainder Theorem"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a7feb61cf81eb163415a6709dd5e0b72019ffd85d693a4f2bc910ebd710ff58b_w640_q70.webp",
+      "contributions": "1. Proposes a new, more concise exact quantum algorithm for the finite Abelian hidden subgroup problem using amplitude amplification. 2. Introduces a distributed exact quantum algorithm for the same problem that reduces resource requirements and avoids quantum communication by leveraging the Chinese Remainder Theorem. 3. Develops a parallel exact classical algorithm with reduced query complexity, where the total queries across nodes do not exceed the centralized version under mild conditions.",
+      "summary": "This paper revisits the finite Abelian hidden subgroup problem (AHSP). It proposes a new exact quantum algorithm, a distributed quantum algorithm that requires fewer resources and no quantum communication, and a parallel classical algorithm. The main conclusion is that these methods offer more concise, resource-efficient, and scalable solutions for solving the AHSP.",
+      "mindmap": "graph TB\n        A[Revisiting finite Abelian hidden subgroup problem and its distributed exact quantum algorithm] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[有限阿贝尔隐藏子群问题 / Finite Abelian Hidden Subgroup Problem]\n        C --> C1[振幅放大 / Amplitude Amplification]\n        C --> C2[中国剩余定理 / Chinese Remainder Theorem]\n        D --> D1[精确量子算法 / Exact Quantum Algorithm]\n        D --> D2[分布式量子算法 / Distributed Quantum Algorithm]\n        D --> D3[并行经典算法 / Parallel Classical Algorithm]"
+    },
+    {
+      "title": "Federated Learning With L0 Constraint Via Probabilistic Gates For Sparsity",
+      "authors": "Krishna Harsha Kovelakuntla Huthasana, Alireza Olama, Andreas Lundell",
+      "institution": "Åbo Akademi University",
+      "link": "https://arxiv.org/pdf/2512.23071",
+      "code": null,
+      "tags": [
+        "federated learning",
+        "L0 regularization",
+        "probabilistic gates",
+        "communication efficiency",
+        "model sparsity",
+        "federated stochastic gradient descent"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/259d06fa8e807f154e153891f40b44308796040886ed51e218b65ee4e67a8c9c_w640_q70.webp",
+      "contributions": "1. Proposes a novel federated learning method that enforces an L0 constraint on model parameters using probabilistic gates and their continuous relaxation to achieve target sparsity. 2. Derives the L0 constrained stochastic minimization objective from an entropy maximization problem of the stochastic gates. 3. Demonstrates that the method can achieve high target sparsity (down to ρ=0.005) under data and client heterogeneity with minimal loss in statistical performance, outperforming magnitude pruning-based methods.",
+      "summary": "The paper addresses the problem of poor generalizability and communication inefficiency in Federated Learning due to overly dense models. It proposes a method to enforce L0 sparsity constraints via probabilistic gates, deriving the objective from entropy maximization and implementing it with federated stochastic gradient descent. The method is shown to be communication-efficient and achieves high target sparsity with better statistical performance than pruning-based baselines on synthetic and real datasets.",
+      "mindmap": "graph TB\n        Root[Federated Learning With L0 Constraint Via Probabilistic Gates For Sparsity] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem: 数据与模型固有的稀疏性未被解决，导致模型过密、泛化性差，且存在数据和客户端参与异质性。]\n        Method[主要方法/Method: 通过概率门及其连续松弛对非零参数密度施加L0约束，目标源自随机门的熵最大化问题，并基于联邦随机梯度下降。]\n        Results[关键结果/Results: 在数据和客户端异质性下，能达到目标密度(ρ)，统计性能损失最小，且比基于幅度的剪枝方法更优、通信高效。]"
+    },
+    {
       "title": "Harnessing Data Spaces to Build Intelligent Smart City Infrastructures Across the Cloud-Edge Continuum",
       "authors": "Dimitrios Amaxilatis, Themistoklis Sarantakos, Nikolaos Tsironis, Souvik Sengupta, Kostas Ramantas, Jhofre Ojeda",
       "institution": "Spark Works Ltd., IONOS SE, Iquadrat Informática S.L.",

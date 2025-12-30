@@ -4,6 +4,26 @@
   "week": "20251229-20260104",
   "items": [
     {
+      "title": "CosineGate: Semantic Dynamic Routing via Cosine Incompatibility in Residual Networks",
+      "authors": "Yogeswar Reddy Thota",
+      "institution": "University of Texas at Dallas",
+      "link": "https://arxiv.org/pdf/2512.22206",
+      "code": null,
+      "tags": [
+        "model compression (quantization/pruning)",
+        "dynamic routing",
+        "residual networks",
+        "cosine incompatibility",
+        "Gumbel-Softmax",
+        "FLOPs regularization"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ed7e3fa1c114a73795152210d2b55ffe2541fede331ce04d228e11ca599688fa_w640_q70.webp",
+      "contributions": "1. Introduces CosineGate, an end-to-end differentiable architecture for dynamic routing in residual networks using cosine incompatibility as a self-supervised skip signal. 2. Proposes the Cosine Incompatibility Ratio (CIR) to measure semantic redundancy and employs Gumbel-Softmax relaxation for per-sample, per-block gating during training. 3. Incorporates a progressive FLOPs regularization term to control average computational usage without destabilizing the optimization process.",
+      "summary": "The paper addresses the computational inefficiency in residual networks, where all blocks are evaluated for every input. It proposes CosineGate, a method that uses the cosine incompatibility between identity and residual features to dynamically skip redundant blocks, achieving significant FLOPs savings on CIFAR-10 while maintaining or improving accuracy.",
+      "mindmap": "graph TB\n        A[CosineGate: Semantic Dynamic Routing via Cosine Incompatibility in Residual Networks] --> B[核心问题/Problem: Modern residual networks perform redundant computation for all inputs]\n        A --> C[主要方法/Method: Uses cosine incompatibility ratio and Gumbel-Softmax for dynamic per-block gating]\n        A --> D[关键结果/Results: Achieves accuracy-efficiency Pareto frontier on CIFAR-10 with significant FLOPs savings]"
+    },
+    {
       "title": "CosmoCore-Evo: Evolutionary Dream-Replay Reinforcement Learning for Adaptive Code Generation",
       "authors": "Santhosh Kumar Ravindran",
       "institution": "Microsoft Corporation",

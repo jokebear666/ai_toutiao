@@ -4,6 +4,26 @@
   "week": "20251229-20260104",
   "items": [
     {
+      "title": "Logic Sketch Prompting (LSP): A Deterministic and Interpretable Prompting Method",
+      "authors": "Satvik Tripathi",
+      "institution": "University of Pennsylvania",
+      "link": "https://arxiv.org/pdf/2512.22258",
+      "code": "https://github.com/satviktri/LSP",
+      "tags": [
+        "prompt engineering",
+        "Logic Sketch Prompting",
+        "deterministic prompting",
+        "interpretability",
+        "rule adherence",
+        "clinical decision support"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3b5d49d54027e4f7e6b110a48568a0255a45010197e26e8bc344e0cd3e1785a9_w640_q70.webp",
+      "contributions": "1. Proposes Logic Sketch Prompting (LSP), a lightweight prompting framework that introduces typed variables and deterministic condition evaluators for structured reasoning., 2. Incorporates a rule-based validator to produce traceable and repeatable outputs, enhancing auditability., 3. Demonstrates significant performance gains over standard prompting methods (zero-shot, chain-of-thought, concise) on pharmacologic logic-compliance tasks across multiple open-weight LLMs.",
+      "summary": "The paper addresses the unreliability of LLMs on tasks requiring strict rule adherence and determinism. It proposes Logic Sketch Prompting (LSP), a framework using typed variables and rule-based validation to produce traceable outputs. Evaluations on clinical tasks show LSP significantly outperforms standard prompting methods in accuracy and F1 score, making it suitable for safety-critical systems.",
+      "mindmap": "graph TB\n        A[Logic Sketch Prompting (LSP)] --> B[核心问题/Problem: LLMs unreliable on tasks needing strict rules & determinism]\n        A --> C[主要方法/Method: Lightweight framework with typed variables, condition evaluators, rule validator]\n        A --> D[关键结果/Results: Highest accuracy/F1 vs. baselines; suitable for clinical/safety-critical systems]"
+    },
+    {
       "title": "Quantitative Verification of Omega-regular Properties in Probabilistic Programming",
       "authors": "Peixin Wang, Jianhao Bai, Min Zhang, C.-H. Luke Ong",
       "institution": "East China Normal University, Nanyang Technological University",

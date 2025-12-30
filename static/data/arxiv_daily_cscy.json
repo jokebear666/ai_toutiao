@@ -4,6 +4,263 @@
   "week": "20251229-20260104",
   "items": [
     {
+      "title": "Pre-review to Peer review: Pitfalls of Automating Reviews using Large Language Models",
+      "authors": "Akhil Pandey Akella, Harish Varma Siravuri, Shaurya Rohatgi",
+      "institution": "AllSci Corp, Sunwater Capital, Kellogg School of Management (Northwestern University), Northern Illinois University, MBZUAI",
+      "link": "https://arxiv.org/pdf/2512.22145",
+      "code": null,
+      "tags": [
+        "peer review automation",
+        "large language models",
+        "peer review",
+        "pre-review",
+        "citation prediction",
+        "review alignment"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ff267a101523eaa0ec56d561e9fa2c165c73baa1b3016d38df1ed64dbc91dcf6_w640_q70.webp",
+      "contributions": "1. Conducted a systematic evaluation of frontier open-weight LLMs for generating peer reviews, measuring alignment with human reviewers and correlation with post-publication metrics like citations and novelty. 2. Identified key pitfalls of LLMs as autonomous reviewers, including weak correlation with human scores (0.15), systematic overestimation bias (3-5 points), and uniformly high confidence scores despite errors. 3. Demonstrated the potential utility of LLMs as pre-review screening agents, as their generated reviews correlate more strongly with post-publication outcomes than with human reviewer scores, and released an open-source dataset (DLMRSD) to support further safety research.",
+      "summary": "This paper evaluates the use of large language models (LLMs) for automating academic peer review by comparing LLM-generated reviews against human reviewer scores and post-publication metrics. The study finds that while LLMs show weak alignment with human reviewers and exhibit overconfidence and bias, their reviews correlate better with future citation impact, suggesting they could serve as useful pre-review screening tools rather than fully autonomous reviewers.",
+      "mindmap": "graph TB\n        A[Pre-review to Peer Review: Pitfalls of Automating Reviews using Large Language Models] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[LLMs用于自动化同行评审的安全性与可靠性/Safety & Reliability of Automating Peer Review with LLMs]\n        C --> C1[使用前沿开源LLMs生成评审并与人类评分及发表后指标对比/Using Frontier Open-Weight LLMs to Generate Reviews vs. Human Scores & Post-Publication Metrics]\n        D --> D1[LLMs与人类评审员弱相关，存在高估偏差与过度自信/Weak Correlation with Humans, Overestimation Bias, High Confidence]\n        D --> D2[LLM评审与发表后指标相关性更强，适合预审筛查/LLM Reviews Correlate More with Post-Publication Metrics, Suitable for Pre-Review Screening]"
+    },
+    {
+      "title": "AETAS: Analysis of Evolving Temporal Affect and Semantics for Legal History",
+      "authors": "Qizhi Wang",
+      "institution": "PingCAP, Data & AI-Innovation Lab",
+      "link": "https://arxiv.org/pdf/2512.22196",
+      "code": null,
+      "tags": [
+        "semantic change detection",
+        "diachronic embeddings",
+        "orthogonal Procrustes",
+        "lexical drift"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/df36f3ea25509e1c01d661a7893c2b940f15cfeb346560d105c4488a5fba4140_w640_q70.webp",
+      "contributions": "1. A reproducible, expert-system style pipeline for quantifying and visualizing lexical drift in historical corpora. 2. A method coupling interpretable semantic trajectories with legally meaningful axes (e.g., mercy-versus-retribution). 3. The application of the pipeline to the Old Bailey Corpus, exposing the evolution of legal concepts like justice and crime alongside historical events.",
+      "summary": "This paper presents a reproducible pipeline for analyzing semantic drift in historical legal texts. The method involves training and aligning diachronic word embeddings to quantify and visualize lexical change. The analysis of the Old Bailey Corpus reveals how concepts of justice and crime evolved with penal reforms and societal debates.",
+      "mindmap": "graph TB\n        A[AETAS: Analysis of Evolving Temporal Affect and Semantics for Legal History] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1(”数字人文中语义变迁分析<br>Digital Humanities Semantic Shift Analysis”)\n        C --> C1(”可复现的专家系统流程<br>Reproducible Expert-System Pipeline”)\n        C1 --> C2(”分时段词嵌入与对齐<br>Temporal Embeddings & Alignment”)\n        C2 --> C3(”几何位移与邻域变化度量<br>Geometric & Neighborhood Metrics”)\n        D --> D1(”可视化法律概念演变<br>Visualizing Legal Concept Evolution”)\n        D1 --> D2(”揭示与历史事件的关联<br>Revealing Links to Historical Events”)"
+    },
+    {
+      "title": "Fairness Evaluation of Risk Estimation Models for Lung Cancer Screening",
+      "authors": "Shaurya Gaur, Michel Vitale, Alessa Hering, Johan Kwisthout, Colin Jacobs, Lena Philipp, Fennie van der Graaf",
+      "institution": "Radboud University Medical Center, Radboud University",
+      "link": "https://arxiv.org/pdf/2512.22242",
+      "code": null,
+      "tags": [
+        "medical imaging",
+        "algorithmic fairness",
+        "subgroup performance analysis",
+        "JustEFAB framework"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/783ab81ef53ced6c68b136e7001be4ece45c131979c45d04a04c21084cbf9888_w640_q70.webp",
+      "contributions": "1. Conducted a fairness evaluation of three lung cancer risk estimation models (Sybil, Venkadesh21, PanCan2b) using the JustEFAB framework to assess ethically significant biases. 2. Identified and quantified statistically significant performance disparities across demographic subgroups (e.g., gender, race) that were not explained by available clinical confounders. 3. Highlighted the critical need for monitoring and improving model fairness in lung cancer screening AI to ensure equitable clinical application.",
+      "summary": "This study evaluates the fairness of AI models for lung cancer risk estimation from CT scans. Using the JustEFAB framework, it assessed performance disparities across demographic groups and found significant, unexplained biases in two deep learning models. The findings underscore the importance of algorithmic fairness in medical AI to ensure equitable screening outcomes.",
+      "mindmap": "graph TB\n        Root[Fairness Evaluation of Risk Estimation Models for Lung Cancer Screening<br/>肺癌筛查风险估计模型的公平性评估] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem<br/>AI肺癌风险模型在不同人口亚组中的性能表现是否公平？<br/>Is AI lung cancer risk model performance fair across demographic subgroups?]\n        Method[主要方法/Method<br/>使用JustEFAB框架评估模型在NLST验证集上的性能差异<br/>Evaluate model performance disparities on NLST validation set using JustEFAB framework]\n        Results[关键结果/Results<br/>发现Sybil和Venkadesh21模型存在显著的、无法用混杂因素解释的性能差异<br/>Found significant, unexplained performance disparities in Sybil and Venkadesh21 models]"
+    },
+    {
+      "title": "Reddit Deplatforming and Toxicity Dynamics on Generalist Voat Communities",
+      "authors": "Aleksandar Tomašević, Ana Vranić, Aleksandra Alorić, Marija Mitrović Dankulov",
+      "institution": "Institute of Physics Belgrade, University of Belgrade",
+      "link": "https://arxiv.org/pdf/2512.22348",
+      "code": null,
+      "tags": [
+        "social network analysis",
+        "deplatforming",
+        "toxicity detection",
+        "dynamic reputation modeling",
+        "network analysis",
+        "migration regimes"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7ecb07715a5eebfede95c0e808d5c2d61c5453c8fb7fa8b8c2b8260b568fa2f9_w640_q70.webp",
+      "contributions": "1. Identifies and characterizes two distinct regimes (\"Hostile Takeover\" and \"Toxic Equilibrium\") of how deplatformed users transform receiving communities on alternative platforms. 2. Demonstrates that community transformation is driven by peripheral dynamics and volume, not by newcomers capturing central network positions. 3. Shows that the structure of the migrating community (loose vs. cohesive) determines whether they disperse into generalist spaces or form dedicated enclaves.",
+      "summary": "This paper studies how Reddit deplatforming affects the communities on the alternative platform Voat. Using network analysis, toxicity detection, and dynamic reputation modeling, it finds that migration leads to increased toxicity through distinct phases and that platforms have a narrow window to intervene before toxic norms become entrenched.",
+      "mindmap": "graph TB\n        A[Reddit Deplatforming and Toxicity Dynamics on Generalist Voat Communities] --> B(核心问题/Problem);\n        A --> C(主要方法/Method);\n        A --> D(关键结果/Results);\n        B --> B1[替代平台接收被禁用户的影响/Impact on alternative platforms receiving banned users];\n        C --> C1[网络分析/Network Analysis];\n        C --> C2[毒性检测/Toxicity Detection];\n        C --> C3[动态声誉建模/Dynamic Reputation Modeling];\n        D --> D1[敌对接管阶段/Hostile Takeover Phase (2015-2018)];\n        D --> D2[毒性平衡阶段/Toxic Equilibrium Phase (2018-2020)];\n        D --> D3[外围动态驱动转变/Peripheral Dynamics Drive Change];"
+    },
+    {
+      "title": "Relational Mediators: LLM Chatbots as Boundary Objects in Psychotherapy",
+      "authors": "Jiatao Quan, Ziyue Li, Tian Qi Zhu, Yuxuan Li, Baoying Wang, Wanda Pratt, Nan Gao",
+      "institution": "University of Washington, The Hong Kong Polytechnic University, Nankai University",
+      "link": "https://arxiv.org/pdf/2512.22462",
+      "code": null,
+      "tags": [
+        "human-ai interaction",
+        "boundary objects",
+        "relational mediation",
+        "marginalized clients",
+        "therapeutic systems",
+        "dynamic framework"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f8695c76e0392473389276989f78ab825dab06f2e38bdd785d2418d8ca9a1d80_w640_q70.webp",
+      "contributions": "1. Identifies enduring relational challenges in psychotherapy for marginalized clients, such as trust-building and self-disclosure burdens. 2. Proposes the Dynamic Boundary Mediation Framework, which re-conceptualizes LLMs as adaptive boundary objects. 3. Delineates three specific forms of mediation (Epistemic, Relational, Contextual) to address knowledge gaps, power asymmetries, and therapy-life discontinuities.",
+      "summary": "This paper argues that current framings of LLMs in mental health overlook their potential to mediate complex therapeutic relationships. Based on interviews with therapists and marginalized clients in China, the authors propose the Dynamic Boundary Mediation Framework, which positions LLM chatbots as adaptive boundary objects to bridge knowledge, power, and contextual gaps. This offers a pathway for designing AI systems that more effectively and accountably support therapeutic relationships for marginalized users.",
+      "mindmap": "graph TB\n        Root[”Relational Mediators: LLM Chatbots as Boundary Objects in Psychotherapy”] --> Problem[”核心问题/Problem”]\n        Root --> Method[”主要方法/Method”]\n        Root --> Results[”关键结果/Results”]\n        Problem --> P1[”现有视角的局限/Current Framing Limitations”]\n        Problem --> P2[”边缘化客户的关系挑战/Relational Challenges for Marginalized Clients”]\n        Method --> M1[”动态边界调解框架/Dynamic Boundary Mediation Framework”]\n        Method --> M2[”作为边界对象的LLM/LLMs as Boundary Objects”]\n        Results --> R1[”三种调解形式/Three Forms of Mediation”]\n        Results --> R2[”关系问责的AI系统/Relationally Accountable AI Systems”]"
+    },
+    {
+      "title": "Urban Food Self-Production in the Perspective of Social Learning Theory: Empowering Self-Sustainability",
+      "authors": "Ewa Duda, Adamina Korwin-Szymanowska",
+      "institution": "Uniwersytet Łódzki, Uniwersytet Warszawski (University of Łódź, University of Warsaw)",
+      "link": "https://arxiv.org/pdf/2512.22594",
+      "code": null,
+      "tags": [
+        "social computing",
+        "urban agriculture",
+        "hydroponics",
+        "qualitative study",
+        "social learning theory",
+        "sustainable food production"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e23a23f4c52bbdc6c863186ff1aad1ec49304917fba3f15168891df1f7d6b610_w640_q70.webp",
+      "contributions": "1. Conducted a qualitative study on resident participation in an innovative urban hydroponic farming project. 2. Identified key motivations and experiences of urban residents engaging in community-based food self-production. 3. Provided insights for urban educators and policymakers on fostering sustainable food initiatives through social learning.",
+      "summary": "This paper investigates urban residents' participation in a community hydroponic farming project in Poland. Using purposive sampling and in-depth interviews, the study explores the motivations, experiences, and educational pathways of participants. The findings highlight the role of social learning in empowering urban self-sustainability and offer guidance for stakeholders in urban education and development.",
+      "mindmap": "graph TB\n        A[Urban Food Self-Production in the Perspective of Social Learning Theory: Empowering Self-Sustainability] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[Urban food security & climate change/城市粮食安全与气候变化]\n        C --> C1[Qualitative study: interviews/定性研究：访谈]\n        C --> C2[Two communities in Poland/波兰的两个社区]\n        C --> C3[Hydroponic cabinets in flats/公寓中的水培柜]\n        D --> D1[Understand resident motivations/理解居民动机]\n        D --> D2[Outline farming experiences/概述种植经验]\n        D --> D3[Relevance for urban educators/对城市教育者的意义]"
+    },
+    {
+      "title": "Mitigating Social Desirability Bias in Random Silicon Sampling",
+      "authors": "Sashank Chapala, Maksym Mironov, Songgaojun Deng",
+      "institution": "Eindhoven University of Technology",
+      "link": "https://arxiv.org/pdf/2512.22725",
+      "code": null,
+      "tags": [
+        "llm evaluation",
+        "silicon sampling",
+        "social desirability bias",
+        "prompt engineering",
+        "jensen-shannon divergence",
+        "american national election study"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e514b34cb5fd24baebc22116c45f73b1898e7c713905a13d372408df0900782b_w640_q70.webp",
+      "contributions": "1. Replicates and confirms the presence of persistent Social Desirability Bias (SDB) in LLM-based silicon sampling. 2. Proposes and systematically evaluates four psychologically grounded prompt-based methods (reformulated, reverse-coded, priming, preamble) for mitigating SDB. 3. Demonstrates that reformulated prompts (neutral, third-person phrasing) are the most effective method for improving alignment between silicon and human survey response distributions.",
+      "summary": "This paper investigates how to reduce Social Desirability Bias in LLM-generated survey responses (silicon sampling). It tests four prompt-based mitigation methods and finds that reformulating questions into neutral, third-person phrasing most effectively aligns the LLM outputs with real human data from the American National Election Study.",
+      "mindmap": "graph TB\n        A[Mitigating Social Desirability Bias in Random Silicon Sampling] --> B[核心问题/Problem: LLM硅采样存在社会期望偏差/Social Desirability Bias in Silicon Sampling]\n        A --> C[主要方法/Method: 测试四种基于提示的缓解方法/Test Four Prompt-based Mitigation Methods]\n        A --> D[关键结果/Results: 重构提示最有效，改善与人类数据对齐/Reformulated Prompts Most Effective, Improve Alignment]\n        C --> C1[重构/Reformulated]\n        C --> C2[反向编码/Reverse-coded]\n        C --> C3[启动/Priming]\n        C --> C4[序言/Preamble]"
+    },
+    {
+      "title": "Ungraded Assignments in Introductory Computing: A Report",
+      "authors": "Yehya Sleiman Tellawi, Abhishek K. Umrawal",
+      "institution": "University of Illinois Urbana-Champaign",
+      "link": "https://arxiv.org/pdf/2512.23004",
+      "code": null,
+      "tags": [
+        "computing education",
+        "ungraded assignments",
+        "formative feedback",
+        "student engagement",
+        "mixed-methods",
+        "introductory computing"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/03fe0f743f635ea37a635da0020b8df696d9ae620a38ea5dd83dd57902fd7911_w640_q70.webp",
+      "contributions": "1. Developed and administered new optional ungraded assignments for a large introductory computer engineering course (ECE 120). 2. Employed a mixed-methods approach (surveys, interviews, performance analysis) to assess the impact of ungraded assignments on learning. 3. Found a positive relationship between participation in ungraded assignments and overall course performance, suggesting they appeal to high-achievers or support better outcomes.",
+      "summary": "This paper investigates the effects of optional ungraded assignments in an introductory computing course. The authors developed such assignments and used surveys, interviews, and performance data to evaluate their impact. The main finding is a positive correlation between completing ungraded work and higher course grades, indicating potential benefits for student engagement and learning.",
+      "mindmap": "graph TB\n        A[Ungraded Assignments in Introductory Computing: A Report] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1(评估压力与内在动机/Grade pressure vs. intrinsic motivation)\n        C --> C1(开发并实施未评分作业/Develop & administer ungraded assignments)\n        C --> C2(混合方法评估/Mixed-methods evaluation)\n        D --> D1(参与度与成绩正相关/Participation correlates with performance)"
+    },
+    {
+      "title": "Inteligencia Artificial y Empleo: perspectiva Territorial y de Género",
+      "authors": "Antoni Mestre, Xavier Naya, Manoli Albert, Vicente Pelechano",
+      "institution": "Universitat de València (inferred from author names and Spanish context)",
+      "link": "https://arxiv.org/pdf/2512.23059",
+      "code": null,
+      "tags": [
+        "labor economics",
+        "computational social science",
+        "AI exposure index",
+        "sector-based analysis",
+        "territorial disaggregation",
+        "gender gap",
+        "CNAE incidence matrix"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/562053897ffb2e59883167293942d4f1e524304623f8d2e91e0026105669c93d_w640_q70.webp",
+      "contributions": "1. Proposes a novel methodological framework for estimating AI exposure using sector-based data (CNAE classification) instead of occupation-based approaches, addressing limitations in the Spanish context. 2. Constructs an AI CNAE incidence matrix and applies it to provincial employment data (2021-2023) to provide a territorial and gender-disaggregated assessment of AI's potential impact. 3. Reveals stable structural patterns of AI exposure, identifying higher exposure in metropolitan/service regions and a consistent gender gap where female employment is more exposed across all territories.",
+      "summary": "This paper proposes a sector-based methodological framework to estimate the potential exposure of employment to AI in Spain, addressing the limitations of occupation-centered approaches. By applying an AI CNAE incidence matrix to provincial employment data from 2021-2023, it provides a territorial and gender-disaggregated assessment. The results show higher AI exposure in metropolitan and service-oriented regions and a consistent gender gap, with female employment being more exposed across all territories, offering a structural perspective for policy planning rather than predicting job displacement.",
+      "mindmap": "graph TB\n        A[Inteligencia Artificial y Empleo: perspectiva Territorial y de Género] --> B\n        A --> C\n        A --> D\n        B[核心问题/Problem<br>AI对劳动力市场的不均衡影响<br>Uneven AI impact on labor markets]\n        C[主要方法/Method<br>构建行业AI暴露矩阵<br>Construct sector-based AI exposure matrix]\n        D[关键结果/Results<br>大都市区暴露更高, 存在性别差距<br>Higher exposure in metro areas, consistent gender gap]"
+    },
+    {
+      "title": "Identifying Barriers Hindering the Acceptance of Generative AI as a Work Associate, measured with the new AGAWA scale",
+      "authors": "Łukasz Sikorski, Albert Łukasik, Jacek Matulewski, Arkadiusz Gut",
+      "institution": "Nicolaus Copernicus University in Toruń",
+      "link": "https://arxiv.org/pdf/2512.23373",
+      "code": null,
+      "tags": [
+        "human-ai interaction",
+        "AGAWA scale",
+        "technology acceptance",
+        "generative AI",
+        "workplace",
+        "moral dilemmas"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9ae604f8d4d4b73f323c396a472bef59c496be69f1ebbd75e34c80cb0805f530_w640_q70.webp",
+      "contributions": "1. Proposed the AGAWA scale, a concise 4-item tool for measuring attitudes toward generative AI as a coworker, 2. Investigated key factors (concerns, human-like characteristics, sense of human uniqueness) influencing acceptance of generative AI in the workplace, 3. Confirmed the relationship between affective/moral dimensions of trust and attitudes toward generative AI at work.",
+      "summary": "This paper introduces the AGAWA scale, a brief measurement tool based on TAM and UTAUT models, to study barriers to accepting generative AI as a work associate. The study found that positive attitudes toward AI coworkers are negatively correlated with concerns about interaction, human-like AI traits, and a sense of human superiority. The results highlight the link between trust dimensions and workplace AI acceptance.",
+      "mindmap": "graph TB\n        Root[”Identifying Barriers to Generative AI Acceptance / 识别生成式AI接受的障碍”] --> Problem[”Core Problem: Student attitudes affect future workplace AI adoption / 核心问题: 学生态度影响未来工作场所AI采用”]\n        Root --> Method[”Method: Propose AGAWA scale (4-item tool) / 方法: 提出AGAWA量表(4项工具)”]\n        Root --> Results[”Results: Positive attitudes linked to reduced concerns, human-likeness, and superiority beliefs / 结果: 积极态度与减少的担忧、拟人特性和优越感信念相关”]"
+    },
+    {
+      "title": "The Effect of Gender Diversity on Scientific Team Impact: A Team Roles Perspective",
+      "authors": "Yi Zhao, Yongjun Zhu, Donghun Kim, Yuzhuo Wang, Heng Zhang, Chao Lu, Chengzhi Zhang",
+      "institution": "Anhui University, Yonsei University, Nanjing University, Central China Normal University, Hohai University, Nanjing University of Science and Technology",
+      "link": "https://arxiv.org/pdf/2512.23429",
+      "code": null,
+      "tags": [
+        "scientometrics",
+        "gender diversity",
+        "team roles",
+        "author contribution statements",
+        "threshold regression",
+        "citation impact"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a8e0d6494840d098b4c65bf9f6eb6b4b27a82bd62024c95c0f60db9e5b8fa31f_w640_q70.webp",
+      "contributions": "1. Introduced a team roles perspective by classifying authors into leadership and support roles using contribution statements, moving beyond aggregate diversity measures. 2. Discovered a non-linear (inverted U-shape) relationship between gender diversity and team impact for both leadership and support groups. 3. Revealed the moderating effect of team size, showing that the impact of leadership-group gender diversity shifts from negative to positive as team size increases, while support-group diversity remains consistently positive.",
+      "summary": "This study investigates how gender diversity within specific team roles (leadership vs. support) affects scientific team impact, measured by citations. By analyzing over 130,000 PLOS papers and using contribution statements to define roles, the authors employed multivariable and threshold regression. They found the relationship is an inverted U-shape, identified high-impact team compositions, and showed that team size significantly moderates the effect of leadership diversity.",
+      "mindmap": "graph TB\n        A[The Effect of Gender Diversity on Scientific Team Impact<br>性别多样性对科研团队影响力的影响] --> B\n        A --> C\n        A --> D\n        B[核心问题/Problem<br>Inconsistent findings on gender diversity's effect,<br>lack of role-differentiated analysis.<br>性别多样性影响结论不一，缺乏基于团队角色的分析]\n        C[主要方法/Method<br>Analyzed 130k+ PLOS papers, used contribution<br>statements for role classification (leadership/support),<br>applied multivariable & threshold regression.<br>分析13万+PLOS论文，利用贡献声明进行角色分类，应用多元及阈值回归]\n        D[关键结果/Results<br>1. Inverted U-shape relationship.<br>2. All-female leadership + all-male support yields high impact.<br>3. Team size moderates leadership diversity effect.<br>1. 倒U型关系。<br>2. 全女性领导+全男性支持的团队影响力更高。<br>3. 团队规模调节领导组多样性效应。]"
+    },
+    {
+      "title": "Can AI Recognize Its Own Reflection? Self-Detection Performance of LLMs in Computing Education",
+      "authors": "Christopher Burger, Karmece Talley, Christina Trotter",
+      "institution": "The University of Mississippi, Rust College",
+      "link": "https://arxiv.org/pdf/2512.23587",
+      "code": null,
+      "tags": [
+        "academic integrity detection",
+        "Large Language Models",
+        "AI-generated text detection",
+        "deceptive prompts",
+        "computing education",
+        "self-detection"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8e1ff7ce7b5924fdb6e21130ee87b352dc8c7613c8706c156c27ac0e31017f8b_w640_q70.webp",
+      "contributions": "1. Evaluates the self-detection performance of three prominent LLMs (GPT-4, Claude, Gemini) in computing-specific contexts. 2. Tests detection under both standard and deceptive prompt conditions where models are instructed to evade detection. 3. Reveals significant instability in detection, showing high error rates for human-written work and susceptibility to simple prompt alterations.",
+      "summary": "This paper evaluates the ability of LLMs (GPT-4, Claude, Gemini) to detect AI-generated text in computing education. It tests them under standard and deceptive prompt conditions, finding that while default AI text is easily identified, models struggle with human-written work and are highly fooled by deceptive prompts, making them unreliable for high-stakes academic judgments.",
+      "mindmap": "graph TB\n        A[Can AI Recognize Its Own Reflection? Self-Detection Performance of LLMs in Computing Education] --> B[核心问题/Problem: LLMs challenge academic integrity in computing education]\n        A --> C[主要方法/Method: Evaluate GPT-4, Claude, Gemini on AI-generated text detection with standard/deceptive prompts]\n        A --> D[关键结果/Results: Models unstable; high error on human text; easily fooled by deceptive prompts; unreliable for misconduct judgments]"
+    },
+    {
+      "title": "AI tutoring can safely and effectively support students: An exploratory RCT in UK classrooms",
+      "authors": "LearnLM Team Google, Eedi, Albert Wang, Aliya Rysbek, Andrea Huber, Anjali Nambiar, Anna Kenolty, Ben Caulfield, Beth Lilley-Draper, Bibi Groot, Brian Veprek, Chelsea Burdett, Claire Willis, Craig Barton, Digory Smith, George Mu, Harriet Walters, Irina Jurenka, Iris Hulls, James Stalley-Moores, Jonathan Caton, Julia Wilkowski, Kaiz Alarakyia, Kevin R. McKee, Liam McCafferty, Lucy Dalton, Markus Kunesch, Pauline Malubay, Rachel Kidson, Rich Wells, Sam Wheeler, Sara Wiltberger, Shakir Mohamed, Simon Woodhead, Vasco Brazão",
+      "institution": "Google, Eedi",
+      "link": "https://arxiv.org/pdf/2512.23633",
+      "code": null,
+      "tags": [
+        "educational ai",
+        "generative AI",
+        "fine-tuning",
+        "randomized controlled trial",
+        "Socratic questioning",
+        "pedagogical instruction"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b430e7c78534d660126208f226397ed95756e540bade56276301199a0114bc76_w640_q70.webp",
+      "contributions": "1. Conducted a rigorous, in-classroom exploratory RCT to evaluate the safety and efficacy of a generative AI tutor (LearnLM) in a real educational setting. 2. Demonstrated that a pedagogically fine-tuned AI model can reliably draft instructional content, with human tutors approving 76.4% of its messages with minimal or no edits. 3. Showed that AI-supported tutoring led to student performance at least equivalent to human-only tutoring, with a significant 5.5 percentage point improvement in solving novel problems on subsequent topics.",
+      "summary": "This paper investigates whether generative AI can scale effective one-to-one tutoring. The authors integrated LearnLM, a pedagogically fine-tuned AI model, into a math tutoring platform and conducted a randomized controlled trial where human tutors supervised its outputs. The results show that LearnLM was a reliable tutor, and students using it performed as well as or better than those with human tutors alone, suggesting AI can deliver effective, individualized learning support at scale.",
+      "mindmap": "graph TB\n        Root[AI Tutoring RCT in UK Classrooms] --> Problem[核心问题/Problem]\n        Root --> Method[主要方法/Method]\n        Root --> Results[关键结果/Results]\n        Problem --> P1[个性化辅导成本高/High cost of 1-to-1 tutoring]\n        Problem --> P2[AI辅导的有效性与安全性未知/Unproven efficacy & safety of AI tutoring]\n        Method --> M1[整合LearnLM模型/Integrate LearnLM (pedagogically fine-tuned AI)]\n        Method --> M2[在Eedi平台进行RCT/Conduct RCT on Eedi platform]\n        Method --> M3[专家导师监督输出/Human tutors supervise AI drafts]\n        Results --> R1[76.4%消息被直接批准/76.4% messages approved with minimal edits]\n        Results --> R2[学生表现相当或更好/Student performance equal or better]\n        Results --> R3[解决新问题能力提升5.5%/5.5% improvement on novel problems]"
+    },
+    {
       "title": "SENTINEL: A Multi-Modal Early Detection Framework for Emerging Cyber Threats using Telegram",
       "authors": "Mohammad Hammas Saeed, Howie Huang",
       "institution": "George Washington University",

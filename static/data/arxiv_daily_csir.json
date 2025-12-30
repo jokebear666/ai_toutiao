@@ -4,6 +4,221 @@
   "week": "20251229-20260104",
   "items": [
     {
+      "title": "IANEC: Digital Forensic Investigation of Contemporary Writers' Archives",
+      "authors": "Emmanuel Giguet",
+      "institution": "Université Caen Normandie, ENSICAEN, CNRS, Normandie Univ, GREYC UMR 6072",
+      "link": "https://arxiv.org/pdf/2512.22167",
+      "code": null,
+      "tags": [
+        "digital forensics",
+        "digital forensics",
+        "file fingerprinting",
+        "FUSE",
+        "OS virtualization",
+        "document classification"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6a4c37c326ec3830119685f14996db61a1f1efdecaefecd64e96244e26e9512b_w640_q70.webp",
+      "contributions": "1. Development of a method to separate system/application files from user files using fingerprint databases for archival analysis, 2. Creation of tools for reading files on Mac partitions and virtualizing operating systems to emulate original computing environments, 3. Implementation of semantic analysis techniques for automatic text classification, image analysis, and detection of sensitive content (e.g., hate speech) in digital archives.",
+      "summary": "The IANEC project develops digital forensic tools to automate the analysis of born-digital archives from contemporary writers. The proposed method combines technical file system analysis (e.g., fingerprinting, virtualization) with semantic document analysis (e.g., text/image classification). The main conclusion is that these tools are essential for the effective extraction, processing, and description of native digital archival corpora in cultural heritage institutions.",
+      "mindmap": "graph TB\n        Root[”IANEC: Digital Forensic Investigation of Contemporary Writers' Archives”] --> Problem[”核心问题/Problem: Born-digital archives are prevalent but difficult to analyze manually.”]\n        Root --> Method[”主要方法/Method: Develop digital forensic tools for technical and semantic analysis of archives.”]\n        Root --> Results[”关键结果/Results: Automated tools are essential for processing and describing digital archival corpora.”]"
+    },
+    {
+      "title": "HalluMat: Detecting Hallucinations in LLM-Generated Materials Science Content Through Multi-Stage Verification",
+      "authors": "Bhanu Prakash Vangala, Sajid Mahmud, Pawan Neupane, Joel Selvaraj, Jianlin Cheng",
+      "institution": "University of Missouri",
+      "link": "https://arxiv.org/pdf/2512.22396",
+      "code": null,
+      "tags": [
+        "hallucination detection",
+        "hallucination detection",
+        "retrieval-augmented verification",
+        "contradiction graph",
+        "Paraphrased Hallucination Consistency Score (PHCS)",
+        "materials science"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e2d61ec50b266277e33c913c31df1946cc27990dbacfbd8d5b4979a627f3fa00_w640_q70.webp",
+      "contributions": "1. Introduces HalluMatData, a benchmark dataset for evaluating hallucination detection in AI-generated materials science content. 2. Proposes HalluMatDetector, a multi-stage hallucination detection framework integrating intrinsic verification, multi-source retrieval, contradiction graph analysis, and metric-based assessment. 3. Introduces the Paraphrased Hallucination Consistency Score (PHCS) to quantify inconsistencies in LLM responses across semantically equivalent queries.",
+      "summary": "This paper addresses the problem of factual hallucinations in LLM-generated materials science content. It proposes HalluMatDetector, a multi-stage verification framework that combines intrinsic checks, retrieval, and contradiction analysis to detect and mitigate errors. The method reduces hallucination rates by 30% compared to standard LLM outputs and introduces a new metric (PHCS) for evaluating response consistency.",
+      "mindmap": "graph TB\n        Root[”HalluMat: Detecting Hallucinations in LLM-Generated Materials Science Content”] --> Problem[”核心问题/Problem: LLM Hallucinations in Scientific Content”]\n        Root --> Method[”主要方法/Method: Multi-Stage Verification Framework (HalluMatDetector)”]\n        Root --> Results[”关键结果/Results: 30% Hallucination Reduction & New Metric (PHCS)”]"
+    },
+    {
+      "title": "OxygenREC: An Instruction-Following Generative Framework for E-commerce Recommendation",
+      "authors": "Xuegang Hao, Ming Zhang, Alex Li, Xiangyu Qian, Zhi Ma, Yanlong Zang, Shijie Yang, Zhongxuan Han, Xiaolong Ma, Jinguang Liu, Zhen Li, Zhida Jiang, Shusheng Wang, Ning Tang, Yanchen Qiao, Chenxiang Yang, Chen Sun, Jincheng Yuan, Chunhua Peng, Heng Hu, Peijun Yang, Baopeng Yuan, Caiyun Qiu, Zhaolong Xing, Haofei Yuan, Haipeng Zhang, Yuzhang Guo, Weijie Ding, Jiahua Gao, Hao Huang, Zhen Chen, Tongxuan Liu, Pinghua Gong",
+      "institution": "JD.com",
+      "link": "https://arxiv.org/pdf/2512.22386",
+      "code": null,
+      "tags": [
+        "llm inference",
+        "Fast-Slow Thinking",
+        "Instruction-Guided Retrieval (IGR)",
+        "Soft Adaptive Group Clip Policy Optimization (SA-GCPO)"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/84cd56a9ce98d2f47d6f8e5216ecf9532042bab98fe47926131d2df6f68cded7_w640_q70.webp",
+      "contributions": "1. Introduces a Fast-Slow Thinking architecture for recommendation, using a near-line LLM for reasoning instruction synthesis and a high-efficiency encoder-decoder for real-time generation. 2. Proposes a semantic alignment mechanism with Instruction-Guided Retrieval (IGR) and Query-to-Item (Q2I) loss to ensure reasoning instructions effectively enhance recommendation generation. 3. Solves multi-scenario scalability by transforming scenario info into controllable instructions and using unified reward mapping with SA-GCPO, enabling a \"train-once-deploy-everywhere\" paradigm.",
+      "summary": "The paper proposes OxygenREC, an industrial e-commerce recommendation system that addresses the limitations of existing generative methods in deep reasoning and multi-scenario scalability. It employs a Fast-Slow Thinking architecture, semantic alignment via instruction-guided retrieval, and a unified policy optimization method to achieve efficient, scalable, and reasoning-capable recommendations, leading to significant business metric improvements.",
+      "mindmap": "graph TB\n        A[OxygenREC: An Instruction-Following Generative Framework for E-commerce Recommendation] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[传统推荐系统问题 / Traditional RS Issues]\n        B1 --> B2[多阶段目标不一致 / Inconsistent Multi-stage Objectives]\n        B1 --> B3[生成式推荐缺乏深度推理 / GR Lacks Deep Reasoning]\n        B1 --> B4[多场景可扩展性瓶颈 / Multi-scenario Scalability Bottleneck]\n        C --> C1[快慢思考架构 / Fast-Slow Thinking Architecture]\n        C1 --> C2[慢思考: 近线LLM生成推理指令 / Slow: Near-line LLM for Reasoning Instructions]\n        C1 --> C3[快思考: 高效编解码器实时生成 / Fast: Efficient Encoder-Decoder for Real-time Gen]\n        C --> C4[语义对齐机制 / Semantic Alignment Mechanism]\n        C4 --> C5[指令引导检索(IGR) / Instruction-Guided Retrieval (IGR)]\n        C4 --> C6[查询到物品(Q2I)损失 / Query-to-Item (Q2I) Loss]\n        C --> C7[多场景可扩展性方案 / Multi-scenario Scalability Solution]\n        C7 --> C8[场景信息转为可控指令 / Transform Scenario Info to Controllable Instructions]\n        C7 --> C9[统一奖励映射与SA-GCPO / Unified Reward Mapping & SA-GCPO]\n        D --> D1[实现”一次训练，处处部署” / Achieves ”Train-once-deploy-everywhere”]\n        D --> D2[显著提升GMV和订单量 / Significant GMV & Order Volume Increase]\n        D --> D3[展示跨场景的灵活性与可扩展性 / Demonstrates Flexibility & Scalability Across Scenarios]"
+    },
+    {
+      "title": "Hallucination Detection and Evaluation of Large Language Model",
+      "authors": "Chenggong Zhang, Haopeng Wang",
+      "institution": "University of California, Los Angeles",
+      "link": "https://arxiv.org/pdf/2512.22416",
+      "code": null,
+      "tags": [
+        "hallucination detection",
+        "HHEM",
+        "KnowHalu",
+        "segment-based retrieval",
+        "factual consistency",
+        "CDF analysis"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a208bbdfd47e46de589a2306cd9e02976448bce48e5e81a002adcb6f30ec224d_w640_q70.webp",
+      "contributions": "1. Integrated the lightweight Hughes Hallucination Evaluation Model (HHEM) to significantly reduce computational cost and time for hallucination detection compared to multi-stage methods like KnowHalu. 2. Introduced a segment-based retrieval technique to improve the detection of localized hallucinations in summarization tasks, addressing a key limitation of HHEM. 3. Conducted a comparative CDF analysis revealing that larger LLMs (7B-9B parameters) exhibit fewer hallucinations, while intermediate-sized models show higher instability.",
+      "summary": "This paper addresses the challenge of efficiently detecting hallucinations in Large Language Models. It proposes integrating the lightweight HHEM framework and a segment-based retrieval method, which together reduce evaluation time dramatically while maintaining high accuracy. The study concludes that larger models are generally more reliable and highlights the need for efficient yet robust evaluation frameworks.",
+      "mindmap": "graph TB\n        A[Hallucination Detection and Evaluation of Large Language Model] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[LLM幻觉损害可信度/LLM Hallucinations Undermine Trust]\n        C --> C1[集成轻量级HHEM框架/Integrate Lightweight HHEM Framework]\n        C --> C2[引入分段检索技术/Introduce Segment-based Retrieval]\n        D --> D1[效率提升: 8小时->10分钟/Efficiency Gain: 8hrs->10mins]\n        D --> D2[最高准确率: 82.2%/Best Accuracy: 82.2%]\n        D --> D3[大模型幻觉更少/Larger Models Hallucinate Less]"
+    },
+    {
+      "title": "HiFi-RAG: Hierarchical Content Filtering and Two-Pass Generation for Open-Domain RAG",
+      "authors": "Cattalyya Nuengsigkapian",
+      "institution": "Google",
+      "link": "https://arxiv.org/pdf/2512.22442",
+      "code": null,
+      "tags": [
+        "rag (retrieval-augmented generation)",
+        "hierarchical filtering",
+        "two-pass generation",
+        "citation verification",
+        "query formulation",
+        "model cascade"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9840d615edee0e72c18b93838479ebb342195ea1805803858fb9effaf9ba2e95_w640_q70.webp",
+      "contributions": "1. Proposes a hierarchical content filtering pipeline to replace standard vector similarity search, improving context precision. 2. Introduces a model cascade strategy using a cost-efficient model (Gemini 2.5 Flash) for filtering and a powerful model (Gemini 2.5 Pro) for final generation. 3. Demonstrates significant performance gains on the MMU-RAGent benchmark and a custom dataset for post-cutoff knowledge.",
+      "summary": "This paper presents HiFi-RAG, a system designed to improve open-domain RAG by addressing irrelevant retrieved information. The method uses a multi-stage pipeline with hierarchical filtering and a two-pass generation strategy employing different LLMs for efficiency and quality. The system won a NeurIPS 2025 competition and showed substantial improvements over baselines in evaluation metrics.",
+      "mindmap": "graph TB\n        A[HiFi-RAG] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[开放域RAG中的无关信息与意图对齐/Open-domain RAG faces irrelevant info & intent misalignment]\n        C --> C1[分层过滤与两阶段生成/Hierarchical Filtering & Two-Pass Generation]\n        C1 --> C2[使用Gemini Flash进行过滤/Use Gemini Flash for filtering]\n        C1 --> C3[使用Gemini Pro进行生成/Use Gemini Pro for generation]\n        D --> D1[在MMU-RAGent上超越基线/Outperforms baseline on MMU-RAGent]\n        D --> D2[在自定义测试集上显著提升/Substantial gains on custom test set]"
+    },
+    {
+      "title": "A Real-Time System to Populate FRA Form 57 from News",
+      "authors": "Chansong Lim, Haz Sameen Shahgir, Yue Dong, Jia Chen, Evangelos E. Papalexakis",
+      "institution": "University of California, Riverside",
+      "link": "https://arxiv.org/pdf/2512.22457",
+      "code": null,
+      "tags": [
+        "information extraction",
+        "vision language model",
+        "grouped question answering",
+        "form parsing",
+        "key information extraction",
+        "evaluation dataset"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c8eb0e51c216144ca3ec858a84acec0a075178e373a291f789325439e91bcaa5_w640_q70.webp",
+      "contributions": "1. A pipeline that converts visually irregular and semantically dense forms (FRA Form 57) into a structured JSON schema using a vision language model with sample aggregation. 2. A grouped question answering approach that follows the form layout's intent to reduce ambiguity when extracting information from noisy news text. 3. The creation of an evaluation dataset by aligning scraped news articles with official FRA records and annotating retrievable information.",
+      "summary": "This paper addresses the challenge of providing timely situational awareness for railway incidents by automatically populating the official FRA Form 57 from news articles. The proposed method uses a vision language model to understand the complex form structure and a grouped question-answering technique to extract relevant information from noisy text. The system is evaluated on a newly created dataset and shows improved accuracy and coverage in information retrieval compared to alternatives.",
+      "mindmap": "graph TB\n        A[A Real-Time System to Populate FRA Form 57 from News] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[官方报告延迟/Official report latency]\n        B --> B2[新闻信息噪声/Noisy news information]\n        B --> B3[表格结构复杂/Complex form structure]\n        C --> C1[VLM表格解析/VLM form parsing]\n        C --> C2[分组问答/Grouped QA]\n        C --> C3[构建评估集/Build evaluation dataset]\n        D --> D1[评估系统/System evaluation]\n        D --> D2[信息检索准确率/IR accuracy]\n        D --> D3[信息覆盖度/Information coverage]"
+    },
+    {
+      "title": "DICE: Discrete Interpretable Comparative Evaluation with Probabilistic Scoring for Retrieval-Augmented Generation",
+      "authors": "Shiyan Liu, Jian Ma, Rui Qu",
+      "institution": "Huazhong University of Science and Technology",
+      "link": "https://arxiv.org/pdf/2512.22629",
+      "code": null,
+      "tags": [
+        "rag (retrieval-augmented generation)",
+        "probabilistic scoring",
+        "Swiss-system tournament",
+        "explainable evaluation",
+        "evidence-coupled framework",
+        "ranking fidelity"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6045a90fb152ced5737d976a17be84cd02b0a0396b4dd9cb385e9ba4d9063de6_w640_q70.webp",
+      "contributions": "1. Introduces DICE, a two-stage, evidence-coupled framework for explainable and robust RAG evaluation using probabilistic \\{A, B, Tie\\} scoring. 2. Employs a Swiss-system tournament to reduce computational complexity from O(N²) to O(N log N) for efficient multi-system comparisons. 3. Demonstrates high agreement (85.7%) with human experts on a Chinese financial QA dataset, outperforming existing LLM-based metrics like RAGAS.",
+      "summary": "The paper addresses the lack of interpretability and efficiency in evaluating Retrieval-Augmented Generation (RAG) systems. It proposes DICE, a framework that uses probabilistic scoring and a Swiss-system tournament to provide transparent, confidence-aware judgments while reducing computational cost. The method shows strong agreement with human experts, establishing it as an explainable and efficient paradigm for trustworthy RAG assessment.",
+      "mindmap": "graph TB\n        Root[DICE: Discrete Interpretable Comparative Evaluation] --> Problem\n        Root --> Method\n        Root --> Results\n    \n        Problem[核心问题/Problem] --> P1[现有指标问题/Existing Metrics Issues]\n        P1 --> P1_1[可解释性有限/Limited Interpretability]\n        P1 --> P1_2[不确定性量化不足/Inadequate Uncertainty Quantification]\n        P1 --> P1_3[计算效率低/Computational Inefficiency]\n    \n        Method[主要方法/Method] --> M1[两阶段证据耦合框架/Two-Stage Evidence-Coupled Framework]\n        M1 --> M1_1[概率{A,B,Tie}评分/Probabilistic Scoring]\n        M1 --> M1_2[可解释推理痕迹/Interpretable Reasoning Traces]\n        Method --> M2[瑞士制锦标赛/Swiss-System Tournament]\n        M2 --> M2_1[降低复杂度/Reduces O(N²) to O(N log N)]\n    \n        Results[关键结果/Results] --> R1[效率提升/Efficiency Gain]\n        R1 --> R1_1[计算量减少42.9%/42.9% Reduction]\n        Results --> R2[评估有效性/Evaluation Validity]\n        R2 --> R2_1[与专家85.7%一致/85.7% Human Agreement]"
+    },
+    {
+      "title": "OrchANN: A Unified I/O Orchestration Framework for Skewed Out-of-Core Vector Search",
+      "authors": "Chengying Huan, Lizheng Chen, Zhengyi Yang, Shaonan Ma, Rong Gu, Renjie Yao, Zhibin Wang, Mingxing Zhang, Fang Xi, Jie Tao, Gang Zhang, Guihai Chen, Chen Tian",
+      "institution": "Nanjing University, University of New South Wales, AISoft (QiyuanLab), Tsinghua University, China Mobile (Suzhou) Software Technology Co., Ltd.",
+      "link": "https://arxiv.org/pdf/2512.22838",
+      "code": null,
+      "tags": [
+        "rag (retrieval-augmented generation)",
+        "out-of-core",
+        "approximate nearest neighbor search",
+        "I/O orchestration",
+        "vector search",
+        "SSD"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/efdb94f456d7410c515c5dcba047400662a1afb3a011cd9a57efd9526c5cc408_w640_q70.webp",
+      "contributions": "1. Introduces a heterogeneous local index selection per cluster via offline auto-profiling to match varying cluster scales. 2. Maintains a query-aware in-memory navigation graph that adapts to skewed query workloads for efficient routing. 3. Applies multi-level pruning with geometric bounds to filter clusters and vectors before issuing SSD reads, preventing \"fetch-to-discard\" overhead.",
+      "summary": "The paper presents OrchANN, a new out-of-core approximate nearest neighbor search engine designed for billion-scale vector search where data resides on SSD. It addresses performance degradation under skewed data distributions by unifying I/O governance through adaptive navigation and multi-level pruning. OrchANN significantly outperforms existing systems in queries per second and latency while reducing SSD accesses, without sacrificing accuracy.",
+      "mindmap": "graph TB\n        Root(”OrchANN: A Unified I/O Orchestration Framework for Skewed Out-of-Core Vector Search”) --> Problem(”核心问题/Problem”)\n        Root --> Method(”主要方法/Method”)\n        Root --> Results(”关键结果/Results”)\n        Problem --> P1(”大规模ANNS是外存问题/Large-scale ANNS is an out-of-core problem”)\n        Problem --> P2(”现有系统在倾斜数据下失效/Existing systems break down under skewed data”)\n        Method --> M1(”异构本地索引/Heterogeneous local index per cluster”)\n        Method --> M2(”查询感知导航图/Query-aware in-memory navigation graph”)\n        Method --> M3(”多级剪枝/Multi-level pruning with geometric bounds”)\n        Results --> R1(”更高的QPS和更低延迟/Higher QPS and lower latency”)\n        Results --> R2(”减少SSD访问/Reduced SSD accesses”)\n        Results --> R3(”保持准确性/Maintains accuracy”)"
+    },
+    {
+      "title": "RobustMask: Certified Robustness against Adversarial Neural Ranking Attack via Randomized Masking",
+      "authors": "Jiawei Liu, Zhuo Chen, Rui Zhu, Miaokun Chen, Yuyang Gong, Wei Lu, Xiaofeng Wang",
+      "institution": "Wuhan University, Yale University, Nanyang Technological University",
+      "link": "https://arxiv.org/pdf/2512.23307",
+      "code": null,
+      "tags": [
+        "adversarial robustness",
+        "randomized smoothing",
+        "certified robustness",
+        "neural ranking models",
+        "adversarial attacks",
+        "retrieval-augmented generation"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/92efd69f112646f719a80cc74cecc9d34018b0607ad1f827ed960e54e754af07_w640_q70.webp",
+      "contributions": "1. Proposes RobustMask, a novel defense combining pretrained language models' context-prediction with a randomized masking-based smoothing mechanism to protect neural ranking models. 2. Provides a theoretical proof for RobustMask's certified top-K robustness against character-, word-, and phrase-level adversarial perturbations. 3. Demonstrates through extensive experiments that RobustMask can certify over 20% of candidate documents within the top-10 ranking against perturbations affecting up to 30% of content.",
+      "summary": "This paper addresses the vulnerability of neural ranking models to adversarial attacks that manipulate retrieval results. It proposes RobustMask, a defense method that uses randomized masking and smoothing to provide certified robustness. The results show it can effectively certify a significant portion of top-ranking documents against substantial content perturbations.",
+      "mindmap": "graph TB\n        A[RobustMask: Certified Robustness against Adversarial Neural Ranking Attack via Randomized Masking] --> B[核心问题/Problem: Neural ranking models are vulnerable to adversarial manipulations that poison retrieval results.]\n        A --> C[主要方法/Method: Combines PLM context-prediction with randomized masking-based smoothing.]\n        A --> D[关键结果/Results: Certifies >20% of top-10 docs against perturbations affecting up to 30% content.]"
+    },
+    {
+      "title": "Scalable Residual Feature Aggregation Framework with Hybrid Metaheuristic Optimization for Robust Early Pancreatic Neoplasm Detection in Multimodal CT Imaging",
+      "authors": "Janani Annur Thiruvengadam, Kiran Mayee Nabigaru, Anusha Kovi",
+      "institution": "Amazon.com Services LLC",
+      "link": "https://arxiv.org/pdf/2512.23597",
+      "code": null,
+      "tags": [
+        "medical image analysis",
+        "Scalable Residual Feature Aggregation (SRFA)",
+        "Hybrid Metaheuristic Optimization (HHO-BA)",
+        "Vision Transformer (ViT) with EfficientNet-B3"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/236616ac709d85c1958734582dc8a1182b385106ea696a4ffc79796016e70db9_w640_q70.webp",
+      "contributions": "1. Proposes a Scalable Residual Feature Aggregation (SRFA) framework integrating MAGRes-UNet for segmentation and DenseNet-121 for hierarchical feature extraction. 2. Introduces a hybrid HHO-BA metaheuristic feature selection strategy to refine the optimal feature subset. 3. Develops a novel hybrid classifier combining Vision Transformer (ViT) and EfficientNet-B3, fine-tuned using a dual SSA-GWO optimization mechanism for robust classification.",
+      "summary": "This paper addresses the challenge of early pancreatic neoplasm detection in multimodal CT imaging by proposing a Scalable Residual Feature Aggregation (SRFA) framework. The method combines advanced segmentation, feature extraction with residual storage, hybrid metaheuristic feature selection, and a novel ViT-EfficientNet-B3 classifier optimized with SSA and GWO. The proposed system achieves high performance (96.23% accuracy), demonstrating significant improvement over traditional and contemporary models for robust early detection.",
+      "mindmap": "graph TB\n        A[Scalable Residual Feature Aggregation Framework with Hybrid Metaheuristic Optimization for Robust Early Pancreatic Neoplasm Detection in Multimodal CT Imaging] --> B\n        A --> C\n        A --> D\n        B[核心问题/Problem: 胰腺肿瘤早期检测困难/Early pancreatic neoplasm detection is difficult due to subtle, low-contrast lesions and high patient variability in CT scans.]\n        C[主要方法/Method: SRFA框架整合MAGRes-UNet分割、DenseNet-121特征提取、HHO-BA特征选择、ViT-EfficientNet-B3混合分类器，并使用SSA-GWO优化/SRFA framework integrates MAGRes-UNet segmentation, DenseNet-121 feature extraction, HHO-BA feature selection, ViT-EfficientNet-B3 hybrid classifier, optimized with SSA-GWO.]\n        D[关键结果/Results: 模型达到96.23%准确率，性能显著优于传统CNN和当前基于Transformer的模型/Model achieves 96.23% accuracy, significantly outperforming traditional CNNs and contemporary transformer-based models.]"
+    },
+    {
+      "title": "Nested Browser-Use Learning for Agentic Information Seeking",
+      "authors": "Baixuan Li, Jialong Wu, Wenbiao Yin, Kuan Li, Zhongwang Zhang, Huifeng Yin, Zhengwei Tao, Liwen Zhang, Pengjun Xie, Jingren Zhou, Yong Jiang",
+      "institution": "Tongyi Lab, Alibaba Group",
+      "link": "https://arxiv.org/pdf/2512.23647",
+      "code": "https://github.com/Alibaba-NLP/DeepResearch",
+      "tags": [
+        "agent system",
+        "information-seeking agents",
+        "browser interaction",
+        "ReAct-style agents",
+        "nested framework"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/bab4c5e1fc52fc83cedffe542098b6777a8df396f1f3d30f2a130aebdd36e0dc_w640_q70.webp",
+      "contributions": "1. Proposes a minimal and complete browser-action framework for agents, 2. Introduces a nested structure to decouple interaction control from page exploration, 3. Demonstrates improved performance on deep information-seeking benchmarks.",
+      "summary": "The paper addresses the limitation of current information-seeking agents, which rely on simple API calls and cannot perform real browsing. It proposes NestBrowse, a framework that uses a nested structure to enable fine-grained browser control for agents, simplifying reasoning and improving performance on deep search tasks.",
+      "mindmap": "graph TB\n        Root[”Nested Browser-Use Learning for Agentic Information Seeking<br>面向智能信息搜索的嵌套浏览器使用学习”] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[”核心问题/Problem<br>Agents lack real browsing, limited to APIs.”]\n        Method[”主要方法/Method<br>NestBrowse: nested browser-action framework.”]\n        Results[”关键结果/Results<br>Better performance on deep IS benchmarks.”]"
+    },
+    {
       "title": "Dynamic Cooperative Strategies in Search Engine Advertising Market: With and Without Retail Competition",
       "authors": "Huiran Li, Qiucheng Li, Baozhu Feng",
       "institution": "Shanghai Customs College, Anhui University of Finance and Economics",

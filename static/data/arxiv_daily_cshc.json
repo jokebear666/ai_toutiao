@@ -4,6 +4,480 @@
   "week": "20251229-20260104",
   "items": [
     {
+      "title": "SoDA: An Efficient Interaction Paradigm for the Agentic Web",
+      "authors": "Zicai Cui, Zhouyuan Jian, Weiwen Liu, Weinan Zhang",
+      "institution": "Shanghai Jiao Tong University, Shanghai Innovation Institute",
+      "link": "https://arxiv.org/pdf/2512.22135",
+      "code": null,
+      "tags": [
+        "agent system",
+        "Sovereign Digital Avatar",
+        "Intent-Permission Handshake",
+        "orthogonal decoupling",
+        "A2A protocols",
+        "dual-factor adaptive routing"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ef4bb1bba1b84bcf1102a80dc39b16d212412d68a7abea9ab0aac1dc9e23dedb_w640_q70.webp",
+      "contributions": "1. Proposes a user sovereignty interaction paradigm for the Agentic Web, decoupling memory from application logic to break data lock-in and shifting from explicit instruction to implicit intent alignment to reduce cognitive load. 2. Implements the paradigm via the Sovereign Digital Avatar (SoDA) with an orthogonal decoupling design of storage, computation, and interaction, establishing the principle of \"data as a persistent asset, model as a transient tool\". 3. Designs an Intent-Permission Handshake Mechanism based on A2A protocols with dual-factor adaptive routing for active risk governance in zero-trust environments.",
+      "summary": "This paper proposes the Sovereign Digital Avatar (SoDA), a new interaction paradigm for the Agentic Web that decouples user memory from applications and uses intent alignment to reduce cognitive load. It introduces an architecture with orthogonal decoupling and a secure handshake mechanism for zero-trust environments. Empirical results show it significantly reduces token consumption and user cognitive load compared to existing methods.",
+      "mindmap": "graph TB\n        A[SoDA: An Efficient Interaction Paradigm for the Agentic Web] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[数据锁定/Data Lock-in]\n        B --> B2[认知过载/Cognitive Overload]\n        C --> C1[主权数字化身/Sovereign Digital Avatar (SoDA)]\n        C --> C2[正交解耦设计/Orthogonal Decoupling Design]\n        C --> C3[意图-权限握手机制/Intent-Permission Handshake Mechanism]\n        D --> D1[降低令牌消耗/Reduces Token Consumption by 27-35%]\n        D --> D2[降低认知负载/Reduces Cognitive Load by 72% vs RAG, 88% vs Manual]"
+    },
+    {
+      "title": "Real-Time In-Cabin Driver Behavior Recognition on Low-Cost Edge Hardware",
+      "authors": "Vesal Ahsani, Babak Hossein Khalaj",
+      "institution": "Sharif University of Technology",
+      "link": "https://arxiv.org/pdf/2512.22298",
+      "code": null,
+      "tags": [
+        "human activity recognition",
+        "driver monitoring systems",
+        "edge AI",
+        "quantization",
+        "temporal decision head",
+        "confounder-aware labeling"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1bd52e06dc77080ab346fc3d6fe46b900bf06b5c1eaeb6ae89801ac125ee7c51_w640_q70.webp",
+      "contributions": "1. A deployable single-camera driver behavior recognition pipeline optimized for low-cost edge hardware (Raspberry Pi 5 and Google Coral Edge TPU). 2. A confounder-aware label design to reduce false positives from visually similar actions. 3. A temporal decision head that generates stable alerts based on sustained, confident predictions rather than noisy per-frame outputs.",
+      "summary": "This paper presents a real-time driver behavior recognition system designed for low-cost edge hardware to address the challenges of compute, power, and cost constraints in vehicles. The method combines a compact vision model, confounder-aware labeling, and a temporal decision head to recognize 17 distraction and drowsiness-related behaviors. The optimized system achieves 16 FPS on a Raspberry Pi 5 and 25 FPS on a Coral Edge TPU, enabling practical deployment for in-cabin monitoring.",
+      "mindmap": "graph TB\n        A[Real-Time In-Cabin Driver Behavior Recognition on Low-Cost Edge Hardware] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[实时DMS需求 / Real-time DMS needs low latency, low cost, low power]\n        C --> C1[紧凑单摄像头系统 / Compact single-camera pipeline]\n        C1 --> C2[紧凑视觉模型 / Compact per-frame vision model]\n        C1 --> C3[抗混淆标签设计 / Confounder-aware label design]\n        C1 --> C4[时序决策头 / Temporal decision head]\n        D --> D1[性能: 16 FPS (RPi5), 25 FPS (Edge TPU) / Performance: 16 FPS (RPi5), 25 FPS (Edge TPU)]\n        D --> D2[验证: 真实车辆测试 / Validation: Real in-vehicle tests]"
+    },
+    {
+      "title": "Emotion classification using EEG headset signals and Random Forest",
+      "authors": "Ricardo Vasquez, Diego Riofrío-Luzcando, Joe Carrion-Jumbo, Cesar Guevara",
+      "institution": "Universidad Internacional SEK, Universidad Indoamérica, The Institute of Mathematical Sciences (ICMAT-CSIC)",
+      "link": "https://arxiv.org/pdf/2512.22333",
+      "code": null,
+      "tags": [
+        "affective computing",
+        "EEG",
+        "Random Forest",
+        "emotion classification",
+        "brain-computer interface",
+        "real-time prediction"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2e19385b22eca0965c66f7006e387468776c757a86a9b784693bc7b77b3c7533_w640_q70.webp",
+      "contributions": "1. Developed a model for classifying human emotions (happiness, sadness, relaxation) using EEG signals from a consumer-grade headset (EMOTIV EPOC). 2. Applied the Random Forest algorithm to achieve high accuracy, particularly for happiness (97.21%). 3. Implemented a real-time emotion prediction system that captures EEG signals, processes them, and visually displays the predicted emotion.",
+      "summary": "This paper proposes a system to classify human emotions (happiness, sadness, relaxation) from EEG signals using a Random Forest model. The model was trained on data from 50 participants and achieved high accuracy, especially for happiness. The work was extended to create a real-time prediction algorithm that outputs the result with representative images.",
+      "mindmap": "graph TB\n        A[Emotion classification using EEG headset signals and Random Forest] --> B(核心问题/Problem: 如何从EEG信号中检测和分类情绪？/How to detect and classify emotions from EEG signals?)\n        A --> C(主要方法/Method: 使用EMOTIV EPOC采集EEG数据，并应用随机森林模型进行分类/Use EMOTIV EPOC to collect EEG data and apply Random Forest model for classification)\n        A --> D(关键结果/Results: 快乐分类准确率97.21%，实现实时情绪预测算法/Happiness classification accuracy 97.21%, implemented a real-time emotion prediction algorithm)"
+    },
+    {
+      "title": "Human-like visual computing advances explainability and few-shot learning in deep neural networks for complex physiological data",
+      "authors": "Alaa Alahmadi, Mohamed Hasan",
+      "institution": "Newcastle University, University of Leeds",
+      "link": "https://arxiv.org/pdf/2512.22349",
+      "code": null,
+      "tags": [
+        "medical image analysis",
+        "pseudo-colouring",
+        "few-shot learning",
+        "prototypical networks",
+        "ResNet-18",
+        "explainability"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d4573948678ad6f25faec7ec6be8baccee385ce760fef63e3980935e84e21be0_w640_q70.webp",
+      "contributions": "1. Introduces a perception-informed pseudo-colouring technique to encode clinically salient temporal ECG features (like QT-interval) into structured colour representations. 2. Demonstrates that this technique enables effective few-shot and one-shot learning for a complex physiological data task (drug-induced LQTS) using prototypical networks and ResNet-18. 3. Shows that the method improves model explainability by guiding attention to clinically meaningful features and that aggregating multiple cardiac cycles (mirroring human perceptual averaging) further boosts performance.",
+      "summary": "This paper addresses the problems of data inefficiency and poor interpretability in deep learning models for physiological signal analysis. It proposes a human-inspired pseudo-colouring technique to encode ECG features, enabling effective few-shot learning and improving model explainability by focusing on clinically relevant signal components. The results demonstrate that incorporating human-like perceptual encoding can bridge data efficiency and interpretability in medical AI.",
+      "mindmap": "graph TB\n        A[Human-like visual computing advances explainability and few-shot learning in deep neural networks for complex physiological data] --> B1\n        A --> B2\n        A --> B3\n        B1[核心问题/Problem] --> C1[数据效率低/Lack of data efficiency]\n        B1 --> C2[可解释性差/Limited explainability]\n        B1 --> C3[临床可靠性受限/Constrained clinical reliability]\n        B2[主要方法/Method] --> D1[感知启发的伪着色技术/Perception-informed pseudo-colouring]\n        D1 --> E1[编码临床特征/Encode clinical features (e.g., QT-interval)]\n        D1 --> E2[结构化颜色表示/Structured colour representations]\n        B2 --> D2[原型网络与ResNet-18/Prototypical networks & ResNet-18]\n        B2 --> D3[聚合多个心跳周期/Aggregate multiple cardiac cycles]\n        B3[关键结果/Results] --> F1[实现少样本与单样本学习/Achieve few-shot & one-shot learning]\n        B3 --> F2[提升可解释性/Improve explainability (guide attention)]\n        B3 --> F3[桥接数据效率与因果推理/Bridge data efficiency & causal reasoning]"
+    },
+    {
+      "title": "Mining the Gold: Student-AI Chat Logs as Rich Sources for Automated Knowledge Gap Detection",
+      "authors": "Quanzhi Fu, Qiyu Wu, Dan Williams",
+      "institution": "Virginia Tech",
+      "link": "https://arxiv.org/pdf/2512.22404",
+      "code": null,
+      "tags": [
+        "agent system",
+        "multi-agent LLM framework",
+        "knowledge gap detection",
+        "student-AI dialogue analysis",
+        "QueryQuilt",
+        "educational technology"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/346f14200e9375ed815220f7c720c8952c5109e4bcf1c3f206a9c517e2f80947_w640_q70.webp",
+      "contributions": "1. Proposes QueryQuilt, a novel multi-agent LLM framework for automated detection of common student knowledge gaps in large lectures. 2. Introduces a two-agent design: a Dialogue Agent that engages students with probing questions and a Knowledge Gap Identification Agent that analyzes chat logs. 3. Demonstrates the system's potential with high accuracy (100%) on simulated data and high completeness (95%) on real student-AI dialogue data.",
+      "summary": "This paper proposes QueryQuilt, a multi-agent LLM framework that analyzes student-AI chat logs to automatically identify common knowledge gaps in large-scale lectures. The system uses a Dialogue Agent to interact with students and a Knowledge Gap Identification Agent to analyze the dialogues, providing instructors with insights into class-wide understanding. Initial evaluation shows promising accuracy and completeness, indicating its potential for improving teaching in real classroom environments.",
+      "mindmap": "graph TB\n    A[Mining the Gold: Student-AI Chat Logs as Rich Sources for Automated Knowledge Gap Detection] --> B[核心问题/Problem]\n    A --> C[主要方法/Method]\n    A --> D[关键结果/Results]\n    B --> B1[大班教学难以及时发现学生的知识缺口/Large lectures make timely knowledge gap identification challenging]\n    C --> C1[提出QueryQuilt: 一个多智能体LLM框架/Propose QueryQuilt: a multi-agent LLM framework]\n    C1 --> C2[对话智能体: 回答并探查学生问题/Dialogue Agent: responds and probes student questions]\n    C1 --> C3[知识缺口识别智能体: 分析对话识别共同缺口/Knowledge Gap Identification Agent: analyzes dialogues to identify common gaps]\n    D --> D1[模拟学生数据: 100%准确率/Simulated student data: 100% accuracy]\n    D --> D2[真实学生-AI对话数据: 95%完整性/Real student-AI dialogue data: 95% completeness]"
+    },
+    {
+      "title": "Learning to Program != \"One-Size-Fits-All\": Exploring Variations of Parsons Problems as Scaffolding",
+      "authors": "Carl Christopher Haynes-Magyar",
+      "institution": "University of Pittsburgh",
+      "link": "https://arxiv.org/pdf/2512.22407",
+      "code": null,
+      "tags": [
+        "computing education",
+        "Parsons Problems",
+        "Scaffolding",
+        "Faded Parsons",
+        "Pseudocode Parsons",
+        "Codespec"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/dd341a2988c4238f96b98f47c543fa98eabbcc1469d134da8c7bac8729ea9026_w640_q70.webp",
+      "contributions": "1. Explored learner perceptions of two novel Parsons problem variations (Faded Parsons and Pseudocode Parsons) as optional scaffolding in a new programming environment called Codespec. 2. Provided empirical evidence that offering these optional scaffolds supports comprehension monitoring, strategy formation, and knowledge refinement, with learners selectively using them for different purposes (syntax/structure vs. high-level reasoning). 3. Identified both benefits (e.g., desirable challenge of Faded Parsons) and costs (e.g., time, potential confusion) of using these problem types as scaffolding techniques.",
+      "summary": "This study investigates how variations of Parsons problems can scaffold learning to program. It introduces the Codespec environment, offering optional Faded Parsons and Pseudocode Parsons problems, and finds through interviews that learners selectively use these scaffolds for different cognitive tasks, supporting learning but also noting some usability costs.",
+      "mindmap": "graph TB\n        Root(”Learning to Program != 'One-Size-Fits-All'”) --> Problem(”核心问题/Problem”)\n        Root --> Method(”主要方法/Method”)\n        Root --> Results(”关键结果/Results”)\n        Problem --> P1(”如何有效搭建编程学习脚手架？/How to effectively scaffold programming learning?”)\n        Method --> M1(”开发Codespec环境/Develop Codespec environment”)\n        Method --> M2(”提供两种Parsons问题变体作为可选脚手架/Offer two Parsons problem variants as optional scaffolds”)\n        Method --> M3(”进行回顾性有声思维访谈/Conduct retrospective think-aloud interviews”)\n        Results --> R1(”脚手架支持理解监控与策略形成/Scaffolds support comprehension monitoring & strategy formation”)\n        Results --> R2(”学习者选择性使用不同变体/Learners selectively use different variants”)\n        Results --> R3(”Faded Parsons被视为理想挑战/Faded Parsons perceived as desirable challenge”)"
+    },
+    {
+      "title": "Building Software by Rolling the Dice: A Qualitative Study of Vibe Coding",
+      "authors": "Yi-Hung Chou, Boyuan Jiang, Yi Wen Chen, Mingyue Weng, Victoria Jackson, Thomas Zimmermann, James A. Jones",
+      "institution": "University of California, Irvine",
+      "link": "https://arxiv.org/pdf/2512.22418",
+      "code": null,
+      "tags": [
+        "human aspects of software engineering",
+        "vibe coding",
+        "large language models",
+        "grounded theory",
+        "prompt engineering",
+        "software development practices"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/eab8ec990fa93b887bf7f5945d43ce53b02d7e23a90f66d7421522c4fb50f07c_w640_q70.webp",
+      "contributions": "1. Conducted a grounded theory study of \"vibe coding\" practices through analysis of 20 videos, providing empirical data on this emerging phenomenon. 2. Identified a spectrum of developer behaviors, from full reliance on AI without code inspection to active examination and adaptation of generated outputs. 3. Revealed that developers must contend with the stochastic nature of LLM generation, framing debugging as \"rolling the dice,\" and that divergent mental models influence prompting, evaluation, and trust.",
+      "summary": "This paper investigates the emerging practice of \"vibe coding,\" where developers build software primarily by prompting LLMs. Through a qualitative grounded theory study of 20 videos, the research reveals a spectrum of developer behaviors and the central challenge of dealing with stochastic AI outputs, described as \"rolling the dice.\" The findings highlight how developers' mental models shape their interaction with AI and point to new research directions for the future of software engineering.",
+      "mindmap": "graph TB\n        A[Building Software by Rolling the Dice: A Qualitative Study of Vibe Coding] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[LLM驱动的”氛围编码”实践如何定义与进行?/How is LLM-driven ”vibe coding” defined and practiced?]\n        C --> C1[对20个视频进行扎根理论研究/Grounded theory study of 20 videos]\n        C --> C2[分析直播与观点视频/Analyze live-streamed & opinion videos]\n        D --> D1[行为谱系: 从完全依赖到检查适配/Spectrum of behaviors: from full reliance to inspection & adaptation]\n        D --> D2[核心挑战: 生成的随机性/”掷骰子”/Core challenge: stochastic generation / ”rolling the dice”]\n        D --> D3[心智模型影响策略与信任/Mental models influence strategies & trust]"
+    },
+    {
+      "title": "Relational Mediators: LLM Chatbots as Boundary Objects in Psychotherapy",
+      "authors": "Jiatao Quan, Ziyue Li, Tian Qi Zhu, Yuxuan Li, Baoying Wang, Wanda Pratt, Nan Gao",
+      "institution": "University of Washington, The Hong Kong Polytechnic University, Nankai University",
+      "link": "https://arxiv.org/pdf/2512.22462",
+      "code": null,
+      "tags": [
+        "human-ai interaction",
+        "boundary objects",
+        "relational mediation",
+        "marginalized clients",
+        "therapeutic systems",
+        "dynamic framework"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f8695c76e0392473389276989f78ab825dab06f2e38bdd785d2418d8ca9a1d80_w640_q70.webp",
+      "contributions": "1. Identifies enduring relational challenges in psychotherapy for marginalized clients, such as trust-building and self-disclosure burdens. 2. Proposes the Dynamic Boundary Mediation Framework, which re-conceptualizes LLMs as adaptive boundary objects. 3. Delineates three specific forms of mediation (Epistemic, Relational, Contextual) to address knowledge gaps, power asymmetries, and therapy-life discontinuities.",
+      "summary": "This paper argues that current framings of LLMs in mental health overlook their potential to mediate complex therapeutic relationships. Based on interviews with therapists and marginalized clients in China, the authors propose the Dynamic Boundary Mediation Framework, which positions LLM chatbots as adaptive boundary objects to bridge knowledge, power, and contextual gaps. This offers a pathway for designing AI systems that more effectively and accountably support therapeutic relationships for marginalized users.",
+      "mindmap": "graph TB\n        Root[”Relational Mediators: LLM Chatbots as Boundary Objects in Psychotherapy”] --> Problem[”核心问题/Problem”]\n        Root --> Method[”主要方法/Method”]\n        Root --> Results[”关键结果/Results”]\n        Problem --> P1[”现有视角的局限/Current Framing Limitations”]\n        Problem --> P2[”边缘化客户的关系挑战/Relational Challenges for Marginalized Clients”]\n        Method --> M1[”动态边界调解框架/Dynamic Boundary Mediation Framework”]\n        Method --> M2[”作为边界对象的LLM/LLMs as Boundary Objects”]\n        Results --> R1[”三种调解形式/Three Forms of Mediation”]\n        Results --> R2[”关系问责的AI系统/Relationally Accountable AI Systems”]"
+    },
+    {
+      "title": "SPECTRE: Spectral Pre-training Embeddings with Cylindrical Temporal Rotary Position Encoding for Fine-Grained sEMG-Based Movement Decoding",
+      "authors": "Zihan Weng, Chanlin Yi, Pouya Bashivan, Jing Lu, Fali Li, Dezhong Yao, Jingming Hou, Yangsong Zhang, Peng Xu",
+      "institution": "University of Electronic Science and Technology of China",
+      "link": "https://arxiv.org/pdf/2512.22481",
+      "code": null,
+      "tags": [
+        "biomedical signal processing",
+        "self-supervised learning",
+        "surface electromyography",
+        "rotary position encoding",
+        "spectral pre-training",
+        "movement decoding"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a5801cbdcbac93bf7df15e18531c5ff2653259e25003568da5b53b240d06d32c_w640_q70.webp",
+      "contributions": "1. A novel self-supervised pre-training task that uses masked prediction of clustered STFT pseudo-labels to learn robust, physiologically relevant frequency patterns from sEMG signals. 2. A novel Cylindrical Rotary Position Embedding (CyRoPE) that factorizes embeddings along temporal and annular spatial dimensions to explicitly model the cylindrical topology of forearm electrode arrays. 3. The SPECTRE framework, which integrates these contributions to establish a new state-of-the-art for fine-grained movement decoding, validated on multiple datasets including data from individuals with amputation.",
+      "summary": "The paper introduces SPECTRE, a domain-specific self-supervised learning framework for decoding fine-grained movements from surface electromyography (sEMG) signals. It proposes a spectral pre-training task using masked pseudo-label prediction and a novel cylindrical rotary position encoding to model sensor topology. Evaluations show SPECTRE significantly outperforms existing supervised and generic self-supervised baselines, providing a robust foundation for practical myoelectric interfaces.",
+      "mindmap": "graph TB\n        A[SPECTRE: Spectral Pre-training Embeddings with Cylindrical Temporal Rotary Position Encoding] --> B\n        A --> C\n        A --> D\n        B[核心问题/Problem: Decoding fine-grained movement from noisy, non-stationary sEMG signals for prosthetic control]\n        C[主要方法/Method: Domain-specific SSL with spectral pre-training and Cylindrical Rotary Position Embedding (CyRoPE)]\n        D[关键结果/Results: New SOTA performance, outperforms supervised & generic SSL baselines, validated on amputation data]"
+    },
+    {
+      "title": "Clinically Calibrated Machine Learning Benchmarks for Large-Scale Multi-Disorder EEG Classification",
+      "authors": "Argha Kamal Samanta, Deepak Mewada, Monalisa Sarma, Debasis Samanta",
+      "institution": "Indian Institute of Technology, Kharagpur",
+      "link": "https://arxiv.org/pdf/2512.22656",
+      "code": null,
+      "tags": [
+        "medical signal processing",
+        "electroencephalography",
+        "multi-disorder classification",
+        "sensitivity-oriented modeling",
+        "clinical calibration",
+        "feature importance analysis"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/636894ed25045336665fcbac593a58130411dff99c5d2a3e5a0cd50067ee44ec_w640_q70.webp",
+      "contributions": "1. Proposes a clinically calibrated, sensitivity-prioritized machine learning framework for classifying eleven diverse neurological disorders from EEG data, addressing severe class imbalance. 2. Establishes realistic performance baselines for multi-disorder EEG classification, demonstrating recall exceeding 80% for most disorders with significant gains for low-prevalence conditions after threshold calibration. 3. Provides physiologically plausible feature importance analysis that aligns with established clinical EEG markers, validating the model's clinical relevance.",
+      "summary": "This study addresses the challenge of automated, multi-disorder screening from clinical EEG data by developing disorder-aware machine learning models with decision thresholds explicitly calibrated to prioritize diagnostic sensitivity. The method uses a multi-domain feature set and is evaluated on a large, heterogeneous dataset, achieving high recall for most neurological disorder categories. The results establish performance baselines and demonstrate that sensitivity-prioritized automated analysis can support scalable EEG screening and triage in clinical practice.",
+      "mindmap": "graph TB\n        A[Clinically Calibrated Machine Learning Benchmarks for Large-Scale Multi-Disorder EEG Classification] --> B\n        A --> C\n        A --> D\n        B[核心问题/Problem: Manual EEG interpretation is slow and variable; existing automation lacks multi-disorder support.]\n        C[主要方法/Method: Use multi-domain EEG features and train sensitivity-calibrated models under class imbalance.]\n        D[关键结果/Results: High recall (>80%) for most disorders; feature importance aligns with clinical knowledge.]"
+    },
+    {
+      "title": "What do you say? A pilot study investigating student responses in Data Driven Classroom Interviews",
+      "authors": "Jaclyn Ocumpaugh, Zhanlan Wei, Amanda Barany, Xiner Liu, Andres Felipe Zambrano, Ryan Baker, Camille Gioradno",
+      "institution": "University of Houston, University of Pennsylvania, Adelaide University",
+      "link": "https://arxiv.org/pdf/2512.22747",
+      "code": null,
+      "tags": [
+        "educational data mining",
+        "Data-Driven Classroom Interviews (DDCIs)",
+        "Ordered Network Analysis (ONA)",
+        "rhetorical strategies"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c87056237d276d00b024d3b9369defa22ffde3d2c95bf0eaf093a1cbb2c5720c_w640_q70.webp",
+      "contributions": "1. Proposes a novel method for analyzing interview sequences using Ordered Network Analysis (ONA) to re-examine data from a prior Epistemic Network Analysis study. 2. Investigates the relationship between interviewer rhetorical strategies and student response strategies in real-time classroom interviews. 3. Provides empirical evidence on how students with different levels of situational interest respond differently to interview prompts, confirming the reliability of interviewer protocols.",
+      "summary": "This study investigates student responses in Data-Driven Classroom Interviews (DDCIs) by applying Ordered Network Analysis (ONA) to analyze the sequence of rhetorical strategies used by interviewers and students. It finds minor differences in responses based on student situational interest but overall confirms that interviewer-driven differences are minimal and guidelines are followed.",
+      "mindmap": "graph TB\n        A[What do you say? A pilot study investigating student responses in Data Driven Classroom Interviews] --> B[核心问题/Problem: How do rhetorical strategies sequence in student interviews?]\n        A --> C[主要方法/Method: Use Ordered Network Analysis (ONA) to reanalyze interview data]\n        A --> D[关键结果/Results: Minor response differences by interest level; interviewers follow open-ended guidelines]"
+    },
+    {
+      "title": "ChatGraPhT: A Visual Conversation Interface for Multi-Path Reflection with Agentic LLM Support",
+      "authors": "Geoff Kimm, Linus Tan",
+      "institution": "Swinburne University of Technology",
+      "link": "https://arxiv.org/pdf/2512.22790",
+      "code": null,
+      "tags": [
+        "human-computer interaction",
+        "reflective practice",
+        "agentic llm",
+        "visual conversation interface",
+        "non-linear dialogue",
+        "multi-path reflection"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e0a7e3705fa584edc6bed6f2a636ce9e0b4f314e3e0c63213afc64d0d876a48f_w640_q70.webp",
+      "contributions": "1. The design of a node-link, agentic LLM interface for reflective dialogue. 2. Transferable design knowledge on balancing structure and AI support to sustain reflection in complex, open-ended tasks. 3. An interactive tool that visualizes dialogue as a map, enabling branching, merging, and editing of past messages.",
+      "summary": "This paper addresses the limitation of linear LLM interfaces in supporting reflective practice by introducing ChatGraPhT, a visual tool that represents dialogue as a non-linear, editable map and provides guidance from two agentic LLM assistants. The study finds that making conversation structure visible, allowing branching/merging, and suggesting idea combinations deepens user reflective engagement.",
+      "mindmap": "graph TB\n        A[ChatGraPhT: A Visual Conversation Interface for Multi-Path Reflection with Agentic LLM Support] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[线性对话界面限制反思/Linear interfaces limit reflection support]\n        C --> C1[可视化对话地图/Visual dialogue map]\n        C --> C2[支持分支与合并/Supports branching & merging]\n        C --> C3[智能体LLM提供指导/Agentic LLMs provide guidance]\n        D --> D1[增强用户反思参与度/Deepened user reflective engagement]\n        D --> D2[提供可转移的设计知识/Provides transferable design knowledge]"
+    },
+    {
+      "title": "Towards the analysis of team members well-being",
+      "authors": "Zan Xu, Sari Nurfauziyyah, Anastasia Romanova, Kaamesh G S, Yiqun Gao, Maria Spichkova",
+      "institution": "RMIT University",
+      "link": "https://arxiv.org/pdf/2512.22845",
+      "code": null,
+      "tags": [
+        "software development team well-being",
+        "well-being",
+        "software development",
+        "team members",
+        "positive feedback",
+        "prototype"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/44b6ecf51f08897fa2d6ed662014dae0fe49b0c593bf9e815394b288ffd9d465_w640_q70.webp",
+      "contributions": "1. Presents the results of a project focused on analyzing the well-being of software development team members. 2. Identifies the feeling of being appreciated and acknowledged as a critical factor for team member well-being. 3. Describes the development of a prototype tool-supported framework aimed at providing personalized positive feedback without creating significant additional workload.",
+      "summary": "This paper addresses the growing concern for the well-being of software development team members, emphasizing the importance of feeling appreciated. It presents a project that developed a prototype for a tool-supported, personalized framework to provide positive feedback. The goal is to improve well-being without adding substantial extra work for team members.",
+      "mindmap": "graph TB\n        A[Towards the analysis of team members well-being] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[软件团队成员幸福感/Software Team Member Well-being]\n        B1 --> B2[关键因素：被赞赏与认可/Critical Factor: Feeling Appreciated & Acknowledged]\n        C --> C1[项目分析与原型开发/Project Analysis & Prototype Development]\n        D --> D1[提出工具支持的个性化框架/Proposed Tool-supported Personalized Framework]"
+    },
+    {
+      "title": "Differentiable Physics-Driven Human Representation for Millimeter-Wave Based Pose Estimation",
+      "authors": "Shuntian Zheng, Guangming Wang, Jiaqi Li, Minzhe Ni, Yu Guan",
+      "institution": "University of Warwick, University of Cambridge",
+      "link": "https://arxiv.org/pdf/2512.23054",
+      "code": null,
+      "tags": [
+        "human pose estimation",
+        "millimeter-wave",
+        "differentiable physics",
+        "Gaussian representation",
+        "human representation",
+        "pose estimation"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ace172569ea466a63abf72680293895dbb1d21feeae095f32ec879439596ed2f_w640_q70.webp",
+      "contributions": "1. Proposes a novel Differentiable Physics-driven Human Representation (DIPR) as an alternative input paradigm for mmWave-based HPE, representing humans as an ensemble of Gaussian distributions. 2. Introduces a method to incorporate kinematic priors for DIPR initialization and multi-faceted optimization to ensure biomechanical validity. 3. Designs a strategy to simulate the mmWave processing pipeline and re-render a Heatmap from DIPR for comparison, preventing overfitting to kinematic constraints and spurious noise.",
+      "summary": "This paper addresses the limitations of existing Heatmap and Point Cloud input paradigms for millimeter-wave-based human pose estimation by proposing a Differentiable Physics-driven Human Representation (DIPR). DIPR uses Gaussian distributions with kinematic and electromagnetic parameters, enhanced by kinematic priors and a physics-based re-rendering strategy to mitigate noise and improve feature quality. Experiments show that existing methods can easily integrate DIPR to achieve superior performance.",
+      "mindmap": "graph TB\n        Root[”Differentiable Physics-Driven Human Representation for Millimeter-Wave Based Pose Estimation”] --> Problem[”核心问题/Problem: Limitations of Heatmap (noise) and Point Cloud (sparsity) in mmWave-based HPE”]\n        Root --> Method[”主要方法/Method: Proposes Differentiable Physics-driven Human Representation (DIPR) using Gaussian distributions with kinematic priors and physics simulation”]\n        Root --> Results[”关键结果/Results: DIPR integrates with existing methods and achieves superior performance”]"
+    },
+    {
+      "title": "Reimagining the Traditional Flight Computer: E6BJA as a Modern, Multi-Platform Tool for Flight Calculations and Training",
+      "authors": "Jamie J. Alnasir",
+      "institution": "None (Inferred from author's email domain: al-nasir.com, which appears to be a personal domain)",
+      "link": "https://arxiv.org/pdf/2512.23055",
+      "code": null,
+      "tags": [
+        "human-computer interaction",
+        "flight computer",
+        "multi-platform software",
+        "aviation training",
+        "educational monographs",
+        "weight and balance"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/728f903c57bf352d1339c863c7cb1986de9a626a56f8a15516317cf7068bcb83_w640_q70.webp",
+      "contributions": "1. Development of E6BJA, a modern, multi-platform (iOS, Android, Windows, web) software flight computer that replicates and extends traditional flight calculations. 2. Integration of enhanced modeling capabilities (e.g., 1976 International Standard Atmosphere, carburetor icing risk) and aircraft-specific calculators with embedded educational explanations. 3. A comparative analysis demonstrating the tool's improvements over traditional devices in accuracy, error reduction, discoverability, and educational value for pilot training.",
+      "summary": "This paper addresses the limitations of traditional mechanical and electronic flight computers by proposing E6BJA, a modern multi-platform software tool. E6BJA replicates core flight calculations while adding enhanced models and embedded educational content. The work concludes that this approach represents a meaningful evolution in pilot tools, improving safety, intuition, and instructional value in aviation training contexts.",
+      "mindmap": "graph TB\n        Root(”Reimagining the Traditional Flight Computer”) --> Problem(”核心问题/Problem”)\n        Root --> Method(”主要方法/Method”)\n        Root --> Results(”关键结果/Results”)\n        Problem --> P1(”传统飞行计算机的局限性/Limitations of Traditional Flight Computers”)\n        Method --> M1(”开发多平台软件E6BJA/Develop Multi-Platform Software E6BJA”)\n        Method --> M2(”扩展计算与教育功能/Extend Calculations & Educational Features”)\n        Results --> R1(”证明在准确性等方面的改进/Demonstrate Improvements in Accuracy, etc.”)\n        Results --> R2(”支持更安全的飞行规划/Support Safer Flight Planning”)"
+    },
+    {
+      "title": "Multimodal Functional Maximum Correlation for Emotion Recognition",
+      "authors": "Deyang Zheng, Tianyi Zhang, Wenming Zheng, Shujian Yu",
+      "institution": "Southeast University, Westlake University, Vrije Universiteit Amsterdam",
+      "link": "https://arxiv.org/pdf/2512.23076",
+      "code": "https://github.com/DY9910/MFMC",
+      "tags": [
+        "multimodal learning",
+        "self-supervised learning",
+        "dual total correlation",
+        "functional maximum correlation analysis",
+        "affective computing",
+        "physiological signals"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/369b23e1c7a17085940402e88d2347afb3386819a237c48ac347be73127aea2a_w640_q70.webp",
+      "contributions": "1. Proposes a novel self-supervised learning framework (MFMC) that maximizes higher-order multimodal dependence using a Dual Total Correlation objective. 2. Derives a tight sandwich bound and optimizes it using a functional maximum correlation analysis-based trace surrogate to capture joint interactions. 3. Demonstrates state-of-the-art or competitive performance on affective computing benchmarks, showing robustness to inter-subject variability.",
+      "summary": "The paper addresses the challenge of learning joint dynamics from scarce and subjective emotion labels by proposing a self-supervised learning framework called MFMC. It captures higher-order multimodal dependencies beyond pairwise alignment, leading to improved emotion recognition performance on physiological signal benchmarks. The results show significant accuracy gains, particularly in subject-independent settings, highlighting the method's effectiveness.",
+      "mindmap": "graph TB\n        A[MFMC for Emotion Recognition] --> B[核心问题/Problem: 情感状态表现为跨系统的协调但异质的生理反应，现有自监督方法难以捕捉多模态高阶交互。]\n        A --> C[主要方法/Method: 提出MFMC框架，通过Dual Total Correlation目标和Functional Maximum Correlation Analysis最大化高阶多模态依赖性。]\n        A --> D[关键结果/Results: 在多个基准测试中达到SOTA或竞争性性能，显著提升CEAP-360VR数据集上的准确率，对主体间变异性鲁棒。]"
+    },
+    {
+      "title": "Cogniscope: Modeling Social Media Interactions as Digital Biomarkers for Early Detection of Cognitive Decline",
+      "authors": "Ananya Drishti, Mahfuza Farooque",
+      "institution": "Pennsylvania State University",
+      "link": "https://arxiv.org/pdf/2512.23093",
+      "code": null,
+      "tags": [
+        "digital health / computational social science",
+        "digital biomarkers",
+        "simulation framework",
+        "multimodal fusion",
+        "cognitive decline",
+        "social media interactions"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/512eb1289cb5884089bd596bddf1510fefedfecb88019690b90dd2e6b6c77243_w640_q70.webp",
+      "contributions": "1) A configurable simulation framework (Cogniscope) that generates social-media-style interaction data for studying digital biomarkers of cognitive health. 2) A method for modeling synthetic users with heterogeneous cognitive trajectories and embedding micro-tasks (e.g., video summarization, Q&A) into content streams to produce linguistic and behavioral signals. 3) The release of open-source tools, including generator code and synthetic datasets, to provide a controllable, ethically safe testbed for systematic investigation and benchmarking.",
+      "summary": "The paper introduces Cogniscope, a simulation framework that generates synthetic social media interaction data to model digital biomarkers for early detection of cognitive decline. It fuses linguistic and behavioral signals from simulated user interactions to evaluate early detection models. The framework is released as an open-source tool to provide a benchmark for studying multimodal cognitive markers.",
+      "mindmap": "graph TB\n        A[Cogniscope: Modeling Social Media Interactions as Digital Biomarkers] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[传统诊断工具成本高、侵入性强/Traditional diagnostic tools are invasive and costly]\n        B --> B2[需要大规模、生态有效的认知监测/Need for population-scale, ecologically valid monitoring]\n        C --> C1[模拟生成社交媒体交互数据/Simulate social-media-style interaction data]\n        C --> C2[嵌入微任务并提取多模态特征/Embed micro-tasks and extract multimodal features]\n        C --> C3[构建可控的合成用户测试平台/Build a controllable synthetic user testbed]\n        D --> D1[展示了检测性能的敏感性分析/Demonstrates sensitivity analysis of detection performance]\n        D --> D2[发布代码与数据集以支持可复现性/Releases code and datasets for reproducibility]\n        D --> D3[为社区提供基准资源/Provides a benchmark resource for the community]"
+    },
+    {
+      "title": "ReHome Earth: A VR-Based Concept Validation for AI-Driven Space Homesickness Interventions",
+      "authors": "Mengyao Guo, Kexin Nie, Jinda Han, Guanyou Li, Adrian Wong",
+      "institution": "Harbin Institute of Technology, Shenzhen; The University of Sydney; University of Illinois Urbana-Champaign",
+      "link": "https://arxiv.org/pdf/2512.23118",
+      "code": null,
+      "tags": [
+        "human-computer interaction",
+        "virtual reality",
+        "AI-generated content",
+        "emotional support",
+        "extreme isolation",
+        "concept validation"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/994a1c291c0ccdd72311f02214224ba7a2666234ccc35cb8193843b103cbd5ae_w640_q70.webp",
+      "contributions": "1) A technically feasible future-oriented installation concept integrating transparent OLED displays with spaceship windows for real-time Earth connectivity. 2) A functional VR prototype for simulating astronaut isolation to test AI-generated content effectiveness in space HCI research. 3) Empirical insights and validated design implications (emotional pacing, explainable biophysical feedback, collective affective infrastructure) for AI-driven emotional support systems in extreme isolation.",
+      "summary": "This paper addresses astronaut homesickness by proposing ReHome Earth, a dual-component approach featuring a futuristic space installation concept and a VR prototype for testing AI-generated emotional content. Since real astronauts were unavailable, the concept was validated with 84 terrestrial participants experiencing displacement, demonstrating strong emotional resonance and yielding key design principles for affective computing in isolated environments.",
+      "mindmap": "graph TB\n        A[ReHome Earth: A VR-Based Concept Validation for AI-Driven Space Homesickness Interventions] --> B[核心问题/Problem: Emotional needs of astronauts on long-duration missions are underexplored.]\n        A --> C[主要方法/Method: Dual-component design: 1) Future installation concept with transparent OLED displays. 2) Functional VR prototype for testing AI content.]\n        A --> D[关键结果/Results: Strong emotional resonance validated with proxy participants. Three design implications identified.]"
+    },
+    {
+      "title": "It's a TRAP! Task-Redirecting Agent Persuasion Benchmark for Web Agents",
+      "authors": "Karolina Korgul, Yushi Yang, Arkadiusz Drohomirecki, Piotr Błaszczyk, Will Howard, Lukas Aichberger, Chris Russell, Philip H.S. Torr, Adam Mahdi, Adel Bibi",
+      "institution": "University of Oxford, SoftServe, Johannes Kepler University Linz",
+      "link": "https://arxiv.org/pdf/2512.23128",
+      "code": null,
+      "tags": [
+        "prompt injection",
+        "prompt injection",
+        "web agents",
+        "social-engineering",
+        "benchmark",
+        "autonomous agents"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c246d5b23e99374a1d754ec870b203d23f214abac92f8d20d849cc98d00e86ca_w640_q70.webp",
+      "contributions": "1. Introduces the Task-Redirecting Agent Persuasion Benchmark (TRAP) for evaluating prompt injection vulnerabilities in web-based LLM agents. 2. Provides a modular social-engineering injection framework for controlled experiments on high-fidelity website clones. 3. Demonstrates systemic vulnerabilities, showing agents are susceptible to injection in 25% of tasks on average, with small interface changes often doubling success rates.",
+      "summary": "The paper addresses the vulnerability of web-based LLM agents to prompt injection attacks, where hidden adversarial instructions can divert agents from their tasks. It introduces the TRAP benchmark, built on realistic website clones, to evaluate these vulnerabilities. The study finds significant susceptibility across models, revealing systemic, psychologically driven weaknesses in current agents.",
+      "mindmap": "graph TB\n        Root[It's a TRAP! Task-Redirecting Agent Persuasion Benchmark for Web Agents] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem: Web agents vulnerable to prompt injection attacks] --> Problem_Detail[问题详情/Problem Detail: Adversarial instructions in web content can divert agents from original tasks]\n        Method[主要方法/Method: Introduce TRAP benchmark & modular injection framework] --> Method_Detail[方法详情/Method Detail: Evaluation on high-fidelity website clones using social-engineering techniques]\n        Results[关键结果/Results: Agents susceptible in 25% of tasks on average] --> Results_Detail[结果详情/Results Detail: Small interface changes can double success rates, revealing systemic vulnerabilities]"
+    },
+    {
+      "title": "Understanding EFL Learners' Code-Switching and Teachers' Pedagogical Approaches in LLM-Supported Speaking Practice",
+      "authors": "Junyeong Park, Jieun Han, Yeon Su Park, Youngbin Lee, Suin Kim, Juho Kim, Alice Oh, So-Yeon Ahn",
+      "institution": "KAIST, Elice Inc.",
+      "link": "https://arxiv.org/pdf/2512.23136",
+      "code": null,
+      "tags": [
+        "language education",
+        "code-switching",
+        "large language models",
+        "pedagogical design",
+        "bilingual tutoring",
+        "scaffolding"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/98df50b7ead70be4f32b9ae0c16ed0921a98d1c0003ee904a7fa9763956c75ae_w640_q70.webp",
+      "contributions": "1. Conducted a six-week empirical study with 20 Korean EFL learners to understand their code-switching behaviors in LLM-mediated speaking practice. 2. Performed a qualitative study with nine English teachers to analyze and refine pedagogical strategies for responding to learner code-switching. 3. Derived design implications for bilingual LLM-powered tutors that leverage teacher expertise to transform code-switching into learning opportunities.",
+      "summary": "This paper investigates how EFL learners use code-switching and how teachers can pedagogically respond within LLM-supported speaking practice. Through a six-week study with learners and a qualitative study with teachers, it finds learners use CSW for lexical, cultural, and emotional expression, prompting teachers to use selective and dynamic strategies. The work concludes with design implications for creating bilingual LLM tutors that effectively scaffold learning from code-switching.",
+      "mindmap": "graph TB\n        A[Understanding EFL Learners' Code-Switching and Teachers' Pedagogical Approaches in LLM-Supported Speaking Practice] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[EFL学习者口语练习中代码转换(CSW)的教学设计不足/Underexplored pedagogical design for CSW in EFL speaking practice]\n        C --> C1[对20名韩国EFL学习者进行为期六周的LLM中介口语实践研究/Six-week LLM-mediated speaking study with 20 Korean EFL learners]\n        C --> C2[对9名英语教师进行定性研究，设计对CSW的回应/Qualitative study with 9 teachers designing responses to CSW]\n        D --> D1[学习者使用CSW表达词汇、文化和情感细微差别/Learners use CSW for lexical, cultural, emotional nuance]\n        D --> D2[教师采用选择性干预和动态支架策略/Teachers employ selective interventions & dynamic scaffolding]\n        D --> D3[提出双语LLM导师的设计启示/Design implications for bilingual LLM-powered tutors]"
+    },
+    {
+      "title": "A Design Space for Intelligent Agents in Mixed-Initiative Visual Analytics",
+      "authors": "Tobias Stähle, Matthijs Jansen op de Haar, Sophia Boyer, Rita Sevastjanova, Arpit Narechania, Mennatallah El-Assady",
+      "institution": "ETH Zürich, The Hong Kong University of Science and Technology",
+      "link": "https://arxiv.org/pdf/2512.23372",
+      "code": null,
+      "tags": [
+        "agent system",
+        "mixed-initiative visual analytics",
+        "intelligent agents",
+        "design space",
+        "multi-agents",
+        "human-AI collaboration"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6d494dd1a9aa6a9f007780b691ff276d02fbb3b9060ca4a9fe9bf8ae5bb1fd9d_w640_q70.webp",
+      "contributions": "1. Conducted a systematic review of 90 mixed-initiative visual analytics systems and 207 unique agents. 2. Proposed a novel design space for intelligent agents characterized by six dimensions (Configuration and Logic, World Model, Observations, Communication, Actions, Infrastructure). 3. Provided a framework for researchers and designers to explore design choices and situate new systems within the existing landscape.",
+      "summary": "This paper addresses the lack of overarching design principles for intelligent agents in mixed-initiative visual analytics systems. Through a systematic review, the authors propose a six-dimensional design space that characterizes an agent's perception, understanding, action, and communication capabilities. They conclude by offering a framework for future system design and identifying research opportunities.",
+      "mindmap": "graph TB\n        Root[A Design Space for Intelligent Agents in Mixed-Initiative Visual Analytics] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem] --> P1[缺乏智能代理的总体设计原则/Lack of overarching design principles for intelligent agents]\n        Method[主要方法/Method] --> M1[对90个系统进行系统综述/Systematic review of 90 systems]\n        Method --> M2[提出六维设计空间/Propose a six-dimensional design space]\n        Results[关键结果/Results] --> R1[用于探索设计选择的框架/Framework for exploring design choices]\n        Results --> R2[定位现有系统的景观/Situate systems in current landscape]"
+    },
+    {
+      "title": "Securing the AI Supply Chain: What Can We Learn From Developer-Reported Security Issues and Solutions of AI Projects?",
+      "authors": "Anh Nguyen, Triet Huynh Minh Le, M. Ali Babar",
+      "institution": "University of Adelaide",
+      "link": "https://arxiv.org/pdf/2512.23385",
+      "code": null,
+      "tags": [
+        "AI Security",
+        "AI supply chain",
+        "security taxonomy",
+        "distilBERT classifier"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c00453e76598d08a965d2a15fe6e7b197cf1f19518d88f46a334b638da6327dc_w640_q70.webp",
+      "contributions": "1. Developed a pipeline combining keyword matching with a fine-tuned distilBERT classifier to identify 312,868 security discussions from Hugging Face and GitHub. 2. Conducted a thematic analysis to create a fine-grained taxonomy of 32 security issues and 24 solutions across four themes (System/Software, External Tools/Ecosystem, Model, Data). 3. Provided empirical insights revealing that security issues stem from complex dependencies and black-box AI components, with Model and Data challenges often lacking concrete solutions.",
+      "summary": "This paper investigates security issues in the AI supply chain by analyzing developer discussions from Hugging Face and GitHub. The authors use a keyword and classifier pipeline to build a large dataset and perform a thematic analysis to create a taxonomy of issues and solutions. They conclude that many security problems arise from dependencies and the black-box nature of AI, with solutions for Model and Data issues being particularly scarce.",
+      "mindmap": "graph TB\n        Root[Securing the AI Supply Chain] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem] --> P1[AI供应链安全格局复杂/Complex AI supply chain security landscape]\n        Problem --> P2[缺乏对常见问题与解决方案的了解/Lack of knowledge on common issues & solutions]\n        Method[主要方法/Method] --> M1[实证调查/Empirical investigation]\n        M1 --> M1_1[数据源: Hugging Face, GitHub/Data Sources: Hugging Face, GitHub]\n        M1 --> M1_2[构建分类管道/Build classification pipeline]\n        M1_2 --> M1_2_1[关键词匹配+微调distilBERT/Keyword matching + fine-tuned distilBERT]\n        Results[关键结果/Results] --> R1[数据集: 312,868个安全讨论/Dataset: 312,868 security discussions]\n        Results --> R2[分类法: 32个问题, 24个解决方案/Taxonomy: 32 issues, 24 solutions]\n        Results --> R3[洞察: 依赖复杂性和黑盒性导致问题/Insight: Issues from dependencies & black-box nature]"
+    },
+    {
+      "title": "Soft Robotic Technological Probe for Speculative Fashion Futures",
+      "authors": "Amy Ingold, Loong Yi Lee, Richard Suphapol Diteesawat, Ajmal Roshan, Yael Zekaria, Edith-Clare Hall, Enrico Werner, Nahian Rahman, Elaine Czech, Jonathan Rossiter",
+      "institution": "University of Bristol",
+      "link": "https://arxiv.org/pdf/2512.23570",
+      "code": null,
+      "tags": [
+        "human-robot interaction",
+        "soft robotics",
+        "wearable technology",
+        "speculative design",
+        "pneumatic actuation",
+        "technological probe"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/961ff66eaf860636f7951016c0465ba6020b516e266f501287c6b78b23a9fafa_w640_q70.webp",
+      "contributions": "1. The design and fabrication of \"Sumbrella,\" a novel soft robotic garment integrating origami-inspired bistable units, fabric pneumatic actuators, and computer vision. 2. The use of Sumbrella as a technological probe in a focus group study to explore public interpretation, interaction, and ethical concerns regarding future soft robotic wearables. 3. The contribution of key considerations for HRI, including kinesic communication, social dynamics, and ethical guidelines, and a reflection on the value of speculative design for evaluating social acceptability.",
+      "summary": "This paper presents \"Sumbrella,\" a soft robotic garment designed as a speculative fashion probe to explore the social implications of wearable robotics. Through a focus group study, the authors used the prototype to gather insights on how people imagine future interactions with such technology, revealing both expressive potential and significant ethical concerns. The work contributes design considerations and a methodological reflection on using speculative design in Human-Robot Interaction research to address social meaning alongside functionality.",
+      "mindmap": "graph TB\n        A[Soft Robotic Technological Probe for Speculative Fashion Futures] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[新兴可穿戴机器人需兼顾功能与社会意义/Emerging wearable robotics demand design addressing function and social meaning]\n        C --> C1[设计并制造Sumbrella软体机器人服装/Design and fabricate Sumbrella soft robotic garment]\n        C --> C2[作为技术探针进行焦点小组研究/Use as a technological probe in a focus group study]\n        D --> D1[引发对表达潜力与伦理风险的丰富讨论/Surfaced discussions on expressive potential and ethical risks]\n        D --> D2[为HRI贡献设计考量与伦理指南/Contributed HRI design considerations and ethical guidelines]\n        D --> D3[反思推测性设计方法的价值/Reflected on the value of speculative design]"
+    },
+    {
+      "title": "Training AI Co-Scientists Using Rubric Rewards",
+      "authors": "Shashwat Goel, Rishi Hazra, Dulhan Jayalath, Timon Willi, Parag Jain, William F. Shen, Ilias Leontiadis, Francesco Barbieri, Yoram Bachrach, Jonas Geiping, Chenxi Whitehouse",
+      "institution": "Meta Superintelligence Labs, ELLIS Institute Tübingen, Max Planck Institute for Intelligent Systems, University of Oxford, University of Cambridge",
+      "link": "https://arxiv.org/pdf/2512.23707",
+      "code": null,
+      "tags": [
+        "reinforcement learning",
+        "research plan generation",
+        "self-grading",
+        "rubric rewards"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/360be253dbca068ab35e1e7dcf794f5e43ae1d6fd7478850692d4a8ffc057d14_w640_q70.webp",
+      "contributions": "1. A scalable method to automatically extract research goals and goal-specific grading rubrics from existing papers to build a training corpus. 2. A reinforcement learning framework with self-grading, where a frozen initial model acts as the grader using rubrics, enabling unsupervised improvement. 3. Demonstration of significant performance gains (12-22% relative improvement) and cross-domain generalization (e.g., to medical research) validated by human experts and frontier model juries.",
+      "summary": "This paper addresses the challenge of training language models to generate high-quality, constraint-following research plans. The proposed method uses reinforcement learning with self-grading, where rubrics automatically extracted from research papers provide reward signals. The approach shows significant improvements in plan quality and generalizes across domains like machine learning and medicine, validated by human expert preference.",
+      "mindmap": "graph TB\n        Root[”Training AI Co-Scientists Using Rubric Rewards”] --> Problem[”核心问题/Problem: LMs struggle to generate research plans that follow all constraints.”]\n        Root --> Method[”主要方法/Method: RL with self-grading using automatically extracted rubrics.”]\n        Root --> Results[”关键结果/Results: Human experts prefer finetuned model's plans; method generalizes across domains.”]"
+    },
+    {
       "title": "MotionTeller: Multi-modal Integration of Wearable Time-Series with LLMs for Health and Behavioral Understanding",
       "authors": "Aiwei Zhang, Arvind Pillai, Andrew Campbell, Nicholas C. Jacobson",
       "institution": "Dartmouth College",

@@ -4,6 +4,227 @@
   "week": "20251229-20260104",
   "items": [
     {
+      "title": "Logic Sketch Prompting (LSP): A Deterministic and Interpretable Prompting Method",
+      "authors": "Satvik Tripathi",
+      "institution": "University of Pennsylvania",
+      "link": "https://arxiv.org/pdf/2512.22258",
+      "code": "https://github.com/satviktri/LSP",
+      "tags": [
+        "prompt engineering",
+        "Logic Sketch Prompting",
+        "deterministic prompting",
+        "interpretability",
+        "rule adherence",
+        "clinical decision support"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3b5d49d54027e4f7e6b110a48568a0255a45010197e26e8bc344e0cd3e1785a9_w640_q70.webp",
+      "contributions": "1. Proposes Logic Sketch Prompting (LSP), a lightweight prompting framework that introduces typed variables and deterministic condition evaluators for structured reasoning., 2. Incorporates a rule-based validator to produce traceable and repeatable outputs, enhancing auditability., 3. Demonstrates significant performance gains over standard prompting methods (zero-shot, chain-of-thought, concise) on pharmacologic logic-compliance tasks across multiple open-weight LLMs.",
+      "summary": "The paper addresses the unreliability of LLMs on tasks requiring strict rule adherence and determinism. It proposes Logic Sketch Prompting (LSP), a framework using typed variables and rule-based validation to produce traceable outputs. Evaluations on clinical tasks show LSP significantly outperforms standard prompting methods in accuracy and F1 score, making it suitable for safety-critical systems.",
+      "mindmap": "graph TB\n        A[Logic Sketch Prompting (LSP)] --> B[核心问题/Problem: LLMs unreliable on tasks needing strict rules & determinism]\n        A --> C[主要方法/Method: Lightweight framework with typed variables, condition evaluators, rule validator]\n        A --> D[关键结果/Results: Highest accuracy/F1 vs. baselines; suitable for clinical/safety-critical systems]"
+    },
+    {
+      "title": "ReVEAL: GNN-Guided Reverse Engineering for Formal Verification of Optimized Multipliers",
+      "authors": "Chen Chen, Daniela Kaufmann, Chenhui Deng, Zhan Song, Hongce Zhang, Cunxi Yu",
+      "institution": "University of Maryland, College Park; TU Wien; NVIDIA; Hong Kong University of Science and Technology (Guangzhou)",
+      "link": "https://arxiv.org/pdf/2512.22260",
+      "code": null,
+      "tags": [
+        "formal verification",
+        "computer algebra",
+        "reverse engineering",
+        "graph neural network",
+        "multiplier verification",
+        "algebraic circuit verification",
+        "SAT-based equivalence checking"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8bdd1907cef6efb0b9b81d88b611f825942f30ef8a8674a9587cc4261e4774ef_w640_q70.webp",
+      "contributions": "1. Proposes ReVEAL, a graph-learning-based framework for reverse engineering optimized multiplier architectures to recover their word-level structure. 2. Leverages structural graph features and learning-driven inference to identify architectural patterns at scale, enabling robust handling of large, optimized circuits. 3. Integrates smoothly with existing verification flows and supports downstream algebraic proof strategies, showing improvements in scalability and accuracy over traditional rule-based approaches.",
+      "summary": "This paper introduces ReVEAL, a method that uses Graph Neural Networks (GNNs) to reverse engineer the architecture of optimized hardware multipliers. This recovered structure enables more effective formal verification using algebraic techniques. The approach demonstrates improved scalability and accuracy compared to traditional rule-based methods on diverse benchmarks.",
+      "mindmap": "graph TB\n        A[ReVEAL: GNN-Guided Reverse Engineering for Formal Verification of Optimized Multipliers] --> B(核心问题/Problem: 优化乘法器形式验证困难/Challenges in formal verification of optimized multipliers)\n        A --> C(主要方法/Method: 基于图学习的逆向工程/GNN-guided reverse engineering)\n        A --> D(关键结果/Results: 提升可扩展性与准确性/Improved scalability and accuracy)"
+    },
+    {
+      "title": "Symbolic Specification and Reasoning for Quantum Data and Operations",
+      "authors": "Mingsheng Ying",
+      "institution": "University of Technology Sydney",
+      "link": "https://arxiv.org/pdf/2512.22383",
+      "code": null,
+      "tags": [
+        "quantum programming languages & verification",
+        "symbolic logic",
+        "formal verification",
+        "quantum computation",
+        "automated reasoning",
+        "SOL"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d170e9ed692953b589cb0ca609b55da71b661300061784405cc0fe9e73f4c680_w640_q70.webp",
+      "contributions": "1. Proposes a novel logical framework called Symbolic Operator Logic (SOL) for symbolic specification of quantum data and operations., 2. Embeds classical first-order logic into SOL to enable reasoning about quantum properties modulo theories of classical data, leveraging existing classical verification tools., 3. Provides a conceptual foundation for formal verification and automated theorem proving of quantum computation in proof assistants like Lean and Coq.",
+      "summary": "This paper addresses the lack of a formal theory for symbolic reasoning in quantum computing by introducing a general logical framework called Symbolic Operator Logic (SOL). The core method embeds classical first-order logic into a language of formal operators for quantum specifications, enabling automated reasoning by reusing classical verification tools. The authors conclude that SOL provides a foundational framework for the formal verification of quantum algorithms and programs.",
+      "mindmap": "graph TB\n        Root[”Symbolic Specification and Reasoning for Quantum Data and Operations”] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[”核心问题/Problem<br>缺乏量子数据与操作的形式化符号推理理论”] --> P1[”导致结果/Consequence<br>限制量子程序自动验证的实用性”]\n        Method[”主要方法/Method<br>提出符号算子逻辑(SOL)框架”] --> M1[”关键技术/Key Technique<br>将经典一阶逻辑嵌入形式算子语言”]\n        Method --> M2[”优势/Advantage<br>基于经典数据理论(如布尔代数)进行推理”]\n        Results[”关键结果/Results<br>为量子计算形式验证提供概念基础”] --> R1[”应用前景/Application<br>用于Lean, Coq等证明助手”]"
+    },
+    {
+      "title": "A Representation of Explicit Knowledge and Epistemic Indistinguishability in a Logic of Awareness",
+      "authors": "Yudai Kubono, Satoshi Tojo",
+      "institution": "Shizuoka University, Asia University",
+      "link": "https://arxiv.org/pdf/2512.22477",
+      "code": null,
+      "tags": [
+        "epistemic logic",
+        "awareness logic",
+        "explicit knowledge",
+        "logical omniscience",
+        "modal logic",
+        "completeness"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ee03db160587ff877ac6134a739d58ab248a7f54166c46721902cd24c89d04bf_w640_q70.webp",
+      "contributions": "1. Proposes a refined definition of explicit knowledge in awareness logic that addresses undesirable derivations from Modus Ponens in implicit knowledge, 2. Introduces a new formal logic called Awareness-Based Indistinguishability Logic (AIL) with enhanced expressive power over the Fagin-Halpern logic, 3. Provides a sound and complete axiomatic system for AIL.",
+      "summary": "This paper addresses a flaw in the classic logic of awareness by Fagin and Halpern, where their definition of explicit knowledge can lead to undesirable conclusions. The authors propose a new logic called Awareness-Based Indistinguishability Logic (AIL), which refines the definition by linking indistinguishability of possible worlds to awareness. They prove AIL is more expressive than the prior logic and provide a sound and complete axiomatic system for it.",
+      "mindmap": "graph TB\n        A[”A Representation of Explicit Knowledge and Epistemic Indistinguishability in a Logic of Awareness<br>论文标题”] --> B[”核心问题/Problem<br>Fagin-Halpern逻辑中显式知识的定义可能导致不良推论”]\n        A --> C[”主要方法/Method<br>提出基于意识的不可区分性逻辑(AIL)，精确定义显式知识”]\n        A --> D[”关键结果/Results<br>AIL更具表达力，可嵌入原逻辑，并具备可靠且完备的公理系统”]"
+    },
+    {
+      "title": "Many-valued coalgebraic dynamic logics: Safety and strong completeness via reducibility",
+      "authors": "Helle Hvid Hansen, Wolfgang Poiger",
+      "institution": "University of Groningen, Institute of Computer Science of the Czech Academy of Sciences",
+      "link": "https://arxiv.org/pdf/2512.22851",
+      "code": null,
+      "tags": [
+        "formal methods",
+        "coalgebraic modal logic",
+        "many-valued logic",
+        "dynamic logic",
+        "bisimulation safety",
+        "strong completeness"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3befe5f4bde38d3dda7c5a9f23902f5621b1316b62c6e3e2b1f3e208c172be1e_w640_q70.webp",
+      "contributions": "1. Proposes a coalgebraic framework for generalizing dynamic modal logics (like PDL and game logic) to many-valued settings where both propositions and semantic structures can take truth-degrees from an FLew-algebra. 2. Introduces the concept of reducible coalgebra operations and tests, proving that such operations are safe for bisimulation and behavioural equivalence. 3. Proves a general strong completeness theorem for the framework, leading to new strong completeness results for specific logics like 2-valued iteration-free PDL with many-valued accessibility relations and many-valued iteration-free game logic.",
+      "summary": "This paper presents a coalgebraic framework for generalizing dynamic modal logics to many-valued settings. It focuses on operations that are reducible, meaning modalities for composed actions can be reduced to compositions of simpler modalities, and proves these operations are safe for bisimulation and lead to strong completeness. The results yield new completeness theorems for specific many-valued versions of PDL and game logic.",
+      "mindmap": "graph TB\n        A[Many-valued Coalgebraic Dynamic Logics] --> B[核心问题/Problem: Generalizing dynamic logics (PDL, game logic) to many-valued settings]\n        A --> C[主要方法/Method: Coalgebraic framework with A-valued predicate liftings and reducible operations]\n        A --> D[关键结果/Results: Reducible operations are safe for bisimulation; general strong completeness theorem proven]"
+    },
+    {
+      "title": "PSPACE-Completeness of the Equational Theory of Relational Kleene Algebra with Graph Loop",
+      "authors": "Yoshiki Nakamura",
+      "institution": "Institute of Science Tokyo",
+      "link": "https://arxiv.org/pdf/2512.22930",
+      "code": null,
+      "tags": [
+        "Formal Languages and Automata Theory",
+        "Kleene algebra",
+        "graph loop",
+        "PSpace-completeness",
+        "loop-automata",
+        "equational theory"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/143a4383124a50a9271d22d401dedf3a296d859fe9ccfaf34be96747d60ca607_w640_q70.webp",
+      "contributions": "1. Proved that the equational theory of relational Kleene algebra with the graph loop operator is PSpace-complete. 2. Introduced a novel automaton model called loop-automata to facilitate the complexity analysis. 3. Established a polynomial-time reduction from the equational theories to the language inclusion problem for 2-way alternating string automata.",
+      "summary": "This paper investigates the computational complexity of the equational theory for relational Kleene algebra extended with a graph loop operator. The authors introduce a new automaton model called loop-automata and use it to provide a polynomial-time reduction to a known automata problem. The main result is proving that this equational theory is PSpace-complete, a complexity that persists even with several other extensions.",
+      "mindmap": "graph TB\n        Root[PSPACE-Completeness of the Equational Theory of Relational Kleene Algebra with Graph Loop] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem: Which extensions of Relational Kleene Algebra (RKA) keep PSpace-complete equational theory?]\n        Method[主要方法/Method: Introduce loop-automata; Reduce to 2-way alternating automata inclusion problem]\n        Results[关键结果/Results: Equational theory of loop-RKA is PSpace-complete; Result holds with top, tests, converse, nominals]"
+    },
+    {
+      "title": "Hypergraph Semantics for Doxastic Logics",
+      "authors": "Hans van Ditmarsch, Djanira Gomes, David Lehnherr, Valentin Müller, Thomas Studer",
+      "institution": "CNRS, IRIT, University of Toulouse, University of Bern",
+      "link": "https://arxiv.org/pdf/2512.23088",
+      "code": null,
+      "tags": [
+        "modal logic",
+        "directed hypergraphs",
+        "doxastic logic",
+        "simplicial models",
+        "canonical models",
+        "Kripke models"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9148e7fe21d36571fcaa8501e6f6f8e914b61b99c9fad3c304b84d0731e14147_w640_q70.webp",
+      "contributions": "1. Introduces a new semantics for logics of belief based on directed hypergraphs, extending beyond the knowledge-only representation of simplicial models. 2. Provides complete axiomatizations for systems of both consistent belief and merely introspective belief, proven via the construction of canonical hypergraph models. 3. Presents direct conversion methods between traditional doxastic Kripke models and the new directed hypergraph models.",
+      "summary": "This paper addresses the limitation of simplicial models, which can represent knowledge but not beliefs in distributed systems. It proposes a new semantics for belief logics using directed hypergraphs, which retain the structural benefits of simplicial models while accommodating agent beliefs. The work establishes complete axiomatizations for belief systems and shows how the new models relate to standard Kripke models.",
+      "mindmap": "graph TB\n        Root(”Hypergraph Semantics for Doxastic Logics<br/>超图语义用于信念逻辑”) --> Problem(”核心问题/Problem”)\n        Root --> Method(”主要方法/Method”)\n        Root --> Results(”关键结果/Results”)\n        Problem --> P1(”Simplicial models cannot represent beliefs<br/>单纯复形模型无法表示信念”)\n        Method --> M1(”New semantics using directed hypergraphs<br/>使用有向超图的新语义”)\n        Results --> R1(”Complete axiomatizations for belief systems<br/>信念系统的完备公理化”)\n        Results --> R2(”Conversions to/from Kripke models<br/>与克里普克模型的相互转换”)"
+    },
+    {
+      "title": "On Conformant Planning and Model-Checking of $^*^*$ Hyperproperties",
+      "authors": "Raven Beutner, Bernd Finkbeiner",
+      "institution": "CISPA Helmholtz Center for Information Security",
+      "link": "https://arxiv.org/pdf/2512.23324",
+      "code": null,
+      "tags": [
+        "formal methods",
+        "conformant planning",
+        "hyperproperties",
+        "model-checking",
+        "HyperLTL",
+        "∃∗∀∗"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/47343ca7bc4bf16389257261dd21e0c1fa42c0f512178576ff4ba501df841e8b_w640_q70.webp",
+      "contributions": "1. Establishes a formal connection between conformant planning and model-checking of ∃∗∀∗ hyperproperties, showing they share the same computational core. 2. Provides an efficient, sound, and complete reduction from a hyperproperty model-checking instance to a conformant planning instance. 3. Demonstrates that every conformant planning problem is itself a hyperproperty model-checking task, establishing the converse direction.",
+      "summary": "This paper identifies and formalizes a deep connection between two seemingly unrelated problems: conformant planning (finding a robust sequential plan under uncertainty) and model-checking of ∃∗∀∗ hyperproperties (verifying system properties that relate multiple execution traces). The authors provide efficient, sound, and complete translations between instances of these two problems, showing they are essentially two sides of the same computational coin. This foundational link aims to enable cross-pollination of solution techniques between the planning and verification communities.",
+      "mindmap": "graph TB\n        A[On Conformant Planning and Model-Checking of ∃∗∀∗ Hyperproperties] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[连接两个看似无关的问题 / Linking two seemingly unrelated problems]\n        B1 --> B2[Conformant Planning / 一致性规划]\n        B1 --> B3[Hyperproperty Model-Checking / 超属性模型检测]\n        C --> C1[构建双向高效规约 / Constructing bidirectional efficient reductions]\n        D --> D1[证明规约的可靠性与完备性 / Proving reductions are sound and complete]\n        D --> D2[确立问题的等价性 / Establishing the equivalence of the problems]"
+    },
+    {
+      "title": "Checking Satisfiability of Hyperproperties using First-Order Logic",
+      "authors": "Raven Beutner, Bernd Finkbeiner",
+      "institution": "CISPA Helmholtz Center for Information Security",
+      "link": "https://arxiv.org/pdf/2512.23332",
+      "code": null,
+      "tags": [
+        "formal verification",
+        "hyperproperties",
+        "HyperLTL",
+        "satisfiability checking",
+        "first-order logic",
+        "FOLHyper"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1df9c7eeb320b67a7ee7c2bfb2c3c7df8d5c7c6cfd6201d5246d2ea403911999_w640_q70.webp",
+      "contributions": "1. Introduces FOLHyper, a tool for automatically checking the satisfiability of hyperproperties specified in HyperLTL. 2. Reduces the HyperLTL satisfiability problem to an equisatisfiable first-order logic formula, enabling the use of standard FOL solvers. 3. Extends applicability beyond the decidable ∃*∀* fragment of HyperLTL and is shown to be particularly effective at proving unsatisfiability, complementing existing bounded methods.",
+      "summary": "This paper addresses the problem of checking the satisfiability of hyperproperties, which are crucial for security and information-flow specifications. It proposes FOLHyper, a tool that translates HyperLTL formulas into equisatisfiable first-order logic formulas, allowing the use of FOL solvers for analysis. The method extends beyond known decidable fragments and is shown to be effective, especially for proving unsatisfiability.",
+      "mindmap": "graph TB\n        A[Checking Satisfiability of Hyperproperties using First-Order Logic] --> B[核心问题/Problem: 超属性可满足性检查/Hyperproperty Satisfiability Checking]\n        A --> C[主要方法/Method: 将HyperLTL约简为一阶逻辑公式/Reduce HyperLTL to FOL]\n        A --> D[关键结果/Results: FOLHyper工具，有效证明不可满足性/FOLHyper Tool, Effective for Unsatisfiability]"
+    },
+    {
+      "title": "Verifying Asynchronous Hyperproperties in Reactive Systems",
+      "authors": "Raven Beutner, Bernd Finkbeiner",
+      "institution": "CISPA Helmholtz Center for Information Security",
+      "link": "https://arxiv.org/pdf/2512.23344",
+      "code": null,
+      "tags": [
+        "formal verification",
+        "asynchronous hyperproperties",
+        "HyperLTL",
+        "model checking",
+        "game semantics",
+        "observational determinism"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0e321908ac7277c8c91e3b8e509efae3be66dbe7c391e613f19a6ca343db4f16_w640_q70.webp",
+      "contributions": "1. Proposes a novel game-based approach for verifying arbitrary ∀∗∃∗ formulas in Asynchronous HyperLTL (A-HLTL) in reactive systems. 2. Interprets verification as a game between a verifier and refuter, where a winning strategy provides witnesses for traces and asynchronous alignments for stutterings. 3. Identifies fragments for which the game-based interpretation is complete, providing a finite-state decision procedure, and contributes a prototype implementation with encouraging experimental results.",
+      "summary": "This paper addresses the challenge of model-checking asynchronous hyperproperties in reactive systems, which require comparing execution traces across different timesteps. It proposes a novel game-based verification method for a logic called Asynchronous HyperLTL (A-HLTL), interpreting the problem as a two-player game to find suitable trace stutterings. The approach provides a decision procedure for certain formula fragments and is supported by a prototype implementation.",
+      "mindmap": "graph TB\n        Root[Verifying Asynchronous Hyperproperties in Reactive Systems] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem] --> P1[同步HyperLTL无法表达异步超属性/Synchronous HyperLTL cannot express asynchronous hyperproperties]\n        Problem --> P2[现有方法限制于受限片段或终止系统/Existing methods limited to restricted fragments or terminating systems]\n        Method[主要方法/Method] --> M1[提出基于游戏的验证方法/Propose a game-based verification approach]\n        Method --> M2[验证者与反驳者的双人游戏/Two-player game between verifier and refuter]\n        Method --> M3[获胜策略对应存在量化的证据/Winning strategy corresponds to witnesses for existential quantification]\n        Results[关键结果/Results] --> R1[为∀∗∃∗ A-HLTL公式提供方法/Provides method for arbitrary ∀∗∃∗ A-HLTL formulas]\n        Results --> R2[识别完全性的片段/Identifies fragments for which the interpretation is complete]\n        Results --> R3[原型实现与实验结果/Prototype implementation and experimental results]"
+    },
+    {
+      "title": "Modelling of logical systems by means of their fragments",
+      "authors": "Mikhail Rybakov",
+      "institution": "Moscow Institute of Physics and Technology (MIPT)",
+      "link": "https://arxiv.org/pdf/2512.23509",
+      "code": null,
+      "tags": [
+        "computational logic",
+        "superintuitionistic logics",
+        "modal logics",
+        "complexity reduction",
+        "Kripke incompleteness",
+        "predicate calculi"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6250c5fb6676c8f8ac8f9a2e9bc581ee4e2c8b46c6236e4948549173497931aa_w640_q70.webp",
+      "contributions": "1. Proved polynomial-time reducibility of propositional logics to their fragments with at most two variables. 2. Established reducibility of predicate logics to fragments with limited predicate letters and individual variables, with conditions and counterexamples. 3. Provided new complexity bounds, Kripke-incompleteness results, and analogues of Church and Trakhtenbrot theorems for quasiary predicate logic.",
+      "summary": "This work investigates the algorithmic complexity of non-classical logics. It demonstrates that many propositional and predicate logics can be reduced to simpler, smaller fragments, establishing conditions for such reductions and providing counterexamples. The results include new complexity bounds and fundamental incompleteness theorems for these logical systems.",
+      "mindmap": "graph TB\n        A[Modelling of logical systems by means of their fragments] --> B(核心问题/Problem: Algorithmic complexity of non-classical logics)\n        A --> C(主要方法/Method: Reduction to simpler fragments)\n        A --> D(关键结果/Results: Complexity bounds, reducibility conditions, incompleteness theorems)"
+    },
+    {
       "title": "A Note on the NP-Hardness of PARTITION Via First-Order Projections",
       "authors": "Paúl Risco Iturralde",
       "institution": "Independent researcher",

@@ -4,6 +4,24 @@
   "week": "20251229-20260104",
   "items": [
     {
+      "title": "A unified framework for detecting point and collective anomalies in operating system logs via collaborative transformers",
+      "authors": "Mohammad Nasirzadeh, Jafar Tahmoresnezhad, Parviz Rashidi-Khazaee",
+      "institution": "Urmia University of Technology",
+      "link": "https://arxiv.org/pdf/2512.23380",
+      "code": "https://github.com/your-repo/CoLog",
+      "tags": [
+        "log anomaly detection",
+        "collaborative transformers",
+        "multi-head impressed attention",
+        "modality adaptation layer"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c23025b6b24d4efc5cb993659def89fe785700fbc818c9cc638fe55cdfc5b75e_w640_q70.webp",
+      "contributions": "1. Proposes CoLog, a unified framework for detecting both point and collective anomalies in OS logs by applying multimodal sentiment analysis concepts. 2. Introduces collaborative transformers and multi-head impressed attention to learn interactions between different log data modalities. 3. Incorporates a modality adaptation layer to handle heterogeneity and adapt representations from different log modalities.",
+      "summary": "The paper addresses the challenge of log anomaly detection, where existing methods struggle with the multimodal nature of log data and the interactions between these modalities. It proposes CoLog, a framework that uses collaborative transformers and a modality adaptation layer to learn nuanced patterns across log modalities for comprehensive anomaly detection. Extensive experiments show CoLog achieves state-of-the-art performance, with mean precision, recall, and F1 scores over 99.5% across seven benchmark datasets.",
+      "mindmap": "graph TB\n        Root[”A unified framework for detecting point and collective anomalies in operating system logs via collaborative transformers”] --> Problem[”核心问题/Problem: Unimodal & multimodal methods fail to handle log data modalities and their interactions”]\n        Root --> Method[”主要方法/Method: CoLog framework with collaborative transformers, multi-head impressed attention, and modality adaptation layer”]\n        Root --> Results[”关键结果/Results: Achieves ~99.6% mean precision, recall, F1 on 7 datasets; superior to SOTA”]"
+    },
+    {
       "title": "LEFT-RS: A Lock-Free Fault-Tolerant Resource Sharing Protocol for Multicore Real-Time Systems",
       "authors": "Nan Chen, Xiaotian Dai, Tong Cheng, Alan Burns, Iain Bate, Shuai Zhao",
       "institution": "University of York, Sun Yat-sen University",

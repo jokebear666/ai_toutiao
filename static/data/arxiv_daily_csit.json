@@ -4,6 +4,389 @@
   "week": "20251229-20260104",
   "items": [
     {
+      "title": "RIS, Active RIS or RDARS: A Comparative Insight Through the Lens of Energy Efficiency",
+      "authors": "Aparna V C, Shashank Shekhar, Sheetal Kalyani",
+      "institution": "Indian Institute of Technology, Madras; PSG iTech",
+      "link": "https://arxiv.org/pdf/2512.22533",
+      "code": null,
+      "tags": [
+        "wireless communication systems",
+        "reconfigurable intelligent surfaces",
+        "active RIS",
+        "RDARS",
+        "energy efficiency",
+        "multiplicative fading"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a583c80cad4011041fc332fa04f9e4195b9c87694a0dfd2e104e8283736fff8f_w640_q70.webp",
+      "contributions": "1. Provides a unified comparative analysis of passive RIS, active RIS, and RDARS architectures in terms of coverage and energy efficiency. 2. Investigates the performance of these architectures in both sub-6GHz and mmWave frequency bands. 3. Analyzes the impact of reconfigurable surface placement and the number of elements on system performance.",
+      "summary": "This paper compares three reconfigurable surface architectures—passive RIS, active RIS, and RDARS—to address the problem of multiplicative fading in wireless networks. The analysis evaluates their coverage and energy efficiency across sub-6GHz and mmWave bands, considering placement and element count. The main conclusion is that RDARS is highly energy-efficient for sub-6GHz systems, active RIS excels in mmWave systems, and traditional RIS remains more efficient for scenarios with fewer elements or near users.",
+      "mindmap": "graph TB\n        A[RIS, Active RIS or RDARS: A Comparative Insight Through the Lens of Energy Efficiency] --> B(核心问题/Problem: Multiplicative fading limits RIS coverage in sub-6GHz and mmWave systems.)\n        A --> C(主要方法/Method: Compare RIS, active RIS, and RDARS architectures on coverage and energy efficiency.)\n        A --> D(关键结果/Results: RDARS best for sub-6GHz EE; Active RIS best for mmWave EE; RIS best for fewer elements/near UEs.)"
+    },
+    {
+      "title": "Optimal Beamforming Design for Multi-user MIMO Near-Field ISAC Systems with Movable Antennas",
+      "authors": "Nemanja Stefan Perović, Keshav Singh, Chih-Peng Li, Octavia A. Dobre, Mark F. Flanagan",
+      "institution": "National Sun Yat-sen University, Memorial University of Newfoundland, University College Dublin",
+      "link": "https://arxiv.org/pdf/2512.22620",
+      "code": null,
+      "tags": [
+        "wireless communications",
+        "signal processing",
+        "movable antennas",
+        "integrated sensing and communication",
+        "near-field",
+        "beamforming",
+        "weighted sum rate"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b125a19957e9a5a8ccc216323debc61ce3dba3fe6c40d152f631337577cd129e_w640_q70.webp",
+      "contributions": "1. Proposes an optimization framework for MA-enabled near-field ISAC systems to maximize communication WSR under a sensing constraint. 2. Develops alternating optimization algorithms for beamforming and antenna positioning for both linear and ZF precoding schemes. 3. Demonstrates the substantial performance advantage of using MAs over fixed antennas in near-field ISAC and analyzes the impact of interference and sensing thresholds.",
+      "summary": "This paper addresses the problem of optimizing beamforming and antenna positioning for multi-user MIMO near-field ISAC systems with movable antennas. The authors propose alternating optimization algorithms for linear and ZF precoding to maximize the weighted sum rate for communication while meeting a sensing requirement. Simulation results show that using movable antennas provides significant performance gains over fixed antennas in near-field scenarios.",
+      "mindmap": "graph TB\n        A[Optimal Beamforming Design for Multi-user MIMO Near-Field ISAC Systems with Movable Antennas] --> B\n        A --> C\n        A --> D\n        B[核心问题/Problem<br>Near-field MA-ISAC performance unexplored<br>近场MA-ISAC性能未探索]\n        C[主要方法/Method<br>Alternating optimization of beamforming & MA positions<br>交替优化波束成形与MA位置]\n        D[关键结果/Results<br>MAs provide substantial gain over fixed antennas<br>MA相比固定天线带来显著增益]"
+    },
+    {
+      "title": "An Improved Lower Bound on Cardinality of Support of the Amplitude-Constrained AWGN Channel",
+      "authors": "Haiyang Wang, Luca Barletta, Alex Dytso",
+      "institution": "Yale University, Politecnico di Milano, Qualcomm Flarion Technology, Inc.",
+      "link": "https://arxiv.org/pdf/2512.22691",
+      "code": null,
+      "tags": [
+        "information theory",
+        "amplitude-constrained AWGN channel",
+        "capacity-achieving distribution",
+        "support size lower bound",
+        "Gaussian mixtures",
+        "uniform distribution approximation"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b92f074a600365ed84f3a2ccf15b314071c6eb56ab1309eec81e30293954beb2_w640_q70.webp",
+      "contributions": "1. Quantified the closeness of the capacity-achieving output distribution to the uniform distribution within the amplitude constraint. 2. Introduced a novel wrapping operation to map the problem to a compact domain and developed a theory for best approximation of the uniform distribution by finite Gaussian mixtures. 3. Combined these new approximation bounds with stability properties of optimal distributions to establish an improved lower bound on the support size, disproving a previous conjecture of linear scaling.",
+      "summary": "This paper studies the amplitude-constrained additive white Gaussian noise (AWGN) channel. The authors develop a new method involving a wrapping operation and approximation theory for Gaussian mixtures to prove that the number of points in the capacity-achieving input distribution scales at least as fast as A√log A, improving the previous lower bound and disproving the conjecture of linear scaling.",
+      "mindmap": "graph TB\n        Root(”An Improved Lower Bound on Cardinality of Support of the Amplitude-Constrained AWGN Channel”) --> Problem(”核心问题/Problem<br>Bound the support size of the capacity-achieving input distribution for the amplitude-constrained AWGN channel.”)\n        Root --> Method(”主要方法/Method<br>1. Quantify output distribution closeness to uniform.<br>2. Introduce wrapping operation.<br>3. Develop theory for approximating uniform with Gaussian mixtures.”)\n        Root --> Results(”关键结果/Results<br>Established a new lower bound of order A√log A, improving the known bound and ruling out the conjectured linear scaling.”)"
+    },
+    {
+      "title": "Iterative Channel Estimation, Detection and Decoding for Multi-Antenna Systems with RIS",
+      "authors": "Roberto C. G. Porto, Rodrigo C. de Lamare",
+      "institution": "Pontifical Catholic University of Rio de Janeiro",
+      "link": "https://arxiv.org/pdf/2512.22731",
+      "code": null,
+      "tags": [
+        "wireless communications",
+        "reconfigurable intelligent surfaces (RIS)",
+        "iterative channel estimation",
+        "low-density parity-check (LDPC) codes",
+        "encoded pilots",
+        "channel tracking"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8a31ec639028801ae842c3f761ded647605080aafb7045201970ccf2c6ba4a83_w640_q70.webp",
+      "contributions": "1. Proposes a novel iterative code-aided channel estimation (ICCE) technique using LDPC codes and encoded pilots to improve accuracy and reduce pilot overhead. 2. Introduces an iterative channel tracking (ICT) method to leverage temporal channel correlation for further performance enhancement. 3. Provides an analytical evaluation of the proposed estimator in terms of normalized mean-squared error (NMSE), computational complexity, and code rate impact, validated in multi-RIS scenarios.",
+      "summary": "This paper addresses the high pilot overhead and estimation difficulty in multi-user, multi-antenna systems assisted by multiple Reconfigurable Intelligent Surfaces (RIS). It proposes an iterative channel estimation, detection, and decoding (ICEDD) scheme that uses encoded pilots and LDPC codes to refine channel estimates iteratively, combined with a channel tracking method. The approach is analytically evaluated and shown to perform well in sub-6 GHz multi-RIS scenarios under various conditions.",
+      "mindmap": "graph TB\n        A[Iterative Channel Estimation, Detection and Decoding for Multi-Antenna Systems with RIS] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[多RIS系统中信道估计开销大/Pilot overhead high in multi-RIS systems]\n        C --> C1[迭代编码辅助信道估计/Iterative Code-Aided Channel Estimation (ICCE)]\n        C --> C2[使用编码导频和LDPC码/Uses Encoded Pilots & LDPC codes]\n        C --> C3[迭代信道跟踪/Iterative Channel Tracking (ICT)]\n        D --> D1[降低导频开销，提高精度/Reduced pilot overhead, improved accuracy]\n        D --> D2[在LOS/NLOS场景下验证/Validated in LOS/NLOS scenarios]"
+    },
+    {
+      "title": "Beyond Beam Sweeping: One-Shot Satellite Acquisition with Doppler-Aware Rainbow Beamforming",
+      "authors": "Juha Park, Ian P. Roberts, Wonjae Shin",
+      "institution": "Korea University, University of California, Los Angeles (UCLA)",
+      "link": "https://arxiv.org/pdf/2512.22828",
+      "code": null,
+      "tags": [
+        "wireless communications",
+        "beamforming",
+        "Doppler shift",
+        "beam-squint",
+        "satellite acquisition",
+        "LEO satellite"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/dedb3ff3e3e4e1a17eef3e7e1cc69650d5af99f53c8b7e6c709814579eb2bd08_w640_q70.webp",
+      "contributions": "1. Proposes a one-shot satellite acquisition framework that leverages Doppler and beam-squint effects, traditionally seen as impairments, to avoid time-domain beam sweeping. 2. Derives a closed-form \"rainbow beamformer\" that aligns frequency-dependent beam directions with satellite positions inferred from Doppler shifts, enabling simultaneous multi-satellite reception. 3. Develops three Doppler-aware angle estimation algorithms to extract satellite position information from received signals.",
+      "summary": "The paper addresses the high overhead and latency of conventional beam sweeping for LEO satellite acquisition. It proposes a one-shot acquisition method using a novel \"rainbow beamformer\" that exploits Doppler and beam-squint effects to map frequency to beam direction, allowing full angular coverage with a single transmission. Simulation results show the method significantly outperforms conventional approaches in accuracy and speed.",
+      "mindmap": "graph TB\n        A[Beyond Beam Sweeping: One-Shot Satellite Acquisition with Doppler-Aware Rainbow Beamforming] --> B\n        A --> C\n        A --> D\n        B[核心问题/Problem: Conventional beam sweeping for LEO satellite acquisition is slow and inefficient.]\n        C[主要方法/Method: Use Doppler and beam-squint effects to create a one-shot ”rainbow beamformer” and Doppler-aware angle estimation.]\n        D[关键结果/Results: Proposed method outperforms conventional approaches in accuracy and required time.]"
+    },
+    {
+      "title": "Covering in Hamming and Grassmann Spaces: New Bounds and Reed--Solomon-Based Constructions",
+      "authors": "Samin Riasat, Hessam Mahdavifar",
+      "institution": "Northeastern University",
+      "link": "https://arxiv.org/pdf/2512.22911",
+      "code": null,
+      "tags": [
+        "coding theory",
+        "covering radius",
+        "Reed-Solomon codes",
+        "subspace codes",
+        "Grassmann space",
+        "quantization"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/527d8a692c903835518b76a9847466ea863b5cdd88c2bcff03a9fa78fc510ea5_w640_q70.webp",
+      "contributions": "1. Introduced the average covering radius as a new performance metric and derived non-asymptotic random-coding bounds for it in Hamming and Grassmann spaces. 2. Developed efficient puncturing-based covering algorithms for Generalized Reed-Solomon (GRS) codes in Hamming space. 3. Proposed a new family of subspace codes called Character-Reed-Solomon (CRS) codes for Grassmann space and showed their strong average covering performance.",
+      "summary": "This paper studies covering problems in Hamming and Grassmann spaces by introducing the average covering radius as a measure of distortion. It proposes new constructions using Reed-Solomon codes and their subspace variants, showing that these structured codes achieve strong average performance, often outperforming random codes, despite poor worst-case guarantees.",
+      "mindmap": "graph TB\n        Root(”Covering in Hamming and Grassmann Spaces”) --> Problem(”核心问题/Problem”)\n        Root --> Method(”主要方法/Method”)\n        Root --> Results(”关键结果/Results”)\n        Problem --> P1(”统一覆盖问题视角/Unified view of covering”)\n        Problem --> P2(”量化平均失真/Quantifying average distortion”)\n        Method --> M1(”引入平均覆盖半径/Introduce average covering radius”)\n        Method --> M2(”基于RS和CRS的构造/RS and CRS-based constructions”)\n        Results --> R1(”非渐近随机编码界/Non-asymptotic random-coding bounds”)\n        Results --> R2(”结构化码平均性能优异/Structured codes have strong average performance”)"
+    },
+    {
+      "title": "Generalized Hyperderivative Reed-Solomon Codes",
+      "authors": "Mahir Bilen Can, Benjamin Horowitz",
+      "institution": "Tulane University",
+      "link": "https://arxiv.org/pdf/2512.22948",
+      "code": null,
+      "tags": [
+        "coding theory",
+        "NRT metric",
+        "MDS codes",
+        "LDPC codes",
+        "quasi-cyclic codes",
+        "dual codes"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e3c5942bace3c63ef63268bd0c7ed329a53e91264897775fa0f183b023930b54_w640_q70.webp",
+      "contributions": "1) Proposes Generalized Hyperderivative Reed-Solomon (GHRS) codes, a novel family that generalizes NRT Reed-Solomon codes. 2) Proves that every GHRS code is MDS and that the dual of a GHRS code is also a GHRS code. 3) Identifies subfamilies of GHRS codes that are low-density parity-check (LDPC) codes and quasi-cyclic codes, with some codes possessing all these properties simultaneously.",
+      "summary": "This paper introduces Generalized Hyperderivative Reed-Solomon (GHRS) codes, a new family that generalizes NRT Reed-Solomon codes. The main results prove that GHRS codes are MDS, closed under duality, and include subfamilies that are both LDPC and quasi-cyclic, offering a unique combination of optimal error correction and practical sparse structure.",
+      "mindmap": "graph TB\n        A[Generalized Hyperderivative Reed-Solomon Codes] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[融合MDS与LDPC特性<br/>Reconcile MDS and LDPC properties]\n        C --> C1[广义超导数RS码构造<br/>GHRS Code Construction]\n        C --> C2[推广NRT度量RS码<br/>Generalize NRT metric RS codes]\n        D --> D1[所有GHRS码是MDS<br/>Every GHRS code is MDS]\n        D --> D2[对偶码也是GHRS码<br/>Dual is also a GHRS code]\n        D --> D3[存在LDPC子族<br/>Subfamilies are LDPC codes]\n        D --> D4[存在准循环子族<br/>Subfamilies are Quasi-Cyclic codes]"
+    },
+    {
+      "title": "User-Centric Cell-Free Massive MIMO Enhanced by Fluid-Antenna Access Points: Uplink Analysis",
+      "authors": "Maryam Olyaee, Giovanni Interdonato, Stefano Buzzi",
+      "institution": "Based on the arXiv identifier and content, the institution is not explicitly stated in the provided text. Common affiliations for such work include universities like Southeast University, University of Toronto, or Chalmers University of Technology, but cannot be definitively inferred.",
+      "link": "https://arxiv.org/pdf/2512.23046",
+      "code": null,
+      "tags": [
+        "wireless communications",
+        "signal processing",
+        "cell-free massive MIMO",
+        "fluid antenna",
+        "channel estimation",
+        "spectral efficiency",
+        "port selection"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a63b1ce15ca3e88e8e5315966cc391d5e7b8ac067259369ded24f39d0f44fc8b_w640_q70.webp",
+      "contributions": "1. Proposed a generalized LMMSE-based uplink channel estimation scheme that dynamically activates fluid antenna ports during pilot training. 2. Designed a distributed port selection strategy to minimize per-AP channel estimation error by exploiting spatial correlation. 3. Developed an alternating-optimization framework to select FA port configurations for maximizing the uplink sum spectral efficiency.",
+      "summary": "This paper investigates cell-free massive MIMO systems enhanced by fluid antennas, proposing new methods for channel estimation, antenna port selection, and spectral efficiency optimization. The core innovations include a dynamic channel estimation scheme, a correlation-aware port selection strategy, and an optimization framework for port configuration. Numerical results show that these FA-aware strategies significantly reduce channel estimation error and improve spectral efficiency compared to traditional fixed-antenna systems.",
+      "mindmap": "graph TB\n        A[User-Centric Cell-Free Massive MIMO Enhanced by Fluid-Antenna Access Points: Uplink Analysis] --> B\n        A --> C\n        A --> D\n        B[核心问题/Problem<br>Enhancing CF-mMIMO with Fluid Antennas]\n        C[主要方法/Method<br>FA-aware Channel Estimation, Port Selection, & SE Optimization]\n        D[关键结果/Results<br>Reduced Estimation Error & Improved Sum-SE]\n        C --> C1[LMMSE信道估计/LMMSE Channel Estimation]\n        C --> C2[分布式端口选择/Distributed Port Selection]\n        C --> C3[交替优化框架/Alternating-Optimization Framework]"
+    },
+    {
+      "title": "Trust Region Masking for Long-Horizon LLM Reinforcement Learning",
+      "authors": "Yingru Li, Jiacai Liu, Jiawei Xu, Yuxuan Tong, Ziniu Li, Baoxiang Wang",
+      "institution": "(Institutions not explicitly listed in provided content; inferred from author names and common affiliations in the field, but not specified. Therefore, output is left blank.)",
+      "link": "https://arxiv.org/pdf/2512.23075",
+      "code": null,
+      "tags": [
+        "post-training (sft/rlhf)",
+        "trust region",
+        "policy gradient",
+        "off-policy mismatch",
+        "KL divergence",
+        "sequence-level masking"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/74d8872516a568f2933a83e36b0cf25d414f3a25ffa113cd0cee809d2b39c6ac_w640_q70.webp",
+      "contributions": "1. Deriving two novel, tighter theoretical bounds (Pinsker-Marginal and Mixed) on the approximation error in off-policy LLM-RL, scaling better with sequence length than classical O(T^2) bounds. 2. Identifying that these bounds depend on a sequence-level quantity (maximum token-level KL divergence) that cannot be controlled by token-independent methods like PPO clipping. 3. Proposing the Trust Region Masking (TRM) algorithm, which masks entire sequences from gradient updates to enforce the trust region, providing non-vacuous monotonic improvement guarantees for long-horizon tasks.",
+      "summary": "The paper addresses the problem that classical trust region bounds become vacuous for long-horizon LLM reinforcement learning due to unavoidable off-policy mismatch. It proposes Trust Region Masking (TRM), a method that excludes entire sequences from gradient computation if any token violates a trust region constraint. This approach, supported by new tighter theoretical bounds, provides the first non-vacuous monotonic improvement guarantees for long-horizon LLM-RL.",
+      "mindmap": "graph TB\n        A[Trust Region Masking for Long-Horizon LLM RL] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[Off-policy mismatch in LLM-RL<br/>导致经典信任域边界失效]\n        C --> C1[提出信任域掩码(TRM)<br/>Propose Trust Region Masking (TRM)]\n        C1 --> C2[序列级掩码<br/>Sequence-level Masking]\n        D --> D1[推导更紧的理论边界<br/>Derive Tighter Bounds (O(T), O(T^{3/2}))]\n        D --> D2[提供非平凡的单调改进保证<br/>Provide Non-vacuous Guarantees]"
+    },
+    {
+      "title": "A New Family of Binary Sequences via Elliptic Function Fields over Finite Fields of Odd Characteristics",
+      "authors": "Xiaofeng Liu, Jun Zhang, Fang-Wei Fu",
+      "institution": "Nankai University, Capital Normal University",
+      "link": "https://arxiv.org/pdf/2512.23194",
+      "code": null,
+      "tags": [
+        "coding theory / sequence design",
+        "binary sequences",
+        "cyclic elliptic function fields",
+        "quadratic residue map",
+        "correlation",
+        "linear complexity"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ed1e613dbe921a77167d7015d0322c884fa71a87e152c23eb1c48cd75dbda720_w640_q70.webp",
+      "contributions": "1. Extends the construction of binary sequences from cyclic elliptic function fields over fields of characteristic 2 to those of odd characteristic. 2. Introduces the use of the quadratic residue map (η) instead of the trace map for sequence generation. 3. Provides theoretical bounds for the key properties (balance, correlation, linear complexity) of the new family of sequences.",
+      "summary": "This paper constructs a new family of binary sequences using cyclic elliptic function fields over finite fields of odd characteristic, employing a quadratic residue map. It derives theoretical upper bounds for the sequences' balance and correlation, and a lower bound for their linear complexity, thus extending prior work from characteristic 2.",
+      "mindmap": "graph TB\n        A[”A New Family of Binary Sequences via Elliptic Function Fields over Finite Fields of Odd Characteristics<br>基于奇特征有限域上椭圆函数域的新二进制序列族”] --> B[”核心问题/Problem<br>Construct binary sequences with good properties (low correlation, high linear complexity)<br>构建具有良好特性（低相关性、高线性复杂度）的二进制序列”]\n        A --> C[”主要方法/Method<br>Extend prior construction to odd characteristic fields using the quadratic residue map (η) on cyclic elliptic function fields<br>利用二次剩余映射(η)将现有构造推广到奇特征域上的循环椭圆函数域”]\n        A --> D[”关键结果/Results<br>New family of sequences with proven bounds on balance, correlation, and linear complexity<br>新的序列族，其平衡性、相关性和线性复杂度均有理论界”]"
+    },
+    {
+      "title": "Sum Rate optimization for RIS-Aided RSMA system with Movable Antenna",
+      "authors": "Mingyu Hu, Nan Liu, Wei Kang",
+      "institution": "Southeast University",
+      "link": "https://arxiv.org/pdf/2512.23242",
+      "code": null,
+      "tags": [
+        "wireless communications",
+        "Rate-Splitting Multiple Access (RSMA)",
+        "Reconfigurable Intelligent Surface (RIS)",
+        "Movable Antenna (MA)",
+        "fractional programming (FP)",
+        "Karush-Kuhn-Tucker (KKT)"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f1e79fba6f04cd4d7c4ec2d13e04c3ba137d0bd7900e03c9ff0e9b66959dbfcf_w640_q70.webp",
+      "contributions": "1. Proposes a novel movable-antenna (MA) assisted RSMA-RIS framework to enhance spatial degrees of freedom and system performance. 2. Formulates and solves a joint optimization problem for beamforming, RIS reflection, rate splitting, and MA positions using FP and KKT conditions. 3. Demonstrates through numerical results that MA provides additional performance gains for RSMA, even with RIS assistance, and yields greater gains for RSMA compared to SDMA.",
+      "summary": "This paper proposes a novel wireless communication system that integrates movable antennas (MAs) with a Rate-Splitting Multiple Access (RSMA) framework aided by a Reconfigurable Intelligent Surface (RIS). To maximize the sum rate, the authors formulate a joint optimization problem and solve it using fractional programming and KKT conditions to derive updates for beamforming, RIS reflection, and MA positions. The results show that incorporating MAs provides significant additional performance improvements for RSMA systems compared to traditional fixed-antenna setups.",
+      "mindmap": "graph TB\n        Root(”Sum Rate optimization for RIS-Aided RSMA system with Movable Antenna”) --> Problem(”核心问题/Problem”)\n        Root --> Method(”主要方法/Method”)\n        Root --> Results(”关键结果/Results”)\n        Problem --> P1(”固定天线限制空间自由度/Fixed antennas limit spatial DoF”)\n        Method --> M1(”提出MA辅助的RSMA-RIS框架/Propose MA-assisted RSMA-RIS framework”)\n        Method --> M2(”联合优化问题建模/Joint optimization problem formulation”)\n        Method --> M3(”使用FP和KKT求解/Employ FP and KKT for solution”)\n        Results --> R1(”MA为RSMA带来额外性能提升/MA yields extra gain for RSMA”)\n        Results --> R2(”MA对RSMA增益大于SDMA/Greater gain for RSMA vs. SDMA”)"
+    },
+    {
+      "title": "Information Inequalities for Five Random Variables",
+      "authors": "E.P. Csirmaz, L. Csirmaz",
+      "institution": "Rényi Institute, Budapest; UTIA, Prague",
+      "link": "https://arxiv.org/pdf/2512.23316",
+      "code": null,
+      "tags": [
+        "information theory",
+        "entropy region",
+        "non-Shannon inequalities",
+        "polymatroid",
+        "polyhedral geometry",
+        "maximum entropy method"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/84a2dc696b3d22870eaf086d321a670add1f6653c242b33b9c8973dcb3f6d463_w640_q70.webp",
+      "contributions": "1. Applied a variant of the Maximum Entropy Method with computational optimizations to calculate all five-variable non-Shannon inequalities from the first nine generations. 2. Defined and proved two infinite collections of five-variable non-Shannon entropy inequalities. 3. Developed an algorithm to enumerate all extremal inequalities based on parameterizing downward closed subsets of lattice points.",
+      "summary": "This paper investigates the structure of the entropy region for five discrete random variables, a largely unknown area. The authors employ a computationally optimized variant of the Maximum Entropy Method to generate and analyze non-Shannon inequalities. They successfully define infinite families of such inequalities and propose an algorithm for enumerating extremal ones, conjecturing these results fully characterize their method's output.",
+      "mindmap": "graph TB\n        A[Information Inequalities for Five Random Variables] --> B[核心问题/Problem: Structure of the five-variable entropy region is unknown]\n        A --> C[主要方法/Method: Variant of Maximum Entropy Method with complexity reduction]\n        A --> D[关键结果/Results: Two infinite collections of non-Shannon inequalities; enumeration algorithm]"
+    },
+    {
+      "title": "Faster-than-Nyquist Signaling for Next-Generation Wireless: Principles, Applications, and Challenges",
+      "authors": "Shuangyang Li, Melda Yuksel, Tongyang Xu, Shinya Sugiura, Jinhong Yuan, Giuseppe Caire, Lajos Hanzo",
+      "institution": "Technical University of Berlin, Middle East Technical University, University College London, The University of Tokyo, University of New South Wales, University of Southampton",
+      "link": "https://arxiv.org/pdf/2512.23377",
+      "code": null,
+      "tags": [
+        "wireless communications",
+        "faster-than-Nyquist",
+        "spectral efficiency",
+        "intersymbol interference",
+        "integrated sensing and communications",
+        "channel coding"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/89c980a1e5e5b1ed068b7e6ff9711929992306dafa18c7f8959022851f2c0a48_w640_q70.webp",
+      "contributions": "1. Provides a structured introduction to FTN signaling, covering its principles, theoretical foundations, and unique advantages. 2. Presents promising results for coded FTN systems, demonstrating their potential for high spectral efficiency. 3. Highlights the compelling advantages of FTN signaling for integrated sensing and communications (ISAC), a key function for future networks.",
+      "summary": "This paper introduces Faster-than-Nyquist (FTN) signaling as a solution to increase spectral efficiency in next-generation wireless networks without using more bandwidth. It explains the core principles of FTN, presents results for coded FTN systems, and discusses its application in integrated sensing and communications. The paper concludes by outlining open research challenges and future directions for FTN technology.",
+      "mindmap": "graph TB\n        A[Faster-than-Nyquist Signaling for Next-Generation Wireless] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[频谱效率有限/Spectral Efficiency Limit]\n        B --> B2[奈奎斯特准则限制/Nyquist Criterion Constraint]\n        C --> C1[FTN信令/Faster-than-Nyquist Signaling]\n        C --> C2[传输更多符号/Transmit More Symbols]\n        D --> D1[提高频谱效率/Improved Spectral Efficiency]\n        D --> D2[ISAC应用优势/Advantages for ISAC]"
+    },
+    {
+      "title": "Dynamic Channel Knowledge Map Construction in MIMO-OFDM Systems",
+      "authors": "Wenjun Jiang, Xiaojun Yuan, Chenchen Liu, Boyu Teng",
+      "institution": "University of Electronic Science and Technology of China (UESTC)",
+      "link": "https://arxiv.org/pdf/2512.23470",
+      "code": null,
+      "tags": [
+        "wireless communication systems",
+        "channel knowledge map",
+        "MIMO-OFDM",
+        "Bayesian inference",
+        "dynamic channel estimation",
+        "approximate inference"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2d544da2ea0000e168d159438e62f20d842a4bbecaf270ead3f29ad33b0c984b_w640_q70.webp",
+      "contributions": "1. Proposed a dynamic channel model for MIMO-OFDM systems that accounts for quasi-static and dynamic scatterers, antenna rotation, and synchronization errors. 2. Formulated the dynamic CKM construction problem within a Bayesian inference framework and designed a novel two-stage approximate Bayesian inference algorithm. 3. Developed a high-performance algorithm for quasi-static parameter inference and a low-complexity algorithm for dynamic parameter estimation, enabling efficient and accurate channel estimation in dynamic environments.",
+      "summary": "This paper addresses the problem of constructing Channel Knowledge Maps (CKM) in dynamic environments for MIMO-OFDM systems. It proposes a two-stage Bayesian inference method that first estimates quasi-static parameters and then uses them as priors to efficiently estimate dynamic parameters from limited real-time data. The method is shown to enable low-overhead, high-performance channel estimation in dynamic settings.",
+      "mindmap": "graph TB\n        Root[”Dynamic Channel Knowledge Map Construction in MIMO-OFDM Systems”] --> Problem[”核心问题/Problem: Existing CKM methods are for quasi-static environments, not dynamic ones.”]\n        Root --> Method[”主要方法/Method: Two-stage approximate Bayesian inference algorithm.”]\n        Root --> Results[”关键结果/Results: Enables low-overhead, high-performance channel estimation in dynamic environments.”]\n        Method --> StageI[”阶段I/Stage I: Jointly infer quasi-static parameters and calibrate errors from historical data.”]\n        Method --> StageII[”阶段II/Stage II: Estimate dynamic parameters from real-time data using quasi-static priors.”]"
+    },
+    {
+      "title": "Affine-Projection Recovery of Continuous Angular Power Spectrum: Geometry and Resolution",
+      "authors": "Shengsong Luo, Ruilin Wu, Chongbin Xu, Junjie Ma, Xiaojun Yuan, Xin Wang",
+      "institution": "Fudan University, Peking University, Chinese Academy of Sciences, University of Electronic Science and Technology of China",
+      "link": "https://arxiv.org/pdf/2512.23506",
+      "code": null,
+      "tags": [
+        "signal processing",
+        "angular power spectrum",
+        "projection onto linear variety",
+        "trigonometric polynomials",
+        "covariance recovery",
+        "identifiability"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b156f7ef552ecd3341ea066007082e6d14aa267355db19e39b178470ac571b84_w640_q70.webp",
+      "contributions": "1. Provides a geometric interpretation of the PLV algorithm by analyzing it in a weighted Fourier-domain, leading to an explicit trigonometric-polynomial representation. 2. Derives a closed-form solution via a positive-definite matrix, which guarantees uniqueness of the recovered APS. 3. Establishes an exact energy identity that characterizes the reconstruction error and provides a sharp identifiability condition: perfect recovery occurs if and only if the true APS lies within the identified subspace; otherwise, PLV returns the minimum-energy consistent spectrum.",
+      "summary": "This paper addresses the problem of recovering a continuous angular power spectrum (APS) from a spatial channel covariance matrix. It builds upon the Projection onto Linear Variety (PLV) algorithm, analyzing it in a weighted Fourier-domain to enhance geometric interpretability, which yields a closed-form solution and a sharp characterization of identifiability and resolution. The main conclusion is that PLV achieves perfect recovery only when the true APS lies in a specific trigonometric-polynomial subspace; otherwise, it returns the minimum-energy spectrum consistent with the covariance.",
+      "mindmap": "graph TB\n        A[Affine-Projection Recovery of Continuous Angular Power Spectrum: Geometry and Resolution] --> B(核心问题/Problem: Recovering continuous angular power spectrum (APS) from channel covariance)\n        A --> C(主要方法/Method: Analyze PLV in weighted Fourier-domain for geometric interpretability, yielding trigonometric-polynomial representation and closed-form solution)\n        A --> D(关键结果/Results: Sharp identifiability condition: perfect recovery iff true APS in subspace; otherwise returns minimum-energy consistent spectrum)"
+    },
+    {
+      "title": "Active Nonparametric Two-Sample Testing by Betting on Heterogeneous Data Sources",
+      "authors": "Chia-Yu Hsu, Shubhanshu Shekhar",
+      "institution": "University of Michigan, Ann Arbor",
+      "link": "https://arxiv.org/pdf/2512.22403",
+      "code": null,
+      "tags": [
+        "sequential hypothesis testing",
+        "nonparametric two-sample testing",
+        "adaptive sampling",
+        "betting martingale",
+        "heterogeneous data sources",
+        "sequential analysis"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cfde22ca18e079a4fdaa26e63173f1dbf9f2da4d0473aed2c5fc96335c117664_w640_q70.webp",
+      "contributions": "1. Proposes an active, nonparametric sequential two-sample testing procedure for multiple heterogeneous data sources, which works under minimal distributional assumptions., 2. Introduces an adaptive source-selection strategy that mixes exploitation (based on empirical distinguishability) and exploration (via a vanishing greedy strategy) within the testing-by-betting framework., 3. Theoretically establishes that the test controls type-I error, has power-one under the alternative, and provides a bound on expected sample size, characterizing the improvement over passive sampling.",
+      "summary": "The paper addresses the problem of active, sequential two-sample testing across multiple heterogeneous data sources where distributions are nonparametric. It proposes a method that adaptively selects data sources using an explore-exploit strategy and updates a betting wealth martingale to make decisions. The main conclusion is that this approach controls type-I error, ensures power-one detection, and achieves faster decisions compared to passive testing, quantifying the gains of adaptive sampling.",
+      "mindmap": "graph TB\n        A[Active Nonparametric Two-Sample Testing by Betting on Heterogeneous Data Sources] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[Active sequential two-sample testing across multiple heterogeneous data sources]\n        B --> B2[Goal: Decide if distributions are same/different as quickly as possible]\n        C --> C1[Adaptive source selection: mixes exploitation & exploration]\n        C --> C2[Uses betting-wealth martingale process]\n        C --> C3[Stops when wealth exceeds threshold]\n        D --> D1[Controls type-I error at level-α]\n        D --> D2[Power-one property under alternative]\n        D --> D3[Characterizes improvement over passive sampling]"
+    },
+    {
+      "title": "Flexible Intelligent Metasurface for Downlink Communications under Statistical CSI",
+      "authors": "Vaibhav Kumar, Anastasios Papazafeiropoulos, Pandelis Kourtessis, John Senior, Marwa Chafii, Dimitra I. Kaklamani, Iakovos S. Venieris",
+      "institution": "New York University Abu Dhabi, University of Hertfordshire, National Technical University of Athens",
+      "link": "https://arxiv.org/pdf/2512.23045",
+      "code": null,
+      "tags": [
+        "wireless communications",
+        "flexible intelligent metasurface",
+        "statistical CSI",
+        "spatial correlation",
+        "gradient projection",
+        "spectral efficiency"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/83fd0aced534775615a03c043cea504dadbde037dac213f228900f529f922a61_w640_q70.webp",
+      "contributions": "1. Departing from prior works that rely on instantaneous CSI, this paper addresses the problem of average sum spectral efficiency maximization under statistical CSI for a FIM-assisted downlink system. 2. Derives the spatial correlation matrix for the FIM-aided transmitter, a key modeling contribution. 3. Proposes an iterative FIM optimization algorithm based on the gradient projection method to solve the non-convex optimization problem.",
+      "summary": "This paper proposes a method to optimize a Flexible Intelligent Metasurface (FIM) for downlink communications using only statistical Channel State Information (CSI), rather than instantaneous CSI. The method involves deriving the FIM's spatial correlation matrix and applying a gradient projection-based algorithm to maximize the average sum spectral efficiency. Simulation results show the FIM-aided system provides significant performance gains over rigid antenna arrays in scenarios with strong spatial channel correlation.",
+      "mindmap": "graph TB\n        A[Flexible Intelligent Metasurface for Downlink Communications under Statistical CSI] --> B\n        A --> C\n        A --> D\n        B[核心问题/Problem<br>Maximize average sum spectral efficiency in FIM-assisted downlink under statistical CSI]\n        C[主要方法/Method<br>Derive spatial correlation matrix; Propose iterative gradient projection algorithm]\n        D[关键结果/Results<br>FIM provides significant gain with strong spatial correlation; Gain diminishes with weak correlation]"
+    },
+    {
+      "title": "Axiomatic Foundations of Bayesian Persuasion",
+      "authors": "Youichiro Higashi, Kemal Ozbek, Norio Takeoka",
+      "institution": "Okayama University, University of Southampton, Hitotsubashi University",
+      "link": "https://arxiv.org/pdf/2512.23409",
+      "code": null,
+      "tags": [
+        "economic theory",
+        "game theory",
+        "Bayesian persuasion",
+        "axiomatic foundations",
+        "menu-choice data",
+        "subjective costs",
+        "information acquisition"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c9cbf2648a0225d84576c0f68b46ebe9baea608c2a35d82e0bb07c32e17a77be_w640_q70.webp",
+      "contributions": "1. Proposes novel axiomatic foundations for Bayesian persuasion models where the principal can manage the agent's bias. 2. Introduces an elicitation method to construct the principal's subjective information acquisition costs using only observable menu-choice data. 3. Characterizes models where costly information acquisition is combined with the anticipation of steering the agent's bias.",
+      "summary": "This paper studies the axiomatic foundations of Bayesian persuasion, where a principal informs a biased agent. It proposes new models where the principal can steer the agent's bias after acquiring costly information and provides a method to elicit the principal's subjective information costs from observable choice data.",
+      "mindmap": "graph TB\n        Root[Axiomatic Foundations of Bayesian Persuasion] --> Problem(核心问题: 为贝叶斯说服建立公理化基础 / Problem: Axiomatic foundations for Bayesian persuasion)\n        Root --> Method(主要方法: 使用可观察的菜单选择数据进行成本推测 / Method: Elicitation using observable menu-choice data)\n        Root --> Results(关键结果: 刻画了管理偏见与信息获取成本的新模型 / Results: Characterizes novel models of bias steering & costly information acquisition)"
+    },
+    {
+      "title": "Identifying faulty edges in resistive electrical networks",
+      "authors": "Barbara Fiedorowicz, Amitabh Basu",
+      "institution": "Johns Hopkins University",
+      "link": "https://arxiv.org/pdf/2512.23527",
+      "code": null,
+      "tags": [
+        "combinatorial optimization",
+        "electrical networks",
+        "fault detection",
+        "graph theory",
+        "effective resistance",
+        "measurement complexity"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1553ef62b0bcf95d5ba534ffa13af3f41d14642009e8365c1d74d48cc1349d80_w640_q70.webp",
+      "contributions": "1. Formalizes a novel problem of identifying faulty edges in resistive networks using effective resistance measurements. 2. Proves rigorous upper and lower bounds on the optimal number of measurements for various graph classes. 3. Demonstrates that the proposed measurement strategies are optimal for several graph classes, as the bounds are tight.",
+      "summary": "The paper studies the problem of identifying faulty resistors in an electrical network by measuring effective resistances between node pairs. The authors propose strategies to minimize the number of such measurements needed for diagnosis. They prove tight upper and lower bounds on this number for different graph classes, establishing the optimality of their approach.",
+      "mindmap": "graph TB\n        Root(Identifying faulty edges in resistive electrical networks) --> Problem(核心问题/Problem)\n        Root --> Method(主要方法/Method)\n        Root --> Results(关键结果/Results)\n        Problem --> P1(诊断电阻网络中的故障边/Diagnose faulty edges in a resistive network)\n        Method --> M1(测量节点对间的有效电阻/Measure effective resistance between node pairs)\n        Results --> R1(证明测量次数的最优上下界/Prove optimal upper and lower bounds on measurements)\n        Results --> R2(对多个图类策略是最优的/Strategies are optimal for several graph classes)"
+    },
+    {
       "title": "Composition Theorems for f-Differential Privacy",
       "authors": "Natasha Fernandes, Annabelle McIver, Parastoo Sadeghi",
       "institution": "Macquarie University, UNSW (University of New South Wales)",

@@ -4,6 +4,661 @@
   "week": "20251229-20260104",
   "items": [
     {
+      "title": "Syntax Is Not Enough: An Empirical Study of Small Transformer Models for Neural Code Repair",
+      "authors": "Shaunak Samant",
+      "institution": "MIT World Peace University",
+      "link": "https://arxiv.org/pdf/2512.22216",
+      "code": null,
+      "tags": [
+        "automated program repair",
+        "CodeT5",
+        "syntax validity",
+        "semantic correctness",
+        "neural code repair",
+        "transformer"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b5b419b9d06731756aa85f1747cb55b61006764a0f1afdd4eef702af659daca2_w640_q70.webp",
+      "contributions": "1. An empirical study demonstrating that a small transformer model (CodeT5-small) can achieve high syntactic correctness (94%) in code generation but fails to produce semantically correct repairs (0% exact match). 2. Identifies key failure factors: identifier abstraction removing semantic signals, cross-entropy training encouraging conservative copying, and insufficient model capacity for multi-step reasoning. 3. Argues that common evaluation metrics overestimate practical effectiveness and calls for future work to prioritize semantically informed datasets and execution-aware objectives.",
+      "summary": "This study investigates whether a small transformer model can effectively repair Java bugs. The authors fine-tune CodeT5-small on bug-fix pairs and find that while it generates syntactically valid code 94% of the time, it fails to produce correct repairs, often just copying the buggy input. The conclusion is that syntactic correctness is not a reliable proxy for semantic correctness, highlighting a significant gap in neural code repair evaluation.",
+      "mindmap": "graph TB\n        Root[”Syntax Is Not Enough: An Empirical Study of Small Transformer Models for Neural Code Repair<br/>论文标题”]\n        Root --> Problem[”核心问题/Problem<br/>Can small transformer models meaningfully repair real-world bugs? Is syntactic correctness a reliable proxy for semantic correctness?”]\n        Root --> Method[”主要方法/Method<br/>Fine-tune CodeT5-small on Java bug-fix pairs from CodeXGLUE. Evaluate token-level performance and syntactic validity using AST parsing.”]\n        Root --> Results[”关键结果/Results<br/>High syntax validity (94%) but zero correct repairs. Model copies buggy input 80% of the time. Syntax is not enough for semantic repair.”]"
+    },
+    {
+      "title": "Failure Analysis of Safety Controllers in Autonomous Vehicles Under Object-Based LiDAR Attacks",
+      "authors": "Daniyal Ganiuly, Nurzhau Bolatbek, Assel Smaiyl",
+      "institution": "Astana IT University",
+      "link": "https://arxiv.org/pdf/2512.22244",
+      "code": null,
+      "tags": [
+        "autonomous vehicle security",
+        "LiDAR attacks",
+        "safety controllers",
+        "adversarial perception",
+        "cut-in scenarios",
+        "time to collision"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7f08729d3ab6d3cb95ef74d24b6a8c9504767e34a79b6a8ed3d819b7a0449654_w640_q70.webp",
+      "contributions": "1. Presents a systematic failure analysis of longitudinal safety controllers under object-based LiDAR attacks in highway scenarios., 2. Demonstrates that short-duration LiDAR-induced object hallucinations can trigger unsafe braking, delayed hazard responses, and unstable control., 3. Shows that controller failures are more influenced by the temporal consistency of spoofed objects than by spatial inaccuracies alone.",
+      "summary": "This paper analyzes how object-based LiDAR attacks impact the safety controllers of autonomous vehicles. Using a high-fidelity simulation framework, it evaluates attacks in highway scenarios and finds they can cause unsafe braking and delayed responses. The key conclusion is that temporal consistency of adversarial objects is a stronger driver of controller failure than spatial errors, revealing a gap between perception robustness and control-level safety.",
+      "mindmap": "graph TB\n        Root[”Failure Analysis of Safety Controllers in Autonomous Vehicles Under Object-Based LiDAR Attacks”] --> Problem[”核心问题/Problem: Impact of LiDAR attacks on vehicle safety controllers is not well understood”]\n        Root --> Method[”主要方法/Method: High-fidelity simulation of attacks in cut-in and car-following scenarios”]\n        Root --> Results[”关键结果/Results: Attacks cause unsafe braking; failures depend more on temporal consistency than spatial accuracy”]"
+    },
+    {
+      "title": "Hallucination Detection for LLM-based Text-to-SQL Generation via Two-Stage Metamorphic Testing",
+      "authors": "Bo Yang, Yinfen Xia, Weisong Sun, Yang Liu",
+      "institution": "Beijing Forestry University, Nanyang Technological University",
+      "link": "https://arxiv.org/pdf/2512.22250",
+      "code": null,
+      "tags": [
+        "software testing",
+        "metamorphic testing",
+        "hallucination detection",
+        "text-to-sql",
+        "large language models"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/43979ca10fcd9708d38dc28b6f736979a5f93d12908536b02a9fbbaabdec599f_w640_q70.webp",
+      "contributions": "1. Proposes SQLHD, a novel hallucination detection method for LLM-based Text-to-SQL that does not require ground-truth SQL answers. 2. Introduces a two-stage metamorphic testing framework with structure-aware and logic-aware metamorphic relations to detect schema-linking and logical-synthesis hallucinations separately. 3. Demonstrates superior performance over existing methods, including LLM self-evaluation, with F1-scores ranging from 69.36% to 82.76%.",
+      "summary": "This paper addresses the challenge of detecting hallucinations in LLM-generated SQL queries without needing ground-truth data. It proposes SQLHD, a two-stage metamorphic testing method that uses structure-aware and logic-aware perturbations to cross-check model outputs. The method shows effective hallucination detection, outperforming baseline approaches.",
+      "mindmap": "graph TB\n        A[Paper Title: Hallucination Detection for LLM-based Text-to-SQL Generation via Two-Stage Metamorphic Testing] --> B\n        A --> C\n        A --> D\n        B[核心问题/Problem: LLM在Text-to-SQL中产生幻觉，难以检测且缺乏标准答案]\n        C[主要方法/Method: SQLHD - 两阶段蜕变测试，使用结构感知和逻辑感知的蜕变关系进行交叉检查]\n        D[关键结果/Results: F1分数69.36%至82.76%，性能优于LLM自评估方法]"
+    },
+    {
+      "title": "Agentic Software Issue Resolution with Large Language Models: A Survey",
+      "authors": "Zhonghao Jiang, David Lo, Zhongxin Liu",
+      "institution": "Zhejiang University, Singapore Management University",
+      "link": "https://arxiv.org/pdf/2512.22256",
+      "code": "https://github.com/ZhonghaoJiang/Awesome-Issue-Solving",
+      "tags": [
+        "automated software maintenance",
+        "large language models",
+        "agentic systems",
+        "software issue resolution",
+        "reinforcement learning",
+        "software engineering"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d5c1c5e173acc2646c4322651d8a6c89dabed4b251b6106c2a468adeeafadf5f_w640_q70.webp",
+      "contributions": "1. Provides a systematic survey of 126 recent studies on LLM-based agentic software issue resolution. 2. Establishes a taxonomy for the field across three key dimensions: benchmarks, techniques, and empirical studies. 3. Highlights the paradigm shift brought by agentic reinforcement learning in designing and training agentic systems for software engineering.",
+      "summary": "This paper surveys the use of Large Language Model (LLM)-based agentic systems for automating complex software issue resolution, such as bug fixing. It reviews recent research, categorizes approaches, and discusses how agentic reinforcement learning is changing system design. The conclusion outlines current challenges and future research directions for improving automated software maintenance.",
+      "mindmap": "graph TB\n        Root[Agentic Software Issue Resolution with LLMs: A Survey] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem] --> P1[传统方法依赖人工，效率低/Traditional methods rely on human expertise, inefficient]\n        Method[主要方法/Method] --> M1[基于LLM的智能体系统/LLM-based Agentic Systems]\n        Method --> M2[系统综述126项研究/Systematic survey of 126 studies]\n        Method --> M3[建立三维分类法/Establishes a 3D taxonomy]\n        Results[关键结果/Results] --> R1[增强软件维护效率/Enhances software maintenance efficiency]\n        Results --> R2[为智能体系统提供验证环境/Provides a validation environment for agentic systems]\n        Results --> R3[总结挑战与未来方向/Summarizes challenges & future directions]"
+    },
+    {
+      "title": "AI-Generated Code Is Not Reproducible (Yet): An Empirical Study of Dependency Gaps in LLM-Based Coding Agents",
+      "authors": "Bhanu Prakash Vangala, Ali Adibifar, Tanu Malik, Ashish Gehani",
+      "institution": "University of Missouri, SRI International",
+      "link": "https://arxiv.org/pdf/2512.22387",
+      "code": null,
+      "tags": [
+        "agent system",
+        "reproducibility",
+        "dependency management",
+        "code generation",
+        "large language models",
+        "empirical study"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d3f3a69233ca5eacf2fea5882b11aeb102413519f3be78440b3532150966328b_w640_q70.webp",
+      "contributions": "1. Introduces a three-layer dependency framework (claimed, working, runtime) to quantify the execution reproducibility of LLM-generated code. 2. Conducts an empirical study evaluating three state-of-the-art LLM coding agents across 300 projects in three programming languages, revealing low out-of-the-box execution success rates. 3. Discovers a significant hidden dependency problem, with an average 13.5x expansion from declared to actual runtime dependencies.",
+      "summary": "This paper investigates the reproducibility of code generated by LLM-based coding agents. It proposes a three-layer dependency framework and conducts an empirical study on 300 projects, finding that only 68.3% execute successfully out-of-the-box and that actual runtime dependencies are significantly larger than declared ones. The study concludes that AI-generated code currently suffers from major reproducibility issues due to dependency gaps and code generation errors.",
+      "mindmap": "graph TB\n        Root[”AI-Generated Code Is Not Reproducible (Yet): An Empirical Study of Dependency Gaps in LLM-Based Coding Agents”] --> Problem[”核心问题/Problem: Is AI-generated code reproducible?”]\n        Root --> Method[”主要方法/Method: Empirical study using a three-layer dependency framework on 300 projects from 3 LLM agents.”]\n        Root --> Results[”关键结果/Results: Low out-of-the-box execution rate (68.3%) and large hidden dependencies (13.5x expansion).”]"
+    },
+    {
+      "title": "Mining the Gold: Student-AI Chat Logs as Rich Sources for Automated Knowledge Gap Detection",
+      "authors": "Quanzhi Fu, Qiyu Wu, Dan Williams",
+      "institution": "Virginia Tech",
+      "link": "https://arxiv.org/pdf/2512.22404",
+      "code": null,
+      "tags": [
+        "agent system",
+        "multi-agent LLM framework",
+        "knowledge gap detection",
+        "student-AI dialogue analysis",
+        "QueryQuilt",
+        "educational technology"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/346f14200e9375ed815220f7c720c8952c5109e4bcf1c3f206a9c517e2f80947_w640_q70.webp",
+      "contributions": "1. Proposes QueryQuilt, a novel multi-agent LLM framework for automated detection of common student knowledge gaps in large lectures. 2. Introduces a two-agent design: a Dialogue Agent that engages students with probing questions and a Knowledge Gap Identification Agent that analyzes chat logs. 3. Demonstrates the system's potential with high accuracy (100%) on simulated data and high completeness (95%) on real student-AI dialogue data.",
+      "summary": "This paper proposes QueryQuilt, a multi-agent LLM framework that analyzes student-AI chat logs to automatically identify common knowledge gaps in large-scale lectures. The system uses a Dialogue Agent to interact with students and a Knowledge Gap Identification Agent to analyze the dialogues, providing instructors with insights into class-wide understanding. Initial evaluation shows promising accuracy and completeness, indicating its potential for improving teaching in real classroom environments.",
+      "mindmap": "graph TB\n    A[Mining the Gold: Student-AI Chat Logs as Rich Sources for Automated Knowledge Gap Detection] --> B[核心问题/Problem]\n    A --> C[主要方法/Method]\n    A --> D[关键结果/Results]\n    B --> B1[大班教学难以及时发现学生的知识缺口/Large lectures make timely knowledge gap identification challenging]\n    C --> C1[提出QueryQuilt: 一个多智能体LLM框架/Propose QueryQuilt: a multi-agent LLM framework]\n    C1 --> C2[对话智能体: 回答并探查学生问题/Dialogue Agent: responds and probes student questions]\n    C1 --> C3[知识缺口识别智能体: 分析对话识别共同缺口/Knowledge Gap Identification Agent: analyzes dialogues to identify common gaps]\n    D --> D1[模拟学生数据: 100%准确率/Simulated student data: 100% accuracy]\n    D --> D2[真实学生-AI对话数据: 95%完整性/Real student-AI dialogue data: 95% completeness]"
+    },
+    {
+      "title": "Building Software by Rolling the Dice: A Qualitative Study of Vibe Coding",
+      "authors": "Yi-Hung Chou, Boyuan Jiang, Yi Wen Chen, Mingyue Weng, Victoria Jackson, Thomas Zimmermann, James A. Jones",
+      "institution": "University of California, Irvine",
+      "link": "https://arxiv.org/pdf/2512.22418",
+      "code": null,
+      "tags": [
+        "human aspects of software engineering",
+        "vibe coding",
+        "large language models",
+        "grounded theory",
+        "prompt engineering",
+        "software development practices"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/eab8ec990fa93b887bf7f5945d43ce53b02d7e23a90f66d7421522c4fb50f07c_w640_q70.webp",
+      "contributions": "1. Conducted a grounded theory study of \"vibe coding\" practices through analysis of 20 videos, providing empirical data on this emerging phenomenon. 2. Identified a spectrum of developer behaviors, from full reliance on AI without code inspection to active examination and adaptation of generated outputs. 3. Revealed that developers must contend with the stochastic nature of LLM generation, framing debugging as \"rolling the dice,\" and that divergent mental models influence prompting, evaluation, and trust.",
+      "summary": "This paper investigates the emerging practice of \"vibe coding,\" where developers build software primarily by prompting LLMs. Through a qualitative grounded theory study of 20 videos, the research reveals a spectrum of developer behaviors and the central challenge of dealing with stochastic AI outputs, described as \"rolling the dice.\" The findings highlight how developers' mental models shape their interaction with AI and point to new research directions for the future of software engineering.",
+      "mindmap": "graph TB\n        A[Building Software by Rolling the Dice: A Qualitative Study of Vibe Coding] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[LLM驱动的”氛围编码”实践如何定义与进行?/How is LLM-driven ”vibe coding” defined and practiced?]\n        C --> C1[对20个视频进行扎根理论研究/Grounded theory study of 20 videos]\n        C --> C2[分析直播与观点视频/Analyze live-streamed & opinion videos]\n        D --> D1[行为谱系: 从完全依赖到检查适配/Spectrum of behaviors: from full reliance to inspection & adaptation]\n        D --> D2[核心挑战: 生成的随机性/”掷骰子”/Core challenge: stochastic generation / ”rolling the dice”]\n        D --> D3[心智模型影响策略与信任/Mental models influence strategies & trust]"
+    },
+    {
+      "title": "GraphLocator: Graph-guided Causal Reasoning for Issue Localization",
+      "authors": "Wei Liu, Chao Peng, Pengfei Gao, Aofan Liu, Wei Zhang, Haiyan Zhao, Zhi Jin",
+      "institution": "Peking University, Bytedance",
+      "link": "https://arxiv.org/pdf/2512.22469",
+      "code": null,
+      "tags": [
+        "issue localization",
+        "causal issue graph",
+        "dynamic issue disentangling",
+        "symptom-to-cause mismatch",
+        "one-to-many mismatch"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f7dff9ac90f028731aa3b3d082126f3d3de229d3c53b61e302fd7d16eba1e084_w640_q70.webp",
+      "contributions": "1. Proposes GraphLocator, an LLM-based approach for issue localization that addresses the semantic gap between issue descriptions and code. 2. Introduces the Causal Issue Graph (CIG) to model sub-issues and their causal dependencies, mitigating symptom-to-cause and one-to-many mismatches. 3. Demonstrates significant performance improvements in localization accuracy and downstream task performance through a two-phase workflow of symptom locating and dynamic graph discovery.",
+      "summary": "This paper tackles the challenge of automatically localizing code that needs to be changed based on a natural language issue description. It proposes GraphLocator, a method that constructs a Causal Issue Graph to reason about underlying sub-issues and their dependencies, effectively bridging the semantic gap. Experiments show it significantly outperforms baselines in both recall and precision for issue localization.",
+      "mindmap": "graph TB\n        A[GraphLocator: Graph-guided Causal Reasoning for Issue Localization] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[语义鸿沟/Semantic Gap]\n        B1 --> B2[症状-原因不匹配/Symptom-to-Cause Mismatch]\n        B1 --> B3[一对多不匹配/One-to-Many Mismatch]\n        C --> C1[因果问题图/Causal Issue Graph (CIG)]\n        C --> C2[两阶段工作流/Two-Phase Workflow]\n        C2 --> C3[症状定位/Symptom Vertices Locating]\n        C2 --> C4[动态图发现/Dynamic CIG Discovering]\n        D --> D1[定位更准确/More Accurate Localization]\n        D1 --> D2[召回率提升 +19.49%/Recall +19.49%]\n        D1 --> D3[精确率提升 +11.89%/Precision +11.89%]\n        D --> D4[下游任务性能提升/Downstream Task Improvement]\n        D4 --> D5[性能提升 +28.74%/Performance +28.74%]"
+    },
+    {
+      "title": "Isolating Compiler Faults via Multiple Pairs of Adversarial Compilation Configurations",
+      "authors": "Qingyang Li, Yibiao Yang, Maolin Sun, Jiangchang Wu, Qingkai Shi, Yuming Zhou",
+      "institution": "State Key Laboratory for Novel Software Technology, Nanjing University, China",
+      "link": "https://arxiv.org/pdf/2512.22538",
+      "code": null,
+      "tags": [
+        "compiler & ir",
+        "compiler fault localization",
+        "adversarial compilation configurations",
+        "spectrum-based fault localization (SBFL)",
+        "weighted voting",
+        "GCC bugs"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/437f9126029a1a7c1875bde92aa42b0d549a6a8a506d4dcc1135cf46b3380620_w640_q70.webp",
+      "contributions": "1. Proposes MultiConf, a novel approach that automatically isolates compiler faults by constructing multiple pairs of adversarial compilation configurations (failing and passing). 2. Introduces a lightweight process to generate failing configurations and derives passing ones by selectively disabling bug-related fine-grained options. 3. Employs an SBFL formula and a weighted voting scheme to aggregate rankings from multiple configuration pairs, achieving more accurate and robust fault localization.",
+      "summary": "The paper addresses the challenge of localizing faults in complex compilers by proposing MultiConf, a method that uses multiple pairs of adversarial compilation configurations and a weighted voting scheme to rank suspicious source files. Evaluated on 60 real GCC bugs, MultiConf significantly outperforms existing techniques, localizing 27 bugs at the Top-1 file level.",
+      "mindmap": "graph TB\n        A[Isolating Compiler Faults via Multiple Pairs of Adversarial Compilation Configurations<br>基于多对抗编译配置对的编译器故障隔离] --> B\n        A --> C\n        A --> D\n        B[核心问题/Problem<br>Compiler fault localization is challenging due to complexity.<br>编译器故障定位因复杂性而极具挑战] --> B1[Prior methods are costly and unstable.<br>现有方法成本高且不稳定]\n        C[主要方法/Method<br>MultiConf: Constructs multiple adversarial configuration pairs.<br>构建多对抗配置对] --> C1[Generates failing & passing configs with fine-grained options.<br>生成细粒度选项的失败与通过配置]\n        C --> C2[Uses SBFL and weighted voting for ranking.<br>使用SBFL和加权投票进行排序]\n        D[关键结果/Results<br>Evaluation on 60 GCC bugs.<br>在60个GCC缺陷上评估] --> D1[Localizes 27 bugs at Top-1, outperforming state-of-the-art.<br>在Top-1定位27个缺陷，优于现有技术]"
+    },
+    {
+      "title": "Rethinking the Capability of Fine-Tuned Language Models for Automated Vulnerability Repair",
+      "authors": "Woorim Han, Yeongjun Kwak, Miseon Yu, Kyeongmin Kim, Younghan Lee, Hyungon Moon, Yunheung Paek",
+      "institution": "Seoul National University, UNIST (Ulsan National Institute of Science and Technology), Sungshin Women’s University",
+      "link": "https://arxiv.org/pdf/2512.22633",
+      "code": null,
+      "tags": [
+        "automated program repair",
+        "automated vulnerability repair",
+        "fine-tuned language models",
+        "test-based evaluation",
+        "semantic-preserving transformations",
+        "generalization"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d770d836cf9a18ac948b50e2b265b8ff346227d4dd0f8e12930e2897a03429f4_w640_q70.webp",
+      "contributions": "1. Introduces semantic-preserving transformations to test sets to assess if models learn robust patterns or spurious features. 2. Re-splits datasets to be mutually exclusive to properly evaluate model generalization on unseen vulnerabilities. 3. Proposes L-AVRBench, a test-based benchmark, to overcome the limitations of token-level match-based evaluation metrics.",
+      "summary": "This paper critically examines the capabilities of fine-tuned language models for automated vulnerability repair (AVR). It finds that state-of-the-art models often overfit and are evaluated on non-exclusive data splits using inadequate metrics. To address this, the authors propose methods to test robustness and generalization, and introduce a new test-based benchmark (L-AVRBench) to better assess true repair capability.",
+      "mindmap": "graph TB\n        A[论文标题: Rethinking the Capability of Fine-Tuned Language Models for Automated Vulnerability Repair] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[模型过拟合 & 评估集非互斥/Models Overfit & Non-exclusive Evaluation Sets]\n        B --> B2[基于匹配的评估指标有局限/Match-based Metrics are Limited]\n        C --> C1[应用语义保持变换/Apply Semantic-preserving Transformations]\n        C --> C2[重新划分互斥的数据集/Re-split Mutually Exclusive Datasets]\n        C --> C3[引入测试基准 L-AVRBench/Introduce Test-based Benchmark L-AVRBench]\n        D --> D1[揭示模型泛化能力不足/Revealed Insufficient Model Generalization]\n        D --> D2[提出了更鲁棒的评估框架/Proposed a More Robust Evaluation Framework]"
+    },
+    {
+      "title": "CFIghter: Automated Control-Flow Integrity Enablement and Evaluation for Legacy C/C++ Systems",
+      "authors": "Sabine Houy, Bruno Kreyssig, Alexandre Bartel",
+      "institution": "Umeå University",
+      "link": "https://arxiv.org/pdf/2512.22701",
+      "code": null,
+      "tags": [
+        "control-flow integrity",
+        "control-flow integrity",
+        "compiler-based security",
+        "automated repair",
+        "legacy systems",
+        "runtime monitoring"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/436657782d1936c221bd69d6fb671fff796d4c4a2db996690bbe0d6bea5a3b55_w640_q70.webp",
+      "contributions": "1. Presents CFIghter, the first fully automated system for enabling strict, type-based CFI in real-world C/C++ projects by detecting, classifying, and repairing unintended policy violations. 2. Integrates whole-program analysis with guided runtime monitoring to iteratively apply minimal adjustments to CFI enforcement only where required. 3. Demonstrates high effectiveness by automatically repairing 95.8% of unintended CFI violations in a large codebase while retaining strict enforcement at over 89% of indirect control-flow sites, showing automated repair makes strict CFI practically deployable.",
+      "summary": "The paper addresses the challenge of deploying compiler-based Control-Flow Integrity (CFI) in large legacy C/C++ systems due to semantic mismatches that cause runtime crashes. It proposes CFIghter, an automated system that uses whole-program analysis and runtime monitoring to detect and repair these unintended violations, requiring minimal manual changes. The evaluation shows CFIghter successfully resolves most violations in real-world projects, making strict CFI practically deployable for mature software.",
+      "mindmap": "graph TB\n        A[CFIghter: Automated Control-Flow Integrity Enablement and Evaluation for Legacy C/C++ Systems] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[CFI部署困难/CFI Deployment Challenges]\n        B1 --> B2[语义不匹配导致崩溃/Semantic Mismatch Causes Crashes]\n        C --> C1[自动化系统/Automated System]\n        C1 --> C2[检测与修复/Detection & Repair]\n        C2 --> C3[最小调整/Minimal Adjustments]\n        D --> D1[高修复率/High Repair Rate]\n        D1 --> D2[95.8% 违规修复/95.8% Violations Repaired]\n        D --> D3[严格CFI保留/Strict CFI Retained]\n        D3 --> D4[>89% 站点/>89% of Sites]"
+    },
+    {
+      "title": "From Rookie to Expert: Manipulating LLMs for Automated Vulnerability Exploitation in Enterprise Software",
+      "authors": "Moustapha Awwalou Diouf, Maimouna Tamah Diao, Iyiola Emmanuel Olatunji, Abdoul Kader Kaboré, Jordan Samhi, Gervais Mendy, Samuel Ouya, Jacques Klein, Tegawendé F. Bissyandé",
+      "institution": "University of Luxembourg",
+      "link": "https://arxiv.org/pdf/2512.22753",
+      "code": "https://anonymous.4open.science/r/From-Rookie-to-Attacker-D8B3",
+      "tags": [
+        "vulnerability exploitation",
+        "LLM",
+        "social engineering",
+        "pretexting",
+        "Odoo ERP",
+        "RSA"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9fa715a252b1e75790a16c013941796c349d193dcd31101439954451a3b63bf5_w640_q70.webp",
+      "contributions": "1. Proposes RSA (Role-assignment, Scenario-pretexting, and Action-solicitation), a novel pretexting strategy to manipulate LLMs into generating functional exploits. 2. Demonstrates a 100% success rate in generating working exploits for tested CVEs against the Odoo ERP platform using five mainstream LLMs within 3-4 prompting rounds. 3. Shows that LLMs can eliminate the manual effort previously required for LLM-assisted attacks, fundamentally challenging core security principles about technical expertise and threat modeling.",
+      "summary": "This paper demonstrates how publicly available Large Language Models (LLMs) can be manipulated through a social engineering strategy called RSA to automatically generate functional software exploits, effectively enabling novices to become capable attackers. The method achieved a 100% success rate against a popular enterprise platform, showing that exploitation no longer requires deep technical expertise but only the ability to craft prompts. This finding invalidates traditional security assumptions and signals a paradigm shift requiring redesigned security practices.",
+      "mindmap": "graph TB\n        A[From Rookie to Expert: Manipulating LLMs for Automated Vulnerability Exploitation in Enterprise Software] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[LLMs的普及颠覆了软件安全的基本假设 / LLMs democratize access, undermining security assumptions]\n        C --> C1[提出RSA策略:角色分配、场景预设、行动诱导 / Propose RSA: Role-assignment, Scenario-pretexting, Action-solicitation]\n        D --> D1[在Odoo ERP上对5个主流LLM测试成功率达100% / 100% success rate on Odoo with 5 LLMs]\n        D --> D2[攻击无需专业知识，仅需提示工程 / Exploitation requires prompting, not coding expertise]"
+    },
+    {
+      "title": "FasterPy: An LLM-based Code Execution Efficiency Optimization Framework",
+      "authors": "Yue Wu, Minghao Han, Ruiyin Li, Peng Liang, Amjed Tahir, Zengyang Li, Qiong Feng, Mojtaba Shahin",
+      "institution": "Wuhan University, Carnegie Mellon University, Massey University, Central China Normal University, Nanjing University of Science and Technology, RMIT University",
+      "link": "https://arxiv.org/pdf/2512.22827",
+      "code": "https://github.com/WuYue22/fasterpy",
+      "tags": [
+        "rag (retrieval-augmented generation)",
+        "Code Optimization",
+        "Retrieval-Augmented Generation (RAG)",
+        "Low-Rank Adaptation (LoRA)",
+        "Large Language Models (LLMs)",
+        "Python"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/49aae1b7cd12cfd30401a619c9b06d4bccc853d1d14eed57af87eb6c80858f31_w640_q70.webp",
+      "contributions": "1. Proposes FasterPy, a low-cost and efficient framework that adapts LLMs for Python code execution efficiency optimization. 2. Combines Retrieval-Augmented Generation (RAG) with a knowledge base of performance-improving code pairs and Low-Rank Adaptation (LoRA) to enhance optimization performance. 3. Demonstrates superior performance over existing models on the Performance Improving Code Edits (PIE) benchmark.",
+      "summary": "This paper introduces FasterPy, a framework that uses Large Language Models (LLMs) enhanced with Retrieval-Augmented Generation (RAG) and Low-Rank Adaptation (LoRA) to automatically optimize Python code for better execution efficiency. It addresses the limitations of traditional rule-based and data-intensive ML methods by providing a more scalable and cost-effective solution. Experimental results show that FasterPy outperforms existing models on standard benchmarks.",
+      "mindmap": "graph TB\n        A[FasterPy: An LLM-based Code Execution Efficiency Optimization Framework] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[传统方法成本高，可扩展性差/Traditional methods are costly and hard to scale]\n        C --> C1[结合RAG与LoRA的LLM框架/LLM framework combining RAG and LoRA]\n        D --> D1[在PIE基准上表现优异/Outperforms existing models on PIE benchmark]"
+    },
+    {
+      "title": "Towards the analysis of team members well-being",
+      "authors": "Zan Xu, Sari Nurfauziyyah, Anastasia Romanova, Kaamesh G S, Yiqun Gao, Maria Spichkova",
+      "institution": "RMIT University",
+      "link": "https://arxiv.org/pdf/2512.22845",
+      "code": null,
+      "tags": [
+        "software development team well-being",
+        "well-being",
+        "software development",
+        "team members",
+        "positive feedback",
+        "prototype"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/44b6ecf51f08897fa2d6ed662014dae0fe49b0c593bf9e815394b288ffd9d465_w640_q70.webp",
+      "contributions": "1. Presents the results of a project focused on analyzing the well-being of software development team members. 2. Identifies the feeling of being appreciated and acknowledged as a critical factor for team member well-being. 3. Describes the development of a prototype tool-supported framework aimed at providing personalized positive feedback without creating significant additional workload.",
+      "summary": "This paper addresses the growing concern for the well-being of software development team members, emphasizing the importance of feeling appreciated. It presents a project that developed a prototype for a tool-supported, personalized framework to provide positive feedback. The goal is to improve well-being without adding substantial extra work for team members.",
+      "mindmap": "graph TB\n        A[Towards the analysis of team members well-being] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[软件团队成员幸福感/Software Team Member Well-being]\n        B1 --> B2[关键因素：被赞赏与认可/Critical Factor: Feeling Appreciated & Acknowledged]\n        C --> C1[项目分析与原型开发/Project Analysis & Prototype Development]\n        D --> D1[提出工具支持的个性化框架/Proposed Tool-supported Personalized Framework]"
+    },
+    {
+      "title": "Interpretable Gallbladder Ultrasound Diagnosis: A Lightweight Web-Mobile Software Platform with Real-Time XAI",
+      "authors": "Fuyad Hasan Bhoyan, Prashanta Sarker, Parsia Noor Ethila, Md. Emon Hossain, Md Kaviul Hossain, Md Humaion Kabir Mehedi",
+      "institution": "University of Liberal Arts Bangladesh, BRAC University",
+      "link": "https://arxiv.org/pdf/2512.23033",
+      "code": null,
+      "tags": [
+        "medical image classification",
+        "MobResTaNet",
+        "Explainable AI (XAI)",
+        "lightweight model",
+        "ultrasound diagnosis",
+        "web-mobile platform"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7c6a6693ffd9f4375cd5a781c2544fba169bc30bc3cbb7590b1562ea78ba6678_w640_q70.webp",
+      "contributions": "1. Proposed a hybrid deep learning model (MobResTaNet) for classifying ten gallbladder conditions from ultrasound images with high accuracy (99.85%) and low parameter count (2.24M). 2. Developed an interpretable diagnostic system with real-time Explainable AI (XAI) visualizations to support transparent clinical decision-making. 3. Deployed the system as an efficient and accessible web-mobile software platform using technologies like HTML, CSS, JavaScript, Bootstrap, and Flutter for point-of-care use.",
+      "summary": "This paper addresses the challenge of interpreting gallbladder ultrasound images by developing an AI-driven diagnostic software. The core method is a lightweight hybrid deep learning model called MobResTaNet, which classifies diseases and provides real-time, interpretable predictions via XAI. The main conclusion is that the system achieves high accuracy with a small model size and is successfully deployed as accessible web and mobile applications for clinical support.",
+      "mindmap": "graph TB\n        A[Interpretable Gallbladder Ultrasound Diagnosis] --> B[核心问题/Problem: Challenging ultrasound interpretation for gallbladder diseases]\n        A --> C[主要方法/Method: AI software with lightweight MobResTaNet model & real-time XAI]\n        A --> D[关键结果/Results: 99.85% accuracy, 2.24M parameters, deployed web-mobile platform]"
+    },
+    {
+      "title": "An Architecture-Led Hybrid Report on Body Language Detection Project",
+      "authors": "Thomson Tong, Diba Darooneh",
+      "institution": "None",
+      "link": "https://arxiv.org/pdf/2512.23028",
+      "code": "BodyLanguageDetection",
+      "tags": [
+        "video understanding",
+        "vision-language models",
+        "structured generation",
+        "bounding boxes",
+        "mixture-of-experts",
+        "video analysis"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a618c048bc336ad2ade96a7a97cf301fb10fee2c9c8e7bc16556348f1c0c4b9d_w640_q70.webp",
+      "contributions": "1. Provides an architecture-led analysis of two modern VLMs (Qwen2.5-VL-7B-Instruct and Llama-4-Scout-17B-16E-Instruct) for a practical task. 2. Maps model architectural properties to a concrete video-to-artifact pipeline for person detection and attribute extraction. 3. Explicitly defines and analyzes critical system constraints and limitations arising from model behavior, such as semantic vs. syntactic correctness and frame-local identifiers.",
+      "summary": "This report analyzes two vision-language models (VLMs) and connects their architectures to a practical system for detecting people and their emotions in video frames. The system prompts VLMs to generate structured outputs like bounding boxes, validates the output structure, and can render annotated videos. The core conclusion is that understanding model architecture is crucial for designing robust interfaces and making defensible claims, as VLMs can produce syntactically correct but semantically incorrect outputs.",
+      "mindmap": "graph TB\n        A[An Architecture-Led Hybrid Report on Body Language Detection Project] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[如何基于VLM架构构建可靠的应用系统/How to build reliable application systems based on VLM architecture]\n        C --> C1[分析两种VLM架构并映射到视频处理流程/Analyze two VLM architectures and map to a video processing pipeline]\n        C --> C2[系统采样视频帧，提示VLM生成结构化输出/System samples video frames, prompts VLM for structured output]\n        C --> C3[使用预定义模式验证输出结构/Validate output structure with predefined schema]\n        D --> D1[结构化输出可能语法正确但语义错误/Structured outputs can be syntactically valid but semantically incorrect]\n        D --> D2[模式验证是结构性的，非几何正确性/Schema validation is structural, not geometric]\n        D --> D3[理解架构对设计稳健接口和评估至关重要/Understanding architecture is critical for robust interface design and evaluation]"
+    },
+    {
+      "title": "Reimagining the Traditional Flight Computer: E6BJA as a Modern, Multi-Platform Tool for Flight Calculations and Training",
+      "authors": "Jamie J. Alnasir",
+      "institution": "None (Inferred from author's email domain: al-nasir.com, which appears to be a personal domain)",
+      "link": "https://arxiv.org/pdf/2512.23055",
+      "code": null,
+      "tags": [
+        "human-computer interaction",
+        "flight computer",
+        "multi-platform software",
+        "aviation training",
+        "educational monographs",
+        "weight and balance"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/728f903c57bf352d1339c863c7cb1986de9a626a56f8a15516317cf7068bcb83_w640_q70.webp",
+      "contributions": "1. Development of E6BJA, a modern, multi-platform (iOS, Android, Windows, web) software flight computer that replicates and extends traditional flight calculations. 2. Integration of enhanced modeling capabilities (e.g., 1976 International Standard Atmosphere, carburetor icing risk) and aircraft-specific calculators with embedded educational explanations. 3. A comparative analysis demonstrating the tool's improvements over traditional devices in accuracy, error reduction, discoverability, and educational value for pilot training.",
+      "summary": "This paper addresses the limitations of traditional mechanical and electronic flight computers by proposing E6BJA, a modern multi-platform software tool. E6BJA replicates core flight calculations while adding enhanced models and embedded educational content. The work concludes that this approach represents a meaningful evolution in pilot tools, improving safety, intuition, and instructional value in aviation training contexts.",
+      "mindmap": "graph TB\n        Root(”Reimagining the Traditional Flight Computer”) --> Problem(”核心问题/Problem”)\n        Root --> Method(”主要方法/Method”)\n        Root --> Results(”关键结果/Results”)\n        Problem --> P1(”传统飞行计算机的局限性/Limitations of Traditional Flight Computers”)\n        Method --> M1(”开发多平台软件E6BJA/Develop Multi-Platform Software E6BJA”)\n        Method --> M2(”扩展计算与教育功能/Extend Calculations & Educational Features”)\n        Results --> R1(”证明在准确性等方面的改进/Demonstrate Improvements in Accuracy, etc.”)\n        Results --> R2(”支持更安全的飞行规划/Support Safer Flight Planning”)"
+    },
+    {
+      "title": "An Automated Grey Literature Extraction Tool for Software Engineering",
+      "authors": "Houcine Abdelkader Cherief, Brahim Mahmoudi, Zacharie Chenail-Larcher, Naouel Moha, Quentin Sti'evenart, Florent Avellaneda",
+      "institution": "École de technologie supérieure, Université du Québec à Montréal",
+      "link": "https://arxiv.org/pdf/2512.23066",
+      "code": null,
+      "tags": [
+        "grey literature extraction",
+        "grey literature",
+        "semantic classifier",
+        "embedding",
+        "reproducibility",
+        "prompt-driven"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/bcd8d541170e102d077ea8b0f0d18f0b4d898d754f2e5dea87a8696f74de7b5c_w640_q70.webp",
+      "contributions": "1. The GLiSE tool, a prompt-driven system for automated grey literature extraction from heterogeneous web sources. 2. A curated dataset of software engineering grey-literature search results classified by semantic relevance. 3. An empirical study evaluating the usability of the proposed tool.",
+      "summary": "The paper addresses the difficulty of collecting and assessing grey literature in software engineering at scale due to heterogeneous sources and formats. It proposes GLiSE, a prompt-driven tool that generates platform-specific queries, gathers results from sources like GitHub and Stack Overflow, and uses embedding-based semantic classifiers to filter and rank results for relevance. The tool is designed for reproducibility and its usability is empirically evaluated.",
+      "mindmap": "graph TB\n        A[An Automated Grey Literature Extraction Tool for Software Engineering] --> B[核心问题/Problem: 收集和评估软件工程灰文献困难/Difficulty in collecting and assessing software engineering grey literature at scale]\n        A --> C[主要方法/Method: GLiSE工具, 提示驱动, 嵌入语义分类器/GLiSE tool, prompt-driven, embedding-based semantic classifier]\n        A --> D[关键结果/Results: 提供工具、数据集和可用性研究/Provides tool, curated dataset, and usability study]"
+    },
+    {
+      "title": "Anka: A Domain-Specific Language for Reliable LLM Code Generation",
+      "authors": "Saif Khalfan Saif Al Mazrouei",
+      "institution": "University of Wisconsin-Madison",
+      "link": "https://arxiv.org/pdf/2512.23214",
+      "code": null,
+      "tags": [
+        "llm inference",
+        "Domain-Specific Language",
+        "Constrained Syntax",
+        "Code Generation",
+        "Data Transformation Pipeline",
+        "In-Context Learning"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a6e450f3b6354a05c4c0dfa0c22c4f8b8dfc33c08282380080deb2d2f3a335d4_w640_q70.webp",
+      "contributions": "1. Introduced Anka, a domain-specific language (DSL) with explicit, constrained syntax designed to reduce ambiguity in LLM code generation. 2. Demonstrated that LLMs can learn novel DSLs entirely from in-context prompts, achieving near-native accuracy without prior training. 3. Showed that purposefully designed DSLs can outperform general-purpose languages (e.g., Python) on complex multi-step tasks, significantly reducing errors in operation sequencing and state management.",
+      "summary": "This paper hypothesizes that the flexibility of general-purpose languages leads to systematic errors in LLM code generation for complex tasks. To test this, it introduces Anka, a constrained DSL for data transformation pipelines. The results show that LLMs can learn Anka from prompts and achieve significantly higher accuracy on multi-step tasks compared to Python, demonstrating the advantage of constrained syntax for reliable code generation.",
+      "mindmap": "graph TB\n        A[Anka: A Domain-Specific Language for Reliable LLM Code Generation] --> B[核心问题/Problem: LLMs make systematic errors in complex multi-step code generation]\n        A --> C[主要方法/Method: Design Anka, a constrained DSL for data transformation pipelines]\n        A --> D[关键结果/Results: High parse success & task accuracy; Anka outperforms Python on multi-step tasks]"
+    },
+    {
+      "title": "An Empirical Study of Generative AI Adoption in Software Engineering",
+      "authors": "Görkem Giray, Onur Demirörs, Marcos Kalinowski, Daniel Mendez",
+      "institution": "Eindhoven University of Technology, Izmir Institute of Technology, Pontifical Catholic University of Rio de Janeiro (PUC-Rio), Blekinge Institute of Technology, fortiss",
+      "link": "https://arxiv.org/pdf/2512.23327",
+      "code": null,
+      "tags": [
+        "AI4SE",
+        "Generative AI",
+        "Software Engineering",
+        "Empirical Study",
+        "Survey",
+        "Adoption"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/45dc246f8337bce98d95170e37ed6c405c343b51bb32f568d576b057edc61ed3_w640_q70.webp",
+      "contributions": "1. Provides an empirical overview of the current status of Generative AI adoption in software engineering practice. 2. Identifies and categorizes the key benefits, challenges, and organizational institutionalization patterns associated with GenAI use. 3. Investigates and reports on the anticipated long-term impacts of GenAI on the roles and job market for software engineering professionals.",
+      "summary": "This paper conducts an international survey of 204 software engineering practitioners to empirically study the adoption of Generative AI tools. The results show widespread integration into daily tasks with reported benefits in productivity and quality, but also highlight persistent challenges like unreliable outputs and security concerns. The study concludes that a move from ad-hoc to systematic approaches is needed for sustainable and responsible GenAI integration in software engineering.",
+      "mindmap": "graph TB\n        Root[An Empirical Study of Generative AI Adoption in Software Engineering] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem] --> P1[缺乏GenAI在SE中实际应用的实证证据/Lack of empirical evidence on practical GenAI use in SE]\n        Method[主要方法/Method] --> M1[国际问卷调查/Internationally distributed questionnaire survey]\n        Results[关键结果/Results] --> R1[广泛采用与深度集成/Wide adoption & deep integration]\n        Results --> R2[显著收益与持续挑战/Substantial benefits & persistent challenges]\n        Results --> R3[角色重定义而非替代/Role redefinition, not replacement]"
+    },
+    {
+      "title": "Securing the AI Supply Chain: What Can We Learn From Developer-Reported Security Issues and Solutions of AI Projects?",
+      "authors": "Anh Nguyen, Triet Huynh Minh Le, M. Ali Babar",
+      "institution": "University of Adelaide",
+      "link": "https://arxiv.org/pdf/2512.23385",
+      "code": null,
+      "tags": [
+        "AI Security",
+        "AI supply chain",
+        "security taxonomy",
+        "distilBERT classifier"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c00453e76598d08a965d2a15fe6e7b197cf1f19518d88f46a334b638da6327dc_w640_q70.webp",
+      "contributions": "1. Developed a pipeline combining keyword matching with a fine-tuned distilBERT classifier to identify 312,868 security discussions from Hugging Face and GitHub. 2. Conducted a thematic analysis to create a fine-grained taxonomy of 32 security issues and 24 solutions across four themes (System/Software, External Tools/Ecosystem, Model, Data). 3. Provided empirical insights revealing that security issues stem from complex dependencies and black-box AI components, with Model and Data challenges often lacking concrete solutions.",
+      "summary": "This paper investigates security issues in the AI supply chain by analyzing developer discussions from Hugging Face and GitHub. The authors use a keyword and classifier pipeline to build a large dataset and perform a thematic analysis to create a taxonomy of issues and solutions. They conclude that many security problems arise from dependencies and the black-box nature of AI, with solutions for Model and Data issues being particularly scarce.",
+      "mindmap": "graph TB\n        Root[Securing the AI Supply Chain] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem] --> P1[AI供应链安全格局复杂/Complex AI supply chain security landscape]\n        Problem --> P2[缺乏对常见问题与解决方案的了解/Lack of knowledge on common issues & solutions]\n        Method[主要方法/Method] --> M1[实证调查/Empirical investigation]\n        M1 --> M1_1[数据源: Hugging Face, GitHub/Data Sources: Hugging Face, GitHub]\n        M1 --> M1_2[构建分类管道/Build classification pipeline]\n        M1_2 --> M1_2_1[关键词匹配+微调distilBERT/Keyword matching + fine-tuned distilBERT]\n        Results[关键结果/Results] --> R1[数据集: 312,868个安全讨论/Dataset: 312,868 security discussions]\n        Results --> R2[分类法: 32个问题, 24个解决方案/Taxonomy: 32 issues, 24 solutions]\n        Results --> R3[洞察: 依赖复杂性和黑盒性导致问题/Insight: Issues from dependencies & black-box nature]"
+    },
+    {
+      "title": "An SLO Driven and Cost-Aware Autoscaling Framework for Kubernetes",
+      "authors": "Vinoth Punniyamoorthy, Bikesh Kumar, Sumit Saha, Lokesh Butra, Mayilsamy Palanigounder, Akash Kumar Agarwal, Kabilan Kannan",
+      "institution": "IEEE, East West Bank, NTT Data, Albertsons",
+      "link": "https://arxiv.org/pdf/2512.23415",
+      "code": null,
+      "tags": [
+        "cluster infrastructure",
+        "Kubernetes",
+        "Autoscaling",
+        "AIOps",
+        "Service Level Objectives",
+        "Cost Optimization"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ce581ba4d1249deeba9f1bffa6739ebbe74df663542fef3893eee5e0a117ae2e_w640_q70.webp",
+      "contributions": "1. A gap-driven analysis of existing Kubernetes autoscaling approaches, highlighting their limitations. 2. A safe and explainable multi-signal autoscaling framework that integrates SLO-aware and cost-conscious control with demand forecasting. 3. Experimental evaluation demonstrating significant improvements in SLO violation duration, scaling response time, and infrastructure cost compared to baselines.",
+      "summary": "This paper addresses SLO violations and cost inefficiencies in Kubernetes autoscaling by proposing an AIOps-driven framework that uses multi-signal control and lightweight forecasting. The method integrates SLO and cost awareness to improve responsiveness and stability. Evaluation shows it reduces SLO violations by up to 31%, improves response time by 24%, and lowers cost by 18% compared to standard Kubernetes autoscalers.",
+      "mindmap": "graph TB\n        Root(”An SLO Driven and Cost-Aware Autoscaling Framework for Kubernetes”) --> Problem(”核心问题/Problem”)\n        Root --> Method(”主要方法/Method”)\n        Root --> Results(”关键结果/Results”)\n        Problem --> P1(”SLO违反与成本低效/SLO Violations & Cost Inefficiency”)\n        Problem --> P2(”反应式扩展与不透明逻辑/Reactive Scaling & Opaque Logic”)\n        Method --> M1(”AIOps驱动的多信号框架/AIOps-Driven Multi-Signal Framework”)\n        Method --> M2(”SLO与成本感知控制/SLO & Cost-Aware Control”)\n        Method --> M3(”轻量级需求预测/Lightweight Demand Forecasting”)\n        Results --> R1(”SLO违反时长减少31%/SLO Violation Duration Reduced by 31%”)\n        Results --> R2(”扩展响应时间提升24%/Scaling Response Time Improved by 24%”)\n        Results --> R3(”基础设施成本降低18%/Infrastructure Cost Lowered by 18%”)"
+    },
+    {
+      "title": "Embedding Quality Assurance in project-based learning",
+      "authors": "Maria Spichkova",
+      "institution": "RMIT University",
+      "link": "https://arxiv.org/pdf/2512.23488",
+      "code": null,
+      "tags": [
+        "Software Engineering Education",
+        "Quality Assurance",
+        "Project-based Learning",
+        "Agile/Scrum",
+        "Software Engineering Education",
+        "Experience Report"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/77065f8ef568ef76fd85920a5579be34df22a20ec5cca17659010df66ea57edb_w640_q70.webp",
+      "contributions": "1. Shares over a decade of lessons learned from teaching software quality within Agile/Scrum-based Software Engineering courses, including final-year projects and a project management course. 2. Identifies specific challenges students face in understanding and applying Quality Assurance (QA) within Agile/Scrum project-based learning environments. 3. Provides practical recommendations for effectively embedding QA topics into project-based learning curricula with an Agile/Scrum context.",
+      "summary": "This paper presents an experience report on teaching software quality assurance in Agile/Scrum-focused Software Engineering courses over ten years. It identifies student struggles with QA in project-based learning and provides recommendations for better integrating QA topics into such curricula. The main conclusion is that a focused pedagogical approach is needed to ensure students value and apply QA practices effectively in Agile settings.",
+      "mindmap": "graph TB\n        Root[”Embedding Quality Assurance in Project-based Learning<br/>项目式学习中嵌入质量保证”] --> Problem[”Students struggle with QA in Agile/Scrum PBL<br/>学生在敏捷/Scrum项目式学习中难以掌握质量保证”]\n        Root --> Method[”Experience report & lessons learned from 10+ years of teaching<br/>基于十多年教学的经验报告与经验教训”]\n        Root --> Results[”Recommendations for embedding QA in Agile/Scrum PBL<br/>为在敏捷/Scrum项目式学习中嵌入质量保证提供建议”]"
+    },
+    {
+      "title": "Adaptable TeaStore: A Choreographic Approach",
+      "authors": "Giuseppe De Palma, Saverio Giallorenzo, Ivan Lanese, Gianluigi Zavattaro",
+      "institution": "Università di Bologna, INRIA",
+      "link": "https://arxiv.org/pdf/2512.23497",
+      "code": null,
+      "tags": [
+        "choreographic programming",
+        "adaptable microservices",
+        "choreographic programming",
+        "AIOCJ",
+        "runtime adaptation",
+        "communication correctness"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/185975480d365934f5e03c65e64353b019eae6a649d47d0cfc956b5c90524a0a_w640_q70.webp",
+      "contributions": "1. Presents an implementation of the Adaptable TeaStore reference model using the AIOCJ choreographic language. 2. Demonstrates that AIOCJ ensures by-construction correctness of communications (e.g., deadlock freedom) before, during, and after runtime adaptation. 3. Provides an analysis of the strengths and current limitations of the choreographic approach for adaptable cloud architectures, suggesting future refinements.",
+      "summary": "This paper models the Adaptable TeaStore, a reference model for adaptable microservice architectures, using the AIOCJ choreographic programming language. The approach ensures communication correctness by construction and supports dynamic runtime adaptation. The work showcases the paradigm's strengths, identifies its limitations, and suggests future directions to better align it with real-world cloud systems.",
+      "mindmap": "graph TB\n        Root(”Adaptable TeaStore: A Choreographic Approach”) --> Problem(”核心问题/Problem”)\n        Root --> Method(”主要方法/Method”)\n        Root --> Results(”关键结果/Results”)\n        Problem --> P1(”需要可适应的微服务架构/Need for adaptable microservice architectures”)\n        Method --> M1(”使用AIOCJ编排语言/Use AIOCJ choreographic language”)\n        Method --> M2(”确保通信正确性/Ensure communication correctness”)\n        Results --> R1(”展示方法的优势与局限/Showcase strengths and limitations”)\n        Results --> R2(”提出未来改进方向/Propose future refinements”)"
+    },
+    {
+      "title": "Decoupling Adaptive Control in TeaStore",
+      "authors": "Eddy Truyen",
+      "institution": "DistriNet, KU Leuven",
+      "link": "https://arxiv.org/pdf/2512.23495",
+      "code": null,
+      "tags": [
+        "self-adaptive systems",
+        "self-adaptation",
+        "microservices",
+        "control loop",
+        "operator pattern",
+        "software architecture"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/78e96b6ab1b10ae0a32ddc4e7967c5bedce7be1b0fe5db13bec216c9e0b657ae_w640_q70.webp",
+      "contributions": "1. Analyzes how software architectural methods, the cloud-native Operator pattern, and legacy programming techniques can decouple adaptive control from the application logic in a microservice system. 2. Examines the trade-offs between fine-grained expressive adaptation and system-wide control, highlighting when reuse of adaptation strategies is effective. 3. Proposes that these approaches are complementary and can be combined into a multi-tiered architecture for self-adaptive microservices.",
+      "summary": "This paper discusses the implementation of self-adaptation in the Adaptable TeaStore microservice benchmark. It examines different technical approaches (software architecture, Operator pattern, programming techniques) for decoupling the adaptive control logic from the application, analyzing their trade-offs. The main conclusion is that these approaches can be combined into a multi-tiered architecture for effective self-adaptive microservices.",
+      "mindmap": "graph TB\n        A[Decoupling Adaptive Control in TeaStore] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[实现微服务中的细粒度自适应/Implementing fine-grained self-adaptation in microservices]\n        C --> C1[软件架构方法/Software architectural methods]\n        C --> C2[Operator模式/Operator pattern]\n        C --> C3[传统编程技术/Legacy programming techniques]\n        D --> D1[权衡细粒度与系统范围控制/Trade-offs between fine-grained and system-wide control]\n        D --> D2[可组合的多层架构/Composable multi-tiered architecture]"
+    },
+    {
+      "title": "Adaptable Teastore with Energy Consumption Awareness: A Case Study",
+      "authors": "Henrique De Medeiros, Denisse Muñante, Sophie Chabridon, César Perdigão Batista, Denis Conan",
+      "institution": "Télécom SudParis, Institut Polytechnique de Paris, SAMOVAR, ENSIIE",
+      "link": "https://arxiv.org/pdf/2512.23498",
+      "code": null,
+      "tags": [
+        "self-adaptive systems",
+        "energy consumption monitoring",
+        "self-adaptive systems",
+        "microservices",
+        "dynamic adaptation",
+        "cloud computing"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2ac42d90e6b95a7a182714a4c0e65c9755ffae7ca3f2ebec7e85bf313b892f10_w640_q70.webp",
+      "contributions": "1. Introduction of EnCoMSAS, a tool for monitoring energy consumption in distributed, self-adaptive software systems. 2. An empirical evaluation demonstrating EnCoMSAS's effectiveness and validating its measurements through correlation with CPU usage. 3. An analysis showing that the energy overhead of the monitoring tool itself is modest compared to the overall system.",
+      "summary": "This paper addresses the gap in energy-aware monitoring for self-adaptive systems by introducing EnCoMSAS, a tool for collecting runtime energy consumption data. The tool was evaluated using the Adaptable TeaStore case study, where it effectively gathered energy data and revealed that consumption is influenced by both algorithmic complexity and deployment environment. The study concluded that EnCoMSAS is a valid monitoring solution with a relatively low impact on the overall system's energy footprint.",
+      "mindmap": "graph TB\n        A[Adaptable Teastore with Energy Consumption Awareness: A Case Study] --> B\n        A --> C\n        A --> D\n        B[核心问题/Problem: Lack of effective energy monitoring tools for Self-Adaptive Systems (SAS) and unclear impact of such tools]\n        C[主要方法/Method: Propose and evaluate EnCoMSAS tool using the Adaptable TeaStore case study on Grid5000]\n        D[关键结果/Results: EnCoMSAS is effective; measurements are valid; tool's energy impact is modest]"
+    },
+    {
+      "title": "AdaptiFlow: An Extensible Framework for Event-Driven Autonomy in Cloud Microservices",
+      "authors": "Brice Arléon Zemtsop Ndadji, Simon Bliudze, Clément Quinton",
+      "institution": "Univ. Lille, CNRS, Inria, Centrale Lille, CRIStAL",
+      "link": "https://arxiv.org/pdf/2512.23499",
+      "code": null,
+      "tags": [
+        "autonomic computing",
+        "MAPE-K loop",
+        "decentralized adaptation",
+        "event-driven",
+        "rule-based",
+        "microservices"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6cea3a497714ae1ca6ead099b1f31177f6fe2bf3d4bc5a184a21835b1744db4a_w640_q70.webp",
+      "contributions": "1. A framework (AdaptiFlow) providing abstraction layers for the Monitor and Execute phases of the MAPE-K loop to enable autonomous microservices. 2. A lightweight, event-driven and rule-based mechanism for specifying adaptation logic, decoupling it from metrics collection and action execution. 3. A workflow for service instrumentation and evidence that decentralized adaptation can emerge from localized decisions without global coordination, validated through three adaptation scenarios (self-healing, self-protection, self-optimization).",
+      "summary": "This paper presents AdaptiFlow, a framework for building self-adaptive cloud microservices by decoupling metrics collection and action execution from adaptation logic using an event-driven, rule-based approach. It enables decentralized autonomy, allowing services to adapt locally without global coordination. The framework was validated on a benchmark, demonstrating practical implementation of self-healing, self-protection, and self-optimization scenarios with minimal code changes.",
+      "mindmap": "graph TB\n        A[AdaptiFlow: An Extensible Framework for Event-Driven Autonomy in Cloud Microservices] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[现有方案集中式控制不适用于微服务/Existing centralized control ill-suited for microservices]\n        C --> C1[基于MAPE-K的抽象层与事件驱动规则/MAPE-K abstraction layers & event-driven rules]\n        C --> C2[解耦监控、执行与逻辑/Decouple Monitor/Execute from adaptation logic]\n        D --> D1[实现三种自治场景/Implemented three autonomy scenarios]\n        D --> D2[去中心化适应无需全局协调/Decentralized adaptation without global coordination]"
+    },
+    {
+      "title": "Beyond Correctness: Exposing LLM-generated Logical Flaws in Reasoning via Multi-step Automated Theorem Proving",
+      "authors": "Xinyi Zheng, Ningke Li, Xiaokun Luan, Kailong Wang, Ling Shi, Meng Sun, Haoyu Wang",
+      "institution": "Huazhong University of Science and Technology, National University of Singapore, Peking University, Nanyang Technological University",
+      "link": "https://arxiv.org/pdf/2512.23511",
+      "code": null,
+      "tags": [
+        "reasoning verification",
+        "automated theorem proving",
+        "first-order logic",
+        "logical error detection",
+        "multi-step reasoning"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7b9201185009c06f76b12e788768ccb6a8e2846d1d6ae7c9dcca57af7e332cc0_w640_q70.webp",
+      "contributions": "1. Proposes MATP, a novel evaluation framework that uses Multi-step Automated Theorem Proving to verify LLM reasoning by translating it into First-Order Logic. 2. Provides a fine-grained classification of reasoning correctness, identifying hidden logical errors that are masked by fluent language. 3. Demonstrates superior performance over prompting-based baselines by over 42 percentage points and reveals disparities in logical coherence between different types of LLMs.",
+      "summary": "This paper introduces MATP, a framework that translates LLM-generated natural language reasoning into First-Order Logic and uses automated theorem provers to verify its step-by-step logical validity. It effectively exposes subtle logical flaws that existing methods miss. Evaluations show MATP significantly outperforms baselines and can enhance the trustworthiness of LLM reasoning for critical applications.",
+      "mindmap": "graph TB\n        A[Beyond Correctness: Exposing LLM-generated Logical Flaws<br>超越正确性：通过多步自动定理证明揭示LLM推理中的逻辑缺陷] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[LLM推理存在被流畅语言掩盖的微妙逻辑错误<br>Subtle logical errors in LLM reasoning masked by fluent language]\n        C --> C1[提出MATP框架：将自然语言推理转化为一阶逻辑<br>Propose MATP: Translates NL reasoning to FOL]\n        C --> C2[使用自动定理证明器进行多步验证<br>Uses automated theorem provers for multi-step verification]\n        D --> D1[在推理步骤验证上超越基线42个百分点<br>Surpasses baselines by over 42 percentage points]\n        D --> D2[揭示推理模型比通用模型逻辑更一致<br>Reveals reasoning models are more logically coherent]"
+    },
+    {
+      "title": "Beyond Per-Thread Lock Sets: Multi-Thread Critical Sections and Dynamic Deadlock Prediction",
+      "authors": "Martin Sulzmann",
+      "institution": "Karlsruhe University of Applied Sciences",
+      "link": "https://arxiv.org/pdf/2512.23552",
+      "code": null,
+      "tags": [
+        "dynamic deadlock prediction",
+        "lock sets",
+        "critical sections",
+        "partial order relations",
+        "false positives",
+        "false negatives"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/67d58fc411df804f4dd88c8339e7b2a1b64be70d9eca8844a0dbb324c049cdea_w640_q70.webp",
+      "contributions": "1. Introduces a novel trace-based characterization of critical sections that can span multiple threads, correcting the standard per-thread model., 2. Proposes a sound approximation of the multi-thread critical section concept using partial order relations, enabling an improved lock set construction., 3. Integrates the improved lock set construction into an extended SPDOffline deadlock predictor, reducing both false positives and false negatives without impacting performance.",
+      "summary": "The paper identifies that standard per-thread lock set analysis for deadlock prediction is flawed because it ignores locks acquired across thread boundaries, leading to inaccurate results. To solve this, the authors propose a new model of multi-thread critical sections and a sound approximation method using partial order relations to construct more precise lock sets. This approach, integrated into an extended predictor, reduces false positives and false negatives while maintaining performance.",
+      "mindmap": "graph TB\n        A[Beyond Per-Thread Lock Sets: Multi-Thread Critical Sections and Dynamic Deadlock Prediction] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[标准每线程锁集分析忽略跨线程锁/Standard per-thread lock sets ignore cross-thread locks]\n        B1 --> B2[导致假阳性和假阴性/Leads to false positives and false negatives]\n        C --> C1[提出基于轨迹的多线程临界区概念/Propose trace-based multi-thread critical sections]\n        C1 --> C2[使用偏序关系进行可靠近似/Use partial order relations for sound approximation]\n        C2 --> C3[改进锁集构造/Improved lock set construction]\n        D --> D1[减少假阳性和假阴性/Reduces false positives and false negatives]\n        D1 --> D2[性能不受影响/Performance not affected]"
+    },
+    {
+      "title": "Model-based Development for Autonomous Driving Software Considering Parallelization",
+      "authors": "Kenshin Obi, Takumi Onozawa, Hiroshi Fujimoto, Takuya Azumi",
+      "institution": "Saitama University, eSOL Co., Ltd.",
+      "link": "https://arxiv.org/pdf/2512.23575",
+      "code": null,
+      "tags": [
+        "compiler & ir",
+        "Model-Based Development",
+        "Parallelization",
+        "Multi-core Processor",
+        "Autonomous Driving Software",
+        "Real-time Performance"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fdaf1e9de27edf6ed5439e7e3abd6bd6f053fa858fced85d7eae12b8159fc8b4_w640_q70.webp",
+      "contributions": "1. Proposes a method to extend the existing Model-Based Parallelizer (MBP) to support complex processing blocks (like Simulink Toolbox blocks) for autonomous driving software. 2. Addresses the problem of decreasing the number of blocks available for parallelization when using high-level Toolbox blocks and code descriptions. 3. Demonstrates a reduction in execution time, showing the method's suitability for achieving real-time performance in autonomous driving software development.",
+      "summary": "This paper proposes a model-based development method for parallelizing autonomous driving software to meet real-time performance requirements. It extends the existing Model-Based Parallelizer (MBP) to handle complex processing blocks, thereby reducing execution time. The evaluation confirms the method's effectiveness for developing real-time autonomous driving systems.",
+      "mindmap": "graph TB\n        A[Model-based Development for Autonomous Driving Software Considering Parallelization] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[自动驾驶软件需要实时性能/Autonomous driving software requires real-time performance]\n        C --> C1[扩展基于模型的并行化方法/Extend Model-Based Parallelizer (MBP) method]\n        D --> D1[执行时间减少/Execution time was reduced]"
+    },
+    {
+      "title": "Parallelized Code Generation from Simulink Models for Event-driven and Timer-driven ROS 2 Nodes",
+      "authors": "Kenshin Obi, Ryo Yoshinaka, Hiroshi Fujimoto, Takuya Azumi",
+      "institution": "Saitama University, eSOL Co., Ltd.",
+      "link": "https://arxiv.org/pdf/2512.23605",
+      "code": null,
+      "tags": [
+        "embedded systems",
+        "model-based development",
+        "parallelization",
+        "ROS 2",
+        "Simulink",
+        "multi-core processors"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1cb6e7053c79e3517530163d94d50906a3c12983608458bcd92e238407357675_w640_q70.webp",
+      "contributions": "1. Proposes a model-based development framework that categorizes ROS 2-compatible Simulink models into event-driven and timer-driven types for targeted parallelization. 2. Extends conventional MBD parallelization to support ROS 2-based models with multiple inputs, addressing integration challenges. 3. Demonstrates the framework's effectiveness by showing reduced execution time for all tested patterns after parallelization.",
+      "summary": "This paper addresses the challenge of integrating automatic model-based parallelization with the ROS 2 framework for autonomous driving systems. It proposes a framework that categorizes Simulink models as event-driven or timer-driven to generate parallelized code for ROS 2 nodes. Evaluation results confirm that the approach successfully reduces execution time.",
+      "mindmap": "graph TB\n        A[Parallelized Code Generation from Simulink Models for Event-driven and Timer-driven ROS 2 Nodes] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[传统MBD难以集成ROS 2/Traditional MBD struggles with ROS 2 integration]\n        B --> B2[多输入场景的并行化挑战/Parallelization challenges in multi-input scenarios]\n        C --> C1[将模型分类为事件驱动与定时驱动/Categorize models as event-driven & timer-driven]\n        C --> C2[提出针对性并行化的MBD框架/Propose MBD framework for targeted parallelization]\n        D --> D1[所有模式执行时间减少/All patterns show reduced execution time]\n        D --> D2[验证了并行化的有效性/Confirms effectiveness of parallelization]"
+    },
+    {
+      "title": "Federated Learning With L0 Constraint Via Probabilistic Gates For Sparsity",
+      "authors": "Krishna Harsha Kovelakuntla Huthasana, Alireza Olama, Andreas Lundell",
+      "institution": "Åbo Akademi University",
+      "link": "https://arxiv.org/pdf/2512.23071",
+      "code": null,
+      "tags": [
+        "federated learning",
+        "L0 regularization",
+        "probabilistic gates",
+        "communication efficiency",
+        "model sparsity",
+        "federated stochastic gradient descent"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/259d06fa8e807f154e153891f40b44308796040886ed51e218b65ee4e67a8c9c_w640_q70.webp",
+      "contributions": "1. Proposes a novel federated learning method that enforces an L0 constraint on model parameters using probabilistic gates and their continuous relaxation to achieve target sparsity. 2. Derives the L0 constrained stochastic minimization objective from an entropy maximization problem of the stochastic gates. 3. Demonstrates that the method can achieve high target sparsity (down to ρ=0.005) under data and client heterogeneity with minimal loss in statistical performance, outperforming magnitude pruning-based methods.",
+      "summary": "The paper addresses the problem of poor generalizability and communication inefficiency in Federated Learning due to overly dense models. It proposes a method to enforce L0 sparsity constraints via probabilistic gates, deriving the objective from entropy maximization and implementing it with federated stochastic gradient descent. The method is shown to be communication-efficient and achieves high target sparsity with better statistical performance than pruning-based baselines on synthetic and real datasets.",
+      "mindmap": "graph TB\n        Root[Federated Learning With L0 Constraint Via Probabilistic Gates For Sparsity] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem: 数据与模型固有的稀疏性未被解决，导致模型过密、泛化性差，且存在数据和客户端参与异质性。]\n        Method[主要方法/Method: 通过概率门及其连续松弛对非零参数密度施加L0约束，目标源自随机门的熵最大化问题，并基于联邦随机梯度下降。]\n        Results[关键结果/Results: 在数据和客户端异质性下，能达到目标密度(ρ)，统计性能损失最小，且比基于幅度的剪枝方法更优、通信高效。]"
+    },
+    {
+      "title": "LogosQ: A High-Performance and Type-Safe Quantum Computing Library in Rust",
+      "authors": "Shiwen An, Jiayi Wang, Konstantinos Slavakis",
+      "institution": "Institute of Science Tokyo, Georgia Institute of Technology",
+      "link": "https://arxiv.org/pdf/2512.23183",
+      "code": null,
+      "tags": [
+        "compiler & ir",
+        "Rust",
+        "type safety",
+        "quantum simulation",
+        "variational algorithms",
+        "parameter-shift rule"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3869523633aebacf98c54bdd34569f2d2e445db13de6918d6fa0d76072c1a8df_w640_q70.webp",
+      "contributions": "1. Introduces LogosQ, a quantum computing library in Rust that uses compile-time type safety to eliminate runtime errors, especially in gradient computations. 2. Proposes novel optimization techniques like direct state-vector manipulation, adaptive parallel processing, and an FFT-optimized QFT for significant performance gains. 3. Demonstrates superior numerical stability and accuracy in variational quantum eigensolver (VQE) experiments compared to existing frameworks.",
+      "summary": "The paper presents LogosQ, a high-performance quantum computing library written in Rust that ensures correctness through compile-time type safety. It introduces several optimization techniques that achieve speedups of up to 900x for certain operations and shows improved numerical stability in variational algorithm experiments. The work establishes a new standard for reliable and efficient quantum simulation by combining systems programming safety with advanced circuit optimizations.",
+      "mindmap": "graph TB\n        Root[LogosQ: Rust高性能类型安全量子库] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem] --> P1[Python框架动态性导致运行时错误/Runtime errors in dynamic Python frameworks]\n        Problem --> P2[现有工具存在可扩展性瓶颈/Scalability bottlenecks in existing tools]\n        Method[主要方法/Method] --> M1[Rust实现与编译时类型安全/Rust implementation with compile-time type safety]\n        Method --> M2[引入新型优化技术/Novel optimization techniques]\n        Results[关键结果/Results] --> R1[性能大幅提升/Significant speedups (up to 900x)]\n        Results --> R2[数值稳定性验证/Validated numerical stability]\n        Results --> R3[建立可靠高效新标准/Establishes new standard for reliability & efficiency]"
+    },
+    {
       "title": "Understanding the Role of Large Language Models in Software Engineering: Evidence from an Industry Survey",
       "authors": "Vítor Mateus de Brito, Kleinner Farias",
       "institution": "University of Vale do Rio dos Sinos",

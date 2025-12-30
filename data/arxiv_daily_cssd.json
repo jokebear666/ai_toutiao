@@ -4,6 +4,204 @@
   "week": "20251229-20260104",
   "items": [
     {
+      "title": "Rethinking Leveraging Pre-Trained Multi-Layer Representations for Speaker Verification",
+      "authors": "Jin Sob Kim, Hyun Joon Park, Wooseok Shin, Sung Won Han",
+      "institution": "Korea University",
+      "link": "https://arxiv.org/pdf/2512.22148",
+      "code": "https://github.com/sadPororo/LAP",
+      "tags": [
+        "speaker verification",
+        "Layer Attentive Pooling",
+        "Attentive Statistical Temporal Pooling",
+        "pre-trained speech models",
+        "multi-level features",
+        "speaker embeddings"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/96b640602033c1b23da872d515add261756f5ab1b958eac2b83c4e62b1fc7f3f_w640_q70.webp",
+      "contributions": "1. Proposed Layer Attentive Pooling (LAP), a novel dynamic strategy for aggregating multi-layer representations from pre-trained speech models, moving beyond static weighted averaging. 2. Introduced a lightweight backend speaker model combining LAP and Attentive Statistical Temporal Pooling (ASTP) for efficient speaker embedding extraction. 3. Demonstrated state-of-the-art performance on the VoxCeleb benchmark with a compact architecture that significantly reduces training time.",
+      "summary": "The paper addresses the underutilization of multi-layer features from pre-trained speech models in speaker verification. It proposes a novel Layer Attentive Pooling (LAP) method and a lightweight backend model to dynamically aggregate these features. The approach achieves state-of-the-art results on VoxCeleb while being more efficient in training time.",
+      "mindmap": "graph TB\n        Root[重新思考利用预训练多层表示进行说话人验证<br/>Rethinking Leveraging Pre-Trained Multi-Layer Representations for Speaker Verification] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem<br/>静态加权平均聚合多层特征的局限性<br/>Limitations of static weighted average for multi-layer feature aggregation] --> Problem_Detail[细节/Detail<br/>未充分利用高层表示<br/>Underutilization of high-level representations]\n        Method[主要方法/Method<br/>提出层注意力池化<br/>Propose Layer Attentive Pooling (LAP)] --> Method_Detail1[细节/Detail<br/>动态多视角评估层重要性<br/>Time-dynamically assess layer significance from multiple perspectives]\n        Method --> Method_Detail2[细节/Detail<br/>使用最大池化而非平均<br/>Employ max pooling instead of averaging]\n        Method --> Method_Detail3[细节/Detail<br/>轻量级后端模型 (LAP+ASTP)<br/>Lightweight backend model (LAP + ASTP)]\n        Results[关键结果/Results<br/>在VoxCeleb上达到SOTA<br/>Achieves SOTA on VoxCeleb benchmark] --> Results_Detail[细节/Detail<br/>性能优越且大幅减少训练时间<br/>Superior performance and greatly reduced training time]"
+    },
+    {
+      "title": "A Robust framework for sound event localization and detection on real recordings",
+      "authors": "Jin Sob Kim, Hyun Joon Park, Wooseok Shin, Sung Won Han",
+      "institution": "Korea University",
+      "link": "https://arxiv.org/pdf/2512.22156",
+      "code": null,
+      "tags": [
+        "audio event detection",
+        "SELD",
+        "data augmentation",
+        "test time augmentation",
+        "ensemble",
+        "ACCDOA"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/12addf93fd64ffb5001f18188632e3d13c2b6e99ad52d2339022072d1c08696c_w640_q70.webp",
+      "contributions": "1. A robust training framework for SELD that mixes real recordings and emulated data with augmentation to improve generalization on real-world scenes. 2. A test time augmentation and clustering-based ensemble method to aggregate confident predictions and reject abnormal ones. 3. Application of the framework to a ResNet-based model, achieving competitive performance on the DCASE2022 challenge task.",
+      "summary": "This paper proposes a robust framework for sound event localization and detection (SELD) to improve performance on real-world recordings. The method combines data augmentation, a pipeline mixing real and emulated datasets, and a test-time clustering ensemble. Experimental results show it outperforms baselines and achieves competitive performance in the DCASE2022 challenge.",
+      "mindmap": "graph TB\n    A[A Robust framework for sound event localization and detection on real recordings] --> B(核心问题/Problem: SELD generalization on real-world recordings)\n    A --> C(主要方法/Method: ResNet-based model with augmentation, real+emulated data mixing, test time ensemble)\n    A --> D(关键结果/Results: Outperforms baseline, achieves competitive performance)"
+    },
+    {
+      "title": "Marco-ASR: A Principled and Metric-Driven Framework for Fine-Tuning Large-Scale ASR Models for Domain Adaptation",
+      "authors": "Xuanfan Ni, Fei Yang, Fengping Tian, Qingjuan Li, Chenyang Lyu, Yichao Du, Longyue Wang, Weihua Luo, Kaifu Zhang",
+      "institution": "Alibaba International Digital Commerce",
+      "link": "https://arxiv.org/pdf/2512.22165",
+      "code": null,
+      "tags": [
+        "post-training (sft/rlhf)",
+        "domain adaptation",
+        "fine-tuning",
+        "learning rate optimization",
+        "data augmentation",
+        "word error rate"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/edef09334bdd6f2c438c4ea7c62b2c8a134ebb61ef00ffed51f52a270a2fa141_w640_q70.webp",
+      "contributions": "1. A principled and metric-driven fine-tuning framework for adapting both traditional and LLM-based ASR models to specialized domains. 2. A learning rate optimization strategy based on performance metrics (e.g., WER) rather than just loss, to prevent overfitting and instability. 3. A domain-specific data analysis and augmentation pipeline to address data mismatch and linguistic variability.",
+      "summary": "This paper proposes a principled fine-tuning framework to adapt large-scale ASR models like Whisper and Qwen2-Audio to specialized domains. The framework uses metric-driven learning rate optimization and domain-specific data augmentation. Empirical results validate the framework and establish practical protocols for improving domain-specific performance while preventing overfitting.",
+      "mindmap": "graph TB\n        Root[”MARCO-ASR: A Principled and Metric-Driven Framework for Fine-Tuning Large-Scale ASR Models for Domain Adaptation”] --> Problem[”核心问题/Problem: ASR模型在领域特定应用中性能下降/Degraded ASR performance in domain-specific applications”]\n        Root --> Method[”主要方法/Method: 基于指标的微调框架/Metric-driven fine-tuning framework with learning rate optimization & data augmentation”]\n        Root --> Results[”关键结果/Results: 框架验证与性能提升/Validated framework and improved performance while preventing overfitting”]"
+    },
+    {
+      "title": "AudioGAN: A Compact and Efficient Framework for Real-Time High-Fidelity Text-to-Audio Generation",
+      "authors": "HaeChun Chung",
+      "institution": "KT Corporation",
+      "link": "https://arxiv.org/pdf/2512.22166",
+      "code": null,
+      "tags": [
+        "multi-modal inference",
+        "Generative Adversarial Networks (GANs)",
+        "Single-Double-Triple (SDT) Attention",
+        "Time-Frequency Cross-Attention (TF-CA)",
+        "contrastive losses",
+        "real-time generation"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8fb3eeaa0b35c7e10c5a5530b703d70eeb9b9309a57df9a97ae1234ec0c25981_w640_q70.webp",
+      "contributions": "1. Proposes AudioGAN, the first successful GAN-based framework for text-to-audio generation, enabling single-pass inference. 2. Introduces novel architectural components, Single-Double-Triple (SDT) Attention and Time-Frequency Cross-Attention (TF-CA), to enhance model capability. 3. Integrates multiple contrastive losses to overcome the inherent training difficulties of GANs, improving stability and performance.",
+      "summary": "This paper introduces AudioGAN, a GAN-based framework for efficient text-to-audio generation. It overcomes GAN training challenges with novel attention mechanisms and contrastive losses, achieving state-of-the-art results with 90% fewer parameters and 20x faster inference than diffusion models.",
+      "mindmap": "graph TB\n        Root[”AudioGAN: A Compact and Efficient Framework for Real-Time High-Fidelity Text-to-Audio Generation”] --> Problem[”核心问题/Problem: Diffusion-based TTA models are slow and computationally expensive”]\n        Root --> Method[”主要方法/Method: First successful GAN-based TTA framework with SDT Attention, TF-CA, and contrastive losses”]\n        Root --> Results[”关键结果/Results: SOTA performance, 90% fewer parameters, 20x faster inference (<1 second)”]"
+    },
+    {
+      "title": "Chord Recognition with Deep Learning",
+      "authors": "Pierre Mackenzie",
+      "institution": "University of Edinburgh",
+      "link": "https://arxiv.org/pdf/2512.22621",
+      "code": null,
+      "tags": [
+        "music information retrieval",
+        "chord recognition",
+        "deep learning",
+        "generative models",
+        "pitch augmentation",
+        "beat detection"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/53155c1b8ae949083d40642ac5cf37ed34863c9840190ad8076fa052bb0f3185_w640_q70.webp",
+      "contributions": "1. Identifies and analyzes the poor performance of chord classifiers on rare chords, providing a key insight into a major limitation of current methods. 2. Demonstrates that pitch augmentation is an effective technique for boosting chord recognition accuracy. 3. Improves model interpretability by integrating beat detection into the model's output, leading to some of the best reported results in the field.",
+      "summary": "This thesis investigates the slow progress in automatic chord recognition despite the use of deep learning. It experiments with existing methods and generative models, finding that pitch augmentation improves accuracy while generative features do not help. The work concludes by enhancing model interpretability with beat detection, achieving state-of-the-art results and suggesting synthetic data as a promising future direction.",
+      "mindmap": "graph TB\n        Root(Chord Recognition with Deep Learning) --> Problem(核心问题/Problem)\n        Root --> Method(主要方法/Method)\n        Root --> Results(关键结果/Results)\n        Problem --> P1(进展缓慢/Slow Progress)\n        Method --> M1(实验现有方法/Experiment with Existing Methods)\n        Method --> M2(测试生成模型假设/Test Generative Model Hypotheses)\n        Results --> R1(罕见和弦表现差/Poor Performance on Rare Chords)\n        Results --> R2(音高增强提升准确率/Pitch Augmentation Boosts Accuracy)\n        Results --> R3(节拍检测提升可解释性/Beat Detection Improves Interpretability)"
+    },
+    {
+      "title": "Mobile-Efficient Speech Emotion Recognition Using DistilHuBERT: A Cross-Corpus Validation Study",
+      "authors": "Saifelden M. Ismail",
+      "institution": "University of Science and Technology, Zewail City",
+      "link": "https://arxiv.org/pdf/2512.23435",
+      "code": null,
+      "tags": [
+        "on-device ai",
+        "DistilHuBERT",
+        "8-bit quantization",
+        "cross-corpus validation",
+        "Leave-One-Session-Out (LOSO)",
+        "model compression"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0945944056b62e3ffa17bd0a2e4e36ebfe24da404a4aea1692a6806374437b15_w640_q70.webp",
+      "contributions": "1. Proposes a mobile-efficient SER system using a distilled and 8-bit quantized DistilHuBERT model, achieving a 92% parameter reduction and a 23 MB footprint. 2. Demonstrates that cross-corpus training with CREMA-D enhances generalization on IEMOCAP, improving accuracy and reducing variance. 3. Provides an analysis of cross-corpus evaluation on RAVDESS, revealing a \"theatricality effect\" where predictions cluster by arousal, and establishes a Pareto-optimal trade-off between model size and accuracy.",
+      "summary": "This paper addresses the challenge of deploying Speech Emotion Recognition (SER) on mobile devices by proposing a system based on the compressed DistilHuBERT model. Through rigorous cross-validation and cross-corpus training, the method achieves a good balance between a small model size (23 MB) and competitive accuracy, enabling practical on-device affect recognition while analyzing generalization challenges across different emotional speech corpora.",
+      "mindmap": "graph TB\n        A[”Mobile-Efficient Speech Emotion Recognition Using DistilHuBERT: A Cross-Corpus Validation Study”] --> B[”核心问题/Problem: SER部署受限于大模型的计算需求/SER deployment constrained by computational demands of large models”]\n        A --> C[”主要方法/Method: 使用蒸馏与8位量化的DistilHuBERT，并进行跨语料库训练/Use distilled & 8-bit quantized DistilHuBERT with cross-corpus training”]\n        A --> D[”关键结果/Results: 模型仅23MB，精度达基准91%，跨语料库训练提升泛化性/Model is 23MB, achieves ~91% of baseline accuracy, cross-corpus training improves generalization”]"
+    },
+    {
+      "title": "Style Amnesia: Investigating Speaking Style Degradation and Mitigation in Multi-Turn Spoken Language Models",
+      "authors": "Yu-Xiang Lin, Cheng-Han Chiang, Hung-yi Lee",
+      "institution": "National Taiwan University",
+      "link": "https://arxiv.org/pdf/2512.23578",
+      "code": null,
+      "tags": [
+        "spoken language understanding",
+        "spoken language models",
+        "style amnesia",
+        "multi-turn conversation",
+        "paralinguistic features",
+        "instruction following"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d7d00f21d056c5ef5d2a037960cefe1ed2dea85d21396e8409388c6f482ecbf8_w640_q70.webp",
+      "contributions": "1. Identifies and defines the \"style amnesia\" problem where spoken language models fail to maintain a user-specified speaking style across multiple conversation turns. 2. Provides a comprehensive evaluation across multiple proprietary and open-source SLMs, demonstrating the pervasiveness of the issue across different emotion, accent, volume, and speed styles. 3. Investigates mitigation strategies, finding that explicit recall prompts can partially alleviate the problem and revealing a counter-intuitive weakness when style instructions are placed in system messages.",
+      "summary": "This paper investigates the problem of \"style amnesia\" in spoken language models (SLMs), where models instructed to adopt a specific speaking style fail to maintain it over a multi-turn conversation. The authors evaluate several SLMs and find that explicitly prompting the model to recall the style instruction can partially mitigate the issue. The study concludes that current SLMs struggle with long-term style consistency, a critical challenge for natural spoken interactions.",
+      "mindmap": "graph TB\n        Root(”Style Amnesia: Investigating Speaking Style Degradation and Mitigation in Multi-Turn Spoken Language Models”) --> Problem(”核心问题/Problem”)\n        Root --> Method(”主要方法/Method”)\n        Root --> Results(”关键结果/Results”)\n        Problem --> P1(”SLMs在多轮对话中无法维持指定的副语言风格/SLMs cannot maintain specified paralinguistic style in multi-turn conversation”)\n        Method --> M1(”在多轮对话开始时指定风格并评估/Instruct style at conversation start and evaluate”)\n        Method --> M2(”使用自动评估器测量指令遵循率/Use automatic judges to measure instruction-following rate”)\n        Method --> M3(”测试不同的提示策略/Test different prompting strategies”)\n        Results --> R1(”发现风格遗忘现象，指令遵循率随轮次下降/Style amnesia found, IF rate degrades over turns”)\n        Results --> R2(”显式回忆指令可部分缓解问题/Explicit recall can partially mitigate”)\n        Results --> R3(”系统提示中的指令效果不佳/Instructions in system prompts perform poorly”)"
+    },
+    {
+      "title": "PROFASR-BENCH: A Benchmark for Context-Conditioned ASR in High-Stakes Professional Speech",
+      "authors": "Deepak Babu Piskala",
+      "institution": "Independent Researcher (affiliation inferred from email domain: gmail.com)",
+      "link": "https://arxiv.org/pdf/2512.23686",
+      "code": "https://github.com/prdeepakbabu/ProfASR-Bench",
+      "tags": [
+        "speech recognition",
+        "context-conditioned ASR",
+        "entity-aware evaluation",
+        "professional speech"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e17670ba26d26dd9fe7f42150241a5910106d394ee058ad7a75c1fc5815bdcd9_w640_q70.webp",
+      "contributions": "1. Introduces ProfASR-Bench, a benchmark for evaluating context-conditioned ASR in high-stakes professional domains (finance, medicine, legal, technology). 2. Identifies and defines the \"context-utilization gap\" (CUG), showing current promptable models underuse textual context for improving recognition. 3. Provides a standardized evaluation framework with a context ladder, entity/slice-aware reporting, and a reproducible testbed for comparing fusion strategies.",
+      "summary": "This paper introduces ProfASR-Bench, a benchmark for evaluating Automatic Speech Recognition (ASR) in high-stakes professional settings. It tests models like Whisper and Qwen-Omni with various contextual prompts and finds a \"context-utilization gap,\" where current systems fail to effectively use available side information to improve accuracy, despite being promptable. The benchmark provides tools for entity-aware and slice-wise evaluation to advance context-conditioned ASR.",
+      "mindmap": "graph TB\n        A[PROFASR-BENCH: A Benchmark for Context-Conditioned ASR] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[现有基准低估专业场景挑战 / Existing benchmarks underplay professional challenges]\n        B1 --> B2[密集术语, 正式语体, 关键实体零容忍 / Dense terminology, formal register, zero tolerance for entity errors]\n        C --> C1[构建专业语音评估套件 / Build professional-talk evaluation suite]\n        C1 --> C2[配对自然语言提示与目标话语 / Pair natural-language prompts with target utterances]\n        C2 --> C3[支持实体感知和分片报告 / Support entity-aware and slice-wise reporting]\n        D --> D1[发现上下文利用差距(CUG) / Uncover context-utilization gap (CUG)]\n        D1 --> D2[轻量级上下文提示对WER改善甚微 / Lightweight textual context yields little WER change]\n        D2 --> D3[对抗性提示不会可靠降低性能 / Adversarial prompts do not reliably degrade performance]"
+    },
+    {
+      "title": "EEG-to-Voice Decoding of Spoken and Imagined speech Using Non-Invasive EEG",
+      "authors": "Hanbeot Park, Yunjeong Cho, Hunhee Kim",
+      "institution": "Pukyong National University",
+      "link": "https://arxiv.org/pdf/2512.22146",
+      "code": null,
+      "tags": [
+        "brain-computer interface",
+        "EEG-to-Voice",
+        "mel-spectrogram",
+        "domain adaptation",
+        "automatic speech recognition",
+        "language model correction"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/30fda90c01417e82377bfcdd82830a196b29afd74925e2009f1a1a1d02d4d2bd_w640_q70.webp",
+      "contributions": "1. Proposed a direct, open-loop EEG-to-Voice reconstruction pipeline that generates mel-spectrograms from EEG without requiring dynamic time warping or explicit temporal alignment. 2. Applied transfer learning-based domain adaptation by pretraining a subject-specific generator on spoken speech and adapting it to imagined speech. 3. Integrated a minimal language model-based correction module to reduce ASR errors while preserving semantic structure, improving linguistic accuracy.",
+      "summary": "This paper proposes a direct EEG-to-Voice paradigm to reconstruct speech from non-invasive EEG signals for both spoken and imagined speech. The method uses a subject-specific generator to produce mel-spectrograms, followed by a vocoder and ASR, and employs domain adaptation from spoken to imagined speech. The results demonstrate the feasibility of open-loop speech reconstruction without explicit temporal alignment, with stable acoustic and linguistic performance.",
+      "mindmap": "graph TB\n        A[EEG-to-Voice Decoding of Spoken and Imagined speech] --> B\n        A --> C\n        A --> D\n        B[核心问题/Problem: EEG-based speech reconstruction is challenging due to noise, low resolution, and lack of aligned targets for imagined speech.]\n        C[主要方法/Method: Direct, open-loop EEG-to-mel-spectrogram generation with subject-specific generators, domain adaptation from spoken to imagined speech, and optional LM-based ASR correction.]\n        D[关键结果/Results: Feasibility demonstrated for both speech types; stable acoustic/linguistic performance; LM correction reduces CER/WER without semantic distortion.]"
+    },
+    {
+      "title": "Geometry-Aware Optimization for Respiratory Sound Classification: Enhancing Sensitivity with SAM-Optimized Audio Spectrogram Transformers",
+      "authors": "Atakan Işık, Selin Vulga Işık, Ahmet Feridun Işık, Mahşuk Taylan",
+      "institution": "Başkent University, Gaziantep University",
+      "link": "https://arxiv.org/pdf/2512.22564",
+      "code": null,
+      "tags": [
+        "medical audio classification",
+        "Audio Spectrogram Transformer",
+        "Sharpness-Aware Minimization",
+        "ICBHI 2017",
+        "class imbalance",
+        "loss landscape"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e0861fcb0d50b762d97367d04dce9ca920f2ffca74cd5112df95b11652972a9b_w640_q70.webp",
+      "contributions": "1. Proposes a novel framework integrating the Audio Spectrogram Transformer (AST) with Sharpness-Aware Minimization (SAM) for robust respiratory sound classification. 2. Implements a weighted sampling strategy to effectively handle the severe class imbalance present in medical datasets like ICBHI 2017. 3. Achieves state-of-the-art performance on the ICBHI 2017 dataset, with a particular focus on improving sensitivity for reliable clinical screening.",
+      "summary": "This paper addresses the challenges of respiratory sound classification, such as data scarcity and class imbalance, by enhancing the Audio Spectrogram Transformer with Sharpness-Aware Minimization (SAM) to find flatter minima for better generalization. The method also employs weighted sampling and achieves a new state-of-the-art score of 68.10% and a sensitivity of 68.31% on the ICBHI 2017 dataset, demonstrating improved robustness for clinical applications.",
+      "mindmap": "graph TB\n        A[Geometry-Aware Optimization for Respiratory Sound Classification<br/>呼吸声音分类的几何感知优化] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n    \n        B --> B1[数据限制与过拟合<br/>Data Constraints & Overfitting]\n        B1 --> B2[数据集小、噪声大、类别不平衡<br/>Small, Noisy, Imbalanced Dataset]\n    \n        C --> C1[使用SAM优化AST<br/>Enhance AST with SAM]\n        C1 --> C2[优化损失曲面几何<br/>Optimize Loss Surface Geometry]\n        C --> C3[加权采样策略<br/>Weighted Sampling Strategy]\n    \n        D --> D1[SOTA分数: 68.10%<br/>SOTA Score: 68.10%]\n        D --> D2[高敏感度: 68.31%<br/>High Sensitivity: 68.31%]"
+    },
+    {
       "title": "Semantic Codebooks as Effective Priors for Neural Speech Compression",
       "authors": "Liuyang Bai, Weiyi Lu, Li Guo",
       "institution": "NYU Shanghai",

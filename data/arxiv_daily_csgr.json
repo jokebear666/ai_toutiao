@@ -4,6 +4,104 @@
   "week": "20251229-20260104",
   "items": [
     {
+      "title": "Topology-Preserving Scalar Field Optimization for Boundary-Conforming Spiral Toolpaths on Multiply Connected Freeform Surfaces",
+      "authors": "Shen Changqing, Xu Bingzhou, Qi Bosong, Zhang Xiaojian, Yan Sijie, Ding Han",
+      "institution": "Huazhong University of Science and Technology",
+      "link": "https://arxiv.org/pdf/2512.22502",
+      "code": null,
+      "tags": [
+        "computer-aided manufacturing (CAM)",
+        "spiral toolpath planning",
+        "scalar field optimization",
+        "topology-preserving deformation",
+        "conformal slit mapping",
+        "boundary-conforming"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8db268a37d6b76e48aa2571b6519b562d7e55bfc3d4e8f7c07120bc4dbfc1315_w640_q70.webp",
+      "contributions": "1. Proposes a strategy to enforce boundary conformity and eliminate zero-gradient singularities in scalar-field-based toolpath optimization for multiply connected surfaces. 2. Reformulates the optimization as a topology-preserving mesh deformation with boundary-synchronous updates to achieve globally optimized spacing and smooth transitions. 3. Demonstrates significant improvements in machining efficiency, scallop-height uniformity, and vibration reduction compared to a state-of-the-art method.",
+      "summary": "This paper addresses the challenge of generating continuous, boundary-conforming spiral toolpaths for ball-end milling on complex freeform surfaces. The proposed method uses conformal slit mapping to create an initial singularity-free scalar field and then optimizes it via a topology-preserving mesh deformation process. Experimental results show the approach increases machining efficiency by over 14%, improves surface finish uniformity, and reduces vibrations compared to existing methods.",
+      "mindmap": "graph TB\n        A[Topology-Preserving Scalar Field Optimization for Boundary-Conforming Spiral Toolpaths on Multiply Connected Freeform Surfaces] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[挑战: 保持边界一致性并消除奇点/Challenge: Maintain boundary conformity & eliminate singularities]\n        C --> C1[使用共形狭缝映射初始化/Use conformal slit mapping for initialization]\n        C --> C2[拓扑保持网格变形优化/Topology-preserving mesh deformation optimization]\n        D --> D1[效率提升 14.24%/Efficiency improved by 14.24%]\n        D --> D2[均匀性提升 5.70%/Uniformity improved by 5.70%]\n        D --> D3[振动减少 >10%/Vibration reduced by >10%]"
+    },
+    {
+      "title": "ByteLoom: Weaving Geometry-Consistent Human-Object Interactions through Progressive Curriculum Learning",
+      "authors": "Bangya Liu, Xinyu Gong, Zelin Zhao, Ziyang Song, Yulei Lu, Suhui Wu, Jun Zhang, Suman Banerjee, Hao Zhang",
+      "institution": "University of Wisconsin-Madison, ByteDance, Georgia Institute of Technology, The Hong Kong Polytechnic University",
+      "link": "https://arxiv.org/pdf/2512.22854",
+      "code": "https://neutrinoliu.github.io/byteloom/",
+      "tags": [
+        "video generation",
+        "Human-Object Interaction",
+        "Diffusion Transformer",
+        "Relative Coordinate Maps",
+        "Progressive Curriculum Learning",
+        "Geometry Consistency"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b9f5ff16308904b889be6695aafd24bfc28b798f080cc6c723a25066bcdc2bdf_w640_q70.webp",
+      "contributions": "1. Proposes ByteLoom, a Diffusion Transformer-based framework for generating realistic HOI videos with geometrically consistent objects. 2. Introduces the RCM-cache mechanism using Relative Coordinate Maps to maintain object geometry consistency and control 6-DoF transformations. 3. Designs a progressive training curriculum to compensate for HOI dataset scarcity and relax the need for fine-grained hand mesh annotations.",
+      "summary": "This paper addresses the challenges of poor cross-view consistency and reliance on hand mesh annotations in Human-Object Interaction (HOI) video generation. It proposes ByteLoom, a framework that uses a novel RCM-cache mechanism for geometry consistency and a progressive curriculum learning strategy for training. The method effectively preserves human identity and object geometry while generating smooth motion.",
+      "mindmap": "graph TB\n        A[ByteLoom: Weaving Geometry-Consistent Human-Object Interactions through Progressive Curriculum Learning] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[现有方法缺乏多视图信息注入机制/Existing methods lack multi-view injection]\n        B --> B2[严重依赖手部网格标注/Heavy reliance on hand mesh annotations]\n        C --> C1[提出RCM-cache机制/Propose RCM-cache mechanism]\n        C --> C2[设计渐进式课程学习/Design progressive curriculum learning]\n        D --> D1[保持物体几何一致性/Preserves object geometry consistency]\n        D --> D2[生成平滑运动视频/Generates smooth motion videos]"
+    },
+    {
+      "title": "HY-Motion 1.0: Scaling Flow Matching Models for Text-To-Motion Generation",
+      "authors": "Yuxin Wen, Qing Shuai, Di Kang, Jing Li, Cheng Wen, Yue Qian, Ningxin Jiao, Changhai Chen, Weijie Chen, Yiran Wang, Jinkun Guo, Dongyue An, Han Liu, Yanyu Tong, Chao Zhang, Qing Guo, Juan Chen, Qiao Zhang, Youyi Zhang, Zihao Yao, Cheng Zhang, Hong Duan, Xiaoping Wu, Qi Chen, Fei Cheng, Liang Dong, Peng He, Hao Zhang, Jiaxin Lin, Chao Zhang, Zhongyi Fan, Yifan Li, Zhichao Hu, Yuhong Liu, Linus, Jie Jiang, Xiaolong Li, Linchao Bao",
+      "institution": "Tencent Hunyuan",
+      "link": "https://arxiv.org/pdf/2512.23464",
+      "code": "https://github.com/Tencent-Hunyuan/HY-Motion-1.0",
+      "tags": [
+        "motion generation",
+        "flow matching",
+        "diffusion transformer (DiT)",
+        "reinforcement learning from human feedback (RLHF)"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d3019219aea0683c229d44ce63a0fed59b5ebb795811dc1b1638ae995c9a8156_w640_q70.webp",
+      "contributions": "1. The first successful scaling of DiT-based flow matching models to billion parameters for motion generation. 2. A comprehensive full-stage training paradigm including large-scale pretraining, fine-tuning, and RLHF. 3. A meticulous data processing pipeline enabling extensive coverage of over 200 motion categories.",
+      "summary": "This paper introduces HY-Motion 1.0, a large-scale model for generating 3D human motions from text. It scales up Diffusion Transformer-based flow matching and uses a full-stage training pipeline with pretraining, fine-tuning, and RLHF. The model achieves state-of-the-art performance and broad motion coverage, and is released open-source.",
+      "mindmap": "graph TB\n        Root[”HY-Motion 1.0: Scaling Flow Matching Models for Text-To-Motion Generation”]\n        Root --> Problem[”核心问题/Problem: Generating high-quality, text-aligned 3D human motions”]\n        Root --> Method[”主要方法/Method: Scale DiT-based flow matching, Full-stage training (pretrain, fine-tune, RLHF), Meticulous data pipeline”]\n        Root --> Results[”关键结果/Results: SOTA performance, Extensive motion coverage, Open-source release”]"
+    },
+    {
+      "title": "OpenPBR: Novel Features and Implementation Details",
+      "authors": "Jamie Portsmouth, Peter Kutz, Stephen Hill",
+      "institution": "Autodesk, Adobe, Lucasfilm",
+      "link": "https://arxiv.org/pdf/2512.23696",
+      "code": null,
+      "tags": [
+        "computer graphics rendering",
+        "physically based rendering",
+        "uber-shader",
+        "microfacet theory",
+        "subsurface scattering",
+        "thin-film interference"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/34de1d742b1a9090342372c28b227530e6e3c7bfbebef32f3a6f3cfd4dd32542_w640_q70.webp",
+      "contributions": "1. Proposes OpenPBR, a standardized, physically based uber-shader for interoperable material authoring across VFX, animation, and design visualization workflows. 2. Details novel model features including slab-based layering, statistical mixing, and specific physical components like metallic/dielectric substrates, subsurface scattering, and thin-film iridescence layers. 3. Provides in-depth implementation guidance and mathematical derivations for technical topics such as decoupling specular reflectivity from transmission and coat darkening physics.",
+      "summary": "This paper introduces OpenPBR, a standardized physically based rendering shader designed for material interoperability across different rendering systems. It details the model's theoretical foundations, layered components, and provides implementation guidance. The work serves as a companion to the official specification, aiming to standardize and improve material workflows in graphics production.",
+      "mindmap": "graph TB\n        Root(”OpenPBR: Novel Features and Implementation Details”) --> Problem(”核心问题/Problem: Need for interoperable, physically based material authoring across VFX/animation workflows”)\n        Root --> Method(”主要方法/Method: Standardized uber-shader with slab-based layering, microfacet theory, and multi-layer substrates (metallic, dielectric, subsurface, coat, fuzz, thin-film)”)\n        Root --> Results(”关键结果/Results: Detailed model specification, implementation guidance, and demonstration of interoperability across renderers”)"
+    },
+    {
+      "title": "Domain matters: Towards domain-informed evaluation for link prediction",
+      "authors": "Yilin Bi, Junhao Bian, Shuyan Wan, Shuaijia Wang, Tao Zhou",
+      "institution": "University of Electronic Science and Technology of China",
+      "link": "https://arxiv.org/pdf/2512.23371",
+      "code": null,
+      "tags": [
+        "graph machine learning",
+        "link prediction",
+        "algorithm evaluation",
+        "domain adaptation",
+        "complex networks",
+        "graph neural networks"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/052f77d6e344a45d0c05f39094686bed2c2049bf461f2d4ea65caf1fbb66f68e_w640_q70.webp",
+      "contributions": "1. Conducted a large-scale, systematic evaluation of 12 link prediction algorithms across 740 networks from 7 domains, revealing low consistency in algorithm rankings across domains. 2. Proposed the Winner Score metric to identify domain-specific top-performing algorithms (e.g., NMF for social networks, NeoGNN for economics). 3. Introduced the Ranking Stability Coefficient (RSC) to quantify the number of networks needed for stable evaluation, showing significant variation across domains.",
+      "summary": "This paper systematically evaluates link prediction algorithms across diverse network domains, finding that algorithm performance rankings are highly domain-specific rather than universal. It proposes metrics to identify the best algorithm for each domain and to determine the number of networks needed for stable evaluation, emphasizing the importance of aligning algorithmic mechanisms with network structure.",
+      "mindmap": "graph TB\n    A[”Domain matters: Towards domain-informed evaluation for link prediction<br>领域重要：面向领域感知的链接预测评估”] --> B[”核心问题/Problem<br>Existing evaluations assume consistent algorithm performance across domains.<br>现有评估假设算法性能在不同领域一致。”]\n    A --> C[”主要方法/Method<br>Large-scale evaluation of 12 algorithms on 740 networks across 7 domains.<br>在7个领域的740个网络上对12种算法进行大规模评估。”]\n    A --> D[”关键结果/Results<br>Algorithm rankings are domain-specific; Proposed Winner Score & RSC metrics.<br>算法排名是领域特定的；提出了Winner Score和RSC指标。”]"
+    },
+    {
       "title": "ShinyNeRF: Digitizing Anisotropic Appearance in Neural Radiance Fields",
       "authors": "Albert Barreiro, Roger Marí, Rafael Redondo, Gloria Haro, Carles Bosch",
       "institution": "Eurecat, Centre Tecnològic de Catalunya; Universitat Pompeu Fabra; Universitat de Vic - UCC",

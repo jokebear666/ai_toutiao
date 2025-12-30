@@ -4,6 +4,26 @@
   "week": "20251229-20260104",
   "items": [
     {
+      "title": "SPUMA: a minimally invasive approach to the GPU porting of OPENFOAM",
+      "authors": "Simone Bnà, Giuseppe Giaquinto, Ettore Fadiga, Tommaso Zanelli, Francesco Bottau",
+      "institution": "Cineca Supercomputing Centre, Università degli Studi di Napoli Federico II",
+      "link": "https://arxiv.org/pdf/2512.22215",
+      "code": null,
+      "tags": [
+        "computational fluid dynamics",
+        "GPU porting",
+        "unified memory",
+        "memory pool manager",
+        "OpenFOAM",
+        "scalability"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9ea486a67026343b5f3c7d85db1ef1ff1202af04d0bd147ef25d9dc29565e2b1_w640_q70.webp",
+      "contributions": "1. Presents SPUMA, a full GPU porting of OpenFOAM targeting both NVIDIA and AMD GPUs. 2. Implements a portable programming model with a memory pool manager leveraging unified memory for efficient GPU utilization. 3. Demonstrates significant performance and energy efficiency gains through extensive testing on pre-exascale clusters, showing up to 82% energy reduction compared to CPU simulations.",
+      "summary": "This paper addresses the challenge of GPU programmability for open-source CFD by introducing SPUMA, a portable GPU port of OpenFOAM that uses a memory pool manager with unified memory. The method was tested on LUMI and Leonardo clusters, showing strong scalability up to 65% efficiency and weak scalability up to 85%, while reducing energy consumption by up to 82% compared to CPU-based simulations.",
+      "mindmap": "graph TB\n        Root[SPUMA: a minimally invasive approach to the GPU porting of OPENFOAM] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem: GPU programmability challenge in open-source CFD] --> P1[GPU可编程性挑战/GPU Programmability Challenge]\n        Method[主要方法/Method: Portable GPU porting with memory pool] --> M1[便携式编程模型/Portable Programming Model]\n        Method --> M2[内存池管理器/Memory Pool Manager]\n        Method --> M3[利用统一内存/Leverages Unified Memory]\n        Results[关键结果/Results: Performance and energy efficiency on pre-exascale clusters] --> R1[强可扩展性达65%/Strong Scalability 65%]\n        Results --> R2[弱可扩展性达85%/Weak Scalability 85%]\n        Results --> R3[能耗降低82%/Energy Reduction 82%]"
+    },
+    {
       "title": "Some Patterns of Duplications in the outputs of Mersenne Twister Pseudorandom Number Generator MT19937",
       "authors": "Alain Schumacher, Takuji Nishimura, Makoto Matsumoto",
       "institution": "SICAP R&D, Yamagata University, AMAGAERU Institute of Free Mathematics",

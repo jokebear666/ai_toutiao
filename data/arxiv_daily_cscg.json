@@ -4,6 +4,46 @@
   "week": "20251229-20260104",
   "items": [
     {
+      "title": "A Deterministic Bicriteria Approximation Algorithm for the Art Gallery Problem",
+      "authors": "Khaled Elbassioni",
+      "institution": "Khalifa University of Science and Technology",
+      "link": "https://arxiv.org/pdf/2512.23297",
+      "code": null,
+      "tags": [
+        "computational geometry",
+        "art gallery problem",
+        "approximation algorithm",
+        "set cover",
+        "epsilon-net",
+        "deterministic algorithm"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/26cad9af23205ee64a76b013d0010e95ddf0d344a1483b74292c0fc5d2fce832_w640_q70.webp",
+      "contributions": "1. Provides a deterministic bicriteria approximation algorithm for the art gallery problem with holes, 2. Achieves a solution size of O(OPT * log(h+2) * log(OPT * log(h+2))) that sees (1-δ) of the polygon's area, 3. Runs in time polynomial in the number of holes, vertices, vertex bit-length, and log(1/δ).",
+      "summary": "This paper presents a deterministic algorithm for the art gallery problem in polygons with holes. The algorithm finds a set of guards whose size is within a polylogarithmic factor of the optimum, and these guards collectively see at least a (1-δ) fraction of the polygon's area. The running time is polynomial in the relevant input parameters.",
+      "mindmap": "graph TB\n        A[A Deterministic Bicriteria Approximation Algorithm for the Art Gallery Problem] --> B[核心问题/Problem: 在带洞多边形中找到最小的点集，使得多边形内所有点都可见]\n        A --> C[主要方法/Method: 确定性算法，基于集合覆盖和ε-net理论]\n        A --> D[关键结果/Results: 找到规模为O(OPT·log(h+2)·log(OPT·log(h+2)))的点集，覆盖至少(1-δ)面积，运行时间多项式]"
+    },
+    {
+      "title": "Persistent Homology via Finite Topological Spaces",
+      "authors": "Selçuk Kayacan",
+      "institution": "Bahçeşehir University",
+      "link": "https://arxiv.org/pdf/2512.23348",
+      "code": null,
+      "tags": [
+        "topological data analysis",
+        "persistent homology",
+        "finite topological spaces",
+        "posets",
+        "crosscut complexes",
+        "stability"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/66f9ee5417a1e46f255a691f585eeb3b163bd4b47edaafbe115e358a54f4c884_w640_q70.webp",
+      "contributions": "1. Proposes a functorial framework for persistent homology using filtrations of finite topological spaces and posets, bypassing the need for inclusion relations between simplicial complexes. 2. Demonstrates that standard simplifications at the poset level preserve persistent invariants. 3. Proves the stability of the resulting persistence diagrams under metric perturbations in a density-based instantiation.",
+      "summary": "The paper proposes a new functorial framework for persistent homology that starts from a finite metric space and constructs a filtration of finite topological spaces, then functorially maps these to posets and simplicial complexes via crosscut constructions. This approach decouples the metric from the homological analysis and does not require inclusion maps between complexes. The authors show that poset-level simplifications preserve persistent invariants and prove the stability of the resulting persistence diagrams.",
+      "mindmap": "graph TB\n        A[Persistent Homology via Finite Topological Spaces] --> B\n        A --> C\n        A --> D\n        B[核心问题/Problem: Standard persistent homology relies on inclusion-based filtrations of simplicial complexes.]\n        C[主要方法/Method: A functorial framework using filtrations of finite topological spaces and posets, mapped to complexes via crosscut constructions.]\n        D[关键结果/Results: Poset-level simplifications preserve invariants; persistence diagrams are stable under metric perturbations.]"
+    },
+    {
       "title": "Graph Drawing Stress Model with Resistance Distances",
       "authors": "Yosuke Onoue",
       "institution": "Nihon University",

@@ -4,6 +4,128 @@
   "week": "20251229-20260104",
   "items": [
     {
+      "title": "An Energy-Efficient RFET-Based Stochastic Computing Neural Network Accelerator",
+      "authors": "Sheng Lu, Qianhou Qu, Sungyong Jung, Qilian Liang, Chenyun Pan",
+      "institution": "University of Texas at Arlington (inferred from IEEE affiliation and author \"Qilian Liang, Fellow, IEEE\" known association)",
+      "link": "https://arxiv.org/pdf/2512.22131",
+      "code": null,
+      "tags": [
+        "on-device ai",
+        "RFET",
+        "stochastic computing",
+        "SCNN",
+        "stochastic number generator",
+        "accelerator"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6d718d7962f59eda2ed3430de0579c28b976cb6dd1e7da5e6fb355787c2b15ee_w640_q70.webp",
+      "contributions": "1. Proposes a novel SCNN architecture leveraging Reconfigurable Field-Effect Transistors (RFETs) for device-level reconfigurability. 2. Designs highly efficient and compact core modules (e.g., SNGs, APCs) enabled by RFET technology. 3. Develops and evaluates a dedicated RFET-based SCNN accelerator, showing significant improvements in area, latency, and energy over a FinFET baseline.",
+      "summary": "This paper addresses the high resource consumption of Stochastic Computing Neural Networks (SCNNs) by proposing a novel accelerator architecture based on Reconfigurable Field-Effect Transistors (RFETs). The inherent reconfigurability of RFETs enables the design of compact and efficient core components like stochastic number generators. Experimental results demonstrate that the proposed RFET-based accelerator achieves substantial reductions in area, latency, and energy consumption compared to a FinFET-based design at the same technology node.",
+      "mindmap": "graph TB\n        A[An Energy-Efficient RFET-Based Stochastic Computing Neural Network Accelerator] --> B\n        A --> C\n        A --> D\n        B[核心问题/Problem: SCNN资源消耗高/High SCNN Resource Usage]\n        C[主要方法/Method: 基于RFET的架构/RFET-Based Architecture]\n        D[关键结果/Results: 面积、延迟、能耗降低/Reduced Area, Latency, Energy]"
+    },
+    {
+      "title": "HLS4PC: A Parametrizable Framework For Accelerating Point-Based 3D Point Cloud Models on FPGA",
+      "authors": "Amur Saqib Pal, Muhammad Mohsin Ghaffar, Faisal Shafait, Christian Weis, Norbert Wehn",
+      "institution": "National University of Sciences and Technology (Pakistan), RPTU Kaiserslautern-Landau (Germany)",
+      "link": "https://arxiv.org/pdf/2512.22139",
+      "code": "https://github.com/dll-ncai/HLS4PC",
+      "tags": [
+        "on-device ai",
+        "FPGA",
+        "HLS",
+        "Point Cloud",
+        "Model Compression",
+        "Fixed-Point"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/21433bfda0767bbdfcee46f13fb3acd9373d13bb741d87a755643767c9ad74f9_w640_q70.webp",
+      "contributions": "1. Proposed HLS4PC, a parameterizable HLS framework for accelerating point-based 3D point cloud models on FPGA. 2. Introduced PointMLP-Lite, a 4x less complex model variant created via hardware-aware compression techniques (URS, quantization, pruning, fusion). 3. Demonstrated FPGA acceleration achieving 3.56x higher throughput than prior work and outperforming GPU/CPU implementations.",
+      "summary": "This paper addresses the challenge of real-time 3D point cloud processing by proposing HLS4PC, a parameterizable FPGA acceleration framework. The method combines algorithmic optimizations and hardware-aware model compression to create an efficient fixed-point implementation, which significantly outperforms previous accelerators and GPU/CPU baselines in throughput.",
+      "mindmap": "graph TB\n        Root[HLS4PC: A Parametrizable Framework For Accelerating Point-Based 3D Point Cloud Models on FPGA] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem] --> P1[GPU under-utilization due to sparse, unstructured point cloud data]\n        P1 --> P2[High memory/computation demand hinders real-time performance]\n        Method[主要方法/Method] --> M1[Parameterizable HLS framework for FPGA]\n        M1 --> M2[Hardware-aware compression: URS, quantization, pruning, fusion]\n        M2 --> M3[Creates PointMLP-Lite model]\n        Results[关键结果/Results] --> R1[PointMLP-Lite: 4x less complex, ~2% accuracy drop]\n        R1 --> R2[3.56x higher throughput vs. prior work]\n        R2 --> R3[2.3x (GPU) and 22x (CPU) higher throughput]"
+    },
+    {
+      "title": "AnalogSAGE: Self-evolving Analog Design Multi-Agents with Stratified Memory and Grounded Experience",
+      "authors": "Zining Wang, Jian Gao, Weimin Fu, Xiaolong Guo, Xuan Zhang",
+      "institution": "Northeastern University, Kansas State University",
+      "link": "https://arxiv.org/pdf/2512.22435",
+      "code": null,
+      "tags": [
+        "agent system",
+        "analog circuit design",
+        "multi-agent framework",
+        "stratified memory",
+        "simulation-grounded feedback",
+        "self-evolving"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cf0a7cad048acb4f93f29281281d9e76543f81e5aa1dd6e183e005cda30a7c56_w640_q70.webp",
+      "contributions": "1. Proposes AnalogSAGE, an open-source self-evolving multi-agent framework for analog circuit design that coordinates three-stage agent explorations through four stratified memory layers, enabling iterative refinement with simulation-grounded feedback. 2. Introduces a stratified context mechanism to selectively preserve stage-relevant information, enhancing long-horizon reasoning and reliability under stringent specifications. 3. Demonstrates significant improvements in pass rates and search space reduction through a benchmark of ten operational amplifier design problems using the open-source SKY130 PDK and ngspice.",
+      "summary": "The paper addresses the challenge of automating analog circuit design, which traditionally relies heavily on human intuition, by introducing AnalogSAGE, a self-evolving multi-agent framework with stratified memory and simulation-grounded feedback. This approach enables iterative refinement across topology selection, refinement, and parameter optimization stages. Evaluations show it achieves a 10x overall pass rate and 4x reduction in parameter search space compared to existing methods, enhancing reliability and autonomy in analog design automation.",
+      "mindmap": "graph TB\n        A[AnalogSAGE: Self-evolving Analog Design Multi-Agents with Stratified Memory and Grounded Experience] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[Analog circuit design is knowledge-intensive and relies on human intuition]\n        B --> B2[Existing LLM-based methods lack feedback and generalization]\n        C --> C1[Self-evolving multi-agent framework]\n        C --> C2[Three-stage agent explorations with stratified memory]\n        C --> C3[Iterative refinement via simulation-grounded feedback]\n        D --> D1[10x overall pass rate improvement]\n        D --> D2[48x Pass@1 improvement]\n        D --> D3[4x reduction in parameter search space]"
+    },
+    {
+      "title": "TYTAN: Taylor-series based Non-Linear Activation Engine for Deep Learning Accelerators",
+      "authors": "Soham Pramanik, Vimal William, Arnab Raha, Debayan Das, Amitava Mukherjee, Janet L. Paluh",
+      "institution": "Jadavpur University, SandLogic Technologies, Intel Corporation, Indian Institute of Science, Amrita University, SUNY Polytechnic Institute",
+      "link": "https://arxiv.org/pdf/2512.23062",
+      "code": null,
+      "tags": [
+        "on-device ai",
+        "activation function",
+        "hardware accelerator",
+        "taylor series",
+        "energy efficiency",
+        "edge inference"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/233e926fc1401824c658e53f6ee69cc2fa91152f36cad6ff674b919cf9a3aa0e_w640_q70.webp",
+      "contributions": "1. Proposes TYTAN, a Taylor-series based Generalized Non-linear Approximation Engine (G-NAE) for accelerating non-linear activation functions in deep learning. 2. Integrates a re-configurable hardware design with a specialized algorithm to dynamically estimate approximations, aiming for minimal accuracy deviation. 3. Demonstrates significant performance gains and efficiency improvements, including ~2x performance, ~56% power reduction, and ~35x lower area compared to a baseline NVDLA implementation.",
+      "summary": "This paper proposes TYTAN, a hardware-software co-designed engine that uses Taylor series approximations to accelerate non-linear activation functions for energy-efficient AI inference at the edge. The system dynamically configures the approximation to maintain accuracy. Evaluations show it achieves high frequency operation (&gt;950 MHz) with substantial improvements in performance, power, and area compared to a standard accelerator.",
+      "mindmap": "graph TB\n        A[TYTAN: Taylor-series based Non-Linear Activation Engine] --> B[核心问题/Problem: Edge AI inference requires acceleration and energy efficiency, limited by high-power operations like activation functions.]\n        A --> C[主要方法/Method: Proposes a Generalized Non-linear Approximation Engine (G-NAE) using Taylor series and re-configurable hardware with a dynamic approximation algorithm.]\n        A --> D[关键结果/Results: >950 MHz operation, ~2x performance, ~56% power reduction, ~35x lower area vs. NVDLA baseline.]"
+    },
+    {
+      "title": "KernelEvolve: Scaling Agentic Kernel Coding for Heterogeneous AI Accelerators at Meta",
+      "authors": "Gang Liao, Hongsen Qin, Ying Wang, Alicia Golden, Michael Kuchnik, Yavuz Yetim, Jia Jiunn Ang, Chunli Fu, Yihan He, Samuel Hsia, Zewei Jiang, Dianshi Li, Uladzimir Pashkevich, Varna Puvvada, Feng Shi, Matt Steiner, Ruichao Xiao, Nathan Yan, Xiayu Yu, Zhou Fang, Abdul Zainul-Abedin, Ketan Singh, Hongtao Yu, Wenyuan Chi, Barney Huang, Sean Zhang, Noah Weller, Zach Marine, Wyatt Cook, Carole-Jean Wu, Gaoxiang Liu",
+      "institution": "Meta Platforms",
+      "link": "https://arxiv.org/pdf/2512.23236",
+      "code": null,
+      "tags": [
+        "gpu kernels",
+        "agentic kernel coding",
+        "heterogeneous accelerators",
+        "retrieval-augmented prompt synthesis",
+        "graph-based search",
+        "Triton/CuTe DSL"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/641ba327ba0d01461cd8fabad9a237e7b6667ce170be08aa3e89e6624ada0d38_w640_q70.webp",
+      "contributions": "1. Proposes KernelEvolve, an agentic framework that automates kernel generation and optimization for DLRMs across heterogeneous hardware (NVIDIA/AMD GPUs, Meta accelerators) by operating at multiple programming abstractions. 2. Introduces a kernel optimization process modeled as a graph-based search with dynamic adaptation to runtime context via retrieval-augmented prompt synthesis and a persistent hardware knowledge base. 3. Demonstrates the system's effectiveness by achieving 100% correctness on benchmark suites and substantial performance speedups (up to 17x) in production, reducing development time from weeks to hours and lowering the programmability barrier for new AI hardware.",
+      "summary": "This paper presents KernelEvolve, an agentic framework that automates the generation and optimization of compute kernels for deep learning recommendation models to address challenges posed by model, kernel, and hardware heterogeneity. The method uses a graph-based search process enhanced with retrieval-augmented prompts and operates across multiple programming abstractions. The system was validated on production models and benchmarks, showing significant performance improvements and reduced development time, effectively mitigating the programmability barrier for new AI accelerators.",
+      "mindmap": "graph TB\n        A[KernelEvolve: Scaling Agentic Kernel Coding] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[DLRM训练/推理效率<br/>DLRM Training/Inference Efficiency]\n        B --> B2[模型、内核、硬件异构性<br/>Model, Kernel, Hardware Heterogeneity]\n        C --> C1[智能内核编码框架<br/>Agentic Kernel Coding Framework]\n        C --> C2[多抽象层: Triton, CuTe DSL<br/>Multi-Abstraction: Triton, CuTe DSL]\n        C --> C3[图搜索与检索增强提示<br/>Graph Search & Retrieval-Augmented Prompt]\n        D --> D1[100%正确率, 17倍加速<br/>100% Correctness, 17x Speedup]\n        D --> D2[开发时间: 数周->数小时<br/>Dev Time: Weeks->Hours]\n        D --> D3[降低新硬件编程壁垒<br/>Reduces New Hardware Programmability Barrier]"
+    },
+    {
+      "title": "Synthesis of signal processing algorithms with constraints on minimal parallelism and memory space",
+      "authors": "Sergey Salishev",
+      "institution": "Saint Petersburg State University",
+      "link": "https://arxiv.org/pdf/2512.22676",
+      "code": null,
+      "tags": [
+        "digital signal processing",
+        "computer arithmetic",
+        "high-performance computing",
+        "energy-efficient computing",
+        "integer-friendly approximation",
+        "conflict-free memory access",
+        "fast Fourier transform",
+        "fast Schur algorithm"
+      ],
+      "day": "2025-12-30",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6fe50589b6f9e67a8e1acb929b6cfc7dcaecddcc5c1837d218c89e297ca79994_w640_q70.webp",
+      "contributions": "1. A power/energy consumption model for clocked CMOS logic to select optimal parallelism. 2. Integer-friendly approximation methods for elementary functions using constrained piecewise-polynomials to reduce lookup-table size. 3. Provably conflict-free data placement and execution order schemes for mixed-radix streaming FFT on multi-bank/single-port memories.",
+      "summary": "This thesis develops signal-processing algorithms and implementation schemes under constraints of minimal parallelism and memory space to improve energy efficiency. It proposes a power model, approximation methods, and conflict-free memory access schemes for FFT and fast Schur algorithms. The results provide constructive theorems and design trade-offs for building efficient specialized accelerators.",
+      "mindmap": "graph TB\n        Root[”Synthesis of signal processing algorithms with constraints on minimal parallelism and memory space<br>信号处理算法在最小并行度和内存空间约束下的综合”] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[”核心问题/Problem<br>Improving energy efficiency of low-power computing hardware<br>提高低功耗计算硬件的能效”]\n        Method[”主要方法/Method<br>1. Power/energy model for CMOS logic<br>CMOS逻辑功耗/能耗模型<br>2. Integer-friendly function approximation<br>整数友好函数近似<br>3. Conflict-free FFT schedules<br>无冲突FFT调度<br>4. Parallelism/memory analysis for fast Schur algorithm<br>快速Schur算法的并行度/内存分析”]\n        Results[”关键结果/Results<br>Constructive theorems, schedules, and design trade-offs for efficient specialized accelerators<br>为高效专用加速器提供构造性定理、调度方案和设计权衡”]"
+    },
+    {
       "title": "Power Side-Channel Analysis of the CVA6 RISC-V Core at the RTL Level Using VeriSide",
       "authors": "Behnam Farnaghinejad, Antonio Porsia, Annachiara Ruospo, Alessandro Savino, Stefano Di Carlo, Ernesto Sanchez",
       "institution": "Politecnico di Torino",

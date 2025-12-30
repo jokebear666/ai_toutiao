@@ -65,12 +65,18 @@ const DetailModal = ({ paper, onClose }: { paper: PaperItem; onClose: () => void
                 <div style={{ width: '100%', height: '100%', left: '100%', position: 'absolute', display: 'flex', justifyContent: 'center', alignItems: 'center', overflow: 'auto', padding: '20px' }}>
                      {paper.mindmap ? (
                         <div style={{ minWidth: '100%', minHeight: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                            <Mermaid value={paper.mindmap
-                                .replace(/"/g, '”')
-                                .replace(/(\w+)\((.*)\)/g, '$1[$2]') // Convert ID(...) to ID[...]
+                            <Mermaid value={(() => {
+                              const text = paper.mindmap.replace(/"/g, '”');
+                              // If mindmap already uses [] syntax, skip ()->[] conversion
+                              // Check for any [ to be robust (including Chinese node IDs)
+                              if (text.includes('[')) {
+                                return text.replace(/\(/g, '（').replace(/\)/g, '）');
+                              }
+                              return text
+                                .replace(/(\w+)\(([^)]*)\)/g, '$1[$2]') // Convert ID(...) to ID[...] (non-greedy)
                                 .replace(/\(/g, '（') // Escape remaining parens
-                                .replace(/\)/g, '）')
-                            } />
+                                .replace(/\)/g, '）');
+                            })()} />
                         </div>
                      ) : (
                         <div style={{color: '#999'}}>No Mindmap Available</div>
@@ -293,7 +299,8 @@ export default function ArxivDailyPage() {
     db: '数据库', ds: '数据结构与算法', gr: '图形学', gt: '博弈论', hc: '人机交互', ir: '信息检索', it: '信息论',
     ma: '多智能体系统', os: '操作系统', pl: '编程语言', sc: '符号计算', sd: '声音', si: '社会与信息网络', cr: '密码与安全',
     ar: '硬件架构', cc: '计算复杂性', cg: '计算几何', dl: '数字图书馆', dm: '离散数学', et: '新兴技术',
-    fl: '形式语言与自动机', lo: '计算机逻辑', ms: '数学软件', oh: '其他', pf: '性能'
+    fl: '形式语言与自动机', lo: '计算机逻辑', ms: '数学软件', oh: '其他', pf: '性能',
+    na: '数值分析', sy: '系统与控制'
   }), []);
   const priorityMap = useMemo(() => ({
     ai: 1, ce: 2, cl: 3, cv: 4, lg: 5, dc: 6, mm: 7, ne: 8,

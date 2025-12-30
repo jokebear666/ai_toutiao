@@ -94,18 +94,18 @@ const config = {
             position: 'left',
             activeBaseRegex: '^/arxiv-daily'
           },
-          {
-            to: '/category/daily',
-            label: 'Daily',
-            position: 'left',
-            activeBaseRegex: '^/category/daily'
-          },
-          {
-            to: '/category/paper',
-            label: 'Paper',
-            position: 'left',
-            activeBaseRegex: '^/category/paper'
-          },
+          // {
+          //   to: '/category/daily',
+          //   label: 'Daily',
+          //   position: 'left',
+          //   activeBaseRegex: '^/category/daily'
+          // },
+          // {
+          //   to: '/category/paper',
+          //   label: 'Paper',
+          //   position: 'left',
+          //   activeBaseRegex: '^/category/paper'
+          // },
           {
             to: '/sponsor/advertise',
             label: '赞助商',

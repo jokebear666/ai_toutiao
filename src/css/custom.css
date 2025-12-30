@@ -490,15 +490,36 @@ body, .main-wrapper { background: #ffffff; }
   margin-bottom: 12px;
   color: var(--ifm-color-primary);
 }
-.paper-modal-contributions, .paper-modal-summary {
+
+.contributions-title {
+  color: #d97706 !important;
+}
+
+[data-theme='dark'] .contributions-title {
+  color: #fbbf24 !important;
+}
+
+.paper-modal-summary {
   background: #f0fdf4;
   padding: 16px;
   border-radius: 8px;
   border-left: 4px solid var(--ifm-color-primary);
 }
 
-[data-theme='dark'] .paper-modal-contributions, [data-theme='dark'] .paper-modal-summary {
+.paper-modal-contributions {
+  background: #fffbeb;
+  padding: 16px;
+  border-radius: 8px;
+  border-left: 4px solid #f59e0b;
+}
+
+[data-theme='dark'] .paper-modal-summary {
   background: rgba(46, 133, 85, 0.1);
+}
+
+[data-theme='dark'] .paper-modal-contributions {
+  background: rgba(245, 158, 11, 0.1);
+  border-left-color: #f59e0b;
 }
 
 .paper-modal-contributions ul {

@@ -66,16 +66,29 @@ const DetailModal = ({ paper, onClose }: { paper: PaperItem; onClose: () => void
                      {paper.mindmap ? (
                         <div style={{ minWidth: '100%', minHeight: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                             <Mermaid value={(() => {
-                              const text = paper.mindmap.replace(/"/g, '”');
-                              // If mindmap already uses [] syntax, skip ()->[] conversion
-                              // Check for any [ to be robust (including Chinese node IDs)
-                              if (text.includes('[')) {
-                                return text.replace(/\(/g, '（').replace(/\)/g, '）');
-                              }
-                              return text
-                                .replace(/(\w+)\(([^)]*)\)/g, '$1[$2]') // Convert ID(...) to ID[...] (non-greedy)
-                                .replace(/\(/g, '（') // Escape remaining parens
-                                .replace(/\)/g, '）');
+                              let text = paper.mindmap.replace(/"/g, '”');
+                              
+                              // 1. Protect existing [...] blocks to avoid double processing
+                              const placeholders: string[] = [];
+                              text = text.replace(/\[[^\]]*\]/g, (match) => {
+                                placeholders.push(match);
+                                return `__SQ_BLOCK_${placeholders.length - 1}__`;
+                              });
+
+                              // 2. Convert ID(...) to ID[...] for remaining parts (node definitions)
+                              // Only match if it looks like a node definition (word characters followed by parens)
+                              text = text.replace(/(\w+)\(([^)]*)\)/g, '$1[$2]');
+
+                              // 3. Escape any remaining loose parentheses in the text
+                              text = text.replace(/\(/g, '（').replace(/\)/g, '）');
+
+                              // 4. Restore [...] blocks and escape parentheses inside them to be safe
+                              text = text.replace(/__SQ_BLOCK_(\d+)__/g, (_, index) => {
+                                const original = placeholders[parseInt(index)];
+                                return original.replace(/\(/g, '（').replace(/\)/g, '）');
+                              });
+                              
+                              return text;
                             })()} />
                         </div>
                      ) : (
@@ -123,8 +136,8 @@ const DetailModal = ({ paper, onClose }: { paper: PaperItem; onClose: () => void
             )}
 
             {paper.contributions && (
-                <div className="paper-modal-section">
-                    <h3>Contributions</h3>
+                <div className="paper-modal-section contributions-section">
+                    <h3 className="contributions-title">Contributions</h3>
                     <div className="paper-modal-contributions">
                         <ul>
                             {paper.contributions.split(/(?=\d+\.)/).filter(i => i.trim().length > 0).map((item, i) => {

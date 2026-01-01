@@ -4,6 +4,165 @@
   "week": "20251229-20260104",
   "items": [
     {
+      "title": "MiMo-Audio: Audio Language Models are Few-Shot Learners",
+      "authors": "Xiaomi LLM-Core Team, Dong Zhang, Gang Wang, Jinlong Xue, Kai Fang, Liang Zhao, Rui Ma, Shuhuai Ren, Shuo Liu, Tao Guo, Weiji Zhuang, Xin Zhang, Xingchen Song, Yihan Yan, Yongzhe He, Cici, Bowen Shen, Chengxuan Zhu, Chong Ma, Chun Chen, Heyu Chen, Jiawei Li, Lei Li, Menghang Zhu, Peidian Li, Qiying Wang, Sirui Deng, Weimin Xiong, Wenshan Huang, Wenyu Yang, Yilin Jiang, Yixin Yang, Yuanyuan Tian, Yue Ma, Yue Yu, Zihan Zhang, Zihao Yue, Bangjun Xiao, Bingquan Xia, Bofei Gao, Bowen Ye, Can Cai, Chang Liu, Chenhong He, Chunan Li, Dawei Zhu, Duo Zhang, Fengyuan Shi, Guoan Wang, Hailin Zhang, Hanglong Lv, Hanyu Li, Hao Tian, Heng Qu, Hongshen Xu, Houbin Zhang, Huaqiu Liu, Jiangshan Duo, Jianguang Zuo, Jianyu Wei, Jiebao Xiao, Jinhao Dong, Jun Shi, Junhao Hu, Kainan Bao, Kang Zhou, Linghao Zhang, Meng Chen, Nuo Chen, Peng Zhang, Qianli Chen, Qiantong Wang, Rang Li, Shaohui Liu, Shengfan Wang, Shicheng Li, Shihua Yu, Shijie Cao, Shimao Chen, Shuhao Gu, Weikun Wang, Wenhan Ma, Xiangwei Deng, Xing Yong, Xing Zhang, Xu Wang, Yifan Song, Yihao Zhao, Yingbo Zhao, Yizhao Gao, Yu Cheng, Yu Tu, Yudong Wang, Zhaojun Huang, Zhengju Tang, Zhenru Lin, Zhichao Song, Zhipeng Xu, Zhixian Zheng, Zihan Jiang",
+      "institution": "Xiaomi",
+      "link": "https://arxiv.org/pdf/2512.23808",
+      "code": "https://github.com/XiaomiMiMo/MiMo-Audio",
+      "tags": [
+        "multi-modal training",
+        "audio language model",
+        "few-shot learning",
+        "instruction tuning",
+        "scaling pretraining",
+        "speech continuation"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4efb9eb77f0c6bfe175c709a98be8909fd963e33e44e830db2cd023ecf616b62_w640_q70.webp",
+      "contributions": "1. Scaled audio language model pretraining to over 100 million hours, demonstrating emergent few-shot learning capabilities across diverse audio tasks. 2. Introduced a systematic evaluation framework and showed that the base model achieves SOTA performance among open-source models on speech intelligence and audio understanding benchmarks, with generalization to unseen tasks. 3. Developed an instruction-tuned variant with a curated corpus and thinking mechanisms, achieving open-source SOTA on multiple audio understanding, spoken dialogue, and TTS benchmarks, rivaling closed-source models.",
+      "summary": "The paper proposes MiMo-Audio, a large-scale audio language model pretrained on over 100 million hours of data, which demonstrates emergent few-shot learning capabilities for various audio tasks without task-specific fine-tuning. The instruction-tuned variant further achieves state-of-the-art performance on multiple benchmarks, showing strong generalization in audio understanding and generation.",
+      "mindmap": "graph TB\n        Root[”MiMo-Audio: Audio Language Models are Few-Shot Learners”] --> Problem[”核心问题/Problem: Existing audio models require task-specific fine-tuning, lacking human-like generalization.”]\n        Root --> Method[”主要方法/Method: Scale next-token prediction pretraining on 100M+ hours of audio; Use instruction-tuning with thinking mechanisms.”]\n        Root --> Results[”关键结果/Results: Emergent few-shot learning; SOTA open-source performance; Generalizes to unseen tasks like voice conversion.”]"
+    },
+    {
+      "title": "Breaking Audio Large Language Models by Attacking Only the Encoder: A Universal Targeted Latent-Space Audio Attack",
+      "authors": "Roee Ziv, Raz Lapid, Moshe Sipper",
+      "institution": "Ben Gurion University of the Negev, Deepkeep",
+      "link": "https://arxiv.org/pdf/2512.23881",
+      "code": null,
+      "tags": [
+        "adversarial attacks",
+        "universal adversarial perturbation",
+        "latent-space attack",
+        "audio-language models",
+        "encoder-level vulnerability",
+        "targeted attack"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/aec73155c062c3c66b8e33c0e7892e17d374292349cfa71e3389850584cf8195_w640_q70.webp",
+      "contributions": "1. Proposes a universal targeted latent-space attack against audio-language models, focusing solely on the audio encoder. 2. Introduces an attack method that learns a single perturbation effective across different inputs and speakers, without needing access to the downstream language model. 3. Demonstrates high attack success rates with minimal perceptual distortion on a state-of-the-art model, revealing a critical new attack surface in multimodal systems.",
+      "summary": "This paper identifies a security vulnerability in audio-language models where adversarial attacks can be launched by manipulating only the audio encoder's latent representations. The proposed method learns a universal perturbation that forces the model to generate attacker-specified text outputs, and experiments show it is highly effective and stealthy. This reveals a significant and previously underexplored attack surface at the encoder level of multimodal AI systems.",
+      "mindmap": "graph TB\n        Root[”Breaking Audio Large Language Models by Attacking Only the Encoder<br>仅攻击编码器来攻破音频大语言模型”] --> Problem[”核心问题/Problem<br>Audio-language models have new security vulnerabilities.<br>音频-语言模型存在新的安全漏洞”]\n        Root --> Method[”主要方法/Method<br>Universal targeted latent-space attack on the encoder.<br>针对编码器的通用目标潜空间攻击”]\n        Root --> Results[”关键结果/Results<br>High attack success with minimal distortion.<br>高攻击成功率，最小感知失真”]"
+    },
+    {
+      "title": "PhyAVBench: A Challenging Audio Physics-Sensitivity Benchmark for Physically Grounded Text-to-Audio-Video Generation",
+      "authors": "Tianxin Xie, Wentao Lei, Guanjie Huang, Pengfei Zhang, Kai Jiang, Chunhui Zhang, Fengji Ma, Haoyu He, Han Zhang, Jiangshan He, Jinting Wang, Linghan Fang, Lufei Gao, Orkesh Ablet, Peihua Zhang, Ruolin Hu, Shengyu Li, Weilin Lin, Xiaoyang Feng, Xinyue Yang, Yan Rong, Yanyun Wang, Zihang Shao, Zelin Zhao, Chenxing Li, Shan Yang, Wenfu Wang, Meng Yu, Dong Yu, Li Liu",
+      "institution": "HKUST(GZ), Tencent, Shanghai Jiao Tong University, Technical University of Munich",
+      "link": "https://arxiv.org/pdf/2512.23994",
+      "code": "https://imxtx.github.io/PhyAVBench/",
+      "tags": [
+        "audio-visual generation",
+        "text-to-audio-video",
+        "physics-sensitivity",
+        "benchmark",
+        "audio-physics grounding",
+        "contrastive physical response score"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9eec12bf437e946a08a88614c7454f1315e7f14f21f2ebe631265de8a77d352a_w640_q70.webp",
+      "contributions": "1. Introduces PhyAVBench, a novel benchmark for evaluating the audio physics-sensitivity of T2AV models., 2. Proposes the Audio-Physics Sensitivity Test (APST) paradigm using paired prompts with controlled physical variables., 3. Defines the Contrastive Physical Response Score (CPRS) to quantitatively measure a model's understanding of physical principles.",
+      "summary": "The paper identifies that current text-to-audio-video (T2AV) models lack physical plausibility in generated sounds. To address this, it introduces PhyAVBench, a challenging benchmark designed to systematically evaluate models' audio physics grounding through a novel Audio-Physics Sensitivity Test (APST). The authors argue that this benchmark will stimulate progress in generating physically consistent audio-visual content.",
+      "mindmap": "graph TB\n        A[PhyAVBench: A Challenging Audio Physics-Sensitivity Benchmark] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[现有T2AV模型无法生成物理合理的声音 / Existing T2AV models generate physically implausible sounds]\n        C --> C1[提出PhyAVBench基准与APST评估范式 / Propose PhyAVBench benchmark & APST evaluation paradigm]\n        C --> C2[使用成对提示控制物理变量 / Use paired prompts with controlled physical variables]\n        C --> C3[引入对比物理响应分数(CPRS) / Introduce Contrastive Physical Response Score (CPRS)]\n        D --> D1[系统性评估模型对声学物理的理解 / Systematically evaluate models' understanding of acoustic physics]\n        D --> D2[推动物理基础T2AV生成的研究 / Stimulate research in physically-grounded T2AV generation]"
+    },
+    {
+      "title": "AHA: Aligning Large Audio-Language Models for Reasoning Hallucinations via Counterfactual Hard Negatives",
+      "authors": "Yanxi Chen, Wenhui Zhu, Xiwen Chen, Zhipeng Wang, Xin Li, Peijie Qiu, Hao Wang, Xuanzhao Dong, Yujian Xiong, Anderson Schneider, Yuriy Nevmyvaka, Yalin Wang",
+      "institution": "Arizona State University, Clemson University, Washington University in St. Louis, Rice University, Morgan Stanley",
+      "link": "https://arxiv.org/pdf/2512.24052",
+      "code": "https://github.com/LLM-VLM-GSL/AHA",
+      "tags": [
+        "multi-modal reasoning",
+        "audio-language models",
+        "hallucination mitigation",
+        "counterfactual hard negatives",
+        "preference alignment",
+        "temporal reasoning"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/45abc0731e44f649614386415942c67de681cccc206f884d4ce3832844263cdf_w640_q70.webp",
+      "contributions": "1. Proposed a taxonomy for audio grounding failures in LALMs, categorizing hallucinations into Event Omission, False Event Identity, Temporal Relation Error, and Quantitative Temporal Error. 2. Introduced the AHA (Audio Hallucination Alignment) framework, which uses counterfactual hard negative mining to construct a high-quality preference dataset for model alignment. 3. Established AHA-Eval, a diagnostic benchmark to rigorously evaluate fine-grained temporal reasoning capabilities in audio-language models.",
+      "summary": "The paper addresses the problem of hallucinations in Large Audio-Language Models (LALMs), where models generate text not grounded in the audio input. To solve this, the authors propose the AHA framework, which uses counterfactual hard negative mining to create a preference dataset for aligning models to distinguish acoustic evidence from fabrications. The resulting aligned model, Qwen-Audio-AHA, shows significant improvements on both the diagnostic AHA-Eval benchmark and public benchmarks, demonstrating effective mitigation of grounding errors.",
+      "mindmap": "graph TB\n        Root[AHA: Aligning Large Audio-Language Models for Reasoning Hallucinations via Counterfactual Hard Negatives] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem] --> P1[Large Audio-Language Models (LALMs) suffer from hallucinations / 大型音频语言模型存在幻觉问题]\n        Method[主要方法/Method] --> M1[Propose AHA framework with counterfactual hard negative mining / 提出AHA框架，使用反事实硬负例挖掘]\n        Method --> M2[Construct preference dataset for alignment / 构建用于对齐的偏好数据集]\n        Results[关键结果/Results] --> R1[13.7% improvement on AHA-Eval benchmark / 在AHA-Eval基准上提升13.7%]\n        Results --> R2[Gains on public benchmarks (MMAU-Test, MMAR) / 在公开基准(MMAU-Test, MMAR)上取得提升]"
+    },
+    {
+      "title": "Environmental Sound Deepfake Detection Challenge: An Overview",
+      "authors": "Han Yin, Yang Xiao, Rohan Kumar Das, Jisheng Bai, Ting Dang",
+      "institution": "KAIST, University of Melbourne, Fortemedia Singapore, Xi’an University of Posts & Telecommunications",
+      "link": "https://arxiv.org/pdf/2512.24140",
+      "code": "https://github.com/apple-yinhan/EnvSDD",
+      "tags": [
+        "audio deepfake detection",
+        "environmental sound",
+        "deepfake detection",
+        "anti-spoofing",
+        "acoustic scene understanding"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7537d7ea96f7125c1cdeae053e793ee0aabbb9a9ca6ce7fceaf6aa3e5967f959_w640_q70.webp",
+      "contributions": "1. Introduced EnvSDD, the first large-scale curated dataset for environmental sound deepfake detection. 2. Organized the ICASSP 2026 ESDD Challenge with two novel tracks focusing on robustness to unseen generators and black-box, low-resource detection. 3. Provided a detailed analysis of the challenge results and summarized effective design choices from top-performing systems.",
+      "summary": "This paper addresses the problem of detecting AI-generated fake environmental sounds by introducing the EnvSDD dataset and launching the ESDD Challenge. The challenge features two tracks to evaluate model robustness against unseen audio generators and in black-box, low-resource scenarios. The work aims to advance the field by providing a benchmark and analyzing the performance of submitted detection methods.",
+      "mindmap": "graph TB\n        Root(”ENVIRONMENTAL SOUND DEEPFAKE DETECTION CHALLENGE: AN OVERVIEW”) --> Problem(”核心问题/Problem”)\n        Root --> Method(”主要方法/Method”)\n        Root --> Results(”关键结果/Results”)\n        Problem --> P1(”AI生成环境音/AI-generated environmental sounds”)\n        Problem --> P2(”存在滥用风险/Risk of misuse”)\n        Method --> M1(”创建EnvSDD数据集/Create EnvSDD dataset”)\n        Method --> M2(”组织ESDD挑战赛/Organize ESDD Challenge”)\n        Results --> R1(”分析挑战赛结果/Analyze challenge results”)\n        Results --> R2(”总结有效设计/Summarize effective designs”)"
+    },
+    {
+      "title": "AI-Driven Acoustic Voice Biomarker-Based Hierarchical Classification of Benign Laryngeal Voice Disorders from Sustained Vowels",
+      "authors": "Mohsen Annabestani, Samira Aghadoost, Anais Rameau, Olivier Elemento, Gloria Chia-Yi Chiang",
+      "institution": "Weill Cornell Medicine",
+      "link": "https://arxiv.org/pdf/2512.24628",
+      "code": null,
+      "tags": [
+        "medical audio classification",
+        "hierarchical classification",
+        "acoustic biomarkers",
+        "mel-spectrograms",
+        "voice disorders",
+        "sustained vowels"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1a53018a32ff94f55161f7c3e6f57843d9d248636c6146e968b0832ca7fdb34b_w640_q70.webp",
+      "contributions": "1. A novel three-stage hierarchical machine learning framework for voice disorder classification that mirrors clinical triage workflows, integrating deep spectral features with interpretable acoustic biomarkers. 2. The proposed system outperforms flat multi-class classifiers and state-of-the-art pre-trained self-supervised audio models (HuBERT, HeAR) on the task of classifying benign laryngeal disorders from sustained vowels. 3. Demonstrates the potential of combining deep learning representations with clinically interpretable features to enhance transparency and alignment for scalable, non-invasive vocal health screening and monitoring.",
+      "summary": "This paper proposes a hierarchical AI framework to classify benign laryngeal voice disorders from short, sustained vowel recordings. The method uses a three-stage pipeline combining CNN-derived mel-spectrogram features with interpretable acoustic biomarkers, outperforming standard multi-class and pre-trained audio models. The results highlight the framework's potential as a scalable tool for early voice disorder screening and diagnostic triage.",
+      "mindmap": "graph TB\n        A[AI-Driven Acoustic Voice Biomarker-Based Hierarchical Classification of Benign Laryngeal Voice Disorders from Sustained Vowels] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[良性喉部嗓音疾病分类/Benign Laryngeal Voice Disorder Classification]\n        C --> C1[三级分层机器学习框架/Three-Stage Hierarchical ML Framework]\n        C1 --> C1_1[阶段1: 病理筛查/Stage 1: Pathological Screening]\n        C1 --> C1_2[阶段2: 粗粒度分层/Stage 2: Coarse Stratification]\n        C1 --> C1_3[阶段3: 细粒度分类/Stage 3: Fine-Grained Classification]\n        C1_1 --> C1_1a[融合CNN梅尔谱特征与21种声学生物标志物/Integrates CNN Mel-Spectrogram & 21 Acoustic Biomarkers]\n        D --> D1[性能优于平面多类分类器与预训练模型/Outperforms Flat Classifiers & Pre-trained Models (HuBERT, HeAR)]\n        D --> D2[结合深度表征与可解释特征，增强临床可操作性/Enhances Transparency & Clinical Alignment via Deep & Interpretable Features]"
+    },
+    {
+      "title": "AudioFab: Building A General and Intelligent Audio Factory through Tool Learning",
+      "authors": "Cheng Zhu, Jing Han, Qianshuai Xue, Kehan Wang, Huan Zhao, Zixing Zhang",
+      "institution": "Hunan University, University of Cambridge",
+      "link": "https://arxiv.org/pdf/2512.24645",
+      "code": "https://github.com/SmileHnu/AudioFab",
+      "tags": [
+        "agent system",
+        "audio agent",
+        "tool learning",
+        "modular design",
+        "few-shot learning",
+        "natural language interface"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/37da2d211f7f1dcdae67f8b3dfe41860d2730828abf8f568b168e7809aca6b38_w640_q70.webp",
+      "contributions": "1. Introduces AudioFab, an open-source, modular agent framework designed to resolve dependency conflicts and simplify tool integration for audio processing. 2. Optimizes tool learning through intelligent tool selection and few-shot learning to improve efficiency and accuracy in complex tasks. 3. Provides a user-friendly natural language interface tailored for non-expert users, aiming to establish an open and intelligent audio-processing ecosystem.",
+      "summary": "The paper introduces AudioFab, a general and intelligent agent framework for audio processing. It addresses the fragmentation of audio tools and inefficient collaboration in existing frameworks through a modular design and optimized tool learning. The main conclusion is that AudioFab provides a stable, extensible platform to facilitate future research and development in audio and multimodal AI.",
+      "mindmap": "graph TB\n        A[AudioFab: Building A General and Intelligent Audio Factory through Tool Learning] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[音频工具碎片化/Fragmented audio tools]\n        B --> B2[现有框架配置复杂且协作低效/Existing frameworks have complex config & inefficient collaboration]\n        C --> C1[模块化设计解决依赖冲突/Modular design resolves dependency conflicts]\n        C --> C2[智能工具选择与少样本学习优化工具学习/Intelligent tool selection & few-shot learning optimize tool learning]\n        C --> C3[为非专家用户提供自然语言接口/Natural language interface for non-experts]\n        D --> D1[构建开放智能的音频处理生态系统/Builds an open & intelligent audio-processing ecosystem]\n        D --> D2[为未来音频与多模态AI研究提供稳定可扩展平台/Provides a stable & extensible platform for future audio & multimodal AI R&D]"
+    },
+    {
+      "title": "SLM-TTA: A Framework for Test-Time Adaptation of Generative Spoken Language Models",
+      "authors": "Yuan-Kuei Wu, Yang Liu, Yiteng Huang, Zhaojun Yang, Haibin Wu, Ruizhe Huang, Yi-Te, Shuyu Kong, Ming Sun, Florian Metze, Li Wan",
+      "institution": "National Taiwan University, Meta",
+      "link": "https://arxiv.org/pdf/2512.24739",
+      "code": null,
+      "tags": [
+        "llm inference",
+        "test-time adaptation",
+        "spoken language models",
+        "acoustic shift",
+        "parameter-efficient fine-tuning",
+        "robustness"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a8a7defcaf1d981313d94ffcbed71bedbbb3c351330247513f7ac8c831945074_w640_q70.webp",
+      "contributions": "1. Introduces the first test-time adaptation (TTA) framework specifically designed for generative Spoken Language Models (SLMs) that process interleaved audio-text prompts. 2. Proposes a method that updates only a small, targeted subset of model parameters during inference using a single incoming utterance, requiring no source data or labels, making it compute- and memory-efficient. 3. Demonstrates consistent performance gains across diverse tasks (ASR, speech translation, audio understanding) under various acoustic corruptions without degrading core task accuracy.",
+      "summary": "This paper addresses the performance degradation of generative Spoken Language Models (SLMs) under real-world acoustic shifts like noise and reverberation. It proposes SLM-TTA, a test-time adaptation framework that efficiently updates a small subset of model parameters using only the incoming test utterance, improving robustness without extra data or labels. The method shows consistent gains across multiple speech tasks and is efficient enough for resource-constrained deployment.",
+      "mindmap": "graph TB\n        Root[SLM-TTA: A Framework for Test-Time Adaptation of Generative Spoken Language Models] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem: SLM性能在声学偏移下下降/SLM performance degrades under acoustic shift]\n        Method[主要方法/Method: 仅用测试语音更新少量参数的TTA框架/TTA framework updating few parameters with test utterance]\n        Results[关键结果/Results: 鲁棒性提升且高效/Robustness gains and efficiency]"
+    },
+    {
       "title": "Rethinking Leveraging Pre-Trained Multi-Layer Representations for Speaker Verification",
       "authors": "Jin Sob Kim, Hyun Joon Park, Wooseok Shin, Sung Won Han",
       "institution": "Korea University",

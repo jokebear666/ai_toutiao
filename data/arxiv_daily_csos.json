@@ -4,6 +4,46 @@
   "week": "20251229-20260104",
   "items": [
     {
+      "title": "MSched: GPU Multitasking via Proactive Memory Scheduling",
+      "authors": "Weihang Shen, Yinqiu Chen, Rong Chen, Haibo Chen",
+      "institution": "Institute of Parallel and Distributed Systems, Shanghai Jiao Tong University",
+      "link": "https://arxiv.org/pdf/2512.24637",
+      "code": null,
+      "tags": [
+        "memory & caching",
+        "GPU multitasking",
+        "memory oversubscription",
+        "proactive scheduling",
+        "demand paging",
+        "context switching"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/81aa7999cea2218215dd44a0f4318762fd750cf330b1155dde0203d7d1437b8c_w640_q70.webp",
+      "contributions": "1. Proposes MSched, an OS-level scheduler that extends GPU context switching with proactive working set preparation to coalesce expensive page faults into a single efficient migration. 2. Introduces a template-based approach to predict GPU memory access patterns with near-perfect accuracy using kernel launch arguments. 3. Presents a co-design between the task scheduler and memory manager to enforce a globally optimal page placement policy.",
+      "summary": "The paper addresses the bottleneck of limited GPU HBM capacity for multitasking by proposing MSched, a proactive memory scheduler. MSched predicts memory access patterns to prepare working sets during context switches, replacing fragmented demand paging with efficient bulk migrations. Evaluation shows it outperforms demand paging by up to 11.05x for DL workloads and 57.88x for LLM inference under memory oversubscription.",
+      "mindmap": "graph TB\n        Root[”MSched: GPU Multitasking via Proactive Memory Scheduling”] --> Problem[”核心问题/Problem: Limited HBM capacity bottleneck for GPU multitasking”]\n        Root --> Method[”主要方法/Method: Proactive OS scheduler with template-based prediction & co-design”]\n        Root --> Results[”关键结果/Results: Outperforms demand paging by up to 57.88x”]"
+    },
+    {
+      "title": "Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search",
+      "authors": "Rohit Dwivedula, Divyanshu Saxena, Sujay Yadalam, Daehyeok Kim, Aditya Akella",
+      "institution": "The University of Texas at Austin",
+      "link": "https://arxiv.org/pdf/2512.25065",
+      "code": null,
+      "tags": [
+        "memory & caching",
+        "heuristic synthesis",
+        "evolutionary search",
+        "instance-optimal",
+        "LLM code generation",
+        "cache eviction"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8daf2ac9cf0548fb6b41e5cb643f8b78cc3001bcb2d8b95b8ade5ced5201e53a_w640_q70.webp",
+      "contributions": "1. Proposes Vulcan, a framework that recasts heuristic design as an automated search problem using LLMs to synthesize instance-optimal heuristics tailored to specific deployment contexts. 2. Introduces LLM-friendly, task-agnostic interfaces that separate policy and mechanism, making the synthesis tractable and enabling even small LLMs to generate correct code. 3. Demonstrates the framework's effectiveness by synthesizing heuristics for cache eviction and memory tiering that outperform state-of-the-art human-designed algorithms.",
+      "summary": "The paper proposes Vulcan, a framework that uses LLM-driven evolutionary search to automatically synthesize instance-optimal system heuristics, tailored to specific workloads and hardware. It introduces task-agnostic interfaces to separate policy from mechanism, enabling efficient code generation. The synthesized heuristics for cache eviction and memory tiering were shown to outperform existing state-of-the-art algorithms.",
+      "mindmap": "graph TB\n        Root[Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem: Manual heuristic design is slow and cannot adapt to changing hardware and workloads.]\n        Method[主要方法/Method: Use LLM-driven evolutionary search over task-agnostic interfaces to synthesize instance-optimal heuristics.]\n        Results[关键结果/Results: Synthesized heuristics outperform state-of-the-art algorithms in cache eviction and memory tiering.]"
+    },
+    {
       "title": "A unified framework for detecting point and collective anomalies in operating system logs via collaborative transformers",
       "authors": "Mohammad Nasirzadeh, Jafar Tahmoresnezhad, Parviz Rashidi-Khazaee",
       "institution": "Urmia University of Technology",

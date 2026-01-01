@@ -4,6 +4,147 @@
   "week": "20251229-20260104",
   "items": [
     {
+      "title": "Analysis of Collaboration in CS Prizewinning with a Nobel-Turing Comparison",
+      "authors": "Boleslaw K. Szymanski, Yongtao Zhang, Brian Uzzi, Mohammed Shahid Modi",
+      "institution": "Rensselaer Polytechnic Institute, Zhejiang University, Northwestern University",
+      "link": "https://arxiv.org/pdf/2512.23919",
+      "code": null,
+      "tags": [
+        "Science of Science",
+        "Coarsened Exact Matching (CEM)",
+        "Collaboration Networks",
+        "Prizewinning",
+        "Nobel-Turing Comparison"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/94f4743f5cce47acd1f88e738c87f9841cf47c22dc1e137414b49958a9ac2b61_w640_q70.webp",
+      "contributions": "1. Quantified that prizewinners in Computer Science collaborate earlier and more frequently with other prizewinners compared to non-winners. 2. Found that collaborating with prizewinners after their first award increases a researcher's own likelihood of winning a prize. 3. Showed that recipients of general CS prizes collaborate more than those winning specialized prizes, and analyzed the trend of Physics-CS collaborations in Nobel Prizes.",
+      "summary": "This paper analyzes the relationship between academic collaboration and prizewinning in Computer Science by studying over 100 prizes and 5,000 winners. Using methods like Coarsened Exact Matching and regression, it finds that prizewinners collaborate more with each other, and such collaborations increase the odds of winning future awards. The study also contextualizes these findings by comparing Nobel and Turing award trajectories.",
+      "mindmap": "graph TB\n        A[Analysis of Collaboration in CS Prizewinning<br/>CS奖项合作分析] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[Prizes & Collaboration Relationship<br/>奖项与合作关系]\n        C --> C1[Analyze 100+ prizes, 5000+ winners<br/>分析100+奖项, 5000+获奖者]\n        C --> C2[Use CEM & Regression<br/>使用CEM与回归分析]\n        D --> D1[Prizewinners collaborate more with each other<br/>获奖者彼此合作更早更频繁]\n        D --> D2[Collaboration increases prizewinning odds<br/>合作增加获奖几率]\n        D --> D3[General prize winners collaborate more<br/>通用奖项获奖者合作更多]"
+    },
+    {
+      "title": "A Community-Aware Framework for Influence Maximization with Explicit Accounting for Inter-Community Influence",
+      "authors": "Eliot W. Robson, Abhishek K. Umrawal",
+      "institution": "Narmi, University of Illinois Urbana-Champaign",
+      "link": "https://arxiv.org/pdf/2512.23973",
+      "code": null,
+      "tags": [
+        "social network analysis",
+        "influence maximization",
+        "community structure",
+        "inter-community diffusion",
+        "progressive budgeting",
+        "community-based diffusion degree"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b25bc24c3cf4c404605618e8019a2659fc31bfeb9d29ad19d3af7a7ca5cc7a4c_w640_q70.webp",
+      "contributions": "1. Proposes Community-IM++, a scalable framework that explicitly models cross-community influence, overcoming a key limitation of prior community-based methods. 2. Introduces a principled heuristic based on community-based diffusion degree (CDD) and a progressive budgeting strategy to prioritize bridging nodes and allocate seeds adaptively. 3. Demonstrates through experiments on large real-world networks that the method achieves near-greedy influence spread with up to 100x speedup, outperforming baseline heuristics.",
+      "summary": "This paper addresses the Influence Maximization problem in social networks, where existing community-based methods often overlook inter-community influence. The authors propose Community-IM++, a scalable framework that explicitly models cross-community diffusion using a new heuristic (CDD) and a progressive budgeting strategy. The method achieves near-optimal performance with significantly lower runtime, making it practical for large-scale applications like viral marketing and public health campaigns.",
+      "mindmap": "graph TB\n        Root(”A Community-Aware Framework for Influence Maximization<br>影响力最大化社区感知框架”) --> Problem(”核心问题/Problem”)\n        Root --> Method(”主要方法/Method”)\n        Root --> Results(”关键结果/Results”)\n        Problem --> P1(”社区方法忽略社区间影响<br>Community methods ignore inter-community influence”)\n        Method --> M1(”提出Community-IM++框架<br>Propose Community-IM++ framework”)\n        M1 --> M2(”使用社区扩散度(CDD)启发式<br>Use Community-based Diffusion Degree (CDD) heuristic”)\n        M1 --> M3(”渐进预算与惰性评估<br>Progressive budgeting & lazy evaluation”)\n        Results --> R1(”接近贪婪算法的传播范围<br>Near-greedy influence spread”)\n        Results --> R2(”运行时间降低高达100倍<br>Up to 100x lower runtime”)\n        Results --> R3(”优于基线方法<br>Outperforms baseline methods”)"
+    },
+    {
+      "title": "A density-based framework for community detection in attributed networks",
+      "authors": "Sara Geremia, Michael Fop, Domenico De Stefano",
+      "institution": "University of Trieste, University College Dublin",
+      "link": "https://arxiv.org/pdf/2512.24336",
+      "code": null,
+      "tags": [
+        "network science",
+        "attributed networks",
+        "community detection",
+        "density-based clustering",
+        "homophily",
+        "leader influence"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/60c7d55043e0ebfa87b32cf1f2e2e27b2ee07dff218b09652c3bd72ba11c7c53_w640_q70.webp",
+      "contributions": "1. Proposes AttDeCoDe, a novel density-based community detection framework that integrates node attributes by estimating density in the attribute space. 2. Introduces a novel generative model for simulation that extends the degree-corrected stochastic block model with attribute-driven leader attraction. 3. Demonstrates the method's competitive performance and interpretability through simulation and an empirical application to Horizon programme collaboration data.",
+      "summary": "The paper proposes AttDeCoDe, a method for detecting communities in networks where nodes have attributes. It works by defining community density based on node characteristics rather than just network connections, allowing it to capture both homophily and leader influence. The method is shown to be effective and interpretable through simulations and an application to research collaboration networks.",
+      "mindmap": "graph TB\n        Root[”A density-based framework for community detection in attributed networks”] --> Problem[”核心问题/Problem: Existing methods treat network structure and node attributes in isolation.”]\n        Root --> Method[”主要方法/Method: Propose AttDeCoDe, which estimates node density in attribute space.”]\n        Root --> Results[”关键结果/Results: Method is flexible, interpretable, and achieves competitive performance.”]"
+    },
+    {
+      "title": "Analyzing Airline Alliances through Multi-Attribute Graph Partitioning to Maximize Competition and Market Penetration Capability",
+      "authors": "Khalil Al Handawi, Fabian Bastin",
+      "institution": "McGill University, University of Montreal",
+      "link": "https://arxiv.org/pdf/2512.24519",
+      "code": null,
+      "tags": [
+        "operations research",
+        "network analysis",
+        "multi-attribute graph partitioning",
+        "bi-objective optimization",
+        "competition index",
+        "market penetration capability",
+        "airline alliances"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/58b906aff2987229effa5b8d69d7d77b7dfc67e1ec85c7231692ee08c585d304_w640_q70.webp",
+      "contributions": "1. Proposes a novel approach to analyze airline alliances using multi-attribute graph partitioning. 2. Develops new metrics to quantify flight segment competitiveness and airline market penetration capability based on alliance membership. 3. Formulates and solves a bi-objective optimization problem to maximize both competition and market penetration simultaneously.",
+      "summary": "This paper proposes a new method to analyze airline alliances using multi-attribute graph partitioning. It develops metrics for competition and market penetration, formulates a bi-objective optimization problem to maximize both, and validates the approach using real-world flight data to provide insights into alliance structures and their market impacts.",
+      "mindmap": "graph TB\n        A[Analyzing Airline Alliances through Multi-Attribute Graph Partitioning<br>基于多属性图划分的航空公司联盟分析] --> B\n        A --> C\n        A --> D\n        B[核心问题/Problem<br>Airline alliances' impact on competition & efficiency is not fully understood.<br>航空公司联盟对竞争和效率的影响尚未完全理解。]\n        C[主要方法/Method<br>Multi-attribute graph partitioning & bi-objective optimization.<br>多属性图划分与双目标优化。]\n        D[关键结果/Results<br>Provides insights into alliance structure & market implications.<br>提供了对联盟结构及市场影响的见解。]"
+    },
+    {
+      "title": "When Does the Silhouette Score Work? A Comprehensive Study in Network Clustering",
+      "authors": "Zongyue Teng, Jun Yan, Dandan Liu, Panpan Zhang",
+      "institution": "Vanderbilt University Medical Center, University of Connecticut",
+      "link": "https://arxiv.org/pdf/2512.24841",
+      "code": null,
+      "tags": [
+        "network clustering",
+        "silhouette score",
+        "community detection",
+        "network analysis",
+        "model selection"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/aa773dcd0799dc1f9ba04d5e349938a4ce02490416985503f7e6ee9b65d02a77_w640_q70.webp",
+      "contributions": "1. A comprehensive evaluation of the silhouette score's performance in network-based community detection across various network types (unweighted, weighted, fully connected). 2. Identification of specific conditions (network size, separation strength, community size imbalance) under which the silhouette score accurately identifies, underestimates, or overestimates the true number of communities. 3. Demonstration of the silhouette score's practical utility by applying it to a real-world airline reachability network to recover geographically and market-interpretable clusters.",
+      "summary": "This paper comprehensively evaluates the silhouette score for selecting the number of communities in network clustering. Through simulations and a real-world case study, it finds the score works well for balanced, well-separated clusters but can fail under imbalance, weak separation, or sparsity, providing empirical guidance for its reliable application.",
+      "mindmap": "graph TB\n        Root[”When Does the Silhouette Score Work? / 轮廓分数何时有效？”] --> Problem[”核心问题/Problem”]\n        Root --> Method[”主要方法/Method”]\n        Root --> Results[”关键结果/Results”]\n        Problem --> P1[”选择社区数量 / Selecting # of Communities”]\n        Method --> M1[”综合评估 / Comprehensive Evaluation”]\n        M1 --> M1_1[”模拟研究 / Simulation Studies”]\n        M1 --> M1_2[”真实网络案例 / Real Network Case”]\n        Results --> R1[”条件有效 / Works under Conditions”]\n        Results --> R2[”可能失效 / Can Fail under Conditions”]\n        R1 --> R1_1[”分离良好且平衡 / Well-Separated & Balanced”]\n        R2 --> R2_1[”强不平衡或弱分离 / Strong Imbalance or Weak Separation”]\n        R2 --> R2_2[”稀疏网络 / Sparse Networks”]"
+    },
+    {
+      "title": "Structured Production Systems: Viability",
+      "authors": "Robert P. Gilles, Marialaura Pesce",
+      "institution": "Queen's University Belfast, Università di Napoli \"Federico II\"",
+      "link": "https://arxiv.org/pdf/2512.24777",
+      "code": null,
+      "tags": [
+        "economic theory",
+        "network economics",
+        "structured production system",
+        "viability",
+        "acyclic production",
+        "Leontief-Sraffian theory",
+        "Hawkins-Simon condition"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f93cfbdce138ad2bfe0d6c9f24427f9e6d236092c884aaecbe96ef9e797110b6_w640_q70.webp",
+      "contributions": "1. Introduces a novel framework for analyzing equilibrium in structured production systems with a social division of labor, distinguishing between consumption and intermediate goods. 2. Establishes that acyclic production systems (without circular conversion processes) are always viable, implying coherence. 3. Characterizes completely viable systems by showing that prohibiting consumption goods as inputs for other consumption goods is necessary for viable prices to exist for all consumption good price vectors.",
+      "summary": "This paper proposes a new framework to analyze equilibrium in structured production systems by introducing the concept of \"viability\"—where all producers earn positive incomes. It proves that acyclic systems are always viable and identifies necessary input restrictions for complete viability. The work bridges classical production theory with modern network economics.",
+      "mindmap": "graph TB\n        Root[”Structured Production Systems: Viability”] --> Problem[”核心问题/Problem<br>分析具有社会分工的结构化生产系统的均衡/Analyzing equilibrium in structured production systems with social division of labour”]\n        Root --> Method[”主要方法/Method<br>引入可行性概念，区分消费品与中间品/Introducing viability concept, distinguishing consumption & intermediate goods”]\n        Root --> Results[”关键结果/Results<br>无环系统总是可行的；消费品不能作为其他消费品的输入/Acyclic systems are always viable; consumption goods cannot be inputs for other consumption goods”]"
+    },
+    {
+      "title": "Geometric characterisation of structural and regular equivalences in undirected (hyper)graphs",
+      "authors": "Marzieh Eidi, Nina Otter",
+      "institution": "ScaDS.AI, Max Planck Institute for Mathematics in the Sciences (MPI MIS), Inria, Université Paris-Saclay",
+      "link": "https://arxiv.org/pdf/2512.24961",
+      "code": null,
+      "tags": [
+        "network science",
+        "graph theory",
+        "structural equivalence",
+        "regular equivalence",
+        "hypergraphs",
+        "Ollivier-Ricci curvature",
+        "neighbourhood graphs"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ea115dd8cd155c419dd8b6f4969516455674aac111bb9d0485c23b5de649d180_w640_q70.webp",
+      "contributions": "1. Generalizes structural and regular equivalences to undirected hypergraphs. 2. Provides a novel geometric characterization of these equivalences using neighbourhood graphs and Ollivier-Ricci curvature. 3. Enables the construction of a wide family of regular partitions, offering a new computational route for a challenging task.",
+      "summary": "This paper addresses the problem of characterizing vertex similarity in complex networks. It proposes a geometric method using neighbourhood graphs and Ollivier-Ricci curvature to characterize structural and regular equivalences in undirected graphs and hypergraphs. The main conclusion is that this characterization provides new insights and a potential computational pathway for constructing regular partitions.",
+      "mindmap": "graph TB\n        A[Geometric characterisation of structural and regular equivalences in undirected (hyper)graphs] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1(顶点相似性/Vertex Similarity)\n        B1 --> B2(结构等价与正则等价/Structural & Regular Equivalence)\n        C --> C1(邻域图/Neighbourhood Graphs)\n        C --> C2(Ollivier-Ricci曲率/Ollivier-Ricci Curvature)\n        C1 & C2 --> C3(几何表征/Geometric Characterisation)\n        D --> D1(超图泛化/Hypergraph Generalisation)\n        D --> D2(新计算途径/New Computational Route)\n        D --> D3(正则分区族/Family of Regular Partitions)"
+    },
+    {
       "title": "Interpretable and Adaptive Node Classification on Heterophilic Graphs via Combinatorial Scoring and Hybrid Learning",
       "authors": "Soroush Vahidi",
       "institution": "New Jersey Institute of Technology",

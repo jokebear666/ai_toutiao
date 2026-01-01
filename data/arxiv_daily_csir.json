@@ -4,6 +4,284 @@
   "week": "20251229-20260104",
   "items": [
     {
+      "title": "Deletion Considered Harmful",
+      "authors": "Paul Englefield, Russell Beale",
+      "institution": "University of Birmingham",
+      "link": "https://arxiv.org/pdf/2512.23907",
+      "code": null,
+      "tags": [
+        "Personal Information Management",
+        "deletion",
+        "filing",
+        "retrieval success",
+        "user behaviour",
+        "knowledge workers"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/344b922727ad08c44db409e5d258a91eb23a5dd268f6314fc4a64df943271db6_w640_q70.webp",
+      "contributions": "1. An empirical study revealing that deletion is consistently under-adopted compared to other Personal Information Management (PIM) tactics like Filing, Coverage, Ontology, and Timeliness. 2. Statistical evidence demonstrating that the practice of deletion is detrimental to retrieval success and user satisfaction, challenging the intuitive belief that decluttering is beneficial. 3. A detailed analysis and clustering of user behaviors that provides insights into the relationship between deletion and other information management strategies.",
+      "summary": "This paper investigates the effectiveness of deletion as a Personal Information Management (PIM) tactic through a study of 51 knowledge workers using questionnaires and interviews. The study finds that deletion is less commonly used than other tactics and, contrary to common belief, empirical data shows it harms retrieval success and satisfaction. The authors conclude that deletion has adverse effects on information management outcomes.",
+      "mindmap": "graph TB\n        A[Deletion Considered Harmful] --> B[核心问题/Problem: Is deletion helpful for managing information overload?]\n        A --> C[主要方法/Method: Study of 51 knowledge workers via questionnaires & interviews]\n        A --> D[关键结果/Results: Deletion is under-adopted and detrimental to retrieval]"
+    },
+    {
+      "title": "An Comparative Analysis about KYC on a Recommendation System Toward Agentic Recommendation System",
+      "authors": "Junjie H. Xu",
+      "institution": "Hechu Tech",
+      "link": "https://arxiv.org/pdf/2512.23961",
+      "code": null,
+      "tags": [
+        "agent system",
+        "agentic AI",
+        "recommendation system",
+        "KYC (Know Your Customer)",
+        "nDCG",
+        "multi-stage architecture"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/76e7c4d7572522a69f7c0db05b6553014273403aa44576ea9c0de823750c5368_w640_q70.webp",
+      "contributions": "1. Proposes a novel agentic AI-based recommendation system specifically designed for integrating KYC (Know Your Customer) processes. 2. Conducts a comparative performance evaluation across five distinct content verticals (Ad, News, Gossip, Sharing, Tech) using the nDCG metric. 3. Synthesizes experimental data with industry benchmarks to provide engineering insights for building large-scale agentic recommendation systems.",
+      "summary": "This paper proposes a new recommendation system that uses agentic AI to incorporate KYC (Know Your Customer) information. It evaluates the system's performance across five different content types and compares it against standard benchmarks. The study concludes by providing practical insights for engineering large-scale agentic recommendation systems based on the experimental results.",
+      "mindmap": "graph TB\n        A[An Comparative Analysis about KYC on a Recommendation System Toward Agentic Recommendation System] --> B[核心问题/Problem: Transition from passive ranking to agentic AI in RecSys]\n        A --> C[主要方法/Method: Agentic AI for KYC, evaluated across 5 content verticals using nDCG@k]\n        A --> D[关键结果/Results: Performance comparison of 4 KYC usage groups, insights for large-scale engineering]"
+    },
+    {
+      "title": "High-dimensional Regret Minimization",
+      "authors": "Junyu Liao, Ashwin Lall, Mitsunori Ogihara, Raymond Wong",
+      "institution": "The Hong Kong University of Science and Technology, Denison University, University of Miami",
+      "link": "https://arxiv.org/pdf/2512.24078",
+      "code": null,
+      "tags": [
+        "interactive query processing",
+        "regret minimization",
+        "high-dimensional data",
+        "interactive query",
+        "skyline query",
+        "top-k query"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cc5adec19be3a80d0a53d2ec741bc611e59f7e2c74dd78fd4952eec991a81e0e_w640_q70.webp",
+      "contributions": "1. Proposed FHDR (Fast High-Dimensional Reduction), a novel framework for scalable interactive regret minimization. 2. Achieved significant efficiency, requiring less than 0.01s and fewer than 30 rounds of user interaction. 3. Demonstrated performance improvements of at least an order of magnitude in execution time and several orders of magnitude in interaction rounds compared to prior work.",
+      "summary": "This paper addresses the scalability challenge of interactive regret minimization queries in high-dimensional databases, where existing methods are too slow or require excessive user feedback. The authors propose the FHDR framework, which drastically reduces both computation time and the number of required user interactions. Experiments show FHDR establishes a new state-of-the-art, outperforming previous algorithms by orders of magnitude.",
+      "mindmap": "graph TB\n        A[High-dimensional Regret Minimization] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[现有交互式算法无法扩展到高维数据集 / Existing interactive algorithms fail to scale to high-dimensional datasets]\n        B --> B2[用户交互轮数过多（常超1000轮）/ Excessive user interactions (often >1000 rounds)]\n        C --> C1[提出FHDR框架 / Propose FHDR (Fast High-Dimensional Reduction) framework]\n        D --> D1[交互轮数少于30轮 / Fewer than 30 rounds of interaction]\n        D --> D2[处理时间小于0.01秒 / Takes less than 0.01s]\n        D --> D3[性能提升数个数量级 / Outperforms prior work by orders of magnitude]"
+    },
+    {
+      "title": "CogRec: A Cognitive Recommender Agent Fusing Large Language Models and Soar for Explainable Recommendation",
+      "authors": "Jiaxin Hu, Tao Wang, Bingsan Yang, Hongrun Wang",
+      "institution": "Sun Yat-Sen University",
+      "link": "https://arxiv.org/pdf/2512.24113",
+      "code": null,
+      "tags": [
+        "recommender systems",
+        "cognitive architecture",
+        "Soar",
+        "large language models",
+        "explainable recommendation",
+        "online learning"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6840c5950eff3f651f3ba24036f583190638dc59f4b4c5d9c32d2ca2079cb860_w640_q70.webp",
+      "contributions": "1. Proposes CogRec, a novel cognitive recommender agent that synergizes the strengths of Large Language Models (LLMs) and the Soar cognitive architecture. 2. Introduces a learning paradigm where Soar's symbolic reasoning is initialized and dynamically augmented by an LLM via chunking, enabling robust online learning. 3. Demonstrates that the agent provides highly interpretable rationales and shows advantages in accuracy, explainability, and addressing the long-tail problem on public datasets.",
+      "summary": "This paper proposes CogRec, a cognitive recommender agent that fuses Large Language Models (LLMs) with the Soar cognitive architecture to address the black-box nature and limited online learning of LLMs. The agent uses Soar for structured reasoning and dynamically queries an LLM to generate new symbolic rules when needed, enabling continuous knowledge evolution. Evaluations show CogRec improves recommendation accuracy, explainability, and performance on long-tail items.",
+      "mindmap": "graph TB\n        A[CogRec: A Cognitive Recommender Agent] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[LLMs: 黑盒, 幻觉, 难在线学习/LLMs: Black-Box, Hallucination, Limited Online Learning]\n        B --> B2[认知架构: 知识获取困难/Cognitive Architectures: Laborious Knowledge Acquisition]\n        C --> C1[融合LLM与Soar/Fuse LLM and Soar]\n        C --> C2[感知-认知-行动循环/PCA Cycle]\n        C --> C3[LLM初始化与动态查询/LLM for Initialization & Dynamic Query]\n        C --> C4[Soar组块化在线学习/Soar Chunking for Online Learning]\n        D --> D1[提升推荐准确性/Improved Recommendation Accuracy]\n        D --> D2[增强可解释性/Enhanced Explainability]\n        D --> D3[有效处理长尾问题/Effective Long-Tail Handling]"
+    },
+    {
+      "title": "Time-Aware Adaptive Side Information Fusion for Sequential Recommendation",
+      "authors": "Jie Luo, Wenyu Zhang, Xinming Zhang, Yuan Fang",
+      "institution": "University of Science and Technology of China, Singapore Management University",
+      "link": "https://arxiv.org/pdf/2512.24246",
+      "code": "https://github.com/jluo00/TASIF",
+      "tags": [
+        "sequential recommendation",
+        "side information fusion",
+        "temporal dynamics",
+        "adaptive filtering"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a11c0b345833a0a377b18e0217b0b567071b00be6a8e2b525f74cb65d753c493_w640_q70.webp",
+      "contributions": "1. A plug-and-play time span partitioning mechanism to capture global temporal patterns. 2. An adaptive frequency filter that uses a learnable gate to denoise feature sequences. 3. An efficient adaptive side information fusion layer with a \"guide-not-mix\" architecture for deep interaction without mixing attributes into item embeddings.",
+      "summary": "The paper proposes the TASIF framework to address challenges in sequential recommendation, including overlooking temporal dynamics, vulnerability to noise, and high computational cost. It introduces three components: time span partitioning, an adaptive frequency filter, and an efficient fusion layer. Experiments show TASIF outperforms state-of-the-art baselines while maintaining training efficiency.",
+      "mindmap": "graph TB\n    A[Time-Aware Adaptive Side Information Fusion for Sequential Recommendation] --> B[核心问题/Problem]\n    A --> C[主要方法/Method]\n    A --> D[关键结果/Results]\n    B --> B1[忽略细粒度时间动态/Ignore fine-grained temporal dynamics]\n    B --> B2[序列噪声敏感/Vulnerable to sequence noise]\n    B --> B3[融合架构计算昂贵/Computationally expensive fusion]\n    C --> C1[时间跨度划分/Time span partitioning]\n    C --> C2[自适应频率滤波/Adaptive frequency filter]\n    C --> C3[高效自适应融合/Efficient adaptive fusion layer]\n    D --> D1[性能显著提升/Significantly outperforms baselines]\n    D --> D2[训练效率高/Maintains training efficiency]"
+    },
+    {
+      "title": "RAGPart & RAGMask: Retrieval-Stage Defenses Against Corpus Poisoning in Retrieval-Augmented Generation",
+      "authors": "Pankayaraj Pathmanathan, Michael-Andrei Panaitescu-Liess, Cho-Yu Jason Chiang, Furong Huang",
+      "institution": "University of Maryland College Park, Capital One, Peraton Labs",
+      "link": "https://arxiv.org/pdf/2512.24268",
+      "code": null,
+      "tags": [
+        "rag (retrieval-augmented generation)",
+        "corpus poisoning",
+        "dense retriever",
+        "retrieval-stage defense",
+        "document partitioning",
+        "token masking"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/eed99fde057eefd1431417b1d512eaa39807473cb3d4135031a0e9dae115d7a8_w640_q70.webp",
+      "contributions": "1. Proposed RAGPart, a defense leveraging the training dynamics of dense retrievers and document partitioning to mitigate poisoned documents. 2. Proposed RAGMask, a defense that identifies suspicious tokens by analyzing similarity shifts under targeted token masking. 3. Introduced an interpretable attack to stress-test the proposed defenses and evaluated them across multiple benchmarks, poisoning strategies, and retrievers.",
+      "summary": "This paper addresses the vulnerability of Retrieval-Augmented Generation (RAG) systems to corpus poisoning attacks, where adversaries inject malicious documents to manipulate outputs. It proposes two lightweight, retrieval-stage defenses, RAGPart and RAGMask, which operate directly on the retriever without modifying the generation model. The defenses were shown to consistently reduce attack success rates while maintaining utility under benign conditions, highlighting the potential of retrieval-stage approaches for robust RAG.",
+      "mindmap": "graph TB\n        A[RAGPart & RAGMask: Retrieval-Stage Defenses Against Corpus Poisoning] --> B[核心问题/Problem: RAG系统易受语料库投毒攻击/RAG vulnerable to corpus poisoning attacks]\n        A --> C[主要方法/Method: 提出两种检索阶段防御/Propose two retrieval-stage defenses]\n        C --> D[RAGPart: 利用稠密检索器训练动态与文档分区/Leverages dense retriever training dynamics & document partitioning]\n        C --> E[RAGMask: 基于目标令牌掩码的相似性偏移识别可疑令牌/Identifies suspicious tokens via similarity shifts under targeted token masking]\n        A --> F[关键结果/Results: 在多种设置下持续降低攻击成功率，保持良性效用/Consistently reduces attack success rates across settings, preserves benign utility]"
+    },
+    {
+      "title": "MaRCA: Multi-Agent Reinforcement Learning for Dynamic Computation Allocation in Large-Scale Recommender Systems",
+      "authors": "Wan Jiang, Xinyi Zang, Yudong Zhao, Yusi Zou, Yunfei Lu, Junbo Tong, Yang Liu, Ming Li, Jiani Shi, Xin Yang",
+      "institution": "JD.com, Tsinghua University",
+      "link": "https://arxiv.org/pdf/2512.24325",
+      "code": null,
+      "tags": [
+        "agent system",
+        "Multi-Agent Reinforcement Learning",
+        "Centralized Training with Decentralized Execution (CTDE)",
+        "Model Predictive Control (MPC)",
+        "Dynamic Computation Allocation",
+        "Recommender Systems"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b5648d9986b292c2db26fc1ddb4325c3fc0f14c6516ddecf792ceaf524e365c4_w640_q70.webp",
+      "contributions": "1. Proposes MaRCA, a multi-agent reinforcement learning framework that models recommender system stages as cooperative agents for end-to-end computation resource allocation. 2. Introduces an AutoBucket TestBench for accurate computation cost estimation in large-scale systems. 3. Designs a Model Predictive Control (MPC)-based Revenue-Cost Balancer to proactively forecast traffic loads and adjust the revenue-cost trade-off.",
+      "summary": "This paper addresses the challenge of dynamic computation allocation in large-scale, multi-stage recommender systems under resource constraints. It proposes MaRCA, a multi-agent reinforcement learning framework that uses Centralized Training with Decentralized Execution (CTDE) and integrates a Model Predictive Control-based balancer to optimize revenue. The system was deployed on a major e-commerce platform, handling hundreds of billions of daily requests and achieving a 16.67% revenue uplift using existing resources.",
+      "mindmap": "graph TB\n        A[MaRCA: Multi-Agent RL for Dynamic Computation Allocation] --> B[核心问题/Problem: 大规模推荐系统中，模型复杂度和流量规模增长带来的计算挑战，现有方法忽略阶段间依赖，限制全局最优性。]\n        A --> C[主要方法/Method: 提出MaRCA框架，将推荐系统阶段建模为合作智能体，使用CTDE进行训练，并引入AutoBucket TestBench和基于MPC的收益-成本平衡器。]\n        A --> D[关键结果/Results: 在领先的全球电商平台广告管线中端到端部署，每日处理数千亿广告请求，使用现有计算资源实现16.67%的收益提升。]"
+    },
+    {
+      "title": "On the Factual Consistency of Text-based Explainable Recommendation Models",
+      "authors": "Ben Kabongo, Vincent Guigue",
+      "institution": "Sorbonne University, CNRS, ISIR, AgroParisTech",
+      "link": "https://arxiv.org/pdf/2512.24366",
+      "code": "https://github.com/BenKabongo25/factual_explainable_recommendation",
+      "tags": [
+        "explainable recommendation",
+        "factual consistency",
+        "large language models",
+        "natural language inference",
+        "statement-level evaluation",
+        "explainable recommendation models"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d9c76b5ee4016c79058d120bfc7c050ef62a7ce8fc6f0623fe422173e38e2f33_w640_q70.webp",
+      "contributions": "1. Introduced a comprehensive framework for evaluating the factual consistency of text-based explainable recommendation models. 2. Proposed a prompting-based pipeline using LLMs to extract atomic explanatory statements from reviews to construct a factual ground truth benchmark. 3. Designed statement-level alignment metrics combining LLM- and NLI-based approaches to assess factual consistency and relevance of generated explanations.",
+      "summary": "This paper addresses the problem of factual inconsistency in text-based explainable recommendation models. The authors propose a new evaluation framework that uses LLMs to extract factual statements from reviews as ground truth and combines LLM- and NLI-based metrics to assess explanation quality. Their experiments on six state-of-the-art models reveal a critical gap where models achieve high semantic similarity but alarmingly low factual consistency, highlighting the need for factuality-aware evaluation.",
+      "mindmap": "graph TB\n        A[On the Factual Consistency of Text-based Explainable Recommendation Models] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[”解释的事实一致性是否可靠?<br/>Are explanations factually consistent?”]\n        C --> C1[”LLM提示管道构建事实基准<br/>LLM-prompting pipeline for factual ground truth”]\n        C --> C2[”语句级对齐评估指标<br/>Statement-level alignment metrics (LLM+NLI)”]\n        D --> D1[”高语义相似性<br/>High semantic similarity (BERTScore F1: 0.81-0.90)”]\n        D --> D2[”低事实一致性<br/>Low factual consistency (Precision: 4.38%-32.88%)”]"
+    },
+    {
+      "title": "MEIC-DT: Memory-Efficient Incremental Clustering for Long-Text Coreference Resolution with Dual-Threshold Constraints",
+      "authors": "Kangyang Luo, Shuzheng Si, Yuzhuo Bai, Cheng Gao, Zhitong Wang, Cheng Huang, Yingli Shen, Yufeng Han, Wenhao Li, Cunliang Kong, Maosong Sun",
+      "institution": "Tsinghua University",
+      "link": "https://arxiv.org/pdf/2512.24711",
+      "code": null,
+      "tags": [
+        "coreference resolution",
+        "incremental clustering",
+        "dual-threshold constraint",
+        "memory-efficient",
+        "lightweight transformer",
+        "cache management"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/34337ad38d20be1dae6a4c4cc881ccab3fb447fa75e8bee3e7a838015b008cbb_w640_q70.webp",
+      "contributions": "1. Proposes MEIC-DT, a novel dual-threshold, memory-efficient incremental clustering approach for long-text coreference resolution. 2. Introduces a Statistics-Aware Eviction Strategy (SAES) for intelligent cache management within a predefined memory budget. 3. Presents an Internal Regularization Policy (IRP) to strategically condense clusters by selecting the most representative mentions, preserving semantic integrity.",
+      "summary": "The paper addresses the challenge of balancing efficiency and performance in incremental clustering for long-text coreference resolution. It proposes MEIC-DT, a memory-efficient method featuring a dual-threshold constraint mechanism, a statistics-aware eviction strategy, and an internal regularization policy. Experiments show MEIC-DT achieves competitive performance under strict memory constraints.",
+      "mindmap": "graph TB\n        A[MEIC-DT: Memory-Efficient Incremental Clustering for Long-Text Coreference Resolution with Dual-Threshold Constraints] --> B[核心问题/Problem: Balancing efficiency and performance in incremental clustering for long texts]\n        A --> C[主要方法/Method: Dual-threshold constraint, Statistics-Aware Eviction Strategy (SAES), Internal Regularization Policy (IRP)]\n        A --> D[关键结果/Results: Achieves highly competitive coreference performance under stringent memory constraints]"
+    },
+    {
+      "title": "MDiffFR: Modality-Guided Diffusion Generation for Cold-start Items in Federated Recommendation",
+      "authors": "Kang Fu, Honglei Zhang, Xuechao Zou, Yidong Li",
+      "institution": "Beijing Jiaotong University, Key Laboratory of Big Data & Artificial Intelligence in Transportation, Ministry of Education, China",
+      "link": "https://arxiv.org/pdf/2512.24715",
+      "code": null,
+      "tags": [
+        "federated learning",
+        "federated recommendation",
+        "item cold-start",
+        "diffusion model",
+        "modality-guided generation",
+        "privacy guarantee"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0043abb7859816bbc8cd02d819ea36ea1dcb659896ddccf82fe3a147387a46e8_w640_q70.webp",
+      "contributions": "1. Proposes MDiffFR, a novel generation-based modality-guided diffusion method for generating embeddings for cold-start items in Federated Recommendations, moving beyond the fixed attribute-to-embedding mapping paradigm. 2. Introduces the use of a pre-trained modality encoder to extract features as conditional signals to guide the reverse denoising process of the diffusion model, aligning item semantics. 3. Provides theoretical analysis demonstrating that the proposed method offers stronger privacy guarantees compared to existing mapping-based approaches.",
+      "summary": "This paper addresses the challenging item cold-start problem in Federated Recommendation (FR) by proposing MDiffFR, a method that uses a modality-guided diffusion model on the server to generate item embeddings. The generated embeddings are distributed to clients for inference, leveraging modality features to guide the generation process and improve alignment. Experiments on four real datasets show that MDiffFR outperforms existing baselines and provides stronger privacy guarantees.",
+      "mindmap": "graph TB\n        A[MDiffFR: Modality-Guided Diffusion Generation for Cold-start Items in Federated Recommendation] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[联邦推荐中的项目冷启动问题 / Item Cold-Start in Federated Recommendation]\n        B --> B2[严格隐私限制导致表示学习困难 / Strict Privacy Constraints Hinder Representation Learning]\n        C --> C1[服务器端使用定制扩散模型生成嵌入 / Use Tailored Diffusion Model on Server to Generate Embeddings]\n        C --> C2[预训练模态编码器提供条件信号 / Pre-trained Modality Encoder Provides Conditional Signals]\n        D --> D1[在四个真实数据集上超越基线 / Outperforms Baselines on Four Real Datasets]\n        D --> D2[提供更强的隐私保证 / Provides Stronger Privacy Guarantees]"
+    },
+    {
+      "title": "OpenOneRec Technical Report",
+      "authors": "Guorui Zhou, Honghui Bao, Jiaming Huang, Jiaxin Deng, Jinghao Zhang, Junda She, Kuo Cai, Lejian Ren, Lu Ren, Qiang Luo, Qianqian Wang, Qigen Hu, Rongzhou Zhang, Ruiming Tang, Shiyao Wang, Wuchao Li, Xiangyu Wu, Xinchen Luo, Xingmei Wang, Yifei Hu, Yunfan Wu, Zhanyu Liu, Zhiyang Zhang, Zixing Zhang, Bo Chen, Bin Wen, Chaoyi Ma, Chengru Song, Chenglong Chu, Defu Lian, Fan Yang, Feng Jiang, Hongtao Cheng, Huanjie Wang, Kun Gai, Pengfei Zheng, Qiang Wang, Rui Huang, Siyang Mao, Tingting Gao, Wei Yuan, Yan Wang, Yang Zhou, Yi Su, Zexuan Cheng, Zhixin Ling, Ziming Li",
+      "institution": "Kuaishou",
+      "link": "https://arxiv.org/pdf/2512.24762",
+      "code": "https://github.com/Kuaishou-OneRec/OpenOneRec",
+      "tags": [
+        "llm training",
+        "generative recommendation",
+        "foundation model",
+        "co-pretraining",
+        "RecIF-Bench",
+        "catastrophic forgetting"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/479a2e2d3cfe6c5155f120df18d59b7783da83d3d0ced554b30ba633be6d5b8c_w640_q70.webp",
+      "contributions": "1) Proposed RecIF-Bench, a holistic benchmark with 8 tasks for evaluating integrated recommendation capabilities, and released a large open training dataset. 2) Open-sourced a comprehensive training pipeline (data processing, co-pretraining, post-training) to ensure reproducibility and demonstrated predictable scaling of recommendation capabilities while mitigating catastrophic forgetting. 3) Released the OneRec-Foundation model family (1.7B and 8B), achieving new SOTA on RecIF-Bench and showing strong cross-domain transferability with a 26.8% average improvement on the Amazon benchmark.",
+      "summary": "This paper addresses the gap between current generative recommendation models and general intelligence by introducing an open foundation model and benchmark. The proposed method involves co-pretraining and post-training a large model on a massive dataset, resulting in the OneRec-Foundation models which achieve state-of-the-art performance on recommendation tasks while retaining general knowledge, demonstrating a step towards more intelligent recommender systems.",
+      "mindmap": "graph TB\n        A[OpenOneRec Technical Report] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[推荐系统与通用智能存在差距/Gap between RecSys and General Intelligence]\n        B --> B2[缺乏综合评估基准/Lack of Holistic Benchmark]\n        C --> C1[提出RecIF-Bench与开源数据/Propose RecIF-Bench & Open Data]\n        C --> C2[开源完整训练框架/Open-source Full Training Pipeline]\n        C --> C3[发布OneRec-Foundation模型/Release OneRec-Foundation Models]\n        D --> D1[在RecIF-Bench上实现SOTA/Achieve SOTA on RecIF-Bench]\n        D --> D2[在Amazon基准上显著提升/Substantial Improvement on Amazon Benchmark]\n        D --> D3[缓解灾难性遗忘/Mitigate Catastrophic Forgetting]"
+    },
+    {
+      "title": "HiGR: Efficient Generative Slate Recommendation via Hierarchical Planning and Multi-Objective Preference Alignment",
+      "authors": "Yunsheng Pang, Zijian Liu, Yudong Li, Shaojie Zhu, Zijian Luo, Chenyun Yu, Sikai Wu, Shichen Shen, Cong Xu, Bin Wang, Kai Jiang, Hongyong Yu, Chengxiang Zhuo, Zang Li",
+      "institution": "Tencent, Sun Yat-sen University",
+      "link": "https://arxiv.org/pdf/2512.24787",
+      "code": null,
+      "tags": [
+        "llm inference",
+        "slate recommendation",
+        "generative recommendation",
+        "residual quantization",
+        "hierarchical planning",
+        "listwise preference alignment"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/df7bb0829f12a7ec59faf3d297069dfbce2bbcb60223c10f7e7a4162d6e7a4e0_w640_q70.webp",
+      "contributions": "1. Proposed an auto-encoder with residual quantization and contrastive constraints for semantically structured item tokenization. 2. Introduced a hierarchical generation framework that decouples list-level planning from item-level decoding for efficient slate generation. 3. Designed a listwise preference alignment objective to directly optimize slate quality using implicit user feedback.",
+      "summary": "The paper proposes HiGR, an efficient generative framework for slate recommendation. It addresses the limitations of existing autoregressive methods by using hierarchical planning and a listwise alignment objective. Experiments on a commercial platform show HiGR significantly outperforms state-of-the-art methods in both offline quality and online metrics while being 5x faster at inference.",
+      "mindmap": "graph TB\n        A[HiGR: Efficient Generative Slate Recommendation] --> B[核心问题/Problem: 现有自回归方法存在语义纠缠和低效解码]\n        A --> C[主要方法/Method: 分层规划与列表偏好对齐]\n        C --> D[语义结构化ID / Semantically Structured IDs]\n        C --> E[分层生成 / Hierarchical Generation]\n        C --> F[列表偏好对齐 / Listwise Preference Alignment]\n        A --> G[关键结果/Results: 离线质量提升>10%, 推理加速5倍, 在线指标显著增长]"
+    },
+    {
+      "title": "RAIR: A Rule-Aware Benchmark Uniting Challenging Long-Tail and Visual Salience Subset for E-commerce Relevance Assessment",
+      "authors": "Chenji Lu, Zhuo Chen, Hui Zhao, Zhenyi Wang, Pengjie Wang, Jian Xu, Bo Zheng",
+      "institution": "Taobao & Tmall Group of Alibaba",
+      "link": "https://arxiv.org/pdf/2512.24943",
+      "code": null,
+      "tags": [
+        "information retrieval",
+        "relevance assessment",
+        "benchmark",
+        "long-tail",
+        "visual salience",
+        "e-commerce"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/01d0a7f153d6f84b77a35da0a0f62dec9a8af10bfb23f1a8a481697233cbe992_w640_q70.webp",
+      "contributions": "1. Proposes RAIR, a comprehensive Chinese benchmark for e-commerce relevance assessment derived from real-world scenarios. 2. Establishes a standardized evaluation framework with universal rules to address the lack of standardized metrics. 3. Introduces a dataset with three specialized subsets (general, long-tail hard, visual salience) to evaluate fundamental, challenging, and multimodal capabilities.",
+      "summary": "The paper proposes RAIR, a rule-aware benchmark for e-commerce search relevance assessment, to address the lack of complex and standardized evaluation datasets. It introduces a comprehensive dataset with three subsets to test different model capabilities. Experiments on 14 models show RAIR is challenging, with GPT-5 performing best, and it serves as a new industry benchmark.",
+      "mindmap": "graph TB\n        A[RAIR: 一个用于电子商务相关性评估的规则感知基准 / RAIR: A Rule-Aware Benchmark for E-commerce Relevance Assessment]\n        A --> B[核心问题/Problem: 现有基准缺乏复杂性，缺少标准化评估 / Existing benchmarks lack complexity and standardized evaluation]\n        A --> C[主要方法/Method: 提出包含通用、长尾、视觉显著性子集的基准和规则框架 / Propose benchmark with general, long-tail, visual-salience subsets and rule framework]\n        A --> D[关键结果/Results: 对14个模型构成挑战，GPT-5表现最佳，可作为行业基准 / Presents challenge to 14 models, GPT-5 performs best, serves as industry benchmark]"
+    },
+    {
+      "title": "AdaGReS:Adaptive Greedy Context Selection via Redundancy-Aware Scoring for Token-Budgeted RAG",
+      "authors": "Chao Peng, Bin Wang, Zhilei Long, Jinfang Sheng",
+      "institution": "Central South University, Yizhi Intelligent (YZInt)",
+      "link": "https://arxiv.org/pdf/2512.25052",
+      "code": null,
+      "tags": [
+        "rag (retrieval-augmented generation)",
+        "redundancy-aware selection",
+        "token-budgeted RAG",
+        "greedy selection",
+        "submodular optimization",
+        "adaptive calibration"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/85c85942576679b5e5fe4c0066c0977620d02d122c659a34dfe900bfed59c445_w640_q70.webp",
+      "contributions": "1. Proposes AdaGReS, a redundancy-aware context selection framework that optimizes a set-level objective combining query relevance and intra-set redundancy penalties under a token-budget constraint. 2. Introduces a closed-form, instance-adaptive calibration method for the relevance-redundancy trade-off parameter, eliminating manual tuning and adapting to candidate-pool statistics and budget limits. 3. Provides a theoretical analysis showing the proposed objective exhibits ε-approximate submodularity, yielding near-optimality guarantees for the greedy selection algorithm.",
+      "summary": "The paper addresses the problem of redundant context in token-budgeted RAG systems, which wastes budget and degrades generation quality. It proposes AdaGReS, an adaptive greedy selection framework that scores and selects chunks by balancing relevance and redundancy, with a theoretically-backed near-optimal guarantee. Experiments on QA and biomedical datasets show it improves redundancy control and end-to-end answer quality.",
+      "mindmap": "graph TB\n        A[AdaGReS: Adaptive Greedy Context Selection] --> B[核心问题/Problem: Top-k检索返回冗余块，浪费token预算并降低生成质量/Top-k retrieval returns redundant chunks, wasting token budget and degrading generation]\n        A --> C[主要方法/Method: 冗余感知的贪婪选择框架，结合相关性得分与冗余惩罚，并进行自适应参数校准/Redundancy-aware greedy selection framework with relevance-redundancy trade-off and adaptive calibration]\n        A --> D[关键结果/Results: 在开放域QA和生物医学语料上，冗余控制和上下文质量得到改善，提升了端到端答案质量/Improved redundancy control and context quality on open-domain QA and biomedical corpus, leading to better end-to-end answer quality]"
+    },
+    {
       "title": "IANEC: Digital Forensic Investigation of Contemporary Writers' Archives",
       "authors": "Emmanuel Giguet",
       "institution": "Université Caen Normandie, ENSICAEN, CNRS, Normandie Univ, GREYC UMR 6072",

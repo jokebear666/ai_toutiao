@@ -4,6 +4,86 @@
   "week": "20251229-20260104",
   "items": [
     {
+      "title": "Hojabr: Towards a Theory of Everything for AI and Data Analytics",
+      "authors": "Amir Shaikhha",
+      "institution": "University of Edinburgh",
+      "link": "https://arxiv.org/pdf/2512.23925",
+      "code": null,
+      "tags": [
+        "compiler & ir",
+        "declarative intermediate language",
+        "unified algebraic framework",
+        "bidirectional compilation",
+        "constraint-specialization",
+        "tensor algebra"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ba9cf2437f8d68ebfda91126c670461fff1e81b455aa087018001ed68c112e8c_w640_q70.webp",
+      "contributions": "1. Proposed Hojabr, a unified declarative intermediate language that integrates relational algebra, tensor algebra, and constraint-based reasoning within a single higher-order algebraic framework. 2. Introduced a novel approach where physical execution choices (e.g., join algorithms, tensor representations) are handled as constraint-specialization decisions within the same formalism. 3. Enabled systematic cross-paradigm optimization and reuse by supporting bidirectional translation with existing declarative languages and making semantic/structural properties explicit.",
+      "summary": "The paper addresses the fragmentation in modern AI and data analytics pipelines by proposing Hojabr, a unified declarative intermediate language. Hojabr integrates relational, tensor, and constraint-based operations into a single algebraic framework, enabling cross-paradigm optimization through bidirectional compilation and constraint-specialization. The main conclusion is that this approach facilitates systematic reasoning and reuse of optimization techniques across database, ML, and compiler systems.",
+      "mindmap": "graph TB\n        Root[”Hojabr: Towards a Theory of Everything for AI and Data Analytics”] --> Problem[”核心问题/Problem: Fragmentation across paradigms (relational, graph, tensor) and execution models”]\n        Root --> Method[”主要方法/Method: Unified declarative intermediate language (Hojabr) with higher-order algebraic framework”]\n        Root --> Results[”关键结果/Results: Enables systematic reasoning & reuse of optimizations across systems”]"
+    },
+    {
+      "title": "High-dimensional Regret Minimization",
+      "authors": "Junyu Liao, Ashwin Lall, Mitsunori Ogihara, Raymond Wong",
+      "institution": "The Hong Kong University of Science and Technology, Denison University, University of Miami",
+      "link": "https://arxiv.org/pdf/2512.24078",
+      "code": null,
+      "tags": [
+        "interactive query processing",
+        "regret minimization",
+        "high-dimensional data",
+        "interactive query",
+        "skyline query",
+        "top-k query"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cc5adec19be3a80d0a53d2ec741bc611e59f7e2c74dd78fd4952eec991a81e0e_w640_q70.webp",
+      "contributions": "1. Proposed FHDR (Fast High-Dimensional Reduction), a novel framework for scalable interactive regret minimization. 2. Achieved significant efficiency, requiring less than 0.01s and fewer than 30 rounds of user interaction. 3. Demonstrated performance improvements of at least an order of magnitude in execution time and several orders of magnitude in interaction rounds compared to prior work.",
+      "summary": "This paper addresses the scalability challenge of interactive regret minimization queries in high-dimensional databases, where existing methods are too slow or require excessive user feedback. The authors propose the FHDR framework, which drastically reduces both computation time and the number of required user interactions. Experiments show FHDR establishes a new state-of-the-art, outperforming previous algorithms by orders of magnitude.",
+      "mindmap": "graph TB\n        A[High-dimensional Regret Minimization] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[现有交互式算法无法扩展到高维数据集 / Existing interactive algorithms fail to scale to high-dimensional datasets]\n        B --> B2[用户交互轮数过多（常超1000轮）/ Excessive user interactions (often >1000 rounds)]\n        C --> C1[提出FHDR框架 / Propose FHDR (Fast High-Dimensional Reduction) framework]\n        D --> D1[交互轮数少于30轮 / Fewer than 30 rounds of interaction]\n        D --> D2[处理时间小于0.01秒 / Takes less than 0.01s]\n        D --> D3[性能提升数个数量级 / Outperforms prior work by orders of magnitude]"
+    },
+    {
+      "title": "A Scalable Framework for logP Prediction: From Terabyte-Scale Data Integration to Interpretable Ensemble Modeling",
+      "authors": "Malikussaid, Septian Caesar Floresko, Ade Romadhony, Isman Kurniawan, Warih Maharani, Hilal Hudan Nuha",
+      "institution": "Telkom University",
+      "link": "https://arxiv.org/pdf/2512.24643",
+      "code": null,
+      "tags": [
+        "cluster infrastructure",
+        "byte-offset indexing",
+        "ensemble modeling",
+        "SHAP analysis",
+        "heteroskedasticity",
+        "stratified modeling"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ad416775f59ba17a28f8c4aa4f177b114e9e8b7b5d9ab0210d586ba595ee51e6_w640_q70.webp",
+      "contributions": "1. Developed a novel computational infrastructure for terabyte-scale data integration, achieving a 740-fold speedup in processing time using a byte-offset indexing architecture. 2. Conducted a comprehensive analysis revealing the multivariate nature of lipophilicity, identifying molecular weight as the most important global predictor via SHAP analysis, despite its weak bivariate correlation. 3. Proposed and validated a stratified modeling strategy (specialized models for drug-like vs. extreme molecules) that achieved optimal predictive performance, demonstrating the competitiveness of well-curated descriptor-based ensemble models with graph neural networks.",
+      "summary": "This paper presents a scalable framework for predicting molecular lipophilicity (logP). It introduces a high-performance data integration infrastructure and employs tree-based ensemble models with a stratified strategy, achieving robust prediction accuracy and providing insights into key molecular descriptors. The work shows that carefully engineered traditional machine learning models can remain competitive with advanced neural architectures for this task.",
+      "mindmap": "graph TB\n        Root[”A Scalable Framework for logP Prediction<br>可扩展的logP预测框架”] --> Problem[”核心问题/Problem<br>Accurate, scalable logP prediction for drug discovery<br>药物发现中准确、可扩展的logP预测”]\n        Root --> Method[”主要方法/Method<br>Byte-offset indexing & stratified ensemble modeling<br>字节偏移索引与分层集成建模”]\n        Root --> Results[”关键结果/Results<br>740x speedup, robust models competitive with GNNs<br>740倍加速，模型性能与图神经网络相当”]"
+    },
+    {
+      "title": "LMG Index: A Robust Learned Index for Multi-Dimensional Performance Balance",
+      "authors": "Yuzhen Chen, Bin Yao",
+      "institution": "Shanghai Jiao Tong University",
+      "link": "https://arxiv.org/pdf/2512.24824",
+      "code": null,
+      "tags": [
+        "memory & caching",
+        "learned index",
+        "robust framework",
+        "gap allocation",
+        "performance balance",
+        "update efficiency"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d0974459a650b6313a94f7b1297fe756803d33e8efa166a5596c6acc1939a14f_w640_q70.webp",
+      "contributions": "1. Proposes LMIndex, a robust learned indexing framework featuring an efficient top-layer structure with O(1) query/update complexity and an efficient optimal error threshold training algorithm., 2. Develops LMG (LMIndex with gaps), a variant that employs a novel gap allocation strategy to significantly enhance update performance and stability under dynamic workloads., 3. Demonstrates through extensive evaluation that LMG effectively breaks multi-dimensional performance trade-offs, achieving leading or competitive performance across bulk loading, point/range queries, updates, stability, and space usage.",
+      "summary": "The paper addresses the limitations of existing learned indexes, which often optimize for single objectives and lack robustness under dynamic workloads. It proposes LMG Index, a robust learned index framework that uses a novel gap allocation strategy to balance multiple performance dimensions. The evaluation shows LMG achieves superior and balanced performance in query latency, update efficiency, stability, and space usage compared to state-of-the-art approaches.",
+      "mindmap": "graph TB\n        A[LMG Index: A Robust Learned Index for Multi-Dimensional Performance Balance] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[现有学习索引优化目标单一，缺乏更新效率和稳定性/Existing learned indexes optimize limited objectives, lack update efficiency & stability]\n        B --> B2[依赖数据分布假设，缺乏理论保证/Rely on data distribution assumptions, lack theoretical guarantees]\n        C --> C1[提出LMIndex框架：高效顶层结构(O(1))与误差阈值训练算法/Propose LMIndex framework: efficient top-layer structure (O(1)) & error threshold training]\n        C --> C2[开发LMG变体：采用新颖间隙分配策略/Develop LMG variant: novel gap allocation strategy]\n        D --> D1[性能领先：批量加载、点/范围查询、更新、稳定性、空间使用/Leading performance: bulk load, point/range query, update, stability, space usage]\n        D --> D2[打破多维度性能权衡/Breaks multi-dimensional performance trade-offs]"
+    },
+    {
       "title": "MonoM: Enhancing Monotonicity in Learned Cardinality Estimators",
       "authors": "Lyu Yi, Weiqi Feng, Yuanbiao Wang, Yuhong Kan",
       "institution": "University of Wisconsin–Madison, Harvard University, University of Texas at Austin",

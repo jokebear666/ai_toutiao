@@ -4,6 +4,27 @@
   "week": "20251229-20260104",
   "items": [
     {
+      "title": "Institutional cooperations in Austrian research: An analysis of shared researchers",
+      "authors": "Christoph Schlager, Lutz Bornmann, Gerald Schweiger",
+      "institution": "Vienna University of Technology (TU Wien), Max Planck Society",
+      "link": "https://arxiv.org/pdf/2512.23882",
+      "code": null,
+      "tags": [
+        "scientometrics",
+        "research collaboration networks",
+        "co-affiliation network",
+        "bibliometric analysis",
+        "network regression",
+        "citation impact",
+        "organisational performance"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3fb464a2a5288128bc83312d6ad5a5725a03e89da8c7597277a3e9620ce3728e_w640_q70.webp",
+      "contributions": "1. Developed a scalable, network-based analytical framework for representing simultaneous researcher affiliations as relational links between organizations. 2. Applied the framework to Austrian bibliometric data, constructing both a complete co-affiliation network and a temporally filtered network to identify persistent collaborations. 3. Conducted network regression analyses to identify determinants of co-affiliation formation and assessed the impact of persistent co-affiliations on organizational citation impact across different sectors.",
+      "summary": "This paper analyzes the implications of researchers holding multiple organizational affiliations in Austria. The authors propose a network-based framework to model these co-affiliations and apply it to bibliometric data, finding that geographical proximity and sector type are key determinants of collaboration, with persistent university-research institute ties being particularly resilient and associated with higher scientific impact.",
+      "mindmap": "graph TB\n        A[Institutional cooperations in Austrian research: An analysis of shared researchers] --> B\n        A --> C\n        A --> D\n        B[核心问题/Problem<br>Implications of multiple researcher affiliations for organizational performance]\n        C[主要方法/Method<br>Scalable network framework & bibliometric analysis of co-affiliations]\n        D[关键结果/Results<br>Geography & sector matter; persistent university-institute ties boost impact]"
+    },
+    {
       "title": "Expert-Grounded Automatic Prompt Engineering for Extracting Lattice Constants of High-Entropy Alloys from Scientific Publications using Large Language Models",
       "authors": "Shunshun Liu, Talon R. Booth, Yangfeng Ji, Wesley Reinhart, Prasanna V. Balachandran",
       "institution": "University of Virginia, Pennsylvania State University",

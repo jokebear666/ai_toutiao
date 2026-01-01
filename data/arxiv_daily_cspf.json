@@ -4,6 +4,26 @@
   "week": "20251229-20260104",
   "items": [
     {
+      "title": "A Magnified View into Heterogeneous-ISA Thread Migration Performance without State Transformation",
+      "authors": "Nikolaos Mavrogeorgis, Christos Vasiladiotis, Pei Mu, Amir Khordadi, Björn Franke, Antonio Barbalace",
+      "institution": "University of Edinburgh",
+      "link": "https://arxiv.org/pdf/2512.24530",
+      "code": null,
+      "tags": [
+        "compiler & ir",
+        "heterogeneous-ISA",
+        "thread migration",
+        "stack layout",
+        "LLVM",
+        "ABI"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7045223acda8a4e1008ca9cb0375719ce56e3d4b17ad8db282fd7af7ae7f0167_w640_q70.webp",
+      "contributions": "1. Design and development of Unifico, a multi-ISA compiler that generates binaries with an identical stack layout across ISAs to eliminate runtime stack transformation overhead. 2. Implementation of a uniform ABI and virtual address space across ISAs within the compiler backend, built on the LLVM infrastructure for x86-64 and ARMv8. 3. Demonstrated minimal performance overhead (avg. &lt;6-10%) and a significant reduction in binary size overhead (~10% vs. ~200%) compared to the state-of-the-art Popcorn compiler.",
+      "summary": "The paper addresses the high overhead of runtime stack transformation in heterogeneous-ISA systems by introducing Unifico, a compiler that generates binaries with a uniform stack layout across architectures. This eliminates migration-time state conversion, resulting in minimal execution overhead and drastically reduced binary size compared to prior work. The evaluation on NAS benchmarks shows the approach is effective for enabling efficient thread migration between x86-64 and ARMv8 processors.",
+      "mindmap": "graph TB\n        Root[”A Magnified View into Heterogeneous-ISA Thread Migration Performance without State Transformation<br/>异构ISA线程迁移性能的放大视图（无需状态转换）”]\n        Root --> Problem[”核心问题/Problem<br/>Heterogeneous-ISA migration requires expensive runtime stack transformation<br/>异构ISA迁移需要昂贵的运行时栈转换”]\n        Root --> Method[”主要方法/Method<br/>Unifico compiler: generates binaries with identical stack layout across ISAs<br/>Unifico编译器：生成跨ISA栈布局一致的二进制文件”]\n        Root --> Results[”关键结果/Results<br/>~6-10% perf overhead, ~10% binary size overhead (vs. ~200%)<br/>~6-10%性能开销，~10%二进制大小开销（对比~200%）”]"
+    },
+    {
       "title": "GPU Kernel Optimization Beyond Full Builds: An LLM Framework with Minimal Executable Programs",
       "authors": "Ruifan Chu, Anbang Wang, Xiuxiu Bai, Shuai Liu, Xiaoshe Dong",
       "institution": "School of Software Engineering, Xi’an Jiaotong University",

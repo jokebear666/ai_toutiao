@@ -4,6 +4,284 @@
   "week": "20251229-20260104",
   "items": [
     {
+      "title": "Network Traffic Analysis with Process Mining: The UPSIDE Case Study",
+      "authors": "Francesco Vitale, Paolo Palmiero, Massimiliano Rak, Nicola Mazzocca",
+      "institution": "University of Naples Federico II, University of Campania Luigi Vanvitelli",
+      "link": "https://arxiv.org/pdf/2512.23718",
+      "code": null,
+      "tags": [
+        "network traffic analysis",
+        "process mining",
+        "Petri nets",
+        "unsupervised characterization",
+        "network traffic classification",
+        "interpretability"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/aef2d73934ec0b931bbb0dbae5c9be217f30aa949e9142a6391ac35afe9d92a9_w640_q70.webp",
+      "contributions": "1. Proposes a novel process mining-based method for the unsupervised characterization of states from gaming network traffic data. 2. Encodes the identified network states into interpretable process models (Petri nets) for explainable analysis. 3. Demonstrates the method's capability to classify network traffic to identify different video games being played, achieving good accuracy and model coherence.",
+      "summary": "This paper proposes a process mining method to analyze gaming network traffic for explainable modeling and classification. The method performs unsupervised state characterization, encodes states into interpretable Petri nets, and classifies traffic to identify specific games. Results on the UPSIDE case study show the approach can effectively model network behavior with high coherence and specificity while maintaining good classification accuracy.",
+      "mindmap": "graph TB\n        A[Network Traffic Analysis with Process Mining: The UPSIDE Case Study] --> B(核心问题/Problem: Need for explainable analysis of complex gaming network traffic)\n        A --> C(主要方法/Method: Process mining for unsupervised state characterization, encoding into Petri nets, and traffic classification)\n        A --> D(关键结果/Results: High model coherence (94.02%), specificity (174.99%), and good game classification accuracy (73.84% AUC))"
+    },
+    {
+      "title": "Drift-Based Dataset Stability Benchmark",
+      "authors": "Dominik Soukup, Richard Plný, Daniel Vašata, Tomáš Čejka",
+      "institution": "Czech Technical University in Prague, CESNET a.l.e.",
+      "link": "https://arxiv.org/pdf/2512.23762",
+      "code": null,
+      "tags": [
+        "communication & networking",
+        "concept drift",
+        "dataset stability",
+        "traffic classification",
+        "benchmark",
+        "feature weights"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cc4badd4590db607d7056063e44a30285afee3c4bd25f3f6b231fbc0932dd8de_w640_q70.webp",
+      "contributions": "1. A novel methodology for evaluating dataset stability based on concept drift detection and ML feature weights. 2. A benchmark workflow for comparing datasets and identifying their weak points. 3. A demonstration and initial benchmark of the framework on the CESNET-TLS-Year22 dataset, showing its use for dataset optimization.",
+      "summary": "This paper addresses the problem of model degradation in network traffic classification due to data/concept drift. It proposes a new framework that uses a concept drift detection method enhanced with ML feature weights to benchmark dataset stability. The method is demonstrated on a real-world TLS dataset, providing insights for dataset optimization.",
+      "mindmap": "graph TB\n        A[Drift-Based Dataset Stability Benchmark] --> B[核心问题/Problem: Model degradation from data drift in network traffic classification]\n        A --> C[主要方法/Method: Concept drift detection boosted by ML feature weights for dataset benchmarking]\n        A --> D[关键结果/Results: Initial stability benchmark for CESNET-TLS-Year22 dataset, showing optimization impact]"
+    },
+    {
+      "title": "Improving Reliability of Human Trafficking Alerts in Airports",
+      "authors": "Nana Oye Akrofi Quarcoo, Milena Radenkovic",
+      "institution": "The University of Nottingham",
+      "link": "https://arxiv.org/pdf/2512.23865",
+      "code": null,
+      "tags": [
+        "delay tolerant networks",
+        "Delay Tolerant Networks",
+        "Mobile Ad Hoc Networks",
+        "Opportunistic Network Environment",
+        "Spray and Wait",
+        "Epidemic"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/59e1cbec09d2308ac06a3bef24acf6366e80996c8ef8af583749661d0fe4f3bf_w640_q70.webp",
+      "contributions": "1. Investigates the application of DTN protocols (Spray and Wait, Epidemic) for emergency alerting in airport human trafficking scenarios. 2. Simulates and evaluates the performance of these protocols in terms of delivery ratio and latency using the ONE simulator. 3. Discusses the potential role and limitations of DTN networks in combating human trafficking, bridging a technical evaluation with a critical real-world application.",
+      "summary": "This paper investigates using Delay Tolerant Network (DTN) protocols to improve the reliability of emergency alerts for human trafficking victims in airports where conventional networks are unavailable. It simulates the scenario using the ONE simulator to evaluate the performance of Spray and Wait and Epidemic protocols on delivery ratio and latency. The study compares the protocols' advantages and limitations, concluding on their potential role in addressing this global issue.",
+      "mindmap": "graph TB\n        A[Improving Reliability of Human Trafficking Alerts in Airports] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[机场人口贩卖紧急警报的可靠性/Reliability of emergency alerts for human trafficking in airports]\n        C --> C1[应用DTN协议: Spray and Wait, Epidemic/Apply DTN protocols: Spray and Wait, Epidemic]\n        C --> C2[使用ONE模拟器进行仿真/Simulation using the ONE simulator]\n        D --> D1[评估交付率和延迟/Evaluate delivery ratio and latency]\n        D --> D2[讨论协议优缺点与潜在作用/Discuss protocol pros/cons and potential role]"
+    },
+    {
+      "title": "Wireless Multimodal Foundation Model (WMFM): Integrating Vision and Communication Modalities for 6G ISAC Systems",
+      "authors": "Mohammad Farzanullah, Han Zhang, Akram Bin Sediq, Ali Afana, Melike Erol-Kantarci",
+      "institution": "University of Ottawa, Ericsson",
+      "link": "https://arxiv.org/pdf/2512.23897",
+      "code": null,
+      "tags": [
+        "multi-modal training",
+        "contrastive learning",
+        "foundation model",
+        "integrated sensing and communication (ISAC)",
+        "self-supervised learning",
+        "6G"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e87b9a2a580e0bf396f2f3a1acbbe2a988534fce6b02e90b233a8c27611a9704_w640_q70.webp",
+      "contributions": "1. Proposes a novel Wireless Multimodal Foundation Model (WMFM) that integrates wireless channel data and visual imagery for 6G ISAC systems. 2. Employs a contrastive learning-based self-supervised pretraining strategy to align embeddings from different modalities without explicit labels. 3. Demonstrates significant performance gains and data efficiency in downstream tasks like localization and LoS/nLoS classification, reducing training time substantially.",
+      "summary": "This paper introduces the Wireless Multimodal Foundation Model (WMFM), which uses contrastive learning to pretrain on wireless channel and visual data for 6G Integrated Sensing and Communication systems. The frozen pretrained encoders are then fine-tuned for specific tasks, achieving superior accuracy and data efficiency compared to end-to-end benchmarks. The results show a 17% improvement in classification accuracy, a 48.5% reduction in localization error, and up to 90x faster training.",
+      "mindmap": "graph TB\n        A[WMFM: 6G ISAC多模态基础模型] --> B[核心问题/Problem: 为6G网络开发通用、数据高效的多模态模型]\n        A --> C[主要方法/Method: 基于对比学习的自监督预训练，对齐信道与视觉嵌入]\n        A --> D[关键结果/Results: 分类准确率提升17%，定位误差降低48.5%，训练时间减少90倍]"
+    },
+    {
+      "title": "Road Rules for Radio: Why Your Wi-Fi Got Better",
+      "authors": "Bradley Fang, Michael Roger",
+      "institution": "Columbia University",
+      "link": "https://arxiv.org/pdf/2512.23901",
+      "code": null,
+      "tags": [
+        "wireless networking",
+        "WiFi 8",
+        "IEEE 802.11bn",
+        "Ultra High Reliability (UHR)",
+        "traffic collisions",
+        "interference"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6ffa9eddf74e839a0b67522db8bd1ce62fd59a56553a1b343929acb72f3a9c40_w640_q70.webp",
+      "contributions": "1. Provides a comprehensive and accessible literature review on the historical progression and key technical advancements in WiFi across seven core areas. 2. Introduces a novel road/highway analogy to demystify complex networking mechanisms for a broad audience. 3. Explores and explains the upcoming WiFi 8 (IEEE 802.11bn) standard, highlighting its paradigm shift towards prioritizing reliability over pure data rates.",
+      "summary": "This paper provides a broad, accessible literature review on WiFi advancements, using a road/highway analogy to explain key technical areas like bandwidth and interference. It synthesizes past solutions and their limitations while introducing the upcoming WiFi 8 standard, which emphasizes ultra-high reliability over just speed.",
+      "mindmap": "graph TB\n        A[Road Rules for Radio: Why Your Wi-Fi Got Better] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[WiFi进展繁多且令人困惑/WiFi advancements are numerous and confusing]\n        B --> B2[缺乏对整体发展的理解/Lack of understanding of WiFi progression as a whole]\n        C --> C1[对七个关键领域进行文献综述/Literature review on seven key areas]\n        C --> C2[使用公路类比解释机制/Using a road/highway analogy to explain mechanisms]\n        D --> D1[阐明WiFi 8向高可靠性的转变/Clarifies WiFi 8's shift toward reliability]\n        D --> D2[为广泛受众提供可理解的综述/Provides an accessible review for a broad audience]"
+    },
+    {
+      "title": "SRM at 30: Lessons from Early Data-Centric Networking and Their Impact on Named Data Networking",
+      "authors": "Tianyuan Yu, Adam Thieme, Junxiao Shi, Lan Wang, Lixia Zhang",
+      "institution": "UCLA, NIST, University of Memphis",
+      "link": "https://arxiv.org/pdf/2512.23928",
+      "code": null,
+      "tags": [
+        "networking",
+        "data-centric networking",
+        "reliable multicast",
+        "Named Data Networking",
+        "IP multicast",
+        "loss recovery"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/626feca8fc3747b1c55c9d2d227a07e9f90cd47cb4e0d3d23c96bf6a95a3c920_w640_q70.webp",
+      "contributions": "1. A retrospective analysis of the SRM framework, highlighting its pioneering data-centric design and the challenges it faced due to the semantic mismatch with IP's address-based delivery. 2. Identification of the fundamental architectural friction between application-layer data naming and network-layer address-blindness, which led to inefficient loss recovery. 3. Illustration of how insights from SRM directly informed and influenced the architectural design of Named Data Networking (NDN), which resolves this friction by aligning network delivery with data retrieval and securing data directly.",
+      "summary": "This paper revisits the 1995 SRM framework, a data-centric approach to reliable multicast. It identifies a key architectural mismatch between SRM's application-layer data naming and the IP network's address-based delivery, which caused inefficient loss recovery. The analysis concludes that these early lessons directly shaped the design of Named Data Networking (NDN), which resolves this friction by making data names network-layer entities.",
+      "mindmap": "graph TB\n        Root[SRM at 30: Lessons from Early Data-Centric Networking and Their Impact on Named Data Networking] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem: SRM的数据中心模型与IP地址交付模型存在语义不匹配 / Semantic mismatch between SRM's data-centric model and IP's address-based delivery]\n        Method[主要方法/Method: 回顾分析SRM框架及其挑战 / Retrospective analysis of the SRM framework and its challenges]\n        Results[关键结果/Results: SRM的经验教训影响了NDN的设计，NDN通过使数据成为网络层实体来解决架构摩擦 / SRM's lessons influenced NDN design; NDN resolves architectural friction by making data a network-layer entity]"
+    },
+    {
+      "title": "Beyond Dedicated-Active: A General Reliability Provisioning Framework for SFC Placement in Fog Computing",
+      "authors": "Negin Doostar, Mohammad Reza Heidarpour, Amir Khorsandi",
+      "institution": "Isfahan University of Technology",
+      "link": "https://arxiv.org/pdf/2512.24049",
+      "code": null,
+      "tags": [
+        "fog computing",
+        "Service Function Chain",
+        "Virtual Network Function",
+        "reliability theory",
+        "genetic algorithm",
+        "redundancy strategies"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5ffb4aafa70d9c8662d35b9eec32a6e2f967959cd3dffd820c6c9d6a3afb3bee_w640_q70.webp",
+      "contributions": "1. Proposes a general reliability provisioning framework for SFC placement in fog computing, exploring four redundancy strategies (shared/dedicated, active/standby). 2. Formulates the reliability-aware SFC placement problem as an Integer Non-Linear Program (INLP) with latency, cost, reliability, and deadline constraints. 3. Develops two genetic algorithm (GA)-based solutions to solve the INLP, demonstrating that shared-standby redundancy can outperform the conventional dedicated-active approach by up to 84%.",
+      "summary": "This paper addresses the reliability-aware placement of Service Function Chains (SFCs) in heterogeneous fog computing environments. It proposes a general framework that formulates the problem as an Integer Non-Linear Program (INLP) and solves it using genetic algorithm-based methods, evaluating four redundancy strategies. The main finding is that a shared-standby redundancy strategy can significantly outperform the conventional dedicated-active approach, reducing latency and cost by up to 84%.",
+      "mindmap": "graph TB\n        Root[”Beyond Dedicated-Active: A General Reliability Provisioning Framework for SFC Placement in Fog Computing<br>超越专用-主动：雾计算中SFC放置的通用可靠性供应框架”]\n        Root --> Problem[”核心问题/Problem<br>Reliability-aware SFC placement in heterogeneous fog<br>异构雾中可靠性感知的SFC放置”]\n        Root --> Method[”主要方法/Method<br>General framework with INLP & GA-based solutions<br>基于INLP和遗传算法的通用框架”]\n        Root --> Results[”关键结果/Results<br>Shared-standby redundancy outperforms dedicated-active by up to 84%<br>共享-备用冗余优于专用-主动，性能提升高达84%”]"
+    },
+    {
+      "title": "CPePC: Cooperative and Predictive Popularity based Caching for Named Data Networks",
+      "authors": "Pankaj Chaudhary, Neminath Hubballi, Sameer G. Kulkarni",
+      "institution": "Indian Institute of Technology Indore, Indian Institute of Technology Gandhinagar",
+      "link": "https://arxiv.org/pdf/2512.24073",
+      "code": null,
+      "tags": [
+        "networking",
+        "Named Data Networking",
+        "cooperative caching",
+        "content popularity",
+        "community detection",
+        "predictive caching"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f21d4496da43a9e59e9d2090a7fee495b98cdfc0b559c343eed184d81d8b092e_w640_q70.webp",
+      "contributions": "1. Proposes CPePC, a cooperative caching method that reduces the overhead of content popularity estimation. 2. Introduces a network partitioning and leader selection mechanism for efficient coordination within communities. 3. Employs a predictive parameter for caching decisions based on cache occupancy and content popularity.",
+      "summary": "The paper addresses the high coordination overhead in existing caching methods for Named Data Networks. It proposes CPePC, a cooperative and predictive caching technique that organizes the network into communities with leader nodes to estimate popularity efficiently and uses a predictive parameter for caching decisions. Simulations show CPePC outperforms six other state-of-the-art caching techniques.",
+      "mindmap": "graph TB\n        Root(”CPePC: Cooperative and Predictive Popularity based Caching for Named Data Networks”) --> Problem(”核心问题/Problem”)\n        Root --> Method(”主要方法/Method”)\n        Root --> Results(”关键结果/Results”)\n        Problem --> P1(”现有方法协调开销大/High coordination overhead in existing methods”)\n        Method --> M1(”社区检测与领导者选择/Community detection & leader selection”)\n        Method --> M2(”预测性缓存决策/Predictive caching decisions”)\n        Results --> R1(”性能优于六种先进方法/Outperforms six state-of-the-art techniques”)"
+    },
+    {
+      "title": "Privacy-Preserving Semantic Communications via Multi-Task Learning and Adversarial Perturbations",
+      "authors": "Yalin E. Sagduyu, Tugba Erpek, Aylin Yener, Sennur Ulukus",
+      "institution": "Nexcepta, The Ohio State University, University of Maryland",
+      "link": "https://arxiv.org/pdf/2512.24452",
+      "code": null,
+      "tags": [
+        "semantic communications",
+        "min-max optimization",
+        "adversarial perturbations",
+        "multi-task learning"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/25e9c394c6a473f54b07d7337b43fb693f3ebef1de80e7b275ea3c91df03de11_w640_q70.webp",
+      "contributions": "1. A deep learning-based semantic communication framework that jointly supports multiple receiver tasks (e.g., inference and reconstruction) while explicitly limiting semantic information leakage to an eavesdropper. 2. Formulation of the privacy problem as an iterative min-max optimization, where the legitimate transmitter-receiver pair is trained to degrade an adaptive eavesdropper's semantic inference performance. 3. Introduction of an auxiliary adversarial perturbation layer that superimposes a crafted signal on the transmitted waveform to degrade eavesdropper performance, even when the legitimate link is not co-trained against it.",
+      "summary": "This paper addresses privacy leakage in semantic communications, where task-optimized representations can be exploited by eavesdroppers. The proposed method uses a min-max adversarial training framework and an auxiliary perturbation layer to protect semantic information. Evaluations on image datasets show the approach significantly reduces eavesdropper inference accuracy without harming legitimate receiver performance.",
+      "mindmap": "graph TB\n        Root[Privacy-Preserving Semantic Communications via Multi-Task Learning and Adversarial Perturbations] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem: Semantic representations leak sensitive information to eavesdroppers] --> Problem_Detail[语义泄露/Semantic Leakage]\n        Method[主要方法/Method: Deep learning framework with min-max optimization and adversarial perturbations] --> Method_Detail1[对抗训练/Min-Max Optimization]\n        Method --> Method_Detail2[扰动层/Perturbation Layer]\n        Results[关键结果/Results: Reduces eavesdropper accuracy, maintains legitimate performance] --> Results_Detail[有效隐私保护/Effective Privacy Preservation]"
+    },
+    {
+      "title": "Chat-Driven Optimal Management for Virtual Network Services",
+      "authors": "Yuya Miyaoka, Masaki Inoue, Kengo Urata, Shigeaki Harada",
+      "institution": "Keio University, NTT Inc.",
+      "link": "https://arxiv.org/pdf/2512.24614",
+      "code": null,
+      "tags": [
+        "communication & networking",
+        "intent-based networking",
+        "virtual network allocation",
+        "integer linear programming",
+        "Sentence-BERT",
+        "large language model"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8dd7600e3aadf99d8f0d2549d3d65d3c00bce80acbf6105aef79f0c8a797c126_w640_q70.webp",
+      "contributions": "1. Proposes a novel two-stage chat-driven framework that integrates NLP-based intent extraction with optimization-based allocation for virtual network management. 2. Introduces and compares two intent extractors: a low-latency Sentence-BERT with SVM classifier and a high-accuracy LLM-based model. 3. Demonstrates the framework's ability to dynamically and feasibly update VM placement and routing in both single-user and multi-user settings.",
+      "summary": "This paper addresses the limitation of conventional intent-based networking, which cannot guarantee feasible configurations, by proposing a chat-driven framework. The framework uses an NLP Interpreter to extract user intent and an optimization-based Optimizer to compute feasible VM placement and routing. The results show that combining NLP with optimization enables safe, interpretable, and user-friendly network management, with an LLM-based extractor offering higher accuracy and a Sentence-BERT/SVM extractor providing lower latency.",
+      "mindmap": "graph TB\n        Root[Chat-Driven Optimal Management for Virtual Network Services] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem: Conventional IBN cannot guarantee configuration feasibility] --> P1[传统IBN方法/Traditional IBN Methods]\n        P1 --> P2[依赖统计语言模型/Rely on statistical language models]\n        P2 --> P3[无法保证可行性/Cannot guarantee feasibility]\n        Method[主要方法/Method: Two-stage NLP + Optimization Framework] --> M1[阶段1: 解释器/Stage 1: Interpreter]\n        M1 --> M2[提取用户意图/Extract user intent from chat]\n        M2 --> M3[使用NLP模型/Use NLP models (Sentence-BERT+SVM or LLM)]\n        Method --> M4[阶段2: 优化器/Stage 2: Optimizer]\n        M4 --> M5[计算可行配置/Compute feasible configuration]\n        M5 --> M6[使用整数线性规划/Use Integer Linear Programming]\n        Results[关键结果/Results] --> R1[动态更新VM放置和路由/Dynamically updates VM placement & routing]\n        R1 --> R2[保持可行性/Preserves feasibility]\n        Results --> R3[LLM提取器: 高精度/LLM Extractor: High accuracy with few samples]\n        Results --> R4[Sentence-BERT+SVM: 低延迟/Sentence-BERT+SVM: Low latency for real-time]"
+    },
+    {
+      "title": "Hierarchical Online Optimization Approach for IRS-enabled Low-altitude MEC in Vehicular Networks",
+      "authors": "Yixian Wang, Geng Sun, Zemin Sun, Jiacheng Wang, Changyuan Zhao, Daxin Tian, Dusit Niyato, Shiwen Mao",
+      "institution": "Jilin University, Nanyang Technological University",
+      "link": "https://arxiv.org/pdf/2512.24659",
+      "code": null,
+      "tags": [
+        "wireless networks and mobile computing",
+        "intelligent reflecting surface (IRS)",
+        "multi-access edge computing (MEC)",
+        "deep reinforcement learning (DRL)",
+        "Stackelberg game",
+        "UAV trajectory optimization"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a70ac61590f84cefea0f7f78edf4eaf7e0546f7c7759345e2ce5ad8ec8d0b049_w640_q70.webp",
+      "contributions": "1. Proposes a novel IRS-enabled low-altitude MEC architecture with hybrid IRSs (building-installed and UAV-carried) to enhance air-ground connectivity in vehicular networks. 2. Formulates the joint optimization problem as a multi-objective NP-hard problem and solves it via a hierarchical online optimization approach (HOOA) based on a Stackelberg game. 3. Introduces a novel GDMTD3 (generative diffusion model-enhanced twin delayed deep deterministic policy gradient) algorithm integrated with a KKT-based method at the leader level for continuous decision-making.",
+      "summary": "This paper proposes a hierarchical online optimization approach (HOOA) for an IRS-enabled low-altitude MEC system in vehicular networks to minimize task delay and energy consumption. The method reformulates the problem as a Stackelberg game, using a matching mechanism for vehicles and a novel deep reinforcement learning algorithm (GDMTD3) for server-side decisions. Simulation results show the proposed HOOA reduces average delay by 2.5% and energy consumption by 3.1% compared to benchmarks, demonstrating improved performance and stability.",
+      "mindmap": "graph TB\n        A[论文标题 / Paper Title: Hierarchical Online Optimization Approach for IRS-enabled Low-altitude MEC in Vehicular Networks] --> B\n        A --> C\n        A --> D\n        B[核心问题 / Problem: 动态车辆网络中高移动性和遮挡导致时变信道，限制可靠连接和计算服务 / Dynamic vehicular networks with high mobility and blockage lead to time-varying channels, limiting reliable connectivity and computing services.]\n        C[主要方法 / Method: 分层在线优化方法(HOOA)，将问题重构为Stackelberg博弈，结合匹配机制和GDMTD3强化学习算法 / Hierarchical Online Optimization Approach (HOOA) reformulates problem as Stackelberg game, combining matching mechanism and GDMTD3 DRL algorithm.]\n        D[关键结果 / Results: 平均任务完成延迟降低2.5%，平均能耗降低3.1%，具有优越的收敛稳定性和鲁棒性 / Reduces average task completion delay by 2.5% and energy consumption by 3.1%, with superior convergence stability and robustness.]"
+    },
+    {
+      "title": "Analyzing Communication Predictability in LLM Training",
+      "authors": "Wenxue Li, Xiangzhou Liu, Yuxuan Li, Yilun Jin, Zhenghang Ren, Xudong Liao, Han Tian, Bo Ren, Zhizhen Zhong, Guyue Liu, Ying Zhang, Kai Chen",
+      "institution": "Hong Kong University of Science and Technology, Massachusetts Institute of Technology, Peking University, Meta",
+      "link": "https://arxiv.org/pdf/2512.24750",
+      "code": null,
+      "tags": [
+        "communication & networking",
+        "communication predictability",
+        "hybrid parallelism",
+        "LLM training",
+        "analytical formulation",
+        "configuration tuning"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/92e8448ac03926bae311170090f31ea5033122914f1c1e1894e8cd225959c3fd_w640_q70.webp",
+      "contributions": "1. A systematic formulation and analysis of communication predictability in distributed LLM training, focusing on traffic patterns and overhead. 2. Development of an accurate analytical formulation to estimate communication overhead in LLM training. 3. Proposal of ConfigTuner, a configuration tuning tool that leverages the formulation to optimize training performance, achieving up to 1.36x throughput improvement over Megatron-LM and reducing search complexity compared to Alpa.",
+      "summary": "This paper systematically analyzes communication predictability in distributed training of Large Language Models (LLMs) using hybrid parallelism. The authors develop an analytical model to estimate communication overhead and build a tool called ConfigTuner to optimize training configurations. Their method significantly improves training throughput and reduces configuration search complexity compared to existing systems.",
+      "mindmap": "graph TB\n        A[Analyzing Communication Predictability in LLM Training] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1(”缺乏对通信可预测性的系统性理解<br>Lack systematic understanding of communication predictability”)\n        C --> C1(”分析流量模式与开销<br>Analyze traffic patterns & overhead”)\n        C --> C2(”建立分析模型<br>Develop analytical formulation”)\n        C --> C3(”构建配置调优工具ConfigTuner<br>Build config tuning tool ConfigTuner”)\n        D --> D1(”吞吐量提升达1.36倍<br>Throughput improved up to 1.36x”)\n        D --> D2(”显著降低搜索复杂度<br>Significantly reduce search complexity”)"
+    },
+    {
+      "title": "Sidelink Positioning: Standardization Advancements, Challenges and Opportunities",
+      "authors": "Yuan Gao, Guangjin Pan, Zhiyong Zhong, Zhengyu Jin, Yichen Hu, Yifei Jin, Shugong Xu",
+      "institution": "Shanghai University, Chalmers University of Technology, The Chinese University of Hong Kong, University of Washington, KTH Royal Institute of Technology & Ericsson AB, Xi'an Jiaotong-Liverpool University",
+      "link": "https://arxiv.org/pdf/2512.24803",
+      "code": null,
+      "tags": [
+        "wireless networking",
+        "sidelink positioning",
+        "3GPP",
+        "cellular networks",
+        "V2X",
+        "NLoS"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/62a34b77bc5c1038950b84f99ca7d94e80ca3f7ea6e3044e81f1cfbfe22d244d_w640_q70.webp",
+      "contributions": "1. Comprehensively summarizes the latest 3GPP standardization advancements for sidelink positioning, covering network architecture, use cases, positioning types, and performance requirements. 2. Evaluates and discusses the capability of sidelink positioning using various methods under different imperfect factors, such as non-line-of-sight conditions. 3. Discusses potential research directions and challenges for sidelink positioning based on the evolution of 3GPP Release 19.",
+      "summary": "This paper addresses the performance degradation of traditional cellular positioning in long-distance or NLoS scenarios by exploring the standardization and capabilities of sidelink positioning, which enables direct device-to-device signaling. It provides a comprehensive overview of 3GPP's work, evaluates the technology's potential, and outlines future research challenges. The main conclusion is that sidelink positioning offers a promising way to extend positioning coverage and accuracy for critical applications like V2X and IIoT.",
+      "mindmap": "graph TB\n        Root[”Sidelink Positioning: Standardization Advancements, Challenges and Opportunities”] --> Problem[”核心问题/Problem: Cellular positioning accuracy degrades in long-distance/NLoS scenarios.”]\n        Root --> Method[”主要方法/Method: Standardize and evaluate Sidelink (SL) positioning via direct UE-to-UE signaling.”]\n        Root --> Results[”关键结果/Results: Summarizes 3GPP advancements, evaluates SL capability, discusses future directions.”]"
+    },
+    {
+      "title": "Reliable and Resilient Collective Communication Library for LLM Training and Serving",
+      "authors": "Wei Wang, Nengneng Yu, Sixian Xiong, Zaoxing Liu",
+      "institution": "University of Maryland, College Park",
+      "link": "https://arxiv.org/pdf/2512.25059",
+      "code": "https://github.com/r2cc-project/R-2CCL",
+      "tags": [
+        "communication & networking",
+        "fault-tolerant collective communication",
+        "multi-NIC failover",
+        "connection migration",
+        "bandwidth-aware load redistribution",
+        "resilient collective algorithms"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/dd037366831b8135233f491feff11095f79c30662f36cb517794f6588542c452_w640_q70.webp",
+      "contributions": "1. A fault-tolerant communication library (R²CCL) that provides lossless, low-overhead failover by exploiting multi-NIC hardware. 2. Techniques including rapid connection migration, bandwidth-aware load redistribution, and resilient collective algorithms to maintain progress under network failures. 3. Demonstrated high robustness to NIC failures with minimal overhead (&lt;1% for training, &lt;3% for inference) and significant performance improvements over baselines.",
+      "summary": "The paper presents R²CCL, a fault-tolerant collective communication library designed to handle network faults in large-scale LLM training and serving. It achieves low-overhead recovery through techniques like rapid connection migration and bandwidth-aware load redistribution. Evaluation shows it incurs minimal performance overhead and significantly outperforms existing solutions.",
+      "mindmap": "graph TB\n        Root[Reliable and Resilient Collective Communication Library for LLM Training and Serving] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem: Network faults waste GPU hours and cause job failures in large-scale ML clusters]\n        Method[主要方法/Method: R²CCL library with rapid connection migration, bandwidth-aware load redistribution, and resilient collective algorithms]\n        Results[关键结果/Results: <1% training overhead, <3% inference overhead, 12.18x-47x faster than baselines]"
+    },
+    {
       "title": "Impact of Sociality Regimes on Quality of Service and Energy Efficiency in Cell-Free MIMO Networks",
       "authors": "Ala Eddine Nouali, Mohamed Sana, Jean-Paul Jamont",
       "institution": "CEA-Leti (Univ. Grenoble Alpes), Huawei Technologies, LCIS (Univ. Grenoble Alpes)",

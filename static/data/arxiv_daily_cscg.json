@@ -4,6 +4,83 @@
   "week": "20251229-20260104",
   "items": [
     {
+      "title": "A Granular Grassmannian Clustering Framework via the Schubert Variety of Best Fit",
+      "authors": "Karim Salta, Michael Kirby, Chris Peterson",
+      "institution": "Colorado State University",
+      "link": "https://arxiv.org/pdf/2512.23766",
+      "code": null,
+      "tags": [
+        "subspace clustering",
+        "Schubert Variety",
+        "Grassmann Manifold",
+        "Linde-Buzo-Grey (LBG)",
+        "Subspace Clustering",
+        "Geometric Learning"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a73e8fbe969f250567092a96ad55fca5bd7133b8ca34f30feedb918976b1faf5_w640_q70.webp",
+      "contributions": "1. Introduces the concept of a trainable prototype called a Schubert Variety of Best Fit (SVBF) for representing clusters of subspaces. 2. Integrates the SVBF prototype into the Linde-Buzo-Grey (LBG) clustering pipeline to create the SVBF-LBG algorithm. 3. Demonstrates improved cluster purity on synthetic, image, spectral, and video action data compared to methods using subspace means.",
+      "summary": "This paper proposes a new subspace clustering method that uses a geometric prototype called a Schubert Variety of Best Fit (SVBF) instead of a simple subspace mean. The SVBF is integrated into the Linde-Buzo-Grey algorithm, resulting in an SVBF-LBG framework that shows improved clustering performance on various data types while preserving mathematical structure for analysis.",
+      "mindmap": "graph TB\n        Root[”A Granular Grassmannian Clustering Framework via the Schubert Variety of Best Fit”] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[”核心问题/Problem<br>Need for geometric representatives in subspace clustering”] --> Problem_Sub[”子问题/Sub-Problem<br>Subspace means on Grassmann manifold may not be optimal”]\n        Method[”主要方法/Method<br>Propose SVBF-LBG algorithm”] --> Method_Sub1[”方法组件/Component 1<br>Schubert Variety of Best Fit (SVBF) prototype”]\n        Method --> Method_Sub2[”方法组件/Component 2<br>Integration into Linde-Buzo-Grey (LBG) pipeline”]\n        Results[”关键结果/Results<br>Improved cluster purity”] --> Results_Sub1[”结果细节/Detail 1<br>Tested on synthetic, image, spectral, video data”]\n        Results --> Results_Sub2[”结果细节/Detail 2<br>Retains mathematical structure for downstream analysis”]"
+    },
+    {
+      "title": "High-dimensional Regret Minimization",
+      "authors": "Junyu Liao, Ashwin Lall, Mitsunori Ogihara, Raymond Wong",
+      "institution": "The Hong Kong University of Science and Technology, Denison University, University of Miami",
+      "link": "https://arxiv.org/pdf/2512.24078",
+      "code": null,
+      "tags": [
+        "interactive query processing",
+        "regret minimization",
+        "high-dimensional data",
+        "interactive query",
+        "skyline query",
+        "top-k query"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cc5adec19be3a80d0a53d2ec741bc611e59f7e2c74dd78fd4952eec991a81e0e_w640_q70.webp",
+      "contributions": "1. Proposed FHDR (Fast High-Dimensional Reduction), a novel framework for scalable interactive regret minimization. 2. Achieved significant efficiency, requiring less than 0.01s and fewer than 30 rounds of user interaction. 3. Demonstrated performance improvements of at least an order of magnitude in execution time and several orders of magnitude in interaction rounds compared to prior work.",
+      "summary": "This paper addresses the scalability challenge of interactive regret minimization queries in high-dimensional databases, where existing methods are too slow or require excessive user feedback. The authors propose the FHDR framework, which drastically reduces both computation time and the number of required user interactions. Experiments show FHDR establishes a new state-of-the-art, outperforming previous algorithms by orders of magnitude.",
+      "mindmap": "graph TB\n        A[High-dimensional Regret Minimization] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[现有交互式算法无法扩展到高维数据集 / Existing interactive algorithms fail to scale to high-dimensional datasets]\n        B --> B2[用户交互轮数过多（常超1000轮）/ Excessive user interactions (often >1000 rounds)]\n        C --> C1[提出FHDR框架 / Propose FHDR (Fast High-Dimensional Reduction) framework]\n        D --> D1[交互轮数少于30轮 / Fewer than 30 rounds of interaction]\n        D --> D2[处理时间小于0.01秒 / Takes less than 0.01s]\n        D --> D3[性能提升数个数量级 / Outperforms prior work by orders of magnitude]"
+    },
+    {
+      "title": "Notes on the 33-point Erdős--Szekeres problem",
+      "authors": "Bogdan Dumitru",
+      "institution": "Faculty of Computer Science, University of Bucharest",
+      "link": "https://arxiv.org/pdf/2512.24061",
+      "code": null,
+      "tags": [
+        "computational geometry",
+        "SAT solving",
+        "convex layers",
+        "order types",
+        "automated reasoning"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6f5dfb13789a14e29b1b2280dcc488b6ffceef9948d144469f25d286fd8add64_w640_q70.webp",
+      "contributions": "1. A novel SAT encoding for the 33-point Erdős–Szekeres problem using triple-orientation variables and a 4-set convexity criterion to exclude convex 7-gons. 2. The introduction of convex-layer anchoring constraints to reduce symmetry and enable systematic experimentation on anchored subfamilies. 3. The observation and analysis of pronounced runtime variability and heavy-tailed behavior in the SAT solving process, identifying a key challenge for computational effort.",
+      "summary": "This paper tackles the open Erdős–Szekeres problem of whether any set of 33 points contains a convex 7-gon (ES(7)=33). It proposes a SAT encoding based on geometric orientation variables and convexity constraints to search for counterexamples. The method yields UNSAT certificates for some subcases, but the computational effort is dominated by heavy-tailed runtime variability, motivating further encoding improvements.",
+      "mindmap": "graph TB\n        A[Notes on the 33-point Erdős–Szekeres problem] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[确定ES(7)是否为33 / Determine if ES(7)=33]\n        C --> C1[SAT编码 / SAT Encoding]\n        C1 --> C1_1[三元组方向变量 / Triple-orientation variables]\n        C1 --> C1_2[四点凸性准则 / 4-set convexity criterion]\n        C1 --> C1_3[凸层锚定约束 / Convex-layer anchoring]\n        D --> D1[UNSAT证书 / UNSAT certificates]\n        D --> D2[运行时变异性 / Runtime variability]\n        D2 --> D2_1[重尾行为 / Heavy-tailed behavior]"
+    },
+    {
+      "title": "Topological Spatial Graph Coarsening",
+      "authors": "Anna Calissano, Etienne Lasalle",
+      "institution": "University College London, Nantes Université, École Centrale Nantes, CNRS",
+      "link": "https://arxiv.org/pdf/2512.24327",
+      "code": null,
+      "tags": [
+        "topological data analysis",
+        "spatial graph coarsening",
+        "persistent diagrams",
+        "triangle-aware graph filtration"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/06067063c056f1d3d0e7b1438bde8daf5524598eca6b311651201d86b9e87d88_w640_q70.webp",
+      "contributions": "1. Proposes a topological spatial graph coarsening method that balances graph reduction with topological feature preservation. 2. Introduces a triangle-aware graph filtration to adapt persistent diagrams (a topological descriptor) for spatial graphs. 3. Demonstrates that the method is parameter-free and equivariant under rotations, translations, and scaling.",
+      "summary": "The paper addresses the problem of reducing spatial graphs while preserving their topological structure. It proposes a method that collapses short edges and uses a novel triangle-aware graph filtration to guide the coarsening process. The approach is shown to significantly reduce graph size while maintaining key topological information.",
+      "mindmap": "graph TB\n        A[Topological Spatial Graph Coarsening] --> B(核心问题/Problem: Spatial graph reduction while preserving topology)\n        A --> C(主要方法/Method: Collapse short edges using triangle-aware graph filtration & persistent diagrams)\n        A --> D(关键结果/Results: Parameter-free, equivariant method that reduces size and preserves topology)"
+    },
+    {
       "title": "A Deterministic Bicriteria Approximation Algorithm for the Art Gallery Problem",
       "authors": "Khaled Elbassioni",
       "institution": "Khalifa University of Science and Technology",

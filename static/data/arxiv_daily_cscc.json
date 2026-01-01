@@ -4,6 +4,146 @@
   "week": "20251229-20260104",
   "items": [
     {
+      "title": "Kidney Exchange: Faster Parameterized Algorithms and Tighter Lower Bounds",
+      "authors": "Aritra Banik, Sujoy Bhore, Palash Dey, Abhishek Sahu",
+      "institution": "National Institute of Science Education and Research Bhubaneswar, Indian Institute of Technology Bombay, Indian Institute of Technology Kharagpur",
+      "link": "https://arxiv.org/pdf/2512.24037",
+      "code": null,
+      "tags": [
+        "parameterized complexity",
+        "kidney exchange",
+        "FPT algorithm",
+        "W1-hardness",
+        "pathwidth",
+        "treewidth"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/00da3e6d7b1c46c83d5812783ee99ea1cfff1a2c3a708bddcff4c69f9ab7902c_w640_q70.webp",
+      "contributions": "1. A new deterministic FPT algorithm for the kidney exchange problem parameterized by the number of patients receiving a kidney, improving the runtime from O*(14^t) to O*((4e)^t) ≈ O*(10.88^t). 2. A proof that the kidney exchange problem is W[1]-hard when parameterized by the pathwidth of the underlying graph, answering a natural question about the parameter's tractability. 3. Additional parameterized intractability results that improve the overall understanding of the problem's complexity landscape.",
+      "summary": "This paper studies the computationally hard kidney exchange problem, where patient-donor pairs and altruistic donors exchange kidneys via cycles and paths. The authors present a faster deterministic parameterized algorithm for the standard parameter (number of patients receiving a kidney) and prove that the problem remains intractable (W[1]-hard) even when parameterized by pathwidth, a more restrictive structural parameter than treewidth.",
+      "mindmap": "graph TB\n        Root[”Kidney Exchange: Faster Parameterized Algorithms and Tighter Lower Bounds<br>肾脏交换：更快的参数化算法与更紧的下界”] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[”核心问题/Problem<br>Kidney exchange is NP-complete<br>肾脏交换问题是NP完全问题”] --> P1[”限制/Constraint<br>Exchange via small cycles & paths<br>通过小环和路径交换”]\n        Method[”主要方法/Method<br>Parameterized Complexity<br>参数化复杂度”] --> M1[”参数/Parameter<br>Number of patients (t)<br>患者数量(t)”]\n        Method --> M2[”参数/Parameter<br>Graph pathwidth<br>图路径宽度”]\n        Results[”关键结果/Results”] --> R1[”算法改进/Algorithmic Improvement<br>FPT algorithm: O*((4e)^t)<br>FPT算法: O*((4e)^t)”]\n        Results --> R2[”下界/Lower Bound<br>W[1]-hard for pathwidth<br>对路径宽度是W[1]-难的”]"
+    },
+    {
+      "title": "From FPT Decision to FPT Enumeration",
+      "authors": "Nadia Creignou, Timo Camillo Merkl, Reinhard Pichler, Daniel Unterberger",
+      "institution": "Aix Marseille Université, TU Wien",
+      "link": "https://arxiv.org/pdf/2512.24137",
+      "code": null,
+      "tags": [
+        "parameterized complexity",
+        "fixed-parameter tractable (FPT)",
+        "enumeration",
+        "DelayP",
+        "kernelization",
+        "branching"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f9ea5a12796e6b1045900cdb4da84a92c69ff6ce730801a1cf14697d7fae1b84_w640_q70.webp",
+      "contributions": "1. Proposes a framework for studying how to extend FPT decision algorithms to FPT enumeration algorithms. 2. Inspects fundamental FPT design approaches (e.g., kernelization, branching) for their potential to yield enumeration algorithms. 3. Presents ideas and methodologies for transforming decision/optimization FPT techniques into ones suitable for enumerating all solutions.",
+      "summary": "This paper addresses the gap in applying fixed-parameter tractable (FPT) algorithms to enumeration problems. It investigates how fundamental techniques for designing FPT decision algorithms, such as kernelization and branching, can be adapted to create FPT algorithms for enumerating all solutions. The main conclusion is that a systematic methodology can be developed to bridge FPT decision and FPT enumeration.",
+      "mindmap": "graph TB\n        A[From FPT Decision to FPT Enumeration] --> B[核心问题/Problem: Intractable enumeration problems lack FPT algorithmic focus.]\n        A --> C[主要方法/Method: Inspect and extend fundamental FPT design approaches for enumeration.]\n        A --> D[关键结果/Results: Presents ideas and a framework for turning FPT decision into FPT enumeration algorithms.]"
+    },
+    {
+      "title": "Diffusion Language Models are Provably Optimal Parallel Samplers",
+      "authors": "Haozhe Jiang, Nika Haghtalab, Lijie Chen",
+      "institution": "University of California, Berkeley",
+      "link": "https://arxiv.org/pdf/2512.25014",
+      "code": null,
+      "tags": [
+        "diffusion models",
+        "diffusion language models",
+        "parallel sampling",
+        "chain-of-thought",
+        "remasking",
+        "revision"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/43c65e3d030ce4b9471215a4735f2217f9be018da8e7b5ecc092a62d1394440b_w640_q70.webp",
+      "contributions": "1. Formalized a model of parallel sampling and proved that DLMs with CoT can simulate any parallel sampling algorithm with an optimal number of sequential steps. 2. Showed that enabling remasking or revision with CoT allows DLMs to simulate any parallel sampling algorithm with optimal space complexity. 3. Established a strict expressivity gap, proving DLMs with revision or remasking are strictly more expressive than those without.",
+      "summary": "This paper provides a theoretical foundation for the efficiency of Diffusion Language Models (DLMs) as parallel samplers. It proves that DLMs augmented with chain-of-thought reasoning can simulate any parallel sampling algorithm with optimal sequential steps and, when further equipped with token remasking or revision, also achieve optimal space complexity. The results theoretically justify DLMs as highly efficient parallel samplers and advocate for enabling revision capabilities in such models.",
+      "mindmap": "graph TB\n        Root[”Diffusion Language Models are Provably Optimal Parallel Samplers<br>扩散语言模型是可证明最优的并行采样器”] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[”核心问题/Problem<br>DLMs的理论优势与效率极限未明<br>Theoretical advantages and efficiency limits of DLMs are unclear”] --> P1[”并行采样效率/Parallel Sampling Efficiency”]\n        Problem --> P2[”空间复杂度/Space Complexity”]\n        Method[”主要方法/Method<br>形式化并行采样模型与电路复杂度<br>Formalize parallel sampling model & circuit complexity”] --> M1[”增强CoT/Augment with CoT”]\n        Method --> M2[”引入重掩码或修订/Introduce Remasking or Revision”]\n        Results[”关键结果/Results”] --> R1[”最优顺序步骤/Optimal Sequential Steps”]\n        Results --> R2[”最优空间复杂度/Optimal Space Complexity”]\n        Results --> R3[”严格表达能力差距/Strict Expressivity Gap”]"
+    },
+    {
+      "title": "Thin Tree Verification is coNP-Complete",
+      "authors": "Alice Moayyedi",
+      "institution": "University of Waterloo",
+      "link": "https://arxiv.org/pdf/2512.25043",
+      "code": null,
+      "tags": [
+        "computational complexity",
+        "thin tree",
+        "coNP-complete",
+        "spanning tree",
+        "graph cuts",
+        "edge-connectivity"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/57fee7ec29f3a9f8d8859080b76ea70b44eeb72ddf00dece29f07228a749a454_w640_q70.webp",
+      "contributions": "1. Proves that the problem of verifying if a given spanning tree is α-thin is coNP-hard, resolving an open question about its computational complexity. 2. Provides a formal proof for a problem previously speculated to be NP-hard or lacking a polynomially-checkable certificate. 3. Establishes a negative result (coNP-hardness) that impacts the algorithmic prospects related to the Thin Tree Conjecture and its applications, such as approximating the Asymmetric Travelling Salesman Problem (ATSP).",
+      "summary": "This paper investigates the computational complexity of verifying whether a given spanning tree in a graph is α-thin, meaning it contains at most an α proportion of edges in any graph cut. The authors prove that this verification problem is coNP-hard. This result shows that efficiently checking a candidate solution is computationally difficult, which has implications for the Thin Tree Conjecture and related approximation algorithms for problems like ATSP.",
+      "mindmap": "graph TB\n        A[Thin Tree Verification is coNP-Complete] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[验证给定生成树是否为α-thin树/Verify if a given spanning tree is α-thin]\n        C --> C1[证明复杂度下界/Prove complexity lower bound]\n        D --> D1[验证问题是coNP-hard的/Verification problem is coNP-hard]"
+    },
+    {
+      "title": "Syndrome aware mitigation of logical errors",
+      "authors": "Dorit Aharonov, Yosi Atia, Eyal Bairey, Zvika Brakerski, Itsik Cohen, Omri Golan, Ilya Gurwich, Netanel H. Lindner, Maor Shutman",
+      "institution": "Qedma Quantum Computing, Hebrew University, Weizmann Institute of Science, Technion",
+      "link": "https://arxiv.org/pdf/2512.23810",
+      "code": null,
+      "tags": [
+        "quantum error correction and mitigation",
+        "logical error mitigation",
+        "syndrome-aware",
+        "fault-tolerance",
+        "runtime overhead",
+        "quantum error correction"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/28c546f1791a48c23de235687f3df199f96775597dcac09ee65b2ab0f41d74e5_w640_q70.webp",
+      "contributions": "1. Introduces Syndrome-Aware Logical Error Mitigation (SALEM), a novel method that leverages syndrome data from error correction to mitigate logical errors. 2. Demonstrates that SALEM achieves an exponentially lower runtime overhead compared to prior logical error mitigation schemes, enabling the execution of significantly larger logical circuits. 3. Shows that SALEM can outperform physical error mitigation even above the standard fault-tolerance threshold, making error correction useful in physical error rate regimes where it was previously considered ineffective.",
+      "summary": "This paper introduces Syndrome-Aware Logical Error Mitigation (SALEM), a method that uses syndrome data from quantum error correction to more efficiently mitigate residual logical errors. SALEM drastically reduces the runtime overhead compared to previous approaches, allowing for the accurate execution of much larger quantum circuits. The work demonstrates that this tight integration of error correction and mitigation can be beneficial even when physical error rates are above the conventional fault-tolerance threshold.",
+      "mindmap": "graph TB\n        A[Syndrome aware mitigation of logical errors] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[有限物理比特导致残留逻辑错误/Limited physical qubits cause residual logical errors]\n        C --> C1[利用纠错伴随的综合征数据进行缓解/Use syndrome data from error correction for mitigation]\n        D --> D1[运行时开销指数级降低/Runtime overhead reduced exponentially]\n        D --> D2[可执行电路规模数量级提升/Executable circuit volume increased by orders of magnitude]\n        D --> D3[可在容错阈值以上超越物理错误缓解/Can outperform physical error mitigation above fault-tolerance threshold]"
+    },
+    {
+      "title": "Proper colorings of a graph in linear time using a number of colors linear in the maximum degree of the graph",
+      "authors": "Kritika Bhandari, Mark Huber",
+      "institution": "None (Inferred from arXiv submission; no explicit affiliation provided on first page)",
+      "link": "https://arxiv.org/pdf/2512.24522",
+      "code": null,
+      "tags": [
+        "graph algorithms",
+        "proper coloring",
+        "graph sampling",
+        "linear-time algorithm",
+        "maximum degree",
+        "Markov chain Monte Carlo"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2df3f6d8f9edf2c385953da77f4effcefb8b3b532fac0ef601829b8505fab4b3_w640_q70.webp",
+      "contributions": "1. A new algorithm for exact sampling from the set of proper colorings of a graph., 2. The algorithm achieves an expected running time linear in the graph size for graphs with maximum degree Δ., 3. It is the first algorithm with this guarantee when the number of colors exceeds 3.637Δ + 1.",
+      "summary": "This paper presents a new algorithm for exactly sampling proper colorings of a graph. It is the first algorithm whose expected running time is guaranteed to be linear in the graph size when the number of colors is greater than 3.637 times the graph's maximum degree plus one.",
+      "mindmap": "graph TB\n        A[Proper colorings of a graph in linear time<br/>图的线性时间正常着色] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[Exact sampling from proper colorings<br/>从正常着色中精确采样]\n        C --> C1[New sampling algorithm<br/>新的采样算法]\n        D --> D1[Linear expected runtime<br/>线性期望运行时间]\n        D --> D2[Colors > 3.637Δ + 1<br/>颜色数 > 3.637Δ + 1]"
+    },
+    {
+      "title": "Approximate Computation via Le Cam Simulability",
+      "authors": "Deniz Akdemir",
+      "institution": "Not explicitly stated in the provided content. The author is Deniz Akdemir, but no affiliation or email domain is given.",
+      "link": "https://arxiv.org/pdf/2512.24860",
+      "code": null,
+      "tags": [
+        "computational complexity theory",
+        "Le Cam deficiency",
+        "computational deficiency",
+        "LeCam-P",
+        "approximate reduction",
+        "statistical experiments"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8eb21a7edcb8e5cb8e1788fcdd488db8897d0be53c937e14e03661081a0b7652_w640_q70.webp",
+      "contributions": "1. Proposes a decision-theoretic framework for computational complexity based on Le Cam simulability and statistical experiments, shifting focus from syntactic exactness to semantic approximation. 2. Defines computational deficiency (δ_poly) and uses it to construct the complexity class LeCam-P (Decision-Robust Polynomial Time) for problems that are semantically easy to approximate. 3. Establishes the No-Free-Transfer Inequality, showing that strictly invariant representations inevitably destroy decision-relevant information.",
+      "summary": "This paper proposes a new framework for computational complexity that views computation as the efficient simulation of a target statistical experiment with bounded risk distortion (Le Cam deficiency). It introduces the concept of computational deficiency and the class LeCam-P to characterize problems that are hard to solve exactly but easy to approximate for decision-making. The main conclusion is that this framework bridges algorithmic complexity and decision theory, showing that classical exact reductions are a special case of zero-deficiency simulations.",
+      "mindmap": "graph TB\n        A[Approximate Computation via Le Cam Simulability] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[经典精确计算理论对现代近似需求限制/Classical exactness paradigm is restrictive for modern approximate needs]\n        C --> C1[基于Le Cam缺陷的统计实验模拟框架/Framework based on Le Cam deficiency for simulating statistical experiments]\n        C --> C2[定义计算缺陷与LeCam-P类/Define computational deficiency and LeCam-P class]\n        D --> D1[Karp归约是零缺陷模拟的特例/Karp reductions are special cases of zero-deficiency simulations]\n        D --> D2[提出无免费转移不等式/Propose No-Free-Transfer Inequality]\n        D --> D3[连接算法复杂度与决策理论/Bridge algorithmic complexity and decision theory]"
+    },
+    {
       "title": "A Study of NP-Completeness and Undecidable Word Problems in Semigroups",
       "authors": "Duaa Abdullah, Jasem Hamoud",
       "institution": "Moscow Institute of Physics and Technology",

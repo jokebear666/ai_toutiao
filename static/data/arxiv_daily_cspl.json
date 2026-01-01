@@ -4,6 +4,106 @@
   "week": "20251229-20260104",
   "items": [
     {
+      "title": "Enforcing Temporal Constraints for LLM Agents",
+      "authors": "Adharsh Kamath, Sishen Zhang, Calvin Xu, Shubham Ugare, Gagandeep Singh, Sasa Misailovic",
+      "institution": "University of Illinois at Urbana-Champaign, Meta",
+      "link": "https://arxiv.org/pdf/2512.23738",
+      "code": "https://github.com/structuredllm/agent-c",
+      "tags": [
+        "agent system",
+        "temporal constraints",
+        "SMT solving",
+        "constrained generation",
+        "formal verification",
+        "LLM agents"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3a978adfab8b202d7b971f6b65f8d005235baabb93f5540985ad131638c67354_w640_q70.webp",
+      "contributions": "1. A novel framework (Agent-C) providing runtime guarantees for LLM agents to adhere to formal temporal safety properties., 2. A domain-specific language for expressing temporal properties, which are translated to first-order logic and verified via SMT solving during token generation., 3. Demonstration of perfect safety (100% conformance) and improved task utility across real-world applications and multiple LLMs, outperforming state-of-the-art guardrails.",
+      "summary": "The paper addresses the problem of LLM agents violating temporal safety policies, such as accessing data before authentication. It proposes Agent-C, a framework that uses a domain-specific language, formal logic translation, and SMT solving to enforce constraints during token generation, ensuring compliant actions. The evaluation shows Agent-C achieves 100% safety conformance and improves task utility compared to existing methods.",
+      "mindmap": "graph TB\n        A[Enforcing Temporal Constraints for LLM Agents] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[现有护栏无法保证时间安全策略/Existing guardrails fail to enforce temporal safety policies]\n        C --> C1[提出Agent-C框架/Propose Agent-C framework]\n        C1 --> C2[使用DSL和SMT求解进行运行时验证/Use DSL & SMT solving for runtime verification]\n        C2 --> C3[采用约束生成确保合规/Achieve compliance via constrained generation]\n        D --> D1[100%安全性，0%危害/100% safety, 0% harm]\n        D --> D2[在真实应用中提高任务效用/Improve task utility in real-world applications]"
+    },
+    {
+      "title": "Towards representation agnostic probabilistic programming",
+      "authors": "Ole Fenske, Maximilian Popko, Sebastian Bader, Thomas Kirste",
+      "institution": "Institute for Visual and Analytic Computing, University of Rostock",
+      "link": "https://arxiv.org/pdf/2512.23740",
+      "code": null,
+      "tags": [
+        "compiler & ir",
+        "factor abstraction",
+        "probabilistic programming",
+        "hybrid models",
+        "representation-agnostic",
+        "factor graphs"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/97ac8ba28932b58d58cfedc5a8c2d53a706dd206b4f545e3d26852fb3ee19d75_w640_q70.webp",
+      "contributions": "1. Introduces a factor abstraction with five fundamental operations as a universal interface for manipulating probabilistic factors. 2. Enables representation-agnostic probabilistic programming, allowing the mixing of different distribution representations (e.g., discrete tables, Gaussians, samples) within a single framework. 3. Facilitates practical inference in complex hybrid (mixed discrete-continuous) models that current toolkits cannot adequately handle.",
+      "summary": "The paper addresses the tight coupling between model representations and inference algorithms in current probabilistic programming tools, which limits flexibility. It proposes a factor abstraction with a set of core operations to create a representation-agnostic interface. This allows users to mix various distribution representations, enabling inference in complex hybrid models previously difficult to express.",
+      "mindmap": "graph TB\n        A[Towards representation agnostic probabilistic programming] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[PPLs耦合表示与推理算法/PPLs couple representations & inference]\n        B --> B2[阻碍混合模型实验/Prevents hybrid model experimentation]\n        C --> C1[引入因子抽象/Introduce factor abstraction]\n        C --> C2[定义五个基本操作/Define five fundamental operations]\n        C --> C3[创建通用接口/Create universal interface]\n        D --> D1[实现表示无关编程/Enable representation-agnostic programming]\n        D --> D2[支持混合表示/Support mixing representations]\n        D --> D3[处理复杂混合模型/Handle complex hybrid models]"
+    },
+    {
+      "title": "VGC: A High-Performance Zone-Based Garbage Collector Architecture for Python with Partitioning and Parallel Execution",
+      "authors": "Abdulla M",
+      "institution": "Could not be determined from the provided content.",
+      "link": "https://arxiv.org/pdf/2512.23768",
+      "code": "https://github.com/Abdullahlab-n/VGC-for-arxiv",
+      "tags": [
+        "memory management",
+        "garbage collection",
+        "concurrent mark-and-sweep",
+        "memory fragmentation",
+        "parallel execution",
+        "zone-based architecture"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0edb6409b92db2ec79f95ff72421bf0148b259c4251b261594c32563a128cb85_w640_q70.webp",
+      "contributions": "1. Introduces a dual-layer (Active and Passive) garbage collector architecture to separate compile-time and runtime memory management responsibilities., 2. Proposes a concurrent mark-and-sweep strategy for the Active VGC to reduce pause times in parallel workloads., 3. Employs predictive memory mapping and cache-aligned allocation in the Passive VGC to minimize fragmentation and reduce total memory usage.",
+      "summary": "The paper proposes VGC, a novel garbage collector for Python designed to overcome performance bottlenecks like the GIL and fragmentation. It uses a dual-layer architecture with a runtime concurrent collector and a compile-time allocator to reduce pause times and memory usage. The results show significant improvements in performance and scalability for parallel applications.",
+      "mindmap": "graph TB\n        Root[VGC: A High-Performance Zone-Based Garbage Collector Architecture for Python] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem] --> P1[Python GC Bottlenecks: GIL, Pauses, Fragmentation]\n        Method[主要方法/Method] --> M1[Dual-Layer Architecture / 双层架构]\n        M1 --> M1_1[Active VGC: Runtime Concurrent Mark-and-Sweep / 运行时并发标记清除]\n        M1 --> M1_2[Passive VGC: Compile-Time Predictive Allocation / 编译时预测性分配]\n        Results[关键结果/Results] --> R1[Reduced Pause Times (up to 30%) / 降低暂停时间]\n        Results --> R2[Reduced Memory Usage (up to 25%) / 降低内存使用]\n        Results --> R3[Improved Scalability for Parallel Apps / 提升并行应用可扩展性]"
+    },
+    {
+      "title": "Yggdrasil: Bridging Dynamic Speculation and Static Runtime for Latency-Optimal Tree-Based LLM Decoding",
+      "authors": "Yue Guan, Changming Yu, Shihan Fang, Weiming Hu, Zaifeng Pan, Zheng Wang, Zihan Liu, Yangjie Zhou, Yufei Ding, Minyi Guo, Jingwen Leng",
+      "institution": "Shanghai Jiao Tong University, Shanghai Qizhi Institute, University of California, San Diego",
+      "link": "https://arxiv.org/pdf/2512.23858",
+      "code": null,
+      "tags": [
+        "llm inference",
+        "speculative decoding",
+        "tree-based decoding",
+        "latency optimization",
+        "compiler-friendly execution",
+        "static runtime"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/13cf851f76b89c86dd0ecc981628839d1ca0ba1772a6b9b893ec9677720b6be0_w640_q70.webp",
+      "contributions": "1. Introduces an equal-growth tree structure for speculative decoding that is compatible with static graph compilers. 2. Proposes a latency-aware optimization objective for draft selection, moving beyond simple average accepted length. 3. Designs a stage-based scheduling mechanism to reduce runtime overhead.",
+      "summary": "The paper identifies a performance mismatch between dynamic speculative decoding algorithms and static runtime systems. It proposes Yggdrasil, a co-designed system that uses a context-aware tree drafting structure and compiler-friendly execution to achieve latency-optimal speculative decoding. The system supports unmodified LLMs and achieves up to 3.98x speedup over state-of-the-art baselines.",
+      "mindmap": "graph TB\n        A[Yggdrasil: Bridging Dynamic Speculation and Static Runtime for Latency-Optimal Tree-Based LLM Decoding] --> B[核心问题/Problem: Mismatch between dynamic speculation and static runtime assumptions leads to suboptimal performance]\n        A --> C[主要方法/Method: Co-designed system with context-aware tree drafting and compiler-friendly execution]\n        A --> D[关键结果/Results: Up to 3.98x speedup over SOTA baselines, supports unmodified LLMs]"
+    },
+    {
+      "title": "State Space Estimation for DPOR-based Model Checkers",
+      "authors": "A. R. Balasubramanian, Mohammad Hossein Khoshechin Jorshari, Rupak Majumdar, Umang Mathur, Minjian Zhang",
+      "institution": "Max Planck Institute for Software Systems (MPI-SWS), National University of Singapore, University of Illinois Urbana-Champaign",
+      "link": "https://arxiv.org/pdf/2512.23996",
+      "code": null,
+      "tags": [
+        "model checking",
+        "DPOR",
+        "Mazurkiewicz trace",
+        "Monte Carlo estimation",
+        "state space estimation",
+        "stochastic enumeration"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f877162e9490ceb5356ddbd67ad74f3fbb0e6eefb7872252a112f618f8723e92_w640_q70.webp",
+      "contributions": "1. Proved the #P-hardness and inapproximability of counting Mazurkiewicz trace-equivalence classes for concurrent programs, establishing the theoretical difficulty of the problem. 2. Introduced a poly-time unbiased Monte Carlo estimator by converting an optimal DPOR algorithm into a bounded tree and applying Knuth's estimator with stochastic enumeration for variance control. 3. Implemented and evaluated the estimator in the JMC model checker, demonstrating its practical effectiveness in providing stable estimates for large state spaces (10^5–10^6 classes) with modest computational budgets.",
+      "summary": "This paper addresses the problem of estimating the number of distinct behaviors (Mazurkiewicz trace-equivalence classes) in bounded concurrent programs to predict model checking runtime and progress. It proposes a Monte Carlo method that transforms a stateless optimal DPOR algorithm into an unbiased estimator, using Knuth's estimator and stochastic enumeration to control variance. The implemented estimator provides stable, practical estimates for large state spaces, offering the first provable poly-time unbiased solution for this important resource allocation problem.",
+      "mindmap": "graph TB\n        A[State Space Estimation for DPOR-based Model Checkers] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[估计并发程序的状态空间大小/Estimate # of trace-equivalence classes]\n        B --> B2[预测模型检查成本与进度/Predict model-checking cost & progress]\n        C --> C1[将DPOR算法转为无偏估计器/Convert DPOR to unbiased estimator]\n        C --> C2[应用Knuth估计器与随机枚举/Apply Knuth's estimator & stochastic enumeration]\n        D --> D1[理论: 首个多项式时间无偏估计器/Theoretical: first poly-time unbiased estimator]\n        D --> D2[实践: 在JMC中实现, 估计稳定/ Practical: implemented in JMC, stable estimates]"
+    },
+    {
       "title": "TL: Automatic End-to-End Compiler of Tile-Based Languages for Spatial Dataflow Architectures",
       "authors": "Wei Li, Zhenyu Bai, Heru Wang, Pranav Dangi, Zhiqiang Zhang, Cheng Tan, Huiying Lan, Weng-Fai Wong, Tulika Mitra",
       "institution": "National University of Singapore, Arizona State University, Google, Lumai Ltd.",

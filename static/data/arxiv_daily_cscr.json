@@ -4,6 +4,654 @@
   "week": "20251229-20260104",
   "items": [
     {
+      "title": "Audited Skill-Graph Self-Improvement for Agentic LLMs via Verifiable Rewards, Experience Synthesis, and Continual Memory",
+      "authors": "Ken Huang, Jerry Huang",
+      "institution": "DistributedApps.ai, OWASP, Kleiner Perkins",
+      "link": "https://arxiv.org/pdf/2512.23760",
+      "code": null,
+      "tags": [
+        "agent system",
+        "skill graph",
+        "verifiable rewards",
+        "continual memory",
+        "experience synthesis",
+        "audit logging"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/bdd2b1c94a27644963b1a77d560eb3715fa72ea6468dc6c4e39e42eb5e040187_w640_q70.webp",
+      "contributions": "1. Proposes the Audited Skill-Graph Self-Improvement (ASG-SI) framework, which treats agent self-improvement as the iterative compilation of an auditable, growing skill graph. 2. Introduces a verifier-auditor mechanism that uses replayable evidence and decomposed rewards to gate skill promotion, enabling independent audit and governance. 3. Integrates experience synthesis for scalable testing and continual memory control to manage context growth and preserve long-horizon performance.",
+      "summary": "This paper addresses security and governance challenges in self-improving AI agents, such as reward hacking and opaque behavioral drift. It proposes the ASG-SI framework, which compiles agent improvements into an auditable skill graph verified by replayable evidence. The approach reframes self-improvement as the accumulation of verifiable, reusable capabilities for reproducible evaluation and operational governance.",
+      "mindmap": "graph TB\n        Root[”Audited Skill-Graph Self-Improvement (ASG-SI) / 审计技能图自我改进”] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[”核心问题/Problem”] --> P1[”部署的自我改进代理存在安全与治理挑战 / Deployed self-improving agents pose security & governance challenges”]\n        P1 --> P2[”奖励黑客行为、行为漂移、不透明的更新 / Reward hacking, behavioral drift, opaque updates”]\n        Method[”主要方法/Method”] --> M1[”ASG-SI 框架 / ASG-SI Framework”]\n        M1 --> M2[”将改进编译为可审计技能图 / Compile improvements into auditable skill graph”]\n        M2 --> M3[”基于验证器的证据和可分解奖励进行技能提升 / Verifier-backed evidence & decomposed rewards gate skill promotion”]\n        M3 --> M4[”集成经验合成和持续记忆控制 / Integrate experience synthesis & continual memory control”]\n        Results[”关键结果/Results”] --> R1[”提供可验证、可重用的能力积累 / Provides accumulation of verifiable, reusable capabilities”]\n        R1 --> R2[”为自我改进AI提供可复现评估和操作治理的路径 / Offers path for reproducible evaluation & operational governance of self-improving AI”]"
+    },
+    {
+      "title": "Secure and Governed API Gateway Architectures for Multi-Cluster Cloud Environments",
+      "authors": "Vinoth Punniyamoorthy, Kabilan Kannan, Akshay Deshpande, Lokesh Butra, Akash Kumar Agarwal, Adithya Parthasarathy, Suhas Malempati, Bikesh Kumar",
+      "institution": "Albertsons Companies, AMD Inc, Cato Corporation, NTT Data",
+      "link": "https://arxiv.org/pdf/2512.23774",
+      "code": null,
+      "tags": [
+        "cloud computing",
+        "API gateway",
+        "multi-cluster",
+        "intent-driven",
+        "policy enforcement",
+        "Kubernetes"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d5c9e7c82e3adcf3bb6e3cf8d21f828445c3a35236865472e64fcb3eb1b0c25f_w640_q70.webp",
+      "contributions": "1. A governance-aware, intent-driven architecture for coordinated API gateway management in multi-cluster cloud environments. 2. A method to decouple high-level declarative intents from enforcement, enabling bounded, policy-compliant adaptation across heterogeneous gateways. 3. A prototype demonstrating significant improvements in policy drift reduction (42%), configuration propagation time (31%), and low latency overhead (&lt;6% p95).",
+      "summary": "This paper addresses the challenge of maintaining consistent security, governance, and performance across API gateways in multi-cluster cloud environments. It proposes an intent-driven architecture that translates high-level policies into enforceable configurations and validates them continuously. The prototype shows the approach effectively reduces policy drift, speeds up configuration, and maintains low latency overhead.",
+      "mindmap": "graph TB\n        Root[Secure and Governed API Gateway Architectures for Multi-Cluster Cloud Environments] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem: Maintaining consistent policy enforcement and performance across multi-cluster API gateways is challenging.] --> P1[配置漂移/Configuration Drift]\n        Problem --> P2[策略传播延迟/Delayed Policy Propagation]\n        Problem --> P3[运行时不稳定/Unstable Runtime Behavior]\n        Method[主要方法/Method: Governance-aware, intent-driven architecture.] --> M1[声明式意图/Declarative Intents]\n        Method --> M2[策略验证与反馈/Policy Verification & Telemetry Feedback]\n        Method --> M3[解耦意图与执行/Decouple Intent from Enforcement]\n        Results[关键结果/Results: Prototype evaluation on Kubernetes clusters.] --> R1[政策漂移减少42%/42% Reduction in Policy Drift]\n        Results --> R2[配置传播时间提升31%/31% Improvement in Propagation Time]\n        Results --> R3[P95延迟开销低于6%/P95 Latency Overhead <6%]"
+    },
+    {
+      "title": "Prompt-Induced Over-Generation as Denial-of-Service: A Black-Box Attack-Side Benchmark",
+      "authors": "Manu, Yi Guo, Jo Plested, Tim Lynar, Kanchana Thilakarathna, Nirhoshan Sivaroopan, Jack Yang, Wangli Yang",
+      "institution": "Western Sydney University, University of New South Wales Canberra, The University of Sydney, University of Wollongong",
+      "link": "https://arxiv.org/pdf/2512.23779",
+      "code": null,
+      "tags": [
+        "adversarial attacks on llms",
+        "denial-of-service",
+        "over-generation",
+        "black-box attack",
+        "evolutionary search",
+        "reinforcement learning"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3002b15ce3957d88befc241c59f1be73a9e49f4e8ad4c345e9d472f11883059e_w640_q70.webp",
+      "contributions": "1. Introduces a black-box, query-only benchmark for evaluating prompt-induced denial-of-service attacks on LLMs. 2. Proposes two novel prompt-only attackers: an evolutionary search method (EOGen) and a goal-conditioned reinforcement learning method (RL-GOAL). 3. Defines the Over-Generation Factor (OGF) as a key metric to quantify attack success and characterize model vulnerability.",
+      "summary": "This paper addresses the problem of denial-of-service attacks on large language models via prompt-induced over-generation. It proposes a standardized black-box benchmark and two automated attack methods, EOGen and RL-GOAL, to find adversarial prefixes that delay model termination. The results show that the RL-GOAL attacker is particularly effective at forcing models to generate excessively long outputs, highlighting a significant vulnerability.",
+      "mindmap": "graph TB\n        A[Prompt-Induced Over-Generation as Denial-of-Service<br/>提示诱导过度生成作为拒绝服务攻击] --> B\n        A --> C\n        A --> D\n        B[核心问题/Problem<br/>LLM过度生成导致服务拒绝、延迟和成本增加]\n        C[主要方法/Method<br/>黑盒基准与两种攻击者: EOGen(进化搜索)和RL-GOAL(强化学习)]\n        D[关键结果/Results<br/>RL-GOAL攻击者实现更高的平均过度生成因子(OGF)]"
+    },
+    {
+      "title": "Application-Specific Power Side-Channel Attacks and Countermeasures: A Survey",
+      "authors": "Sahan Sanjaya, Aruna Jayasena, Prabhat Mishra",
+      "institution": "University of Florida, University of Tennessee at Chattanooga",
+      "link": "https://arxiv.org/pdf/2512.23785",
+      "code": null,
+      "tags": [
+        "side-channel attacks",
+        "Power Side-Channel",
+        "Differential Power Analysis",
+        "Correlation Power Analysis",
+        "Cryptographic Implementations",
+        "Machine Learning"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/810f0ec77a1c980a8f82a207e83ff9ad2ad13c72bf05c84cdd7752fed92150b4_w640_q70.webp",
+      "contributions": "1. Provides a comprehensive survey of power side-channel attacks beyond just cryptographic implementations, covering diverse application domains like machine learning, user behavior, and instruction disassembly. 2. Classifies recent power side-channel attacks and provides a comprehensive comparison based on application-specific considerations. 3. Surveys and discusses countermeasures for power side-channel attacks across the different application domains.",
+      "summary": "This paper surveys power side-channel attacks and their countermeasures across various application domains, moving beyond the traditional focus on cryptography. It classifies attacks and compares them based on application-specific factors. The main conclusion is that power side-channel attacks are a prominent threat to a wide range of systems, necessitating domain-aware defenses.",
+      "mindmap": "graph TB\n        Root[”Application-Specific Power Side-Channel Attacks and Countermeasures: A Survey”] --> Problem[”核心问题/Problem: Power side-channel attacks threaten diverse applications beyond cryptography.”]\n        Root --> Method[”主要方法/Method: Comprehensive survey and classification of attacks & countermeasures.”]\n        Root --> Results[”关键结果/Results: Highlights the prominence of PSC attacks and the need for application-specific defenses.”]"
+    },
+    {
+      "title": "SyncGait: Robust Long-Distance Authentication for Drone Delivery via Implicit Gait Behaviors",
+      "authors": "Zijian Ling, Man Zhou, Hongda Zhai, Yating Huang, Lingchen Zhao, Qi Li, Chao Shen, Qian Wang",
+      "institution": "Huazhong University of Science and Technology, Wuhan University, Tsinghua University, Xi'an Jiaotong University",
+      "link": "https://arxiv.org/pdf/2512.23778",
+      "code": null,
+      "tags": [
+        "biometric authentication",
+        "gait authentication",
+        "drone delivery",
+        "mutual authentication",
+        "arm swing",
+        "spoofing attack"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/aafeeb48e8be50aaee42b0a5fde6849716a124c81c8181642e777e2398cbf364_w640_q70.webp",
+      "contributions": "1. Proposed SyncGait, a novel implicit gait-based mutual authentication system for drone delivery that leverages a user's unique arm swing during walking. 2. Demonstrated robust long-distance authentication performance (&gt;18m) with high accuracy (99.84%) through extensive experiments on 14 datasets from 31 subjects. 3. Showed strong resilience against various spoofing attacks, enhancing security for real-world drone delivery scenarios.",
+      "summary": "This paper introduces SyncGait, a system for secure drone delivery that performs mutual authentication by implicitly analyzing a user's unique arm-swing gait as they walk towards the drone. It achieves high accuracy over long distances without requiring extra hardware or explicit user actions. The results show it is robust against spoofing attacks, offering a secure and user-friendly authentication solution.",
+      "mindmap": "graph TB\n        Root[”SyncGait: 无人机配送的鲁棒远距离认证 / SyncGait: Robust Long-Distance Authentication for Drone Delivery”] --> Problem[”核心问题 / Problem: 现有无人机配送认证方案距离短、易受攻击 / Existing drone delivery authentication schemes have short range and are vulnerable to attacks.”]\n        Root --> Method[”主要方法 / Method: 利用行走时独特的摆臂行为进行隐式步态认证 / Implicit gait authentication using unique arm swing during walking.”]\n        Root --> Results[”关键结果 / Results: 在>18米距离实现99.84%准确率，抗欺骗攻击 / Achieves 99.84% accuracy at >18m, resilient to spoofing attacks.”]"
+    },
+    {
+      "title": "Zero-Trust Agentic Federated Learning for Secure IIoT Defense Systems",
+      "authors": "Samaresh Kumar Singh, Joyjit Roy, Martin So",
+      "institution": "Independent Researchers (based on provided affiliations: IEEE Senior Member in Texas, IEEE Member in Texas, Independent Researcher in Canada)",
+      "link": "https://arxiv.org/pdf/2512.23809",
+      "code": null,
+      "tags": [
+        "federated learning",
+        "Zero-Trust Architecture",
+        "SHAP-weighted aggregation",
+        "TPM-based attestation"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/baa785fc442fcbc6a80214c4fdc6361e67a8e34e5a9bb6f5dd8fb34baf21bb68_w640_q70.webp",
+      "contributions": "1) Proposed a hierarchical edge-fog-cloud zero-trust federated learning architecture for trusted agent participation. 2) Introduced a novel SHAP-weighted aggregation algorithm for explainable Byzantine detection in non-IID environments. 3) Integrated TPM-based cryptographic attestation and on-device adversarial training into a defense-in-depth framework.",
+      "summary": "The paper addresses security vulnerabilities in Federated Learning for Industrial IoT by proposing ZTA-FL, a framework combining zero-trust agent authentication, explainable Byzantine-resilient aggregation, and on-device adversarial training. It demonstrates high detection accuracy and robustness against attacks on intrusion detection benchmarks while reducing communication overhead.",
+      "mindmap": "graph TB\n        Root[Zero-Trust Agentic Federated Learning for Secure IIoT Defense Systems] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem: IIoT安全漏洞与联邦学习攻击 / IIoT Security Gaps & FL Attacks]\n        Method[主要方法/Method: 零信任认证与可解释聚合 / Zero-Trust Attestation & Explainable Aggregation]\n        Results[关键结果/Results: 高检测精度与抗攻击鲁棒性 / High Detection Accuracy & Attack Robustness]"
+    },
+    {
+      "title": "VBSF: A Visual-Based Spam Filtering Technique for Obfuscated Emails",
+      "authors": "Ali Hossary, Stefano Tomasin",
+      "institution": "University of Padova",
+      "link": "https://arxiv.org/pdf/2512.23788",
+      "code": null,
+      "tags": [
+        "email security",
+        "visual-based spam filter",
+        "optical character recognition",
+        "convolutional neural network",
+        "stacking ensemble learning"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/81885918d1e949206f0eaf96f024c0d6b2e328732f3b57d000024b46b7428920_w640_q70.webp",
+      "contributions": "1. A novel visual-based spam detection architecture (VBSF) that mimics human visual perception by rendering emails and capturing their on-screen appearance to counter visual obfuscation techniques., 2. A dual-pipeline processing approach combining OCR-based text classification (using NB and DT) with image-based classification via a custom CNN, integrated using a stacking ensemble meta-classifier., 3. Demonstration of high effectiveness, achieving over 98% accuracy on a designed dataset, outperforming existing techniques against visually obfuscated spam.",
+      "summary": "This paper addresses the problem of spam emails that use visual tricks like hidden text to evade traditional text-based filters. It proposes VBSF, a visual-based spam filter that renders emails, processes them through parallel text and image analysis pipelines, and combines the results with ensemble learning. The method achieves over 98% accuracy, outperforming existing techniques.",
+      "mindmap": "graph TB\n        A[VBSF: 视觉垃圾邮件过滤技术 / VBSF: Visual-Based Spam Filtering] --> B[核心问题: 视觉混淆的垃圾邮件 / Problem: Visually Obfuscated Spam]\n        A --> C[主要方法: 双通道视觉处理与集成学习 / Method: Dual-Pipeline Visual Processing & Ensemble Learning]\n        A --> D[关键结果: 准确率>98% / Results: Accuracy >98%]\n        B --> B1[文本检测失效 / Text Detection Evasion]\n        C --> C1[渲染与捕获 / Rendering & Capture]\n        C1 --> C2[文本管道: OCR+分类器 / Text Pipeline: OCR+Classifiers]\n        C1 --> C3[图像管道: CNN / Image Pipeline: CNN]\n        C2 & C3 --> C4[元分类器集成 / Meta-Classifier Ensemble]"
+    },
+    {
+      "title": "Security Without Detection: Economic Denial as a Primitive for Edge and IoT Defense",
+      "authors": "Samaresh Kumar Singh, Joyjit Roy",
+      "institution": "IEEE (Inferred from author affiliations as IEEE members; specific institutional affiliation not provided in the excerpt)",
+      "link": "https://arxiv.org/pdf/2512.23849",
+      "code": null,
+      "tags": [
+        "IoT Security",
+        "Economic Denial Security",
+        "Stackelberg Game",
+        "Cost Asymmetry",
+        "Computational Puzzles"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/53020dd5fb969c1980dd7f764afe5f97440c1ef68620bdcd3383e97bf39600fc_w640_q70.webp",
+      "contributions": "1. Proposed the Economic Denial Security (EDS) framework, a detection-independent defense that exploits the defender's environmental control to impose economic infeasibility on attackers., 2. Formally modeled EDS as a Stackelberg game, deriving optimal parameters and proving that the composition of its four mechanisms yields superlinear (2.1x) cost amplification., 3. Demonstrated practical efficacy with a lightweight (&lt;12KB) implementation, validated on a 20-device IoT testbed and against IoT-23 malware, showing significant attack slowdown, cost asymmetry, and improved mitigation rates.",
+      "summary": "The paper addresses the failure of detection-based security in resource-constrained IoT/edge environments. It proposes Economic Denial Security (EDS), a framework that uses mechanisms like computational puzzles and bandwidth taxation to make attacks economically infeasible by amplifying attacker costs. The method is proven to be lightweight, effective in significantly slowing attacks and reducing success rates, and provides a detection-independent layer of defense.",
+      "mindmap": "graph TB\n        A[Security Without Detection: Economic Denial as a Primitive for Edge and IoT Defense] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[检测安全在资源受限的IoT/边缘环境中失效/Detection-based security fails in resource-constrained IoT/edge]\n        C --> C1[经济拒绝安全框架 / Economic Denial Security (EDS) Framework]\n        C1 --> C2[四种机制组合 / Four Mechanism Composition]\n        C2 --> C3[计算谜题 / Computational Puzzles]\n        C2 --> C4[交互熵 / Interaction Entropy]\n        C2 --> C5[时间拉伸 / Temporal Stretching]\n        C2 --> C6[带宽征税 / Bandwidth Taxation]\n        C --> C7[斯塔克尔伯格博弈建模 / Stackelberg Game Modeling]\n        D --> D1[32-560倍攻击减速 / 32-560x Attack Slowdown]\n        D --> D2[85-520:1 成本不对称 / 85-520:1 Cost Asymmetry]\n        D --> D3[内存占用<12KB / <12KB Memory Footprint]\n        D --> D4[94% 恶意软件缓解 / 94% Malware Mitigation]"
+    },
+    {
+      "title": "Breaking Audio Large Language Models by Attacking Only the Encoder: A Universal Targeted Latent-Space Audio Attack",
+      "authors": "Roee Ziv, Raz Lapid, Moshe Sipper",
+      "institution": "Ben Gurion University of the Negev, Deepkeep",
+      "link": "https://arxiv.org/pdf/2512.23881",
+      "code": null,
+      "tags": [
+        "adversarial attacks",
+        "universal adversarial perturbation",
+        "latent-space attack",
+        "audio-language models",
+        "encoder-level vulnerability",
+        "targeted attack"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/aec73155c062c3c66b8e33c0e7892e17d374292349cfa71e3389850584cf8195_w640_q70.webp",
+      "contributions": "1. Proposes a universal targeted latent-space attack against audio-language models, focusing solely on the audio encoder. 2. Introduces an attack method that learns a single perturbation effective across different inputs and speakers, without needing access to the downstream language model. 3. Demonstrates high attack success rates with minimal perceptual distortion on a state-of-the-art model, revealing a critical new attack surface in multimodal systems.",
+      "summary": "This paper identifies a security vulnerability in audio-language models where adversarial attacks can be launched by manipulating only the audio encoder's latent representations. The proposed method learns a universal perturbation that forces the model to generate attacker-specified text outputs, and experiments show it is highly effective and stealthy. This reveals a significant and previously underexplored attack surface at the encoder level of multimodal AI systems.",
+      "mindmap": "graph TB\n        Root[”Breaking Audio Large Language Models by Attacking Only the Encoder<br>仅攻击编码器来攻破音频大语言模型”] --> Problem[”核心问题/Problem<br>Audio-language models have new security vulnerabilities.<br>音频-语言模型存在新的安全漏洞”]\n        Root --> Method[”主要方法/Method<br>Universal targeted latent-space attack on the encoder.<br>针对编码器的通用目标潜空间攻击”]\n        Root --> Results[”关键结果/Results<br>High attack success with minimal distortion.<br>高攻击成功率，最小感知失真”]"
+    },
+    {
+      "title": "DivQAT: Enhancing Robustness of Quantized Convolutional Neural Networks against Model Extraction Attacks",
+      "authors": "Kacem Khaled, Felipe Gohring de Magalhães, Gabriela Nicolescu",
+      "institution": "Polytechnique Montreal",
+      "link": "https://arxiv.org/pdf/2512.23948",
+      "code": null,
+      "tags": [
+        "model compression (quantization/pruning)",
+        "Quantization Aware Training",
+        "Model Extraction Attack",
+        "Quantized Convolutional Neural Networks",
+        "Edge Device",
+        "Robustness"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1c08371f06267ec2fffb37ff15727bbbcfaf1e05de4f88d1541883445740a65d_w640_q70.webp",
+      "contributions": "1. Proposes DivQAT, a novel algorithm to train quantized CNNs that integrates a defense mechanism directly into the Quantization Aware Training process to enhance robustness against model extraction attacks. 2. Demonstrates that the proposed technique effectively defends against model extraction attacks without compromising the model's accuracy, as validated on benchmark vision datasets. 3. Shows that combining the proposed quantization technique with other defense mechanisms improves their effectiveness compared to using traditional QAT.",
+      "summary": "This paper addresses the vulnerability of quantized Convolutional Neural Networks to model extraction attacks. It proposes DivQAT, a novel training algorithm that modifies the quantization process to integrate a defense mechanism directly, enhancing model robustness. The method is shown to be effective against attacks without harming accuracy and can improve other defenses when combined.",
+      "mindmap": "graph TB\n        Root[”DivQAT: Enhancing Robustness of Quantized CNNs against Model Extraction Attacks”] --> Problem[”核心问题/Problem: Quantized CNNs are vulnerable to model extraction attacks, posing IP theft risks.”]\n        Root --> Method[”主要方法/Method: Proposes DivQAT, a novel QAT-based algorithm integrating defense into the quantization training process.”]\n        Root --> Results[”关键结果/Results: Enhances robustness against attacks without compromising accuracy; improves other defenses.”]"
+    },
+    {
+      "title": "MeLeMaD: Adaptive Malware Detection via Chunk-wise Feature Selection and Meta-Learning",
+      "authors": "Ajvad Haneef K, Karan Kuwar Singh, Madhu Kumar S D",
+      "institution": "National Institute of Technology Calicut",
+      "link": "https://arxiv.org/pdf/2512.23987",
+      "code": null,
+      "tags": [
+        "malware detection",
+        "Model-Agnostic Meta-Learning (MAML)",
+        "Chunk-wise Feature Selection (CFSGB)",
+        "Gradient Boosting"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1509044c1c0bdfbb4a075c799e3c0cafd035f0b7c579548b445cf04caee2975d_w640_q70.webp",
+      "contributions": "1. Proposed MeLeMaD, a novel malware detection framework leveraging Model-Agnostic Meta-Learning (MAML) for adaptability and generalization. 2. Introduced a novel Chunk-wise Feature Selection based on Gradient Boosting (CFSGB) technique to handle large-scale, high-dimensional datasets efficiently. 3. Demonstrated state-of-the-art performance on benchmark datasets (CIC-AndMal2020, BODMAS) and a custom dataset (EMBOD), achieving high accuracy and robustness.",
+      "summary": "The paper proposes MeLeMaD, a novel malware detection framework that combines a new chunk-wise feature selection method (CFSGB) with meta-learning (MAML) to improve adaptability and efficiency on large-scale datasets. It achieves high accuracy on benchmark and custom datasets, outperforming existing state-of-the-art approaches and demonstrating robustness against evolving threats.",
+      "mindmap": "graph TB\n        A[MeLeMaD: Adaptive Malware Detection] --> B[核心问题/Problem: Malware detection needs robustness & adaptability]\n        A --> C[主要方法/Method: Meta-Learning (MAML) + Chunk-wise Feature Selection (CFSGB)]\n        A --> D[关键结果/Results: High accuracy on benchmarks (98.04%, 99.97%) & custom dataset]"
+    },
+    {
+      "title": "RepetitionCurse: Measuring and Understanding Router Imbalance in Mixture-of-Experts LLMs under DoS Stress",
+      "authors": "Ruixuan Huang, Qingyue Wang, Hantao Huang, Yudong Gao, Dong Chen, Shuai Wang, Wei Wang",
+      "institution": "HKUST, NTU",
+      "link": "https://arxiv.org/pdf/2512.23995",
+      "code": null,
+      "tags": [
+        "llm inference",
+        "Mixture-of-Experts",
+        "Router Imbalance",
+        "Denial-of-Service",
+        "Expert Parallelism",
+        "Adversarial Prompt"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d78c253b115346789599383601182c2e6e0cd34050dd3dfd9f1541a370776561_w640_q70.webp",
+      "contributions": "1. Identifies a novel DoS vulnerability in MoE LLMs where adversarial inputs can cause severe routing concentration and load imbalance during inference. 2. Proposes RepetitionCurse, a low-cost, black-box, and model-agnostic attack method that uses simple repetitive token patterns to exploit the router's universal flaw. 3. Empirically demonstrates significant performance degradation (e.g., 3.063x latency increase on Mixtral-8x7B), highlighting a critical risk to service-level agreements for real-world MoE deployments.",
+      "summary": "This paper identifies a denial-of-service vulnerability in Mixture-of-Experts LLMs, where adversarial prompts can manipulate the router to concentrate all tokens on a few experts, creating severe load imbalance. The authors propose RepetitionCurse, a simple black-box attack using repetitive token patterns to exploit this flaw. Their method significantly increases inference latency, demonstrating a critical risk to the availability of MoE-based services.",
+      "mindmap": "graph TB\n        A[RepetitionCurse: Measuring and Understanding Router Imbalance in Mixture-of-Experts LLMs under DoS Stress] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[MoE推理负载不均/MoE Inference Load Imbalance]\n        B --> B2[路由集中导致DoS/Routing Concentration Leads to DoS]\n        C --> C1[重复令牌攻击/Repetitive Token Attack]\n        C --> C2[黑盒方法/Black-box Method]\n        D --> D1[延迟显著增加/Latency Significantly Increased]\n        D --> D2[服务可用性下降/Service Availability Degraded]"
+    },
+    {
+      "title": "Jailbreaking Attacks vs. Content Safety Filters: How Far Are We in the LLM Safety Arms Race?",
+      "authors": "Yuan Xin, Dingfan Chen, Linyi Yang, Michael Backes, Xiao Zhang",
+      "institution": "CISPA Helmholtz Center for Information Security, Max Planck Institute for Intelligent Systems, Southern University of Science and Technology",
+      "link": "https://arxiv.org/pdf/2512.24044",
+      "code": null,
+      "tags": [
+        "adversarial attacks",
+        "jailbreaking",
+        "content safety filters",
+        "LLM safety alignment",
+        "input/output filtering"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0e40bd85a824936f762c47f0b98464b3b30e7733690440363f10ee46695920a8_w640_q70.webp",
+      "contributions": "1. First systematic evaluation of jailbreak attacks across the full LLM inference pipeline including input and output safety filters, 2. Demonstration that nearly all jailbreak techniques can be detected by at least one safety filter, challenging prior overestimations of attack success, 3. Identification of gaps in balancing recall and precision for optimizing protection and user experience in safety systems",
+      "summary": "This paper addresses the gap in evaluating jailbreak attacks by systematically testing them against both LLM safety alignment and external content filters in the full deployment pipeline. The study finds that most jailbreaks can be detected by safety filters, suggesting prior success rates were overestimated, and highlights the need for better precision-recall balance in filter design.",
+      "mindmap": "graph TB\n    A[Jailbreaking Attacks vs. Content Safety Filters: How Far Are We in the LLM Safety Arms Race?] --> B[核心问题/Problem: Jailbreak attacks bypass LLM safety alignment, prior evaluations neglect full deployment pipeline with content filters]\n    A --> C[主要方法/Method: First systematic evaluation of jailbreak attacks across full inference pipeline including input/output filtering stages]\n    A --> D[关键结果/Results: Most jailbreaks detectable by safety filters, prior success overestimated; need better recall-precision balance]"
+    },
+    {
+      "title": "FedLiTeCAN : A Federated Lightweight Transformer for Fast and Robust CAN Bus Intrusion Detection",
+      "authors": "Devika S, Pratik Narang, Tejasvi Alladi",
+      "institution": "BITS Pilani, Pilani Campus",
+      "link": "https://arxiv.org/pdf/2512.24088",
+      "code": "https://github.com/Transformer",
+      "tags": [
+        "federated learning",
+        "Controller Area Network (CAN)",
+        "Intrusion Detection System (IDS)",
+        "Transformer",
+        "Federated Learning",
+        "Lightweight Model"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fccdaefce6abd0f6935fde57aedf3ec8956dfd7f60385f88dafe7a2ba8e6ef09_w640_q70.webp",
+      "contributions": "1. Proposes FedLiTeCAN, a supervised intrusion detection framework using a two-layer encoder-only transformer in a Federated Learning environment. 2. Achieves a highly lightweight model (0.4MB) and fast real-time inference (0.608 ms per message), significantly outperforming baselines in size and speed. 3. Demonstrates strong generalization capability through cross-dataset analysis, achieving high accuracy on unseen cyber threats.",
+      "summary": "This paper proposes FedLiTeCAN, a lightweight Transformer-based Intrusion Detection System for CAN bus security, deployed using Federated Learning. The model is designed to be fast, small, and robust, achieving high accuracy and rapid inference on resource-constrained hardware like Jetson Nano. The results show it is an effective solution for real-time intrusion detection in vehicular networks.",
+      "mindmap": "graph TB\n        A[FedLiTeCAN: A Federated Lightweight Transformer for Fast and Robust CAN Bus Intrusion Detection] --> B[核心问题/Problem: CAN协议缺乏内置安全，需要轻量、快速、鲁棒的入侵检测系统]\n        A --> C[主要方法/Method: 在联邦学习环境中使用轻量级两层编码器Transformer]\n        A --> D[关键结果/Results: 模型小(0.4MB)，检测快(0.608ms)，精度高(98.5%)，泛化能力强]"
+    },
+    {
+      "title": "Spatial Discretization for Fine-Grain Zone Checks with STARKs",
+      "authors": "Sungmin Lee, Kichang Lee, Gyeongmin Han, JeongGil Ko",
+      "institution": "Yonsei University",
+      "link": "https://arxiv.org/pdf/2512.24238",
+      "code": null,
+      "tags": [
+        "zero-knowledge proofs",
+        "STARKs",
+        "point-in-polygon",
+        "spatial discretization",
+        "grid-based lookup",
+        "distance-aware encoding"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b21a7e9aa05b0d0cd0b65c69a5d0b074af0efeaa891e8961a53b6a3c6b9c0099_w640_q70.webp",
+      "contributions": "1. Systematically studies the accuracy-cost trade-offs of different grid-based discretization strategies for performing private point-in-polygon (PiP) tests using STARKs., 2. Proposes a novel distance-aware encoding approach that stores per-cell distance to zone boundaries and uses interpolation for finer reasoning within a cell., 3. Demonstrates through experiments on real-world data that the distance-aware method achieves significantly higher accuracy on coarse grids (up to 60%p gain) with only a moderate verification overhead (~1.4x).",
+      "summary": "This paper addresses the challenge of performing private, verifiable point-in-polygon checks using zero-knowledge proofs, where geometric operations are expensive. The authors propose using grid-based lookup tables and introduce a distance-aware encoding method to improve accuracy on coarse grids. Their experiments show this method achieves substantial accuracy gains with only a moderate increase in proof verification cost.",
+      "mindmap": "graph TB\n        A[”Spatial Discretization for Fine-Grain Zone Checks with STARKs<br/>基于STARK的细粒度区域检查的空间离散化”] --> B[”核心问题/Problem<br/>Private PiP tests are expensive in ZKPs<br/>在零知识证明中进行私有点在多边形内测试成本高昂”]\n        A --> C[”主要方法/Method<br/>Grid-based lookup tables with distance-aware encoding<br/>采用距离感知编码的基于网格的查找表”]\n        A --> D[”关键结果/Results<br/>Higher accuracy on coarse grids, moderate verification overhead<br/>在粗网格上实现更高精度，验证开销适度增加”]"
+    },
+    {
+      "title": "How Would Oblivious Memory Boost Graph Analytics on Trusted Processors?",
+      "authors": "Jiping Yu, Xiaowei Zhu, Kun Chen, Guanyu Feng, Yunyi Chen, Xiaoyu Fan, Wenguang Chen",
+      "institution": "Tsinghua University, Ant Group",
+      "link": "https://arxiv.org/pdf/2512.24255",
+      "code": null,
+      "tags": [
+        "trusted execution environments",
+        "oblivious memory",
+        "trusted processors",
+        "graph analytics",
+        "access-pattern attacks",
+        "co-design"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/08e433695d838ba73c5b984792b816e4adc4fbf80f8832a16de957766cf1aa5f_w640_q70.webp",
+      "contributions": "1. Proposes the integration of Oblivious Memory (OM) into trusted processors to mitigate performance degradation from data-oblivious algorithms. 2. Presents a co-design of storage structures and algorithms specifically for graph analytics to leverage OM efficiently. 3. Demonstrates a prototype system achieving 100x speedup over baselines with an OM sized around per-core cache, showing feasibility on existing hardware.",
+      "summary": "This paper addresses the performance overhead of data-oblivious algorithms in Trusted Execution Environments (TEEs) for graph analytics by proposing the use of Oblivious Memory (OM). Through a co-design of storage and algorithms, the authors' prototype system achieves a 100x speedup, demonstrating that OM can be feasibly integrated into existing processors with minimal overhead to boost privacy-preserving computations.",
+      "mindmap": "graph TB\n        Root[”How Would Oblivious Memory Boost Graph Analytics on Trusted Processors?”] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[”核心问题/Problem<br>Data-oblivious algorithms in TEEs cause performance degradation for graph analytics due to access-pattern leaks.”]\n        Method[”主要方法/Method<br>Co-design of storage structure & algorithms to leverage Oblivious Memory (OM) integrated into processors.”]\n        Results[”关键结果/Results<br>Prototype is 100x faster than baselines with OM sized near per-core cache; feasible on existing hardware.”]"
+    },
+    {
+      "title": "FedSecureFormer: A Fast, Federated and Secure Transformer Framework for Lightweight Intrusion Detection in Connected and Autonomous Vehicles",
+      "authors": "Devika S, Vishnu Hari, Pratik Narang, Tejasvi Alladi, F. Richard Yu",
+      "institution": "BITS Pilani, Pilani Campus; Carleton University",
+      "link": "https://arxiv.org/pdf/2512.24345",
+      "code": null,
+      "tags": [
+        "federated learning",
+        "Transformer",
+        "Federated Learning",
+        "Differential Privacy",
+        "Intrusion Detection",
+        "Connected and Autonomous Vehicles"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7914a9d504b1c6d9fb36172de5c5c3554e336d7411316a13768fea0423324240_w640_q70.webp",
+      "contributions": "1. Proposed FedSecureFormer, a lightweight encoder-only Transformer model with only 1.7M parameters for efficient intrusion detection in CAVs. 2. Integrated the model within a Federated Learning framework with Differential Privacy to enhance data privacy and enable collaborative training. 3. Demonstrated high performance (93.69% accuracy on 19 attacks) and fast inference (3.7775 ms on Jetson Nano), making it 100x faster than SOTA models.",
+      "summary": "This paper addresses cybersecurity threats in Connected and Autonomous Vehicles (CAVs) by proposing FedSecureFormer, a lightweight Transformer model trained using Federated Learning and Differential Privacy. The model achieves high accuracy for intrusion detection while ensuring data privacy and demonstrates extremely fast inference on edge devices, making it suitable for real-world deployment.",
+      "mindmap": "graph TB\n        Root[FedSecureFormer: A Fast, Federated and Secure Transformer Framework] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem: CAV网络安全威胁 / Cybersecurity threats in CAVs]\n        Method[主要方法/Method: 轻量Transformer + 联邦学习 + 差分隐私 / Lightweight Transformer + FL + DP]\n        Results[关键结果/Results: 高精度 & 快速推理 / High Accuracy & Fast Inference]"
+    },
+    {
+      "title": "SourceBroken: A large-scale analysis on the (un)reliability of SourceRank in the PyPI ecosystem",
+      "authors": "Biagio Montaruli, Serena Elisa Ponta, Luca Compagna, Davide Balzarotti",
+      "institution": "EURECOM, SAP, Endor Labs",
+      "link": "https://arxiv.org/pdf/2512.24400",
+      "code": null,
+      "tags": [
+        "software supply chain security",
+        "SourceRank",
+        "PyPI",
+        "evasion attacks",
+        "URL confusion",
+        "threat model"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/937ebee908f3f922e7d4e234d04ec0945535d6e38e06052bb2dad84c98f5f6b1_w640_q70.webp",
+      "contributions": "1. Proposes a threat model for SourceRank, identifying evasion approaches for each of its 18 metrics, including the novel URL confusion technique. 2. Conducts a large-scale empirical analysis revealing that SourceRank distributions of benign and malicious packages significantly overlap in real-world PyPI data, limiting its reliability. 3. Quantifies the prevalence and impact of URL confusion as an emerging attack vector, showing its use alongside other techniques to inflate malicious package scores.",
+      "summary": "This paper analyzes the reliability of the SourceRank scoring system in the PyPI ecosystem against evasion attacks. It proposes a threat model and conducts a large-scale empirical study, finding that SourceRank cannot reliably distinguish benign from malicious packages in real-world scenarios due to overlapping score distributions and vulnerabilities like URL confusion.",
+      "mindmap": "graph TB\n        Root(”SourceBroken: SourceRank可靠性分析 / SourceBroken: SourceRank Reliability Analysis”) --> Problem(”核心问题/Problem”)\n        Root --> Method(”主要方法/Method”)\n        Root --> Results(”关键结果/Results”)\n        Problem --> P1(”SourceRank抗规避攻击的可靠性未知 / SourceRank's reliability against evasion attacks is unknown”)\n        Method --> M1(”提出威胁模型 / Propose threat model”)\n        Method --> M2(”大规模实证分析 / Large-scale empirical analysis”)\n        M1 --> M1a(”识别URL混淆等技术 / Identify techniques like URL confusion”)\n        M2 --> M2a(”分析恶意/良性包分布 / Analyze malicious/benign package distributions”)\n        Results --> R1(”真实世界分数分布重叠 / Real-world score distributions overlap”)\n        Results --> R2(”URL混淆攻击增加 / URL confusion attack is increasing”)\n        Results --> R3(”SourceRank不可靠 / SourceRank is unreliable”)"
+    },
+    {
+      "title": "FAST-IDS: A Fast Two-Stage Intrusion Detection System with Hybrid Compression for Real-Time Threat Detection in Connected and Autonomous Vehicles",
+      "authors": "Devika S, Vishnu Hari, Pratik Narang, Tejasvi Alladi, Vinay Chamola",
+      "institution": "BITS Pilani, Pilani Campus",
+      "link": "https://arxiv.org/pdf/2512.24391",
+      "code": null,
+      "tags": [
+        "model compression (quantization/pruning)",
+        "hybrid model compression",
+        "two-stage IDS",
+        "BiGAN",
+        "CNN-LSTM",
+        "real-time inference"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e22580ef1d7646dbfb5cbb4038c5aaef82d4f9a515521bd0405cb40b44178ee2_w640_q70.webp",
+      "contributions": "1. A novel two-stage Intrusion Detection System (IDS) architecture combining a coarse-grained BiGAN-CNN for anomaly detection and a fine-grained CNN-LSTM for attack classification. 2. The application of hybrid model compression (structural pruning and static quantization) to achieve a 77.2% model size reduction while maintaining performance. 3. Demonstrated real-time, efficient deployment on resource-constrained edge devices (e.g., Jetson Nano) with low per-vehicle inference latency.",
+      "summary": "This paper proposes FAST-IDS, a fast two-stage intrusion detection system for Connected and Autonomous Vehicles (CAVs). It uses a hybrid model compression technique to create a lightweight system that combines anomaly detection (BiGAN-CNN) and attack classification (CNN-LSTM) for efficient real-time threat detection. The compressed model achieves significant size reduction and faster inference, making it suitable for deployment on edge devices like the Jetson Nano.",
+      "mindmap": "graph TB\n        A[FAST-IDS: 面向CAV的快速入侵检测系统] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[CAV网络安全威胁 / CAV Cybersecurity Threats]\n        B --> B2[资源受限环境部署 / Deployment in Resource-Constrained Environments]\n        C --> C1[两阶段IDS / Two-Stage IDS]\n        C1 --> C1_1[阶段1: BiGAN-CNN异常检测 / Stage 1: BiGAN-CNN Anomaly Detection]\n        C1 --> C1_2[阶段2: CNN-LSTM攻击分类 / Stage 2: CNN-LSTM Attack Classification]\n        C --> C2[混合模型压缩 / Hybrid Model Compression]\n        C2 --> C2_1[结构化剪枝 / Structural Pruning]\n        C2 --> C2_2[静态量化 / Static Quantization]\n        D --> D1[模型大小减少77.2% / 77.2% Model Size Reduction]\n        D --> D2[推理时间减少50.05% / 50.05% Inference Time Reduction]\n        D --> D3[高检测准确率 / High Detection Accuracy]"
+    },
+    {
+      "title": "Language Model Agents Under Attack: A Cross Model-Benchmark of Profit-Seeking Behaviors in Customer Service",
+      "authors": "Jingyu Zhang",
+      "institution": "University of Washington",
+      "link": "https://arxiv.org/pdf/2512.24415",
+      "code": null,
+      "tags": [
+        "agent system",
+        "prompt injection attack",
+        "customer-service agents",
+        "cross-domain benchmark",
+        "uncertainty reporting"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6779572a24da1e0c74a9dfbfb9709e2eded3ecfb7b6ce939ef10467a1fe6647f_w640_q70.webp",
+      "contributions": "1. Introduced a cross-domain benchmark for evaluating profit-seeking direct prompt injection attacks against customer-service LLM agents, spanning 10 service domains and 100 realistic attack scripts. 2. Conducted a systematic evaluation across five widely used models, revealing that attack success is highly dependent on both the service domain and the specific attack technique used. 3. Released data and evaluation code to support reproducible auditing and to inform the design of oversight and recovery workflows for more trustworthy agent interfaces.",
+      "summary": "This paper investigates how customer-service LLM agents can be exploited through direct prompt injection attacks to obtain unauthorized concessions. The authors propose a cross-domain benchmark to evaluate these attacks and find that their success varies significantly by domain and technique, with airline support being most vulnerable. The study concludes by releasing resources to help audit and build more robust, human-centered agent systems.",
+      "mindmap": "graph TB\n        Root[”Language Model Agents Under Attack<br>语言模型智能体攻击研究”] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[”核心问题/Problem<br>Customer-service LLM agents can be exploited for unauthorized profit<br>客服LLM智能体可能被利用谋取不当利益”]\n        Method[”主要方法/Method<br>Cross-domain benchmark of direct prompt injection attacks<br>跨领域直接提示注入攻击基准”]\n        Results[”关键结果/Results<br>Attacks are domain & technique dependent; Airline support most exploitable<br>攻击效果因领域和技术而异；航空客服最易受攻击”]"
+    },
+    {
+      "title": "GateChain: A Blockchain Based Application for Country Entry Exit Registry Management",
+      "authors": "Mohamad Akkad, Hüseyin Bodur",
+      "institution": "Düzce University",
+      "link": "https://arxiv.org/pdf/2512.24416",
+      "code": null,
+      "tags": [
+        "blockchain applications",
+        "blockchain",
+        "distributed ledger",
+        "data integrity",
+        "border management",
+        "access control"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/24cbaf1f4e268b6a47f629b6a4fe561fec935c63abef7aaf082d6a093d3de2c7_w640_q70.webp",
+      "contributions": "1. Proposes GateChain, a novel blockchain-based application specifically designed for managing country entry-exit registries. 2. Introduces an architecture that enhances data integrity, reliability, and transparency through an immutable, distributed ledger. 3. Provides real-time access control and verification mechanisms for authorized institutions to improve interoperability and security.",
+      "summary": "This paper presents GateChain, a blockchain-based application designed to address vulnerabilities in traditional centralized border control systems. By recording entry and exit events on a distributed, immutable ledger, it aims to enhance data integrity, transparency, and real-time verification for authorized institutions. The study concludes by describing GateChain's architecture and evaluating its performance and security features.",
+      "mindmap": "graph TB\n    A[GateChain: A Blockchain Based Application for Country Entry Exit Registry Management] --> B[核心问题/Problem]\n    A --> C[主要方法/Method]\n    A --> D[关键结果/Results]\n    B --> B1[传统边境系统脆弱性/Vulnerabilities of traditional border systems]\n    B --> B2[数据完整性与互操作性需求/Need for data integrity & interoperability]\n    C --> C1[基于区块链的登记管理/Blockchain-based registry management]\n    C --> C2[分布式不可变账本/Distributed immutable ledger]\n    D --> D1[增强数据完整性与透明度/Enhanced data integrity & transparency]\n    D --> D2[实时访问控制/Real-time access control]"
+    },
+    {
+      "title": "Privacy-Preserving Semantic Communications via Multi-Task Learning and Adversarial Perturbations",
+      "authors": "Yalin E. Sagduyu, Tugba Erpek, Aylin Yener, Sennur Ulukus",
+      "institution": "Nexcepta, The Ohio State University, University of Maryland",
+      "link": "https://arxiv.org/pdf/2512.24452",
+      "code": null,
+      "tags": [
+        "semantic communications",
+        "min-max optimization",
+        "adversarial perturbations",
+        "multi-task learning"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/25e9c394c6a473f54b07d7337b43fb693f3ebef1de80e7b275ea3c91df03de11_w640_q70.webp",
+      "contributions": "1. A deep learning-based semantic communication framework that jointly supports multiple receiver tasks (e.g., inference and reconstruction) while explicitly limiting semantic information leakage to an eavesdropper. 2. Formulation of the privacy problem as an iterative min-max optimization, where the legitimate transmitter-receiver pair is trained to degrade an adaptive eavesdropper's semantic inference performance. 3. Introduction of an auxiliary adversarial perturbation layer that superimposes a crafted signal on the transmitted waveform to degrade eavesdropper performance, even when the legitimate link is not co-trained against it.",
+      "summary": "This paper addresses privacy leakage in semantic communications, where task-optimized representations can be exploited by eavesdroppers. The proposed method uses a min-max adversarial training framework and an auxiliary perturbation layer to protect semantic information. Evaluations on image datasets show the approach significantly reduces eavesdropper inference accuracy without harming legitimate receiver performance.",
+      "mindmap": "graph TB\n        Root[Privacy-Preserving Semantic Communications via Multi-Task Learning and Adversarial Perturbations] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem: Semantic representations leak sensitive information to eavesdroppers] --> Problem_Detail[语义泄露/Semantic Leakage]\n        Method[主要方法/Method: Deep learning framework with min-max optimization and adversarial perturbations] --> Method_Detail1[对抗训练/Min-Max Optimization]\n        Method --> Method_Detail2[扰动层/Perturbation Layer]\n        Results[关键结果/Results: Reduces eavesdropper accuracy, maintains legitimate performance] --> Results_Detail[有效隐私保护/Effective Privacy Preservation]"
+    },
+    {
+      "title": "Document Data Matching for Blockchain-Supported Real Estate",
+      "authors": "Henrique Lin, Tiago Dias, Miguel Correia",
+      "institution": "INESC-ID, Instituto Superior Técnico, Universidade de Lisboa, Unlockit",
+      "link": "https://arxiv.org/pdf/2512.24457",
+      "code": null,
+      "tags": [
+        "decentralized systems",
+        "Verifiable Credentials",
+        "Optical Character Recognition",
+        "Natural Language Processing",
+        "Blockchain",
+        "Data Matching"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/77d42eaf9ccd48f40b91694b8109e5b2c7abc796e86c6fd2151ac05f73c2f492_w640_q70.webp",
+      "contributions": "1. Development of a prototype system that automates the extraction of key information from heterogeneous real estate documents using an OCR and NLP pipeline trained on synthetic data. 2. A framework for converting extracted document data into standardized Verifiable Credentials and performing automated data matching to detect inconsistencies. 3. Integration of blockchain as a decentralized trust layer to reinforce transparency and integrity in document verification and management.",
+      "summary": "This paper addresses the inefficiency and fraud risk in manual real estate document handling by proposing a system that integrates OCR, NLP, and Verifiable Credentials to automate document extraction and verification, backed by a blockchain trust layer. The developed prototype demonstrates competitive accuracy in information extraction and reduces verification time while maintaining reliability. The framework shows potential to streamline transactions and enhance trust in the real estate sector.",
+      "mindmap": "graph TB\n        A[Document Data Matching for Blockchain-Supported Real Estate] --> B(核心问题/Problem: Manual document handling in real estate is inefficient and prone to fraud.)\n        A --> C(主要方法/Method: Integrates OCR, NLP, and Verifiable Credentials for automated extraction and verification, using blockchain for trust.)\n        A --> D(关键结果/Results: Prototype achieves competitive accuracy and reduces verification time, demonstrating potential to streamline transactions.)"
+    },
+    {
+      "title": "Training-Free Color-Aware Adversarial Diffusion Sanitization for Diffusion Stegomalware Defense at Security Gateways",
+      "authors": "Vladimir Frants, Sos Agaian",
+      "institution": "University of Texas at San Antonio (inferred from author \"Sos Agaian\" affiliation)",
+      "link": "https://arxiv.org/pdf/2512.24499",
+      "code": null,
+      "tags": [
+        "steganography defense",
+        "adversarial sanitization",
+        "diffusion models",
+        "pretrained denoiser",
+        "quaternion update",
+        "stegomalware"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3c855da6cedcd1ea0c4dd38e35e187e7080351881b3a1515b6079801e94495a6_w640_q70.webp",
+      "contributions": "1. Proposes Adversarial Diffusion Sanitization (ADS), a training-free defense that neutralizes hidden payloads in diffusion-based steganography instead of detecting them. 2. Introduces a color-aware, quaternion-coupled update rule to minimize perceptual artifacts under strict distortion constraints. 3. Demonstrates effectiveness by driving decoder success rates of the state-of-the-art method Pulsar to near zero with minimal impact on image utility.",
+      "summary": "This paper addresses the threat of diffusion model-based steganography used for covert malware delivery. It proposes Adversarial Diffusion Sanitization (ADS), a training-free method that uses a pretrained denoiser and a color-aware update rule to subtly perturb images and neutralize hidden payloads. The results show ADS effectively disrupts steganographic decoding with minimal visual distortion, offering a practical defense for security gateways.",
+      "mindmap": "graph TB\n    A[Training-Free Color-Aware Adversarial Diffusion Sanitization<br>免训练颜色感知对抗扩散净化] --> B\n    A --> C\n    A --> D\n    B[核心问题/Problem<br>Diffusion steganography enables covert stegomalware delivery<br>扩散隐写术实现隐蔽的隐写恶意软件传递]\n    C[主要方法/Method<br>ADS: Training-free sanitization using pretrained denoiser & color-aware quaternion update<br>ADS: 使用预训练去噪器和颜色感知四元数更新的免训练净化]\n    D[关键结果/Results<br>Neutralizes Pulsar payloads with near-zero success rate & minimal distortion<br>以接近零的成功率和最小失真中和Pulsar有效载荷]"
+    },
+    {
+      "title": "Correctness of Extended RSA Public Key Cryptosystem",
+      "authors": "Dar-jen Chang, Suranjan Gautam",
+      "institution": "University of Louisville",
+      "link": "https://arxiv.org/pdf/2512.24531",
+      "code": null,
+      "tags": [
+        "public-key cryptography",
+        "RSA",
+        "correctness proof",
+        "Euler's totient function",
+        "encryption scheme",
+        "extended framework"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6d77ed6a545644c2ccdf966a071393d3cfcee6f07a446350e34a622ca676f40c_w640_q70.webp",
+      "contributions": "1. Proposes an alternative methodology for formally proving the correctness of the RSA cryptosystem, deviating from conventional proofs. 2. Explores and defines an extended framework for RSA, specifically examining conditions for the choice of the integer N beyond standard criteria. 3. Derives explicit conditions that determine the validity of N for the encryption scheme and explains why certain values fail to meet correctness requirements.",
+      "summary": "This paper presents an alternative method for formally proving the correctness of the RSA public-key cryptosystem. It investigates an extended framework where the choice of the modulus N can go beyond standard selection rules, deriving explicit conditions for valid N. The main conclusion is a set of conditions that determine when the extended scheme remains mathematically correct, while deliberately not addressing cryptographic security.",
+      "mindmap": "graph TB\n        A[Correctness of Extended RSA Public Key Cryptosystem] --> B[核心问题/Problem: Conditions for valid N in RSA]\n        A --> C[主要方法/Method: Alternative correctness proof & extended framework]\n        A --> D[关键结果/Results: Explicit validity conditions for N]"
+    },
+    {
+      "title": "SynRAG: A Large Language Model Framework for Executable Query Generation in Heterogeneous SIEM System",
+      "authors": "Md Hasan Saju, Austin Page, Akramul Azim, Jeff Gardiner, Farzaneh Abazari, Frank Eargle",
+      "institution": "Ontario Tech University, GlassHouse Systems Inc.",
+      "link": "https://arxiv.org/pdf/2512.24571",
+      "code": null,
+      "tags": [
+        "rag (retrieval-augmented generation)",
+        "SIEM",
+        "query generation",
+        "platform-agnostic specification",
+        "cross-platform",
+        "LLM framework"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0d87255708c71cdba68b8c5ca7054cc8216b56e3021254a7bbbd7c64c9a53687_w640_q70.webp",
+      "contributions": "1. Introduces SynRAG, a unified LLM framework for generating executable queries for heterogeneous SIEM systems from a single high-level specification. 2. Enables seamless threat detection and incident investigation across different SIEM platforms, reducing the need for specialized training. 3. Demonstrates superior performance compared to state-of-the-art base LLMs (GPT, Llama, etc.) in generating platform-specific queries for systems like Qradar and SecOps.",
+      "summary": "The paper introduces SynRAG, a framework that uses large language models to automatically generate platform-specific SIEM queries from a single, high-level, platform-agnostic specification. This addresses the challenge of monitoring diverse SIEM systems with different query languages. Evaluation shows SynRAG outperforms base LLMs in generating accurate queries for cross-platform threat detection and investigation.",
+      "mindmap": "graph TB\n        A[SynRAG: 异构SIEM系统的可执行查询生成框架<br>SynRAG: Executable Query Generation in Heterogeneous SIEM Systems] --> B[核心问题/Problem: SIEM平台多样性导致查询语言不同，分析师监控多平台困难<br>Problem: SIEM platform diversity leads to different query languages, making multi-platform monitoring difficult for analysts]\n        A --> C[主要方法/Method: 提出SynRAG框架，从平台无关的高级描述自动生成特定平台查询<br>Method: Proposes SynRAG framework to auto-generate platform-specific queries from a platform-agnostic high-level specification]\n        A --> D[关键结果/Results: SynRAG生成的查询优于GPT、Llama等先进基础模型<br>Results: SynRAG generates better queries than SOTA base models like GPT, Llama]"
+    },
+    {
+      "title": "Secure Digital Semantic Communications: Fundamentals, Challenges, and Opportunities",
+      "authors": "Weixuan Chen, Qianqian Yang, Yuanyuan Jia, Junyu Pan, Shuo Shao, Jincheng Dai, Meixia Tao, Ping Zhang",
+      "institution": "Zhejiang University, University of Shanghai for Science and Technology, Beijing University of Posts and Telecommunications, Shanghai Jiao Tong University",
+      "link": "https://arxiv.org/pdf/2512.24602",
+      "code": null,
+      "tags": [
+        "semantic communication security",
+        "digital semantic communication",
+        "semantic leakage",
+        "probabilistic modulation",
+        "deterministic modulation",
+        "threat landscape"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/abeb8d239a7e8c68cec436e0b796d7ed725be30de8ba11eb9a40c8bddac3296e_w640_q70.webp",
+      "contributions": "1. Clarifies the architectural differences between analog and digital semantic communication and their distinct security implications. 2. Systematically organizes the threat landscape for digital semantic communication, identifying vulnerabilities at the bit/symbol, modulation, and protocol levels. 3. Discusses potential defense mechanisms and outlines open research directions for building secure and deployable digital semantic communication systems.",
+      "summary": "This paper identifies that digital semantic communication, which transmits discrete semantic symbols for better compatibility, introduces unique and underexplored security risks compared to analog semantic communication. It systematically reviews these vulnerabilities and discusses potential defenses. The main conclusion is a call for focused research to secure this promising communication paradigm for future deployment.",
+      "mindmap": "graph TB\n        Root[”Secure Digital Semantic Communications: Fundamentals, Challenges, and Opportunities”] --> Problem[”核心问题/Problem: Digital SemCom has distinct and underexplored security risks.”]\n        Root --> Method[”主要方法/Method: Review fundamentals, clarify analog vs. digital differences, organize threat landscape, discuss defenses.”]\n        Root --> Results[”关键结果/Results: Outlines vulnerabilities and open research directions for secure digital SemCom.”]"
+    },
+    {
+      "title": "Practical Traceable Over-Threshold Multi-Party Private Set Intersection",
+      "authors": "Le Yang, Weijing You, Huiyang He, Kailiang Ji, Jingqiang Lin",
+      "institution": "University of Science and Technology of China, Fujian Normal University, NIO Inc.",
+      "link": "https://arxiv.org/pdf/2512.24652",
+      "code": null,
+      "tags": [
+        "secure multi-party computation",
+        "private set intersection",
+        "threshold PSI",
+        "oblivious programmable pseudorandom function",
+        "secret sharing",
+        "oblivious linear evaluation"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6f97cda79fc2970d2ffe5bf0e6a5be91a976069fd55c0bc36a2e4b1480d0cda4_w640_q70.webp",
+      "contributions": "1. Proposes the concept of Traceable Over-Threshold MP-PSI (T-OT-MP-PSI), which reveals not only intersection elements but also their holders, enhancing reliability. 2. Designs ET-OT-MP-PSI, an efficient protocol combining Shamir's secret sharing and oblivious programmable pseudorandom function, resistant to t-2 semi-honest participants. 3. Designs ST-OT-MP-PSI, a security-enhanced protocol leveraging oblivious linear evaluation to achieve security against up to n-1 semi-honest participants, removing special non-collusion assumptions.",
+      "summary": "This paper addresses the problem of traceable multi-party private set intersection with a threshold, where elements appearing in at least t sets and their holders are revealed. The authors propose two protocols: an efficient one (ET-OT-MP-PSI) and a security-enhanced one (ST-OT-MP-PSI), both offering stronger security without special non-collusion assumptions and achieving significant speedups (e.g., 15056x and 505x) compared to prior work.",
+      "mindmap": "graph TB\n        A[Practical Traceable Over-Threshold Multi-Party Private Set Intersection] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[MP-PSI with threshold lacks traceability of element holders / 带阈值的多方PSI缺乏元素持有者的可追溯性]\n        C --> C1[ET-OT-MP-PSI: Efficient protocol using secret sharing & OPPRF / 高效协议: 秘密共享与OPPRF]\n        C --> C2[ST-OT-MP-PSI: Security-enhanced protocol using OLE / 安全增强协议: OLE]\n        D --> D1[Removes special non-collusion assumption / 移除特殊不共谋假设]\n        D --> D2[Significant speedup vs. prior work (e.g., 15056x) / 相比现有工作显著加速 (如15056倍)]"
+    },
+    {
+      "title": "CellSecInspector: Safeguarding Cellular Networks via Automated Security Analysis on Specifications",
+      "authors": "Ke Xie, Xingyi Zhao, Yiwen Hu, Munshi Saifuzzaman, Wen Li, Shuhan Yuan, Tian Xie, Guan-Hua Tu",
+      "institution": "Utah State University, University of Maryland, Baltimore County, Michigan State University",
+      "link": "https://arxiv.org/pdf/2512.24682",
+      "code": null,
+      "tags": [
+        "cellular network security",
+        "3GPP specifications",
+        "state-condition-action (SCA)",
+        "automated vulnerability discovery"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/24e28705efeddad933ffb8777e8d25c1f77132448926c4186362d68b4fa35c92_w640_q70.webp",
+      "contributions": "1. Proposes CellSecInspector, an automated framework that extracts structured SCA representations and models mobile network procedures with function chains from 3GPP specifications. 2. Enables systematic validation against foundational security properties and automatic test case generation without relying on manually predefined rules. 3. Discovers 43 vulnerabilities (including 8 new ones) in 5G/4G NAS and RRC specifications, demonstrating its scalability and effectiveness.",
+      "summary": "This paper presents CellSecInspector, an automated framework for security analysis of complex 3GPP cellular network specifications. It extracts structured procedure models and validates them against security properties to discover vulnerabilities without manual rules. The system found 43 vulnerabilities in 5G/4G specifications, proving to be a scalable solution for safeguarding cellular networks.",
+      "mindmap": "graph TB\n        Root[CellSecInspector: Safeguarding Cellular Networks] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem] --> P1[3GPP规范复杂且快速演变/Complex & Evolving 3GPP Specs]\n        Problem --> P2[现有方法无法捕获深度语义依赖/Existing Methods Fail on Deep Semantics]\n        Method[主要方法/Method] --> M1[提取SCA表示与函数链/Extract SCA & Function Chains]\n        Method --> M2[系统化验证安全属性/Systematic Security Validation]\n        Method --> M3[自动生成测试用例/Automated Test Case Generation]\n        Results[关键结果/Results] --> R1[发现43个漏洞/Discover 43 Vulnerabilities]\n        Results --> R2[包含8个新漏洞/Include 8 New Vulnerabilities]\n        Results --> R3[证明可扩展与有效/Proven Scalable & Effective]"
+    },
+    {
+      "title": "SoK: Web3 RegTech for Cryptocurrency VASP AML/CFT Compliance",
+      "authors": "Qian'ang Mao, Jiaxin Wang, Ya Liu, Li Zhu, Jiaman Chen, Jiaqi Yan",
+      "institution": "Nanjing University",
+      "link": "https://arxiv.org/pdf/2512.24888",
+      "code": null,
+      "tags": [
+        "blockchain security",
+        "RegTech",
+        "AML/CFT",
+        "transaction graph analysis",
+        "cross-chain analytics",
+        "privacy-preserving verification"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/436795f273ee49bee1ec9b9451624284da67c6c60b7f58ea946d5c0fd61ac8b8_w640_q70.webp",
+      "contributions": "1. Developed three taxonomies to organize the Web3 RegTech domain, including a regulatory paradigm evolution framework, a compliance protocol taxonomy, and a RegTech lifecycle framework. 2. Conducted a systematic analysis of 41 commercial platforms and 28 academic prototypes to demonstrate the novel capabilities of blockchain-native RegTech solutions. 3. Identified critical research gaps and synthesized architectural best practices for future Web3 compliance solutions that respect decentralization principles.",
+      "summary": "This paper systematically examines how blockchain-native regulatory technology (RegTech) addresses AML/CFT compliance challenges in Web3. It proposes new taxonomies and analyzes existing solutions, finding that Web3 RegTech enables novel capabilities like transaction graph analysis and cross-chain tracking but faces gaps between academic research and industry deployment.",
+      "mindmap": "graph TB\n        Root[SoK: Web3 RegTech for Cryptocurrency VASP AML/CFT Compliance] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem] --> P1[传统合规方案不适用于Web3/Traditional compliance inadequate for Web3]\n        Problem --> P2[去中心化架构带来AML/CFT挑战/Decentralized architecture creates AML/CFT challenges]\n        Method[主要方法/Method] --> M1[提出三个分类法/Propose three taxonomies]\n        Method --> M2[分析69个平台与原型/Analyze 69 platforms & prototypes]\n        Results[关键结果/Results] --> R1[Web3 RegTech实现新能力/Web3 RegTech enables novel capabilities]\n        Results --> R2[揭示学术与产业间的差距/Reveals gaps between academia & industry]"
+    },
+    {
+      "title": "MTSP-LDP: A Framework for Multi-Task Streaming Data Publication under Local Differential Privacy",
+      "authors": "Chang Liu, Junzhou Zhao",
+      "institution": "Xi'an Jiaotong University",
+      "link": "https://arxiv.org/pdf/2512.24899",
+      "code": null,
+      "tags": [
+        "privacy-preserving protocols",
+        "local differential privacy",
+        "streaming data",
+        "privacy budget allocation",
+        "multi-task queries",
+        "data-adaptive tree"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/def5ebea41b1bf2a4a6e8fe823e1914e917b47ae36d0997f3d710c3caef7f636_w640_q70.webp",
+      "contributions": "1. An Optimal Privacy Budget Allocation algorithm that dynamically allocates privacy budgets by analyzing temporal correlations within each window. 2. A data-adaptive private binary tree structure, refined by cross-timestamp grouping and smoothing, to support complex queries. 3. A unified Budget-Free Multi-Task Processing mechanism to support various streaming queries without consuming additional privacy budget.",
+      "summary": "The paper proposes MTSP-LDP, a framework for publishing streaming data under local differential privacy. It addresses limitations of existing methods by dynamically allocating privacy budgets, using a data-adaptive tree for complex queries, and enabling multi-task processing without extra budget. Experiments show it achieves higher utility than existing methods across various streaming tasks.",
+      "mindmap": "graph TB\n        A[MTSP-LDP: 多任务流数据发布框架 / Multi-Task Streaming Data Publication Framework] --> B\n        A --> C\n        A --> D\n        B[核心问题 / Problem: 现有w-事件LDP方法不适合复杂查询且忽略时序相关性 / Existing w-event LDP methods are unsuitable for complex queries and ignore temporal correlations]\n        C[主要方法 / Method: 动态隐私预算分配、数据自适应私有二叉树、无预算多任务处理 / Dynamic Privacy Budget Allocation, Data-adaptive Private Binary Tree, Budget-Free Multi-Task Processing]\n        D[关键结果 / Results: 在真实数据集上实现高效用，显著优于现有方法 / Achieves high utility on real-world datasets, significantly outperforming existing methods]"
+    },
+    {
+      "title": "Towards Provably Secure Generative AI: Reliable Consensus Sampling",
+      "authors": "Yu Cui, Hang Fu, Sicheng Pan, Zhuoyu Sun, Yifei Liu, Yuhong Nie, Bo Ran, Baohan Huang, Xufeng Zhang, Haibin Zhang, Cong Zuo, Licheng Wang",
+      "institution": "Beijing Institute of Technology, Yangtze Delta Region Institute of Tsinghua University, Zhejiang",
+      "link": "https://arxiv.org/pdf/2512.24925",
+      "code": null,
+      "tags": [
+        "generative ai security",
+        "consensus sampling",
+        "provable security",
+        "adversarial robustness",
+        "risk threshold",
+        "abstention"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f86b2057e16407bdea9522c4bcc17ab118bd975ebf15313de450cc457b7b3de9_w640_q70.webp",
+      "contributions": "1. Proposes Reliable Consensus Sampling (RCS), a new primitive that traces acceptance probability to tolerate extreme adversarial behaviors and eliminates the need for abstention. 2. Develops a feedback algorithm to continuously and dynamically enhance the safety of the RCS system. 3. Provides theoretical guarantees that RCS maintains a controllable risk threshold, with experiments showing improved robustness and utility.",
+      "summary": "The paper identifies limitations in the Consensus Sampling (CS) algorithm for provably secure generative AI, such as reduced utility from frequent abstention and vulnerability to malicious models. To address this, the authors propose Reliable Consensus Sampling (RCS), which improves robustness and eliminates abstention. Theoretical and experimental results show that RCS maintains a controllable risk while significantly improving utility and robustness.",
+      "mindmap": "graph TB\n        A[Towards Provably Secure Generative AI: Reliable Consensus Sampling] --> B\n        A --> C\n        A --> D\n        B[核心问题/Problem<br>CS算法缺陷/CS Algorithm Flaws] --> B1[依赖弃权，降低效用/Relies on Abstention, Reduces Utility]\n        B --> B2[对抗模型下易受攻击/Vulnerable to Adversarial Models]\n        C[主要方法/Method<br>可靠共识采样/Reliable Consensus Sampling (RCS)] --> C1[追踪接受概率/Traces Acceptance Probability]\n        C --> C2[容忍极端对抗行为/Tolerates Extreme Adversarial Behaviors]\n        C --> C3[无需弃权/Eliminates Abstention]\n        C --> C4[反馈算法增强安全/Feedback Algorithm Enhances Safety]\n        D[关键结果/Results<br>理论保证与实验/Theoretical Guarantees & Experiments] --> D1[可控风险阈值/Controllable Risk Threshold]\n        D --> D2[显著提升鲁棒性与效用/Significantly Improves Robustness & Utility]\n        D --> D3[延迟与CS相当/Latency Comparable to CS]"
+    },
+    {
+      "title": "Exposed: Shedding Blacklight on Online Privacy",
+      "authors": "Lucas Shen, Gaurav Sood",
+      "institution": "Agency for Science, Technology and Research (A*STAR), Colorado State University",
+      "link": "https://arxiv.org/pdf/2512.24041",
+      "code": "https://github.com/themains/private_blacklight",
+      "tags": [
+        "web privacy measurement",
+        "online tracking",
+        "third-party cookies",
+        "canvas fingerprinting",
+        "session recording",
+        "keylogging"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c7829afd90142167314b4ea6c389efad9936582f7817882df41c04e4b7e1863a_w640_q70.webp",
+      "contributions": "1. A novel methodology combining large-scale, representative user browsing data with domain-level tracking detection from Blacklight to measure real-world surveillance exposure. 2. Quantification of the prevalence of various tracking technologies, from common ad trackers to invasive techniques like session recording and canvas fingerprinting, across a population. 3. Analysis revealing the concentration of tracking power (often by Google) and the persistence of demographic disparities in surveillance risk based on browsing behavior.",
+      "summary": "This paper investigates the extent and nature of online surveillance by combining anonymized browsing data from a representative sample of Americans with the Blacklight tracking detection tool. The study finds that nearly all users encounter trackers, identifies the prevalence of more invasive techniques, and shows that tracking is highly concentrated among a few organizations. It concludes that while demographic differences in exposure are partly explained by browsing volume, disparities by age and race persist, indicating that the type of content browsed also influences surveillance risk.",
+      "mindmap": "graph TB\n        A[Exposed: Shedding Blacklight on Online Privacy] --> B[核心问题/Problem<br>用户网络监控的程度、技术与主体]\n        A --> C[主要方法/Method<br>结合用户浏览数据与Blacklight跟踪检测]\n        A --> D[关键结果/Results<br>普遍存在跟踪、技术侵入性差异、组织集中度与人口差异]"
+    },
+    {
       "title": "Pruning Graphs by Adversarial Robustness Evaluation to Strengthen GNN Defenses",
       "authors": "Yongyu Wang",
       "institution": "Michigan Technological University",

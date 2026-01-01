@@ -4,6 +4,128 @@
   "week": "20251229-20260104",
   "items": [
     {
+      "title": "Bisplit graphs -- A Structural and algorithmic study",
+      "authors": "Swathi D, N Sadagopan",
+      "institution": "Indian Institute of Information Technology, Design and Manufacturing, Kancheepuram",
+      "link": "https://arxiv.org/pdf/2512.23989",
+      "code": null,
+      "tags": [
+        "graph theory and algorithms",
+        "secure domination",
+        "bisplit graphs",
+        "computational complexity",
+        "NP-complete",
+        "approximation hardness"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/96a42692c5b4c25eb38ea92000ed2c1cfbcf627c879427def1c4c1691ac07421_w640_q70.webp",
+      "contributions": "1. Established the P vs. NP-Complete dichotomy for the secure domination problem on bisplit graphs based on restrictions on cycle length (chordality). 2. Proved the secure domination problem is polynomial-time solvable for chain graphs. 3. Showed the secure domination problem on bisplit graphs cannot be approximated within a factor of (1-ε) ln |V| under standard complexity assumptions.",
+      "summary": "This paper investigates the computational complexity of the Minimum Secure Domination problem on various graph classes. By analyzing structural restrictions like chordality on bisplit graphs, it establishes a P vs. NP-Complete dichotomy and proves polynomial-time solvability for chain graphs. The main conclusion is that the problem is NP-complete on general bisplit graphs and hard to approximate, but becomes tractable under specific structural constraints.",
+      "mindmap": "graph TB\n        A[Bisplit graphs - A Structural and algorithmic study] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1(安全支配问题/Secure Domination Problem)\n        B --> B2(计算复杂性/Computational Complexity)\n        C --> C1(图类限制/Restrictions on Graph Classes)\n        C --> C2(弦性分析/Chordality Analysis)\n        D --> D1(P vs NP-C 二分法/P vs NP-C Dichotomy)\n        D --> D2(链图的多项式解/Polynomial-time for Chain Graphs)\n        D --> D3(近似难度/Approximation Hardness)"
+    },
+    {
+      "title": "On an Erdős--Lov'asz problem: 3-critical 3-graphs of minimum degree 7",
+      "authors": "Ruiliang Li",
+      "institution": "(Institution not explicitly provided in the given content. Affiliation/email domain not present in the excerpt.)",
+      "link": "https://arxiv.org/pdf/2512.24850",
+      "code": null,
+      "tags": [
+        "combinatorics",
+        "3-uniform hypergraph",
+        "critical hypergraph",
+        "transversal number",
+        "weak vertex-colouring",
+        "minimum degree"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/44c4e78aeff4557bc4a61fcfda3d9605be06972f069494d03dbb6cf84281ed2d_w640_q70.webp",
+      "contributions": "1. Resolved the Erdős–Lovász problem under the transversal interpretation by proving a 3-uniform hypergraph with τ(H)=3 and τ(H-e)=2 for every edge e has at most 10 edges, implying δ(H)≤6. 2. Showed the bound δ(H)≤6 is sharp by identifying the complete 3-graph K_5^(3) as an example. 3. Resolved the problem under the chromatic interpretation by constructing an explicit 3-uniform hypergraph on 9 vertices with χ(H)=3 and δ(H)=7 that is critical (edge and vertex deletion makes it 2-colourable).",
+      "summary": "This paper resolves an open problem by Erdős and Lovász concerning the existence of a 3-critical 3-uniform hypergraph with minimum degree at least 7. It addresses two interpretations of \"critical\": for the transversal number, it proves such a hypergraph cannot have minimum degree 7 (the maximum is 6), and for weak vertex-colouring, it explicitly constructs a hypergraph with 9 vertices and minimum degree 7 that is 3-critical. The results are certified by theoretical proofs and computational verification.",
+      "mindmap": "graph TB\n        A[On an Erdős–Lovász Problem: 3-critical 3-graphs of minimum degree 7] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1{是否存在最小度≥7的3临界3-一致超图?<br/>Does a 3-critical 3-uniform hypergraph with min degree ≥7 exist?}\n        B1 --> B2[两种”临界”定义<br/>Two definitions of ”critical”]\n        C --> C1[横向解释: 理论证明<br/>Transversal interpretation: Theoretical proof]\n        C --> C2[着色解释: 显式构造与验证<br/>Chromatic interpretation: Explicit construction & verification]\n        D --> D1[横向数: δ(H)≤6, 边界尖锐<br/>Transversal: δ(H)≤6, bound sharp]\n        D --> D2[着色数: 构造出δ(H)=7的9顶点超图<br/>Chromatic: Constructed 9-vertex hypergraph with δ(H)=7]"
+    },
+    {
+      "title": "Dominion of some graphs",
+      "authors": "Julian Allagan, Benkam Bobga",
+      "institution": "Elizabeth City State University, University of North Georgia",
+      "link": "https://arxiv.org/pdf/2512.24115",
+      "code": null,
+      "tags": [
+        "graph theory",
+        "domination number",
+        "gamma-set",
+        "dominion",
+        "paths",
+        "cycles"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/933eb5b499e84efe028ce12e6bb401f44ea3bb7ed99c62b6fa3aea9e39a05e6c_w640_q70.webp",
+      "contributions": "1. Introduces and defines the concept of the \"dominion\" of a graph, which is the number of its minimum dominating sets (gamma-sets). 2. Establishes relationships between the domination number and the dominion parameter. 3. Calculates and presents the dominion for specific graph families, including paths, some cycles, and the join of any two graphs.",
+      "summary": "This paper introduces a new graph parameter called \"dominion,\" which counts the number of minimum dominating sets (gamma-sets) in a graph. The authors establish relations between the dominion and the domination number and specifically compute the dominion for paths, certain cycles, and graph joins.",
+      "mindmap": "graph TB\n    A[Dominion of Some Graphs] --> B[核心问题/Problem: 计算图的最小支配集的数量/Counting the number of minimum dominating sets in a graph]\n    A --> C[主要方法/Method: 定义支配数γ(G)和支配域ζ(G)，并建立它们之间的关系/Defining domination number γ(G) and dominion ζ(G), establishing their relations]\n    A --> D[关键结果/Results: 给出了路径、某些环图以及任意两个图联图的支配域/Presenting the dominion for paths, some cycles, and the join of any two graphs]"
+    },
+    {
+      "title": "Quasicrystalline Gibbs states in 4-dimensional lattice-gas models with finite-range interactions",
+      "authors": "Siamak Taati, Jacek Miȩkisz",
+      "institution": "American University of Beirut, University of Warsaw",
+      "link": "https://arxiv.org/pdf/2512.24436",
+      "code": null,
+      "tags": [
+        "statistical mechanics",
+        "quasicrystalline Gibbs states",
+        "lattice-gas model",
+        "Ammann's aperiodic tiles",
+        "probabilistic cellular automata",
+        "finite-range interactions"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/72d98ac0e4d6230c274ec108608270ef04c393412588b16c07caa6835201ded3_w640_q70.webp",
+      "contributions": "1. Constructed a four-dimensional lattice-gas model with finite-range interactions that exhibits non-periodic, quasicrystalline Gibbs states at low temperatures. 2. Established a connection between the model's Gibbs states and the space-time trajectories of a probabilistic cellular automaton built upon Ammann's aperiodic tiles. 3. Demonstrated stability of the non-periodic trajectories against noise through an error-correction mechanism and repetition along extra dimensions.",
+      "summary": "The paper addresses the stability of quasicrystals at positive temperatures by constructing a 4D lattice-gas model with finite-range interactions. The method leverages a correspondence between probabilistic cellular automata and Gibbs measures, using Ammann's aperiodic tiles to generate non-periodic ground states. The main conclusion is the successful construction of a model where low-temperature Gibbs states are small perturbations of these aperiodic tilings, stabilized by an error-correction mechanism.",
+      "mindmap": "graph TB\n        Root(”Quasicrystalline Gibbs States in 4D Lattice-Gas Models”) --> Problem(”核心问题/Problem: Stability of quasicrystals at positive temperatures”)\n        Root --> Method(”主要方法/Method: 4D lattice-gas model using probabilistic cellular automata & Ammann tiles”)\n        Root --> Results(”关键结果/Results: Constructed model with stable, non-periodic Gibbs states”)"
+    },
+    {
+      "title": "On Prime Matrix Product Factorizations",
+      "authors": "Saieed Akbari, Mohamad Parsa Elahimanes, Bobby Miraftab",
+      "institution": "Sharif University of Technology, Carleton University",
+      "link": "https://arxiv.org/pdf/2512.24864",
+      "code": null,
+      "tags": [
+        "graph theory",
+        "linear algebra",
+        "matrix product factorization",
+        "prime graphs",
+        "factorable forests",
+        "torus",
+        "grids"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fd858fde9b1005f2274f9be5d0ee837eb29652a0b0124e48f21b054d46212f9f_w640_q70.webp",
+      "contributions": "1. Characterized all prime graphs in the context of adjacency matrix product factorizations. 2. Classified all factorable forests, answering a question from prior literature. 3. Proved every torus is factorable and characterized all factorizations of grids, addressing two further questions.",
+      "summary": "This paper studies the factorization of graphs via the product of their adjacency matrices. It characterizes prime graphs and uses this result to classify factorable forests and grids, while also proving that every torus graph is factorable.",
+      "mindmap": "graph TB\n        Root[”On Prime Matrix Product Factorizations<br/>关于素矩阵乘积因子分解”] --> Problem[”Characterize prime graphs & classify factorable graphs<br/>刻画素图并分类可因子分解图”]\n        Root --> Method[”Graph theory & adjacency matrix analysis<br/>图论与邻接矩阵分析”]\n        Root --> Results[”Prime graph characterization, forests & grids classified, all tori factorable<br/>素图刻画、森林与网格分类、所有环面可分解”]"
+    },
+    {
+      "title": "Geometric characterisation of structural and regular equivalences in undirected (hyper)graphs",
+      "authors": "Marzieh Eidi, Nina Otter",
+      "institution": "ScaDS.AI, Max Planck Institute for Mathematics in the Sciences (MPI MIS), Inria, Université Paris-Saclay",
+      "link": "https://arxiv.org/pdf/2512.24961",
+      "code": null,
+      "tags": [
+        "network science",
+        "graph theory",
+        "structural equivalence",
+        "regular equivalence",
+        "hypergraphs",
+        "Ollivier-Ricci curvature",
+        "neighbourhood graphs"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ea115dd8cd155c419dd8b6f4969516455674aac111bb9d0485c23b5de649d180_w640_q70.webp",
+      "contributions": "1. Generalizes structural and regular equivalences to undirected hypergraphs. 2. Provides a novel geometric characterization of these equivalences using neighbourhood graphs and Ollivier-Ricci curvature. 3. Enables the construction of a wide family of regular partitions, offering a new computational route for a challenging task.",
+      "summary": "This paper addresses the problem of characterizing vertex similarity in complex networks. It proposes a geometric method using neighbourhood graphs and Ollivier-Ricci curvature to characterize structural and regular equivalences in undirected graphs and hypergraphs. The main conclusion is that this characterization provides new insights and a potential computational pathway for constructing regular partitions.",
+      "mindmap": "graph TB\n        A[Geometric characterisation of structural and regular equivalences in undirected (hyper)graphs] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1(顶点相似性/Vertex Similarity)\n        B1 --> B2(结构等价与正则等价/Structural & Regular Equivalence)\n        C --> C1(邻域图/Neighbourhood Graphs)\n        C --> C2(Ollivier-Ricci曲率/Ollivier-Ricci Curvature)\n        C1 & C2 --> C3(几何表征/Geometric Characterisation)\n        D --> D1(超图泛化/Hypergraph Generalisation)\n        D --> D2(新计算途径/New Computational Route)\n        D --> D3(正则分区族/Family of Regular Partitions)"
+    },
+    {
       "title": "Roman domination in weighted graphs",
       "authors": "Martín Cera, Pedro García-Vázquez, Juan Carlos Valenzuela-Tripodoro",
       "institution": "Universidad de Sevilla, Universidad de Cádiz",

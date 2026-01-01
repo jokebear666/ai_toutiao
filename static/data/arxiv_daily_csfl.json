@@ -4,6 +4,66 @@
   "week": "20251229-20260104",
   "items": [
     {
+      "title": "Enforcing Temporal Constraints for LLM Agents",
+      "authors": "Adharsh Kamath, Sishen Zhang, Calvin Xu, Shubham Ugare, Gagandeep Singh, Sasa Misailovic",
+      "institution": "University of Illinois at Urbana-Champaign, Meta",
+      "link": "https://arxiv.org/pdf/2512.23738",
+      "code": "https://github.com/structuredllm/agent-c",
+      "tags": [
+        "agent system",
+        "temporal constraints",
+        "SMT solving",
+        "constrained generation",
+        "formal verification",
+        "LLM agents"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3a978adfab8b202d7b971f6b65f8d005235baabb93f5540985ad131638c67354_w640_q70.webp",
+      "contributions": "1. A novel framework (Agent-C) providing runtime guarantees for LLM agents to adhere to formal temporal safety properties., 2. A domain-specific language for expressing temporal properties, which are translated to first-order logic and verified via SMT solving during token generation., 3. Demonstration of perfect safety (100% conformance) and improved task utility across real-world applications and multiple LLMs, outperforming state-of-the-art guardrails.",
+      "summary": "The paper addresses the problem of LLM agents violating temporal safety policies, such as accessing data before authentication. It proposes Agent-C, a framework that uses a domain-specific language, formal logic translation, and SMT solving to enforce constraints during token generation, ensuring compliant actions. The evaluation shows Agent-C achieves 100% safety conformance and improves task utility compared to existing methods.",
+      "mindmap": "graph TB\n        A[Enforcing Temporal Constraints for LLM Agents] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[现有护栏无法保证时间安全策略/Existing guardrails fail to enforce temporal safety policies]\n        C --> C1[提出Agent-C框架/Propose Agent-C framework]\n        C1 --> C2[使用DSL和SMT求解进行运行时验证/Use DSL & SMT solving for runtime verification]\n        C2 --> C3[采用约束生成确保合规/Achieve compliance via constrained generation]\n        D --> D1[100%安全性，0%危害/100% safety, 0% harm]\n        D --> D2[在真实应用中提高任务效用/Improve task utility in real-world applications]"
+    },
+    {
+      "title": "Developing controlled natural language for formal specification patterns using AI assistants",
+      "authors": "Natalia Garanina, Vladimir Zyubin, Igor Anureev",
+      "institution": "Institute of Automation and Electrometry, Siberian Branch of the Russian Academy of Sciences",
+      "link": "https://arxiv.org/pdf/2512.24159",
+      "code": null,
+      "tags": [
+        "requirements engineering",
+        "controlled natural language",
+        "formal specification patterns",
+        "AI assistant",
+        "temporal requirements",
+        "syntax formalization"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/16dd04888cb9a22a839acc0700d35470498034dd8676cff5e34d6cb903fd6ab9_w640_q70.webp",
+      "contributions": "1. A novel three-stage method for systematically constructing a Controlled Natural Language (CNL) for requirements using an AI assistant. 2. A prompt engineering approach that leverages a generalized template and formal semantics to generate a diverse corpus of natural language patterns. 3. Formalization of CNL syntax based on grammatical analysis of AI-generated patterns, specifically validated for event-driven temporal requirements.",
+      "summary": "This paper proposes a method to systematically develop a controlled natural language (CNL) for formal requirements specification using an AI assistant. The method involves creating a generalized pattern, using an AI to generate a corpus of natural language variants, and then formalizing the CNL syntax from the results. The approach was successfully tested for specifying event-driven temporal requirements, producing a language with built-in formal semantics.",
+      "mindmap": "graph TB\n        A[Developing controlled natural language for formal specification patterns using AI assistants] --> B(核心问题/Problem: How to systematically construct a Controlled Natural Language (CNL) for formal requirements specification?);\n        A --> C(主要方法/Method: Three-stage method using AI assistant: 1. Compile generalized pattern, 2. Generate corpus via prompt, 3. Formalize syntax from grammar analysis.);\n        A --> D(关键结果/Results: Method successfully tested for event-driven temporal requirements, yielding a CNL with formal semantics by design.);"
+    },
+    {
+      "title": "LeanCat: A Benchmark Suite for Formal Category Theory in Lean (Part I: 1-Categories)",
+      "authors": "Rongge Xu, Hui Dai, Yiming Fu, Jiedong Jiang, Tianjiao Nie, Hongwei Wang, Junkai Wang, Holiverse Yang, Jiatong Yang, Zhi-Hao Zhang",
+      "institution": "Tsinghua University, Southern University of Science and Technology, Westlake University, Xi'an Jiaotong-Liverpool University, The Chinese University of Hong Kong, Yanqi Lake Beijing Institute of Mathematical Sciences and Applications (BIMSA)",
+      "link": "https://arxiv.org/pdf/2512.24796",
+      "code": "https://github.com/sciencraft/LeanCat",
+      "tags": [
+        "theorem proving",
+        "formal verification",
+        "category theory",
+        "benchmark",
+        "Lean",
+        "large language models"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4bb17bb33fa46697baca7f3b3a6262916453dd0a4bf5f92ff26cebdd7d681ffe_w640_q70.webp",
+      "contributions": "1. Introduces LeanCat, a benchmark for formal category theory in Lean, designed to stress-test abstraction and library-mediated reasoning. 2. Presents a curated dataset of 100 tasks with topic families and difficulty tiers, created via an LLM-assisted human grading process. 3. Demonstrates the benchmark's utility by evaluating models and the LeanBridge method, showing current AI capabilities and providing a checkpoint for tracking progress.",
+      "summary": "The paper introduces LeanCat, a benchmark for formalizing category theory in Lean to better evaluate AI's ability for abstract, library-based reasoning in mathematics. It presents a curated set of 100 tasks and evaluates models, finding low success rates, especially on harder problems, while showing that retrieval-augmented methods like LeanBridge can improve performance. The benchmark serves as a compact checkpoint for tracking progress in research-level formal theorem proving.",
+      "mindmap": "graph TB\n        A[LeanCat: A Benchmark Suite for Formal Category Theory in Lean] --> B\n        A --> C\n        A --> D\n        B[核心问题/Problem<br>现有基准未能充分衡量抽象和基于库的推理/Current benchmarks under-measure abstraction and library-mediated reasoning]\n        C[主要方法/Method<br>为Lean创建形式化范畴论基准，包含100个分级任务/Create a Lean benchmark for formal category theory with 100 graded tasks]\n        D[关键结果/Results<br>最佳模型pass@1为8.25%，检索增强方法有提升/Best model pass@1 is 8.25%, retrieval-augmented methods show gains]"
+    },
+    {
       "title": "Monadic Context Engineering",
       "authors": "Yifan Zhang, Mengdi Wang",
       "institution": "Princeton University",

@@ -4,6 +4,147 @@
   "week": "20251229-20260104",
   "items": [
     {
+      "title": "An Electronic Ising Machine",
+      "authors": "Matt Bowring, Ben Anderdson, Ben Tiffany",
+      "institution": "Purdue University",
+      "link": "https://arxiv.org/pdf/2512.23720",
+      "code": null,
+      "tags": [
+        "others",
+        "Ising machine",
+        "analog computing",
+        "coupled oscillators",
+        "NP-Hard problems",
+        "energy-based learning"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2d9bd94424dd9d472b237fd13390bb509481b9b3c0f6c3249e5f405a2b4cec7c_w640_q70.webp",
+      "contributions": "1. Developed a custom printed circuit board (PCB) as a low-power, high-speed accelerator for NP-Hard graph problems. 2. Implemented an analog computing architecture using coupled nonlinear electronic oscillators based on the annealing principle. 3. Provided a detailed hardware design, simulations, and experiments, offering insight into novel physics-based computing devices.",
+      "summary": "This paper presents an electronic Ising machine, a custom PCB accelerator that uses coupled analog oscillators to solve NP-Hard graph problems. The system leverages an energy-based representation and annealing to naturally find stable phase alignments that encode solutions. The work contributes a practical hardware implementation and insights into physics-based computing as an alternative paradigm.",
+      "mindmap": "graph TB\n        Root[An Electronic Ising Machine] --> Problem[核心问题/Problem: Solving NP-Hard graph problems efficiently]\n        Root --> Method[主要方法/Method: Custom PCB with analog coupled oscillators & annealing]\n        Root --> Results[关键结果/Results: Low-power, high-speed physics-based accelerator]"
+    },
+    {
+      "title": "Biochemical Computing Mode for Sequential Logic",
+      "authors": "Han Huang, Chengzhi Ma, Yuxin Zhao, Qingyao Wang, Xinglong Xiao, Xiulin Shu, Zhifeng Hao",
+      "institution": "South China University of Technology",
+      "link": "https://arxiv.org/pdf/2512.23734",
+      "code": null,
+      "tags": [
+        "unconventional computing",
+        "biochemical computing",
+        "sequential logic",
+        "biochemical computing",
+        "enzymatic reactions",
+        "logic gate",
+        "sequential mapping"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8a445dc0ec7c178dcff0eacecd2ca96419424f5499d1a975b953630aaa1254da_w640_q70.webp",
+      "contributions": "1. Demonstrates and highlights the concept of \"sequential mapping\" as a crucial necessary condition for realizing sequential logic circuits in general-purpose computers. 2. Proposes a novel biochemical computing mode using enzyme-controlled reactions to design a logic gate model composed of small molecules. 3. Mathematically proves that the proposed biochemical computing mode satisfies sequential mapping and, combined with storage characteristics, can realize sequential logic circuits.",
+      "summary": "The paper addresses the challenge of implementing sequential logic in next-generation computing paradigms. It proposes a biochemical computing mode using enzyme-driven molecular logic gates and mathematically proves it satisfies the sequential mapping property, enabling sequential logic circuits. This work provides a theoretical foundation for developing general-purpose biochemical computers.",
+      "mindmap": "graph TB\n        A[Biochemical Computing Mode for Sequential Logic] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[Sequential logic implementation is overlooked in unconventional computing/非常规计算中时序逻辑的实现被忽视]\n        C --> C1[Design enzyme-driven molecular logic gates/设计酶驱动的分子逻辑门]\n        C --> C2[Mathematical analysis of input-output properties/输入输出特性的数学分析]\n        D --> D1[Proves biochemical mode satisfies sequential mapping/证明生化模式满足顺序映射]\n        D --> D2[Enables sequential logic circuits/能够实现时序逻辑电路]\n        D --> D3[Foundation for general-purpose biochemical computers/为通用生化计算机奠定基础]"
+    },
+    {
+      "title": "Ovonic switches enable energy-efficient dendrite-like computing",
+      "authors": "Unhyeon Kang, Jaesang Lee, Seungmin Oh, Hanchan Song, Jongkil Park, Jaewook Kim, Seongsik Park, Hyun Jae Jang, Sangbum Kim, Su-in Yi, Suhas Kumar, Suyoun Lee",
+      "institution": "Korea Institute of Science and Technology (KIST), Seoul National University, Texas A&M University, Rain AI",
+      "link": "https://arxiv.org/pdf/2512.23736",
+      "code": null,
+      "tags": [
+        "neuromorphic computing",
+        "Ovonic threshold switching",
+        "dendrite-like computing",
+        "Boolean logic",
+        "energy efficiency",
+        "Sb-Te-doped GeSe"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ed40d9ab484fc906da60c992223e836e6125a3dc14c0551021350afd628abce9_w640_q70.webp",
+      "contributions": "1. Demonstrated a single two-terminal Ovonic switch (using Sb-Te-doped GeSe) capable of self-sustained dynamics, universal Boolean logic, and XOR operations, traditionally requiring a network. 2. Showed that a single component can perform edge detection and gradient estimation in images, a task typically needing complex circuits. 3. Constructed networks of these switches to implement half/full adders and discriminative logic, achieving orders of magnitude better energy efficiency than digital solutions.",
+      "summary": "This paper proposes using Ovonic threshold switching devices to emulate the complex computational functions of biological dendrites for neuromorphic computing. The key method is a single two-terminal component made from Sb-Te-doped GeSe that can perform logic operations and edge detection. The work concludes that this approach offers a simpler, more energy-efficient primitive for post-digital computing compared to conventional digital circuits.",
+      "mindmap": "graph TB\n        Root[”Ovonic switches enable energy-efficient dendrite-like computing<br>Ovonic开关实现高能效类树突计算”] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[”核心问题/Problem<br>Digital computing paradigms are aging; need bio-inspired, efficient neuromorphic primitives.<br>数字计算范式老化；需要仿生的高效神经形态计算基元。”]\n        Method[”主要方法/Method<br>Use electrically driven Ovonic threshold switching in Sb-Te-doped GeSe.<br>使用电驱动的Sb-Te掺杂GeSe中的Ovonic阈值开关。”]\n        Results[”关键结果/Results<br>Single component does logic, XOR, edge detection; networks form adders; highly energy-efficient.<br>单一组件实现逻辑、异或、边缘检测；网络构成加法器；高能效。”]"
+    },
+    {
+      "title": "Exploring the Potential of Spiking Neural Networks in UWB Channel Estimation",
+      "authors": "Youdong Zhang, Xu He, Xiaolin Meng",
+      "institution": "Southeast University (SEU)",
+      "link": "https://arxiv.org/pdf/2512.23975",
+      "code": null,
+      "tags": [
+        "on-device ai",
+        "Spiking Neural Networks (SNNs)",
+        "Ultra-Wide Band (UWB)",
+        "Channel Estimation",
+        "Liquid State Machine (LSM)",
+        "Neuromorphic Computing"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6223f5cf13e59469e26c765b0854ea31ff37f76d9f1c9137587f99a5a743dcc0_w640_q70.webp",
+      "contributions": "1. Proposes a fully unsupervised Spiking Neural Network (SNN) solution for UWB channel estimation, addressing the resource constraints of edge devices. 2. Employs a Liquid State Machine (LSM) with fixed synaptic weights to extract spiking representations from UWB features, sidestepping typical SNN training difficulties. 3. Demonstrates that the proposed SNN approach achieves competitive accuracy (80%) compared to supervised deep learning methods while offering drastically reduced model complexity and suitability for neuromorphic deployment.",
+      "summary": "This paper addresses the high computational cost of deep learning-based UWB channel estimation on resource-constrained edge devices by proposing a fully unsupervised Spiking Neural Network (SNN) solution. The method uses a Liquid State Machine to process encoded UWB features and achieves 80% test accuracy, comparable to supervised methods, while being inherently more efficient and suitable for neuromorphic hardware.",
+      "mindmap": "graph TB\n        Root[”Exploring the Potential of Spiking Neural Networks in UWB Channel Estimation”] --> Problem[”核心问题/Problem: High computational cost of DL-based UWB channel estimation clashes with edge device constraints”]\n        Root --> Method[”主要方法/Method: Propose a fully unsupervised SNN solution using Liquid State Machine (LSM)”]\n        Root --> Results[”关键结果/Results: Achieves 80% accuracy (on par with supervised DL), drastic model complexity reduction, suited for neuromorphic deployment”]"
+    },
+    {
+      "title": "Probabilistic Computers for Neural Quantum States",
+      "authors": "Shuvro Chowdhury, Jasper Pieterse, Navid Anjum Aadit, Johan H. Mentink, Kerem Y. Camsari",
+      "institution": "University of California, Santa Barbara, Radboud University",
+      "link": "https://arxiv.org/pdf/2512.24558",
+      "code": null,
+      "tags": [
+        "cluster infrastructure",
+        "probabilistic computing",
+        "FPGA",
+        "Boltzmann machine",
+        "neural quantum states",
+        "Monte Carlo sampling"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5ef4c4bc51129bbcf4c7afb6bc33c07bd787081538aa3dbb925d18f3bf724567_w640_q70.webp",
+      "contributions": "1. Implementation of a probabilistic computer on a custom multi-FPGA cluster to serve as a fast sampler for neural quantum states. 2. Introduction of a dual-sampling algorithm to train deep Boltzmann machines by replacing intractable marginalization with conditional sampling. 3. Demonstration of scaling variational quantum simulations to large system sizes (up to 6400 spins) and deeper architectures, overcoming the MCMC sampling bottleneck.",
+      "summary": "This paper addresses the Monte Carlo sampling bottleneck in scaling neural quantum states for quantum many-body simulations. It proposes combining sparse Boltzmann machine architectures with probabilistic computing hardware implemented on FPGAs and introduces a dual-sampling training algorithm. The results show that this approach enables accurate simulations of large spin systems and deeper models, overcoming a key scaling limitation.",
+      "mindmap": "graph TB\n        Root[”Probabilistic Computers for Neural Quantum States”] --> Problem[”核心问题/Problem: Monte Carlo sampling limits scaling of neural quantum states”]\n        Root --> Method[”主要方法/Method: Combine sparse Boltzmann machines with FPGA-based probabilistic computer & dual-sampling algorithm”]\n        Root --> Results[”关键结果/Results: Accurate ground-state energies for 6400 spins; trained deep models for 1225 spins”]"
+    },
+    {
+      "title": "Towards autonomous time-calibration of large quantum-dot devices: Detection, real-time feedback, and noise spectroscopy",
+      "authors": "Anantha S. Rao, Barnaby van Straaten, Valentin John, Cécile X. Yu, Stefan D. Oosterhout, Lucas Stehouwer, Giordano Scappucci, M. D. Stewart Jr., Menno Veldhorst, Francesco Borsoi, Justyna P. Zwolak",
+      "institution": "University of Maryland, Delft University of Technology, National Institute of Standards and Technology",
+      "link": "https://arxiv.org/pdf/2512.24894",
+      "code": null,
+      "tags": [
+        "quantum computing",
+        "quantum-dot",
+        "charge stability diagrams",
+        "noise spectroscopy",
+        "autonomous calibration",
+        "electrostatic drift"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fd18e88d286e5eeb4d0c678ec6f483639d082a566d746717bc187c721ae3b41a_w640_q70.webp",
+      "contributions": "1. Introduces a method using repeated charge stability diagrams as a multidimensional probe to autonomously detect and compensate for electrostatic drift in quantum-dot devices. 2. Demonstrates robust stabilization and real-time diagnostic access to dot-specific noise processes on a 10-quantum-dot device. 3. Enables time-domain noise spectroscopy to extract noise power spectral densities, identify two-level fluctuators, and analyze spatial noise correlations across the array.",
+      "summary": "This paper addresses the problem of electrostatic drift in large quantum-dot arrays by proposing an autonomous calibration method that tracks charge transitions in stability diagrams to provide real-time feedback and compensation. The approach also enables detailed noise spectroscopy, revealing the noise characteristics and spatial correlations within the device. This forms a scalable foundation for maintaining stable, high-fidelity operations in quantum processors.",
+      "mindmap": "graph TB\n        A[Towards autonomous time-calibration of large quantum-dot devices<br>大型量子点器件自主时间校准] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[Electrostatic drift & noise limit scalability<br>静电漂移和噪声限制可扩展性]\n        C --> C1[Track transitions in CSDs for feedback<br>通过CSD中的跃迁线进行反馈跟踪]\n        D --> D1[Stable operation on 10-QD device<br>在10-Q点器件上实现稳定操作]\n        D --> D2[Noise spectroscopy & correlation analysis<br>噪声谱与相关性分析]"
+    },
+    {
+      "title": "Advances in Agentic AI: Back to the Future",
+      "authors": "Sergio Alvarez-Telena, Marta Diez-Fernandez",
+      "institution": "University College London, SciTheWorld",
+      "link": "https://arxiv.org/pdf/2512.24856",
+      "code": null,
+      "tags": [
+        "agent system",
+        "Agentic AI",
+        "Algorithmization",
+        "M1 (first Machine in Machine Learning)",
+        "M2 (second Machine in Machine Learning)",
+        "Strategies-based Agentic AI"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/840ae0fbf1973bad5d93eb708489774eab0a0df7bdc273f111d764666bd471bc_w640_q70.webp",
+      "contributions": "1. Proposes precise definitions and a structured analytical framework for Agentic AI and its convergence with Algorithmization. 2. Introduces and distinguishes the concepts of the first Machine in Machine Learning (M1) as the platform for LLM-based Agentic AI and the second Machine (M2) as the architectural prerequisite for production-grade B2B transformation. 3. Provides conceptual and technical insight into what is claimed to be the first fully realized implementation of an M2 system and outlines a forward-looking research agenda.",
+      "summary": "This paper addresses the fragmented discourse around Agentic AI by proposing a clarifying framework and distinguishing between two key architectural concepts: M1 for current LLM-based systems and M2 for future, robust B2B transformation. It positions M2, or Strategies-based Agentic AI, as the necessary evolution to overcome operational barriers. The conclusion outlines a research agenda for the next two decades based on the authors' prior work in Algorithmization.",
+      "mindmap": "graph TB\n        Root[”Advances in Agentic AI: Back to the Future<br/>Agentic AI进展：回到未来”] --> Problem\n        Root --> Method\n        Root --> Results\n    \n        Problem[”核心问题/Problem<br/>Fragmented discourse on Agentic AI<br/>Agentic AI领域论述碎片化”] --> P1[”缺乏清晰定义/Lack of clear definitions”]\n        Problem --> P2[”需要B2B转型框架/Need for B2B transformation framework”]\n    \n        Method[”主要方法/Method<br/>Propose analytical framework<br/>提出分析框架”] --> M1[”区分M1与M2/Distinguish M1 & M2”]\n        M1 --> M1a[”M1: LLM-based Agentic AI platform<br/>M1: 基于LLM的Agentic AI平台”]\n        M1 --> M1b[”M2: Strategies-based Agentic AI<br/>M2: 基于策略的Agentic AI”]\n        Method --> M2[”回顾算法化工作/Review Algorithmization work”]\n    \n        Results[”关键结果/Results<br/>Framework & Future Agenda<br/>框架与未来议程”] --> R1[”提供清晰定义与框架/Provide clear definitions & framework”]\n        Results --> R2[”介绍首个M2实现/Introduce first M2 implementation”]\n        Results --> R3[”提出未来20年议程/Propose 20-year future agenda”]"
+    },
+    {
       "title": "Joint UAV-UGV Positioning and Trajectory Planning via Meta A3C for Reliable Emergency Communications",
       "authors": "Ndagijimana Cyprien, Mehdi Sookhak, Hosein Zarini, Chandra N Sekharan, Mohammed Atiquzzaman",
       "institution": "Texas A&M University-Corpus Christi, University of Oklahoma",

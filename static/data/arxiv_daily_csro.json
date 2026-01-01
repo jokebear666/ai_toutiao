@@ -4,6 +4,996 @@
   "week": "20251229-20260104",
   "items": [
     {
+      "title": "Break Out the Silverware -- Semantic Understanding of Stored Household Items",
+      "authors": "Michaela Levi-Richter, Reuth Mirsky, Oren Glickman",
+      "institution": "Bar Ilan University, Tufts University",
+      "link": "https://arxiv.org/pdf/2512.23739",
+      "code": null,
+      "tags": [
+        "commonsense reasoning",
+        "benchmark dataset",
+        "vision-language model",
+        "hybrid agent pipeline",
+        "storage location prediction",
+        "semantic understanding"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/02333560037f17a9692645550b2d71e1239038dba5b036552b34388848b00f1f_w640_q70.webp",
+      "contributions": "1. Introduces the Stored Household Item Challenge, a new benchmark for evaluating service robots' commonsense reasoning about predicting the storage location of non-visible household items. 2. Provides two associated datasets: a real-world evaluation set and a larger development set with annotated storage polygons. 3. Proposes NOAM (Non-visible Object Allocation Model), a hybrid agent pipeline that combines structured scene understanding with LLM inference to tackle the challenge, demonstrating improved accuracy approaching human performance.",
+      "summary": "This paper addresses the challenge of enabling domestic robots to infer where non-visible household items are stored. It proposes a new benchmark task and datasets, and introduces NOAM, a hybrid vision-language agent that converts visual scenes into text for an LLM to predict storage locations. Evaluations show NOAM significantly outperforms baseline models and approaches human-level performance in this commonsense reasoning task.",
+      "mindmap": "graph TB\n        Root[Break Out the Silverware: Semantic Understanding of Stored Household Items] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem: Robots lack commonsense reasoning to find stored, non-visible household items.]\n        Method[主要方法/Method: Proposes NOAM, a hybrid pipeline combining scene understanding and LLM inference.]\n        Results[关键结果/Results: NOAM approaches human-level accuracy on the new storage prediction benchmark.]"
+    },
+    {
+      "title": "Leveraging Synthetic Priors for Monocular Depth Estimation in Specular Surgical Environments",
+      "authors": "Ankan Aich, Yangming Lee",
+      "institution": "Rochester Institute of Technology (RIT)",
+      "link": "https://arxiv.org/pdf/2512.23786",
+      "code": null,
+      "tags": [
+        "monocular depth estimation",
+        "Depth Anything V2",
+        "DV-LORA",
+        "synthetic-to-real adaptation",
+        "SCARED dataset"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5dd5c633cc3115f9e880a9737b5b76f77a1dcd45eb6b882e43363394c4566463_w640_q70.webp",
+      "contributions": "1. Leveraged the high-fidelity synthetic priors of the Depth Anything V2 model to capture precise geometric details of thin structures in surgical scenes. 2. Efficiently adapted these priors to the medical domain using Dynamic Vector Low-Rank Adaptation (DV-LORA) to minimize parameters and bridge the synthetic-to-real gap. 3. Introduced a physically-stratified evaluation protocol on the SCARED dataset to rigorously quantify performance in high-specularity regimes.",
+      "summary": "This paper addresses the challenge of monocular depth estimation in specular, fluid-filled surgical environments by adapting the synthetic-prior-rich Depth Anything V2 model to the medical domain using DV-LORA. It also proposes a new stratified evaluation protocol for high-specularity scenes. The method achieves state-of-the-art results on the SCARED dataset, demonstrating superior robustness in adverse lighting conditions.",
+      "mindmap": "graph TB\n        A[Leveraging Synthetic Priors for Monocular Depth Estimation<br>利用合成先验进行单目深度估计] --> B\n        A --> C\n        A --> D\n        B[Problem: MDE fragile in specular surgical scenes<br>问题：镜面手术场景中MDE脆弱]\n        C[Method: Adapt Depth Anything V2 with DV-LORA<br>方法：使用DV-LORA适配Depth Anything V2]\n        D[Results: SOTA on SCARED, 98.1% accuracy<br>结果：在SCARED上达到SOTA，98.1%准确率]"
+    },
+    {
+      "title": "Simultaneous Extrinsic Contact and In-Hand Pose Estimation via Distributed Tactile Sensing",
+      "authors": "Mark Van der Merwe, Kei Ota, Dmitry Berenson, Nima Fazeli, Devesh K. Jha",
+      "institution": "University of Michigan, Mitsubishi Electric Research Laboratories (MERL)",
+      "link": "https://arxiv.org/pdf/2512.23856",
+      "code": "tacgraph.github.io",
+      "tags": [
+        "robotic manipulation",
+        "factor graph",
+        "tactile sensing",
+        "pose estimation",
+        "contact estimation",
+        "visuo-tactile"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7c89b1fc9ed9356303bd0e39a468b19e73c750a6281633c6145fe3a04e508003_w640_q70.webp",
+      "contributions": "1. A method for jointly estimating in-hand object pose and extrinsic contacts by integrating local tactile observations with physical constraints. 2. A formalization of the estimation problem as a factor graph that enforces kinematic and force constraints for quasi-static rigid body interactions. 3. Demonstrated superior performance compared to existing geometric and contact-informed pipelines, particularly when using only tactile information.",
+      "summary": "This paper addresses the ill-posed problem of estimating an object's pose and its contacts with the environment during in-hand manipulation. The proposed method, TacGraph, combines local tactile observations with physical constraints (kinematic and force) within a factor graph framework for efficient joint estimation. Experiments show it outperforms existing methods, especially when relying solely on tactile sensing.",
+      "mindmap": "graph TB\n    A[Simultaneous Extrinsic Contact and In-Hand Pose Estimation via Distributed Tactile Sensing] --> B(核心问题/Problem)\n    A --> C(主要方法/Method)\n    A --> D(关键结果/Results)\n    B --> B1[仅触觉感知的位姿与接触估计是病态问题/Tactile-only pose & contact estimation is ill-posed]\n    B --> B2[视觉反馈存在噪声与遮挡/Visual feedback suffers from noise & occlusion]\n    C --> C1[结合局部触觉观测与物理约束/Pair local tactile observations with physical constraints]\n    C --> C2[构建因子图确保运动学与力约束/Formalize as factor graph for kinematic & force constraints]\n    D --> D1[优于现有几何与接触感知方法/Outperforms existing geometric & contact-informed pipelines]\n    D --> D2[仅触觉信息下表现优异/Especially effective with only tactile information]"
+    },
+    {
+      "title": "Learning to Feel the Future: DreamTacVLA for Contact-Rich Manipulation",
+      "authors": "Guo Ye, Zexi Zhang, Xu Zhao, Shang Wu, Haoran Lu, Shihan Lu, Han Liu",
+      "institution": "Northwestern University",
+      "link": "https://arxiv.org/pdf/2512.23864",
+      "code": null,
+      "tags": [
+        "robotic manipulation",
+        "tactile sensing",
+        "vision-language-action models",
+        "hierarchical perception",
+        "world model",
+        "contact-rich manipulation"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/41a7e7908fa684e60efce68108a909c179516c57fb8ccd7e68353665652c969a_w640_q70.webp",
+      "contributions": "1. Introduces DreamTacVLA, a framework that grounds VLA models in contact physics using a hierarchical perception scheme with high-resolution tactile images, wrist-camera vision, and third-person vision. 2. Proposes a Hierarchical Spatial Alignment (HSA) loss to align tactile tokens with their spatial counterparts in visual views, creating a unified representation. 3. Finetunes the system with a tactile world model that predicts future tactile signals, enabling the agent to condition actions on anticipated contact dynamics, and constructs a hybrid large-scale dataset from digital twin and real-world sources to overcome data scarcity.",
+      "summary": "This paper addresses the limitation of Vision-Language-Action (VLA) models in contact-rich manipulation tasks by introducing DreamTacVLA. The method integrates high-resolution tactile sensing with vision using hierarchical spatial alignment and a tactile prediction world model, trained on a hybrid dataset. It demonstrates superior performance, achieving up to 95% success, highlighting the importance of touch-aware reasoning for robust robotic agents.",
+      "mindmap": "graph TB\n        A[Learning to Feel the Future: DreamTacVLA for Contact-Rich Manipulation] --> B[核心问题/Problem: VLA models are blind to physical contact, struggling with contact-rich tasks.]\n        A --> C[主要方法/Method: Hierarchical perception with tactile, wrist, and third-person vision, aligned via HSA loss and finetuned with a tactile world model.]\n        A --> D[关键结果/Results: Outperforms VLA baselines, achieving up to 95% success on contact-rich manipulation tasks.]"
+    },
+    {
+      "title": "SHIELD: Spherical-Projection Hybrid-Frontier Integration for Efficient LiDAR-based Drone Exploration",
+      "authors": "Liangtao Feng, Zhenchang Liu, Feng Zhang, Xuefeng Ren",
+      "institution": "Tsinghua University, Zhuoyi Intelligent Tech Co., Ltd.",
+      "link": "https://arxiv.org/pdf/2512.23972",
+      "code": null,
+      "tags": [
+        "robotic exploration",
+        "LiDAR exploration",
+        "occupancy mapping",
+        "hybrid frontier",
+        "spherical projection",
+        "ray-casting"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9b4686bcb18a11b605083d99ba1c06ec4e088b72d6979aae06c19946dd29aa3e_w640_q70.webp",
+      "contributions": "1. Proposes an observation-quality occupancy map and performs ray-casting on it to handle inconsistent LiDAR point-cloud quality. 2. Introduces a hybrid frontier method to reduce computational burden and address limitations of point-cloud quality in exploration. 3. Designs an outward spherical-projection ray-casting strategy to ensure flight safety and exploration efficiency in open areas.",
+      "summary": "This paper introduces SHIELD, a method for efficient LiDAR-based drone exploration. It addresses challenges like inconsistent point-cloud quality and high computational cost by using an observation-quality occupancy map, a hybrid frontier method, and a spherical-projection ray-casting strategy. Simulations and flight experiments demonstrate its effectiveness.",
+      "mindmap": "graph TB\n        Root[SHIELD: LiDAR-based Drone Exploration] --> Problem(核心问题/Problem)\n        Root --> Method(主要方法/Method)\n        Root --> Results(关键结果/Results)\n        Problem --> P1[LiDAR点云质量不一致/Inconsistent Point-Cloud Quality]\n        Problem --> P2[传统方法计算负担重/High Computational Burden]\n        Problem --> P3[开放区域安全与效率/Safety & Efficiency in Open Areas]\n        Method --> M1[观测质量占据地图/Observation-Quality Occupancy Map]\n        Method --> M2[混合边界方法/Hybrid Frontier Method]\n        Method --> M3[外向球形投影射线投射/Outward Spherical-Projection Ray-Casting]\n        Results --> R1[仿真验证有效/Simulations Prove Effectiveness]\n        Results --> R2[飞行实验验证/Flight Experiments Validate]"
+    },
+    {
+      "title": "Evaluation of Impression Difference of a Domestic Mobile Manipulator with Autonomous and/or Remote Control in Fetch-and-Carry Tasks",
+      "authors": "Takashi Yamamoto, Hiroaki Yaguchi, Shohei Kato, Hiroyuki Okada",
+      "institution": "Toyota Motor Corporation, Nagoya Institute of Technology, Tamagawa University, Kushinada Tech. Co., Ltd.",
+      "link": "https://arxiv.org/pdf/2512.24029",
+      "code": null,
+      "tags": [
+        "human-robot interaction",
+        "autonomous remote control",
+        "user-robot-operator triad",
+        "mobile manipulation",
+        "affinity",
+        "fetch-and-carry"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1dd22c33e4c17332f65c8a5900aaa77e84ca89593caec86ae9813719341843f2_w640_q70.webp",
+      "contributions": "1. Formalized the dual-agency structure of a service robot as a User-Robot-Operator triad in an autonomous remote-control setting. 2. Developed and evaluated an early-stage prototype interface combining natural-language text chat with freehand sketch annotations over a robot's live camera view for remote intervention. 3. Provided empirical evidence from controlled experiments showing systematic, mode-dependent differences in user-rated affinity (autonomous &gt; hybrid &gt; remote) and perceived security.",
+      "summary": "This paper investigates how different control modes (autonomous, remote, hybrid) of a domestic mobile manipulator affect user impressions in fetch-and-carry tasks. The authors formalize the robot's dual agency and evaluate a prototype interface for remote intervention. The results show that user affinity is highest for autonomous mode, followed by hybrid and then remote control, offering guidance for designing human-in-the-loop mobile manipulation.",
+      "mindmap": "graph TB\n        Root(”Evaluation of Impression Difference of a Domestic Mobile Manipulator”) --> Problem(”核心问题/Problem”)\n        Root --> Method(”主要方法/Method”)\n        Root --> Results(”关键结果/Results”)\n        Problem --> P1(”用户对自主/遥控/混合模式机器人的印象差异/User impression differences across robot control modes”)\n        Method --> M1(”形式化用户-机器人-操作员三元组/Formalize User-Robot-Operator triad”)\n        Method --> M2(”开发文本聊天+草图标注远程干预原型/Develop text chat + sketch annotation prototype”)\n        Method --> M3(”在WRS测试场进行受控实验/Conduct controlled experiments on WRS test field”)\n        Results --> R1(”亲和力评级: 自主 > 混合 > 遥控/Affinity rating: Autonomous > Hybrid > Remote”)\n        Results --> R2(”感知安全性存在模式差异/Perceived security differs by mode”)"
+    },
+    {
+      "title": "Guided Diffusion-based Generation of Adversarial Objects for Real-World Monocular Depth Estimation Attacks",
+      "authors": "Yongtao Chen, Yanbo Wang, Wentao Zhao, Guole Shen, Tianchen Deng, Jingchuan Wang",
+      "institution": "Shanghai Jiao Tong University",
+      "link": "https://arxiv.org/pdf/2512.24111",
+      "code": null,
+      "tags": [
+        "adversarial attack",
+        "diffusion models",
+        "monocular depth estimation",
+        "physical adversarial attack",
+        "Jacobian Vector Product Guidance",
+        "Salient Region Selection"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/866f9f80528d36a9ff26173e3b4cfe5a8d9aaa0c968fa621b3f8bc4fe8d6694d_w640_q70.webp",
+      "contributions": "1. Proposes a training-free, diffusion-based generative framework for creating naturalistic adversarial objects to attack Monocular Depth Estimation models. 2. Introduces a Salient Region Selection module to identify MDE-critical areas and a Jacobian Vector Product Guidance mechanism to align adversarial gradients with the diffusion model's capabilities. 3. Demonstrates through extensive experiments that the generated adversarial objects are more effective, stealthy, and physically deployable than prior texture-based attacks.",
+      "summary": "This paper addresses the vulnerability of Monocular Depth Estimation (MDE) in autonomous driving by proposing a novel adversarial attack framework. It uses a guided diffusion model to generate scene-consistent, physically plausible adversarial objects, which are shown to be more effective and stealthy than existing patch-based attacks in both digital and physical experiments.",
+      "mindmap": "graph TB\n        Root(”Guided Diffusion-based Generation of Adversarial Objects for Real-World Monocular Depth Estimation Attacks”) --> Problem(”核心问题/Problem”)\n        Root --> Method(”主要方法/Method”)\n        Root --> Results(”关键结果/Results”)\n        Problem --> P1(”MDE易受攻击/MDE is vulnerable”)\n        Problem --> P2(”现有攻击不现实/Existing attacks lack realism”)\n        Method --> M1(”无训练生成框架/Training-free generative framework”)\n        Method --> M2(”显著区域选择/Salient Region Selection”)\n        Method --> M3(”JVP引导/Jacobian Vector Product Guidance”)\n        Results --> R1(”高攻击有效性/High attack effectiveness”)\n        Results --> R2(”高隐蔽性/High stealthiness”)\n        Results --> R3(”强物理可部署性/Strong physical deployability”)"
+    },
+    {
+      "title": "RflyUT-Sim: A Simulation Platform for Development and Testing of Complex Low-Altitude Traffic Control",
+      "authors": "Zonghan Li, Tianwen Tao, Rao Fu, Liang Wang, Dongyuan Zhang, Quan Quan",
+      "institution": "Beihang University, Beijing Jiaotong University, Huazhong University of Science and Technology, Beijing Intelligent Token Technology Co., Ltd.",
+      "link": "https://arxiv.org/pdf/2512.24112",
+      "code": null,
+      "tags": [
+        "simulation & testing",
+        "UAV traffic simulation",
+        "high-fidelity simulation",
+        "RflySim/AirSim",
+        "Unreal Engine 5",
+        "oblique photogrammetry"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7213df61d3b3d213985977e50c5d3698d88b078a571db2a07082e7e3d6f4787a_w640_q70.webp",
+      "contributions": "1. Introduces an integrated high-fidelity simulation platform for low-altitude UAV traffic that models all network components (control, traffic management, UAV, communication, anomaly modules). 2. Integrates RflySim/AirSim and Unreal Engine 5 to develop full-state UAV models and realistic 3D maps using oblique photogrammetry. 3. Provides a highly flexible and customizable platform with a wide range of interfaces and has released the source code to facilitate research.",
+      "summary": "This paper introduces RflyUT-Sim, a high-fidelity simulation platform designed to address the challenges of testing complex low-altitude UAV traffic. It integrates RflySim/AirSim and Unreal Engine 5 to create realistic UAV models and 3D environments, simulating the entire traffic network. The platform's flexibility and released source code aim to lower the barrier for conducting low-altitude traffic research.",
+      "mindmap": "graph TB\n        A[RflyUT-Sim] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[大规模无人机测试成本高/High cost of large-scale UAV testing]\n        B --> B2[低空交通测试场景复杂/Complexity of low-altitude traffic test scenarios]\n        B --> B3[缺乏高保真综合测试平台/Lack of high-fidelity comprehensive testing platforms]\n        C --> C1[集成RflySim/AirSim与UE5/Integrate RflySim/AirSim and Unreal Engine 5]\n        C --> C2[模拟无人机交通全组件/Simulate all UAV traffic network components]\n        C --> C3[提供灵活可定制接口/Provide flexible and customizable interfaces]\n        D --> D1[发布平台源代码/Release platform source code]\n        D --> D2[便于低空交通研究/Facilitate low-altitude traffic research]"
+    },
+    {
+      "title": "Unified Embodied VLM Reasoning with Robotic Action via Autoregressive Discretized Pre-training",
+      "authors": "Yi Liu, Sukai Wang, Dafeng Wei, Xiaowei Cai, Linqing Zhong, Jiange Yang, Guanghui Ren, Jinyu Zhang, Maoqing Yao, Chuankang Li, Xindong He, Liliang Chen, Jianlan Luo",
+      "institution": "AgiBot Research, Shanghai Innovation Institute",
+      "link": "https://arxiv.org/pdf/2512.24125",
+      "code": null,
+      "tags": [
+        "embodied ai",
+        "Embodied Reasoning",
+        "Action Tokenization",
+        "Vision-Language-Action Models",
+        "Flow Matching",
+        "Discrete Control"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b1a2e4506fbecb3e90de4ef501197f9125c51ac19b6cfc789fdfcb6e035edf72_w640_q70.webp",
+      "contributions": "1. Introduces ERIQ, a large-scale benchmark for decoupled evaluation of embodied reasoning in robotic manipulation. 2. Proposes FACT, a flow-matching-based action tokenizer for high-fidelity discretization of continuous control. 3. Presents GenieReasoner, a unified model that jointly optimizes reasoning and action in a discrete space, outperforming baselines.",
+      "summary": "This paper addresses the challenge of combining broad generalization with precise execution in general-purpose robotics. It introduces a benchmark (ERIQ) to diagnose reasoning capabilities and a method (FACT) to tokenize actions, leading to a unified model (GenieReasoner) that improves performance on real-world tasks. The work provides a framework to overcome the reasoning-precision trade-off in robotic manipulation.",
+      "mindmap": "graph TB\n        Root[”Unified Embodied VLM Reasoning with Robotic Action via Autoregressive Discretized Pre-training”] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[”核心问题/Problem<br>VLA模型难以兼顾泛化与精确执行”] --> P1[”泛化与精度权衡<br>Reasoning-Precision Trade-off”]\n        Method[”主要方法/Method”] --> M1[”评估基准: ERIQ<br>Benchmark: ERIQ”]\n        Method --> M2[”动作分词器: FACT<br>Action Tokenizer: FACT”]\n        Method --> M3[”统一模型: GenieReasoner<br>Unified Model: GenieReasoner”]\n        Results[”关键结果/Results”] --> R1[”揭示了推理能力与泛化的正相关<br>Revealed positive correlation”]\n        Results --> R2[”在真实任务中超越基线<br>Outperformed baselines in real-world tasks”]"
+    },
+    {
+      "title": "ROBOPOL: Social Robotics Meets Vehicular Communications for Cooperative Automated Driving",
+      "authors": "Manuel Bied, John Arockiasamy, Andy Comeca, Maximilian Schrapel, Victoria Yang, Alexey Rolich, Barbara Bruno, Maike Schwammberger, Dieter Fiems, Alexey Vinel",
+      "institution": "Karlsruhe Institute of Technology (KIT), University of Roma \"Sapienza\", Ghent University",
+      "link": "https://arxiv.org/pdf/2512.24129",
+      "code": null,
+      "tags": [
+        "intelligent transportation systems",
+        "vehicular communications (V2X)",
+        "social robotics",
+        "cooperative automated driving",
+        "vulnerable road users (VRU)",
+        "mixed traffic"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/af48fdf6ae377ed4fa4165a70f67cab36319c5ee9529ebcd5c9663574a0eac3e_w640_q70.webp",
+      "contributions": "1. Proposes the novel concept of using social robots as moderators between autonomous vehicles and vulnerable road users (VRUs) in mixed traffic scenarios. 2. Identifies and integrates four key technological enablers for this system: advanced perception, vehicular communications, social human-robot interaction, and formal specification. 3. Reports on a first proof-of-concept implementation integrating three of these enablers, demonstrating a social robot advising pedestrians interacting with a cooperative automated e-bike.",
+      "summary": "This paper addresses the challenge of safe interaction in mixed traffic involving autonomous vehicles and vulnerable road users. It proposes a system where a social robot acts as a moderator, integrating perception, V2X communication, and human-robot interaction. A proof-of-concept demonstration with an automated e-bike shows the feasibility of this approach for guiding pedestrians.",
+      "mindmap": "graph TB\n        A[ROBOPOL: Social Robotics Meets Vehicular Communications] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[混合交通中自动驾驶车辆与行人交互/Mixed Traffic AV-VRU Interaction]\n        C --> C1[社会机器人作为协调者/Social Robot as Moderator]\n        C1 --> C2[四大使能技术集成/Four Enabler Integration]\n        C2 --> C3[感知, V2X通信, 人机交互, 形式化规范/Perception, V2X, HRI, Formal Spec]\n        D --> D1[概念验证: 机器人引导行人与自动电动自行车/Proof-of-Concept: Robot Advising Pedestrians with E-bike]"
+    },
+    {
+      "title": "RANGER: A Monocular Zero-Shot Semantic Navigation Framework through Contextual Adaptation",
+      "authors": "Ming-Ming Yu, Yi Chen, Börje F. Karlsson, Wenjun Wu",
+      "institution": "Beihang University, Beijing Academy of Artificial Intelligence (BAAI), Institute of Automation, Chinese Academy of Sciences",
+      "link": "https://arxiv.org/pdf/2512.24212",
+      "code": null,
+      "tags": [
+        "semantic navigation",
+        "zero-shot navigation",
+        "monocular camera",
+        "in-context learning",
+        "3D foundation models",
+        "open-vocabulary"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ec071dfb8e64cc84b9968fc8e7e295d190c6ad5e4a190eaac70aeb44778d22a5_w640_q70.webp",
+      "contributions": "1. Proposes RANGER, a zero-shot semantic navigation framework that operates using only a monocular camera, eliminating the dependency on depth and pose sensors. 2. Introduces strong in-context learning capability, allowing the system to quickly adapt to new environments by observing a short video without architectural changes or fine-tuning. 3. Integrates key components like 3D reconstruction, semantic point cloud generation, and VLM-driven exploration into a cohesive framework, validated on benchmarks and real-world tests.",
+      "summary": "The paper proposes RANGER, a monocular zero-shot semantic navigation framework that uses 3D foundation models to operate without depth or pose data and can quickly adapt to new environments via in-context learning from short videos. Experiments show it achieves competitive navigation performance and superior adaptability without prior 3D mapping.",
+      "mindmap": "graph TB\n        A[RANGER: A Monocular Zero-Shot Semantic Navigation Framework] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[依赖深度与位姿/Depth & Pose Dependency]\n        B --> B2[缺乏情境学习能力/Lack of ICL Capability]\n        C --> C1[仅单目相机/Monocular Camera Only]\n        C --> C2[3D基础模型/3D Foundation Models]\n        C --> C3[情境学习适应/In-Context Learning Adaptation]\n        D --> D1[竞争性导航性能/Competitive Navigation Performance]\n        D --> D2[优越的情境学习适应性/Superior ICL Adaptability]"
+    },
+    {
+      "title": "GR-Dexter Technical Report",
+      "authors": "Ruoshi Wen, Guangzeng Chen, Zhongren Cui, Min Du, Yang Gou, Zhigang Han, Liqun Huang, Mingyu Lei, Yunfei Li, Zhuohang Li, Wenlei Liu, Yuxiao Liu, Xiao Ma, Hao Niu, Yutao Ouyang, Zeyu Ren, Haixin Shi, Wei Xu, Haoxiang Zhang, Jiajun Zhang, Xiao Zhang, Liwei Zheng, Weiheng Zhong, Yifei Zhou, Zhengming Zhu, Hang Li",
+      "institution": "ByteDance",
+      "link": "https://arxiv.org/pdf/2512.24210",
+      "code": "https://byte-dexter.github.io/gr-dexter",
+      "tags": [
+        "robot learning",
+        "vision-language-action (VLA)",
+        "dexterous manipulation",
+        "bimanual teleoperation",
+        "cross-embodiment datasets",
+        "anthropomorphic robotic hand"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b5f23a4ae875e18cbf460f2271eadc97907def817d036490b84d2f33bbe374f4_w640_q70.webp",
+      "contributions": "1. Design of a compact, modular 21-DoF anthropomorphic robotic hand (ByteDexter V2) for dexterous manipulation. 2. Development of an intuitive bimanual teleoperation system for efficient real-robot data collection. 3. A training recipe that combines teleoperated trajectories with large-scale vision-language and curated cross-embodiment datasets to train a generalist VLA policy.",
+      "summary": "The paper presents GR-Dexter, a framework for scaling vision-language-action models to bimanual robots with high-DoF dexterous hands. It integrates a new compact robotic hand design, a teleoperation system for data collection, and a training method using real and cross-embodiment data. The system demonstrates strong performance and improved generalization in real-world manipulation tasks, advancing towards generalist dexterous-hand robotics.",
+      "mindmap": "graph TB\n        A[GR-Dexter Technical Report] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[VLA模型难用于灵巧手 / Scaling VLA to dexterous hands is hard]\n        B1 --> B2[动作空间大 / Large action space]\n        B1 --> B3[遮挡严重 / Severe occlusions]\n        B1 --> B4[数据收集成本高 / High cost of real-robot data]\n        C --> C1[硬件 / Hardware]\n        C --> C2[数据 / Data]\n        C --> C3[模型 / Model]\n        C1 --> C1a[紧凑21-DoF灵巧手 / Compact 21-DoF dexterous hand]\n        C2 --> C2a[双手遥操作系统 / Bimanual teleoperation system]\n        C3 --> C3a[训练配方: 遥操数据+大规模VLM+跨具身数据 / Training recipe: Teleop data + large-scale VLM + cross-embodiment data]\n        D --> D1[强领域内性能 / Strong in-domain performance]\n        D --> D2[对未见物体和指令更鲁棒 / More robust to unseen objects & instructions]"
+    },
+    {
+      "title": "Heteroscedastic Bayesian Optimization-Based Dynamic PID Tuning for Accurate and Robust UAV Trajectory Tracking",
+      "authors": "Fuqiang Gu, Jiangshan Ai, Xu Lu, Xianlei Long, Yan Li, Tao Jiang, Chao Chen, Huidong Liu",
+      "institution": "Chongqing University, Macquarie University",
+      "link": "https://arxiv.org/pdf/2512.24249",
+      "code": null,
+      "tags": [
+        "control theory & optimization",
+        "Heteroscedastic Bayesian Optimization",
+        "PID Tuning",
+        "UAV Trajectory Tracking"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0f2d1516402e9370a6abddfcf55734a6f894512a452d5f59baa27df4f4b8fcdd_w640_q70.webp",
+      "contributions": "1. Proposes HBO-PID, a novel control algorithm integrating Heteroscedastic Bayesian Optimization with classical PID for UAV control. 2. Introduces explicit modeling of input-dependent noise variance to improve adaptation to dynamic environments. 3. Adopts a two-stage optimization strategy to accelerate the convergence of finding optimal controller parameters.",
+      "summary": "This paper proposes HBO-PID, a novel control algorithm that combines Heteroscedastic Bayesian Optimization with PID control to improve UAV trajectory tracking. The method explicitly models noise variance and uses a two-stage optimization for efficiency. Experiments show it significantly outperforms state-of-the-art methods in both position and angular accuracy.",
+      "mindmap": "graph TB\n        A[论文标题/Paper Title: Heteroscedastic Bayesian Optimization-Based Dynamic PID Tuning] --> B[核心问题/Problem: 无人机轨迹跟踪精度与鲁棒性不足/UAV Trajectory Tracking Accuracy & Robustness Limited]\n        A --> C[主要方法/Method: 异方差贝叶斯优化PID/Heteroscedastic Bayesian Optimization PID (HBO-PID)]\n        A --> D[关键结果/Results: 位置精度提升24.7%-42.9%, 角度精度提升40.9%-78.4%/Position Accuracy ↑24.7%-42.9%, Angular Accuracy ↑40.9%-78.4%]"
+    },
+    {
+      "title": "Local Path Optimization in The Latent Space Using Learned Distance Gradient",
+      "authors": "Jiawei Zhang, Chengchao Bai, Wei Pan, Tianhang Liu, Jifeng Guo",
+      "institution": "Harbin Institute of Technology, The University of Manchester",
+      "link": "https://arxiv.org/pdf/2512.24272",
+      "code": null,
+      "tags": [
+        "robotic motion planning",
+        "latent space",
+        "distance gradient",
+        "path optimization",
+        "constrained motion planning",
+        "manifold approximation"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cc41ceb1fda6fabc210e6299afabd747155a464bf4609e8d4a3646d04b8f2c52_w640_q70.webp",
+      "contributions": "1. Proposes training a neural network to predict robot-obstacle minimum distance directly from latent vectors. 2. Uses the learned distance gradient to compute movement directions in latent space for obstacle avoidance. 3. Integrates a local path optimization algorithm in the latent space with path validity checking to reduce replanning time.",
+      "summary": "This paper addresses the problem of slow replanning in data-driven constrained motion planning due to manifold approximation errors. It proposes a method that learns a distance gradient in the latent space to locally optimize paths and avoid obstacles, which is then integrated with validity checking to reduce overall planning time. The proposed method demonstrates faster planning speed compared to state-of-the-art algorithms in various scenarios.",
+      "mindmap": "graph TB\n        Root[”Local Path Optimization in The Latent Space Using Learned Distance Gradient<br/>基于学习距离梯度的潜在空间局部路径优化”] --> Problem[”核心问题/Problem”]\n        Root --> Method[”主要方法/Method”]\n        Root --> Results[”关键结果/Results”]\n        Problem --> P1[”潜在空间碰撞检测困难<br/>Difficulty in Latent Space Collision Detection”]\n        Problem --> P2[”路径重规划耗时<br/>Time-Consuming Path Replanning”]\n        Method --> M1[”学习距离梯度网络<br/>Learn Distance Gradient Network”]\n        Method --> M2[”潜在空间局部优化<br/>Local Optimization in Latent Space”]\n        Method --> M3[”与有效性检查集成<br/>Integrate with Validity Check”]\n        Results --> R1[”规划速度最快<br/>Fastest Planning Speed”]"
+    },
+    {
+      "title": "Safe Sliding Mode Control for Marine Vessels Using High-Order Control Barrier Functions and Fast Projection",
+      "authors": "Spyridon Syntakas, Kostas Vlachos",
+      "institution": "(Institution not explicitly stated in provided content; inferred from author names as potentially Greek, but no affiliation/email provided. Output is \"Unknown\")",
+      "link": "https://arxiv.org/pdf/2512.24281",
+      "code": null,
+      "tags": [
+        "robotics and control",
+        "Sliding Mode Control",
+        "High-Order Control Barrier Functions",
+        "Fast Projection",
+        "Marine Vessel",
+        "Safety-Critical Control"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5e93241ece43aa775d49cb27eed10590c156c12c0d008f871757073e5824e3a5_w640_q70.webp",
+      "contributions": "1. Integration of Sliding Mode Control (SMC) with High-Order Control Barrier Functions (HOCBFs) for robust and safe navigation of marine vessels under disturbances. 2. Introduction of a state-dependent adaptive HOCBF and a fast half-space projection method to replace the standard Quadratic Program (QP), enhancing computational efficiency. 3. Full implementation and evaluation on a complex, nonlinear 3-DOF marine dynamics model with thruster allocation, demonstrating real-time suitability for embedded systems.",
+      "summary": "This paper proposes a new safe control framework for marine vessels that combines robust Sliding Mode Control (SMC) with safety-guaranteeing High-Order Control Barrier Functions (HOCBFs). A fast projection method is used to efficiently adjust the control input to avoid obstacles, replacing heavier optimization. The method is validated in simulations, showing robust, collision-free navigation suitable for real-time use on computationally constrained marine robots.",
+      "mindmap": "graph TB\n        A[Safe Sliding Mode Control for Marine Vessels] --> B(核心问题/Problem: Marine vessel safe navigation under disturbances)\n        A --> C(主要方法/Method: SMC + HOCBF + Fast Projection)\n        A --> D(关键结果/Results: Robust, safe, computationally efficient)"
+    },
+    {
+      "title": "DRL-TH: Jointly Utilizing Temporal Graph Attention and Hierarchical Fusion for UGV Navigation in Crowded Environments",
+      "authors": "Ruitong Li, Lin Zhang, Yuenan Zhao, Chengxin Liu, Ran Song, Wei Zhang",
+      "institution": "The affiliations are not explicitly provided in the given content. Based on the author names, it is not possible to reliably infer the main research institution(s).",
+      "link": "https://arxiv.org/pdf/2512.24284",
+      "code": null,
+      "tags": [
+        "reinforcement learning",
+        "temporal graph attention",
+        "hierarchical graph pooling",
+        "multi-modal fusion",
+        "UGV navigation",
+        "deep reinforcement learning"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/83abe1de24f9a7e490d93db45dec754f2a2ff7f3de84d6e6983a358e1d9dff40_w640_q70.webp",
+      "contributions": "1. Proposed a DRL-based navigation framework (DRL-TH) that integrates historical observations and adaptively fuses multi-modal information. 2. Introduced a Temporal-Guided Graph Attention Network (TG-GAT) to capture temporal context and scene evolution between consecutive frames. 3. Designed a Graph Hierarchical Abstraction Module (GHAM) to dynamically and balance multi-scale representations from RGB and LiDAR features.",
+      "summary": "This paper proposes DRL-TH, a deep reinforcement learning framework for UGV navigation in crowded environments. It addresses limitations of single-frame observation and simple fusion by introducing a temporal graph attention network and a hierarchical graph pooling module for adaptive multi-modal feature integration. Experiments and real-world deployment show that DRL-TH outperforms existing methods.",
+      "mindmap": "graph TB\n        Root[DRL-TH: UGV导航框架] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem] --> P1[单帧观测/Single-frame observation]\n        Problem --> P2[简单多模态融合/Simple multi-modal fusion]\n        P1 --> P1_Sub[限制动态适应性/Limits dynamic adaptability]\n        P2 --> P2_Sub[难以捕捉时序上下文/Hard to capture temporal context]\n        Method[主要方法/Method] --> M1[时序引导图注意力网络/Temporal-Guided GAT (TG-GAT)]\n        Method --> M2[图层次抽象模块/Graph Hierarchical Abstraction Module (GHAM)]\n        M1 --> M1_Sub[捕捉连续帧关联/Captures correlations between consecutive frames]\n        M2 --> M2_Sub[动态融合RGB与LiDAR特征/Dynamically fuses RGB & LiDAR features]\n        Results[关键结果/Results] --> R1[性能超越现有方法/Outperforms existing methods]\n        Results --> R2[真实UGV上表现良好/Performs well on real UGV]"
+    },
+    {
+      "title": "Real-world Reinforcement Learning from Suboptimal Interventions",
+      "authors": "Yinuo Zhao, Huiqian Jin, Lechun Jiang, Xinyi Zhang, Kun Wu, Pei Ren, Zhiyuan Xu, Zhengping Che, Lei Sun, Dapeng Wu, Chi Harold Liu, Jian Tang",
+      "institution": "Beijing Innovation Center of Humanoid Robotics, City University of Hong Kong, Nankai University, Beijing Institute of Technology",
+      "link": "https://arxiv.org/pdf/2512.24288",
+      "code": null,
+      "tags": [
+        "reinforcement learning",
+        "human-in-the-loop RL",
+        "constrained RL",
+        "state-wise Lagrangian",
+        "suboptimal interventions",
+        "robotic manipulation"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0f15ba64d7b2d7760e2411270a47d97305fe1e21ad798c2423cb89a0e5cb5750_w640_q70.webp",
+      "contributions": "1. Proposes SiLRI, a state-wise Lagrangian RL algorithm that formulates the online manipulation problem as a constrained RL optimization where constraint bounds are determined by the uncertainty of human interventions. 2. Introduces a state-wise Lagrange multiplier and solves the problem via a min-max optimization to jointly optimize the policy and the multiplier, enabling exploitation of suboptimal interventions without being constrained by them. 3. Demonstrates through real-world experiments that SiLRI significantly accelerates learning, reducing time to 90% success rate by at least 50% compared to prior methods and achieving 100% success on long-horizon tasks.",
+      "summary": "The paper addresses the challenge of leveraging suboptimal human interventions to accelerate real-world robotic RL without being limited by them. It proposes SiLRI, a state-wise Lagrangian RL algorithm that treats interventions as state-dependent constraints and solves a min-max optimization. Real-world experiments show SiLRI cuts learning time by over 50% and achieves perfect success on complex tasks where other methods fail.",
+      "mindmap": "graph TB\n        A[Real-world Reinforcement Learning from Suboptimal Interventions] --> B\n        A --> C\n        A --> D\n        B[核心问题/Problem: 如何利用可能次优的人类干预加速学习而不受其限制/How to leverage potentially suboptimal human interventions to accelerate learning without being constrained by them]\n        C[主要方法/Method: 提出SiLRI，一种基于状态拉格朗日的RL算法，将干预不确定性作为约束/Propose SiLRI, a state-wise Lagrangian RL algorithm treating intervention uncertainty as constraints]\n        D[关键结果/Results: 学习速度提升>50%，在长视野任务上达到100%成功率/Learning speed improved >50%, achieved 100% success rate on long-horizon tasks]"
+    },
+    {
+      "title": "World In Your Hands: A Large-Scale and Open-source Ecosystem for Learning Human-centric Manipulation in the Wild",
+      "authors": "TARS Robotics, Yuhang Zheng, Jichao Peng, Weize Li, Yupeng Zheng, Xiang Li, Yujie Jin, Julong Wei, Guanhua Zhang, Ruiling Zheng, Ming Cao, Songen Gu, Zhenhong Zou, Kaige Li, Ke Wu, Mingmin Yang, Jiahao Liu, Pengfei Li, Hengjie Si, Feiyu Zhu, Wang Fu, Likun Wang, Ruiwen Yao, Jieru Zhao, Yilun Chen, Wenchao Din",
+      "institution": "TARS Robotics",
+      "link": "https://arxiv.org/pdf/2512.24310",
+      "code": "https://github.com/tars-robotics/World-In-Your-Hands",
+      "tags": [
+        "robotic manipulation",
+        "dexterous hand manipulation",
+        "human-centric data",
+        "multi-modal dataset",
+        "policy generalization",
+        "motion capture"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0db53b26bed90b683311e986846432d80dee2b3576c54541403be5222bf2b65f_w640_q70.webp",
+      "contributions": "1. Introduces the Oracle Suite, a wearable data collection kit with an auto-labeling pipeline for accurate motion capture. 2. Presents the WiYH Dataset, a large-scale, multi-modal dataset with over 1,000 hours of human manipulation data across diverse real-world scenarios and hundreds of skills. 3. Provides extensive annotations and benchmarks to support a wide range of tasks from perception to action, forming an open-source ecosystem.",
+      "summary": "This paper introduces World In Your Hands (WiYH), a large-scale open-source ecosystem for learning human-centric manipulation. It addresses the lack of diverse and large-scale data for dexterous hand policies by providing a novel data collection system, a massive multi-modal dataset, and supporting benchmarks. Experiments show that using WiYH's data significantly improves the generalization and robustness of manipulation policies.",
+      "mindmap": "graph TB\n        Root[”World In Your Hands (WiYH)”] --> Problem[”核心问题/Problem: Limited scale & diversity of dexterous hand manipulation data”]\n        Root --> Method[”主要方法/Method: Large-scale open-source ecosystem with data collection kit, dataset, and benchmarks”]\n        Root --> Results[”关键结果/Results: Enhanced policy generalization and robustness”]"
+    },
+    {
+      "title": "UniAct: Unified Motion Generation and Action Streaming for Humanoid Robots",
+      "authors": "Nan Jiang, Zimo He, Wanhe Yu, Lexi Pang, Yunhao Li, Hongjie Li, Jieming Cui, Yuhan Li, Yizhou Wang, Yixin Zhu, Siyuan Huang",
+      "institution": "Peking University, Beijing Institute for General Artificial Intelligence (BIGAI), Huazhong University of Science and Technology",
+      "link": "https://arxiv.org/pdf/2512.24321",
+      "code": "https://jnnan.github.io/uniact/",
+      "tags": [
+        "embodied ai / robot learning",
+        "multimodal motion generation",
+        "action streaming",
+        "discrete codebook",
+        "FSQ (Finite Scalar Quantization)",
+        "zero-shot tracking"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d71f14808bc6cc1375b432715e3356f7f970e4a056f6960261c0aed51ae956aa_w640_q70.webp",
+      "contributions": "1. A unified two-stage framework (UniAct) that integrates a fine-tuned MLLM with a causal streaming pipeline for low-latency (&lt;500ms) multimodal instruction execution. 2. The use of a shared discrete codebook via FSQ to unify heterogeneous inputs (language, music, trajectory, motion) and constrain motions to a physically grounded manifold. 3. Introduction of the UniMoCap benchmark and demonstration of robust generalization, including a 19% improvement in zero-shot tracking success rate.",
+      "summary": "This paper proposes UniAct, a unified framework for generating and streaming motions to humanoid robots from diverse multimodal instructions like language and music. It uses a fine-tuned MLLM and a shared discrete codebook to translate instructions into actions with low latency. The method shows improved zero-shot motion tracking and robust generalization on a new benchmark.",
+      "mindmap": "graph TB\n        A[UniAct: Unified Motion Generation and Action Streaming for Humanoid Robots] --> B\n        A --> C\n        A --> D\n        B[核心问题/Problem: Bridging high-level multimodal perception with whole-body execution for humanoid robots]\n        C[主要方法/Method: Two-stage framework with fine-tuned MLLM and causal streaming pipeline, using shared discrete codebook (FSQ)]\n        D[关键结果/Results: Sub-500 ms latency, 19% improvement in zero-shot tracking, robust generalization on UniMoCap benchmark]"
+    },
+    {
+      "title": "3D Path-Following Guidance via Nonlinear Model Predictive Control for Fixed-Wing Small UAS",
+      "authors": "Camron Alexander Hirst, Chris Reale, Eric Frew",
+      "institution": "University of Colorado Boulder, Charles Stark Draper Laboratory Inc.",
+      "link": "https://arxiv.org/pdf/2512.24326",
+      "code": null,
+      "tags": [
+        "autonomous systems guidance and control",
+        "nonlinear model predictive control",
+        "path-following guidance",
+        "fixed-wing UAS",
+        "system identification",
+        "model predictive contouring control"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e1c481097117513c6e7ec0ae58ca10d3f59dece31fd2874b432bc9d53ad5df59_w640_q70.webp",
+      "contributions": "1. Presents two novel 3D path-following guidance algorithms based on nonlinear MPC for fixed-wing small UAS. 2. Introduces a control-augmented model and system identification for the RAAVEN aircraft to enable MPC. 3. Formulates one MPC to schedule a static path rate and another, inspired by contouring control, to dynamically optimize the path rate for a trade-off between path progression and tracking error.",
+      "summary": "This paper addresses the challenge of high-performance 3D path-following for fixed-wing uncrewed aircraft by proposing two nonlinear model predictive control (MPC) guidance algorithms. One uses a static path rate, while the other dynamically optimizes it, allowing a trade-off between speed and accuracy. Flight tests demonstrate the real-world feasibility and superior performance of these MPC methods compared to a baseline lookahead guidance law.",
+      "mindmap": "graph TB\n        Root[”3D Path-Following Guidance via Nonlinear MPC for FW-sUAS<br>基于非线性MPC的固定翼小型无人机三维路径跟踪制导”] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[”核心问题/Problem<br>High-performance 3D path-following for fixed-wing UAS is challenging<br>固定翼无人机的高性能三维路径跟踪具有挑战性”]\n        Method[”主要方法/Method<br>Two Nonlinear MPC guidance algorithms<br>两种非线性模型预测控制制导算法”]\n        Results[”关键结果/Results<br>Real-world feasibility & superior performance shown in flight tests<br>飞行测试证明了其实用性与优越性能”]"
+    },
+    {
+      "title": "New Insights into Cascaded Geometric Flight Control: From Performance Guarantees to Practical Pitfalls",
+      "authors": "Brett T. Lopez",
+      "institution": "University of California, Los Angeles (UCLA)",
+      "link": "https://arxiv.org/pdf/2512.24377",
+      "code": null,
+      "tags": [
+        "flight control",
+        "nonlinear control",
+        "geometric control",
+        "cascaded geometric control",
+        "sliding variables",
+        "quaternion-based control",
+        "trajectory tracking",
+        "stability proof"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d5000c178eda34f5f3aa41a7fd18d3b45973e49250588ed5efd005f8ad62f0ae_w640_q70.webp",
+      "contributions": "1. A new stability proof for cascaded geometric flight control using sliding variables, demonstrating exponential convergence for position trajectory tracking., 2. Analysis revealing the influence of attitude tracking error on the position control loop, elucidating the complex coupling between the loops., 3. Investigation of the control architecture's robustness to model uncertainties and identification of its practical pitfalls.",
+      "summary": "This paper presents a new stability analysis for cascaded geometric controllers used by aerial vehicles. By integrating a quaternion-based sliding controller into the cascaded architecture, the authors prove exponential convergence for position trajectory tracking and gain new insights into the coupling between control loops and system robustness.",
+      "mindmap": "graph TB\n        A[New Insights into Cascaded Geometric Flight Control] --> B(核心问题/Problem: Precise trajectory tracking for aerial vehicles with nonlinear, coupled dynamics)\n        A --> C(主要方法/Method: New stability proof combining cascaded geometric control with sliding variables and a quaternion-based sliding controller)\n        A --> D(关键结果/Results: Proves exponential convergence; reveals attitude-position error coupling and practical pitfalls)"
+    },
+    {
+      "title": "Geometric Multi-Session Map Merging with Learned Local Descriptors",
+      "authors": "Yanlong Ma, Nakul S. Joshi, Christa S. Robison, Philip R. Osteen, Brett T. Lopez",
+      "institution": "University of California, Los Angeles (UCLA), DEVCOM Army Research Laboratory (ARL)",
+      "link": "https://arxiv.org/pdf/2512.24384",
+      "code": null,
+      "tags": [
+        "SLAM (Simultaneous Localization and Mapping)",
+        "map merging",
+        "learned local descriptors",
+        "geometric transformer",
+        "factor-graph optimization",
+        "loop closure detection"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5c330f606af1c67ed97c26c40d98ecfd5f18fd1d10de890504cf057e102199d9_w640_q70.webp",
+      "contributions": "1. Proposes GMLD, a learning-based local descriptor framework for multi-session point cloud map merging. 2. Introduces a keypoint-aware encoder and a plane-based geometric transformer to extract discriminative features for robust loop closure detection and pose estimation. 3. Incorporates inter-session scan matching cost factors into factor-graph optimization to enhance global map consistency.",
+      "summary": "This paper addresses the challenge of merging point cloud maps from multiple sessions or agents in large-scale environments. The proposed GMLD framework uses learned local descriptors and a geometric transformer for feature extraction, combined with factor-graph optimization for global consistency. Experimental results on public and self-collected datasets demonstrate accurate and robust map merging performance.",
+      "mindmap": "graph TB\n        A[Geometric Multi-Session Map Merging with Learned Local Descriptors] --> B(核心问题/Problem: Multi-session map merging in large-scale environments)\n        A --> C(主要方法/Method: GMLD framework with learned descriptors & geometric transformer)\n        A --> D(关键结果/Results: Accurate and robust map merging with low error)"
+    },
+    {
+      "title": "Forging Spatial Intelligence: A Roadmap of Multi-Modal Data Pre-Training for Autonomous Systems",
+      "authors": "Song Wang, Lingdong Kong, Xiaolu Liu, Hao Shi, Wentong Li, Jianke Zhu, Steven C. H. Hoi",
+      "institution": "Zhejiang University, National University of Singapore, Nanjing University of Aeronautics and Astronautics, Alibaba Group, Singapore Management University",
+      "link": "https://arxiv.org/pdf/2512.24385",
+      "code": "https://github.com/worldbench/awesome-spatial-intelligence",
+      "tags": [
+        "multi-modal perception",
+        "spatial intelligence",
+        "multi-modal pre-training",
+        "3D object detection",
+        "semantic occupancy prediction",
+        "foundation models"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5d3c33bdbff1adb3e8892d63c2303634ba223ae7e14138e8573b929718fecafc_w640_q70.webp",
+      "contributions": "1. Formulates a unified taxonomy for multi-modal pre-training paradigms, from single-modality to unified frameworks. 2. Investigates the integration of textual inputs and occupancy representations for open-world perception and planning. 3. Identifies critical bottlenecks (e.g., computational efficiency) and proposes a roadmap towards general-purpose multi-modal foundation models for robust Spatial Intelligence.",
+      "summary": "This paper addresses the challenge of integrating diverse sensor data (e.g., cameras, LiDAR) to achieve Spatial Intelligence for autonomous systems. It proposes a comprehensive framework and taxonomy for multi-modal pre-training, analyzing techniques for unified representation learning and identifying future research directions. The main conclusion is a roadmap towards building general-purpose multi-modal foundation models capable of robust real-world perception and planning.",
+      "mindmap": "graph TB\n        Root[”Forging Spatial Intelligence: A Roadmap of Multi-Modal Data Pre-Training for Autonomous Systems<br>打造空间智能：自主系统多模态数据预训练路线图”] --> Problem[”核心问题/Problem<br>Integrating multi-modal sensor data for unified Spatial Intelligence<br>融合多模态传感器数据以实现统一的空间智能”]\n        Root --> Method[”主要方法/Method<br>Comprehensive framework & unified taxonomy for multi-modal pre-training<br>全面的多模态预训练框架与统一分类法”]\n        Root --> Results[”关键结果/Results<br>Roadmap for general-purpose multi-modal foundation models<br>通用多模态基础模型的路线图”]"
+    },
+    {
+      "title": "Fast and Realistic Automated Scenario Simulations and Reporting for an Autonomous Racing Stack",
+      "authors": "Giovanni Lambertini, Matteo Pini, Eugenio Mascaro, Francesco Moretti, Ayoub Raji, Marko Bertogna",
+      "institution": "University of Modena and Reggio Emilia",
+      "link": "https://arxiv.org/pdf/2512.24402",
+      "code": null,
+      "tags": [
+        "fault-tolerance",
+        "Functional Mockup Unit (FMU)",
+        "fault injection",
+        "Continuous Integration/Continuous Delivery (CI/CD)"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9d172287ab1ffde29e52c3f7cde1a986f7a5d73ac371395320ced490d39f5dac_w640_q70.webp",
+      "contributions": "1. An automated simulation and reporting pipeline for an autonomous racing stack that can execute up to three times faster than real-time, locally or on GitHub for CI/CD. 2. A fault injection module capable of introducing sensor delays, perturbations, and modifying outputs of any node in the software stack. 3. A design for an automated reporting process aimed at maximizing the effectiveness of simulation analysis.",
+      "summary": "This paper presents an automated simulation and reporting pipeline for validating an autonomous racing stack. The method uses a high-fidelity vehicle model as a Functional Mockup Unit (FMU) and includes a fault injection module to test system robustness. The pipeline enables fast, realistic scenario testing and automated reporting, which is crucial for efficiently validating critical autonomous driving functions like high-speed overtaking.",
+      "mindmap": "graph TB\n        Root[”Fast and Realistic Automated Scenario Simulations and Reporting for an Autonomous Racing Stack”] --> Problem[”核心问题/Problem: Need for efficient validation of autonomous racing stack modules, especially for high-speed maneuvers and localization.”]\n        Root --> Method[”主要方法/Method: Automated simulation pipeline using high-fidelity FMU model, scenario initialization, and fault injection.”]\n        Root --> Results[”关键结果/Results: Pipeline executes up to 3x faster than real-time, supports CI/CD, and includes automated reporting.”]"
+    },
+    {
+      "title": "Subsecond 3D Mesh Generation for Robot Manipulation",
+      "authors": "Qian Wang, Omar Abdellall, Tony Gao, Xiatao Sun, Daniel Rakita",
+      "institution": "Yale University",
+      "link": "https://arxiv.org/pdf/2512.24428",
+      "code": null,
+      "tags": [
+        "3D reconstruction",
+        "3D mesh generation",
+        "open-vocabulary segmentation",
+        "point cloud registration"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c21c85b85a842e2b91805631063ff03077c9e225bd56663524ef2ce7b37de98b_w640_q70.webp",
+      "contributions": "1. An end-to-end system for generating a contextually grounded 3D mesh from a single RGB-D image in under one second. 2. Integration of open-vocabulary segmentation, accelerated diffusion-based mesh generation, and robust point cloud registration into a single optimized pipeline. 3. Demonstration of the system's effectiveness in enabling real-world robot manipulation tasks.",
+      "summary": "This paper introduces a fast, end-to-end system that generates a high-quality, contextually grounded 3D mesh from a single RGB-D image in under one second. The method integrates open-vocabulary segmentation, accelerated diffusion-based mesh generation, and point cloud registration. The system enables the practical use of meshes for real-time robotic perception and planning, as demonstrated in a manipulation task.",
+      "mindmap": "graph TB\n        A[Subsecond 3D Mesh Generation for Robot Manipulation] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[生成慢且缺乏场景关联/Slow generation & lack of contextual grounding]\n        C --> C1[开放词汇分割/Open-vocabulary segmentation]\n        C --> C2[加速扩散网格生成/Accelerated diffusion mesh generation]\n        C --> C3[点云配准/Point cloud registration]\n        D --> D1[<1秒生成/<1 second generation]\n        D --> D2[支持机器人操作/Enables robot manipulation]"
+    },
+    {
+      "title": "Counterfactual VLA: Self-Reflective Vision-Language-Action Model with Adaptive Reasoning",
+      "authors": "Zhenghao \"Mark\" Peng, Wenhao Ding, Yurong You, Yuxiao Chen, Wenjie Luo, Thomas Tian, Yulong Cao, Apoorva Sharma, Danfei Xu, Boris Ivanovic, Boyi Li, Bolei Zhou, Yan Wang, Marco Pavone",
+      "institution": "NVIDIA, UCLA, Stanford University",
+      "link": "https://arxiv.org/pdf/2512.24426",
+      "code": null,
+      "tags": [
+        "autonomous driving",
+        "counterfactual reasoning",
+        "vision-language-action",
+        "self-reflective model",
+        "adaptive reasoning",
+        "trajectory generation"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/14e3c4319bff8eb33d06cd671495be918c900f2aeecaabdc7cd1ff11f2ddb7bd_w640_q70.webp",
+      "contributions": "1. Introduces Counterfactual VLA (CF-VLA), a self-reflective framework that enables an autonomous driving model to reason about and revise its planned actions before execution through counterfactual reasoning. 2. Proposes a rollout-filter-label pipeline to efficiently mine high-value scenes and label counterfactual reasoning traces for training, enabling the acquisition of self-reflective capabilities. 3. Demonstrates significant improvements in trajectory accuracy (up to 17.6%) and safety metrics (20.5%) on large-scale driving datasets, with adaptive reasoning that activates primarily in challenging scenarios.",
+      "summary": "This paper addresses the limitation of current reasoning-augmented Vision-Language-Action (VLA) models, which lack self-reflection on action safety. It proposes Counterfactual VLA (CF-VLA), a framework that first generates meta-actions, then performs counterfactual reasoning to simulate outcomes and correct unsafe plans before final trajectory generation. Experiments show CF-VLA significantly improves trajectory accuracy and safety while adaptively engaging reasoning only in complex scenarios.",
+      "mindmap": "graph TB\n        Root[Counterfactual VLA] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem] --> P1[现有VLA缺乏自我反思/Existing VLAs lack self-reflection]\n        Method[主要方法/Method] --> M1[生成元动作/Generate Meta-actions]\n        Method --> M2[反事实推理/Counterfactual Reasoning]\n        M2 --> M2_1[模拟结果/Simulate Outcomes]\n        M2 --> M2_2[修正计划/Correct Plans]\n        Method --> M3[训练流程: rollout-filter-label/Training Pipeline]\n        Results[关键结果/Results] --> R1[提升轨迹精度/Improves Trajectory Accuracy]\n        Results --> R2[增强安全指标/Enhances Safety Metrics]\n        Results --> R3[自适应推理/Adaptive Reasoning]"
+    },
+    {
+      "title": "Foundation models on the bridge: Semantic hazard detection and safety maneuvers for maritime autonomy with vision-language models",
+      "authors": "Kim Alexander Christensen, Andreas Gudahl Tufte, Alexey Gusev, Rohan Sinha, Milan Ganai, Ole Andreas Alsos, Marco Pavoned, Martin Steinert",
+      "institution": "NTNU (Norwegian University of Science and Technology), Stanford University, NVIDIA Research",
+      "link": "https://arxiv.org/pdf/2512.24470",
+      "code": null,
+      "tags": [
+        "multi-modal inference",
+        "vision-language model (VLM)",
+        "fallback maneuver",
+        "semantic hazard detection",
+        "autonomous surface vessel (ASV)",
+        "IMO MASS Code"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/dd093268c75343899a9f72b23f4d22948c1b634539b5e39f8d26296c9f122886_w640_q70.webp",
+      "contributions": "1. Proposes Semantic Lookout, a camera-only, candidate-constrained VLM fallback maneuver selector for maritime autonomy. 2. Introduces a fast-slow anomaly pipeline with a short-horizon, human-overridable fallback to meet IMO MASS Code requirements. 3. Demonstrates that sub-10-second VLM models retain semantic awareness and outperform geometry-only baselines in hazard scenarios.",
+      "summary": "This paper addresses the challenge of semantic hazard detection for autonomous maritime vessels, which is required by the draft IMO MASS Code. It proposes Semantic Lookout, a vision-language model (VLM) based system that selects safe fallback maneuvers by understanding scene semantics. The results show that this approach is effective within practical latency budgets and outperforms traditional geometry-only methods.",
+      "mindmap": "graph TB\n        Root[”Foundation models on the bridge / 论文标题”] --> Problem[”核心问题/Problem”]\n        Root --> Method[”主要方法/Method”]\n        Root --> Results[”关键结果/Results”]\n        Problem --> P1[”自主船舶需检测语义危害 / Autonomous vessels need semantic hazard detection”]\n        Problem --> P2[”传统系统难以处理语义异常 / Classical stacks struggle with semantic OOD situations”]\n        Method --> M1[”引入Semantic Lookout / Introduce Semantic Lookout”]\n        Method --> M2[”基于VLM的备用机动选择器 / VLM-based fallback maneuver selector”]\n        Method --> M3[”快速-慢速异常处理流程 / Fast-slow anomaly pipeline”]\n        Results --> R1[”10秒内模型保持语义感知 / Sub-10 s models retain semantic awareness”]\n        Results --> R2[”优于几何基线 / Outperforms geometry-only baselines”]\n        Results --> R3[”支持IMO MASS法规 / Supports draft IMO MASS Code”]"
+    },
+    {
+      "title": "Energy-Aware Bayesian Control Barrier Functions for Physics-Informed Gaussian Process Dynamics",
+      "authors": "Chi Ho Leung, Philip E. Paré",
+      "institution": "Purdue University",
+      "link": "https://arxiv.org/pdf/2512.24493",
+      "code": null,
+      "tags": [
+        "safe control",
+        "Control Barrier Functions",
+        "Gaussian Processes",
+        "Port-Hamiltonian Systems",
+        "Bayesian Inference",
+        "Energy-Aware Safety"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/accb1ff5f1fd393d69f125ce4556fd07682e69ca503aa2b01d602950d0a62c50_w640_q70.webp",
+      "contributions": "1. Developed a Bayesian-CBF framework for systems with learned dynamics, 2. Instantiated the framework with Energy-aware Bayesian CBFs (EB-CBFs) that construct safety barriers directly from Hamiltonian and vector-field posteriors, 3. Provided probabilistic safety guarantees for energy-constrained systems under GP-learned dynamics",
+      "summary": "This paper addresses safe control for dynamical systems with learned Gaussian Process dynamics, focusing on mechanical and port-Hamiltonian systems. It proposes a novel Bayesian Control Barrier Function framework, specifically Energy-aware Bayesian CBFs (EB-CBFs), which use the GP posterior over the Hamiltonian to construct energy-based safety filters. Numerical simulations on a mass-spring system demonstrate that the method achieves high-probability safety guarantees.",
+      "mindmap": "graph TB\n        Root[Energy-Aware Bayesian Control Barrier Functions] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem: How to design an energy-aware CBF with high-probability safety guarantees for systems with GP-learned dynamics?]\n        Method[主要方法/Method: Develop Bayesian-CBF framework and instantiate with Energy-aware Bayesian CBFs (EB-CBFs) using Hamiltonian/vector-field posteriors]\n        Results[关键结果/Results: EB-CBFs achieve high-probability safety as a minimal-modification safety filter]"
+    },
+    {
+      "title": "What Drives Success in Physical Planning with Joint-Embedding Predictive World Models?",
+      "authors": "Basile Terver, Tsung-Yen Yang, Jean Ponce, Adrien Bardes, Yann LeCun",
+      "institution": "Meta FAIR, INRIA Paris, Ecole normale supérieure/PSL, New York University",
+      "link": "https://arxiv.org/pdf/2512.24497",
+      "code": "https://github.com/facebookresearch/jepa-wms",
+      "tags": [
+        "world models",
+        "joint-embedding predictive architecture",
+        "representation space planning",
+        "model-based reinforcement learning"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3be3154d136e165197c022f619cd1d45cd62098d7f202059d7110d6335e67c44_w640_q70.webp",
+      "contributions": "1. Proposes a comprehensive characterization and study of Joint-Embedding Predictive Architecture World Models (JEPA-WMs) for physical planning. 2. Systematically investigates the impact of model architecture, training objective, and planning algorithm on planning success in simulated and real-world robotic tasks. 3. Combines the findings to propose a new model that outperforms established baselines (DINO-WM and V-JEPA-2-AC) in navigation and manipulation tasks.",
+      "summary": "This paper investigates the key factors for successful physical planning using Joint-Embedding Predictive World Models (JEPA-WMs). It conducts a systematic study of architectural and algorithmic choices within this family of methods and proposes a new model that achieves superior performance on navigation and manipulation tasks compared to existing baselines.",
+      "mindmap": "graph TB\n        Root[What Drives Success in Physical Planning with JEPA-WMs?] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem<br>How to build agents that generalize to new physical tasks?]\n        Method[主要方法/Method<br>Study JEPA-WMs: architecture, objective, planning algorithm]\n        Results[关键结果/Results<br>Proposed model outperforms baselines (DINO-WM, V-JEPA-2-AC)]"
+    },
+    {
+      "title": "DISF: Disentangled Iterative Surface Fitting for Contact-stable Grasp Planning with Grasp Pose Alignment to the Object Center of Mass",
+      "authors": "Tomoya Yamanokuchi, Alberto Bacchin, Emilio Olivastri, Ryotaro Arifuku, Takamitsu Matsubara, Emanuele Menegatti",
+      "institution": "Nara Institute of Science and Technology, University of Padua",
+      "link": "https://arxiv.org/pdf/2512.24550",
+      "code": null,
+      "tags": [
+        "robotic grasping",
+        "surface fitting",
+        "grasp planning",
+        "contact stability",
+        "center of mass",
+        "iterative optimization"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7dba548fac0cf4df4540c9b30eb28e047af13ce7f6fd890664a639281626ce49_w640_q70.webp",
+      "contributions": "1. A novel disentangled iterative surface fitting algorithm that integrates contact stability with geometric compatibility. 2. A three-step grasp pose optimization method inspired by human grasping, sequentially optimizing rotation, translation, and gripper aperture. 3. Comprehensive validation in simulation and real-world experiments, demonstrating improved grasp success by reducing CoM misalignment.",
+      "summary": "This paper addresses the problem of unstable grasps in surface fitting-based grasp planning by proposing DISF, a method that disentangles grasp pose optimization into sequential steps for rotation, translation, and aperture adjustment to improve contact stability and align with the object's center of mass. The approach is validated in simulation and real-world experiments, showing higher grasp success rates compared to baselines.",
+      "mindmap": "graph TB\n    A[DISF: Disentangled Iterative Surface Fitting] --> B(核心问题/Problem)\n    A --> C(主要方法/Method)\n    A --> D(关键结果/Results)\n    B --> B1[表面拟合抓取规划忽略接触稳定性/Surface-fitting grasp planning overlooks contact stability]\n    C --> C1[解耦三步优化/Disentangled three-step optimization]\n    C1 --> C1_1[1. 旋转优化:对齐法线/Rotation: Align normals]\n    C1 --> C1_2[2. 平移优化:对齐质心/Translation: Align to CoM]\n    C1 --> C1_3[3. 开合调整:优化接触点/Aperture: Optimize contact points]\n    D --> D1[减少质心偏差，保持几何兼容性/Reduced CoM misalignment, preserved geometric compatibility]\n    D --> D2[仿真与真实世界抓取成功率更高/Higher grasp success in sim & real-world]"
+    },
+    {
+      "title": "Resolving State Ambiguity in Robot Manipulation via Adaptive Working Memory Recoding",
+      "authors": "Qingda Hu, Ziheng Qiu, Zijun Xu, Kaizhao Zhang, Xizhou Bu, Zuolei Sun, Bo Zhang, Jieru Zhao, Zhongxue Gan, Wenchao Ding",
+      "institution": "Fudan University, Westwell, Shanghai Jiao Tong University",
+      "link": "https://arxiv.org/pdf/2512.24638",
+      "code": "https://tinda24.github.io/pam/",
+      "tags": [
+        "robot manipulation",
+        "state ambiguity",
+        "working memory recoding",
+        "visuomotor policy",
+        "imitation learning",
+        "temporal disambiguation"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0abbd5ee0b650d8572ebdfda2698f00d007435b92fab47409698edf25a778e24_w640_q70.webp",
+      "contributions": "1. Introduces PAM, a novel visuomotor policy with adaptive working memory that efficiently handles long history windows (up to 300 frames) for resolving state ambiguity in robot manipulation. 2. Proposes a two-stage training method with a hierarchical feature extractor and a context router with range-specific queries to produce compact historical representations while maintaining high inference speed. 3. Designs an auxiliary reconstruction objective to ensure the context router acts as an effective bottleneck and validates the method on 7 meticulously designed tasks covering multiple state ambiguity scenarios.",
+      "summary": "This paper addresses the problem of state ambiguity in robot manipulation, where identical observations can correspond to multiple valid trajectories. The authors propose PAM, a visuomotor policy with adaptive working memory recoding, which efficiently utilizes long-term history (up to 10 seconds) to disambiguate states while maintaining high inference speeds above 20Hz. The method is validated on multiple tasks, demonstrating its ability to handle diverse ambiguity scenarios.",
+      "mindmap": "graph TB\n        A[Resolving State Ambiguity in Robot Manipulation via Adaptive Working Memory Recoding] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[状态模糊性/State Ambiguity]\n        B --> B2[长历史建模困难/Long-History Modeling Challenge]\n        C --> C1[自适应工作记忆策略/PAM Policy]\n        C --> C2[分层特征提取器/Hierarchical Feature Extractor]\n        C --> C3[上下文路由器/Context Router]\n        D --> D1[处理7种任务/Handles 7 Tasks]\n        D --> D2[300帧历史窗口/300-Frame History]\n        D --> D3[推理速度>20Hz/Inference >20Hz]"
+    },
+    {
+      "title": "Hybrid Motion Planning with Deep Reinforcement Learning for Mobile Robot Navigation",
+      "authors": "Yury Kolomeytsev, Dmitry Golembiovsky",
+      "institution": "Lomonosov Moscow State University",
+      "link": "https://arxiv.org/pdf/2512.24651",
+      "code": null,
+      "tags": [
+        "robot navigation",
+        "hybrid motion planning",
+        "deep reinforcement learning",
+        "entity-aware reward",
+        "graph-based global planner",
+        "collision avoidance"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c6963a6e6a0df2bf9e5857d6154c70386d9271eb85763359a237ce12c4881bec_w640_q70.webp",
+      "contributions": "1. Proposes HMP-DRL, a hybrid framework integrating a graph-based global planner with a local DRL policy via checkpoints. 2. Introduces an entity-aware reward structure for the local planner to ensure social compliance by adjusting safety based on agent type. 3. Validates the method in a realistic simulation, showing superior performance in success rate, collision rate, and time to goal.",
+      "summary": "The paper proposes HMP-DRL, a hybrid motion planning framework that combines a graph-based global planner for long-range pathfinding with a local Deep Reinforcement Learning policy for reactive, socially-compliant navigation. The method uses checkpoints to integrate the global path and an entity-aware reward function to dynamically adjust to different moving agents. Experiments in realistic simulation show it outperforms other methods in key navigation metrics, enhancing safety and reliability in complex environments.",
+      "mindmap": "graph TB\n        A[Hybrid Motion Planning with Deep Reinforcement Learning for Mobile Robot Navigation] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[传统图规划器缺乏反应性/Traditional graph planners lack reactivity]\n        B --> B2[深度强化学习方法缺乏全局上下文/DRL methods lack global context]\n        C --> C1[混合框架HMP-DRL/Hybrid framework HMP-DRL]\n        C1 --> C2[图规划器生成路径/Graph planner generates path]\n        C1 --> C3[局部DRL策略使用检查点和实体感知奖励/Local DRL policy uses checkpoints & entity-aware reward]\n        D --> D1[更高的成功率/Higher success rate]\n        D --> D2[更低的碰撞率/Lower collision rate]\n        D --> D3[更短的到达时间/Shorter time to goal]"
+    },
+    {
+      "title": "Antagonistic Bowden-Cable Actuation of a Lightweight Robotic Hand: Toward Dexterous Manipulation for Payload Constrained Humanoids",
+      "authors": "Sungjae Min, Hyungjoo Kim, David Hyunchul Shim",
+      "institution": "Korea Advanced Institute of Science and Technology (KAIST)",
+      "link": "https://arxiv.org/pdf/2512.24657",
+      "code": null,
+      "tags": [
+        "robotics",
+        "dexterous manipulation",
+        "Bowden cable",
+        "antagonistic actuation",
+        "rolling-contact joint",
+        "lightweight hand",
+        "remote actuation"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/68209284d19343b15573d618c7b75854112d070151b024eca7b4729486140f7e_w640_q70.webp",
+      "contributions": "1. A novel lightweight robotic hand design combining rolling-contact joint optimization with antagonistic Bowden-cable actuation for single-motor-per-joint control. 2. A system architecture that relocates the actuator module to the robot's torso, drastically reducing the distal mass of the hand. 3. Demonstration of high performance, including fingertip force exceeding 18N and the ability to lift payloads over one hundred times its own mass.",
+      "summary": "This paper addresses the challenge of designing a dexterous robotic hand that is both lightweight and strong for payload-constrained humanoids. It proposes a hand actuated by antagonistic Bowden cables with optimized rolling-contact joints, enabling remote actuation from the torso to minimize weight. The resulting hand, weighing only 236g, demonstrated high force output and robust dexterous manipulation capabilities.",
+      "mindmap": "graph TB\n        Root[”Antagonistic Bowden-Cable Actuation of a Lightweight Robotic Hand”] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[”核心问题/Problem: Conflicting requirements for robotic hands (lightweight, strong, fast, dexterous) limit humanoid robot payload.”]\n        Method[”主要方法/Method: Lightweight hand with antagonistic Bowden-cable actuation and rolling-contact joints; actuators relocated to torso.”]\n        Results[”关键结果/Results: Hand mass 236g; >18N fingertip force; lifts >100x its mass; validated dexterous tasks.”]"
+    },
+    {
+      "title": "RoboMIND 2.0: A Multimodal, Bimanual Mobile Manipulation Dataset for Generalizable Embodied Intelligence",
+      "authors": "Chengkai Hou, Kun Wu, Jiaming Liu, Zhengping Che, Di Wu, Fei Liao, Guangrun Li, Jingyang He, Qiuxuan Feng, Zhao Jin, Chenyang Gu, Zhuoyang Liu, Nuowei Han, Xiangju Mi, Yaoxu Lv, Yankai Fu, Gaole Dai, Langzhe Gu, Tao Li, Yuheng Zhang, Yixue Zhang, Xinhua Wang, Shichao Fan, Meng Li, Zhen Zhao, Ning Liu, Zhiyuan Xu, Pei Ren, Junjie Ji, Haonan Liu, Kuan Cheng, Shanghang Zhang, Jian Tang",
+      "institution": "Beijing Innovation Center of Humanoid Robotics, Peking University",
+      "link": "https://arxiv.org/pdf/2512.24653",
+      "code": null,
+      "tags": [
+        "embodied ai / robotic manipulation",
+        "imitation learning",
+        "offline reinforcement learning",
+        "multimodal dataset",
+        "bimanual manipulation",
+        "sim-to-real transfer"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a1a0e9601e4aa64a92e289971771ed61ad7545ed91ce3194cf342f87d6636d96_w640_q70.webp",
+      "contributions": "1. Introduces RoboMIND 2.0, a large-scale, multimodal real-world dataset with over 310K dual-arm manipulation trajectories across diverse robots and tasks, including tactile and mobile manipulation data. 2. Provides high-fidelity digital twins and a complementary 20K-trajectory simulated dataset to facilitate robust sim-to-real transfer research. 3. Proposes the MIND-2 system, a hierarchical framework optimized via offline RL that integrates a high-level semantic planner and a low-level vision-language-action executor for complex task decomposition and execution.",
+      "summary": "This paper addresses the scarcity of diverse, large-scale real-world robotic manipulation data by introducing the RoboMIND 2.0 dataset, which includes hundreds of thousands of bimanual and mobile manipulation trajectories. To leverage this data, the authors propose the MIND-2 system, a hierarchical framework that uses offline reinforcement learning to integrate high-level planning with low-level control. The work aims to significantly advance the generalization capabilities of embodied AI agents in long-horizon, contact-rich, and unstructured environments.",
+      "mindmap": "graph TB\n        A[RoboMIND 2.0 论文 / RoboMIND 2.0 Paper] --> B\n        A --> C\n        A --> D\n        B[核心问题 / Problem] --> B1[数据稀缺 / Scarcity of large-scale, diverse real-world robotic demonstrations]\n        B --> B2[泛化能力有限 / Limited generalization in long-horizon bimanual and mobile manipulation]\n        C[主要方法 / Method] --> C1[发布RoboMIND 2.0数据集 / Release RoboMIND 2.0 Dataset]\n        C1 --> C1_1[31万+真实轨迹 / 310K+ real trajectories]\n        C1 --> C1_2[触觉与移动数据 / Tactile & mobile data]\n        C1 --> C1_3[数字孪生与仿真数据 / Digital twins & simulated data]\n        C --> C2[提出MIND-2系统 / Propose MIND-2 System]\n        C2 --> C2_1[高层语义规划器 / High-level semantic planner (MIND-2-VLM)]\n        C2 --> C2_2[低层VLA执行器 / Low-level VLA executor (MIND-2-VLA)]\n        C2 --> C2_3[离线强化学习优化 / Optimized via offline RL]\n        D[关键结果 / Results] --> D1[大规模多模态数据集 / Large-scale multimodal dataset]\n        D --> D2[促进泛化研究 / Facilitates research on generalization]\n        D --> D3[层次化系统框架 / Hierarchical system framework]"
+    },
+    {
+      "title": "ReSPIRe: Informative and Reusable Belief Tree Search for Robot Probabilistic Search and Tracking in Unknown Environments",
+      "authors": "Kangjie Zhou, Zhaoyang Li, Han Gao, Yao Su, Hangxin Liu, Junzhi Yu, Chang Liu",
+      "institution": "Peking University, Chinese Academy of Sciences, Beijing Institute for General Artificial Intelligence (BIGAI)",
+      "link": "https://arxiv.org/pdf/2512.24680",
+      "code": null,
+      "tags": [
+        "robotic planning under uncertainty",
+        "mutual information",
+        "belief tree search",
+        "sigma point approximation",
+        "hierarchical particle structure",
+        "reusable rollout"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1bc3dba762a4438b5f8c9012aee9dfd323191b47a56dd7b072cb478c53eb47f6_w640_q70.webp",
+      "contributions": "1. A novel sigma point-based approximation method for fast and accurate mutual information reward estimation under non-Gaussian belief distributions. 2. A hierarchical particle structure to handle significant prior uncertainty, extracting critical particles for global guidance and adapting particle numbers for efficiency. 3. A reusable belief tree search approach that reuses rollout evaluations to build a policy tree for efficient online trajectory planning.",
+      "summary": "This paper proposes ReSPIRe, a trajectory planning method for robot search and tracking in unknown environments with poor prior information. It introduces a sigma point-based MI approximation, a hierarchical particle structure, and a reusable belief tree search to improve planning efficiency and accuracy. Experiments show it outperforms benchmarks in search efficiency, tracking stability, and computational performance.",
+      "mindmap": "graph TB\n        A[ReSPIRe: Informative and Reusable Belief Tree Search] --> B[核心问题/Problem: Robot Search and Tracking in Unknown Cluttered Environments with Inaccurate Priors]\n        A --> C[主要方法/Method: Sigma Point MI Approximation, Hierarchical Particle Structure, Reusable Belief Tree Search]\n        A --> D[关键结果/Results: Outperforms Benchmarks in MI Error, Search Efficiency, Tracking Stability, and Computational Efficiency]"
+    },
+    {
+      "title": "VLA-RAIL: A Real-Time Asynchronous Inference Linker for VLA Models and Robots",
+      "authors": "Yongsheng Zhao, Lei Zhao, Baoping Cheng, Gongxin Yao, Xuanzhang Wen, Han Gao",
+      "institution": "China Mobile (Hangzhou) Information Technology Co., Ltd.",
+      "link": "https://arxiv.org/pdf/2512.24673",
+      "code": null,
+      "tags": [
+        "multi-modal inference",
+        "VLA models",
+        "action chunking",
+        "trajectory smoothing",
+        "asynchronous inference",
+        "robot motion control"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/886e2a128c843b55a605e8cbe2a7b174fc4b0e84225f1908b0b180891d09bdad_w640_q70.webp",
+      "contributions": "1. Proposes VLA-RAIL, a framework for asynchronous inference and motion control to enable smooth, continuous robot action execution. 2. Introduces a Trajectory Smoother using polynomial fitting to filter noise and jitter within an action chunk. 3. Designs a Chunk Fuser to ensure position, velocity, and acceleration continuity between successive action chunks.",
+      "summary": "This paper addresses the problem of motion jitter, stalling, and pauses when deploying Vision-Language-Action (VLA) models on robots due to sequential inference and execution. It proposes VLA-RAIL, a framework that decouples model inference from robot control via a Trajectory Smoother and Chunk Fuser. Experiments show it reduces jitter, increases speed, and improves task success rates for robotic manipulation.",
+      "mindmap": "graph TB\n        A[VLA-RAIL: A Real-Time Asynchronous Inference Linker] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[现有方法导致机器人动作抖动、卡顿/Existing methods cause jitter, stalling in robot actions]\n        C --> C1[异步推理与运动控制/Asynchronous inference & motion control]\n        C1 --> C2[轨迹平滑器/Trajectory Smoother]\n        C1 --> C3[块融合器/Chunk Fuser]\n        D --> D1[减少运动抖动/Reduces motion jitter]\n        D --> D2[提升执行速度/Enhances execution speed]\n        D --> D3[提高任务成功率/Improves task success rates]"
+    },
+    {
+      "title": "CREPES-X: Hierarchical Bearing-Distance-Inertial Direct Cooperative Relative Pose Estimation System",
+      "authors": "Zhehan Li, Zheng Wang, Jiadong Lu, Qi Liu, Zhiren Xun, Yue Wang, Fei Gao, Chao Xu, Yanjun Cao",
+      "institution": "Zhejiang University",
+      "link": "https://arxiv.org/pdf/2512.24688",
+      "code": null,
+      "tags": [
+        "multi-robot localization",
+        "relative pose estimation",
+        "sensor fusion",
+        "hierarchical estimator",
+        "bearing outlier rejection",
+        "robocentric kinematics"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/305ab0f1d9896dda630bd4d638581b98363b86a626acdea82d5357417610e8b0_w640_q70.webp",
+      "contributions": "1. A compact hardware design integrating IR LEDs, an IR camera, UWB, and IMU into a small cube for multi-robot relative sensing., 2. A two-stage hierarchical estimator comprising a fast single-frame estimator with closed-form solution and outlier rejection, and an accurate multi-frame estimator with IMU pre-integration and optimization., 3. Demonstrated robustness to up to 90% bearing outliers and high accuracy (0.073m, 1.817° RMSE) in real-world experiments without requiring global information.",
+      "summary": "The paper presents CREPES-X, a hierarchical framework for direct cooperative relative pose estimation in multi-robot systems. It uses a compact sensor module and a two-stage estimator to fuse bearing, distance, and inertial measurements without environmental features, achieving high speed, accuracy, and robustness to outliers. Experiments validate its effectiveness in challenging conditions.",
+      "mindmap": "graph TB\n        A[CREPES-X: Hierarchical Bearing-Distance-Inertial Direct Cooperative Relative Pose Estimation System] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[多机器人相对定位挑战 / Multi-robot relative localization challenges]\n        B1 --> B2[依赖环境特征或惯性假设 / Rely on environmental features or inertial assumptions]\n        B1 --> B3[非视距与异常值 / NLOS degradation and outliers]\n        C --> C1[紧凑硬件设计 / Compact hardware design]\n        C1 --> C2[IR LED, 相机, UWB, IMU / IR LED, camera, UWB, IMU]\n        C --> C3[两级分层估计器 / Two-stage hierarchical estimator]\n        C3 --> C4[单帧估计器: 闭式解, 异常值剔除 / Single-frame: closed-form, outlier rejection]\n        C3 --> C5[多帧估计器: IMU预积分, 优化 / Multi-frame: IMU pre-integration, optimization]\n        D --> D1[鲁棒性: 90% 方位异常值 / Robustness: 90% bearing outliers]\n        D --> D2[准确性: 0.073m, 1.817° RMSE / Accuracy: 0.073m, 1.817° RMSE]\n        D --> D3[无全局信息 / No global information required]"
+    },
+    {
+      "title": "Dynamic Policy Learning for Legged Robot with Simplified Model Pretraining and Model Homotopy Transfer",
+      "authors": "Dongyun Kang, Min-Gyu Kim, Tae-Gyu Song, Hajun Kim, Sehoon Ha, Hae-Won Park",
+      "institution": "Korea Advanced Institute of Science and Technology (KAIST), Georgia Institute of Technology",
+      "link": "https://arxiv.org/pdf/2512.24698",
+      "code": null,
+      "tags": [
+        "reinforcement learning",
+        "model homotopy",
+        "continuation learning",
+        "single rigid body model",
+        "policy transfer",
+        "legged locomotion"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f290446d6dbc75a7566abaf855c8d703414e58780e4d737ff33bd9bcd9c33512_w640_q70.webp",
+      "contributions": "1. Proposes a continuation-based learning framework combining simplified model pretraining and model homotopy transfer for efficient policy learning. 2. Introduces a model homotopy path defined by gradually redistributing mass and inertia from a Single Rigid Body (SRB) model to a full-body model. 3. Demonstrates faster convergence and superior transfer stability for complex dynamic tasks (e.g., flips, wall maneuvers) and successful real-robot deployment.",
+      "summary": "This paper addresses the challenge of transferring policies from simplified to full-body dynamics for legged robots. It proposes a framework that first pretrains a policy using a Single Rigid Body model and then uses a model homotopy to gradually transfer it to the full-body environment. The method achieves faster convergence, stable transfer, and is validated on dynamic tasks with a real quadruped robot.",
+      "mindmap": "graph TB\n        Root[Dynamic Policy Learning for Legged Robot] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem] --> P1[模型差异/Model discrepancy]\n        P1 --> P2[简化模型到全身模型策略迁移困难/Difficult policy transfer from simplified to full-body model]\n        Method[主要方法/Method] --> M1[简化模型预训练/Simplified model pretraining]\n        M1 --> M2[使用单刚体模型/Using Single Rigid Body model]\n        Method --> M3[模型同伦迁移/Model homotopy transfer]\n        M3 --> M4[渐进质量与惯量重分配/Gradual mass & inertia redistribution]\n        Results[关键结果/Results] --> R1[更快收敛/Faster convergence]\n        Results --> R2[迁移稳定/Superior transfer stability]\n        Results --> R3[真实机器人部署成功/Successful real-robot deployment]"
+    },
+    {
+      "title": "LSRE: Latent Semantic Rule Encoding for Real-Time Semantic Risk Detection in Autonomous Driving",
+      "authors": "Qian Cheng, Weitao Zhou, Cheng Jing, Nanshan Deng, Junze Wen, Zhaoyang Liu, Kun Jiang, Diange Yang",
+      "institution": "Tsinghua University",
+      "link": "https://arxiv.org/pdf/2512.24712",
+      "code": null,
+      "tags": [
+        "multi-modal inference",
+        "latent semantic rule encoding",
+        "recurrent world model",
+        "language-guided latent classification",
+        "semantic risk detection",
+        "autonomous driving"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f7d95e05edf41980725845c43ad581e04cc0d1877fc56167a5c4d2c47f7e9516_w640_q70.webp",
+      "contributions": "1. Proposed LSRE, a framework that encodes sparse VLM judgments into decision boundaries within a recurrent world model's latent space for real-time semantic risk assessment. 2. Demonstrated that LSRE achieves detection accuracy comparable to a per-frame VLM baseline while enabling earlier hazard anticipation and operating at 10 Hz. 3. Showed that the learned latent classifier generalizes to rarely seen, semantically similar test cases, indicating its effectiveness for semantic safety monitoring.",
+      "summary": "The paper addresses the problem of real-time semantic rule compliance in autonomous driving, where explicit encoding of complex social rules is difficult. It proposes LSRE, a framework that uses sparsely sampled VLM outputs to train a lightweight latent classifier within a recurrent world model, enabling efficient semantic risk detection. The method achieves accuracy comparable to a VLM baseline with much lower latency and better anticipation, showing promise for deployable semantic safety systems.",
+      "mindmap": "graph TB\n        A[LSRE: Latent Semantic Rule Encoding for Real-Time Semantic Risk Detection in Autonomous Driving] --> B(核心问题/Problem: Real-time semantic rule compliance in autonomous driving is difficult to encode explicitly and VLM inference is too slow.)\n        A --> C(主要方法/Method: LSRE converts sparse VLM judgments into decision boundaries in a recurrent world model's latent space.)\n        A --> D(关键结果/Results: Achieves VLM-comparable accuracy, earlier anticipation, 10 Hz operation, and generalization to unseen cases.)"
+    },
+    {
+      "title": "Control of Microrobots with Reinforcement Learning under On-Device Compute Constraints",
+      "authors": "Yichen Liu, Kesava Viswanadha, Zhongyu Li, Nelson Lojo, Kristofer S. J. Pister",
+      "institution": "University of California, Berkeley",
+      "link": "https://arxiv.org/pdf/2512.24740",
+      "code": null,
+      "tags": [
+        "on-device ai",
+        "reinforcement learning",
+        "quantization",
+        "domain randomization",
+        "gait scheduling",
+        "edge ML"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b59e857eb5b5c4d1e8a552ef8542246a2d1db88ba891759753679922c30b963c_w640_q70.webp",
+      "contributions": "1. Proposes and implements an edge ML pipeline for microrobot locomotion, training a compact RL policy in simulation and deploying it on an ultra-low-power ARM Cortex-M0 SoC. 2. Introduces a resource-aware gait scheduling framework that selects the optimal gait mode (e.g., trot, gallop) based on the hardware's power budget and achievable inference frequency to maximize expected reward. 3. Demonstrates the use of domain randomization and integer quantization (Int8) to enhance policy robustness and enable higher update rates on severely resource-constrained hardware.",
+      "summary": "This paper addresses the challenge of on-device, low-latency control for microrobots under strict compute and power constraints. The method involves training a compact reinforcement learning policy with domain randomization in simulation, quantizing it to Int8 for efficient inference on a 5 MHz microcontroller, and proposing a power-budget-aware gait scheduler. The main conclusion is that this edge ML approach enables autonomous locomotion control on ultra-small hardware, with domain randomization improving out-of-distribution stability.",
+      "mindmap": "graph TB\n        A[Control of Microrobots with RL under On-Device Compute Constraints<br>微机器人在设备计算约束下的强化学习控制] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[On-device autonomy for microrobots<br>微机器人的设备端自主性]\n        B --> B2[Severe compute/power constraints<br>严苛的计算/功耗约束]\n        C --> C1[Train compact RL policy with domain randomization<br>使用域随机化训练紧凑RL策略]\n        C --> C2[Quantize policy (Int8) for efficient inference<br>量化策略(Int8)以实现高效推理]\n        C --> C3[Resource-aware gait scheduling<br>资源感知的步态调度]\n        D --> D1[Deployment on ultra-small SoC (Cortex-M0)<br>在超小型SoC上部署]\n        D --> D2[Connects power budget to feasible update rate<br>连接功耗预算与可行更新频率]\n        D --> D3[Improved OOD stability via domain randomization<br>通过域随机化提升OOD稳定性]"
+    },
+    {
+      "title": "Dream2Flow: Bridging Video Generation and Open-World Manipulation with 3D Object Flow",
+      "authors": "Karthik Dharmarajan, Wenlong Huang, Jiajun Wu, Li Fei-Fei, Ruohan Zhang",
+      "institution": "Stanford University",
+      "link": "https://arxiv.org/pdf/2512.24766",
+      "code": null,
+      "tags": [
+        "robotic manipulation",
+        "3D object flow",
+        "video generation",
+        "zero-shot manipulation",
+        "trajectory optimization",
+        "reinforcement learning"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c22839be4198942eb08182abe0606d486a3126572afb757ce865cb1b3a787721_w640_q70.webp",
+      "contributions": "1. Proposes Dream2Flow, a framework that bridges video generation and robotic control using 3D object flow as an intermediate representation. 2. Demonstrates the ability to reconstruct 3D object motions from generated videos and formulate manipulation as object trajectory tracking, overcoming the embodiment gap. 3. Shows that the method enables zero-shot guidance from pre-trained video models to manipulate diverse object categories (rigid, articulated, deformable, granular) without task-specific demonstrations.",
+      "summary": "The paper introduces Dream2Flow, a framework that uses 3D object flow extracted from videos generated by off-the-shelf models as an interface for robotic manipulation. It translates these generated motions into executable robot actions via trajectory optimization or reinforcement learning, enabling zero-shot manipulation of diverse objects in open-world settings. The results demonstrate 3D object flow as a general and scalable bridge between video generation models and robotic control.",
+      "mindmap": "graph TB\n        A[Dream2Flow: Bridging Video Generation and Open-World Manipulation with 3D Object Flow] --> B(核心问题/Problem: Translating human-like motions from video models into low-level robot actions)\n        A --> C(主要方法/Method: Use 3D object flow as intermediate representation, reconstruct motions from videos, track trajectories)\n        A --> D(关键结果/Results: Enables zero-shot manipulation of diverse objects, bridges video generation to robot control)"
+    },
+    {
+      "title": "Explaining Why Things Go Where They Go: Interpretable Constructs of Human Organizational Preferences",
+      "authors": "Emmanuel Fashae, Michael Burke, Leimin Tian, Lingheng Meng, Pamela Carreno-Medrano",
+      "institution": "Monash University, CSIRO Robotics",
+      "link": "https://arxiv.org/pdf/2512.24829",
+      "code": null,
+      "tags": [
+        "human-robot interaction",
+        "object rearrangement",
+        "human preference modeling",
+        "Monte Carlo Tree Search",
+        "psychological constructs",
+        "user study"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c0c9201484194f4f746f05eae7a288356c0e53c3a3a9d4683db5313924455a5a_w640_q70.webp",
+      "contributions": "1. Proposes a novel, interpretable formulation of human object arrangement preferences based on four psychological constructs (spatial practicality, habitual convenience, semantic coherence, commonsense appropriateness). 2. Designs and validates a self-report questionnaire to capture these constructs through a 63-participant online study. 3. Demonstrates the utility of these constructs by integrating them into a Monte Carlo Tree Search (MCTS) planner to generate arrangements that align with human preferences.",
+      "summary": "This paper addresses the lack of interpretability in robotic object rearrangement models by identifying four explicit psychological constructs that guide human organizational preferences. The authors designed a questionnaire to measure these constructs and integrated them into a Monte Carlo Tree Search planner. The results show that the planner, guided by these interpretable preferences, can generate arrangements closely matching those created by human participants.",
+      "mindmap": "graph TB\n        A[Explaining Why Things Go Where They Go<br>解释物品为何归位] --> B(Problem: 机器人重排模型缺乏可解释性<br>Problem: Robotic rearrangement models lack interpretability)\n        A --> C(Method: 提出四个可解释偏好构念与问卷<br>Method: Four interpretable preference constructs & questionnaire)\n        A --> D(Results: 基于MCTS的规划器能生成符合人类偏好的布局<br>Results: MCTS planner generates human-aligned arrangements)"
+    },
+    {
+      "title": "CropTrack: A Tracking with Re-Identification Framework for Precision Agriculture",
+      "authors": "Md Ahmed Al Muzaddid, Jordan A. James, William J. Beksi",
+      "institution": "The University of Texas at Arlington",
+      "link": "https://arxiv.org/pdf/2512.24838",
+      "code": null,
+      "tags": [
+        "multiple-object tracking",
+        "appearance-motion association",
+        "re-identification",
+        "exponential moving average"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9408f95352ab182fdf244f790c589fbdfab17f28b86d4a84534385d1d25eb2fd_w640_q70.webp",
+      "contributions": "1. A reranking-enhanced appearance association module to improve feature matching. 2. A one-to-many association strategy with an appearance-based conflict resolution mechanism. 3. An exponential moving average prototype feature bank for robust appearance modeling.",
+      "summary": "This paper proposes CropTrack, a novel multiple-object tracking framework for agricultural environments that combines appearance and motion information to address challenges like occlusions and similar object appearances. It introduces techniques like reranking-enhanced association and a prototype feature bank to improve identity preservation. The method outperforms traditional motion-based trackers and achieves state-of-the-art association accuracy on agricultural MOT datasets.",
+      "mindmap": "graph TB\n        A[CropTrack: A Tracking with Re-Identification Framework for Precision Agriculture] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[农业MOT挑战: 遮挡, 外观相似/MOT Challenges: Occlusions, Similar Appearance]\n        C --> C1[结合外观与运动信息/Combine Appearance & Motion]\n        C --> C2[重排序增强关联/Reranking-enhanced Association]\n        C --> C3[指数移动平均特征库/Exponential Moving Average Feature Bank]\n        D --> D1[更优的身份保持/Better Identity Preservation]\n        D --> D2[更高的关联准确率/Higher Association Accuracy]"
+    },
+    {
+      "title": "ArtiSG: Functional 3D Scene Graph Construction via Human-demonstrated Articulated Objects Manipulation",
+      "authors": "Qiuyi Gu, Yuze Sheng, Jincheng Yu, Jiahao Tang, Xiaolong Shan, Zhaoyang Shen, Tinghao Yi, Xiaodan Liang, Xinlei Chen, Yu Wang",
+      "institution": "Tsinghua University, University of Science and Technology of China, Pengcheng Laboratory",
+      "link": "https://arxiv.org/pdf/2512.24845",
+      "code": null,
+      "tags": [
+        "scene understanding",
+        "3D scene graph",
+        "articulated objects",
+        "human demonstration",
+        "functional memory",
+        "open-vocabulary"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7c33a51675e9901df263079c00c28d088fa6727c755e5d0709633ed22d655d18_w640_q70.webp",
+      "contributions": "1. A framework (ArtiSG) that constructs functional 3D scene graphs by encoding human demonstrations into structured robotic memory. 2. A robust articulation data collection pipeline using a portable setup to estimate 6-DoF articulation trajectories and axes under camera ego-motion. 3. Integration of kinematic priors into a hierarchical graph and use of interaction data to discover functional elements missed by visual perception.",
+      "summary": "The paper presents ArtiSG, a framework that constructs functional 3D scene graphs by learning from human manipulation demonstrations to understand object articulation and discover functional elements. It introduces a portable data collection pipeline to estimate articulation parameters and integrates these into an open-vocabulary graph. Experiments show it outperforms baselines in functional recall and articulation precision, and the resulting graph effectively guides robots in language-directed manipulation tasks.",
+      "mindmap": "graph TB\n        A[ArtiSG: Functional 3D Scene Graph Construction] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[3D场景图缺乏功能信息/3D Scene Graphs Lack Functional Info]\n        B --> B2[现有方法存在视觉模糊性或依赖受限设置/Existing Methods Have Visual Ambiguity or Rely on Constrained Settings]\n        B --> B3[细小功能元素常被漏检/Fine-grained Functional Elements Often Missed]\n        C --> C1[利用人类演示构建功能记忆/Use Human Demonstration to Build Functional Memory]\n        C --> C2[鲁棒的便携式关节数据采集/Robust Portable Articulation Data Collection]\n        C --> C3[分层开放词汇图集成先验/Hierarchical Open-vocabulary Graph with Priors]\n        D --> D1[功能元素召回与关节估计精度显著提升/Significant Improvement in Functional Recall & Articulation Precision]\n        D --> D2[图作为可靠记忆指导机器人操作/Graph as Reliable Memory Guides Robot Manipulation]"
+    },
+    {
+      "title": "VLN-MME: Diagnosing MLLMs as Language-guided Visual Navigation agents",
+      "authors": "Xunyi Zhao, Gengze Zhou, Qi Wu",
+      "institution": "Adelaide University, Australian Institute of Machine Learning",
+      "link": "https://arxiv.org/pdf/2512.24851",
+      "code": null,
+      "tags": [
+        "embodied ai",
+        "Vision-and-Language Navigation",
+        "Multimodal Large Language Models",
+        "evaluation framework",
+        "spatial reasoning",
+        "sequential decision-making"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/15acf4c91a5dc52a1564da96c7602f92c4733b8ba50a6e941b2f51f2a00f6501_w640_q70.webp",
+      "contributions": "1. Introduced VLN-MME, a unified and extensible evaluation framework for probing MLLMs as zero-shot agents in Vision-and-Language Navigation. 2. Provided a highly modular and accessible design that enables structured comparisons and component-level ablations across diverse MLLM architectures and agent designs. 3. Discovered that enhancing agents with Chain-of-Thought reasoning and self-reflection leads to performance degradation, revealing MLLMs' poor context awareness and low 3D spatial reasoning fidelity in embodied navigation tasks.",
+      "summary": "This paper investigates the performance of Multimodal Large Language Models (MLLMs) as embodied agents for Vision-and-Language Navigation (VLN). It proposes a unified evaluation framework called VLN-MME to benchmark MLLMs in a zero-shot setting. The key finding is that, contrary to expectations, advanced reasoning techniques like Chain-of-Thought degrade navigation performance, indicating MLLMs have significant limitations in 3D spatial reasoning and sequential decision-making for embodied tasks.",
+      "mindmap": "graph TB\n        A[VLN-MME: Diagnosing MLLMs as Language-guided Visual Navigation agents] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[评估MLLMs作为具身智能体的性能/Evaluating MLLMs as Embodied Agents]\n        C --> C1[提出统一评估框架VLN-MME/Propose Unified Evaluation Framework VLN-MME]\n        D --> D1[CoT与反思导致性能下降/CoT & Self-Reflection Degrade Performance]\n        D --> D2[MLLMs空间推理能力弱/MLLMs Have Poor Spatial Reasoning]"
+    },
+    {
+      "title": "MSACL: Multi-Step Actor-Critic Learning with Lyapunov Certificates for Exponentially Stabilizing Control",
+      "authors": "Yongwei Zhang, Yuanzhe Xing, Quan Quan, Zhikun She",
+      "institution": "Beihang University",
+      "link": "https://arxiv.org/pdf/2512.24955",
+      "code": null,
+      "tags": [
+        "reinforcement learning",
+        "Lyapunov certificates",
+        "exponential stability",
+        "multi-step learning",
+        "actor-critic",
+        "maximum entropy RL"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ea102a46402567fc13871b6bc5f72e6c07e79e6ee87e8349aee1c18c8fc9627e_w640_q70.webp",
+      "contributions": "1. Proposes a novel framework (MSACL) that integrates exponential stability theory with maximum entropy RL via multi-step Lyapunov certificate learning, using off-policy data to learn certificates that satisfy theoretical stability conditions. 2. Introduces Exponential Stability Labels (ESL) and a λ-weighted aggregation mechanism to effectively balance the bias-variance trade-off in multi-step learning. 3. Guides policy optimization with a stability-aware advantage function to ensure the learned policy promotes rapid Lyapunov descent, achieving provable stability and robustness under simple rewards.",
+      "summary": "This paper proposes MSACL, a model-free reinforcement learning framework that ensures provable exponential stability by learning Lyapunov certificates from multi-step data and guiding policy optimization with a stability-aware advantage. It demonstrates superior performance over baseline and state-of-the-art Lyapunov-based RL methods across six benchmarks, achieving rapid convergence and robustness with simple rewards. The work establishes a link between Lyapunov theory and actor-critic frameworks for verifiably safe control.",
+      "mindmap": "graph TB\n        A[MSACL: Multi-Step Actor-Critic Learning with Lyapunov Certificates] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[Provable Stability in Model-Free RL / 模型无关RL的可证明稳定性]\n        C --> C1[Multi-Step Lyapunov Certificate Learning / 多步李雅普诺夫证书学习]\n        C --> C2[Stability-Aware Advantage Function / 稳定性感知优势函数]\n        D --> D1[Superiority over SOTA / 优于现有最优方法]\n        D --> D2[Exponential Stability & Robustness / 指数稳定性与鲁棒性]"
+    },
+    {
+      "title": "Hierarchical Deformation Planning and Neural Tracking for DLOs in Constrained Environments",
+      "authors": "Yunxi Tang, Tianqi Yang, Jing Huang, Xiangyu Chu, Kwok Wai Samuel Au",
+      "institution": "The Chinese University of Hong Kong, Multi-scale Medical Robotics Centre",
+      "link": "https://arxiv.org/pdf/2512.24974",
+      "code": null,
+      "tags": [
+        "deformable object manipulation",
+        "hierarchical deformation planning",
+        "neural model predictive control",
+        "path-set-guided optimization"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/86d851499789c822d47697a25d36a0162ba4f39e7f0421165d2bee0e6a9f0ee2_w640_q70.webp",
+      "contributions": "1. A hierarchical deformation planning framework that first generates a spatial path set satisfying homotopic constraints and then synthesizes an optimal temporal deformation sequence. 2. A neural model predictive control approach for accurate tracking of the planned deformation, leveraging a data-driven deformation model. 3. A novel integrated framework combining global planning and local tracking, validated in extensive constrained DLO manipulation tasks.",
+      "summary": "This paper addresses the challenge of manipulating deformable linear objects (DLOs) in cluttered environments. It proposes a new framework that combines hierarchical deformation planning with neural tracking, using a path-set-guided optimization for planning and a data-driven neural MPC for execution. The method is shown to be effective in complex constrained manipulation tasks.",
+      "mindmap": "graph TB\n        A[”Hierarchical Deformation Planning and Neural Tracking for DLOs in Constrained Environments”] --> B[”核心问题/Problem: DLO manipulation in constrained environments is challenging due to high-dimensional state space and obstacles.”]\n        A --> C[”主要方法/Method: Combines hierarchical deformation planning (path-set generation & optimization) with neural tracking (data-driven MPC).”]\n        A --> D[”关键结果/Results: Framework validated as effective in extensive constrained DLO manipulation tasks.”]"
+    },
+    {
+      "title": "DarkEQA: Benchmarking Vision-Language Models for Embodied Question Answering in Low-Light Indoor Environments",
+      "authors": "Yohan Park, Hyunwoo Ha, Wonjun Jo, Tae-Hyun Oh",
+      "institution": "Korea Advanced Institute of Science and Technology (KAIST), Pohang University of Science and Technology (POSTECH)",
+      "link": "https://arxiv.org/pdf/2512.24985",
+      "code": null,
+      "tags": [
+        "embodied vision-language reasoning",
+        "low-light vision",
+        "embodied question answering",
+        "vision-language models",
+        "image enhancement",
+        "benchmark"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f144c0ff2baabb069f605975462919cef76b3f54919a8c9db67dab0432973003_w640_q70.webp",
+      "contributions": "1. Introduces DarkEQA, the first benchmark for evaluating Embodied Question Answering (EQA) under multi-level, physics-based low-light conditions. 2. Features a physically faithful degradation pipeline that models illumination drop and sensor noise in linear RAW space, followed by an ISP-inspired renderer. 3. Systematically evaluates and reveals the limitations of state-of-the-art VLMs and the effectiveness of Low-Light Image Enhancement (LLIE) models as pre-processors in this challenging scenario.",
+      "summary": "This paper identifies a gap in evaluating Vision-Language Models (VLMs) for embodied agents under low-light conditions and proposes DarkEQA, a new benchmark that simulates realistic dark environments. The benchmark uses a physics-based image degradation model to test VLM robustness and the utility of image enhancement techniques. The evaluation reveals significant performance drops in VLMs under low-light, highlighting a critical area for improvement in robust embodied AI.",
+      "mindmap": "graph TB\n        A[DarkEQA: Benchmarking VLMs for EQA in Low-Light] --> B[核心问题/Problem: Existing EQA benchmarks overlook low-light conditions, a necessity for 24/7 robot operation.]\n        A --> C[主要方法/Method: Proposes DarkEQA benchmark with physics-based low-light simulation in RAW space and ISP pipeline.]\n        A --> D[关键结果/Results: Evaluates VLMs & LLIE models, systematically revealing VLM limitations under low-light.]"
+    },
+    {
+      "title": "Coordinated Humanoid Manipulation with Choice Policies",
+      "authors": "Haozhi Qi, Yen-Jen Wang, Toru Lin, Brent Yi, Yi Ma, Koushil Sreenath, Jitendra Malik",
+      "institution": "UC Berkeley",
+      "link": "https://arxiv.org/pdf/2512.25072",
+      "code": "https://choice-policy.github.io",
+      "tags": [
+        "imitation learning",
+        "humanoid robot",
+        "teleoperation",
+        "choice policy",
+        "multimodal behavior",
+        "whole-body coordination"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d8fc3a4a5fc6ec972fc1d7ab23cbd63d6c1c8efc8d326140cc34f70ea5a5cb65_w640_q70.webp",
+      "contributions": "1. A modular teleoperation interface that decomposes humanoid control into intuitive submodules (e.g., hand-eye coordination, locomotion) for efficient, high-quality data collection. 2. The Choice Policy, a novel imitation learning architecture that generates multiple candidate actions and learns to score them, enabling fast inference and effective modeling of multimodal behaviors. 3. Empirical validation on real-world tasks (dishwasher loading, whiteboard wiping) showing superior performance over diffusion policies and behavior cloning, and highlighting the critical role of hand-eye coordination.",
+      "summary": "This paper tackles the challenge of achieving robust whole-body coordination for humanoid robots in unstructured environments. It proposes a system combining a modular teleoperation interface for data collection with a novel \"Choice Policy\" for imitation learning, which scores multiple candidate actions. Experiments on real-world tasks demonstrate that this approach outperforms baseline methods and that hand-eye coordination is crucial for success in long-horizon manipulation.",
+      "mindmap": "graph TB\n        A[Coordinated Humanoid Manipulation with Choice Policies] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[”实现人形机器人头、手、腿的鲁棒全身协调/Robust whole-body coordination for humanoids”]\n        C --> C1[”模块化遥操作接口/Modular teleoperation interface”]\n        C --> C2[”选择策略：生成并评估候选动作/Choice Policy: generate & score candidate actions”]\n        D --> D1[”在洗碗机装载、白板擦拭任务上超越基线/Outperforms baselines on dishwasher loading & whiteboard wiping”]\n        D --> D2[”手眼协调对长时域任务至关重要/Hand-eye coordination is critical for long-horizon tasks”]"
+    },
+    {
+      "title": "SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time",
+      "authors": "Zhening Huang, Hyeonho Jeong, Xuelin Chen, Yulia Gryaditskaya, Tuanfeng Y. Wang, Joan Lasenby, Chun-Hao Huang",
+      "institution": "University of Cambridge, Adobe Research",
+      "link": "https://arxiv.org/pdf/2512.25075",
+      "code": "https://github.com/zheninghuang/Space-Time-Pilot",
+      "tags": [
+        "video generation",
+        "video diffusion model",
+        "space-time disentanglement",
+        "temporal-warping training",
+        "camera-conditioning",
+        "generative rendering"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/82552564f2c6cc5799df28c30493304ecd3600d22b5bcd81578cb3aaf6f15150_w640_q70.webp",
+      "contributions": "1. Introduced an animation time-embedding mechanism for explicit motion sequence control in video diffusion. 2. Proposed a temporal-warping training scheme to repurpose multi-view datasets for learning temporal variations. 3. Created the CamxTime synthetic dataset and an improved camera-conditioning mechanism for precise dual space-time control.",
+      "summary": "This paper introduces SpaceTimePilot, a video diffusion model that independently controls camera viewpoint and motion sequence to re-render dynamic scenes from a monocular video. The method uses a novel time-embedding mechanism and a temporal-warping training strategy to achieve robust space-time disentanglement. Experiments show the model enables continuous exploration across space and time, outperforming prior work.",
+      "mindmap": "graph TB\n        A[SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time] --> B[核心问题/Problem: 如何从单目视频中解耦空间和时间以进行可控生成渲染/How to disentangle space and time from a monocular video for controllable generative rendering]\n        A --> C[主要方法/Method: 引入动画时间嵌入机制和时域扭曲训练方案/Introduce animation time-embedding and temporal-warping training scheme]\n        A --> D[关键结果/Results: 实现鲁棒的时空解耦与连续可控渲染/Achieve robust space-time disentanglement and continuous controllable rendering]"
+    },
+    {
       "title": "HLS4PC: A Parametrizable Framework For Accelerating Point-Based 3D Point Cloud Models on FPGA",
       "authors": "Amur Saqib Pal, Muhammad Mohsin Ghaffar, Faisal Shafait, Christian Weis, Norbert Wehn",
       "institution": "National University of Sciences and Technology (Pakistan), RPTU Kaiserslautern-Landau (Germany)",

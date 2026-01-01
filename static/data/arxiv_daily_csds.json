@@ -4,6 +4,187 @@
   "week": "20251229-20260104",
   "items": [
     {
+      "title": "Sparse Random Matrices for Dimensionality Reduction",
+      "authors": "Pierre Mackenzie",
+      "institution": "University of British Columbia",
+      "link": "https://arxiv.org/pdf/2512.23756",
+      "code": null,
+      "tags": [
+        "dimensionality reduction",
+        "Johnson-Lindenstrauss lemma",
+        "sparse random matrices",
+        "matrix-vector multiplication",
+        "Achlioptas construction",
+        "Kane-Nelson construction"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8a670cd5206d0ba658c3f68a4523ce09028f6474d50ca9c6c85877730f6cb232_w640_q70.webp",
+      "contributions": "1. Outlines the theoretical constructions and proofs for sparse Johnson-Lindenstrauss transforms from Achlioptas (2003) and Kane & Nelson (2014). 2. Implements the sparse JL constructions for empirical evaluation. 3. Empirically compares the performance of these sparse constructions against the standard dense Gaussian JL matrices.",
+      "summary": "This paper explores sparse random matrices for dimensionality reduction to speed up computation. It outlines and implements the sparse Johnson-Lindenstrauss constructions by Achlioptas and Kane & Nelson, and empirically compares them to the standard dense Gaussian approach. The main conclusion is an empirical performance comparison of these faster, sparse methods.",
+      "mindmap": "graph TB\n        Root(”Sparse Random Matrices for Dimensionality Reduction<br>稀疏随机矩阵用于降维”) --> Problem(”核心问题/Problem”)\n        Root --> Method(”主要方法/Method”)\n        Root --> Results(”关键结果/Results”)\n        Problem --> P1(”Dense JL matrices are computationally expensive.<br>稠密JL矩阵计算成本高。”)\n        Method --> M1(”Outline Achlioptas (2003) & Kane-Nelson (2014) sparse JL constructions.<br>概述稀疏JL构造。”)\n        Method --> M2(”Implement sparse JL transforms.<br>实现稀疏JL变换。”)\n        Results --> R1(”Empirical comparison with Gaussian JL.<br>与高斯JL进行实证比较。”)"
+    },
+    {
+      "title": "Kidney Exchange: Faster Parameterized Algorithms and Tighter Lower Bounds",
+      "authors": "Aritra Banik, Sujoy Bhore, Palash Dey, Abhishek Sahu",
+      "institution": "National Institute of Science Education and Research Bhubaneswar, Indian Institute of Technology Bombay, Indian Institute of Technology Kharagpur",
+      "link": "https://arxiv.org/pdf/2512.24037",
+      "code": null,
+      "tags": [
+        "parameterized complexity",
+        "kidney exchange",
+        "FPT algorithm",
+        "W1-hardness",
+        "pathwidth",
+        "treewidth"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/00da3e6d7b1c46c83d5812783ee99ea1cfff1a2c3a708bddcff4c69f9ab7902c_w640_q70.webp",
+      "contributions": "1. A new deterministic FPT algorithm for the kidney exchange problem parameterized by the number of patients receiving a kidney, improving the runtime from O*(14^t) to O*((4e)^t) ≈ O*(10.88^t). 2. A proof that the kidney exchange problem is W[1]-hard when parameterized by the pathwidth of the underlying graph, answering a natural question about the parameter's tractability. 3. Additional parameterized intractability results that improve the overall understanding of the problem's complexity landscape.",
+      "summary": "This paper studies the computationally hard kidney exchange problem, where patient-donor pairs and altruistic donors exchange kidneys via cycles and paths. The authors present a faster deterministic parameterized algorithm for the standard parameter (number of patients receiving a kidney) and prove that the problem remains intractable (W[1]-hard) even when parameterized by pathwidth, a more restrictive structural parameter than treewidth.",
+      "mindmap": "graph TB\n        Root[”Kidney Exchange: Faster Parameterized Algorithms and Tighter Lower Bounds<br>肾脏交换：更快的参数化算法与更紧的下界”] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[”核心问题/Problem<br>Kidney exchange is NP-complete<br>肾脏交换问题是NP完全问题”] --> P1[”限制/Constraint<br>Exchange via small cycles & paths<br>通过小环和路径交换”]\n        Method[”主要方法/Method<br>Parameterized Complexity<br>参数化复杂度”] --> M1[”参数/Parameter<br>Number of patients (t)<br>患者数量(t)”]\n        Method --> M2[”参数/Parameter<br>Graph pathwidth<br>图路径宽度”]\n        Results[”关键结果/Results”] --> R1[”算法改进/Algorithmic Improvement<br>FPT algorithm: O*((4e)^t)<br>FPT算法: O*((4e)^t)”]\n        Results --> R2[”下界/Lower Bound<br>W[1]-hard for pathwidth<br>对路径宽度是W[1]-难的”]"
+    },
+    {
+      "title": "Faster Algorithms for Global Minimum Vertex-Cut in Directed Graphs",
+      "authors": "Julia Chuzhoy, Ron Mosenzon, Ohad Trabelsi",
+      "institution": "Toyota Technological Institute at Chicago, University of Haifa",
+      "link": "https://arxiv.org/pdf/2512.24355",
+      "code": null,
+      "tags": [
+        "graph algorithms",
+        "vertex-cut",
+        "directed graphs",
+        "randomized algorithms",
+        "graph connectivity",
+        "minimum cut"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/eb68cda99b81d93f4242f2707f0a8a7f9ecd4fefbef705767501edf081d6d8b8_w640_q70.webp",
+      "contributions": "1. Breaks the long-standing Θ(mn) time barrier for the directed global minimum vertex-cut problem with a new randomized algorithm. 2. Provides a faster algorithm for the unweighted version, nearly matching the best-known time for the edge-based variant. 3. Improves and simplifies the recent algorithm for the undirected vertex-cut problem.",
+      "summary": "This paper presents new randomized algorithms that achieve faster running times for the directed global minimum vertex-cut problem. For weighted graphs, it breaks the long-standing Θ(mn) barrier, and for unweighted graphs, it provides an algorithm whose runtime nearly matches the best-known for the edge-based version. These results represent the first significant improvement in nearly three decades for this fundamental graph problem.",
+      "mindmap": "graph TB\n        A[Faster Algorithms for Global Minimum Vertex-Cut in Directed Graphs] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[有向图全局最小顶点割/Directed Global Minimum Vertex-Cut]\n        B --> B2[29年未突破的O(mn)算法/29-year-old O(mn) barrier]\n        C --> C1[随机化算法/Randomized Algorithm]\n        C --> C2[处理加权与无权图/Handles Weighted & Unweighted]\n        D --> D1[加权: O(mn^0.976 polylog W)/Weighted: O(mn^0.976 polylog W)]\n        D --> D2[无权: O(min{m^1+o(1) k, n^2+o(1)})/Unweighted: O(min{m^1+o(1) k, n^2+o(1)})]\n        D --> D3[首次突破Θ(mn)障碍/First to break Θ(mn) barrier]"
+    },
+    {
+      "title": "Fair Committee Selection under Ordinal Preferences and Limited Cardinal Information",
+      "authors": "Ameet Gadekar, Aristides Gionis, Suhas Thejaswi, Sijing Tu",
+      "institution": "CISPA Helmholtz Center for Information Security, KTH Royal Institute of Technology, Aalto University",
+      "link": "https://arxiv.org/pdf/2512.24934",
+      "code": null,
+      "tags": [
+        "computational social choice",
+        "ordinal preferences",
+        "distortion",
+        "fair committee selection",
+        "k-center",
+        "metric space queries"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4abdbd3729a2ab27b55e1cf05a24f80c11aa1d9fbb2ad20cd88656afc99d4b62_w640_q70.webp",
+      "contributions": "1. Introduces the ordinal fair k-center problem for fair committee selection with group representation constraints. 2. Proposes a factor-5 distortion algorithm requiring only O(k log² k) queries to the underlying metric space. 3. Presents an improved factor-3 distortion algorithm using O(k²) queries as an intermediate result.",
+      "summary": "The paper addresses the problem of selecting a fair committee when agents provide only ordinal preference rankings, which is known to be hard. To overcome this, the authors propose algorithms that make a limited number of queries to the underlying cardinal distance information. Their main result is an algorithm that achieves a constant-factor approximation (distortion of 5) with a near-linear number of queries.",
+      "mindmap": "graph TB\n        Root[公平委员会选择与序数偏好及有限基数信息<br/>Fair Committee Selection under Ordinal Preferences and Limited Cardinal Information]\n        Root --> Problem[核心问题/Problem]\n        Root --> Method[主要方法/Method]\n        Root --> Results[关键结果/Results]\n        Problem --> P1[公平k-委员会选择<br/>Fair k-committee selection]\n        Problem --> P2[仅有序数偏好，无常数失真<br/>Only ordinal preferences, no constant distortion]\n        Method --> M1[查询底层度量空间<br/>Query underlying metric space]\n        Method --> M2[使用有限基数信息<br/>Use limited cardinal information]\n        Results --> R1[5倍失真算法<br/>Factor-5 distortion algorithm]\n        Results --> R2[O(k log² k)次查询<br/>O(k log² k) queries]"
+    },
+    {
+      "title": "Approximations for the Weighted Reversal, Transposition, and Indel Distance Problem with Intergenic Region Information",
+      "authors": "Gabriel Siqueira, Alexsandro Oliveira Alexandrino, Zanoni Dias",
+      "institution": "Instituto de Computação, Universidade Estadual de Campinas (Unicamp)",
+      "link": "https://arxiv.org/pdf/2512.25016",
+      "code": null,
+      "tags": [
+        "computational biology",
+        "genome rearrangement",
+        "genome rearrangement",
+        "weighted distance",
+        "intergenic breakpoint graph",
+        "approximation algorithm",
+        "reversals and transpositions"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/feedbc7a429ecb8df2c88dda2c223f1bf5e052946f3a94334644978ec8ee2855_w640_q70.webp",
+      "contributions": "1. Models genomes with gene orientation and intergenic region nucleotide lengths for rearrangement analysis. 2. Introduces the Labeled Intergenic Breakpoint Graph structure to analyze the weighted distance problem. 3. Provides an algorithm with guaranteed approximation ratios for the Weighted Reversal, Transposition, and Indel Distance problem under specific weight sets.",
+      "summary": "This paper addresses the Weighted Reversal, Transposition, and Indel Distance problem for genomes with gene orientation and intergenic region information. It proposes an approximation algorithm based on a novel Labeled Intergenic Breakpoint Graph structure. The main result is a solution with guaranteed approximation bounds for specific operation weight sets.",
+      "mindmap": "graph TB\n        A[Approximations for the Weighted Reversal, Transposition, and Indel Distance Problem with Intergenic Region Information] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[计算加权基因组重排距离/Computing Weighted Genome Rearrangement Distance]\n        C --> C1[使用带标签的基因间断点图/Using Labeled Intergenic Breakpoint Graph]\n        D --> D1[提出具有保证近似比的算法/Proposing Algorithm with Guaranteed Approximation Ratios]"
+    },
+    {
+      "title": "Approximation Algorithms for Fair Repetitive Scheduling",
+      "authors": "Danny Hermelin, Danny Segev, Dvir Shabtay",
+      "institution": "Ben-Gurion University of the Negev, Tel Aviv University",
+      "link": "https://arxiv.org/pdf/2512.25020",
+      "code": null,
+      "tags": [
+        "approximation algorithms",
+        "fair scheduling",
+        "total completion time",
+        "linear programming",
+        "dynamic programming",
+        "batching technique"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/790dfca3b0d61a5fed291947f59d03d4109fef73ae535b0d6069acf090e2094b_w640_q70.webp",
+      "contributions": "1. A polynomial-time LP-based 2-approximation and a PTAS for the day-dependent processing time setting. 2. A simple polynomial-time (1+√2)/2+ϵ-approximation for the day-invariant processing time setting. 3. A quasi-polynomial-time approximation scheme (QPTAS) for the day-invariant setting with an arbitrary number of days.",
+      "summary": "This paper tackles a fair repetitive scheduling problem where jobs from clients must be scheduled daily to minimize the maximum total completion time any client experiences. The authors propose approximation algorithms, including LP-based and dynamic programming approaches using a novel batching technique, achieving constant-factor approximations and approximation schemes for different problem variants. The main conclusion is that provable performance guarantees can be efficiently achieved for this NP-hard problem through these algorithmic techniques.",
+      "mindmap": "graph TB\n        A[Approximation Algorithms for Fair Repetitive Scheduling] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[公平重复调度 / Fair Repetitive Scheduling]\n        B --> B2[最小化最大总完成时间 / Minimize Max Total Completion Time]\n        C --> C1[批处理技术 / Batching Technique]\n        C --> C2[线性规划 / Linear Programming]\n        C --> C3[动态规划 / Dynamic Programming]\n        D --> D1[2-近似与PTAS / 2-Approximation & PTAS]\n        D --> D2[(1+√2)/2+ϵ近似 / (1+√2)/2+ϵ Approximation]\n        D --> D3[准多项式时间近似方案 / QPTAS]"
+    },
+    {
+      "title": "EF(X) Orientations: A Parameterized Complexity Perspective",
+      "authors": "Sotiris Kanellopoulos, Edouard Nemery, Christos Pergaminelis, Minas Marios Sotiriou, Manolis Vasilakis",
+      "institution": "National Technical University of Athens, Archimedes/Athena Research Center, Université Paris-Dauphine, PSL University, Athens University of Economics and Business",
+      "link": "https://arxiv.org/pdf/2512.25033",
+      "code": null,
+      "tags": [
+        "parameterized complexity",
+        "fair division",
+        "graph orientation",
+        "envy-free",
+        "EFX",
+        "parameterized algorithm"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/803ef079ceedaf664f4a8debca603c158162ddd9284611ea7c047ddcf70ddcd5_w640_q70.webp",
+      "contributions": "1. Initiates the study of EF (envy-free) orientations in graphs, analyzing their parameterized complexity. 2. Provides results that transfer to and improve upon the understanding of EFX orientations, answering an open question about their complexity on graphs with polynomially-bounded valuations. 3. Introduces and studies the concept of charity in the orientation setting, providing algorithms to find the minimum edges to remove for an EF(X) orientation to exist.",
+      "summary": "This paper studies the problem of finding envy-free (EF) orientations in graphs, where edges represent goods contested by neighboring agent vertices. Using a parameterized complexity approach, it presents tractability and hardness results for both EF and EFX orientations, showing that EF can be easier than EFX in some cases like binary valuations. It also provides algorithms for the \"charity\" problem of removing minimal edges to achieve an EF(X) orientation.",
+      "mindmap": "graph TB\n        Root[EF(X) Orientations: A Parameterized Complexity Perspective] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem] --> P1[研究EF图定向/Study EF Graph Orientation]\n        P1 --> P2[EFX已研究, EF未探索/EFX studied, EF unexplored]\n        Method[主要方法/Method] --> M1[参数化复杂度分析/Parameterized Complexity Analysis]\n        Results[关键结果/Results] --> R1[EF与EFX的易处理与困难案例/Tractable & Hard Cases for EF & EFX]\n        R1 --> R2[回答EFX开放问题/Answer EFX Open Question]\n        Results --> R3[引入慈善边移除问题/Introduce Charity Edge Removal]"
+    },
+    {
+      "title": "Proper colorings of a graph in linear time using a number of colors linear in the maximum degree of the graph",
+      "authors": "Kritika Bhandari, Mark Huber",
+      "institution": "None (Inferred from arXiv submission; no explicit affiliation provided on first page)",
+      "link": "https://arxiv.org/pdf/2512.24522",
+      "code": null,
+      "tags": [
+        "graph algorithms",
+        "proper coloring",
+        "graph sampling",
+        "linear-time algorithm",
+        "maximum degree",
+        "Markov chain Monte Carlo"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2df3f6d8f9edf2c385953da77f4effcefb8b3b532fac0ef601829b8505fab4b3_w640_q70.webp",
+      "contributions": "1. A new algorithm for exact sampling from the set of proper colorings of a graph., 2. The algorithm achieves an expected running time linear in the graph size for graphs with maximum degree Δ., 3. It is the first algorithm with this guarantee when the number of colors exceeds 3.637Δ + 1.",
+      "summary": "This paper presents a new algorithm for exactly sampling proper colorings of a graph. It is the first algorithm whose expected running time is guaranteed to be linear in the graph size when the number of colors is greater than 3.637 times the graph's maximum degree plus one.",
+      "mindmap": "graph TB\n        A[Proper colorings of a graph in linear time<br/>图的线性时间正常着色] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[Exact sampling from proper colorings<br/>从正常着色中精确采样]\n        C --> C1[New sampling algorithm<br/>新的采样算法]\n        D --> D1[Linear expected runtime<br/>线性期望运行时间]\n        D --> D2[Colors > 3.637Δ + 1<br/>颜色数 > 3.637Δ + 1]"
+    },
+    {
+      "title": "On Circular Threshold Words and Other Stronger Versions of Dejean's conjecture",
+      "authors": "Igor N. Tunev",
+      "institution": "Ural Federal University",
+      "link": "https://arxiv.org/pdf/2512.24581",
+      "code": null,
+      "tags": [
+        "combinatorics on words",
+        "Dejean's conjecture",
+        "threshold words",
+        "circular words",
+        "repetition threshold",
+        "combinatorial algorithm"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/36e023787ad16a1e81b90fdf42847fd22bb9f7095187b5fbf812ea6df93baee3_w640_q70.webp",
+      "contributions": "1. A new method for proving specific cases of Dejean's conjecture for odd n≥5 using polynomial-time computer verification, producing circular threshold words. 2. An improved proof method reducing verification conditions and extending the construction to even cases n≥6. 3. A method to construct stronger threshold words with exponents arbitrarily close to 1 using a threshold word tree with exponential growth.",
+      "summary": "This paper presents improved methods for constructing threshold words related to Dejean's conjecture. It introduces algorithms for generating circular threshold words for odd and even alphabet sizes and demonstrates the existence of threshold words where all long factors have exponents arbitrarily close to 1. The work is based on edited versions of the author's earlier student theses.",
+      "mindmap": "graph TB\n        Root[”On Circular Threshold Words and Other Stronger Versions of Dejean's conjecture<br>关于圆形阈值词与德让猜想的其他强化版本”] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[”核心问题/Problem<br>Constructing threshold words (TWs) and circular TWs for Dejean's conjecture<br>为德让猜想构建阈值词与圆形阈值词”] --> P1[”构建无限阈值词<br>Construct infinite TWs”]\n        Problem --> P2[”构建循环移位不变的阈值词<br>Construct circular TWs”]\n        Method[”主要方法/Method<br>Polynomial-time computer verification and TW tree construction<br>多项式时间计算机验证与阈值词树构建”] --> M1[”针对奇数n≥5的验证方法<br>Method for odd n≥5”]\n        Method --> M2[”针对偶数n≥6的改进方法<br>Improved method for even n≥6”]\n        Method --> M3[”基于指数增长树的构建<br>Construction based on exponentially growing tree”]\n        Results[”关键结果/Results<br>Existence proofs and stronger word constructions<br>存在性证明与更强的词构建”] --> R1[”证明了圆形阈值词的存在性<br>Proved existence of circular TWs”]\n        Results --> R2[”构建了指数任意接近1的阈值词<br>Constructed TWs with exponent arbitrarily close to 1”]"
+    },
+    {
       "title": "Beyond Exact Fairness: Envy-Free Incomplete Connected Fair Division",
       "authors": "Ajaykrishnan E S, Daniel Lokshtanov",
       "institution": "University of California, Santa Barbara",

@@ -4,6 +4,343 @@
   "week": "20251229-20260104",
   "items": [
     {
+      "title": "Governing Cloud Data Pipelines with Agentic AI",
+      "authors": "Aswathnarayan Muthukrishnan Kirubakaran, Adithya Parthasarathy, Nitin Saksena, Ram Sekhar Bodala, Akshay Deshpande, Suhas Malempati, Shiva Carimireddy, Abhirup Mazumder",
+      "institution": "IEEE, Independent Researcher, Albertsons, Amtrak, Cato",
+      "link": "https://arxiv.org/pdf/2512.23737",
+      "code": null,
+      "tags": [
+        "agent system",
+        "policy-aware control",
+        "bounded AI agents",
+        "adaptive resource reconfiguration",
+        "schema reconciliation",
+        "automated failure recovery"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c5297c02d67a11ab83e576eb218227051a192108c8ce2adf60d62e9fbdb7e355_w640_q70.webp",
+      "contributions": "1. A production-oriented control plane architecture for policy-aware agentic management of cloud data pipelines. 2. Detailed agent workflows for monitoring, optimization, and schema management. 3. An evaluation demonstrating significant improvements in recovery time, operational cost, and reduction of manual intervention.",
+      "summary": "This paper proposes Agentic Cloud Data Engineering, a control architecture that integrates bounded AI agents to autonomously govern cloud data pipelines by analyzing telemetry and enforcing declarative policies. The method enables adaptive actions like resource reconfiguration and automated recovery. Experimental results show it reduces recovery time by up to 45%, lowers costs by ~25%, and cuts manual intervention by over 70% compared to static orchestration.",
+      "mindmap": "graph TB\n        Root[”Governing Cloud Data Pipelines with Agentic AI”] --> Problem[”核心问题/Problem”]\n        Root --> Method[”主要方法/Method”]\n        Root --> Results[”关键结果/Results”]\n        Problem --> P1[”静态配置与被动运维/Static Config & Reactive Ops”]\n        Problem --> P2[”恢复慢、成本高、手动多/Slow Recovery, High Cost, Manual Overhead”]\n        Method --> M1[”策略感知控制架构/Policy-aware Control Architecture”]\n        Method --> M2[”集成有界AI代理/Integrate Bounded AI Agents”]\n        Method --> M3[”自适应操作/Adaptive Actions”]\n        Results --> R1[”恢复时间降低45%/Recovery Time ↓45%”]\n        Results --> R2[”运营成本降低25%/Operational Cost ↓25%”]\n        Results --> R3[”手动干预减少70%/Manual Intervention ↓70%”]"
+    },
+    {
+      "title": "A Granular Grassmannian Clustering Framework via the Schubert Variety of Best Fit",
+      "authors": "Karim Salta, Michael Kirby, Chris Peterson",
+      "institution": "Colorado State University",
+      "link": "https://arxiv.org/pdf/2512.23766",
+      "code": null,
+      "tags": [
+        "subspace clustering",
+        "Schubert Variety",
+        "Grassmann Manifold",
+        "Linde-Buzo-Grey (LBG)",
+        "Subspace Clustering",
+        "Geometric Learning"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a73e8fbe969f250567092a96ad55fca5bd7133b8ca34f30feedb918976b1faf5_w640_q70.webp",
+      "contributions": "1. Introduces the concept of a trainable prototype called a Schubert Variety of Best Fit (SVBF) for representing clusters of subspaces. 2. Integrates the SVBF prototype into the Linde-Buzo-Grey (LBG) clustering pipeline to create the SVBF-LBG algorithm. 3. Demonstrates improved cluster purity on synthetic, image, spectral, and video action data compared to methods using subspace means.",
+      "summary": "This paper proposes a new subspace clustering method that uses a geometric prototype called a Schubert Variety of Best Fit (SVBF) instead of a simple subspace mean. The SVBF is integrated into the Linde-Buzo-Grey algorithm, resulting in an SVBF-LBG framework that shows improved clustering performance on various data types while preserving mathematical structure for analysis.",
+      "mindmap": "graph TB\n        Root[”A Granular Grassmannian Clustering Framework via the Schubert Variety of Best Fit”] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[”核心问题/Problem<br>Need for geometric representatives in subspace clustering”] --> Problem_Sub[”子问题/Sub-Problem<br>Subspace means on Grassmann manifold may not be optimal”]\n        Method[”主要方法/Method<br>Propose SVBF-LBG algorithm”] --> Method_Sub1[”方法组件/Component 1<br>Schubert Variety of Best Fit (SVBF) prototype”]\n        Method --> Method_Sub2[”方法组件/Component 2<br>Integration into Linde-Buzo-Grey (LBG) pipeline”]\n        Results[”关键结果/Results<br>Improved cluster purity”] --> Results_Sub1[”结果细节/Detail 1<br>Tested on synthetic, image, spectral, video data”]\n        Results --> Results_Sub2[”结果细节/Detail 2<br>Retains mathematical structure for downstream analysis”]"
+    },
+    {
+      "title": "VGC: A High-Performance Zone-Based Garbage Collector Architecture for Python with Partitioning and Parallel Execution",
+      "authors": "Abdulla M",
+      "institution": "Could not be determined from the provided content.",
+      "link": "https://arxiv.org/pdf/2512.23768",
+      "code": "https://github.com/Abdullahlab-n/VGC-for-arxiv",
+      "tags": [
+        "memory management",
+        "garbage collection",
+        "concurrent mark-and-sweep",
+        "memory fragmentation",
+        "parallel execution",
+        "zone-based architecture"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0edb6409b92db2ec79f95ff72421bf0148b259c4251b261594c32563a128cb85_w640_q70.webp",
+      "contributions": "1. Introduces a dual-layer (Active and Passive) garbage collector architecture to separate compile-time and runtime memory management responsibilities., 2. Proposes a concurrent mark-and-sweep strategy for the Active VGC to reduce pause times in parallel workloads., 3. Employs predictive memory mapping and cache-aligned allocation in the Passive VGC to minimize fragmentation and reduce total memory usage.",
+      "summary": "The paper proposes VGC, a novel garbage collector for Python designed to overcome performance bottlenecks like the GIL and fragmentation. It uses a dual-layer architecture with a runtime concurrent collector and a compile-time allocator to reduce pause times and memory usage. The results show significant improvements in performance and scalability for parallel applications.",
+      "mindmap": "graph TB\n        Root[VGC: A High-Performance Zone-Based Garbage Collector Architecture for Python] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem] --> P1[Python GC Bottlenecks: GIL, Pauses, Fragmentation]\n        Method[主要方法/Method] --> M1[Dual-Layer Architecture / 双层架构]\n        M1 --> M1_1[Active VGC: Runtime Concurrent Mark-and-Sweep / 运行时并发标记清除]\n        M1 --> M1_2[Passive VGC: Compile-Time Predictive Allocation / 编译时预测性分配]\n        Results[关键结果/Results] --> R1[Reduced Pause Times (up to 30%) / 降低暂停时间]\n        Results --> R2[Reduced Memory Usage (up to 25%) / 降低内存使用]\n        Results --> R3[Improved Scalability for Parallel Apps / 提升并行应用可扩展性]"
+    },
+    {
+      "title": "Zero-Trust Agentic Federated Learning for Secure IIoT Defense Systems",
+      "authors": "Samaresh Kumar Singh, Joyjit Roy, Martin So",
+      "institution": "Independent Researchers (based on provided affiliations: IEEE Senior Member in Texas, IEEE Member in Texas, Independent Researcher in Canada)",
+      "link": "https://arxiv.org/pdf/2512.23809",
+      "code": null,
+      "tags": [
+        "federated learning",
+        "Zero-Trust Architecture",
+        "SHAP-weighted aggregation",
+        "TPM-based attestation"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/baa785fc442fcbc6a80214c4fdc6361e67a8e34e5a9bb6f5dd8fb34baf21bb68_w640_q70.webp",
+      "contributions": "1) Proposed a hierarchical edge-fog-cloud zero-trust federated learning architecture for trusted agent participation. 2) Introduced a novel SHAP-weighted aggregation algorithm for explainable Byzantine detection in non-IID environments. 3) Integrated TPM-based cryptographic attestation and on-device adversarial training into a defense-in-depth framework.",
+      "summary": "The paper addresses security vulnerabilities in Federated Learning for Industrial IoT by proposing ZTA-FL, a framework combining zero-trust agent authentication, explainable Byzantine-resilient aggregation, and on-device adversarial training. It demonstrates high detection accuracy and robustness against attacks on intrusion detection benchmarks while reducing communication overhead.",
+      "mindmap": "graph TB\n        Root[Zero-Trust Agentic Federated Learning for Secure IIoT Defense Systems] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem: IIoT安全漏洞与联邦学习攻击 / IIoT Security Gaps & FL Attacks]\n        Method[主要方法/Method: 零信任认证与可解释聚合 / Zero-Trust Attestation & Explainable Aggregation]\n        Results[关键结果/Results: 高检测精度与抗攻击鲁棒性 / High Detection Accuracy & Attack Robustness]"
+    },
+    {
+      "title": "Security Without Detection: Economic Denial as a Primitive for Edge and IoT Defense",
+      "authors": "Samaresh Kumar Singh, Joyjit Roy",
+      "institution": "IEEE (Inferred from author affiliations as IEEE members; specific institutional affiliation not provided in the excerpt)",
+      "link": "https://arxiv.org/pdf/2512.23849",
+      "code": null,
+      "tags": [
+        "IoT Security",
+        "Economic Denial Security",
+        "Stackelberg Game",
+        "Cost Asymmetry",
+        "Computational Puzzles"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/53020dd5fb969c1980dd7f764afe5f97440c1ef68620bdcd3383e97bf39600fc_w640_q70.webp",
+      "contributions": "1. Proposed the Economic Denial Security (EDS) framework, a detection-independent defense that exploits the defender's environmental control to impose economic infeasibility on attackers., 2. Formally modeled EDS as a Stackelberg game, deriving optimal parameters and proving that the composition of its four mechanisms yields superlinear (2.1x) cost amplification., 3. Demonstrated practical efficacy with a lightweight (&lt;12KB) implementation, validated on a 20-device IoT testbed and against IoT-23 malware, showing significant attack slowdown, cost asymmetry, and improved mitigation rates.",
+      "summary": "The paper addresses the failure of detection-based security in resource-constrained IoT/edge environments. It proposes Economic Denial Security (EDS), a framework that uses mechanisms like computational puzzles and bandwidth taxation to make attacks economically infeasible by amplifying attacker costs. The method is proven to be lightweight, effective in significantly slowing attacks and reducing success rates, and provides a detection-independent layer of defense.",
+      "mindmap": "graph TB\n        A[Security Without Detection: Economic Denial as a Primitive for Edge and IoT Defense] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[检测安全在资源受限的IoT/边缘环境中失效/Detection-based security fails in resource-constrained IoT/edge]\n        C --> C1[经济拒绝安全框架 / Economic Denial Security (EDS) Framework]\n        C1 --> C2[四种机制组合 / Four Mechanism Composition]\n        C2 --> C3[计算谜题 / Computational Puzzles]\n        C2 --> C4[交互熵 / Interaction Entropy]\n        C2 --> C5[时间拉伸 / Temporal Stretching]\n        C2 --> C6[带宽征税 / Bandwidth Taxation]\n        C --> C7[斯塔克尔伯格博弈建模 / Stackelberg Game Modeling]\n        D --> D1[32-560倍攻击减速 / 32-560x Attack Slowdown]\n        D --> D2[85-520:1 成本不对称 / 85-520:1 Cost Asymmetry]\n        D --> D3[内存占用<12KB / <12KB Memory Footprint]\n        D --> D4[94% 恶意软件缓解 / 94% Malware Mitigation]"
+    },
+    {
+      "title": "Squeezing Edge Performance: A Sensitivity-Aware Container Management for Heterogeneous Tasks",
+      "authors": "Yongmin Zhang, Pengyu Huang, Mingyi Dong, Jing Yao",
+      "institution": "School of Computer Science and Engineering, Central South University",
+      "link": "https://arxiv.org/pdf/2512.23952",
+      "code": null,
+      "tags": [
+        "on-device ai",
+        "container-based resource management",
+        "mixed-integer nonlinear programming (MINLP)",
+        "convex optimization",
+        "queueing-based delay",
+        "heterogeneous tasks"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b13e70a9fc316e5473ea643ee1dee12e7843bf02004c4bc9cb1c91fc4f547efb_w640_q70.webp",
+      "contributions": "1. Proposed a measurement-driven, nonlinear fitting model to characterize the relationship between CPU/memory allocations and processing latency for heterogeneous edge workloads. 2. Formulated the joint latency and power minimization as an NP-hard MINLP problem and decomposed it into tractable convex subproblems. 3. Designed a two-stage container-based resource management scheme (CRMS) with polynomial-time complexity for quasi-dynamic execution.",
+      "summary": "This paper proposes a sensitivity-aware container management framework (CRMS) for optimizing performance on a single edge server hosting heterogeneous tasks. It uses a profiling-derived model and convex optimization to minimize latency and power consumption. Simulation results show CRMS reduces latency by over 14% and improves energy efficiency compared to baselines.",
+      "mindmap": "graph TB\n        Root[”Squeezing Edge Performance: A Sensitivity-Aware Container Management for Heterogeneous Tasks<br>论文标题”]\n        Root --> Problem[”任务异构性与资源受限<br>Task Heterogeneity & Limited Resources”]\n        Root --> Method[”两阶段容器资源管理方案 (CRMS)<br>Two-stage Container-based Resource Management Scheme (CRMS)”]\n        Root --> Results[”延迟降低超14%，能效提升<br>Latency Reduced >14%, Energy Efficiency Improved”]\n        Problem --> P1[”边缘服务器资源优化挑战<br>Edge Server Resource Optimization Challenge”]\n        Method --> M1[”非线性拟合与排队延迟建模<br>Nonlinear Fitting & Queueing Delay Modeling”]\n        Method --> M2[”MINLP问题分解与凸优化求解<br>MINLP Decomposition & Convex Optimization”]\n        Results --> R1[”相比启发式和搜索基线更优<br>Outperforms Heuristic & Search-based Baselines”]"
+    },
+    {
+      "title": "Time-varying Mixing Matrix Design for Energy-efficient Decentralized Federated Learning",
+      "authors": "Xusheng Zhang, Tuan Nguyen, Ting He",
+      "institution": "University of Oxford, Pennsylvania State University",
+      "link": "https://arxiv.org/pdf/2512.24069",
+      "code": null,
+      "tags": [
+        "federated learning",
+        "decentralized federated learning",
+        "mixing matrix",
+        "energy consumption",
+        "time-varying topology",
+        "wireless networks"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/090a96d0adae430f081f3c2325be19fc983de3cc1e88b07fcc83e4ab4e983d30_w640_q70.webp",
+      "contributions": "1. A novel convergence theorem for DFL that allows for arbitrarily time-varying mixing matrices, providing theoretical justification for dynamic communication topologies. 2. A multi-phase design framework for mixing matrices that activates time-varying communication topologies to trade off per-iteration energy consumption and convergence rate. 3. An optimization approach that minimizes the maximum per-node energy consumption until convergence, explicitly considering the broadcast nature of wireless communications.",
+      "summary": "This paper addresses the problem of high energy consumption in Decentralized Federated Learning (DFL) for wireless networks by designing time-varying mixing matrices. The proposed method introduces a multi-phase framework that dynamically adjusts communication topologies to balance energy use across nodes and trade off per-iteration cost with convergence speed. The evaluation shows the solution effectively combines the low energy of sparse topologies with the fast convergence of dense ones.",
+      "mindmap": "graph TB\n        Root[”Time-varying Mixing Matrix Design for Energy-efficient Decentralized Federated Learning<br>时变混合矩阵设计用于能效去中心化联邦学习”]\n        Root --> Problem[”Minimize max per-node energy consumption in DFL<br>最小化DFL中最大单节点能耗”]\n        Root --> Method[”Multi-phase framework with time-varying topologies<br>基于时变拓扑的多阶段框架”]\n        Root --> Results[”Validated efficacy: low energy + fast convergence<br>验证有效性：低能耗+快速收敛”]"
+    },
+    {
+      "title": "Data Heterogeneity-Aware Client Selection for Federated Learning in Wireless Networks",
+      "authors": "Yanbing Yang, Huiling Zhu, Wenchi Cheng, Jingqing Wang, Changrun Chen, Jiangzhou Wang",
+      "institution": "Xidian University (Inferred from authors' affiliations: Yanbing Yang, Huiling Zhu, Wenchi Cheng, Jingqing Wang, Changrun Chen, and Jiangzhou Wang are typically affiliated with Xidian University, China, as per IEEE publications)",
+      "link": "https://arxiv.org/pdf/2512.24286",
+      "code": null,
+      "tags": [
+        "federated learning",
+        "client selection",
+        "resource allocation",
+        "generalization error",
+        "convex optimization",
+        "data heterogeneity"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d00d21e4555bde2acb5f1a697568b443b6eb9860e36434dcc6d960ed7390c050_w640_q70.webp",
+      "contributions": "1. Presents a theoretical analysis linking client data heterogeneity to global model generalization error in Federated Learning. 2. Formulates an optimization problem to jointly minimize learning latency and energy consumption under a generalization error constraint. 3. Proposes a joint Client Selection and Resource Allocation (CSRA) scheme using convex optimization and relaxation techniques.",
+      "summary": "This paper addresses the inefficiency of Federated Learning in wireless networks caused by data heterogeneity and resource constraints. It proposes a joint client selection and resource allocation (CSRA) optimization scheme to minimize latency and energy while controlling model error. Simulation results show the proposed CSRA achieves higher accuracy, lower latency, and reduced energy consumption compared to heterogeneity-agnostic baselines.",
+      "mindmap": "graph TB\n        Root(”Data Heterogeneity-Aware Client Selection for Federated Learning in Wireless Networks”) --> Problem(”核心问题/Problem”)\n        Root --> Method(”主要方法/Method”)\n        Root --> Results(”关键结果/Results”)\n        Problem --> P1(”FL效率受限/FL Efficiency Limited”)\n        P1 --> P1_1(”通信与计算资源约束/Communication & Computation Constraints”)\n        P1 --> P1_2(”客户端数据异构性/Client Data Heterogeneity”)\n        Method --> M1(”理论分析/Theoretical Analysis”)\n        M1 --> M1_1(”异构性对泛化误差的影响/Impact of Heterogeneity on Generalization Error”)\n        Method --> M2(”优化问题建模/Optimization Problem Formulation”)\n        M2 --> M2_1(”联合最小化延迟与能耗/Jointly Minimize Latency & Energy”)\n        M2 --> M2_2(”约束泛化误差/Constraining Generalization Error”)\n        Method --> M3(”提出CSRA方案/Proposed CSRA Scheme”)\n        M3 --> M3_1(”联合客户端选择与资源分配/Joint Client Selection & Resource Allocation”)\n        M3 --> M3_2(”凸优化与松弛技术/Convex Optimization & Relaxation”)\n        Results --> R1(”更高测试准确率/Higher Test Accuracy”)\n        Results --> R2(”降低学习延迟/Reduced Learning Latency”)\n        Results --> R3(”更低能耗/Lower Energy Consumption”)"
+    },
+    {
+      "title": "RedunCut: Measurement-Driven Sampling and Accuracy Performance Modeling for Low-Cost Live Video Analytics",
+      "authors": "Gur-Eyal Sela, Kumar Krishna Agrawal, Bharathan Balaji, Joseph Gonzalez, Ion Stoica",
+      "institution": "UC Berkeley, Amazon",
+      "link": "https://arxiv.org/pdf/2512.24386",
+      "code": null,
+      "tags": [
+        "others",
+        "dynamic model size selection",
+        "live video analytics",
+        "measurement-driven sampling",
+        "accuracy performance modeling",
+        "cost-accuracy tradeoff"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b99d771bb4464484bc20a905a41cf7ba47990b34219a4a1e3c0b5dc5c0c242bb_w640_q70.webp",
+      "contributions": "1. A measurement-driven planner that estimates the cost-benefit tradeoff of sampling to avoid inefficient sampling. 2. A lightweight, data-driven performance model to improve per-segment accuracy prediction. 3. A new DMSS system (RedunCut) that reduces compute cost by 14-62% at fixed accuracy across diverse video workloads and remains robust to limited data and drift.",
+      "summary": "The paper addresses the high inference cost in live video analytics by proposing RedunCut, a dynamic model size selection system. It introduces a measurement-driven planner to optimize sampling and a data-driven model to predict accuracy, reducing compute costs by 14-62% while maintaining target accuracy across diverse video types. The system demonstrates robustness to limited historical data and concept drift.",
+      "mindmap": "graph TB\n        Root[RedunCut: Low-Cost Live Video Analytics] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem] --> P1[高推理成本/High Inference Cost]\n        Problem --> P2[现有方法泛化性差/Prior Methods Fail to Generalize]\n        P2 --> P2_1[采样效率低/Inefficient Sampling]\n        P2 --> P2_2[精度预测不准/Inaccurate Accuracy Prediction]\n        Method[主要方法/Method] --> M1[测量驱动的规划器/Measurement-Driven Planner]\n        Method --> M2[轻量级性能模型/Lightweight Performance Model]\n        Results[关键结果/Results] --> R1[成本降低 14-62%/Cost Reduction 14-62%]\n        Results --> R2[保持目标精度/Maintains Target Accuracy]\n        Results --> R3[对数据漂移鲁棒/Robust to Drift]"
+    },
+    {
+      "title": "PackKV: Reducing KV Cache Memory Footprint through LLM-Aware Lossy Compression",
+      "authors": "Bo Jiang, Taolue Yang, Youyuan Liu, Xubin He, Sheng Di, Sian Jin",
+      "institution": "Temple University, Argonne National Laboratory",
+      "link": "https://arxiv.org/pdf/2512.24449",
+      "code": "https://github.com/BoJiang03/PackKV",
+      "tags": [
+        "llm inference",
+        "KV cache",
+        "lossy compression",
+        "memory footprint",
+        "GPU kernels",
+        "attention mechanism"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/42e07bd3aaf7626174ef50b03ee71ac8de443f8fb5560e374d8293b4df52b84f_w640_q70.webp",
+      "contributions": "1. Proposes PackKV, a generic KV cache management framework featuring novel lossy compression techniques specifically tailored to KV cache data characteristics. 2. Presents a careful co-design of compression algorithms and system architecture that is compatible with the dynamically growing KV cache while preserving high computational efficiency. 3. Achieves significantly higher memory reduction rates and execution throughput compared to state-of-the-art methods, effectively eliminating decompression overhead and accelerating matrix-vector multiplication.",
+      "summary": "This paper addresses the high memory footprint of the KV cache during long-context LLM inference by proposing PackKV, a framework that uses LLM-aware lossy compression. PackKV co-designs compression algorithms and system architecture to reduce memory usage while maintaining computational efficiency. The results show that PackKV achieves superior memory reduction and higher throughput compared to existing quantization methods.",
+      "mindmap": "graph TB\n        A[PackKV: Reducing KV Cache Memory Footprint] --> B[核心问题/Problem: KV缓存内存占用大/Large KV Cache Memory Footprint]\n        A --> C[主要方法/Method: LLM感知的有损压缩/LLM-Aware Lossy Compression]\n        A --> D[关键结果/Results: 更高内存减少与吞吐量/Higher Memory Reduction & Throughput]"
+    },
+    {
+      "title": "Document Data Matching for Blockchain-Supported Real Estate",
+      "authors": "Henrique Lin, Tiago Dias, Miguel Correia",
+      "institution": "INESC-ID, Instituto Superior Técnico, Universidade de Lisboa, Unlockit",
+      "link": "https://arxiv.org/pdf/2512.24457",
+      "code": null,
+      "tags": [
+        "decentralized systems",
+        "Verifiable Credentials",
+        "Optical Character Recognition",
+        "Natural Language Processing",
+        "Blockchain",
+        "Data Matching"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/77d42eaf9ccd48f40b91694b8109e5b2c7abc796e86c6fd2151ac05f73c2f492_w640_q70.webp",
+      "contributions": "1. Development of a prototype system that automates the extraction of key information from heterogeneous real estate documents using an OCR and NLP pipeline trained on synthetic data. 2. A framework for converting extracted document data into standardized Verifiable Credentials and performing automated data matching to detect inconsistencies. 3. Integration of blockchain as a decentralized trust layer to reinforce transparency and integrity in document verification and management.",
+      "summary": "This paper addresses the inefficiency and fraud risk in manual real estate document handling by proposing a system that integrates OCR, NLP, and Verifiable Credentials to automate document extraction and verification, backed by a blockchain trust layer. The developed prototype demonstrates competitive accuracy in information extraction and reduces verification time while maintaining reliability. The framework shows potential to streamline transactions and enhance trust in the real estate sector.",
+      "mindmap": "graph TB\n        A[Document Data Matching for Blockchain-Supported Real Estate] --> B(核心问题/Problem: Manual document handling in real estate is inefficient and prone to fraud.)\n        A --> C(主要方法/Method: Integrates OCR, NLP, and Verifiable Credentials for automated extraction and verification, using blockchain for trust.)\n        A --> D(关键结果/Results: Prototype achieves competitive accuracy and reduces verification time, demonstrating potential to streamline transactions.)"
+    },
+    {
+      "title": "Understanding LLM Checkpoint/Restore I/O Strategies and Patterns",
+      "authors": "Mikaila J. Gossman, Avinash Maurya, Bogdan Nicolae, Jon C. Calhoun",
+      "institution": "Clemson University, Argonne National Laboratory",
+      "link": "https://arxiv.org/pdf/2512.24511",
+      "code": null,
+      "tags": [
+        "fault-tolerance",
+        "checkpoint/restore",
+        "I/O characterization",
+        "liburing",
+        "I/O coalescing",
+        "parallel file systems"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a135466d9791e7bf6694d7dbe73c7c7a28f3f0c0d670bddbb0b4be458fd22e58_w640_q70.webp",
+      "contributions": "1. Developed microbenchmarks to quantify trade-offs of using the kernel-accelerated I/O library `liburing` for LLM checkpointing, evaluating interactions between aggregation, alignment, and I/O coalescing. 2. Demonstrated that file system-aware aggregation and I/O coalescing strategies are critical for restoring bandwidth and reducing metadata overhead, significantly outperforming uncoalesced operations. 3. Achieved substantial performance improvements over state-of-the-art engines, with up to 3.9x higher write throughput than DataStates-LLM and 7.6x higher than TorchSnapshot.",
+      "summary": "This paper addresses the I/O bottleneck in checkpointing large language models (LLMs) by investigating the use of the `liburing` library for optimized I/O operations. The authors propose and evaluate strategies like aggregation and I/O coalescing to improve performance. Their approach significantly outperforms existing checkpointing engines, highlighting the need for file system-aware I/O strategies in modern LLM training systems.",
+      "mindmap": "graph TB\n        A[”Understanding LLM Checkpoint/Restore I/O Strategies and Patterns<br/>论文标题”] --> B\n        A --> C\n        A --> D\n        B[”核心问题/Problem<br/>LLM checkpoint/restore is a big-data I/O bottleneck<br/>LLM检查点/恢复是大数据I/O瓶颈”]\n        C[”主要方法/Method<br/>Microbenchmark liburing, evaluate aggregation & coalescing<br/>对liburing进行微基准测试，评估聚合与合并”]\n        D[”关键结果/Results<br/>3.9x-7.6x higher throughput vs. SOTA<br/>相比SOTA吞吐量提升3.9-7.6倍”]"
+    },
+    {
+      "title": "Distributed Bilevel Optimization with Dual Pruning for Resource-limited Clients",
+      "authors": "Mingyi Li, Xiao Zhang, Ruisheng Zheng, Hongjian Shi, Yuan Yuan, Xiuzhen Cheng, Dongxiao Yu",
+      "institution": "Shandong University",
+      "link": "https://arxiv.org/pdf/2512.24667",
+      "code": null,
+      "tags": [
+        "federated learning",
+        "distributed bilevel optimization",
+        "resource-adaptive",
+        "hypergradient estimator",
+        "convergence analysis",
+        "dual pruning"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1e1a37c13f80adceef30f4612f5b9f03192647fcb35238d17be6ae91567195d2_w640_q70.webp",
+      "contributions": "1. Proposes the first resource-adaptive distributed bilevel optimization framework that allows clients to optimize submodels based on their available computational resources. 2. Introduces a second-order free hypergradient estimator to reduce computational overhead on resource-limited clients. 3. Provides theoretical convergence analysis for the proposed methods (RABO and RAFBO), showing they achieve an asymptotically optimal convergence rate dominated by the minimum coverage of outer parameters.",
+      "summary": "This paper addresses the problem of applying distributed bilevel optimization to large-scale models on resource-limited clients by proposing a resource-adaptive framework. The method uses a second-order free hypergradient estimator and allows clients to optimize submodels adapted to their available resources. Theoretical analysis shows the proposed methods achieve optimal convergence rates, and experiments demonstrate their effectiveness and computational efficiency.",
+      "mindmap": "graph TB\n    A[Distributed Bilevel Optimization with Dual Pruning for Resource-limited Clients] --> B[核心问题/Problem: Traditional distributed bilevel optimization is computationally excessive for low-resource clients with large-scale models.]\n    A --> C[主要方法/Method: Propose a resource-adaptive framework with a second-order free hypergradient estimator, enabling clients to optimize submodels based on available resources.]\n    A --> D[关键结果/Results: The proposed methods (RABO, RAFBO) achieve an asymptotically optimal convergence rate of O(1/√C*xQ), proven by theory and validated by experiments.]"
+    },
+    {
+      "title": "AI-Driven Cloud Resource Optimization for Multi-Cluster Environments",
+      "authors": "Vinoth Punniyamoorthy, Akash Kumar Agarwal, Bikesh Kumar, Abhirup Mazumder, Kabilan Kannan, Sumit Saha",
+      "institution": "IEEE (affiliations indicate authors are IEEE Senior Members, with industry affiliations from Albertsons and East West Bank, USA)",
+      "link": "https://arxiv.org/pdf/2512.24914",
+      "code": null,
+      "tags": [
+        "cluster infrastructure",
+        "multi-cluster systems",
+        "resource optimization",
+        "predictive learning",
+        "policy-aware decision-making",
+        "cross-cluster telemetry"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/02143e20715d24c6ab11a29c3710ca28e3f39c48ce36f9862a254d3564252726_w640_q70.webp",
+      "contributions": "1. An AI-driven framework for adaptive resource optimization across multi-cluster cloud systems, moving beyond reactive, cluster-centric approaches. 2. Integration of predictive learning, policy-aware decision-making, and continuous feedback to enable proactive and coordinated resource management. 3. A prototype demonstrating improved resource efficiency, faster stabilization during workload fluctuations, and reduced performance variability compared to conventional methods.",
+      "summary": "This paper proposes an AI-driven framework to address the problem of inefficient and reactive resource management in multi-cluster cloud environments. The method uses predictive learning and policy-aware decision-making on cross-cluster telemetry to proactively optimize resource allocation for performance, cost, and reliability. The results show the framework improves resource efficiency and system stability compared to traditional approaches.",
+      "mindmap": "graph TB\n        A[AI-Driven Cloud Resource Optimization for Multi-Cluster Environments] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[现有方法反应式且集群中心化 / Existing approaches are reactive and cluster-centric]\n        B --> B2[导致资源利用低效和延迟适应 / Causes inefficient resource utilization and delayed adaptation]\n        C --> C1[AI驱动框架集成预测学习 / AI-driven framework integrates predictive learning]\n        C --> C2[策略感知决策与持续反馈 / Policy-aware decision-making and continuous feedback]\n        C --> C3[分析跨集群遥测数据 / Analyzes cross-cluster telemetry]\n        D --> D1[提高资源效率 / Improved resource efficiency]\n        D --> D2[更快稳定于工作负载波动 / Faster stabilization during workload fluctuations]\n        D --> D3[减少性能变异 / Reduced performance variability]"
+    },
+    {
+      "title": "Reliable and Resilient Collective Communication Library for LLM Training and Serving",
+      "authors": "Wei Wang, Nengneng Yu, Sixian Xiong, Zaoxing Liu",
+      "institution": "University of Maryland, College Park",
+      "link": "https://arxiv.org/pdf/2512.25059",
+      "code": "https://github.com/r2cc-project/R-2CCL",
+      "tags": [
+        "communication & networking",
+        "fault-tolerant collective communication",
+        "multi-NIC failover",
+        "connection migration",
+        "bandwidth-aware load redistribution",
+        "resilient collective algorithms"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/dd037366831b8135233f491feff11095f79c30662f36cb517794f6588542c452_w640_q70.webp",
+      "contributions": "1. A fault-tolerant communication library (R²CCL) that provides lossless, low-overhead failover by exploiting multi-NIC hardware. 2. Techniques including rapid connection migration, bandwidth-aware load redistribution, and resilient collective algorithms to maintain progress under network failures. 3. Demonstrated high robustness to NIC failures with minimal overhead (&lt;1% for training, &lt;3% for inference) and significant performance improvements over baselines.",
+      "summary": "The paper presents R²CCL, a fault-tolerant collective communication library designed to handle network faults in large-scale LLM training and serving. It achieves low-overhead recovery through techniques like rapid connection migration and bandwidth-aware load redistribution. Evaluation shows it incurs minimal performance overhead and significantly outperforms existing solutions.",
+      "mindmap": "graph TB\n        Root[Reliable and Resilient Collective Communication Library for LLM Training and Serving] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem: Network faults waste GPU hours and cause job failures in large-scale ML clusters]\n        Method[主要方法/Method: R²CCL library with rapid connection migration, bandwidth-aware load redistribution, and resilient collective algorithms]\n        Results[关键结果/Results: <1% training overhead, <3% inference overhead, 12.18x-47x faster than baselines]"
+    },
+    {
+      "title": "Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search",
+      "authors": "Rohit Dwivedula, Divyanshu Saxena, Sujay Yadalam, Daehyeok Kim, Aditya Akella",
+      "institution": "The University of Texas at Austin",
+      "link": "https://arxiv.org/pdf/2512.25065",
+      "code": null,
+      "tags": [
+        "memory & caching",
+        "heuristic synthesis",
+        "evolutionary search",
+        "instance-optimal",
+        "LLM code generation",
+        "cache eviction"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8daf2ac9cf0548fb6b41e5cb643f8b78cc3001bcb2d8b95b8ade5ced5201e53a_w640_q70.webp",
+      "contributions": "1. Proposes Vulcan, a framework that recasts heuristic design as an automated search problem using LLMs to synthesize instance-optimal heuristics tailored to specific deployment contexts. 2. Introduces LLM-friendly, task-agnostic interfaces that separate policy and mechanism, making the synthesis tractable and enabling even small LLMs to generate correct code. 3. Demonstrates the framework's effectiveness by synthesizing heuristics for cache eviction and memory tiering that outperform state-of-the-art human-designed algorithms.",
+      "summary": "The paper proposes Vulcan, a framework that uses LLM-driven evolutionary search to automatically synthesize instance-optimal system heuristics, tailored to specific workloads and hardware. It introduces task-agnostic interfaces to separate policy from mechanism, enabling efficient code generation. The synthesized heuristics for cache eviction and memory tiering were shown to outperform existing state-of-the-art algorithms.",
+      "mindmap": "graph TB\n        Root[Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem: Manual heuristic design is slow and cannot adapt to changing hardware and workloads.]\n        Method[主要方法/Method: Use LLM-driven evolutionary search over task-agnostic interfaces to synthesize instance-optimal heuristics.]\n        Results[关键结果/Results: Synthesized heuristics outperform state-of-the-art algorithms in cache eviction and memory tiering.]"
+    },
+    {
+      "title": "Adaptive Resource Orchestration for Distributed Quantum Computing Systems",
+      "authors": "Kuan-Cheng Chen, Felix Burt, Nitish K. Panigrahy, Kin K. Leung",
+      "institution": "Imperial College London, Binghamton University SUNY",
+      "link": "https://arxiv.org/pdf/2512.24902",
+      "code": null,
+      "tags": [
+        "Distributed Quantum Computing",
+        "Modular Entanglement Hub",
+        "Quantum Network Orchestrator",
+        "Teleportation Success Rate",
+        "Ebit Cache",
+        "Monte Carlo Simulation"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a5cdc243a82e638196fde6023c44f1f4a5ab3b6055535ac757574242b690b212_w640_q70.webp",
+      "contributions": "1. Proposed the Modular Entanglement Hub (ModEn-Hub) architecture, a hub-and-spoke photonic interconnect with a central orchestrator for managing entanglement resources. 2. Introduced an adaptive orchestration policy featuring logarithmically scaled parallelism and opportunistic caching of entanglement bits (ebits). 3. Demonstrated through Monte Carlo simulation that the orchestrated system sustains high teleportation success rates (~90%) across many QPUs, significantly outperforming a naive sequential baseline.",
+      "summary": "To scale quantum computing, the paper proposes the Modular Entanglement Hub (ModEn-Hub) architecture, which centralizes entanglement generation and uses an adaptive orchestrator to manage resources. Simulation results show this approach maintains a high teleportation success rate of about 90% across 1-128 quantum processors, vastly outperforming a simple baseline, thus enabling scalable distributed quantum-HPC systems.",
+      "mindmap": "graph TB\n        Root[”Adaptive Resource Orchestration for Distributed Quantum Computing Systems”] --> Problem[”核心问题/Problem: Scaling quantum computing requires networking multiple QPUs, but managing entanglement is challenging.”]\n        Root --> Method[”主要方法/Method: Propose Modular Entanglement Hub (ModEn-Hub) with an adaptive orchestrator for parallel entanglement attempts and caching.”]\n        Root --> Results[”关键结果/Results: Orchestration sustains ~90% teleportation success vs. ~30% for baseline, enabling scalable quantum-HPC.”]"
+    },
+    {
       "title": "GPU-Virt-Bench: A Comprehensive Benchmarking Framework for Software-Based GPU Virtualization Systems",
       "authors": "Jithin VG, Ditto PS",
       "institution": "Bud Ecosystem Inc",

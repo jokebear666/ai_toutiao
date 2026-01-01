@@ -4,6 +4,145 @@
   "week": "20251229-20260104",
   "items": [
     {
+      "title": "SyncGait: Robust Long-Distance Authentication for Drone Delivery via Implicit Gait Behaviors",
+      "authors": "Zijian Ling, Man Zhou, Hongda Zhai, Yating Huang, Lingchen Zhao, Qi Li, Chao Shen, Qian Wang",
+      "institution": "Huazhong University of Science and Technology, Wuhan University, Tsinghua University, Xi'an Jiaotong University",
+      "link": "https://arxiv.org/pdf/2512.23778",
+      "code": null,
+      "tags": [
+        "biometric authentication",
+        "gait authentication",
+        "drone delivery",
+        "mutual authentication",
+        "arm swing",
+        "spoofing attack"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/aafeeb48e8be50aaee42b0a5fde6849716a124c81c8181642e777e2398cbf364_w640_q70.webp",
+      "contributions": "1. Proposed SyncGait, a novel implicit gait-based mutual authentication system for drone delivery that leverages a user's unique arm swing during walking. 2. Demonstrated robust long-distance authentication performance (&gt;18m) with high accuracy (99.84%) through extensive experiments on 14 datasets from 31 subjects. 3. Showed strong resilience against various spoofing attacks, enhancing security for real-world drone delivery scenarios.",
+      "summary": "This paper introduces SyncGait, a system for secure drone delivery that performs mutual authentication by implicitly analyzing a user's unique arm-swing gait as they walk towards the drone. It achieves high accuracy over long distances without requiring extra hardware or explicit user actions. The results show it is robust against spoofing attacks, offering a secure and user-friendly authentication solution.",
+      "mindmap": "graph TB\n        Root[”SyncGait: 无人机配送的鲁棒远距离认证 / SyncGait: Robust Long-Distance Authentication for Drone Delivery”] --> Problem[”核心问题 / Problem: 现有无人机配送认证方案距离短、易受攻击 / Existing drone delivery authentication schemes have short range and are vulnerable to attacks.”]\n        Root --> Method[”主要方法 / Method: 利用行走时独特的摆臂行为进行隐式步态认证 / Implicit gait authentication using unique arm swing during walking.”]\n        Root --> Results[”关键结果 / Results: 在>18米距离实现99.84%准确率，抗欺骗攻击 / Achieves 99.84% accuracy at >18m, resilient to spoofing attacks.”]"
+    },
+    {
+      "title": "AHA: Aligning Large Audio-Language Models for Reasoning Hallucinations via Counterfactual Hard Negatives",
+      "authors": "Yanxi Chen, Wenhui Zhu, Xiwen Chen, Zhipeng Wang, Xin Li, Peijie Qiu, Hao Wang, Xuanzhao Dong, Yujian Xiong, Anderson Schneider, Yuriy Nevmyvaka, Yalin Wang",
+      "institution": "Arizona State University, Clemson University, Washington University in St. Louis, Rice University, Morgan Stanley",
+      "link": "https://arxiv.org/pdf/2512.24052",
+      "code": "https://github.com/LLM-VLM-GSL/AHA",
+      "tags": [
+        "multi-modal reasoning",
+        "audio-language models",
+        "hallucination mitigation",
+        "counterfactual hard negatives",
+        "preference alignment",
+        "temporal reasoning"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/45abc0731e44f649614386415942c67de681cccc206f884d4ce3832844263cdf_w640_q70.webp",
+      "contributions": "1. Proposed a taxonomy for audio grounding failures in LALMs, categorizing hallucinations into Event Omission, False Event Identity, Temporal Relation Error, and Quantitative Temporal Error. 2. Introduced the AHA (Audio Hallucination Alignment) framework, which uses counterfactual hard negative mining to construct a high-quality preference dataset for model alignment. 3. Established AHA-Eval, a diagnostic benchmark to rigorously evaluate fine-grained temporal reasoning capabilities in audio-language models.",
+      "summary": "The paper addresses the problem of hallucinations in Large Audio-Language Models (LALMs), where models generate text not grounded in the audio input. To solve this, the authors propose the AHA framework, which uses counterfactual hard negative mining to create a preference dataset for aligning models to distinguish acoustic evidence from fabrications. The resulting aligned model, Qwen-Audio-AHA, shows significant improvements on both the diagnostic AHA-Eval benchmark and public benchmarks, demonstrating effective mitigation of grounding errors.",
+      "mindmap": "graph TB\n        Root[AHA: Aligning Large Audio-Language Models for Reasoning Hallucinations via Counterfactual Hard Negatives] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem] --> P1[Large Audio-Language Models (LALMs) suffer from hallucinations / 大型音频语言模型存在幻觉问题]\n        Method[主要方法/Method] --> M1[Propose AHA framework with counterfactual hard negative mining / 提出AHA框架，使用反事实硬负例挖掘]\n        Method --> M2[Construct preference dataset for alignment / 构建用于对齐的偏好数据集]\n        Results[关键结果/Results] --> R1[13.7% improvement on AHA-Eval benchmark / 在AHA-Eval基准上提升13.7%]\n        Results --> R2[Gains on public benchmarks (MMAU-Test, MMAR) / 在公开基准(MMAU-Test, MMAR)上取得提升]"
+    },
+    {
+      "title": "Neighbor-aware Instance Refining with Noisy Labels for Cross-Modal Retrieval",
+      "authors": "Yizhi Liu, Ruitao Pu, Shilin Xu, Yingke Chen, Quan-Hui Liu, Yuan Sun",
+      "institution": "Sichuan University, State Key Laboratory of AI Safety, Northumbria University",
+      "link": "https://arxiv.org/pdf/2512.24064",
+      "code": "https://github.com/perquisite/NIRNL",
+      "tags": [
+        "cross-modal retrieval",
+        "noisy labels",
+        "instance refining",
+        "margin preserving",
+        "neighborhood consensus"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/74b11b5fe9b39647355b1db0a9a978e8e0bd13a99b38678ec9490a28b9024434_w640_q70.webp",
+      "contributions": "1. Proposes a novel robust cross-modal learning framework called Neighbor-aware Instance Refining with Noisy Labels (NIRNL). 2. Introduces Cross-modal Margin Preserving (CMP) to enhance discrimination between sample pairs by adjusting relative distances. 3. Designs Neighbor-aware Instance Refining (NIR) to identify and categorize instances into pure, hard, and noisy subsets for tailored optimization.",
+      "summary": "This paper addresses the problem of noisy labels in cross-modal retrieval, which degrades model performance. The authors propose the NIRNL framework, which uses Cross-modal Margin Preserving and Neighbor-aware Instance Refining to better utilize all data and mitigate error propagation. Experiments show the method achieves state-of-the-art performance with strong robustness, especially under high noise rates.",
+      "mindmap": "graph TB\n        Root[Neighbor-aware Instance Refining with Noisy Labels for Cross-Modal Retrieval] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem: Noisy labels degrade cross-modal retrieval performance] --> P1[标注噪声/Label Noise]\n        Method[主要方法/Method: NIRNL Framework] --> M1[Cross-modal Margin Preserving (CMP)]\n        Method --> M2[Neighbor-aware Instance Refining (NIR)]\n        M2 --> M2_1[识别子集/Identify Subsets: pure, hard, noisy]\n        Results[关键结果/Results: State-of-the-art performance] --> R1[高噪声下鲁棒/Robust under high noise]"
+    },
+    {
+      "title": "Factorized Learning for Temporally Grounded Video-Language Models",
+      "authors": "Wenzheng Zeng, Difei Gao, Mike Zheng Shou, Hwee Tou Ng",
+      "institution": "National University of Singapore",
+      "link": "https://arxiv.org/pdf/2512.24097",
+      "code": "https://github.com/nusnlp/d2vlm",
+      "tags": [
+        "video-language models",
+        "temporal grounding",
+        "factorized learning",
+        "preference optimization",
+        "evidence tokens",
+        "video understanding"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c7daa6b2b83cd5b8b5e9ed9cbeed8ecfc3d04fe90ac708e60dda996b6def5b97_w640_q70.webp",
+      "contributions": "1. Proposes D2VLM, a framework that decouples the learning of temporal grounding and textual response using a \"grounding then answering with evidence referencing\" paradigm and introduces evidence tokens for explicit event-level visual semantic capture. 2. Introduces Factorized Preference Optimization (FPO), a novel algorithm that explicitly incorporates probabilistic temporal grounding modeling into the preference optimization objective for both grounding and response. 3. Constructs a synthetic dataset to address the lack of suitable datasets for factorized preference learning with explicit temporal grounding.",
+      "summary": "This paper addresses the challenge of accurate temporal grounding in video-language models by proposing a factorized learning approach. It introduces the D2VLM framework, which decouples grounding and response generation, and a novel Factorized Preference Optimization (FPO) algorithm for joint optimization. Experiments show the approach achieves clear advantages over existing methods on various tasks.",
+      "mindmap": "graph TB\n        A[Factorized Learning for Temporally Grounded Video-Language Models] --> B\n        A --> C\n        A --> D\n        B[核心问题/Problem: Existing models struggle with accurate temporal grounding for event-level perception. 现有模型在事件级感知的精确时间定位上存在困难。]\n        C[主要方法/Method: Propose D2VLM framework and Factorized Preference Optimization (FPO). 提出D2VLM框架和因子化偏好优化算法。]\n        D[关键结果/Results: Demonstrates clear advantage on various tasks. 在多种任务上展现出明显优势。]"
+    },
+    {
+      "title": "LiftProj: Space Lifting and Projection-Based Panorama Stitching",
+      "authors": "Yuan Jia, Ruimin Wu, Rui Song, Jiaojiao Li, Bin Song",
+      "institution": "The affiliations indicate the authors are members of IEEE. The specific institution is not explicitly stated on the first page, but the acknowledgment mentions support from the \"National Nature Science Foundation of China,\" suggesting a Chinese research institution.",
+      "link": "https://arxiv.org/pdf/2512.24276",
+      "code": null,
+      "tags": [
+        "image stitching",
+        "3D lifting",
+        "panoramic stitching",
+        "point cloud fusion",
+        "cylindrical projection",
+        "hole filling"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/aa42233e64d5c4ec1cce0b3482d738a3664cd44807fdde7db2fc77e9f5b1a58b_w640_q70.webp",
+      "contributions": "1. Proposes a novel panoramic stitching framework that shifts from 2D warping to a 3D consistency paradigm by first lifting images into a dense 3D point representation. 2. Introduces a global cross-view fusion process in a unified 3D coordinate system, augmented by confidence metrics, followed by a unified projection to create a geometrically consistent 360° layout. 3. Designs the framework to be modular, allowing flexible integration of various 3D lifting and completion modules to address unknown regions via hole filling.",
+      "summary": "This paper addresses the problem of ghosting and distortion in traditional 2D image stitching for complex 3D scenes with parallax. It proposes LiftProj, a method that lifts images to 3D point clouds for fusion and then projects them onto a panoramic manifold. The approach significantly reduces geometric artifacts and produces more natural panoramas in challenging scenarios.",
+      "mindmap": "graph TB\n        A[LiftProj: Space Lifting and Projection-Based Panorama Stitching] --> B\n        A --> C\n        A --> D\n        B[核心问题/Problem: 2D传统拼接在复杂3D场景中产生重影和扭曲/Ghosting & distortion in 3D scenes with parallax using 2D methods]\n        C[主要方法/Method: 3D空间提升与融合后投影/3D lifting, fusion, and cylindrical projection]\n        D[关键结果/Results: 减少几何失真，生成更自然的全景图/Reduces geometric artifacts, yields more natural panoramas]"
+    },
+    {
+      "title": "HaineiFRDM: Explore Diffusion to Restore Defects in Fast-Movement Films",
+      "authors": "Rongji Xun, Junjie Yuan, Zhongjie Wang",
+      "institution": "Tongji University, Shanghai Film Restoration Laboratory",
+      "link": "https://arxiv.org/pdf/2512.24946",
+      "code": "https://anonymous.4open.science/r/HaineiFRDM",
+      "tags": [
+        "video restoration",
+        "diffusion model",
+        "film restoration",
+        "high-resolution video",
+        "patch-wise training",
+        "global-local frequency module"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c49ddd01a0523d32c1f20822a4a1d270659f5454212011a90e04a39fe796d1ab_w640_q70.webp",
+      "contributions": "1. Proposed HaineiFRDM, a film restoration framework leveraging diffusion models for content understanding to restore indistinguishable film defects. 2. Introduced a patch-wise training/testing strategy with a position-aware Global Prompt and Frame Fusion Module and a global-local frequency module to enable high-resolution restoration on a single 24GB GPU and ensure texture consistency. 3. Constructed a new film restoration dataset containing restored real-degraded films and realistic synthetic data.",
+      "summary": "This paper proposes HaineiFRDM, a diffusion model-based framework for restoring high-resolution, real-world films. It addresses limitations of existing open-source methods by using a patch-wise strategy and novel modules to handle high-resolution videos efficiently and introduces a new dataset. Experiments show the model outperforms existing open-source methods in defect restoration.",
+      "mindmap": "graph TB\n        A[HaineiFRDM: Explore Diffusion to Restore High-resolution Real-World Films] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[开源方法性能有限/Open-source methods have limited performance]\n        B --> B2[高分辨率电影未探索/High-resolution films unexplored]\n        C --> C1[基于扩散模型的修复框架/Diffusion-based restoration framework]\n        C --> C2[分块训练与测试策略/Patch-wise training & testing]\n        C --> C3[全局-局部频率模块/Global-local frequency module]\n        C --> C4[构建新数据集/Construct new dataset]\n        D --> D1[缺陷修复能力优越/Superior defect restoration ability]\n        D --> D2[代码与数据集将开源/Code & dataset to be released]"
+    },
+    {
+      "title": "Generative Video Compression: Towards 0.01% Compression Rate for Video Transmission",
+      "authors": "Xiangyu Chen, Jixiang Luo, Jingyu Xu, Fangqiu Yi, Chi Zhang, Xuelong Li",
+      "institution": "Institute of Artificial Intelligence (TeleAI), China Telecom",
+      "link": "https://arxiv.org/pdf/2512.24300",
+      "code": null,
+      "tags": [
+        "communication & networking",
+        "generative video compression",
+        "task-oriented communication",
+        "AI Flow",
+        "compression-computation trade-off",
+        "Level C Shannon-Weaver"
+      ],
+      "day": "2026-01-01",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7e0223eada26a73d6b029f6d32188e4919884b4dea1b6854eeb80d3b61f3d6ac_w640_q70.webp",
+      "contributions": "1. Proposes Generative Video Compression (GVC), a novel framework leveraging generative video models to achieve extreme compression rates as low as 0.02%, 2. Introduces a paradigm shift by trading computation for bandwidth, shifting the reconstruction burden to the receiver using generative priors, 3. Presents a practical compression-computation trade-off strategy for fast inference on consumer-grade GPUs, enabling deployment within the AI Flow framework for constrained environments.",
+      "summary": "This paper introduces Generative Video Compression (GVC), a framework that uses generative video models to achieve extreme compression rates by transmitting compact representations and reconstructing video at the receiver. It shifts the computational burden from transmission to inference and proposes a practical trade-off strategy for deployment. The work demonstrates a viable path for efficient video communication in bandwidth-constrained scenarios.",
+      "mindmap": "graph TB\n        Root(”Generative Video Compression: Towards 0.01% Compression Rate for Video Transmission”) --> Problem(”核心问题/Problem”)\n        Root --> Method(”主要方法/Method”)\n        Root --> Results(”关键结果/Results”)\n        Problem --> P1(”能否实现0.01%极端压缩率?/Achieve 0.01% extreme compression rate?”)\n        Problem --> P2(”如何权衡计算与压缩?/Trade computation for compression?”)\n        Problem --> P3(”是否实用可部署?/Practical and deployable?”)\n        Method --> M1(”生成式视频压缩框架/GVC Framework”)\n        Method --> M2(”利用生成先验重建/Use generative priors for reconstruction”)\n        Method --> M3(”压缩-计算权衡策略/Compression-computation trade-off”)\n        Results --> R1(”实现~0.02%压缩率/Achieved ~0.02% compression rate”)\n        Results --> R2(”为AI Flow框架赋能/Enables AI Flow framework”)\n        Results --> R3(”开辟高效视频通信新范式/Opens new practical video communication paradigm”)"
+    },
+    {
       "title": "Towards Signboard-Oriented Visual Question Answering: ViSignVQA Dataset, Method and Benchmark",
       "authors": "Hieu Minh Nguyen, Tam Le-Thanh Dang, Kiet Van Nguyen",
       "institution": "University of Information Technology, Vietnam National University, Ho Chi Minh City",

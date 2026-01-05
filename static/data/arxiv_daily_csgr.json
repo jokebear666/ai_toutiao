@@ -1,8 +1,88 @@
 {
   "label": "cs.GR",
   "slug": "csgr",
-  "week": "20251229-20260104",
+  "week": "20260105-20260111",
   "items": [
+    {
+      "title": "DiffTetVR: Differentiable Tetrahedral Volume Rendering",
+      "authors": "Christoph Neuhauser",
+      "institution": "Based on the author's name and the disclaimer mentioning leaving academia after a PhD, a specific institution cannot be definitively inferred from the provided text. The GitHub username \"chrismile\" does not provide an institutional domain.",
+      "link": "https://arxiv.org/pdf/2601.00114",
+      "code": "https://github.com/chrismile/DiffTetVR",
+      "tags": [
+        "differentiable rendering",
+        "differentiable volume rendering",
+        "tetrahedral meshes",
+        "coarse-to-fine optimization",
+        "vertex position optimization",
+        "unstructured grids"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0ab541546d959042e17a15a34f47d6c2f635ea0e09523824b82b6decae9b2675_w640_q70.webp",
+      "contributions": "1. A differentiable volume rendering solution for tetrahedral meshes, enabling optimization of vertex positions and local subdivision without multigrid methods. 2. An efficient forward rendering implementation with derived gradients and regularization terms to prevent degenerate tetrahedra. 3. A method for local mesh subdivision to facilitate a coarse-to-fine optimization process.",
+      "summary": "This paper introduces DiffTetVR, a differentiable volume rendering method for unstructured tetrahedral meshes. It addresses the limitation of prior grid-based methods by allowing optimization of mesh vertex positions and supporting local subdivision for coarse-to-fine reconstruction. The work provides an implementation and analysis but notes it is an intermediate step requiring further development to reach state-of-the-art performance.",
+      "mindmap": "graph TB\n        A[DiffTetVR] --> B[核心问题/Problem: 基于规则网格的可微体渲染难以优化顶点位置和局部细分/Limitation of grid-based DiffDVR for optimizing vertex positions & local subdivision]\n        A --> C[主要方法/Method: 为四面体网格提出可微体渲染方法/Propose DiffTetVR for tetrahedral meshes]\n        A --> D[关键结果/Results: 实现前向渲染、推导梯度、提出正则项和局部细分方案/Forward pass, gradients, regularization, and local subdivision scheme]"
+    },
+    {
+      "title": "MotionPhysics: Learnable Motion Distillation for Text-Guided Simulation",
+      "authors": "Miaowei Wang, Jakub Zadrożny, Oisin Mac Aodha, Amir Vaxman",
+      "institution": "The University of Edinburgh",
+      "link": "https://arxiv.org/pdf/2601.00504",
+      "code": "https://wangmiaowei.github.io/MotionPhysics.github.io/",
+      "tags": [
+        "physics-based simulation",
+        "motion distillation",
+        "differentiable simulation",
+        "multimodal large language model",
+        "material parameter estimation",
+        "video diffusion models"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1f5f328bdf213bd8c50e27a819223c1b50a9adbc0e2f36cc8adcb40bdbdd5bb8_w640_q70.webp",
+      "contributions": "1. An end-to-end differentiable framework that infers physical parameters from natural language prompts for 3D simulation, 2. A novel learnable motion distillation loss that extracts motion priors from video diffusion models while minimizing appearance/geometry bias, 3. A comprehensive evaluation across diverse scenarios (real-world, human-designed, AI-generated objects) and materials (solids, fluids) showing state-of-the-art performance.",
+      "summary": "The paper introduces MotionPhysics, a framework that uses a multimodal LLM and a novel motion distillation loss from video diffusion models to automatically estimate plausible physical parameters from text prompts for 3D dynamic simulation. This approach eliminates the need for ground-truth trajectories or annotated videos. The method is shown to produce realistic simulations across a wide variety of materials and object types, outperforming prior work.",
+      "mindmap": "graph TB\n        A[MotionPhysics: Learnable Motion Distillation for Text-Guided Simulation] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[物理参数调优耗时且需专业知识/Physical parameter tuning is time-consuming and requires expertise]\n        C --> C1[使用多模态大语言模型估计参数/Use multimodal LLM to estimate parameters]\n        C --> C2[提出可学习运动蒸馏损失/Propose learnable motion distillation loss]\n        C2 --> C2a[从视频扩散模型提取运动先验/Extract motion priors from video diffusion models]\n        D --> D1[在30+场景中评估/Evaluated across 30+ scenarios]\n        D --> D2[超越现有方法/Surpasses state-of-the-art]\n        D --> D3[自动确定合理参数/Automatically determines plausible parameters]"
+    },
+    {
+      "title": "Modeling and Simulating Origami Structures using Bilinear Solid-Shell Element",
+      "authors": "Qixin Liang",
+      "institution": "The University of Hong Kong",
+      "link": "https://arxiv.org/pdf/2601.00569",
+      "code": null,
+      "tags": [
+        "physical simulation",
+        "origami simulation",
+        "solid-shell element",
+        "assumed natural strain",
+        "director vector",
+        "curved crease"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d49731d30cdc9f38cf7f58b1ee3ef92baff55ecb58cf65c988c1c40583bb4636_w640_q70.webp",
+      "contributions": "1. A novel computational framework for origami simulation using bilinear solid-shell elements to model panels. 2. Modeling crease folding via the angle between director vectors of adjacent panels. 3. Introduction of the assumed natural strain method to mitigate locking issues in the solid-shell element.",
+      "summary": "This paper proposes a new computational framework for simulating origami structures. It models panels with bilinear solid-shell elements, handles creases via director vector angles, and uses an assumed natural strain method to prevent locking. The framework is validated through simulations of origami with both straight and curved creases, demonstrating its accuracy and effectiveness.",
+      "mindmap": "graph TB\n        A[Modeling and Simulating Origami Structures using Bilinear Solid-Shell Element] --> B(核心问题/Problem: Need for accurate simulation of origami structures with deformable panels and complex folds)\n        A --> C(主要方法/Method: Framework using bilinear solid-shell elements for panels, director vectors for creases, and assumed natural strain to mitigate locking)\n        A --> D(关键结果/Results: Validated through straight- and curved-crease simulations, demonstrating accuracy and efficacy)"
+    },
+    {
+      "title": "Spatiotemporal Detection and Uncertainty Visualization of Atmospheric Blocking Events",
+      "authors": "Mingzhe Li, Peer Nowack, Bei Wang",
+      "institution": "University of Utah (inferred from author Bei Wang's affiliation)",
+      "link": "https://arxiv.org/pdf/2601.00775",
+      "code": null,
+      "tags": [
+        "scientific visualization",
+        "uncertainty visualization",
+        "contour boxplots",
+        "feature detection and tracking",
+        "frequency heatmaps",
+        "3D temporal stacks"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/88297a48a454257b6725841d5bf558bf8bdd8e6e5bf5e63ce6e7774317641406_w640_q70.webp",
+      "contributions": "1. A geometry-based detection and tracking method for atmospheric blocking events, evaluated on climate model (UKESM) and reanalysis (ERA5) data. 2. A suite of uncertainty-aware visualization summaries, including contour boxplots, frequency heatmaps, and 3D temporal stacks. 3. A case study demonstration applying the framework to analyze the spatiotemporal occurrences of blocking events during the 2003 European heatwave.",
+      "summary": "This paper presents an uncertainty visualization framework to detect and analyze atmospheric blocking events, which are challenging to model. The method includes a geometry-based detection/tracking algorithm and novel visual summaries like contour boxplots. The framework is demonstrated as a tool for climate scientists to study blocking patterns and associated extreme weather risks.",
+      "mindmap": "graph TB\n        Root[”Spatiotemporal Detection and Uncertainty Visualization of Atmospheric Blocking Events<br>大气阻塞事件时空检测与不确定性可视化”] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[”核心问题/Problem<br>Atmospheric blocking events are hard to detect and analyze in long-term climate data.<br>大气阻塞事件在长期气候数据中难以检测和分析。”]\n        Method[”主要方法/Method<br>Propose an uncertainty visualization framework with geometry-based detection and visual summaries (contour boxplots, heatmaps, 3D stacks).<br>提出不确定性可视化框架，包含基于几何的检测和视觉摘要（轮廓箱线图、热图、3D堆叠）。”]\n        Results[”关键结果/Results<br>Framework reveals spatiotemporal patterns of blocking events, demonstrated via a 2003 heatwave case study.<br>框架揭示了阻塞事件的时空模式，并通过2003年热浪案例研究进行演示。”]"
+    },
     {
       "title": "PartMotionEdit: Fine-Grained Text-Driven 3D Human Motion Editing via Part-Level Modulation",
       "authors": "Yujie Yang, Zhichao Zhang, Jiazhou Chen, Zichao Wu",

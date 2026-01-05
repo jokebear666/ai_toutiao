@@ -1,8 +1,28 @@
 {
   "label": "cs.OS",
   "slug": "csos",
-  "week": "20251229-20260104",
+  "week": "20260105-20260111",
   "items": [
+    {
+      "title": "Evolution of Android's Permission-based Security Model and Challenges",
+      "authors": "Rajendra Kumar Solanki, Vijay Laxmi, Manoj Singh Gaur",
+      "institution": "Malaviya National Institute of Technology Jaipur (Inferred from authors' names and typical affiliation patterns; specific institution not explicitly stated in provided content, but authors are known to be affiliated with MNIT Jaipur)",
+      "link": "https://arxiv.org/pdf/2601.00252",
+      "code": null,
+      "tags": [
+        "mobile security",
+        "Android Permissions",
+        "Permission Model",
+        "API-Permission Mapping",
+        "Security Policy",
+        "Literature Survey"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/aee700bccb2e69c13a072aa6775b9befb7bcbc8d29ad48d8b5925449465689ec_w640_q70.webp",
+      "contributions": "1. Conducts a comprehensive literature survey systematizing knowledge on Android API calls to permissions mapping, permission model evolution, and permission checking mechanisms. 2. Identifies and documents unresolved permission-related security and privacy challenges in the Android ecosystem over a 12-year period (2010-2022). 3. Summarizes research gaps and proposes future directions for securing Android's permission-based model.",
+      "summary": "This paper presents a comprehensive survey analyzing the evolution and persistent challenges of Android's permission-based security model from 2010 to 2022. It systematically reviews research on API-permission mapping, permission model changes, and enforcement mechanisms. The study concludes by identifying critical research gaps and outlining future directions for improving Android security and privacy.",
+      "mindmap": "graph TB\n        Root[”Evolution of Android’s Permission-based Security Model and Challenges<br>Android基于权限的安全模型演变与挑战”]\n        Root --> Problem[”核心问题/Problem<br>Android权限模型存在未解决的安全与隐私挑战”]\n        Root --> Method[”主要方法/Method<br>对2010-2022年文献进行系统性综述与比较分析”]\n        Root --> Results[”关键结果/Results<br>识别研究空白并提出未来方向”]"
+    },
     {
       "title": "MSched: GPU Multitasking via Proactive Memory Scheduling",
       "authors": "Weihang Shen, Yinqiu Chen, Rong Chen, Haibo Chen",

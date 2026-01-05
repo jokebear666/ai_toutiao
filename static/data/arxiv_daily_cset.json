@@ -1,8 +1,210 @@
 {
   "label": "cs.ET",
   "slug": "cset",
-  "week": "20251229-20260104",
+  "week": "20260105-20260111",
   "items": [
+    {
+      "title": "On the Error Floor Evaluation of NOMA-Irregular Repetition Slotted ALOHA",
+      "authors": "Estefanía Recayte",
+      "institution": "German Aerospace Center (DLR)",
+      "link": "https://arxiv.org/pdf/2601.00317",
+      "code": null,
+      "tags": [
+        "wireless communication",
+        "random access",
+        "NOMA",
+        "IRSA",
+        "error floor",
+        "packet loss rate",
+        "successive interference cancellation"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0e772de55ebe86a310b5ea15f9899e61deefd0352599d21d56e4837efdcd539d_w640_q70.webp",
+      "contributions": "1. Provides a simple and tight analytical approximation for the packet loss rate in the error floor region of a NOMA-IRSA scheme. 2. Derives the packet loss rate expression specifically for the finite length regime, enabling prompt evaluation. 3. Validates the analytical model's accuracy through Monte-Carlo simulations, showing a strong match across various channel loads, including those beyond the low load regime.",
+      "summary": "This paper proposes a tight analytical model to approximate the packet loss rate in the error floor region for a NOMA-based IRSA random access scheme used in IoT scenarios. The method combines user-selected replica counts and power levels with SIC at the receiver. The derived expression is validated by simulations, showing high accuracy across a range of channel loads.",
+      "mindmap": "graph TB\n        A[On the Error Floor Evaluation of NOMA-IRSA] --> B(核心问题/Problem: 评估NOMA-IRSA方案的错误平层/Evaluate the error floor of NOMA-IRSA scheme)\n        A --> C(主要方法/Method: 提出有限长度下的分组丢失率解析近似/Propose analytical approximation of packet loss rate in finite length regime)\n        A --> D(关键结果/Results: 解析模型与仿真高度匹配/Analytical model shows strong match with simulations across loads)"
+    },
+    {
+      "title": "Bio-inspired Agentic Self-healing Framework for Resilient Distributed Computing Continuum Systems",
+      "authors": "Alaa Saleh, Praveen Kumar Donta, Roberto Morabito, Sasu Tarkoma, Anders Lindgren, Qiyang Zhang, Schahram Dustdar Susanna Pirttikangas, Lauri Lovén",
+      "institution": "University of Oulu, Stockholm University, EURECOM, University of Helsinki, RISE Research Institutes of Sweden, Luleå University of Technology, Peking University, TU Wien",
+      "link": "https://arxiv.org/pdf/2601.00339",
+      "code": null,
+      "tags": [
+        "agent system",
+        "self-healing",
+        "distributed computing continuum",
+        "language model agents",
+        "multi-agent systems",
+        "fault tolerance"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/61eb83e4510dadeebc7e84fe1a44a89c218981f7cc3a6c7ef337ea51860d2146_w640_q70.webp",
+      "contributions": "1. Introduces ReCiSt, a novel bio-inspired framework that maps biological self-healing phases (Hemostasis, Inflammation, Proliferation, Remodeling) to computational layers (Containment, Diagnosis, Meta-Cognitive, Knowledge) for resilience in DCCS. 2. Proposes the use of Language Model (LM)-powered agents to autonomously interpret logs, diagnose faults, and reconfigure resources with minimal human intervention. 3. Demonstrates the framework's capability for self-healing within tens of seconds with low resource overhead (e.g., 10% CPU usage) through evaluation on public fault datasets.",
+      "summary": "This paper proposes ReCiSt, a bio-inspired, agent-based framework that uses Language Model-powered agents to autonomously detect, diagnose, and recover from faults in Distributed Computing Continuum Systems. The framework is evaluated on public datasets, showing it can achieve self-healing in tens of seconds with minimal resource overhead.",
+      "mindmap": "graph TB\n        Root[”Bio-inspired Agentic Self-healing Framework<br>生物启发的智能体自愈框架”] --> Problem[”核心问题/Problem<br>DCCS中的复杂性与故障频发<br>Complexity & Frequent Faults in DCCS”]\n        Root --> Method[”主要方法/Method<br>ReCiSt框架: 仿生四层与LM智能体<br>ReCiSt Framework: Bio-inspired Layers & LM Agents”]\n        Root --> Results[”关键结果/Results<br>数十秒内自愈，低CPU开销<br>Self-healing in tens of seconds, low CPU overhead”]"
+    },
+    {
+      "title": "Multi-Satellite NOMA-Irregular Repetition Slotted ALOHA for IoT Networks",
+      "authors": "Estefanía Recayte, Carla Amatetti",
+      "institution": "German Aerospace Center (DLR), University of Bologna",
+      "link": "https://arxiv.org/pdf/2601.00341",
+      "code": null,
+      "tags": [
+        "wireless networks",
+        "NOMA",
+        "IRSA",
+        "satellite networks",
+        "IoT",
+        "random access"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f1d053bf2a7b584e3006230b1ea29daef69dfa8b09d48b4db4f4d47daff085cb_w640_q70.webp",
+      "contributions": "1. Evaluates the impact of multi-satellite receiver diversity on IoT network performance using a NOMA-IRSA protocol. 2. Derives a lower bound for system performance that accounts for satellite channel impairments, providing a fast evaluation tool. 3. Identifies key trade-offs between network design parameters, specifically packet loss rate and energy efficiency.",
+      "summary": "This paper addresses the challenge of high collision probability in satellite-based IoT networks by proposing a system where IoT nodes use a NOMA-IRSA protocol and can be seen by multiple satellites. The authors analyze this multi-receiver scenario, derive a performance lower bound, and show that visibility of even one extra satellite significantly improves system performance.",
+      "mindmap": "graph TB\n        A[Multi-Satellite NOMA-IRSA for IoT Networks] --> B[核心问题/Problem: 卫星网络IoT设备激增导致高碰撞概率/High collision probability from massive IoT devices in satellite networks]\n        A --> C[主要方法/Method: 评估多卫星接收分集的NOMA-IRSA协议/Evaluating multi-satellite receiver diversity with NOMA-IRSA protocol]\n        A --> D[关键结果/Results: 增加一个可见卫星即可显著提升性能/Visibility of one extra satellite yields significant performance gains]"
+    },
+    {
+      "title": "Two-Step Interference Cancellation for Energy Saving in Irregular Repetition Slotted ALOHA",
+      "authors": "Estefanía Recayte, Leonardo Badia, Andrea Munari",
+      "institution": "German Aerospace Center (DLR), University of Padova",
+      "link": "https://arxiv.org/pdf/2601.00343",
+      "code": null,
+      "tags": [
+        "wireless networking",
+        "random access protocols",
+        "Irregular Repetition Slotted ALOHA (IRSA)",
+        "energy efficiency",
+        "interference cancellation",
+        "low load regime",
+        "transmission termination"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d35c8ee6f7c5d45ef1a130552180415615db4190cf97c939ed51201d0a122d6b_w640_q70.webp",
+      "contributions": "1. Proposes a modified IRSA protocol with intermediate decoding and early transmission termination to save energy. 2. Develops an analytical model for energy consumption and success probability in finite-length, low-load scenarios, addressing a gap in existing asymptotic analyses. 3. Demonstrates through analysis and simulation that the technique significantly reduces energy consumption (e.g., 33% at 10% load) while maintaining performance gains over standard ALOHA.",
+      "summary": "The paper addresses the energy inefficiency of Irregular Repetition Slotted ALOHA (IRSA) protocols, especially at low traffic loads. It proposes a two-step modification where nodes can stop transmitting early upon successful decoding, avoiding redundant transmissions. Analysis and simulations confirm the method achieves substantial energy savings (e.g., 33%) without compromising throughput performance.",
+      "mindmap": "graph TB\n        A[Two-Step Interference Cancellation for Energy Saving in IRSA] --> B(核心问题/Problem: IRSA能耗高，尤其在低负载时/IRSA energy consumption high, especially at low load)\n        A --> C(主要方法/Method: 引入中间解码与提前终止传输/Introduce intermediate decoding & early transmission termination)\n        A --> D(关键结果/Results: 显著节能且不影响吞吐量/Significant energy saving without affecting throughput)"
+    },
+    {
+      "title": "RMAAT: Astrocyte-Inspired Memory Compression and Replay for Efficient Long-Context Transformers",
+      "authors": "Md Zesun Ahmed Mia, Malyaban Bal, Abhronil Sengupta",
+      "institution": "Pennsylvania State University",
+      "link": "https://arxiv.org/pdf/2601.00426",
+      "code": null,
+      "tags": [
+        "efficient transformers",
+        "astrocyte-inspired computing",
+        "long-term plasticity (LTP)",
+        "short-term plasticity (STP)",
+        "memory compression",
+        "Long Range Arena (LRA)"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/48db0bbab3b8ca0fcbec4bfde72ebb384d63651cf925a575ef2f9e06a070abc5_w640_q70.webp",
+      "contributions": "1. Introduces RMAAT, a novel Transformer architecture that integrates abstracted astrocyte functionalities for efficient long-context processing. 2. Proposes an adaptive memory compression mechanism governed by a novel retention factor derived from simulated astrocyte long-term plasticity (LTP). 3. Develops Astrocytic Memory Replay Backpropagation (AMRB), a novel training algorithm designed for memory efficiency in recurrent networks.",
+      "summary": "This paper addresses the quadratic complexity problem of Transformer self-attention for long sequences by proposing RMAAT, an architecture inspired by astrocyte functions in biological memory. The method uses recurrent segment-based processing with adaptive memory compression and a linear-complexity attention mechanism. Evaluations on the Long Range Arena benchmark show that RMAAT achieves competitive accuracy with substantial improvements in computational and memory efficiency.",
+      "mindmap": "graph TB\n        Root[RMAAT: Astrocyte-Inspired Memory Compression and Replay] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem: Transformer自注意力二次复杂度/Quadratic Complexity of Self-Attention]\n        Method[主要方法/Method: 星形胶质细胞启发的循环记忆架构/Astrocyte-Inspired Recurrent Memory Architecture]\n        Results[关键结果/Results: 在LRA基准上具有竞争力的准确性和效率/Competitive Accuracy & Efficiency on LRA]"
+    },
+    {
+      "title": "Automated electrostatic characterization of quantum dot devices in single- and bilayer heterostructures",
+      "authors": "Merritt P. R. Losert, Dario Denora, Barnaby van Straaten, Michael Chan, Stefan D. Oosterhout, Lucas Stehouwer, Giordano Scappucci, Menno Veldhorst, Justyna P. Zwolak",
+      "institution": "National Institute of Standards and Technology (NIST), Delft University of Technology (QuTech)",
+      "link": "https://arxiv.org/pdf/2601.00067",
+      "code": null,
+      "tags": [
+        "quantum computing",
+        "quantum dot",
+        "charge stability diagram",
+        "automated characterization",
+        "machine learning",
+        "image processing"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c536889ababa23206b42f144321036dbbfd329505ea45c505aa53c2a04bf7815_w640_q70.webp",
+      "contributions": "1. Developed an automated protocol combining ML, image processing, and object detection to extract capacitive properties from charge stability diagrams without manual labeling. 2. Demonstrated the method's effectiveness on complex bilayer germanium heterostructures, which feature interlayer tunneling and distinct loading lines. 3. Enabled statistical estimation of physically relevant device parameters, such as lever arms and capacitive couplings, facilitating rapid device characterization.",
+      "summary": "This paper presents an automated method for characterizing quantum dot devices by analyzing charge stability diagrams. The protocol integrates machine learning and image processing to identify charge transitions and extract capacitive properties from experimental data. It enables rapid, scalable extraction of key device parameters, which is critical for advancing large-scale quantum dot arrays.",
+      "mindmap": "graph TB\n        A[Automated electrostatic characterization of quantum dot devices<br>量子点器件自动静电表征] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[Manual interpretation of CSDs is slow and error-prone<br>CSD手动解释慢且易错]\n        C --> C1[Integrates ML, image processing, object detection<br>集成ML、图像处理、目标检测]\n        D --> D1[Enables rapid extraction of device parameters (lever arms, couplings)<br>实现器件参数快速提取]"
+    },
+    {
+      "title": "Democratizing Electronic-Photonic AI Systems: An Open-Source AI-Infused Cross-Layer Co-Design and Design Automation Toolflow",
+      "authors": "Hongjian Zhou, Ziang Yin, Jiaqi Gu",
+      "institution": "Arizona State University",
+      "link": "https://arxiv.org/pdf/2601.00130",
+      "code": null,
+      "tags": [
+        "compiler & ir",
+        "electronic-photonic design automation",
+        "cross-layer co-design",
+        "inverse photonic design",
+        "AI-accelerated Maxwell solvers",
+        "photonic AI system"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/76312a14ab1d9b01be6967c891d86f1c36fb6eebdf382d27578721d3ff3e1c24_w640_q70.webp",
+      "contributions": "1. Proposed a cross-layer co-design framework for scalable photonic edge AI and Transformer inference architectures. 2. Introduced SimPhony, an open-source modeling tool for rapid EPIC AI system evaluation and design-space exploration. 3. Developed AI-enabled photonic design automation techniques, including physical AI-based Maxwell solvers and a fabrication-aware inverse design framework.",
+      "summary": "This paper addresses the challenge of designing electronic-photonic AI systems by proposing an open-source, AI-infused cross-layer co-design and automation framework. The method includes architecture designs for photonic AI, a modeling tool called SimPhony, and AI-powered design automation tools. The work aims to democratize and accelerate the development of next-generation photonic AI systems.",
+      "mindmap": "graph TB\n        A[Democratizing Electronic-Photonic AI Systems<br>电子-光子AI系统民主化] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[Challenging EPIC AI System Design<br>EPIC AI系统设计挑战]\n        B --> B2[Lack of Mature EPDA Toolchain<br>缺乏成熟的EPDA工具链]\n        C --> C1[Cross-Layer Co-Design Framework<br>跨层协同设计框架]\n        C --> C2[SimPhony Modeling Tool<br>SimPhony建模工具]\n        C --> C3[AI-Enabled EPDA Stack<br>AI赋能的EPDA堆栈]\n        D --> D1[Democratizes Development<br>民主化开发]\n        D --> D2[Enables Scalable EPDA<br>实现可扩展EPDA]"
+    },
+    {
+      "title": "Toward Large-Scale Photonics-Empowered AI Systems: From Physical Design Automation to System-Algorithm Co-Exploration",
+      "authors": "Ziang Yin, Hongjian Zhou, Nicholas Gangi, Meng Zhang, Jeff Zhang, Zhaoran Rena Huang, Jiaqi Gu",
+      "institution": "Arizona State University, Rensselaer Polytechnic Institute",
+      "link": "https://arxiv.org/pdf/2601.00129",
+      "code": null,
+      "tags": [
+        "others",
+        "photonic AI",
+        "electronic-photonic design automation (EPDA)",
+        "system-algorithm co-exploration",
+        "cross-layer toolchain",
+        "physical design automation"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/bdd0ce87d1ffb64d07fd82b197f024f167052c6fb76c061ecf0885e18f056796_w640_q70.webp",
+      "contributions": "1. Identified three essential considerations for scaling practical photonic AI systems: dynamic tensor operation support, systematic management of overheads, and robustness under hardware non-idealities. 2. Built a cross-layer toolchain (SimPhony, ADEPT, ADEPT-Z, Apollo, LiDAR) for quantitative, physically-grounded co-design from system exploration to physical layout. 3. Established a co-design loop that bridges architectural intent and deployable photonic hardware by translating physical costs into system-level metrics.",
+      "summary": "This paper addresses the challenge of scaling photonic AI systems by identifying key design considerations and developing a cross-layer toolchain for system-algorithm co-exploration. The proposed method uses tools like SimPhony and Apollo to model physical costs and automate design, enabling quantitative trade-off analysis under real implementation constraints. The main conclusion is that this approach creates a physically-grounded co-design loop essential for realizing large-scale, deployable photonic AI hardware.",
+      "mindmap": "graph TB\n        A[Toward Large-Scale Photonics-Empowered AI Systems<br/>大规模光子赋能AI系统] --> B\n        A --> C\n        A --> D\n        B[核心问题/Problem<br/>Scaling AI constrained by data movement & efficiency<br/>AI扩展受限于数据移动与能效] --> B1[挑战1: 动态张量操作支持<br/>Dynamic tensor operation support]\n        B --> B2[挑战2: 开销系统管理<br/>Systematic overhead management]\n        B --> B3[挑战3: 硬件非理想性鲁棒性<br/>Robustness under hardware non-idealities]\n        C[主要方法/Method<br/>Cross-layer toolchain for co-design<br/>跨层工具链协同设计] --> C1[SimPhony: 实现感知建模<br/>Implementation-aware modeling]\n        C --> C2[ADEPT/ADEPT-Z: 电路与拓扑探索<br/>Circuit & topology exploration]\n        C --> C3[Apollo/LiDAR: 物理设计自动化<br/>Physical design automation]\n        D[关键结果/Results<br/>Quantitative & physically-grounded co-design loop<br/>定量且物理基础的协同设计循环] --> D1[连接系统目标与可行硬件<br/>Connects system objectives to feasible hardware]\n        D --> D2[产生可制造布局<br/>Produces manufacturable layouts]"
+    },
+    {
+      "title": "Assessing Quantum Annealing to Solve the Minimum Vertex Multicut",
+      "authors": "Ali Abbassi, Yann Dujardin, Eric Gourdin, Philippe Lacomme, Caroline Prodhon",
+      "institution": "Orange Research, University of Technology of Troyes, Université Clermont Auvergne",
+      "link": "https://arxiv.org/pdf/2601.00711",
+      "code": null,
+      "tags": [
+        "quantum computing",
+        "quantum annealing",
+        "D-Wave",
+        "Quadratic Unconstrained Binary Optimization (QUBO)",
+        "minor embedding",
+        "hybrid quantum-classical solver"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c974a9b538036babd7dc52bcc6bde2aadb9df92f69392e3640b180c6d8038d7a_w640_q70.webp",
+      "contributions": "1. Formulated the Restricted Vertex Minimum Multicut Problem as a QUBO model for quantum annealing. 2. Conducted a practical analysis of the quantum workflow, focusing on embedding, chain parameters, and postprocessing rather than just solution quality. 3. Provided a realistic assessment of D-Wave's current capabilities and limitations, highlighting the improved feasibility of hybrid solvers for cybersecurity network problems.",
+      "summary": "This paper investigates using quantum annealing on D-Wave's hardware to solve the Restricted Vertex Minimum Multicut Problem, a hard combinatorial optimization relevant to cybersecurity. The authors implement the problem as a QUBO model and analyze the practical aspects of the quantum workflow. Their results indicate significant hardware constraints for pure quantum annealing, especially for scaling, while hybrid quantum-classical solvers show more promise.",
+      "mindmap": "graph TB\n        A[Assessing Quantum Annealing to Solve the Minimum Vertex Multicut] --> B[核心问题/Problem: 网络安全中的组合优化问题 / Cybersecurity combinatorial optimization problem]\n        A --> C[主要方法/Method: 量子退火与QUBO建模 / Quantum annealing & QUBO modeling]\n        A --> D[关键结果/Results: 硬件限制与混合求解器优势 / Hardware constraints & hybrid solver advantage]"
+    },
+    {
+      "title": "Quantum Simulation of Protein Fragment Electronic Structure Using Moment-based Adaptive Variational Quantum Algorithms",
+      "authors": "Biraja Ghoshal",
+      "institution": "University College London (UCL)",
+      "link": "https://arxiv.org/pdf/2601.00656",
+      "code": null,
+      "tags": [
+        "quantum computing for chemistry",
+        "Variational Quantum Eigensolver",
+        "quantum-classical hybrid",
+        "Jordan-Wigner transformation",
+        "protein fragment",
+        "electronic structure"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d0c22fee4dc465c28d48eb5d836cb4dcbdf3f09e1018a0ffac4a463b2d0f3778_w640_q70.webp",
+      "contributions": "1. Developed a quantum-classical hybrid framework for simulating protein fragment electronic structure using VQE, implemented in pure Python. 2. Achieved chemical accuracy for a serine protease fragment and characterized a three-phase convergence behavior of the optimization. 3. Demonstrated the framework's practical application by accurately predicting SARS-CoV-2 protease inhibition and cytochrome P450 metabolism sites.",
+      "summary": "This paper presents a hybrid quantum-classical framework using the Variational Quantum Eigensolver to simulate the electronic structure of protein fragments. The method achieves chemical accuracy for a test case and successfully predicts key biological interactions, such as protease inhibition and metabolic sites. This work establishes a pathway for applying near-term quantum computing to practical biomolecular simulations.",
+      "mindmap": "graph TB\n        A[Quantum Simulation of Protein Fragment Electronic Structure] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[蛋白质活性位点电子相互作用/Electronic interactions in protein active sites]\n        B --> B2[量子计算挑战/Computationally challenging for quantum mechanics]\n        C --> C1[量子-经典混合框架/Quantum-classical hybrid framework]\n        C --> C2[变分量子本征求解器/Variational Quantum Eigensolver]\n        C --> C3[Jordan-Wigner 变换/Jordan-Wigner transformation]\n        D --> D1[化学精度/Chemical accuracy (<1.6 mHartree)]\n        D --> D2[三阶段收敛/Three-phase convergence]\n        D --> D3[实际生物应用/Practical biological applications (SARS-CoV-2, P450)]"
+    },
     {
       "title": "An Electronic Ising Machine",
       "authors": "Matt Bowring, Ben Anderdson, Ben Tiffany",

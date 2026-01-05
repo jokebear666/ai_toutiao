@@ -1,8 +1,268 @@
 {
   "label": "cs.IT",
   "slug": "csit",
-  "week": "20251229-20260104",
+  "week": "20260105-20260111",
   "items": [
+    {
+      "title": "The permutation group of Reed-Solomon codes over arbitrary points",
+      "authors": "Eduardo Camps-Moreno, Jun Bo Lau, Hiram H. López, Welington Santos",
+      "institution": "Virginia Tech, KU Leuven, University of Wisconsin-Stout",
+      "link": "https://arxiv.org/pdf/2601.00122",
+      "code": null,
+      "tags": [
+        "coding theory",
+        "Reed-Solomon codes",
+        "permutation group",
+        "automorphism group",
+        "affine permutations",
+        "evaluation points"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/21b259b314c4815c0a20b42d7c453b8d4e754d4b81e7ac1ffe62ccf4ab62c34c_w640_q70.webp",
+      "contributions": "1. Proves that the permutation group of a Reed-Solomon code is precisely the set of degree-one polynomials (affine permutations) that leave its set of evaluation points invariant. 2. Provides a straightforward, elementary algebraic proof for this characterization, applicable to arbitrary evaluation sets. 3. Generalizes and simplifies the proof for well-known special cases where the evaluation set is the entire finite field or the multiplicative group.",
+      "summary": "This paper studies the permutation group (automorphism group) of Reed-Solomon codes. It proves that this group consists exactly of the affine permutations (polynomials of degree one) that map the code's evaluation set to itself. This result provides a simple, unified proof for previously known special cases and clarifies the structure of the code's symmetries for arbitrary evaluation points.",
+      "mindmap": "graph TB\n        A[The permutation group of Reed-Solomon codes over arbitrary points] --> B[核心问题/Problem: Understanding the automorphism group of Reed-Solomon codes for arbitrary evaluation sets.]\n        A --> C[主要方法/Method: Using elementary algebraic tools to analyze the permutations that preserve the code structure.]\n        A --> D[关键结果/Results: The permutation group is exactly the affine permutations that fix the evaluation set.]"
+    },
+    {
+      "title": "A repair scheme for a distributed storage system based on multivariate polynomials",
+      "authors": "Hiram H. López, Gretchen L. Matthews, Daniel Valvo",
+      "institution": "Virginia Tech",
+      "link": "https://arxiv.org/pdf/2601.00120",
+      "code": null,
+      "tags": [
+        "distributed storage",
+        "Reed-Muller codes",
+        "exact repair scheme",
+        "multivariate polynomials",
+        "node failure",
+        "distributed storage system"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/690a4f70e62282aa6c6e66114fb5cda90b3da62120fb08516fb82760d90afba4_w640_q70.webp",
+      "contributions": "1. Extends the exact repair scheme from Reed-Solomon codes (single-variable polynomials) to Reed-Muller codes (multivariate polynomials). 2. Proposes a repair scheme capable of handling any single node failure. 3. Enables repair of multiple node failures under certain positional conditions.",
+      "summary": "This paper addresses the problem of efficiently recovering data from failed nodes in a distributed storage system. It proposes a new exact repair scheme based on Reed-Muller codes, which use multivariate polynomials, extending prior work on Reed-Solomon codes. The method can repair single node failures and, under specific conditions, multiple node failures.",
+      "mindmap": "graph TB\n        Root[”A repair scheme for a distributed storage system based on multivariate polynomials<br/>基于多元多项式的分布式存储系统修复方案”] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[”核心问题/Problem<br/>Efficient data recovery from node failures in distributed storage<br/>分布式存储中节点故障的高效数据恢复”] --> P1[”具体挑战/Challenge<br/>Exact repair of failed nodes<br/>故障节点的精确修复”]\n        Method[”主要方法/Method<br/>Extend repair scheme to Reed-Muller codes<br/>将修复方案扩展至Reed-Muller码”] --> M1[”技术基础/Foundation<br/>Based on multivariate polynomials<br/>基于多元多项式”]\n        Results[”关键结果/Results<br/>Proposed scheme repairs single & multiple node failures<br/>所提方案可修复单节点与多节点故障”] --> R1[”条件/Condition<br/>Multiple failures require specific positions<br/>多节点故障需满足特定位置条件”]"
+    },
+    {
+      "title": "Modern Neuromorphic AI: From Intra-Token to Inter-Token Processing",
+      "authors": "Osvaldo Simeone",
+      "institution": "Northeastern University London (Intelligent Networked Systems Institute - INSI)",
+      "link": "https://arxiv.org/pdf/2601.00245",
+      "code": null,
+      "tags": [
+        "model compression (quantization/pruning)",
+        "neuromorphic computing",
+        "state-space models",
+        "sparse attention",
+        "surrogate gradients",
+        "local learning rules"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/dfc9154dccb8e64d45d3b60bd0f6bb1e84fa9423cf041633e14a8cb6272baa46_w640_q70.webp",
+      "contributions": "1. Proposes a novel conceptual framework for analyzing modern neuromorphic AI through the lens of intra-token (feature-level) and inter-token (contextual) processing. 2. Systematically reviews the convergence of neuromorphic principles (e.g., sparse, discrete activations) with state-of-the-art AI architectures like state-space models and transformers. 3. Reviews and categorizes training methodologies for neuromorphic models, from surrogate gradients to local learning rules based on reinforcement learning.",
+      "summary": "This paper addresses the high energy costs of modern AI by exploring the convergence of neuromorphic computing principles with contemporary architectures. It proposes a framework distinguishing between intra-token and inter-token processing to analyze how neuromorphic ideas like sparse activations and state dynamics are embodied in models such as transformers and state-space models. The main conclusion is that modern AI is increasingly adopting brain-inspired, energy-efficient neuromorphic principles for both processing types, offering a path toward more sustainable intelligent systems.",
+      "mindmap": "graph TB\n        A[Modern Neuromorphic AI: From Intra-Token to Inter-Token Processing] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[AI能耗增长 / Escalating AI Energy Requirements]\n        C --> C1[神经形态计算原则 / Neuromorphic Computing Principles]\n        C1 --> C2[离散稀疏激活 / Discrete & Sparse Activations]\n        C1 --> C3[循环动态 / Recurrent Dynamics]\n        C --> C4[处理框架: 令牌内与令牌间 / Processing Framework: Intra-Token vs. Inter-Token]\n        D --> D1[现代AI体现神经形态原则 / Modern AI Embodies Neuromorphic Principles]\n        D --> D2[连接SNN、状态空间模型、Transformer / Connects SNNs, State-Space Models, Transformers]"
+    },
+    {
+      "title": "Evolution of UE in Massive MIMO Systems for 6G: From Passive to Active",
+      "authors": "Kwonyeol Park, Hyuckjin Choi, Geonho Han, Gyoseung Lee, Yeonjoon Choi, Sunwoo Park, Junil Choi",
+      "institution": "Based on author names and the technical focus, the institution is likely a Korean university or research institute (e.g., KAIST, Seoul National University, or a corporate research lab). Specific affiliation is not provided in the given text.",
+      "link": "https://arxiv.org/pdf/2601.00251",
+      "code": null,
+      "tags": [
+        "on-device ai",
+        "Massive MIMO",
+        "6G",
+        "UE-centric",
+        "3GPP Standardization",
+        "Multi-panel UE"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/302c7cb3adedd97b14df797f5a8d4511585430b6127377e51bfc154c95f7fe54_w640_q70.webp",
+      "contributions": "1. Provides a chronological review of the UE's evolution in 3GPP Releases 15-19, highlighting its transition from passive CSI reporting to active, AI/ML-based functionalities and UE-initiated beam management. 2. Examines key UE implementation challenges and architectural innovations, such as Multi-panel UE (MPUE) designs and on-device intelligent processing under energy constraints. 3. Validates the impact of UE-centric functionalities using digital-twin-based evaluations, showing throughput and robustness improvements from UE-initiated beam reporting and multi-panel architectures.",
+      "summary": "This paper examines the evolving role of the User Equipment (UE) in Massive MIMO systems for 6G, transitioning it from a passive transceiver to an active, intelligent node. It reviews 3GPP standardization progress, analyzes implementation challenges like multi-panel architectures and on-device AI, and validates through digital-twin simulations that UE-centric innovations improve throughput and link robustness. The main conclusion is that redefining the UE as an active contributor is crucial for meeting 6G's stringent performance requirements.",
+      "mindmap": "graph TB\n        A[Evolution of UE in Massive MIMO Systems for 6G: From Passive to Active] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[gNB-centric mMIMO limitations for 6G requirements/gNB为中心的mMIMO架构对6G需求的局限性]\n        C --> C1[Review 3GPP evolution & analyze UE-centric innovations/回顾3GPP演进并分析以UE为中心的创新]\n        C --> C2[Digital-twin-based evaluation/基于数字孪生的评估]\n        D --> D1[UE-initiated beam reporting improves throughput/UE发起的波束报告提升吞吐量]\n        D --> D2[Multi-panel UE enhances link robustness/多面板UE增强链路鲁棒性]"
+    },
+    {
+      "title": "Semantic Transmission Framework in Direct Satellite Communications",
+      "authors": "Chong Huang, Xuyang Chen, Jingfu Li, Pei Xiao, Gaojie Chen, Rahim Tafazolli",
+      "institution": "University of Surrey, Southwest Jiaotong University, Shenzhen University, Sun Yat-sen University",
+      "link": "https://arxiv.org/pdf/2601.00381",
+      "code": null,
+      "tags": [
+        "communication & networking",
+        "semantic communications",
+        "satellite communications",
+        "reinforcement learning",
+        "resource optimization",
+        "link budget"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/202097e9a2b47a9456101a9036e7455722f9a0ae422e72421897746cb7ad9ca5_w640_q70.webp",
+      "contributions": "1. Proposes a novel semantic transmission framework specifically designed to address the insufficient link budget problem in direct satellite communications. 2. Introduces a semantic efficiency metric to quantify the trade-offs between communication, computation, and generation quality, with optimized weights. 3. Develops a decision-assisted REINFORCE++ algorithm to solve the complex joint optimization problem, featuring a feasibility-aware action space and a critic-free stabilized policy update.",
+      "summary": "This paper tackles the insufficient link budget problem in direct satellite communications by proposing a semantic transmission framework. It formulates a joint optimization problem to maximize a new semantic efficiency metric and solves it using a novel decision-assisted REINFORCE++ algorithm. Numerical results demonstrate that the proposed algorithm achieves higher semantic efficiency compared to baseline methods.",
+      "mindmap": "graph TB\n        A[Semantic Transmission Framework in Direct Satellite Communications] --> B(核心问题/Problem: Insufficient Link Budget)\n        A --> C(主要方法/Method: Semantic Framework & REINFORCE++ Algorithm)\n        A --> D(关键结果/Results: Higher Semantic Efficiency)"
+    },
+    {
+      "title": "On the burst-covering radius of binary cyclic codes",
+      "authors": "Gabriel Sac Himelfarb, Moshe Schwartz",
+      "institution": "Ben-Gurion University of the Negev (inferred from author affiliation \"Moshe Schwartz, Fellow, IEEE\" and common knowledge of his institution)",
+      "link": "https://arxiv.org/pdf/2601.00435",
+      "code": null,
+      "tags": [
+        "coding theory",
+        "burst-covering radius",
+        "cyclic codes",
+        "BCH codes",
+        "LFSR sequences",
+        "Melas codes"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/caea34e4599e82283f94368ed73127d99f86e3500bf52aca8f0444c27c97c7b3_w640_q70.webp",
+      "contributions": "1. Introduces and formally studies the new concept of burst-covering codes, filling a gap in coding theory. 2. Proves new bounds on the burst-covering radius for cyclic codes, particularly for BCH and Melas codes, using a novel bound on pattern frequencies in LFSR sequences. 3. Proposes an efficient algorithm for burst-covering cyclic codes.",
+      "summary": "This paper introduces the concept of burst-covering codes, the covering counterpart to burst-error-correcting codes. It establishes general bounds and provides stronger bounds for cyclic codes using LFSR sequences, with specific results for BCH and Melas codes. The work concludes with an efficient algorithm for burst-covering cyclic codes.",
+      "mindmap": "graph TB\n        A[On the Burst-Covering Radius of Binary Cyclic Codes] --> B[核心问题/Problem: 研究突发覆盖码/Burst-Covering Codes]\n        A --> C[主要方法/Method: 使用LFSR序列分析循环码/Using LFSR sequences for cyclic codes]\n        A --> D[关键结果/Results: 为BCH和Melas码提供新边界/New bounds for BCH and Melas codes]"
+    },
+    {
+      "title": "CoCo-Fed: A Unified Framework for Memory- and Communication-Efficient Federated Learning at the Wireless Edge",
+      "authors": "Zhiheng Guo, Zhaoyang Liu, Zihan Cen, Chenyuan Feng, Xinghua Sun, Xiang Chen, Tony Q. S. Quek, Xijun Wang",
+      "institution": "Sun Yat-sen University, University of Exeter, Singapore University of Technology and Design",
+      "link": "https://arxiv.org/pdf/2601.00549",
+      "code": null,
+      "tags": [
+        "federated learning",
+        "gradient compression",
+        "orthogonal superposition",
+        "low-rank optimization",
+        "O-RAN",
+        "communication efficiency"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8ec79bdf4a8b9f5a548f3d50e3ca33a9f5a73510543acb755bae04b50c1ce378_w640_q70.webp",
+      "contributions": "1. Proposes a unified framework (CoCo-Fed) that jointly addresses local memory constraints and global communication bottlenecks in federated learning at the wireless edge. 2. Introduces a local double-dimension gradient down-projection technique to enable optimizer operation on low-rank structures, reducing memory footprint without adding inference overhead. 3. Designs a global transmission protocol using orthogonal subspace superposition to consolidate layer-wise updates into a single matrix per node, drastically cutting backhaul traffic.",
+      "summary": "The paper proposes CoCo-Fed, a federated learning framework that compresses gradients locally and combines updates globally to reduce memory and communication overhead in O-RAN edge networks. It achieves this through low-rank gradient projection and orthogonal superposition for transmission. Experiments on angle-of-arrival estimation show it outperforms baselines in efficiency while maintaining convergence under non-IID data.",
+      "mindmap": "graph TB\n        A[CoCo-Fed: 无线边缘内存与通信高效的联邦学习统一框架<br>CoCo-Fed: A Unified Framework for Memory- and Communication-Efficient Federated Learning at the Wireless Edge]\n        A --> B[核心问题/Problem: 大规模神经网络在O-RAN中部署面临内存墙和回程链路带宽瓶颈<br>Core Problem: Memory wall and backhaul bandwidth bottleneck for large-scale NN deployment in O-RAN]\n        A --> C[主要方法/Method: 本地梯度双维度下投影与基于正交子空间叠加的全局传输协议<br>Core Method: Local double-dimension gradient down-projection & global orthogonal subspace superposition transmission protocol]\n        A --> D[关键结果/Results: 在非独立同分布数据下显著提升内存和通信效率，保持鲁棒收敛<br>Key Results: Significantly improves memory/communication efficiency and maintains robust convergence under non-IID data]"
+    },
+    {
+      "title": "Universal Outlier Hypothesis Testing via Mean- and Median-Based Tests",
+      "authors": "Bernhard C. Geiger, Tobias Koch, Josipa Mihaljević, Maximilian Toller",
+      "institution": "Graz University of Technology, Know Center Research GmbH, Universidad Carlos III de Madrid",
+      "link": "https://arxiv.org/pdf/2601.00712",
+      "code": null,
+      "tags": [
+        "hypothesis testing",
+        "universal outlier detection",
+        "error exponent",
+        "Bhattacharyya distance",
+        "typical error exponent",
+        "median-based test"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d8b28ce72516e6534ea64f3d2597f5cc7a56331ddc98f05fccc3d2352de1748b_w640_q70.webp",
+      "contributions": "1. Introduces a universal outlier hypothesis testing framework where both the number of observation sequences and outlier sequences grow with sequence length. 2. Proposes a mean-based test that achieves the optimal error exponent when the number of outliers is sublinear, and a median-based test for the proportional outlier case. 3. Formalizes the concept of a \"typical error exponent\" to characterize the performance of the median-based test, analogous to typical random coding exponents in channel coding.",
+      "summary": "This paper addresses universal outlier hypothesis testing, where the goal is to identify outlier sequences without knowledge of the underlying typical or outlier distributions. It proposes two tests: a mean-based test effective for a sublinear number of outliers, and a median-based test for a proportional number of outliers, both shown to achieve the error exponent of the optimal maximum likelihood test under their respective conditions.",
+      "mindmap": "graph TB\n    A[Universal Outlier Hypothesis Testing via Mean- and Median-Based Tests] --> B[核心问题/Problem: Identify outliers without knowing distributions π and µ]\n    A --> C[主要方法/Method: Mean-based test for sublinear outliers, Median-based test for proportional outliers]\n    A --> D[关键结果/Results: Both tests achieve optimal error exponent; Typical error exponent formalized]"
+    },
+    {
+      "title": "Neural Minimum Weight Perfect Matching for Quantum Error Codes",
+      "authors": "Yotam Peled, David Zenati, Eliya Nachmani",
+      "institution": "Ben-Gurion University of the Negev",
+      "link": "https://arxiv.org/pdf/2601.00242",
+      "code": null,
+      "tags": [
+        "others",
+        "Quantum Error Correction",
+        "Minimum Weight Perfect Matching",
+        "Graph Neural Networks",
+        "Transformer",
+        "Hybrid Decoder"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e507723ea614845b9a945c6d086d7f6413ab64a2e5cbfa21b28ceaa1777ffa60_w640_q70.webp",
+      "contributions": "1. Proposed a hybrid decoder (NMWPM) that integrates GNNs and Transformers to predict dynamic edge weights for the MWPM algorithm. 2. Formulated a novel proxy loss function to enable end-to-end training through the non-differentiable MWPM algorithm. 3. Demonstrated a significant reduction in Logical Error Rate (LER) compared to standard baselines.",
+      "summary": "This paper proposes a neural-enhanced decoder for quantum error correction called Neural Minimum Weight Perfect Matching (NMWPM). It uses a hybrid architecture of Graph Neural Networks and Transformers to predict dynamic edge weights for the classical MWPM decoder, trained with a novel proxy loss. The method significantly reduces the Logical Error Rate, showing the advantage of combining neural networks with classical algorithms.",
+      "mindmap": "graph TB\n        Root[”Neural Minimum Weight Perfect Matching for Quantum Error Codes”] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[”核心问题/Problem<br>Quantum error correction requires effective decoding.”]\n        Method[”主要方法/Method<br>Hybrid GNN+Transformer predicts weights for MWPM.”]\n        Results[”关键结果/Results<br>Significant reduction in Logical Error Rate.”]"
+    },
+    {
+      "title": "Optimal codes and arcs for the generalized Hamming weights",
+      "authors": "Sascha Kurz, Ivan Landjev, Assia Rousseva",
+      "institution": "University of Bayreuth, Bulgarian Academy of Sciences, New Bulgarian University, Sofia University",
+      "link": "https://arxiv.org/pdf/2601.00250",
+      "code": null,
+      "tags": [
+        "coding theory",
+        "Griesmer bound",
+        "generalized Hamming weight",
+        "Solomon-Stiffler construction",
+        "linear codes",
+        "Galois geometry"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fb1cbf9228d82928c771ca5c0267ae7bffb6934333dcf0410a686ccbde2b2932_w640_q70.webp",
+      "contributions": "1. Provides a geometric proof of the Griesmer bound for generalized Hamming weights. 2. Shows that a Solomon-Stiffler type construction can achieve this bound when the minimum distance is sufficiently large. 3. Determines the parameters of optimal binary codes for dimensions up to seven and optimal ternary codes for dimensions up to five.",
+      "summary": "This paper studies the Griesmer bound for the generalized Hamming weights of linear codes. It presents a geometric proof of the bound and demonstrates that a Solomon-Stiffler type construction can attain it under certain conditions. The work also characterizes optimal binary and ternary codes for small dimensions.",
+      "mindmap": "graph TB\n        A[Optimal Codes and Arcs for the Generalized Hamming Weights] --> B[核心问题/Problem: 研究广义汉明权重的Griesmer界/Study the Griesmer bound for generalized Hamming weights]\n        A --> C[主要方法/Method: 几何证明与Solomon-Stiffler类型构造/Geometric proof and Solomon-Stiffler type construction]\n        A --> D[关键结果/Results: 确定小维度最优码参数/Determine optimal code parameters for small dimensions]"
+    },
+    {
+      "title": "When Does Quantum Differential Privacy Compose?",
+      "authors": "Daniel Alabi, Theshani Nuradha",
+      "institution": "University of Illinois at Urbana-Champaign",
+      "link": "https://arxiv.org/pdf/2601.00337",
+      "code": null,
+      "tags": [
+        "quantum differential privacy",
+        "quantum differential privacy",
+        "composition theorems",
+        "privacy loss",
+        "quantum moments accountant",
+        "measured Rényi divergence"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/22dd1b813c54a9a9604aaf1424ad2d33aa1f390d5516e41897be8b911fee949f_w640_q70.webp",
+      "contributions": "1. Showed that classical-style composition fails in full generality for POVM-based approximate quantum differential privacy (QDP), as individually private channels can lose privacy when combined via correlated implementations. 2. Introduced a quantum moments accountant based on an operator-valued notion of privacy loss and a matrix moment-generating function for tensor-product channels on product neighboring inputs. 3. Proved that controlling the moments of their defined Rényi-type divergence suffices to bound measured Rényi divergence, yielding advanced-composition-style bounds with the same leading-order behavior as classical theory.",
+      "summary": "This paper investigates when composition theorems, a cornerstone of classical differential privacy, can be extended to the quantum setting. It shows that classical composition fails generally for quantum differential privacy but introduces a quantum moments accountant framework that restores clean composition guarantees for tensor-product channels on product inputs, achieving bounds with the same leading-order behavior as classical theory.",
+      "mindmap": "graph TB\n        Root(”When Does Quantum Differential Privacy Compose?”) --> Problem(”核心问题/Problem”)\n        Root --> Method(”主要方法/Method”)\n        Root --> Results(”关键结果/Results”)\n        Problem --> P1(”经典组合在量子差分隐私中失效/Classical composition fails for QDP”)\n        Problem --> P2(”需要明确何时有意义的组合保证成立/Need to clarify when meaningful composition holds”)\n        Method --> M1(”引入量子矩会计/Introduce quantum moments accountant”)\n        Method --> M2(”基于算子值隐私损失和矩阵矩生成函数/Based on operator-valued privacy loss & matrix MGF”)\n        Results --> R1(”为张量积通道恢复组合保证/Restore composition guarantees for tensor-product channels”)\n        Results --> R2(”获得与经典理论相同主导阶的边界/Achieve bounds with same leading-order as classical theory”)"
+    },
+    {
+      "title": "MIMO-AFDM Outperforms MIMO-OFDM in the Face of Hardware Impairments",
+      "authors": "Zeping Sui, Zilong Liu, Leila Musavian, Yong Liang Guan, Lie-Liang Yang, Lajos Hanzo",
+      "institution": "University of Essex, Nanyang Technological University, University of Southampton",
+      "link": "https://arxiv.org/pdf/2601.00502",
+      "code": null,
+      "tags": [
+        "wireless communications",
+        "MIMO-AFDM",
+        "hardware impairments",
+        "inter-carrier interference",
+        "chirp signals",
+        "diversity order"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d754853205a878b5a26f4ca009bf4754ebf6739436ea5e15cde8028d77fdaafe_w640_q70.webp",
+      "contributions": "1. Derived a tight BER upper bound for small-scale MIMO-AFDM with ML detection and a closed-form BER approximation for large-scale systems with LMMSE detection under hardware impairments. 2. Demonstrated that the full diversity order of AFDM systems remains unaffected by hardware impairments, a unique advantage. 3. Showed that MIMO-AFDM is more resilient to multiplicative distortions (e.g., phase noise) and additive hardware impairments than MIMO-OFDM, especially in high-mobility scenarios.",
+      "summary": "This paper investigates the performance of MIMO-AFDM systems under hardware impairments. It derives theoretical BER bounds for different system scales and shows that MIMO-AFDM maintains full diversity and is more resilient to inter-carrier interference and distortions compared to traditional MIMO-OFDM, thanks to its chirp-based signaling.",
+      "mindmap": "graph TB\n        Root[论文标题: MIMO-AFDM Outperforms MIMO-OFDM in the Face of Hardware Impairments] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem: 硬件损伤对MIMO-AFDM系统性能的影响] --> P1[硬件损伤/Hardware Impairments]\n        Problem --> P2[高移动性/High Mobility]\n        Method[主要方法/Method: 理论分析与性能推导] --> M1[小规模系统: ML检测的BER上界/Small-scale: BER upper bound with ML]\n        Method --> M2[大规模系统: LMMSE检测的BER近似/Large-scale: BER approximation with LMMSE]\n        Results[关键结果/Results: MIMO-AFDM性能优势] --> R1[保持满分集阶数/Maintains full diversity order]\n        Results --> R2[对乘性损伤更具弹性/More resilient to multiplicative distortions]\n        Results --> R3[优于MIMO-OFDM/Outperforms MIMO-OFDM]"
+    },
+    {
+      "title": "Three results on twisted $G-$codes and skew twisted $G-$codes",
+      "authors": "Alvaro Otero Sanchez",
+      "institution": "Universidad de Almería",
+      "link": "https://arxiv.org/pdf/2601.00752",
+      "code": null,
+      "tags": [
+        "coding theory",
+        "twisted group codes",
+        "skew group codes",
+        "checkable codes",
+        "group algebra",
+        "error-correcting codes"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/772572de6c9186da4862191f11550a4c149ad4c30f2ea6f759efdbf20fa4e68e_w640_q70.webp",
+      "contributions": "1. Solves an open question about when a twisted skew group code is checkable. 2. Proves that all ideals of dimension 3 over a twisted group algebra are abelian group codes, generalizing a previous result. 3. Proves a bound on the dimension and distance of a twisted group code and characterizes when the bound is reached.",
+      "summary": "This paper presents three theoretical results in algebraic coding theory concerning codes derived from group algebras. It solves an open problem about the checkability of twisted skew group codes, generalizes a classification result for 3-dimensional ideals, and establishes a new bound on code parameters. The work advances the mathematical understanding of twisted and skew group codes.",
+      "mindmap": "graph TB\n    A[Three results on twisted G-codes and skew twisted G-codes] --> B(核心问题/Problem)\n    A --> C(主要方法/Method)\n    A --> D(关键结果/Results)\n    B --> B1[Open question: When is a twisted skew group code checkable?]\n    C --> C1[Algebraic analysis of twisted group algebras and ideals]\n    D --> D1[Solved the open checkability question]\n    D --> D2[Proved 3D ideals are abelian group codes]\n    D --> D3[Proved bound on dimension/distance]"
+    },
     {
       "title": "Hierarchical Quasi-cyclic Codes from Reed-Solomon and Polynomial Evaluation Codes",
       "authors": "Emily McMillon, Kathryn Haymaker",

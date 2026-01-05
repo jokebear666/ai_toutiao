@@ -1,8 +1,110 @@
 {
   "label": "cs.GT",
   "slug": "csgt",
-  "week": "20251229-20260104",
+  "week": "20260105-20260111",
   "items": [
+    {
+      "title": "Quantitative Rule-Based Strategy modeling in Classic Indian Rummy: A Metric Optimization Approach",
+      "authors": "Purushottam Saha, Avirup Chakraborty, Sourish Sarkar, Subhamoy Maitra, Diganta Mukherjee, Tridib Mukherjee",
+      "institution": "Indian Statistical Institute",
+      "link": "https://arxiv.org/pdf/2601.00024",
+      "code": null,
+      "tags": [
+        "game theory",
+        "MinDist",
+        "opponent modeling",
+        "rule-based strategy",
+        "zero-sum game",
+        "heuristic optimization"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d6b73a0cbcb5f1c250c8adbb982411c12c8e09c81114767cb920146c72264f7e_w640_q70.webp",
+      "contributions": "1. Proposed a new hand-evaluation metric called MinDist, which quantifies the edit distance to a valid hand, improving upon the MinScore metric. 2. Designed a computationally efficient algorithm to calculate MinDist using dynamic pruning and pattern caching. 3. Integrated opponent hand-modeling within a two-player zero-sum simulation framework and validated the strategy's superiority through statistical hypothesis testing.",
+      "summary": "This paper proposes a rule-based strategy for Classic Indian Rummy using a new hand-evaluation metric called MinDist, which measures the structural proximity to a winning hand. The method includes an efficient algorithm to compute MinDist and incorporates opponent modeling in simulations. Empirical results show that agents using this strategy achieve significantly higher win rates compared to traditional heuristic-based agents.",
+      "mindmap": "graph TB\n        A[Quantitative Rule-Based Strategy modeling in Classic Indian Rummy: A Metric Optimization Approach] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[游戏策略设计/Strategy Design for Rummy]\n        C --> C1[新度量标准 MinDist/New Metric MinDist]\n        C --> C2[高效算法与对手建模/Efficient Algorithm & Opponent Modeling]\n        D --> D1[胜率显著提升/Significant Win Rate Improvement]"
+    },
+    {
+      "title": "Sparse Probabilistic Coalition Structure Generation: Bayesian Greedy Pursuit and $_1$ Relaxations",
+      "authors": "Angshul Majumdar",
+      "institution": "IIIT Delhi",
+      "link": "https://arxiv.org/pdf/2601.00329",
+      "code": null,
+      "tags": [
+        "multi-agent systems",
+        "coalition structure generation",
+        "sparse regression",
+        "Bayesian greedy pursuit",
+        "l1 penalization",
+        "probabilistic framework"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/492cd85c7ccfef225059f9e637ee717227d05ec3497e1f7c70a5e2e84ad5cc35_w640_q70.webp",
+      "contributions": "1. Proposes a novel probabilistic framework for Coalition Structure Generation (CSG) where coalition values are learned from episodic observations via sparse linear regression. 2. Introduces and analyzes the Bayesian Greedy Coalition Pursuit (BGCP) algorithm, providing theoretical guarantees for exact coalition recovery under certain conditions. 3. Provides theoretical analysis for an alternative ℓ1-penalized estimation scheme, deriving error bounds and translating them into welfare gap guarantees, and compares regimes where sparse methods outperform classical approaches.",
+      "summary": "This paper addresses coalition structure generation when coalition values are unknown and must be learned from noisy episodic data. It proposes a sparse probabilistic framework with two estimation methods: a Bayesian greedy pursuit algorithm and an ℓ1-penalized estimator, providing theoretical recovery and error guarantees. The analysis identifies conditions under which these sparse learning approaches yield welfare-optimal structures and outperform classical methods.",
+      "mindmap": "graph TB\n        Root[”Sparse Probabilistic Coalition Structure Generation<br>稀疏概率联盟结构生成”] --> Problem\n        Root --> Method\n        Root --> Results\n    \n        Problem[”学习联盟价值<br>Learning Coalition Values”]\n        Method[”主要方法<br>Key Methods”]\n        Results[”关键结果<br>Key Results”]\n    \n        Problem --> P1[”从观察中学习<br>Learn from Episodic Observations”]\n        Problem --> P2[”噪声线性组合<br>Noisy Linear Combination of Contributions”]\n    \n        Method --> M1[”贝叶斯贪婪联盟追踪 (BGCP)<br>Bayesian Greedy Coalition Pursuit (BGCP)”]\n        Method --> M2[”ℓ1 惩罚估计器<br>ℓ1-Penalized Estimator”]\n    \n        Results --> R1[”BGCP: 高概率恢复联盟集<br>BGCP: Recovers Coalition Set w.h.p.”]\n        Results --> R2[”ℓ1: 误差与福利差距界限<br>ℓ1: Error & Welfare Gap Bounds”]\n        Results --> R3[”识别稀疏/密集优势机制<br>Identifies Sparse/Dense Regimes”]"
+    },
+    {
+      "title": "Unifying Proportional Fairness in Centroid and Non-Centroid Clustering",
+      "authors": "Benjamin Cookson, Nisarg Shah, Ziqi Yu",
+      "institution": "University of Toronto",
+      "link": "https://arxiv.org/pdf/2601.00447",
+      "code": null,
+      "tags": [
+        "algorithmic fairness",
+        "proportional fairness",
+        "clustering",
+        "core",
+        "fully justified representation",
+        "semi-centroid clustering"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/bd79b86ac8c95634d552a704a5902ceae48492dd4b145cf0737aa2d0b01ef905_w640_q70.webp",
+      "contributions": "1. Introduces a novel \"semi-centroid clustering\" paradigm that generalizes both centroid and non-centroid clustering by combining their loss functions. 2. Proposes a novel polynomial-time algorithm that achieves a constant-factor approximation to the strong \"core\" fairness criterion, even when different distance metrics are used for centroid and non-centroid losses. 3. Derives improved results and lower bounds for more restricted loss functions and the weaker \"fully justified representation (FJR)\" fairness criterion.",
+      "summary": "This paper unifies two fairness paradigms in clustering by proposing a generalized \"semi-centroid clustering\" model where a point's loss is a combination of its distance to a centroid and its maximum distance to other points in its cluster. The authors develop a novel polynomial-time algorithm that provides a constant approximation guarantee for the strong \"core\" fairness criterion. This work bridges prior research on centroid and non-centroid clustering under proportional fairness.",
+      "mindmap": "graph TB\n        A[Unifying Proportional Fairness in Centroid and Non-Centroid Clustering<br>统一质心与非质心聚类中的比例公平性] --> B\n        A --> C\n        A --> D\n        B[核心问题/Problem<br>Prior work on proportional fairness in clustering is split into two separate paradigms.] --> B1[质心聚类/Centroid Clustering<br>Loss = distance to centroid]\n        B --> B2[非质心聚类/Non-Centroid Clustering<br>Loss = max distance to cluster member]\n        C[主要方法/Method<br>Generalize both paradigms.] --> C1[提出半质心聚类/Propose Semi-Centroid Clustering<br>Loss = combination of centroid & non-centroid losses]\n        C --> C2[研究公平性标准/Study Fairness Criteria<br>Core and Fully Justified Representation (FJR)]\n        D[关键结果/Results<br>Novel polynomial-time algorithm.] --> D1[常数近似核心/Achieves constant approximation to the Core]\n        D --> D2[不同度量有效/Works even with different distance metrics]\n        D --> D3[改进结果与下界/Improved results & lower bounds for restricted cases]"
+    },
+    {
+      "title": "The CoinAlg Bind: Profitability-Fairness Tradeoffs in Collective Investment Algorithms",
+      "authors": "Andrés Fábrega, James Austgen, Samuel Breckenridge, Jay Yu, Amy Zhao, Sarah Allen, Aditya Saraf, Ari Juels",
+      "institution": "Cornell Tech, IC3, Pantera Capital, Ava Labs, Flashbots",
+      "link": "https://arxiv.org/pdf/2601.00523",
+      "code": null,
+      "tags": [
+        "algorithmic fairness",
+        "game theory",
+        "decentralized finance",
+        "collective investment algorithms",
+        "profitability-fairness tradeoff",
+        "arbitrage",
+        "privacy",
+        "transparency"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/18ee281908d18c83e757a24f60a6d4c85436fa1dd9dbccb373ae547812e6eb06_w640_q70.webp",
+      "contributions": "1. Formally defines the \"CoinAlg Bind,\" a fundamental tradeoff where collective investment algorithms cannot simultaneously ensure economic fairness and avoid profit loss to arbitrage. 2. Presents a formal model of CoinAlgs with definitions of privacy and economic fairness, proving that privacy enables insider attacks while transparency enables arbitrage. 3. Empirically validates both sides of the tradeoff using data from the Uniswap decentralized exchange, quantifying arbitrage impact and demonstrating risks from covert-channel leaks.",
+      "summary": "This paper identifies a fundamental tradeoff in Collective Investment Algorithms (CoinAlgs), called the CoinAlg Bind, where algorithms must choose between privacy (risking unfair insider value extraction) and transparency (risking profit erosion from arbitrage). The authors present a formal model and game-theoretic proofs to demonstrate this bind and empirically validate it using data from Uniswap. The main conclusion is that CoinAlgs inherently cannot guarantee both economic fairness and full profitability.",
+      "mindmap": "graph TB\n        A[The CoinAlg Bind: Profitability-Fairness Tradeoffs] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[CoinAlgs cannot ensure fairness without losing profit/CoinAlgs无法在不损失利润的情况下确保公平]\n        C --> C1[Formal model & game theory/形式化模型与博弈论]\n        C --> C2[Empirical study on Uniswap/基于Uniswap的实证研究]\n        D --> D1[Privacy enables insider attacks/隐私性导致内部攻击]\n        D --> D2[Transparency enables arbitrage/透明性导致套利]\n        D --> D3[Empirical validation of the bind/实证验证了该困境]"
+    },
+    {
+      "title": "Bayesian Inverse Games with High-Dimensional Multi-Modal Observations",
+      "authors": "Yash Jain, Xinjie Liu, Lasse Peters, David Fridovich-Keil, Ufuk Topcu",
+      "institution": "The University of Texas at Austin, Delft University of Technology",
+      "link": "https://arxiv.org/pdf/2601.00696",
+      "code": null,
+      "tags": [
+        "inverse reinforcement learning",
+        "Bayesian inference",
+        "variational autoencoder",
+        "Nash equilibrium",
+        "inverse games",
+        "multimodal observations"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f9263c0ad6078bf92eb8f7a7ca21579f0a55a6e710fa80a06f40a66a735ce24a_w640_q70.webp",
+      "contributions": "1. Proposes a Bayesian inference framework for inverse games to quantify uncertainty in estimating agent objectives, addressing the overconfidence of point-estimate methods. 2. Introduces a structured variational autoencoder with an embedded differentiable Nash game solver, enabling posterior sampling without requiring labeled objective data. 3. Demonstrates that multimodal inference reduces uncertainty when trajectory data is insufficient, leading to safer downstream planning decisions.",
+      "summary": "This paper addresses the problem of inferring agents' hidden objectives in multi-agent interactions, where existing maximum likelihood methods produce overconfident point estimates. The authors propose a Bayesian inverse game framework using a structured variational autoencoder with a differentiable Nash solver to generate posterior samples from multimodal observations. Experiments show the method improves inference quality, quantifies uncertainty, and enables safer autonomous decision-making compared to prior approaches.",
+      "mindmap": "graph TB\n        Root(”Bayesian Inverse Games with High-Dimensional Multi-Modal Observations”) --> Problem(”核心问题/Problem”)\n        Root --> Method(”主要方法/Method”)\n        Root --> Results(”关键结果/Results”)\n        Problem --> P1(”MLE方法只提供点估计，导致不确定性被忽略/MLE methods provide only point estimates, ignoring uncertainty”)\n        Problem --> P2(”下游规划可能过度自信，导致不安全动作/Downstream planning can be overconfident, leading to unsafe actions”)\n        Method --> M1(”近似贝叶斯推理框架/Approximate Bayesian inference framework”)\n        Method --> M2(”结构化变分自编码器嵌入可微纳什求解器/Structured VAE with embedded differentiable Nash solver”)\n        Method --> M3(”利用多模态观测数据/Utilizes multi-modal observation data”)\n        Results --> R1(”成功学习先验和后验分布/Successfully learns prior and posterior distributions”)\n        Results --> R2(”推理质量优于MLE方法/Improves inference quality over MLE”)\n        Results --> R3(”多模态推理进一步减少不确定性/Multimodal inference further reduces uncertainty”)"
+    },
     {
       "title": "Personalized Promotions in Practice: Dynamic Allocation and Reference Effects",
       "authors": "Jackie Baek, Will Ma, Dmitry Mitrofanov",

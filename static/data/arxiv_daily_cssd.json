@@ -1,8 +1,128 @@
 {
   "label": "cs.SD",
   "slug": "cssd",
-  "week": "20251229-20260104",
+  "week": "20260105-20260111",
   "items": [
+    {
+      "title": "IKFST: IOO and KOO Algorithms for Accelerated and Precise WFST-based End-to-End Automatic Speech Recognition",
+      "authors": "Zhuoran Zhuang, Ye Chen, Chao Luo, Tian-Hao Zhang, Xuewei Zhang, Jian Ma, Jiatong Shi, Wei Zhang",
+      "institution": "Alibaba (Fliggy Alibaba), University of Science and Technology Beijing, Carnegie Mellon University",
+      "link": "https://arxiv.org/pdf/2601.00160",
+      "code": null,
+      "tags": [
+        "llm inference",
+        "Weighted Finite-State Transducer (WFST)",
+        "Connectionist Temporal Classification (CTC)",
+        "decoding algorithm",
+        "speech recognition",
+        "inference acceleration"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/515f6922494c8cf7b8b1e07b8fe5db67575518e2d23346ce2f97d6c182358e17_w640_q70.webp",
+      "contributions": "1. A systematic analysis of CTC outputs, identifying that blank frames encode positional information and non-blank frames carry semantic content. 2. The proposal of two novel decoding algorithms, Keep-Only-One (KOO) and Insert-Only-One (IOO), which exploit this structural insight. 3. Demonstration of state-of-the-art recognition accuracy with significantly reduced decoding latency on multiple datasets, enabling efficient WFST-based ASR.",
+      "summary": "This paper addresses the inefficiency of frame-by-frame WFST decoding in CTC-based speech recognition. It introduces two new algorithms, IOO and KOO, which leverage the distinct roles of blank and non-blank frames to accelerate inference. Experiments show these methods achieve high accuracy while substantially reducing decoding latency.",
+      "mindmap": "graph TB\n        Root(”IKFST: IOO and KOO Algorithms”) --> Problem(”核心问题/Problem”)\n        Root --> Method(”主要方法/Method”)\n        Root --> Results(”关键结果/Results”)\n        Problem --> P1(”WFST解码效率低/WFST decoding is inefficient”)\n        P1 --> P2(”逐帧自回归搜索慢/Frame-by-frame autoregressive search is slow”)\n        Method --> M1(”分析CTC输出/Analyze CTC outputs”)\n        M1 --> M2(”空白帧:位置/Blank: Position”)\n        M1 --> M3(”非空白帧:语义/Non-blank: Semantic”)\n        Method --> M4(”提出新算法/Propose new algorithms”)\n        M4 --> M5(”IOO (Insert-Only-One)”)\n        M4 --> M6(”KOO (Keep-Only-One)”)\n        Results --> R1(”高识别精度/High recognition accuracy”)\n        Results --> R2(”低解码延迟/Low decoding latency”)\n        Results --> R3(”SOTA结果/SOTA results”)"
+    },
+    {
+      "title": "Latent Flow Matching for Expressive Singing Voice Synthesis",
+      "authors": "Minhyeok Yun, Yong-Hoon Choi",
+      "institution": "Kwangwoon University",
+      "link": "https://arxiv.org/pdf/2601.00217",
+      "code": "https://github.com/alsgur9368/FM-Singer",
+      "tags": [
+        "generative models",
+        "conditional flow matching",
+        "latent space modeling",
+        "singing voice synthesis",
+        "ordinary differential equation",
+        "variational autoencoder"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/88ff2d99db594dd8c63fa46f401cf9408cda76d76d116f920d5a1dbb077b2fcf_w640_q70.webp",
+      "contributions": "1. Proposes FM-Singer, a novel singing voice synthesis method that applies conditional flow matching (CFM) in the latent space to address the prior-posterior mismatch in cVAE-based models. 2. Introduces a latent ODE refinement step at inference time to transport prior samples towards the expressive posterior distribution, improving fine-grained expressiveness while maintaining parallel decoding efficiency. 3. Demonstrates consistent performance improvements on Korean and Chinese singing datasets, including lower mel-cepstral distortion and F0 error, and higher perceptual scores.",
+      "summary": "The paper addresses the degradation of fine-grained expressiveness in cVAE-based singing voice synthesis due to a mismatch between the prior and posterior latent distributions. The proposed FM-Singer method uses conditional flow matching in the latent space to learn a vector field that refines prior samples via an ODE, enhancing expressiveness like vibrato. Experiments show the method outperforms strong baselines on multiple datasets.",
+      "mindmap": "graph TB\n        A[Latent Flow Matching for Expressive Singing Voice Synthesis] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[cVAE合成中先验-后验不匹配<br/>Prior-Posterior Mismatch in cVAE]\n        B --> B2[细微表现力下降<br/>Degraded Fine-Grained Expressiveness]\n        C --> C1[潜在空间条件流匹配<br/>Latent-Space Conditional Flow Matching]\n        C --> C2[ODE推理时细化<br/>ODE-based Refinement at Inference]\n        D --> D1[更低的MCD与F0误差<br/>Lower MCD & F0 Error]\n        D --> D2[更高的感知评分<br/>Higher Perceptual Scores]"
+    },
+    {
+      "title": "Timed text extraction from Taiwanese Kua-á-hì TV series",
+      "authors": "Tzu-Hung Huang, Yun-En Tsai, Yun-Ning Hung, Chih-Wei Wu, I-Chieh Wei, Li Su",
+      "institution": "Academia Sinica, National Taiwan University, Music AI, University of Auckland",
+      "link": "https://arxiv.org/pdf/2601.00299",
+      "code": "https://github.com/z-huang/ocr-subtitle-editor",
+      "tags": [
+        "music information retrieval",
+        "OCR",
+        "Speech and Music Activity Detection",
+        "subtitle extraction",
+        "traditional Chinese",
+        "archival video processing"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9645950400de9f4b82b5447edc80e161ca3823766faec9633bb49af2f67eccfb_w640_q70.webp",
+      "contributions": "1. Developed an interactive system for real-time OCR correction to handle low-quality archival video subtitles. 2. Proposed a two-step workflow integrating OCR-driven segmentation with Speech and Music Activity Detection (SMAD) to identify vocal segments. 3. Created a dataset of vocal segments and corresponding lyrics from Taiwanese opera TV series to support MIR tasks.",
+      "summary": "This paper addresses the challenge of extracting timed text and lyrics from low-quality archival Taiwanese opera TV series. The authors propose a method combining an interactive OCR correction tool with a two-step segmentation approach using OCR and SMAD to efficiently create a dataset of vocal segments and lyrics. The resulting dataset is intended to support Music Information Retrieval tasks like lyrics identification and tune retrieval.",
+      "mindmap": "graph TB\n        A[Timed text extraction from Taiwanese Kua-á-hì TV series] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[低质量档案视频字幕提取困难/Low-quality archival video subtitle extraction is difficult]\n        C --> C1[交互式OCR实时校正/Interactive real-time OCR correction]\n        C --> C2[OCR分割与语音音乐活动检测两步法/Two-step OCR segmentation & SMAD]\n        D --> D1[创建带歌词的人声片段数据集/Created dataset of vocal segments with lyrics]\n        D --> D2[支持音乐信息检索任务/Supports MIR tasks]"
+    },
+    {
+      "title": "MR-DAW: Towards Collaborative Digital Audio Workstations in Mixed Reality",
+      "authors": "Torin Hopkins, Shih-Yu Ma, Suibi Che-Chuan Weng, Ming-Yuan Pai, Ellen Yi-Luen Do, Luca Turchet",
+      "institution": "University of Colorado Boulder, University of Trento, SolJAMM Research",
+      "link": "https://arxiv.org/pdf/2601.00326",
+      "code": null,
+      "tags": [
+        "Human-Computer Interaction (HCI) / Computer-Supported Cooperative Work (CSCW)",
+        "Mixed Reality",
+        "Digital Audio Workstation",
+        "Collaborative Looping",
+        "Musical Metaverse",
+        "Speculative Design"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/aca28144427dc6983d2e29776070b060b46281ee589677349257b7b925ad500c_w640_q70.webp",
+      "contributions": "1. Proposed and developed MR-DAW, a novel Mixed Reality system enabling multiple remote users to control a single, shared DAW instance while moving freely in their physical space. 2. Introduced a hands-free, collaborative interaction paradigm using physical foot pedals for remote, real-time looping control within the shared virtual session. 3. Conducted a qualitative study with 20 musicians to analyze current DAW practices, evaluate the MR-DAW system's usability, and provide a speculative outlook on the future of collaborative music-making in the \"Musical Metaverse\".",
+      "summary": "This paper investigates using Mixed Reality (MR) to overcome the limitations of traditional Digital Audio Workstations (DAWs), which tether musicians to a desk and hinder remote collaboration. The authors propose MR-DAW, a networked MR system that allows geographically dispersed musicians to control a shared DAW and use foot pedals for collaborative looping. The study with 20 musicians highlights MR's potential for unencumbered musical interaction and provides a speculative vision for future remote collaborative DAWs in the Musical Metaverse.",
+      "mindmap": "graph TB\n        Root[MR-DAW: Towards Collaborative Digital Audio Workstations in Mixed Reality] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem] --> P1[DAWs束缚音乐家工作流/DAWs encumber musician workflow]\n        Problem --> P2[远程协作困难/Remote collaboration is challenging]\n        Method[主要方法/Method] --> M1[开发MR-DAW设计探针/Developed MR-DAW design probe]\n        Method --> M2[使用脚踏板进行协作循环/Used foot pedal for collaborative looping]\n        Method --> M3[定性研究与系统评估/Qualitative study & system evaluation]\n        Results[关键结果/Results] --> R1[MR支持无束缚交互/MR affords unencumbered interaction]\n        Results --> R2[展望音乐元宇宙未来/Speculative outlook on Musical Metaverse]"
+    },
+    {
+      "title": "A Language-Agnostic Hierarchical LoRA-MoE Architecture for CTC-based Multilingual ASR",
+      "authors": "Yuang Zheng, Yuxiang Mei, Dongxing Xu, Jie Chen, Yanhua Long",
+      "institution": "Shanghai Normal University, Unisound AI Technology Co., Ltd.",
+      "link": "https://arxiv.org/pdf/2601.00557",
+      "code": null,
+      "tags": [
+        "on-device ai",
+        "LoRA",
+        "Mixture-of-Experts",
+        "CTC",
+        "multilingual ASR",
+        "language-agnostic"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/bbd2404a5aa3ab85ddcd83e20182b5cedff2831876ded928574f65b33a573d7d_w640_q70.webp",
+      "contributions": "1. Proposes a novel Language-agnostic Hierarchical LoRA-MoE (HLoRA) framework integrated into an mHuBERT-CTC model for lightweight multilingual ASR. 2. Introduces an LID-posterior-driven LoRA routing mechanism that enables true language-agnostic, single-pass decoding without prior language identity information. 3. Demonstrates that the proposed method achieves competitive performance with state-of-the-art two-stage inference methods while significantly improving decoding efficiency for low-resource applications.",
+      "summary": "This paper addresses the high computational cost and latency of large multilingual ASR models like Whisper for edge deployment. It proposes a lightweight, language-agnostic system using a Hierarchical LoRA-MoE architecture with CTC, which enables efficient single-pass decoding without needing language labels. Experiments show the method achieves competitive performance with more complex two-stage systems, improving efficiency for low-resource multilingual ASR.",
+      "mindmap": "graph TB\n        Root[”A Language-Agnostic Hierarchical LoRA-MoE Architecture for CTC-based Multilingual ASR”] --> Problem[”核心问题/Problem: Large multilingual ASR models (e.g., Whisper) are computationally expensive and have high latency, limiting edge device deployment.”]\n        Root --> Method[”主要方法/Method: Proposes a lightweight HLoRA framework with hierarchical LoRA-MoE design and LID-posterior-driven routing for language-agnostic, single-pass CTC decoding.”]\n        Root --> Results[”关键结果/Results: Achieves competitive performance with SOTA two-stage methods on MSR-86K and MLC-SLM 2025 datasets, improving decoding efficiency.”]"
+    },
+    {
+      "title": "Investigating the Viability of Employing Multi-modal Large Language Models in the Context of Audio Deepfake Detection",
+      "authors": "Akanksha Chuchra, Shukesh Reddy, Sudeepta Mishra, Abhijit Das, Abhinav Dhall",
+      "institution": "Indian Institute of Technology Ropar, Birla Institute of Technology and Science Pilani Hyderabad Campus, Monash University",
+      "link": "https://arxiv.org/pdf/2601.00777",
+      "code": null,
+      "tags": [
+        "audio deepfake detection",
+        "Multimodal Large Language Models",
+        "audio deepfake detection",
+        "zero-shot",
+        "fine-tuning",
+        "multi-prompt"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9e3660e734b6fff9841bbb8fb1f74d79456beeb841387a9fc33b145976d4701e_w640_q70.webp",
+      "contributions": "1. Pioneering exploration of Multimodal Large Language Models for audio deepfake detection, a largely unexplored area. 2. Introduction of a text-aware, context-rich, question-answer based multi-prompt approach to facilitate multimodal understanding for the task. 3. Comprehensive evaluation of models (Qwen2-Audio-7B-Instruct, SALMONN) in zero-shot and fine-tuned modes, demonstrating their potential on in-domain data with minimal supervision.",
+      "summary": "This paper investigates the use of Multimodal Large Language Models for detecting audio deepfakes by combining audio inputs with text prompts. The method employs a multi-prompt, question-answer approach and evaluates models in zero-shot and fine-tuned settings. The results show that while models struggle without training and on out-of-domain data, they achieve promising performance on in-domain data with minimal supervision, indicating a viable path forward.",
+      "mindmap": "graph TB\n        Root[”Investigating MLLMs for Audio Deepfake Detection<br/>探究MLLMs用于音频深度伪造检测”] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[”MLLMs for audio deepfakes unexplored<br/>MLLMs用于音频深度伪造检测未被探索”]\n        Method[”Audio + Multi-prompt QA approach<br/>音频+多提示问答方法”]\n        Results[”Poor zero-shot, good fine-tuned on in-domain data<br/>零样本效果差，域内微调效果好”]"
+    },
     {
       "title": "MiMo-Audio: Audio Language Models are Few-Shot Learners",
       "authors": "Xiaomi LLM-Core Team, Dong Zhang, Gang Wang, Jinlong Xue, Kai Fang, Liang Zhao, Rui Ma, Shuhuai Ren, Shuo Liu, Tao Guo, Weiji Zhuang, Xin Zhang, Xingchen Song, Yihan Yan, Yongzhe He, Cici, Bowen Shen, Chengxuan Zhu, Chong Ma, Chun Chen, Heyu Chen, Jiawei Li, Lei Li, Menghang Zhu, Peidian Li, Qiying Wang, Sirui Deng, Weimin Xiong, Wenshan Huang, Wenyu Yang, Yilin Jiang, Yixin Yang, Yuanyuan Tian, Yue Ma, Yue Yu, Zihan Zhang, Zihao Yue, Bangjun Xiao, Bingquan Xia, Bofei Gao, Bowen Ye, Can Cai, Chang Liu, Chenhong He, Chunan Li, Dawei Zhu, Duo Zhang, Fengyuan Shi, Guoan Wang, Hailin Zhang, Hanglong Lv, Hanyu Li, Hao Tian, Heng Qu, Hongshen Xu, Houbin Zhang, Huaqiu Liu, Jiangshan Duo, Jianguang Zuo, Jianyu Wei, Jiebao Xiao, Jinhao Dong, Jun Shi, Junhao Hu, Kainan Bao, Kang Zhou, Linghao Zhang, Meng Chen, Nuo Chen, Peng Zhang, Qianli Chen, Qiantong Wang, Rang Li, Shaohui Liu, Shengfan Wang, Shicheng Li, Shihua Yu, Shijie Cao, Shimao Chen, Shuhao Gu, Weikun Wang, Wenhan Ma, Xiangwei Deng, Xing Yong, Xing Zhang, Xu Wang, Yifan Song, Yihao Zhao, Yingbo Zhao, Yizhao Gao, Yu Cheng, Yu Tu, Yudong Wang, Zhaojun Huang, Zhengju Tang, Zhenru Lin, Zhichao Song, Zhipeng Xu, Zhixian Zheng, Zihan Jiang",

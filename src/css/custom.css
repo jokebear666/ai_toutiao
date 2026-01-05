@@ -647,3 +647,16 @@ body, .main-wrapper { background: #ffffff; }
     background: #4b5563;
     color: #e5e7eb;
 }
+
+/* Image error state */
+.arxiv-card-image.image-error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f4f6;
+    color: #9ca3af;
+    font-size: 12px;
+}
+.arxiv-card-image.image-error::after {
+    content: "Image Unavailable";
+}

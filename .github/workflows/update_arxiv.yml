@@ -17,6 +17,8 @@ jobs:
       R2_ENDPOINT_URL: ${{ secrets.R2_ENDPOINT_URL }}
       R2_BUCKET: ${{ secrets.R2_BUCKET }}
       R2_PUBLIC_URL: ${{ secrets.R2_PUBLIC_URL }}
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
 
     steps:
       - name: Checkout repository
@@ -49,9 +51,9 @@ jobs:
             python get_daily_arxiv_paper.py --generate-thumbnails $SKIP_ARG
           fi
 
-      - name: Build arXiv daily JSON (last 3 months)
-        run: |
-          python build_arxiv_daily_json.py --months 3 --max-items-per-cat 1024 --output static/data/arxiv_daily.json
+      # - name: Build arXiv daily JSON (last 3 months)
+      #   run: |
+      #     python build_arxiv_daily_json.py --months 3 --max-items-per-cat 1024 --output static/data/arxiv_daily.json
 
       - name: Commit and push changes
         run: |

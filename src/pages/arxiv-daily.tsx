@@ -38,8 +38,53 @@ const PdfIcon = () => (
   </svg>
 );
 
-const DetailModal = ({ paper, onClose }: { paper: PaperItem; onClose: () => void }) => {
+const DetailModal = ({ paper: initialPaper, onClose }: { paper: PaperItem; onClose: () => void }) => {
   const [slide, setSlide] = useState(0); // 0: Image, 1: Mindmap
+  const [paper, setPaper] = useState<PaperItem>(initialPaper);
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    // If summary is missing and we have a link/slug, fetch full details
+    if (!initialPaper.summary && (initialPaper.link || initialPaper.slug)) {
+        setLoading(true);
+        (async () => {
+            if (!supabase) {
+                setLoading(false);
+                return;
+            }
+            try {
+                // Use link as unique identifier if available
+                let query = supabase.from('papers').select('*');
+                if (initialPaper.link) {
+                    query = query.eq('link', initialPaper.link);
+                } else if (initialPaper.slug) {
+                    // Note: slug in PaperItem is category slug usually, but search might give different slug?
+                    // Actually, let's rely on link or title
+                    query = query.eq('title', initialPaper.title);
+                }
+                
+                const { data, error } = await query.single();
+                if (data && !error) {
+                     setPaper({
+                         ...initialPaper,
+                         summary: data.summary,
+                         mindmap: data.mindmap,
+                         contributions: data.contributions,
+                         authors: data.authors,
+                         institution: data.institution,
+                         code: data.code_url
+                     });
+                }
+            } catch (e) {
+                console.error("Failed to fetch details", e);
+            } finally {
+                setLoading(false);
+            }
+        })();
+    } else {
+        setPaper(initialPaper);
+    }
+  }, [initialPaper]);
 
   // Prevent background scroll
   useEffect(() => {
@@ -120,6 +165,7 @@ const DetailModal = ({ paper, onClose }: { paper: PaperItem; onClose: () => void
 
         <div className="paper-modal-details">
             <div className="paper-modal-title">{paper.title}</div>
+            {loading && <div style={{padding: '10px 0', color: '#666', fontStyle: 'italic'}}>Loading full details...</div>}
             <div className="paper-modal-meta">
                 {paper.authors && <div><strong>Authors:</strong> {paper.authors}</div>}
                 {paper.institution && <div><strong>Institution:</strong> {paper.institution}</div>}
@@ -332,7 +378,7 @@ export default function ArxivDailyPage() {
 
                  const { data: papers, error } = await supabase
                      .from('papers')
-                     .select('*')
+                     .select('title, published_date, thumbnail_url, link, code_url, tags, authors, institution, category_slug')
                      .eq('category_slug', dbCategory)
                      .order('published_date', { ascending: false })
                      .limit(1280);

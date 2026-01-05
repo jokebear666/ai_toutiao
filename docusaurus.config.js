@@ -30,12 +30,11 @@ const config = {
 
   // Set the production url of your site here
   url: 'https://jokebear666.github.io',
-  // Set the /<baseUrl>/ pathname under which your site is served
+ // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: dynamicBaseUrl,
 
   customFields: {
-    // Put your custom environment here
     supabaseUrl: process.env.SUPABASE_URL,
     supabaseAnonKey: process.env.SUPABASE_ANON_KEY,
   },

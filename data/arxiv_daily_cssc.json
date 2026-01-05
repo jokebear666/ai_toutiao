@@ -1,8 +1,28 @@
 {
   "label": "cs.SC",
   "slug": "cssc",
-  "week": "20251229-20260104",
+  "week": "20260105-20260111",
   "items": [
+    {
+      "title": "Quantifier Elimination Meets Treewidth",
+      "authors": "Hao Wu, Jiyu Zhu, Amir Kafshdar Goharshady, Jie An, Bican Xia, Naijun Zhan",
+      "institution": "Institute of Software Chinese Academy of Sciences, University of Oxford, Peking University",
+      "link": "https://arxiv.org/pdf/2601.00312",
+      "code": null,
+      "tags": [
+        "automated reasoning / formal methods",
+        "quantifier elimination",
+        "treewidth",
+        "Fourier-Motzkin elimination",
+        "cylindrical algebraic decomposition",
+        "parameterized complexity"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3ad593b96f8b3b5a3e480c344d3dda6efcfd08788c5c383cf299ea8d548d09c4_w640_q70.webp",
+      "contributions": "1. Proposes exploiting structural sparsity (via the variable dependency graph's treewidth) to mitigate the high complexity of quantifier elimination., 2. Develops a novel dynamic programming framework structured over a tree decomposition for applying FME and CAD., 3. Proves that when treewidth is constant, the framework reduces the worst-case complexity from doubly exponential to single exponential for both FME and CAD.",
+      "summary": "This paper addresses the high complexity of quantifier elimination (QE) procedures like Fourier-Motzkin elimination (FME) and cylindrical algebraic decomposition (CAD). It proposes a new dynamic programming framework that leverages the low treewidth of the variable dependency graph to structure the elimination process. The key result is that for constant treewidth, the method achieves an exponential improvement, reducing worst-case complexity from doubly exponential to single exponential, which is validated by preliminary experiments on sparse benchmarks.",
+      "mindmap": "graph TB\n        Root[”Quantifier Elimination Meets Treewidth”] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[”核心问题/Problem<br>High complexity of QE (FME/CAD)”]\n        Method[”主要方法/Method<br>DP over tree decomposition<br>Exploit low treewidth”]\n        Results[”关键结果/Results<br>Complexity: 2EXP -> 1EXP<br>Outperforms heuristics”]"
+    },
     {
       "title": "Logic Sketch Prompting (LSP): A Deterministic and Interpretable Prompting Method",
       "authors": "Satvik Tripathi",

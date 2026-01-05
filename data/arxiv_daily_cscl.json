@@ -1,8 +1,987 @@
 {
   "label": "cs.CL",
   "slug": "cscl",
-  "week": "20251229-20260104",
+  "week": "20260105-20260111",
   "items": [
+    {
+      "title": "Reasoning in Action: MCTS-Driven Knowledge Retrieval for Large Language Models",
+      "authors": "Shuqi Liu, Bowei He, Chen Ma, Linqi Song",
+      "institution": "City University of Hong Kong, City University of Hong Kong Shenzhen Research Institute",
+      "link": "https://arxiv.org/pdf/2601.00003",
+      "code": null,
+      "tags": [
+        "retrieval-augmented generation",
+        "Monte Carlo Tree Search",
+        "reasoning-aware retrieval",
+        "coarse-to-fine retrieval",
+        "multi-turn dialogue",
+        "knowledge diversity"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b609f46963ae2b2b017ba13f445da7491064f311d7e663fa59eda7b85dd69638_w640_q70.webp",
+      "contributions": "1. Proposes a reasoning-aware knowledge retrieval method that aligns retrieved information with the logical structure of conversations, moving beyond semantic similarity. 2. Introduces a coarse-to-fine retrieval approach that first finds a contextually relevant knowledge sub-region and then refines it for reasoning-specific knowledge. 3. Employs a Monte Carlo Tree Search-inspired method to navigate knowledge sentences using common keywords, enhancing retrieval diversity and informativeness.",
+      "summary": "This paper addresses the challenge of integrating retrieval and reasoning for LLMs by proposing a reasoning-aware knowledge retrieval method. It uses a coarse-to-fine approach guided by Monte Carlo Tree Search to find knowledge aligned with conversational logic. Experiments show the method better captures human reasoning and produces more diverse, informative responses.",
+      "mindmap": "graph TB\n        Root[”Reasoning in Action: MCTS-Driven Knowledge Retrieval for Large Language Models”] --> Problem[”核心问题/Problem: LLMs struggle to integrate retrieval and reasoning effectively.”]\n        Root --> Method[”主要方法/Method: Coarse-to-fine, MCTS-inspired reasoning-aware knowledge retrieval.”]\n        Root --> Results[”关键结果/Results: Better alignment with human reasoning, more diverse and informative responses.”]"
+    },
+    {
+      "title": "Finetuning Large Language Models for Automated Depression Screening in Nigerian Pidgin English: GENSCORE Pilot Study",
+      "authors": "Isaac Iyinoluwa Olufadewa, Miracle Ayomikun Adesina, Ezekiel Ayodeji Oladejo, Uthman Babatunde Usman, Owen Kolade Adeniyi, Matthew Tolulope Olawoyin",
+      "institution": "Artificial Intelligence for Low-Resource Public Health Application (ALPHA) Centre, Slum and Rural Health Initiative; University of Ibadan; University of Ilorin",
+      "link": "https://arxiv.org/pdf/2601.00004",
+      "code": null,
+      "tags": [
+        "mental health language modeling",
+        "large language models",
+        "fine-tuning",
+        "PHQ-9",
+        "Nigerian Pidgin",
+        "depression screening"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/849aa2e2bc1566aab5f5b5e5d072677a6a66426e677648e836adf89c32b964e6_w640_q70.webp",
+      "contributions": "1. Created a novel, annotated dataset of 432 Nigerian Pidgin audio responses for depression screening aligned with PHQ-9 items. 2. Fine-tuned and evaluated three LLMs (Phi-3-mini, Gemma-3-4B-it, GPT-4.1) for automated depression screening in a low-resource language. 3. Demonstrated that fine-tuned GPT-4.1 achieved high accuracy (94.5%) and cultural appropriateness for PHQ-9 severity scoring in Nigerian Pidgin.",
+      "summary": "This paper addresses the challenge of depression screening in Nigeria by fine-tuning large language models for Nigerian Pidgin English. The authors collected and annotated a dataset of audio responses, then fine-tuned three LLMs to predict PHQ-9 severity scores. The fine-tuned GPT-4.1 model achieved the best performance, providing a foundation for AI-mediated mental health tools in linguistically diverse, resource-constrained settings.",
+      "mindmap": "graph TB\n        A[Finetuning LLMs for Automated Depression Screening in Nigerian Pidgin English: GENSCORE Pilot Study] --> B\n        A --> C\n        A --> D\n        B[核心问题/Problem<br>Limited depression screening in Nigeria due to language barriers and lack of clinicians]\n        C[主要方法/Method<br>Fine-tune LLMs on annotated Nigerian Pidgin dataset for PHQ-9 scoring]\n        D[关键结果/Results<br>GPT-4.1 achieved 94.5% accuracy and best cultural appropriateness]"
+    },
+    {
+      "title": "The Trojan in the Vocabulary: Stealthy Sabotage of LLM Composition",
+      "authors": "Xiaoze Liu, Weichen Yu, Matt Fredrikson, Xiaoqian Wang, Jing Gao",
+      "institution": "Purdue University, Carnegie Mellon University",
+      "link": "https://arxiv.org/pdf/2601.00065",
+      "code": "https://github.com/xz-liu/tokenforge",
+      "tags": [
+        "llm inference",
+        "tokenizer transplant",
+        "model composition",
+        "supply-chain vulnerability",
+        "sparse solver",
+        "spectral mimicry"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/bac901d101e76e81a328892233109e7f05c25f328de683add53ccd17ae81590e_w640_q70.webp",
+      "contributions": "1. Identifies tokenizer transplant as a novel attack surface in the LLM composition supply chain, 2. Introduces the concept of a \"breaker token\"—a single, engineered token that is inert in a donor model but maliciously activates after transplant, 3. Formalizes and instantiates the attack as a dual-objective optimization problem solved with a sparse solver, demonstrating its training-free nature, stealth, and persistence.",
+      "summary": "This paper identifies a security vulnerability in the tokenizer transplant step required for composing different LLMs. The authors propose a method to engineer a single \"breaker token\" that, when added to a donor model, remains harmless but sabotages a base model after transplant by exploiting coefficient reuse. The attack is stealthy, training-free, and persistent, revealing a hidden risk in modular AI pipelines.",
+      "mindmap": "graph TB\n        A[The Trojan in the Vocabulary: Stealthy Sabotage of LLM Composition] --> B\n        A --> C\n        A --> D\n        B[核心问题/Problem<br>Tokenizer transplant introduces a supply-chain vulnerability for LLM composition]\n        C[主要方法/Method<br>Engineer a single ”breaker token” exploiting coefficient reuse via sparse solver]\n        D[关键结果/Results<br>Stealthy, training-free attack that persists against fine-tuning and merging]"
+    },
+    {
+      "title": "RIMRULE: Improving Tool-Using Language Agents via MDL-Guided Rule Learning",
+      "authors": "Xiang Gao, Yuguang Yao, Qi Zhang, Kaiwen Dong, Avinash Baidya, Ruocheng Guo, Hilaf Hasson, Kamalika Das",
+      "institution": "Intuit AI Research, Temple University",
+      "link": "https://arxiv.org/pdf/2601.00086",
+      "code": null,
+      "tags": [
+        "agent system",
+        "tool-use",
+        "rule learning",
+        "minimum description length",
+        "neuro-symbolic",
+        "prompt injection"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5604dcae3f77a38459a71d5615de42441af3f38dbedaf069349bff470ad72d2f_w640_q70.webp",
+      "contributions": "1. Proposes RIMRULE, a neuro-symbolic method for LLM adaptation that distills interpretable rules from failure traces and injects them dynamically during inference. 2. Introduces a Minimum Description Length (MDL) objective to consolidate and select rules, favoring generality and conciseness. 3. Demonstrates that the learned symbolic rules are portable and can improve performance across different LLM architectures without weight modification.",
+      "summary": "The paper addresses the problem of LLMs struggling to reliably use domain-specific or under-documented tools. It proposes RIMRULE, a method that learns compact, interpretable rules from failure traces using an MDL objective and injects them into prompts during inference. The approach improves tool-use accuracy on both seen and unseen tools, outperforms prompting baselines, and shows that learned rules are portable across different LLMs.",
+      "mindmap": "graph TB\n        A[RIMRULE: Improving Tool-Using Language Agents] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[LLMs struggle with domain-specific tools / LLMs难以使用特定领域工具]\n        C --> C1[Dynamic rule injection from failure traces / 从失败轨迹动态注入规则]\n        C --> C2[MDL-guided rule consolidation / MDL引导的规则整合]\n        D --> D1[Improves accuracy on seen/unseen tools / 提升工具使用准确率]\n        D --> D2[Rules are portable across LLMs / 规则可跨LLM迁移]"
+    },
+    {
+      "title": "The Agentic Leash: Extracting Causal Feedback Fuzzy Cognitive Maps with LLMs",
+      "authors": "Akash Kumar Panda, Olaoluwa Adigun, Bart Kosko",
+      "institution": "University of Southern California, Florida International University",
+      "link": "https://arxiv.org/pdf/2601.00097",
+      "code": null,
+      "tags": [
+        "causal reasoning",
+        "fuzzy cognitive maps",
+        "large-language-model agent",
+        "causal feedback",
+        "equilibrium limit cycles",
+        "agentic leash"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/dc61a9c25939c9840dd408a24d27f4650c47178c297c4db425bc560882426f60_w640_q70.webp",
+      "contributions": "1. A novel LLM agent designed to autonomously extract and construct causal feedback Fuzzy Cognitive Maps (FCMs) from raw text. 2. A three-step instruction-guided process for systematically extracting key concepts and causal edges to build the FCM dynamical system. 3. Demonstration that the LLM-generated FCMs converge to the same equilibrium dynamics as human-generated ones and that mixed FCMs from different LLMs can create new equilibria.",
+      "summary": "The paper proposes an LLM agent to autonomously extract causal feedback Fuzzy Cognitive Maps from text. The agent uses a three-step process to identify concepts and causal edges, forming a dynamical system. The generated FCMs matched human-generated equilibrium dynamics and mixing models from different LLMs produced new equilibria for better causal approximation.",
+      "mindmap": "graph TB\n        A[The Agentic Leash: Extracting Causal Feedback Fuzzy Cognitive Maps with LLMs] --> B[核心问题/Problem: How to autonomously extract causal structures from text?]\n        A --> C[主要方法/Method: Design an LLM agent with a three-step instruction process to build FCMs from text.]\n        A --> D[关键结果/Results: LLM-generated FCMs match human equilibrium dynamics; mixed FCMs create new equilibria.]"
+    },
+    {
+      "title": "Universal Adaptive Constraint Propagation: Scaling Structured Inference for Large Language Models via Meta-Reinforcement Learning",
+      "authors": "Ibne Farabi Shihab, Sanjeda Akter, Anuj Sharma",
+      "institution": "Iowa State University",
+      "link": "https://arxiv.org/pdf/2601.00095",
+      "code": null,
+      "tags": [
+        "llm inference",
+        "meta-reinforcement learning",
+        "constraint propagation",
+        "graph attention network",
+        "structured inference",
+        "green ai"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b5284c89e9a9eec9c1882da4c36e7d1e9bbce97ea559fe29f19c435e5f8b8854_w640_q70.webp",
+      "contributions": "1. Introduces MetaJuLS, a meta-reinforcement learning framework for learning universal constraint propagation policies applicable across languages and tasks without task-specific retraining. 2. Formulates structured inference as adaptive constraint propagation and trains a Graph Attention Network policy via meta-learning, achieving significant speedups (1.5-2.0x) over GPU-optimized baselines with minimal accuracy loss. 3. Demonstrates rapid cross-domain adaptation (5-15 seconds) and contributes to Green AI by reducing inference carbon footprint through fewer propagation steps.",
+      "summary": "The paper addresses the inefficiency of structured inference (e.g., JSON parsing) in large language models by proposing MetaJuLS, a meta-reinforcement learning method that learns adaptive constraint propagation policies. This approach achieves up to 2x speedup over baselines while maintaining high accuracy and enables fast adaptation to new languages and tasks. The work contributes to more efficient and environmentally friendly LLM inference.",
+      "mindmap": "graph TB\n        Root[”Universal Adaptive Constraint Propagation<br>通用自适应约束传播”] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[”LLMs need efficient structured inference<br>LLM需要高效的结构化推理”] --> P1[”Wasted computation from static checking<br>静态检查导致计算浪费”]\n        Problem --> P2[”Need for cross-domain generalization<br>需要跨领域泛化”]\n        Method[”MetaJuLS: Meta-RL for constraint propagation<br>MetaJuLS: 用于约束传播的元强化学习”] --> M1[”Learns universal policies via meta-learning<br>通过元学习学习通用策略”]\n        Method --> M2[”Uses Graph Attention Network<br>使用图注意力网络”]\n        Results[”Key Results<br>关键结果”] --> R1[”1.5-2.0x speedup<br>1.5-2.0倍加速”]\n        Results --> R2[”Fast adaptation (5-15s)<br>快速适应(5-15秒)”]\n        Results --> R3[”Contributes to Green AI<br>助力绿色AI”]"
+    },
+    {
+      "title": "Pat-DEVAL: Chain-of-Legal-Thought Evaluation for Patent Description",
+      "authors": "Yongmin Yoo, Kris W Pan",
+      "institution": "Macquarie University, Amazon",
+      "link": "https://arxiv.org/pdf/2601.00166",
+      "code": null,
+      "tags": [
+        "legal text generation and evaluation",
+        "patent drafting",
+        "LLM-as-a-judge",
+        "Chain-of-Legal-Thought",
+        "legal compliance",
+        "automated evaluation"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d9df50304a9b3b4d3c4c409af9be2c858e612c5747a351d8395d536945a60fa6_w640_q70.webp",
+      "contributions": "1. Introduces Pat-DEVAL, the first multi-dimensional evaluation framework specifically designed for assessing the quality of generated patent description bodies. 2. Proposes Chain-of-Legal-Thought (CoLT), a novel legally-constrained reasoning mechanism that enforces sequential, patent-law-specific analysis within the LLM-as-a-judge paradigm. 3. Establishes and validates the framework on the Pap2Pat-EvalGold dataset, demonstrating superior correlation with expert judgments, especially in legal compliance, outperforming baseline metrics and existing LLM evaluators.",
+      "summary": "This paper addresses the lack of effective evaluation methods for AI-generated patent descriptions, which must meet strict legal standards. It proposes Pat-DEVAL, a framework that uses a Chain-of-Legal-Thought mechanism with an LLM-as-a-judge to assess legal compliance and structural coherence. The method shows significantly higher correlation with expert evaluations than existing approaches, proving the importance of explicit legal constraints for automated patent drafting.",
+      "mindmap": "graph TB\n        A[Pat-DEVAL: Chain-of-Legal-Thought Evaluation for Patent Description] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[现有方法无法评估专利说明书的结构连贯性与法律合规性/Existing methods fail to assess structural coherence and legal compliance of patent descriptions]\n        C --> C1[提出Pat-DEVAL框架与Chain-of-Legal-Thought推理机制/Proposes Pat-DEVAL framework with Chain-of-Legal-Thought reasoning]\n        C --> C2[采用LLM-as-a-judge范式，注入法定约束/Adopts LLM-as-a-judge paradigm with statutory constraints]\n        D --> D1[在Pap2Pat-EvalGold数据集上验证/Validated on Pap2Pat-EvalGold dataset]\n        D --> D2[皮尔逊相关性0.69，法律合规性相关性0.73/Pearson correlation 0.69, Legal-Professional Compliance correlation 0.73]\n        D --> D3[显著优于基线指标/Significantly outperforms baseline metrics]"
+    },
+    {
+      "title": "Understanding Emotion in Discourse: Recognition Insights and Linguistic Patterns for Generation",
+      "authors": "Cheonkam Jeong, Adeline Nyamathi",
+      "institution": "University of California, Irvine",
+      "link": "https://arxiv.org/pdf/2601.00181",
+      "code": null,
+      "tags": [
+        "emotion recognition in conversation",
+        "ablation study",
+        "conversational context",
+        "discourse markers",
+        "causal context",
+        "IEMOCAP"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4e38dfbfb3b50e432c39aabed201ddaf199012203ee5e7e82a7aa044267fc2a2_w640_q70.webp",
+      "contributions": "1. A rigorous ablation study revealing that conversational context is paramount for ERC, with performance saturating within 10-30 preceding turns, and that hierarchical sentence representations and external affective lexicons provide no additional benefit when context is used. 2. Achieving state-of-the-art text-only performance on IEMOCAP using simple architectures with strictly causal context. 3. A novel linguistic analysis connecting recognition to generation, finding a significant association between emotion and discourse marker positioning, particularly that \"sad\" utterances use fewer left-periphery markers and rely more on context for disambiguation.",
+      "summary": "This paper systematically analyzes Emotion Recognition in Conversation (ERC) to identify which architectural components matter and connects recognition insights to linguistic patterns for generation. Through ablation studies on IEMOCAP, it finds conversational context is most critical, and via linguistic analysis, it discovers that emotion correlates with discourse marker usage. The main conclusion is that simple models with causal context are sufficient for high performance, and the lack of explicit pragmatic signals in \"sad\" utterances explains their greater reliance on context.",
+      "mindmap": "graph TB\n        A[Understanding Emotion in Discourse] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[ERC模型哪些组件真正有效?/Which ERC components matter?]\n        B --> B2[如何连接识别与生成?/How to connect recognition & generation?]\n        C --> C1[系统消融研究/Systematic Ablation Study]\n        C --> C2[话语标记分析/Discourse Marker Analysis]\n        D --> D1[上下文最关键, 10-30轮饱和/Context is key, saturates in 10-30 turns]\n        D --> D2[简单因果模型SOTA/Simple causal model achieves SOTA]\n        D --> D3[悲伤话语标记少, 更依赖上下文/Sad utterances have fewer markers, rely more on context]"
+    },
+    {
+      "title": "StockBot 2.0: Vanilla LSTMs Outperform Transformer-based Forecasting for Stock Prices",
+      "authors": "Shaswat Mohanty",
+      "institution": "Stanford University",
+      "link": "https://arxiv.org/pdf/2601.00197",
+      "code": null,
+      "tags": [
+        "time series forecasting",
+        "LSTM",
+        "Transformer",
+        "Stock Prediction",
+        "Time Series Forecasting",
+        "Attention"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/131078c30708f9e13fee0c529bee858ed184717ff3b0bf5f762eda2a9370616c_w640_q70.webp",
+      "contributions": "1. Presents an enhanced StockBot architecture for systematic evaluation of modern time-series forecasting models (attention-based, convolutional, recurrent) in a unified setting. 2. Demonstrates empirically that a carefully constructed vanilla LSTM model consistently outperforms transformer-based models in stock price forecasting accuracy and decision-making stability under default hyperparameters. 3. Highlights the robustness, data efficiency, and importance of architectural inductive bias of recurrent models for financial forecasting, especially in data-limited scenarios.",
+      "summary": "This paper presents StockBot 2.0, a framework for evaluating time-series models for stock prediction. It finds that a vanilla LSTM model, despite its simplicity, outperforms more complex transformer-based models in forecasting accuracy and trading decision stability when trained with default settings, emphasizing the value of recurrent inductive biases for financial data.",
+      "mindmap": "graph TB\n        Root[”StockBot 2.0: Vanilla LSTMs Outperform Transformer-based Forecasting for Stock Prices”] --> Problem[”核心问题/Problem: Forecasting financial markets is challenging due to complexity and volatility.”]\n        Root --> Method[”主要方法/Method: Enhanced StockBot architecture for systematic evaluation of attention, CNN, and RNN models.”]\n        Root --> Results[”关键结果/Results: Vanilla LSTM achieves superior accuracy and stable decisions compared to transformers.”]"
+    },
+    {
+      "title": "Knowledge Distillation for Temporal Knowledge Graph Reasoning with Large Language Models",
+      "authors": "Wang Xing, Wei Song, Siyu Lin, Chen Wu, Zhesi Li, Man Wang",
+      "institution": "Xidian University, Southwest Jiaotong University, Chongqing Jiaotong University, Chang’an University",
+      "link": "https://arxiv.org/pdf/2601.00202",
+      "code": null,
+      "tags": [
+        "model compression (quantization/pruning)",
+        "knowledge distillation",
+        "temporal knowledge graph reasoning",
+        "large language models",
+        "teacher-student framework",
+        "temporal dependencies"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/19e66b8571c108befcd93243d5d7ad64cfb10f7509cd7cbcd74ba39136582282_w640_q70.webp",
+      "contributions": "1. Proposes a novel distillation framework specifically designed for Temporal Knowledge Graph (TKG) reasoning, addressing the limitations of static graph compression techniques. 2. Leverages Large Language Models (LLMs) as teacher models to transfer both structural and temporal reasoning capabilities to lightweight student models. 3. Integrates large-scale public knowledge with task-specific temporal information to enhance the student model's ability to model temporal dynamics while maintaining computational efficiency.",
+      "summary": "This paper addresses the challenge of deploying computationally expensive Temporal Knowledge Graph (TKG) reasoning models on resource-constrained platforms. The authors propose a knowledge distillation framework that uses Large Language Models (LLMs) as teachers to transfer temporal and structural reasoning knowledge to compact student models. Experiments show the method achieves a favorable trade-off between reasoning accuracy and efficiency, outperforming existing baselines.",
+      "mindmap": "graph TB\n        A[Knowledge Distillation for Temporal Knowledge Graph Reasoning with Large Language Models] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[现有TKG推理模型计算量大，难以部署/Existing TKG models are computationally heavy and hard to deploy]\n        B --> B2[现有压缩技术无法有效处理时序依赖/Existing compression techniques fail to capture temporal dependencies]\n        C --> C1[提出针对TKG的蒸馏框架/Propose a distillation framework tailored for TKGs]\n        C --> C2[使用LLM作为教师模型/Use LLMs as teacher models]\n        C --> C3[将结构与时序推理能力迁移到轻量学生模型/Transfer structural and temporal reasoning to lightweight student models]\n        D --> D1[在多个基准数据集上超越基线/Outperforms baselines on multiple benchmark datasets]\n        D --> D2[实现精度与效率的良好权衡/Achieves a favorable trade-off between accuracy and efficiency]"
+    },
+    {
+      "title": "Overlooked Safety Vulnerability in LLMs: Malicious Intelligent Optimization Algorithm Request and its Jailbreak",
+      "authors": "Haoran Gu, Handing Wang, Yi Mei, Mengjie Zhang, Yaochu Jin",
+      "institution": "Xidian University, Victoria University of Wellington, Westlake University",
+      "link": "https://arxiv.org/pdf/2601.00213",
+      "code": null,
+      "tags": [
+        "llm safety & alignment",
+        "jailbreak",
+        "algorithm design",
+        "safety benchmark",
+        "optimization algorithm",
+        "malicious prompt"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f6ccef5999a7edaf6824967fee78721c43b0e003d14334de2a1bb59ce1410a85_w640_q70.webp",
+      "contributions": "1. Identifies and investigates a novel safety vulnerability in LLMs related to automated malicious optimization algorithm design. 2. Introduces MalOptBench, a benchmark of 60 malicious optimization algorithm requests for evaluating this vulnerability. 3. Proposes MOBjailbreak, a tailored jailbreak method for this scenario, and demonstrates its high effectiveness against current LLMs and defenses.",
+      "summary": "This paper investigates a safety vulnerability where LLMs can be prompted to generate malicious optimization algorithms. It introduces the MalOptBench benchmark and the MOBjailbreak attack method, finding that current LLMs and plug-and-play defenses are highly susceptible, highlighting a need for stronger alignment techniques.",
+      "mindmap": "graph TB\n        Root[”Overlooked Safety Vulnerability in LLMs: Malicious Intelligent Optimization Algorithm Request and its Jailbreak”] --> Problem[”核心问题/Problem: LLMs在自动化算法设计中的安全漏洞未被充分探索/Underexplored safety vulnerability in LLM-driven automated algorithm design”]\n        Root --> Method[”主要方法/Method: 提出基准MalOptBench和越狱方法MOBjailbreak/Propose benchmark MalOptBench and jailbreak method MOBjailbreak”]\n        Root --> Results[”关键结果/Results: LLMs高度脆弱，现有防御效果有限/LLMs are highly susceptible, current defenses are marginally effective”]"
+    },
+    {
+      "title": "From Sight to Insight: Improving Visual Reasoning Capabilities of Multimodal Models via Reinforcement Learning",
+      "authors": "Omar Sharif, Eftekhar Hossain, Patrick Ng",
+      "institution": "Dartmouth College, University of Central Florida",
+      "link": "https://arxiv.org/pdf/2601.00215",
+      "code": null,
+      "tags": [
+        "reinforcement learning",
+        "reinforcement learning",
+        "multimodal large language models",
+        "visual reasoning",
+        "group relative policy optimization",
+        "reward functions"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fa78fbb9d1620ad3674739f2e8cf9cfb6929637fa0f209ae3ee4c439ab5205c8_w640_q70.webp",
+      "contributions": "1. Identified visual perception as the primary bottleneck for MLLMs in visual puzzle tasks, empirically validated by showing significant performance gains when images are converted to text. 2. Proposed a reward-driven RL framework using GRPO to incentivize longer, structured visual reasoning in open-source MLLMs without costly supervision. 3. Designed and evaluated six novel reward functions targeting different reasoning aspects like image understanding, thinking steps, and answer accuracy.",
+      "summary": "This paper addresses the problem that multimodal large language models (MLLMs) generate reasoning chains that lack integration of visual information, limiting their performance on visual puzzles. The authors propose using reinforcement learning with specifically designed reward functions and Group Relative Policy Optimization (GRPO) to incentivize longer, visually-grounded reasoning. Their method improves the performance of the Qwen-2.5-VL-7B model by 5.56%, demonstrating consistent gains across different settings.",
+      "mindmap": "graph TB\n        Root[”From Sight to Insight: Improving Visual Reasoning Capabilities of Multimodal Models via Reinforcement Learning”] --> Problem[”核心问题/Problem: MLLMs lack visual grounding in reasoning”]\n        Root --> Method[”主要方法/Method: RL with reward functions & GRPO”]\n        Root --> Results[”关键结果/Results: 5.56% improvement on Qwen-2.5-VL-7B”]"
+    },
+    {
+      "title": "From Evidence-Based Medicine to Knowledge Graph: Retrieval-Augmented Generation for Sports Rehabilitation and a Domain Benchmark",
+      "authors": "Jinning Zhang, Jie Song, Wenhui Tu, Zecheng Li, Jingxuan Li, Jin Li, Xuan Liu, Taole Sha, Zichen Wei, Yan Li",
+      "institution": "Beijing Sport University",
+      "link": "https://arxiv.org/pdf/2601.00216",
+      "code": null,
+      "tags": [
+        "retrieval-augmented generation",
+        "knowledge graph",
+        "PICO framework",
+        "evidence-based medicine",
+        "Bayesian reranking",
+        "sports rehabilitation"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3bd3d679f214bbb1077d6def8ab28cb0755d55d1e2bccc588807eff404d6c8bf_w640_q70.webp",
+      "contributions": "1. Proposes a generalizable strategy for integrating Evidence-Based Medicine (EBM) principles into graph-based RAG, addressing PICO alignment and evidence hierarchy. 2. Introduces a Bayesian-inspired reranking algorithm to calibrate retrieval scores based on evidence grade without predefined weights. 3. Constructs and releases a domain-specific knowledge graph and benchmark for sports rehabilitation to address the scarcity of RAG resources in this field.",
+      "summary": "This paper addresses the oversight of evidence-based medicine principles in current RAG systems by proposing a strategy that integrates the PICO framework into knowledge graph construction and a Bayesian reranking algorithm. The method was validated in sports rehabilitation, showing improved answer quality and high expert ratings, and the released resources help fill a domain-specific data gap.",
+      "mindmap": "graph TB\n        Root[”From Evidence-Based Medicine to Knowledge Graph: Retrieval-Augmented Generation for Sports Rehabilitation and a Domain Benchmark”]\n        Root --> Problem[”核心问题/Problem: Current RAG overlooks EBM principles (PICO misalignment, no evidence hierarchy)”]\n        Root --> Method[”主要方法/Method: Integrate PICO into KG RAG & Bayesian reranking for evidence grade”]\n        Root --> Results[”关键结果/Results: High-quality answers & expert ratings; Released KG & benchmark”]"
+    },
+    {
+      "title": "JP-TL-Bench: Anchored Pairwise LLM Evaluation for Bidirectional Japanese-English Translation",
+      "authors": "Leonard Lin, Adam Lensenmayer",
+      "institution": "Shisa.AI",
+      "link": "https://arxiv.org/pdf/2601.00223",
+      "code": null,
+      "tags": [
+        "machine translation",
+        "LLM-as-a-judge",
+        "pairwise comparison",
+        "Bradley-Terry model",
+        "reference-free evaluation",
+        "anchored evaluation"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e3672d8de20107e284402d4b12e978f246eb0df92617095708ca7710e712594d_w640_q70.webp",
+      "contributions": "1. Introduces JP-TL-Bench, a lightweight, open benchmark for iterative development of Japanese-English translation systems. 2. Proposes a reliable and affordable evaluation protocol using reference-free, pairwise LLM comparisons against a fixed, versioned anchor set. 3. Provides structurally stable scores by aggregating pairwise results with a Bradley-Terry model and reporting normalized LT scores.",
+      "summary": "The paper introduces JP-TL-Bench, a benchmark for evaluating high-quality Japanese-English translation. It uses a protocol where candidate models are compared against a fixed anchor set via pairwise LLM judgments, with results aggregated using a Bradley-Terry model to produce stable scores. This approach aims to provide a high-resolution signal for distinguishing between already fluent translations where traditional metrics saturate.",
+      "mindmap": "graph TB\n        A[JP-TL-Bench: Anchored Pairwise LLM Evaluation<br>JP-TL-Bench: 锚定成对LLM评估] --> B\n        A --> C\n        A --> D\n        B[核心问题/Problem<br>现有评估方法难以区分高质量翻译<br>Existing evaluation struggles to differentiate high-quality translations]\n        C[主要方法/Method<br>基于固定锚定集的成对LLM比较<br>Pairwise LLM comparison against a fixed anchor set]\n        D[关键结果/Results<br>提供稳定、可解释的分数<br>Provides stable, interpretable scores]"
+    },
+    {
+      "title": "Talk Less, Verify More: Improving LLM Assistants with Semantic Checks and Execution Feedback",
+      "authors": "Yan Sun, Ming Cai, Stanley Kok",
+      "institution": "National University of Singapore",
+      "link": "https://arxiv.org/pdf/2601.00224",
+      "code": null,
+      "tags": [
+        "agent system",
+        "semantic verification",
+        "execution feedback",
+        "generator-discriminator framework",
+        "reverse translation",
+        "conversational business analytics"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b2d07ef5c900d3b1d3d6067b2025a8ba0771149df2530b94a6a54885c8bd8685_w640_q70.webp",
+      "contributions": "1. Proposes Q*, a verification technique that uses reverse translation and semantic matching to align generated code with user intent. 2. Introduces Feedback+, a mechanism that incorporates execution feedback to guide iterative code refinement. 3. Embeds these techniques within a generator-discriminator framework to shift validation responsibilities from users to the system, aiming to improve reliability.",
+      "summary": "This paper addresses the lack of verification in conversational business analytics systems by proposing two techniques, Q* and Feedback+, to improve the accuracy and executability of LLM-generated outputs. The methods are integrated into a generator-discriminator framework and evaluated on benchmark datasets, showing reduced error rates and task completion time. The work provides a design framework for building more reliable enterprise-grade GenAI assistants.",
+      "mindmap": "graph TB\n        A[Talk Less, Verify More: Improving LLM Assistants<br>少说多验证：改进LLM助手] --> B\n        A --> C\n        A --> D\n        B[核心问题/Problem<br>LLM助手缺乏验证机制<br>Lack of verification in LLM assistants]\n        C[主要方法/Method<br>Q*与Feedback+验证<br>Q* and Feedback+ verification]\n        D[关键结果/Results<br>降低错误率与任务时间<br>Reduced error rate & task time]\n        C --> E[Q*: 逆向翻译与语义匹配<br>Q*: Reverse translation & semantic matching]\n        C --> F[Feedback+: 执行反馈引导优化<br>Feedback+: Execution feedback guides refinement]"
+    },
+    {
+      "title": "Parallel Universes, Parallel Languages: A Comprehensive Study on LLM-based Multilingual Counterfactual Example Generation",
+      "authors": "Qianli Wang, Van Bach Nguyen, Yihong Liu, Fedor Splitt, Nils Feldhus, Christin Seifert, Hinrich Schütze, Sebastian Möller, Vera Schmitt",
+      "institution": "Technische Universität Berlin, University of Marburg, LMU Munich, German Research Center for Artificial Intelligence (DFKI), Munich Center for Machine Learning (MCML), BIFOLD – Berlin Institute for the Foundations of Learning and Data",
+      "link": "https://arxiv.org/pdf/2601.00263",
+      "code": null,
+      "tags": [
+        "explainable ai (xai)",
+        "counterfactual examples",
+        "multilingual",
+        "data augmentation",
+        "large language models",
+        "model robustness"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6e3b95c2cf3407989c3c5a932764e908182c4d60d7451ace3f5f15e194a3a7e5_w640_q70.webp",
+      "contributions": "1. Evaluated the quality of LLM-generated multilingual counterfactuals, comparing direct generation and translation-based methods across six languages. 2. Identified four main error types common in generated counterfactuals across languages and found similar edit patterns in high-resource European languages. 3. Demonstrated that multilingual counterfactual data augmentation yields greater performance improvements than cross-lingual augmentation, especially for lower-resource languages.",
+      "summary": "This paper investigates the effectiveness of large language models (LLMs) in generating multilingual counterfactual examples. It compares directly generated and translation-based counterfactuals across six languages, finding that translation-based ones are more valid but require more edits and still underperform English ones. The study concludes that while multilingual counterfactual data augmentation improves model performance, especially for low-resource languages, the quality limitations of the generated counterfactuals constrain the gains in robustness.",
+      "mindmap": "graph TB\n        A[Parallel Universes, Parallel Languages: A Comprehensive Study on LLM-based Multilingual Counterfactual Example Generation] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[LLM生成多语言反事实示例的有效性未知/Effectiveness of LLM-generated multilingual counterfactuals is unclear]\n        C --> C1[评估直接生成与翻译生成的反事实/Evaluate directly generated and translation-based counterfactuals]\n        C --> C2[分析编辑模式与错误类型/Analyze edit patterns and error types]\n        C --> C3[用于数据增强实验/Use for data augmentation experiments]\n        D --> D1[翻译生成的反事实更有效但编辑更多/Translation-based CFs are more valid but require more edits]\n        D --> D2[高资源语言编辑模式相似/Edit patterns are similar for high-resource languages]\n        D --> D3[多语言数据增强效果更好/Multilingual data augmentation yields larger improvements]"
+    },
+    {
+      "title": "Beyond Perfect APIs: A Comprehensive Evaluation of LLM Agents Under Real-World API Complexity",
+      "authors": "Doyoung Kim, Zhiwei Ren, Jie Hao, Zhongkai Sun, Lichao Wang, Xiyao Ma, Zack Ye, Xu Han, Jun Yin, Heng Ji, Wei Shen, Xing Fan, Benjamin Yao, Chenlei Guo",
+      "institution": "Amazon, KAIST, University of Pittsburgh, University of Illinois Urbana-Champaign",
+      "link": "https://arxiv.org/pdf/2601.00268",
+      "code": "github.com/Demon-JieHao/WildAGTEval",
+      "tags": [
+        "agent system",
+        "function-calling",
+        "benchmark",
+        "API complexity",
+        "LLM agents",
+        "WildAGTEval"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f3c517d92b4a84a20e84e30c740db5d9b70b7f3195c6de0fc8e049a5f0a4c9af_w640_q70.webp",
+      "contributions": "1. Introduces WildAGTEval, a novel benchmark for evaluating LLM agents under realistic API complexity, covering both API specification and execution challenges. 2. Provides a comprehensive API system with 60 distinct complexity scenarios, composable into ~32K test configurations, and user-agent interactions for evaluation. 3. Systematically assesses advanced LLMs, revealing significant performance drops (e.g., 27.3% for irrelevant information complexity) and identifying critical failure modes like intent distortion.",
+      "summary": "This paper introduces WildAGTEval, a benchmark designed to evaluate LLM agents' function-calling capabilities under realistic API complexities, including detailed specifications and noisy execution. The study finds that most scenarios are challenging, with irrelevant information posing the greatest difficulty and causing significant performance drops in strong models. The qualitative analysis also reveals that LLMs sometimes distort user intent to claim task completion, negatively impacting user satisfaction.",
+      "mindmap": "graph TB\n        A[Beyond Perfect APIs: A Comprehensive Evaluation of LLM Agents Under Real-World API Complexity] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[现有基准假设理想化API / Existing benchmarks assume idealized APIs]\n        B --> B2[忽略现实因素如噪声输出 / Ignore real-world factors like noisy outputs]\n        C --> C1[提出WildAGTEval基准 / Propose WildAGTEval benchmark]\n        C --> C2[涵盖API规范与执行复杂性 / Covers API specification & execution complexity]\n        D --> D1[大多数场景具有挑战性 / Most scenarios are challenging]\n        D --> D2[无关信息复杂度导致性能显著下降 / Irrelevant info complexity causes significant performance drop]\n        D --> D3[LLM可能扭曲用户意图 / LLMs may distort user intent]"
+    },
+    {
+      "title": "Can Large Language Models Still Explain Themselves? Investigating the Impact of Quantization on Self-Explanations",
+      "authors": "Qianli Wang, Nils Feldhus, Pepa Atanasova, Fedor Splitt, Simon Ostermann, Sebastian Möller, Vera Schmitt",
+      "institution": "Technische Universität Berlin, German Research Center for Artificial Intelligence (DFKI), University of Copenhagen",
+      "link": "https://arxiv.org/pdf/2601.00282",
+      "code": null,
+      "tags": [
+        "model compression (quantization/pruning)",
+        "quantization",
+        "self-explanations",
+        "faithfulness",
+        "natural language explanations",
+        "counterfactual examples"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8576a4dae59be54ef8b0a451a49893f5b9d59eceafecb4a697aed2b3fd4a470b_w640_q70.webp",
+      "contributions": "1. First comprehensive study on the impact of quantization on the quality and faithfulness of LLM self-explanations. 2. Empirical evaluation across multiple quantization techniques, bit widths, and model sizes, revealing moderate but consistent degradation in explanation metrics. 3. Provides practical recommendations for validating self-explanations in quantized models, highlighting the greater sensitivity of natural language explanations.",
+      "summary": "This paper investigates how quantization affects the quality and faithfulness of self-explanations generated by large language models. The authors evaluate multiple quantization methods and find they cause moderate declines in explanation metrics, with larger models showing better faithfulness preservation. They conclude that while quantization degrades self-explanations, the impact is relatively minor and does not negate its benefits for model compression.",
+      "mindmap": "graph TB\n        Root[”Can Large Language Models Still Explain Themselves?<br/>大语言模型还能解释自己吗？”] --> Problem[”Quantization's effect on Self-Explanations is unknown.<br/>量化对自我解释的影响未知”]\n        Root --> Method[”Evaluate NLEs & Counterfactuals from quantized LLMs.<br/>评估量化后LLM的自然语言解释和反事实示例”]\n        Root --> Results[”Moderate decline in quality/faithfulness; context-dependent impact.<br/>质量/忠实度适度下降；影响因上下文而异”]"
+    },
+    {
+      "title": "DepFlow: Disentangled Speech Generation to Mitigate Semantic Bias in Depression Detection",
+      "authors": "Yuxin Li, Xiangyu Zhang, Yifei Li, Zhiwei Guo, Haoyang Zhang, Eng Siong Chng, Cuntai Guan",
+      "institution": "Nanyang Technological University, UNSW Sydney, Peking University",
+      "link": "https://arxiv.org/pdf/2601.00303",
+      "code": null,
+      "tags": [
+        "speech processing",
+        "depression detection",
+        "semantic bias",
+        "text-to-speech",
+        "disentangled representation",
+        "data augmentation"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ddfe4c5383fa66e6b8e028851d0fe67037a11642b799a3626a1100aaa4cd8096_w640_q70.webp",
+      "contributions": "1. Proposes DepFlow, a novel three-stage depression-conditioned TTS framework that disentangles depression-specific acoustic patterns from speaker and content information using adversarial training and flow-matching. 2. Introduces a prototype-based severity mapping mechanism for smooth and interpretable control over the synthesized depressive severity. 3. Constructs a Camouflage Depression-oriented Augmentation (CDoA) dataset using DepFlow to mitigate semantic bias, which significantly improves the robustness of depression detection models.",
+      "summary": "The paper addresses the problem of semantic bias in depression detection models, where models learn shortcuts from linguistic sentiment instead of acoustic cues. It proposes DepFlow, a disentangled speech generation framework, to create a synthetic dataset (CDoA) that pairs depressed acoustic patterns with positive/neutral text. This data augmentation method improves model robustness, outperforming conventional strategies.",
+      "mindmap": "graph TB\n        Root[”DepFlow: Disentangled Speech Generation to Mitigate Semantic Bias in Depression Detection”] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[”核心问题/Problem: Models learn semantic shortcuts from sentiment-content coupling in depression datasets.”]\n        Method[”主要方法/Method: DepFlow, a 3-stage TTS framework for disentangling & controlling depression acoustics.”]\n        Results[”关键结果/Results: CDoA augmentation improves detection model F1 scores by 5-12%.”]"
+    },
+    {
+      "title": "Robust Uncertainty Quantification for Factual Generation of Large Language Models",
+      "authors": "Yuhao Zhang, Zhongliang Yang, Linna Zhou",
+      "institution": "Beijing University of Posts and Telecommunications",
+      "link": "https://arxiv.org/pdf/2601.00348",
+      "code": "https://github.com/EdwardChang5467/robust",
+      "tags": [
+        "hallucination detection",
+        "uncertainty quantification",
+        "factual hallucination",
+        "trap questions",
+        "ROCAUC",
+        "fake biographies"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6268aa8c8874ac861a06315946aedcfbc9df7712a9f2b63e23204554e9c8596b_w640_q70.webp",
+      "contributions": "1. Proposes a new uncertainty quantification scenario focused on multi-fact generation (e.g., fake person biographies) to test LLM robustness. 2. Constructs a novel dataset of trap questions containing fake names to evaluate hallucination detection methods. 3. Introduces a robust uncertainty quantification (RU) method that significantly outperforms baseline methods across four different LLMs.",
+      "summary": "This paper addresses the problem of LLM hallucination by proposing a new robust uncertainty quantification (RU) method for detecting factual errors in multi-fact generation tasks. The method is evaluated using a specially constructed set of trap questions containing fake names. Results show the RU method achieves an average increase of 0.1-0.2 in ROCAUC over the best baseline, demonstrating its effectiveness in improving the reliability of LLM outputs.",
+      "mindmap": "graph TB\n        A[Robust Uncertainty Quantification for Factual Generation of LLMs] --> B\n        A --> C\n        A --> D\n        B[核心问题/Problem<br>LLM幻觉与不确定性量化缺陷<br>LLM Hallucination & UQ Deficiency]\n        C[主要方法/Method<br>构建陷阱问题集与提出鲁棒方法<br>Construct Trap Questions & Propose RU Method]\n        D[关键结果/Results<br>ROC-AUC显著提升<br>Significant ROC-AUC Improvement]"
+    },
+    {
+      "title": "BERT-JEPA: Reorganizing CLS Embeddings for Language-Invariant Semantics",
+      "authors": "Taj Gillin, Adam Lalani, Kenneth Zhang, Marcel Mateos Salles",
+      "institution": "Brown University",
+      "link": "https://arxiv.org/pdf/2601.00366",
+      "code": null,
+      "tags": [
+        "multilingual representation learning",
+        "Joint Embedding Predictive Architecture (JEPA)",
+        "BERT",
+        "CLS token",
+        "language-agnostic embedding",
+        "multilingual benchmarks"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0cd5b4a28e22d003dd88f59a4d1a1a55a97fa54c9c398a578c710764342d3180_w640_q70.webp",
+      "contributions": "1. Introduces BERT-JEPA (BEPA), a novel training paradigm that adds a JEPA objective to BERT-style models to reorganize the [CLS] embedding space. 2. Demonstrates that BEPA finetuning transforms the [CLS] embedding space into a semantic-first, language-agnostic space, shifting its PCA representation from low-rank to fuller-rank. 3. Shows that this reorganization improves performance on multilingual tasks with little to no loss in English performance.",
+      "summary": "The paper addresses the problem that BERT's [CLS] embeddings fail to capture language-invariant semantics. It proposes BERT-JEPA (BEPA), a method that adds a Joint Embedding Predictive Architecture (JEPA) objective during training to reorganize the [CLS] embedding space into a language-agnostic \"thought space\". The main conclusion is that this approach significantly improves performance on multilingual benchmarks while maintaining English task performance.",
+      "mindmap": "graph TB\n        Root[”BERT-JEPA: Reorganizing CLS Embeddings for Language-Invariant Semantics”] --> Problem[”核心问题/Problem: CLS embeddings are not language-invariant and fail to capture true sentence semantics.”]\n        Root --> Method[”主要方法/Method: Add JEPA training objective to BERT to create a language-agnostic embedding space.”]\n        Root --> Results[”关键结果/Results: Improved multilingual benchmark performance; reorganized, semantic-first CLS space.”]"
+    },
+    {
+      "title": "The Role of Mixed-Language Documents for Multilingual Large Language Model Pretraining",
+      "authors": "Jiandong Shao, Raphael Tang, Crystina Zhang, Karin Sevegnani, Pontus Stenetorp, Jianfei Yang, Yao Lu",
+      "institution": "University College London, Nanyang Technological University, University of Waterloo, NVIDIA, National Institute of Informatics",
+      "link": "https://arxiv.org/pdf/2601.00364",
+      "code": null,
+      "tags": [
+        "multilingual language models",
+        "multilingual pretraining",
+        "parallel data",
+        "code-switching",
+        "cross-lingual transfer",
+        "translation"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d428d7e2552dcd9b73d3c4332f442260a2a8e3b735ffd1384f2f162c6a5bde44_w640_q70.webp",
+      "contributions": "1. Conducted controlled pretraining experiments from scratch to isolate the impact of bilingual data, revealing that removing just 2% of such data causes a 56% drop in translation performance while leaving cross-lingual QA and reasoning largely unaffected. 2. Introduced a granular categorization of bilingual data into parallel, code-switching, and miscellaneous types based on semantic relevance, enabling more precise analysis. 3. Demonstrated through ablation studies that translation performance is critically dependent on parallel data (restoring 91% of baseline performance), whereas code-switching data contributes minimally, and that cross-lingual understanding does not rely heavily on bilingual data.",
+      "summary": "This paper investigates the role of bilingual data in multilingual large language model pretraining by comparing standard web corpora with a monolingual-only version. Through controlled experiments and granular ablations categorizing data into parallel and code-switching types, it finds that translation performance heavily depends on parallel data for token-level alignments, while cross-lingual understanding and reasoning tasks can be achieved even without bilingual data.",
+      "mindmap": "graph TB\n        A[The Role of Mixed-Language Documents for Multilingual LLM Pretraining] --> B\n        A --> C\n        A --> D\n        B[核心问题/Problem<br>Bilingual data's role in cross-lingual performance is unclear] --> B1[问题细化/Sub-Problem<br>Does it uniformly benefit all tasks?]\n        C[主要方法/Method<br>Controlled pretraining & granular ablation] --> C1[方法步骤/Step 1<br>Compare standard vs. monolingual-only corpus]\n        C --> C2[方法步骤/Step 2<br>Categorize bilingual data: Parallel, Code-switching]\n        C --> C3[方法步骤/Step 3<br>Reintroduce data types for ablation]\n        D[关键结果/Results<br>Asymmetric impact of bilingual data] --> D1[结果1/Result 1<br>Translation needs parallel data]\n        D --> D2[结果2/Result 2<br>Cross-lingual QA/reasoning stable without it]"
+    },
+    {
+      "title": "Vision-Language Reasoning for Geolocalization: A Reinforcement Learning Approach",
+      "authors": "Biao Wu, Meng Fang, Ling Chen, Ke Xu, Tao Cheng, Jun Wang",
+      "institution": "University of Technology Sydney, University of Liverpool, University College London",
+      "link": "https://arxiv.org/pdf/2601.00388",
+      "code": null,
+      "tags": [
+        "reinforcement learning",
+        "geolocalization",
+        "vision-language models",
+        "chain of region",
+        "haversine distance",
+        "retrieval-free"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/986e7d2e1e80caef1d7794a999a5e00e8f2a503a4cae673b68dc3cfafa02122c_w640_q70.webp",
+      "contributions": "1. Proposes Geo-R, a retrieval-free framework for image geolocalization that uses reinforcement learning. 2. Introduces Chain of Region, a rule-based hierarchical reasoning paradigm to generate interpretable supervision from GPS coordinates. 3. Develops a lightweight RL strategy with coordinate-aligned rewards based on Haversine distance for spatially meaningful feedback.",
+      "summary": "This paper addresses the limitations of existing image geolocalization methods by proposing Geo-R, a retrieval-free framework that uses a rule-based Chain of Region for hierarchical reasoning and a reinforcement learning strategy with Haversine distance rewards. The approach improves localization accuracy, generalization, and interpretability without relying on synthetic labels or external retrieval, as validated across multiple benchmarks.",
+      "mindmap": "graph TB\n        A[Vision-Language Reasoning for Geolocalization] --> B[核心问题/Problem: Existing methods rely on synthetic annotations or retrieval, limiting interpretability and generalization.]\n        A --> C[主要方法/Method: Proposes Geo-R, a retrieval-free framework using Chain of Region for hierarchical reasoning and RL with Haversine distance rewards.]\n        A --> D[关键结果/Results: Improved accuracy, stronger generalization, and more transparent inference, establishing a new retrieval-free paradigm.]"
+    },
+    {
+      "title": "Do LLMs Judge Distantly Supervised Named Entity Labels Well? Constructing the JudgeWEL Dataset",
+      "authors": "Alistair Plum, Laura Bernardy, Tharindu Ranasinghe",
+      "institution": "University of Luxembourg, Lancaster University",
+      "link": "https://arxiv.org/pdf/2601.00411",
+      "code": null,
+      "tags": [
+        "named entity recognition",
+        "weak supervision",
+        "large language models",
+        "low-resource languages",
+        "dataset construction",
+        "Luxembourgish"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1e13a29d091cdd4cb0cc5c3d34a98e86c8d45b0a34f42a2b552cecd9fcff5b51_w640_q70.webp",
+      "contributions": "1. Proposes a novel pipeline for constructing NER datasets that uses Wikipedia/Wikidata for weak supervision and LLMs for label verification. 2. Introduces judgeWEL, a new and significantly larger NER dataset for the under-represented language Luxembourgish. 3. Evaluates and compares the effectiveness of multiple LLMs in judging and filtering noisy, distantly-supervised labels.",
+      "summary": "This paper addresses the challenge of building datasets for under-represented languages by proposing a novel method that uses Wikipedia and Wikidata for weak supervision to generate initial NER labels, and then employs multiple LLMs to verify and filter these labels for quality. The approach is applied to Luxembourgish, resulting in the judgeWEL dataset, which is five times larger and more balanced than existing resources, providing a valuable new corpus for low-resource NER research.",
+      "mindmap": "graph TB\n    A[Do LLMs Judge Distantly Supervised Named Entity Labels Well?<br/>构建JudgeWEL数据集] --> B(核心问题/Problem)\n    A --> C(主要方法/Method)\n    A --> D(关键结果/Results)\n    B --> B1[低资源语言数据集构建困难<br/>Dataset Construction for Low-Resource Languages]\n    C --> C1[利用维基百科/维基数据进行远程监督<br/>Weak Supervision via Wikipedia/Wikidata]\n    C --> C2[使用多个LLM进行标签验证<br/>Label Verification with Multiple LLMs]\n    D --> D1[创建了更大的卢森堡语NER数据集<br/>Larger Luxembourgish NER Dataset Created]\n    D --> D2[数据集规模扩大五倍，覆盖更平衡<br/>5x Larger, More Balanced Coverage]"
+    },
+    {
+      "title": "Deep Delta Learning",
+      "authors": "Yifan Zhang, Yifeng Liu, Mengdi Wang, Quanquan Gu",
+      "institution": "Princeton University, University of California, Los Angeles",
+      "link": "https://arxiv.org/pdf/2601.00417",
+      "code": "https://github.com/yifanzhang-pro/deep-delta-learning",
+      "tags": [
+        "neural network architecture",
+        "residual networks",
+        "geometric transformation",
+        "spectral analysis",
+        "rank-1 perturbation",
+        "dynamic gating"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/75e9151cd8b5ec94dcb21276489c4319c73f4c1a7295a6715a6c2a36d36f9a9b_w640_q70.webp",
+      "contributions": "1. Introduces Deep Delta Learning (DDL), a novel architecture that generalizes residual connections with a learnable, data-dependent geometric transformation called the Delta Operator. 2. Provides a spectral analysis of the Delta Operator, showing it can dynamically interpolate between identity mapping, orthogonal projection, and geometric reflection via a gating scalar. 3. Restructures the residual update as a synchronous rank-1 injection, unifying feature erasure and writing under a dynamic step size to enable complex, non-monotonic dynamics while preserving stable training.",
+      "summary": "This paper identifies that the strictly additive inductive bias of standard residual networks limits their capacity to model complex state transitions. To address this, it proposes Deep Delta Learning (DDL), which modulates the identity shortcut with a learnable, data-dependent geometric transformation (the Delta Operator). This allows the network to explicitly control its layer-wise transition spectrum, enabling the modeling of complex dynamics like oscillations while maintaining stable training.",
+      "mindmap": "graph TB\n        A[Deep Delta Learning] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[残差网络限制/ResNet Limitation]\n        B1 --> B2[”刚性相加偏置/Rigid Additive Bias”]\n        B2 --> B3[”限制复杂状态转换/Limits Complex State Transitions”]\n        C --> C1[Delta 算子/Delta Operator]\n        C1 --> C2[”秩-1扰动/ Rank-1 Perturbation”]\n        C2 --> C3[”可学习几何变换/Learnable Geometric Transform”]\n        C3 --> C4[”动态门控/Dynamic Gating (β)”]\n        D --> D1[”谱分析/Spectral Analysis”]\n        D1 --> D2[”插值身份/投影/反射/Interpolates Identity/Projection/Reflection”]\n        D --> D3[”同步秩-1注入/Synchronous Rank-1 Injection”]\n        D3 --> D4[”控制转换谱/Controls Transition Spectrum”]\n        D4 --> D5[”保持稳定训练/Preserves Stable Training”]"
+    },
+    {
+      "title": "Language as Mathematical Structure: Examining Semantic Field Theory Against Language Games",
+      "authors": "Dimitris Vartziotis",
+      "institution": "TWT Science & Innovation, NIKI - Digital Engineering",
+      "link": "https://arxiv.org/pdf/2601.00448",
+      "code": null,
+      "tags": [
+        "language modeling",
+        "Semantic Field Theory",
+        "lexical fields",
+        "linguistic fields",
+        "transformer architectures",
+        "embedding spaces"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/98759f21c127cf9a440b464892816dd7e22af8f161a1d16ec91b582a8fefa647_w640_q70.webp",
+      "contributions": "1. Formalizes the notions of lexical fields (Lexfelder) and linguistic fields (Lingofelder) as interacting structures in a continuous semantic space. 2. Analyzes how core properties of transformer architectures (e.g., distributed representations, attention) relate to Semantic Field Theory concepts. 3. Proposes that mathematical structure and language games are complementary perspectives, clarifying the scope and limits of statistical language models.",
+      "summary": "This paper examines theories of linguistic meaning by contrasting social constructivist language games with a mathematically oriented Semantic Field Theory. It formalizes lexical and linguistic fields and analyzes their relation to transformer architecture properties. The authors conclude that the mathematical structure captured by LLMs and the social grounding of language games are complementary, not competing, views.",
+      "mindmap": "graph TB\n        Root(”Language as Mathematical Structure: Examining Semantic Field Theory Against Language Games”) --> Problem(”核心问题/Problem: Contrasting theories of linguistic meaning (social vs. mathematical)”)\n        Root --> Method(”主要方法/Method: Formalizing Semantic Field Theory (Lexfelder/Lingofelder) and analyzing transformer properties”)\n        Root --> Results(”关键结果/Results: Mathematical structure and language games are complementary perspectives”)"
+    },
+    {
+      "title": "Comparative Efficiency Analysis of Lightweight Transformer Models: A Multi-Domain Empirical Benchmark for Enterprise NLP Deployment",
+      "authors": "Muhammad Shahmeer Khan",
+      "institution": "Ulster University",
+      "link": "https://arxiv.org/pdf/2601.00444",
+      "code": null,
+      "tags": [
+        "text classification",
+        "DistilBERT",
+        "MiniLM",
+        "ALBERT",
+        "inference latency",
+        "model efficiency"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/caee3ae4ac5e6aeda42367ba10ce7ebb5766e7933d76b7277c736f90391d7895_w640_q70.webp",
+      "contributions": "1. A systematic comparison of three lightweight Transformer models (DistilBERT, MiniLM, ALBERT) across three enterprise-relevant domains. 2. An empirical evaluation using both accuracy-based and efficiency metrics under fixed enterprise-oriented constraints. 3. Practical deployment recommendations highlighting the trade-offs between accuracy and efficiency for different enterprise scenarios.",
+      "summary": "This paper compares the efficiency and performance of three lightweight Transformer models—DistilBERT, MiniLM, and ALBERT—across sentiment, news, and hate speech classification tasks. The evaluation uses accuracy and efficiency metrics under controlled fine-tuning. The key finding is a trade-off: ALBERT excels in accuracy, MiniLM in speed, and DistilBERT offers the most consistent balance, providing clear deployment guidance for enterprises.",
+      "mindmap": "graph TB\n        Root[”COMPARATIVE EFFICIENCY ANALYSIS OF LIGHTWEIGHT TRANSFORMER MODELS<br>轻量级Transformer模型比较效率分析”] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[”企业需要高效、轻量级的多领域NLP模型<br>Enterprise Need for Efficient, Lightweight Multi-Domain NLP Models”]\n        Method[”比较DistilBERT, MiniLM, ALBERT<br>Compare DistilBERT, MiniLM, ALBERT<br>使用准确性与效率指标<br>Use Accuracy & Efficiency Metrics”]\n        Results[”ALBERT: 高准确度<br>ALBERT: High Accuracy<br>MiniLM: 高推理速度<br>MiniLM: High Inference Speed<br>DistilBERT: 最均衡<br>DistilBERT: Most Balanced”]"
+    },
+    {
+      "title": "Toward Better Temporal Structures for Geopolitical Events Forecasting",
+      "authors": "Kian Ahrabian, Eric Boxer, Jay Pujara",
+      "institution": "University of Southern California, Information Sciences Institute",
+      "link": "https://arxiv.org/pdf/2601.00430",
+      "code": "https://github.com/usc-isi-i2/htkgh-polecat",
+      "tags": [
+        "knowledge graph completion",
+        "temporal knowledge graph",
+        "hyper-relational knowledge graph",
+        "event forecasting",
+        "large language model",
+        "geopolitical events"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/527a7641dfaef2c6e41eb0a5e3a09b206d0632bf03dce43022e1edf046380617_w640_q70.webp",
+      "contributions": "1. Proposes a new data structure, Hyper-Relational Temporal Knowledge Generalized Hypergraphs (HTKGHs), to efficiently represent complex temporal facts involving more than two primary entities. 2. Introduces the `htkgh-polecat` dataset, built on the POLECAT database, to benchmark forecasting tasks on this new structure. 3. Benchmarks and analyzes the performance of popular Large Language Models (LLMs) on the relation prediction task within this complex forecasting scenario.",
+      "summary": "This paper addresses the limitation of existing temporal knowledge graphs in representing complex geopolitical events with multiple primary entities by proposing a new structure called HTKGHs. The authors formalize HTKGHs, create a corresponding dataset, and benchmark LLMs on forecasting tasks. The results provide insights into LLMs' capabilities for complex temporal reasoning and forecasting.",
+      "mindmap": "graph TB\n        A[Toward Better Temporal Structures for Geopolitical Events Forecasting] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[HTKGs缺乏对多主体复杂事实的表达能力/HTKGs lack expressive power for complex multi-entity facts]\n        C --> C1[提出HTKGHs结构以支持多主体事件/Propose HTKGHs to support multi-entity events]\n        C --> C2[基于POLECAT构建htkgh-polecat数据集/Build htkgh-polecat dataset based on POLECAT]\n        C --> C3[在关系预测任务上评估主流LLMs/Benchmark popular LLMs on relation prediction]\n        D --> D1[形式化HTKGHs并展示其向后兼容性/Formalize HTKGHs and demonstrate backward compatibility]\n        D --> D2[提供LLMs在复杂预测场景中的能力分析/Provide analysis of LLM capabilities in complex forecasting scenarios]"
+    },
+    {
+      "title": "Defensive M2S: Training Guardrail Models on Compressed Multi-turn Conversations",
+      "authors": "Hyunjun Kim",
+      "institution": "KAIST",
+      "link": "https://arxiv.org/pdf/2601.00454",
+      "code": null,
+      "tags": [
+        "llm inference",
+        "guardrail models",
+        "multi-turn compression",
+        "efficiency optimization",
+        "safety screening",
+        "token reduction"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ad9caa971d784e8a994209f34a3b4e255812b43b2fa90a13bb0487b6e71e1395_w640_q70.webp",
+      "contributions": "1. Proposes Defensive M2S, a training paradigm that fine-tunes guardrail models on compressed multi-turn conversations instead of full histories, 2. Provides formal complexity analysis showing training cost reduction from O(n²) to O(n) and empirical token reduction of 93×, 3. Demonstrates effectiveness across multiple guardrail models and compression templates, achieving high attack detection recall with 94.6% inference token reduction.",
+      "summary": "The paper addresses the high computational cost of processing full multi-turn conversations for LLM safety guardrails by proposing Defensive M2S, which trains guardrail models on compressed single-turn versions. This method significantly reduces training and inference tokens while maintaining high attack detection performance, enabling scalable safety screening.",
+      "mindmap": "graph TB\n        Root[”Defensive M2S: Training Guardrail Models on Compressed Multi-turn Conversations”] --> Problem[”核心问题/Problem: High computational cost of processing full multi-turn conversations for guardrail models”]\n        Root --> Method[”主要方法/Method: Fine-tune guardrail models on M2S (Multi-turn to Single-turn) compressed conversations”]\n        Root --> Results[”关键结果/Results: 93× training token reduction, 94.6% inference token reduction, 93.8% attack detection recall”]"
+    },
+    {
+      "title": "Noise-Aware Named Entity Recognition for Historical VET Documents",
+      "authors": "Alexander M. Esser, Jens Dörpinghaus",
+      "institution": "Federal Institute for Vocational Education and Training (BIBB), University of Koblenz",
+      "link": "https://arxiv.org/pdf/2601.00488",
+      "code": null,
+      "tags": [
+        "named entity recognition",
+        "Noise-Aware Training (NAT)",
+        "OCR Noise",
+        "Data Augmentation",
+        "Transfer Learning",
+        "Multi-stage Fine-tuning"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/beb3e9604f5f72e56feeecdc196004299094bc184a404fe77959f2a61d9e4da2_w640_q70.webp",
+      "contributions": "1. Proposes a robust NER approach for historical VET documents using Noise-Aware Training with synthetic OCR errors. 2. Systematically compares three complementary training strategies (noisy, clean, and artificial data). 3. Demonstrates that domain-specific and noise-aware fine-tuning significantly improves robustness and accuracy under noisy conditions.",
+      "summary": "This paper tackles Named Entity Recognition in noisy, historical Vocational Education and Training documents by proposing a method using Noise-Aware Training with synthetic OCR errors, transfer learning, and multi-stage fine-tuning. The approach, one of the first to recognize multiple entity types in this domain, shows that domain-specific and noise-aware fine-tuning substantially increases model robustness and accuracy. The method is applied to German but is designed to be transferable to other languages.",
+      "mindmap": "graph TB\n        Root[Noise-Aware NER for Historical VET Documents] --> Problem(核心问题/Problem: NER in noisy historical VET documents)\n        Root --> Method(主要方法/Method: Noise-Aware Training with synthetic OCR errors, transfer learning, multi-stage fine-tuning)\n        Root --> Results(关键结果/Results: Increased robustness and accuracy under noisy conditions)"
+    },
+    {
+      "title": "Rule-Based Approaches to Atomic Sentence Extraction",
+      "authors": "Lineesha Kamana, Akshita Ananda Subramanian, Mehuli Ghosh, Suman Saha",
+      "institution": "The Pennsylvania State University",
+      "link": "https://arxiv.org/pdf/2601.00506",
+      "code": null,
+      "tags": [
+        "text simplification",
+        "atomic sentence extraction",
+        "dependency parsing",
+        "rule-based system",
+        "syntactic complexity",
+        "split-and-rephrase"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f8cb4da5bb35bca5de1c3a306fbe787db397d7073bbab8260c7962fc3e300d28_w640_q70.webp",
+      "contributions": "1. Conducted a principled analysis to identify specific complex sentence structures (e.g., relative clauses, appositions) that cause difficulties for rule-based atomic sentence extraction. 2. Implemented and evaluated a transparent, dependency-based rule extraction system using spaCy on the WikiSplit dataset. 3. Provided quantitative performance benchmarks (ROUGE and BERTScore) and qualitative insights into the limitations of rule-based methods for syntactic decomposition.",
+      "summary": "This paper analyzes the performance of a rule-based system for decomposing complex sentences into simpler atomic units. The method uses dependency parsing rules in spaCy and is evaluated on the WikiSplit dataset. The results show the approach is reasonably accurate but struggles with syntactically complex structures like relative clauses and coordinated predicates.",
+      "mindmap": "graph TB\n        Root(”Rule-Based Approaches to Atomic Sentence Extraction”) --> Problem(”核心问题/Problem”)\n        Root --> Method(”主要方法/Method”)\n        Root --> Results(”关键结果/Results”)\n        Problem --> P1(”复杂句子影响下游任务性能/Complex sentences hinder downstream tasks”)\n        Problem --> P2(”现有方法缺乏可解释性/Existing methods lack interpretability”)\n        Method --> M1(”基于依赖关系的规则提取/Dependency-based rule extraction”)\n        Method --> M2(”使用spaCy和WikiSplit数据集/Using spaCy & WikiSplit dataset”)\n        Results --> R1(”取得中等至高ROUGE/BERT分数/Achieved moderate-high ROUGE/BERTScore”)\n        Results --> R2(”特定句法结构具有挑战性/Specific syntactic structures are challenging”)"
+    },
+    {
+      "title": "A Chain-of-Thought Approach to Semantic Query Categorization in e-Commerce Taxonomies",
+      "authors": "Jetlir Duraj, Ishita Khan, Kilian Merkelbach, Mehran Elyasi",
+      "institution": "eBay Inc.",
+      "link": "https://arxiv.org/pdf/2601.00510",
+      "code": null,
+      "tags": [
+        "information retrieval",
+        "query categorization",
+        "chain-of-thought",
+        "e-commerce taxonomy",
+        "semantic scoring",
+        "large language models"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d2b32fe45914991e8c8d0dc90af7415aa3ed8d8e8ce666ea46e11465b8fa68fd_w640_q70.webp",
+      "contributions": "1. Proposes a novel Chain-of-Thought (CoT) paradigm for semantic query categorization that combines tree-search with LLM semantic scoring. 2. Demonstrates that the CoT approach outperforms embedding-based benchmarks and can detect problems within hierarchical taxonomies. 3. Introduces scalable LLM-based approaches for query categorization that are suitable for millions of queries.",
+      "summary": "This paper addresses the problem of categorizing user search queries into leaf categories of an e-commerce taxonomy to improve search relevance. The authors propose a novel Chain-of-Thought approach that navigates the taxonomy tree using LLM semantic scoring. Their method outperforms embedding-based benchmarks and is shown to scale for real-world applications.",
+      "mindmap": "graph TB\n        Root[”A Chain-of-Thought Approach to Semantic Query Categorization in e-Commerce Taxonomies<br>基于思维链的电商分类语义查询方法”] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[”核心问题/Problem<br>Search query categorization in e-commerce taxonomies<br>电商分类中的搜索查询分类”] --> P1[”目标/Goal<br>Select relevant leaf categories for a user query<br>为用户查询选择相关叶子类目”]\n        Method[”主要方法/Method<br>Chain-of-Thought (CoT) paradigm<br>思维链范式”] --> M1[”技术/Technique<br>Combines tree-search with LLM semantic scoring<br>结合树搜索与LLM语义评分”]\n        Results[”关键结果/Results<br>Evaluation Findings<br>评估结果”] --> R1[”性能/Performance<br>Outperforms embedding-based benchmarks<br>优于基于嵌入的基准方法”]\n        Results --> R2[”可扩展性/Scalability<br>Proposes scalable LLM-based approaches<br>提出可扩展的基于LLM的方法”]"
+    },
+    {
+      "title": "The Illusion of Insight in Reasoning Models",
+      "authors": "Liv G. d'Aliberti, Manoel Horta Ribeiro",
+      "institution": "Princeton University",
+      "link": "https://arxiv.org/pdf/2601.00514",
+      "code": null,
+      "tags": [
+        "reasoning models",
+        "reasoning shifts",
+        "self-correction",
+        "model uncertainty",
+        "intrinsic vs extrinsic",
+        "chain-of-thought"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3c00fcaa573a1b7a6558433ae1348cc7cefec26d36175047b45df1cd217f2516_w640_q70.webp",
+      "contributions": "1. Conducted a large-scale empirical study analyzing over 1 million reasoning traces across multiple models, domains, and training stages to investigate the nature and impact of mid-reasoning \"Aha!\" moments. 2. Found that such intrinsic reasoning shifts are rare, do not increase with training, and seldom improve accuracy, challenging the perception that they represent genuine model insight or self-correction. 3. Demonstrated that while intrinsic shifts are not beneficial, artificially triggering extrinsic shifts under conditions of high model uncertainty (high entropy) can reliably improve accuracy, showing these shifts are symptoms of unstable inference.",
+      "summary": "This paper investigates whether reasoning models experience genuine \"Aha!\" moments of intrinsic self-correction during inference. Through a large-scale analysis of reasoning traces across multiple models and training checkpoints, the authors find that such mid-reasoning shifts are rare and ineffective, but that artificially triggering shifts when the model is uncertain can improve accuracy. The main conclusion is that these shifts are symptoms of unstable inference behavior, not a mechanism for intrinsic self-improvement.",
+      "mindmap": "graph TB\n        A[The Illusion of Insight in Reasoning Models] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[推理模型是否有真正的“顿悟”时刻？/Do reasoning models have genuine ”Aha!” moments?]\n        C --> C1[大规模分析推理轨迹与训练检查点/Large-scale analysis of reasoning traces & training checkpoints]\n        D --> D1[内在转变罕见且无效/Intrinsic shifts are rare and ineffective]\n        D --> D2[外在触发在高熵下可提升准确率/Extrinsic triggering under high entropy improves accuracy]\n        D --> D3[转变是不稳定推理的症状/Shifts are symptoms of unstable inference]"
+    },
+    {
+      "title": "Retrieval--Reasoning Processes for Multi-hop Question Answering: A Four-Axis Design Framework and Empirical Trends",
+      "authors": "Yuelyu Ji, Zhuochun Li, Rui Meng, Daqing He",
+      "institution": "University of Pittsburgh, Google Cloud AI Research",
+      "link": "https://arxiv.org/pdf/2601.00536",
+      "code": null,
+      "tags": [
+        "question answering",
+        "multi-hop QA",
+        "retrieval-reasoning process",
+        "execution procedure",
+        "RAG",
+        "agentic systems"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/64e851b90551e53952c84444631a7585a225572c38194cb181b360edfef5c8e1_w640_q70.webp",
+      "contributions": "1. Proposes a novel four-axis design framework for analyzing the execution procedure of multi-hop QA systems, focusing on plan, index, control, and stopping criteria. 2. Systematically maps and compares representative multi-hop QA systems using this framework, making implicit procedural choices explicit and comparable. 3. Synthesizes empirical trends and trade-offs from standard benchmarks and identifies key open challenges for future retrieval-reasoning agents.",
+      "summary": "This survey paper addresses the lack of explicit analysis of the procedural interaction between retrieval and reasoning in multi-hop question answering. It introduces a four-axis framework to systematically compare different systems based on their execution plan, index structure, control strategies, and stopping criteria. The main conclusion is that making these procedural choices explicit reveals recurring trade-offs and highlights open challenges like structure-aware planning and robust stopping.",
+      "mindmap": "graph TB\n        Root[”检索-推理过程与四轴框架 / Retrieval–Reasoning Processes & Four-Axis Framework”] --> Problem[”核心问题：检索与推理的隐式耦合 / Problem: Implicit Coupling of Retrieval & Reasoning”]\n        Root --> Method[”主要方法：四轴设计框架 / Method: Four-Axis Design Framework”]\n        Root --> Results[”关键结果：趋势综合与开放挑战 / Results: Trend Synthesis & Open Challenges”]\n        Problem --> P1[”过程不透明，难以比较 / Process Opacity, Hard to Compare”]\n        Method --> M1[”轴A：总体执行计划 / Axis A: Overall Execution Plan”]\n        Method --> M2[”轴B：索引结构 / Axis B: Index Structure”]\n        Method --> M3[”轴C：下一步控制 / Axis C: Next-Step Control”]\n        Method --> M4[”轴D：停止/继续标准 / Axis D: Stop/Continue Criteria”]\n        Results --> R1[”映射系统，综合趋势 / Map Systems, Synthesize Trends”]\n        Results --> R2[”识别权衡与挑战 / Identify Trade-offs & Challenges”]"
+    },
+    {
+      "title": "ECR: Manifold-Guided Semantic Cues for Compact Language Models",
+      "authors": "Chung-Wei Victor Yuan",
+      "institution": "YVIC Research Lab",
+      "link": "https://arxiv.org/pdf/2601.00543",
+      "code": null,
+      "tags": [
+        "model compression (quantization/pruning)",
+        "embedding consistency regulation",
+        "manifold structure",
+        "semantic anchors",
+        "compact language models",
+        "on-device AI"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3184228efac0008fa39e8578d4daa8e597c9d20bf57f0662c9080c6c11607590_w640_q70.webp",
+      "contributions": "1. Proposes Embedding Consistency Regulation (ECR), a new framework that uses semantic anchors derived from teacher embeddings to preserve the underlying manifold structure in compact models. 2. Demonstrates that ECR stabilizes training and preserves semantic structure across tasks and languages without relying on matching logits or internal features, and adds minimal inference overhead. 3. Shows ECR is compatible with but independent of distillation, enabling better task alignment and deployment under strict efficiency or privacy constraints.",
+      "summary": "The paper addresses the problem of semantic drift and loss of manifold structure in compact language models. It proposes the Embedding Consistency Regulation (ECR) framework, which uses offline-computed semantic anchors to guide the compact model's geometry. Experiments show ECR produces more compact, task-aligned representations, making low-capacity models more stable and easier to deploy.",
+      "mindmap": "graph TB\n        Root[ECR: Manifold-Guided Semantic Cues for Compact Language Models] --> Problem[核心问题/Problem]\n        Root --> Method[主要方法/Method]\n        Root --> Results[关键结果/Results]\n        Problem --> P1[嵌入空间结构崩塌/Embedding Space Collapse]\n        Problem --> P2[语义漂移/Semantic Drift]\n        Method --> M1[提取语义锚点/Derive Semantic Anchors]\n        Method --> M2[保持几何一致性/Maintain Geometric Consistency]\n        Results --> R1[稳定训练/Stabilized Training]\n        Results --> R2[保留语义结构/Preserved Semantic Structure]\n        Results --> R3[紧凑任务对齐空间/Compact Task-Aligned Space]"
+    },
+    {
+      "title": "A Language-Agnostic Hierarchical LoRA-MoE Architecture for CTC-based Multilingual ASR",
+      "authors": "Yuang Zheng, Yuxiang Mei, Dongxing Xu, Jie Chen, Yanhua Long",
+      "institution": "Shanghai Normal University, Unisound AI Technology Co., Ltd.",
+      "link": "https://arxiv.org/pdf/2601.00557",
+      "code": null,
+      "tags": [
+        "on-device ai",
+        "LoRA",
+        "Mixture-of-Experts",
+        "CTC",
+        "multilingual ASR",
+        "language-agnostic"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/bbd2404a5aa3ab85ddcd83e20182b5cedff2831876ded928574f65b33a573d7d_w640_q70.webp",
+      "contributions": "1. Proposes a novel Language-agnostic Hierarchical LoRA-MoE (HLoRA) framework integrated into an mHuBERT-CTC model for lightweight multilingual ASR. 2. Introduces an LID-posterior-driven LoRA routing mechanism that enables true language-agnostic, single-pass decoding without prior language identity information. 3. Demonstrates that the proposed method achieves competitive performance with state-of-the-art two-stage inference methods while significantly improving decoding efficiency for low-resource applications.",
+      "summary": "This paper addresses the high computational cost and latency of large multilingual ASR models like Whisper for edge deployment. It proposes a lightweight, language-agnostic system using a Hierarchical LoRA-MoE architecture with CTC, which enables efficient single-pass decoding without needing language labels. Experiments show the method achieves competitive performance with more complex two-stage systems, improving efficiency for low-resource multilingual ASR.",
+      "mindmap": "graph TB\n        Root[”A Language-Agnostic Hierarchical LoRA-MoE Architecture for CTC-based Multilingual ASR”] --> Problem[”核心问题/Problem: Large multilingual ASR models (e.g., Whisper) are computationally expensive and have high latency, limiting edge device deployment.”]\n        Root --> Method[”主要方法/Method: Proposes a lightweight HLoRA framework with hierarchical LoRA-MoE design and LID-posterior-driven routing for language-agnostic, single-pass CTC decoding.”]\n        Root --> Results[”关键结果/Results: Achieves competitive performance with SOTA two-stage methods on MSR-86K and MLC-SLM 2025 datasets, improving decoding efficiency.”]"
+    },
+    {
+      "title": "InfoSynth: Information-Guided Benchmark Synthesis for LLMs",
+      "authors": "Ishir Garg, Neel Kolhe, Xuandong Zhao, Dawn Song",
+      "institution": "University of California, Berkeley",
+      "link": "https://arxiv.org/pdf/2601.00575",
+      "code": "https://ishirgarg.github.io/infosynth_web/",
+      "tags": [
+        "llm inference",
+        "benchmark synthesis",
+        "information theory",
+        "genetic algorithm",
+        "code generation",
+        "KL-divergence"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/704b01a43cbeec6830597e2e4ae9ad64cd96a4119782924bce3b012150cf43af_w640_q70.webp",
+      "contributions": "1. A novel framework (InfoSynth) for automatically generating and evaluating reasoning benchmarks using information-theoretic principles. 2. Proposes KL-divergence and entropy-based metrics to quantify benchmark novelty and diversity without costly model evaluations. 3. An end-to-end pipeline that synthesizes robust Python coding problems using genetic algorithms and iterative code feedback, achieving 97% accuracy in generating test cases and solutions.",
+      "summary": "This paper introduces InfoSynth, a framework that automatically generates novel and diverse reasoning benchmarks for LLMs using information-theoretic guidance and genetic algorithms. It successfully creates Python coding problems with high accuracy and provides control over novelty and difficulty. The method offers a scalable, self-verifying pipeline for benchmark creation.",
+      "mindmap": "graph TB\n        A[InfoSynth: Information-Guided Benchmark Synthesis for LLMs] --> B[核心问题/Problem: Manual benchmark creation is expensive; existing benchmarks contaminate LLM training data.]\n        A --> C[主要方法/Method: Framework using information theory (KL-divergence/entropy) and genetic algorithms to synthesize Python problems.]\n        A --> D[关键结果/Results: 97% generation accuracy; benchmarks are more novel/diverse than seeds; controllable novelty/difficulty.]"
+    },
+    {
+      "title": "CSSBench: Evaluating the Safety of Lightweight LLMs against Chinese-Specific Adversarial Patterns",
+      "authors": "Zhenhong Zhou, Shilinlu Yan, Chuanpu Liu, Qiankun Li, Kun Wang, Zhigang Zeng",
+      "institution": "Nanyang Technological University, Beijing University of Posts and Telecommunications, Huazhong University of Science and Technology",
+      "link": "https://arxiv.org/pdf/2601.00588",
+      "code": "https://huggingface.co/datasets/Yaesir06/CSSBench",
+      "tags": [
+        "safety evaluation",
+        "adversarial patterns",
+        "safety benchmark",
+        "lightweight llms",
+        "chinese-specific",
+        "over-refusal"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c813f73ed4fa6559522ae2a06c96e70fccff1e58bac3263d589d9e1ba5dde9bb_w640_q70.webp",
+      "contributions": "1. Introduces CSSBench, a novel benchmark for evaluating LLM safety against Chinese-specific adversarial patterns like homophones and pinyin. 2. Covers six real-world Chinese safety domains and measures both attack success and over-refusal rates. 3. Demonstrates that Chinese-specific adversarial patterns pose a critical challenge for lightweight LLMs, revealing a safety evaluation gap.",
+      "summary": "The paper identifies a gap in safety evaluation for lightweight LLMs against Chinese-specific adversarial patterns. To address this, it introduces CSSBench, a benchmark covering six domains and specific attack patterns. The evaluation shows these patterns are a significant challenge for lightweight models, highlighting the need for targeted safety measures.",
+      "mindmap": "graph TB\n        Root[CSSBench: Evaluating the Safety of Lightweight LLMs against Chinese-Specific Adversarial Patterns] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem: Safety evaluation gap for Chinese-specific adversarial patterns in lightweight LLMs]\n        Method[主要方法/Method: Introduce CSSBench benchmark with six domains and specific adversarial patterns]\n        Results[关键结果/Results: Chinese-specific adversarial patterns are a critical challenge for lightweight LLMs]"
+    },
+    {
+      "title": "Beyond IVR: Benchmarking Customer Support LLM Agents for Business-Adherence",
+      "authors": "Sumanth Balaji, Piyush Mishra, Aashraya Sachdeva, Suraj Agrawal",
+      "institution": "Observe.AI",
+      "link": "https://arxiv.org/pdf/2601.00596",
+      "code": null,
+      "tags": [
+        "agent system",
+        "JourneyBench",
+        "policy adherence",
+        "User Journey Coverage Score",
+        "Dynamic-Prompt Agent",
+        "Standard Operating Procedures"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2447eea55afc6d1b5ede006dd4130334fc9f6a1079fd81fa73d75aa31c86b038_w640_q70.webp",
+      "contributions": "1. Introduces JourneyBench, a novel benchmark for evaluating customer support LLM agents on their ability to adhere to complex, multi-step business policies and workflows. 2. Proposes the User Journey Coverage Score, a new metric to quantitatively measure an agent's policy adherence across diverse and realistic support scenarios generated via graph representations. 3. Demonstrates that a Dynamic-Prompt Agent (DPA) design, which explicitly models policy control, significantly improves adherence, enabling smaller models to outperform larger ones on this critical operational metric.",
+      "summary": "The paper addresses the challenge of evaluating LLM agents for business policy adherence in customer support, beyond simple task completion. It introduces the JourneyBench benchmark and a Dynamic-Prompt Agent design. The results show that structured policy orchestration (DPA) is crucial for adherence, allowing smaller models to achieve strong performance.",
+      "mindmap": "graph TB\n        A[Beyond IVR: Benchmarking Customer Support LLM Agents for Business-Adherence] --> B\n        A --> C\n        A --> D\n        B[核心问题/Problem: Existing benchmarks overlook policy adherence in customer support]\n        C[主要方法/Method: JourneyBench benchmark & Dynamic-Prompt Agent (DPA)]\n        D[关键结果/Results: DPA boosts adherence, smaller models can outperform larger ones]"
+    },
+    {
+      "title": "Probabilistic Guarantees for Reducing Contextual Hallucinations in LLMs",
+      "authors": "Nils Rautenberg, Sven Schippkus",
+      "institution": "Deutsche Aktuarvereinigung e.V., University of Hamburg",
+      "link": "https://arxiv.org/pdf/2601.00641",
+      "code": null,
+      "tags": [
+        "llm inference",
+        "hallucination reduction",
+        "probabilistic guarantees",
+        "LLM-as-a-judge",
+        "ensemble voting",
+        "model-agnostic framework"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/165c6ebcc0bde9cc29a648eab707a9a04b4f10c177d4c9ed7fc6ceee24692cf9_w640_q70.webp",
+      "contributions": "1. Formalizes a framework for fixed-input tasks and proves that independent prompt repetition exponentially reduces the probability of all outputs being incorrect. 2. Incorporates an LLM-as-a-judge to identify correct answers and provides theoretical error bounds based on the judge's performance. 3. Introduces majority voting over independent judge calls to strengthen imperfect judges, achieving ensemble-level error rates that decrease exponentially with the number of votes.",
+      "summary": "This paper addresses the problem of contextual hallucinations in LLMs for deterministic workflows. It proposes a model-agnostic framework that combines independent prompt repetition with an LLM-as-a-judge and majority voting to exponentially reduce hallucination probabilities. The method provides explicit probabilistic guarantees without modifying the underlying model.",
+      "mindmap": "graph TB\n        A[Probabilistic Guarantees for Reducing Contextual Hallucinations in LLMs] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[LLMs产生上下文幻觉/LLMs produce contextual hallucinations]\n        B --> B2[确定性工作流中问题严重/Severe in deterministic workflows]\n        C --> C1[独立重复提示/Independent prompt repetition]\n        C --> C2[LLM作为评判者/LLM-as-a-judge]\n        C --> C3[多数投票集成/Majority vote ensemble]\n        D --> D1[错误率指数下降/Error rates decrease exponentially]\n        D --> D2[提供概率保证/Provides probabilistic guarantees]\n        D --> D3[轻量级且模型无关/Lightweight and model-agnostic]"
+    },
+    {
+      "title": "Physio-DPO: Aligning Large Language Models with the Protein Energy Landscape to Eliminate Structural Hallucinations",
+      "authors": "QiWei Meng",
+      "institution": "Xi’an Jiaotong University",
+      "link": "https://arxiv.org/pdf/2601.00647",
+      "code": null,
+      "tags": [
+        "protein language models",
+        "Direct Preference Optimization",
+        "thermodynamic stability",
+        "structural hallucinations",
+        "physics-informed alignment",
+        "energy landscape"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a4d5257f1ab79de5e0438ace6dd83c270bc2812ff4355d0389349edec8caeb93_w640_q70.webp",
+      "contributions": "1. Proposes Physio-DPO, a physics-informed alignment framework that grounds protein language models in thermodynamic stability. 2. Introduces a magnitude-aware objective that scales optimization updates based on the physical energy gap between native and perturbed structures. 3. Demonstrates a hard negative mining strategy to generate linguistically plausible but structurally unsound decoys for more robust training.",
+      "summary": "The paper addresses the problem of structural hallucinations in protein language models, where generated sequences are linguistically likely but thermodynamically unstable. It proposes Physio-DPO, a physics-informed alignment method that incorporates the continuous energy landscape into the optimization process. Experiments show that Physio-DPO outperforms existing baselines, significantly reducing structural errors and increasing the foldability of generated proteins.",
+      "mindmap": "graph TB\n        Root(”Physio-DPO: Aligning LLMs with the Protein Energy Landscape”) --> Problem(”核心问题/Problem”)\n        Root --> Method(”主要方法/Method”)\n        Root --> Results(”关键结果/Results”)\n        Problem --> P1(”结构幻觉/Structural Hallucinations”)\n        Problem --> P2(”能量景观不连续/Discontinuous Energy Landscape”)\n        Method --> M1(”Physio-DPO框架/Physio-DPO Framework”)\n        Method --> M2(”幅度感知目标/Magnitude-Aware Objective”)\n        Method --> M3(”硬负样本挖掘/Hard Negative Mining”)\n        Results --> R1(”降低RMSD至1.28Å/Reduce RMSD to 1.28Å”)\n        Results --> R2(”可折叠性提升至92.8%/Increase Foldability to 92.8%”)\n        Results --> R3(”恢复生物物理相互作用/Recover Biophysical Interactions”)"
+    },
+    {
+      "title": "Fast-weight Product Key Memory",
+      "authors": "Tianyu Zhao, Llion Jones",
+      "institution": "Sakana AI",
+      "link": "https://arxiv.org/pdf/2601.00671",
+      "code": null,
+      "tags": [
+        "long-context language modeling",
+        "product key memory",
+        "fast weights",
+        "episodic memory",
+        "gradient descent",
+        "long-context"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8dc5e7437ccdc396cc0c89f8bda772596a4ad71d82cd906f8eae81c22b107608_w640_q70.webp",
+      "contributions": "1. Proposes Fast-weight Product Key Memory (FwPKM), a novel architecture that transforms static Product Key Memory into a dynamic, fast-weight episodic memory., 2. Introduces a mechanism for dynamic parameter updates at both training and inference time via local chunk-level gradient descent, enabling rapid memorization and retrieval., 3. Demonstrates that FwPKM effectively complements semantic memory, significantly reduces perplexity on long-context data, and shows strong generalization to contexts much longer than those seen during training.",
+      "summary": "The paper addresses the trade-off between storage capacity and computational efficiency in sequence modeling layers. It proposes Fast-weight Product Key Memory (FwPKM), a dynamic architecture that updates parameters via local gradient descent to act as an episodic memory. Experiments show FwPKM reduces perplexity on long-context datasets and generalizes well to sequences much longer than those in training.",
+      "mindmap": "graph TB\n        A[Fast-weight Product Key Memory] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[存储容量与计算效率的权衡/Trade-off: Storage Capacity vs. Computational Efficiency]\n        C --> C1[动态快速权重产品键记忆/Dynamic Fast-weight Product Key Memory (FwPKM)]\n        C --> C2[本地块级梯度下降更新/Local Chunk-level Gradient Descent Updates]\n        D --> D1[长上下文困惑度降低/Long-context Perplexity Reduction]\n        D --> D2[从4K到128K的泛化/Generalization from 4K to 128K Tokens]"
+    },
+    {
+      "title": "Sigmoid Head for Quality Estimation under Language Ambiguity",
+      "authors": "Tu Anh Dinh, Jan Niehues",
+      "institution": "Karlsruhe Institute of Technology",
+      "link": "https://arxiv.org/pdf/2601.00680",
+      "code": "https://github.com/TuAnh23/sigmoid-confidence",
+      "tags": [
+        "quality estimation",
+        "quality estimation",
+        "language ambiguity",
+        "sigmoid activation",
+        "negative sampling",
+        "underconfidence"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/26806e2d4eb9b20c12526f3d561ebccfd1dfbbd43c035727d581173184fcf3b3_w640_q70.webp",
+      "contributions": "1. Identifies architectural and training setup issues in LMs (softmax, single-reference training) that cause ambiguity-induced underconfidence, making model probability a poor quality signal. 2. Proposes the Sigmoid Head, an extra unembedding layer with sigmoid activation, to model output tokens independently for better quality estimation. 3. Introduces a heuristic for negative sampling during training to avoid selecting potentially correct alternative tokens, improving training without needing human-annotated quality data.",
+      "summary": "The paper addresses the problem that language model probability is unreliable for quality estimation due to natural language ambiguity. It proposes a Sigmoid Head, an additional module with sigmoid activation and a specialized negative sampling heuristic, trained on standard LM data. This method provides a better quality signal than the original softmax head and is more robust in out-of-domain settings without requiring annotated quality data.",
+      "mindmap": "graph TB\n        A[Sigmoid Head for Quality Estimation under Language Ambiguity] --> B[核心问题/Problem: LM概率不可靠/LM probability unreliable due to language ambiguity]\n        A --> C[主要方法/Method: Sigmoid Head (Sigmoid激活 & 负采样启发式)/Sigmoid Head (Sigmoid activation & negative sampling heuristic)]\n        A --> D[关键结果/Results: 更好的质量信号 & 对域外更鲁棒/Better quality signal & more robust out-of-domain]"
+    },
+    {
+      "title": "TeleDoCTR: Domain-Specific and Contextual Troubleshooting for Telecommunications",
+      "authors": "Mohamed Trabelsi, Huseyin Uzunalioglu",
+      "institution": "Nokia Bell Labs",
+      "link": "https://arxiv.org/pdf/2601.00691",
+      "code": null,
+      "tags": [
+        "rag (retrieval-augmented generation)",
+        "ticket troubleshooting",
+        "retrieval-augmented generation",
+        "instruction-tuning",
+        "domain-specific ranking",
+        "large language models"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/151b34be88d61fea64f35727dce1917583308996e63a1822af1e6ad8863fe6a8_w640_q70.webp",
+      "contributions": "1. Proposes TeleDoCTR, an end-to-end system for telecom ticket troubleshooting integrating classification, retrieval, and generation tasks. 2. Introduces a domain-specific and contextual approach combining ranking and generative models tailored for the telecom domain. 3. Demonstrates superior performance over state-of-the-art methods on a real-world telecom dataset, enhancing troubleshooting accuracy and efficiency.",
+      "summary": "The paper proposes TeleDoCTR, a system that automates telecom ticket troubleshooting by integrating domain-specific models for ticket classification, retrieval of similar historical tickets, and generation of fault analysis reports. It is evaluated on a real-world telecom dataset and shows improved performance over existing methods, making the troubleshooting process more accurate and efficient.",
+      "mindmap": "graph TB\n        A[TeleDoCTR: Domain-Specific and Contextual Troubleshooting for Telecommunications] --> B[核心问题/Problem: Telecom ticket troubleshooting is complex, time-consuming, and human-intensive.]\n        A --> C[主要方法/Method: Integrates domain-specific ranking and generative models for classification, retrieval, and generation tasks.]\n        A --> D[关键结果/Results: Superior performance over SOTA methods on real-world data, enhancing accuracy and efficiency.]"
+    },
+    {
+      "title": "Exploring the Performance of Large Language Models on Subjective Span Identification Tasks",
+      "authors": "Alphaeus Dmonte, Roland Oruche, Tharindu Ranasinghe, Marcos Zampieri, Prasad Calyam",
+      "institution": "George Mason University, University of Missouri, Lancaster University",
+      "link": "https://arxiv.org/pdf/2601.00736",
+      "code": null,
+      "tags": [
+        "span identification",
+        "large language models",
+        "in-context learning",
+        "chain of thought",
+        "aspect-based sentiment analysis",
+        "subjective spans"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c33271e2c603477b20beb01a7eafd35b6ae5eb8b9dfab2b53139ccf619c75074_w640_q70.webp",
+      "contributions": "1. Evaluates LLMs on subjective span identification tasks (sentiment analysis, offensive language identification, claim verification), an underexplored area compared to explicit tasks like NER. 2. Explores multiple LLM strategies including instruction tuning, in-context learning, and chain of thought for span identification. 3. Provides empirical results indicating that underlying textual relationships aid LLMs in identifying precise text spans.",
+      "summary": "This paper evaluates the performance of Large Language Models on subjective text span identification tasks, such as sentiment analysis and offensive language detection, using strategies like in-context learning and chain of thought. The study finds that LLMs benefit from underlying relationships within the text to identify accurate spans, addressing a gap in current research focused on explicit span tasks.",
+      "mindmap": "graph TB\n        A[Exploring LLMs on Subjective Span Identification<br/>探索大型语言模型在主观跨度识别任务中的表现] --> B(核心问题/Problem: Subjective span identification with LLMs is underexplored compared to explicit tasks like NER.<br/>与NER等显式任务相比，LLM在主观跨度识别方面的研究不足。)\n        A --> C(主要方法/Method: Evaluate LLMs using instruction tuning, in-context learning, and chain of thought on three tasks.<br/>使用指令调优、上下文学习和思维链在三个任务上评估LLMs。)\n        A --> D(关键结果/Results: Underlying text relationships aid LLMs in identifying precise spans.<br/>文本中的潜在关系有助于LLMs识别精确的跨度。)"
+    },
+    {
+      "title": "Memory Bank Compression for Continual Adaptation of Large Language Models",
+      "authors": "Thomas Katraouras, Dimitrios Rafailidis",
+      "institution": "University of Thessaly",
+      "link": "https://arxiv.org/pdf/2601.00756",
+      "code": "https://github.com/Thomkat/MBC",
+      "tags": [
+        "memory & caching",
+        "memory bank compression",
+        "codebook optimization",
+        "online resetting mechanism",
+        "Key-Value Low-Rank Adaptation (KV-LoRA)"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d4b16d7a0bdd1f6fa0e71da5c21a92629d07342bdc56905e10612ee07549b8dd_w640_q70.webp",
+      "contributions": "1. Proposed MBC, a model that compresses the memory bank for continual learning via a codebook optimization strategy. 2. Introduced an online resetting mechanism to prevent codebook collapse and ensure stable learning. 3. Employed Key-Value Low-Rank Adaptation (KV-LoRA) in the LLM's attention layers to efficiently utilize the compressed memory representations.",
+      "summary": "This paper addresses the problem of memory bank growth in continual learning for LLMs by proposing MBC, which compresses the memory bank using codebook optimization and an online resetting mechanism. The method integrates KV-LoRA for efficient adaptation and achieves a 99.7% reduction in memory bank size while maintaining high accuracy on question-answering tasks.",
+      "mindmap": "graph TB\n        A[Memory Bank Compression for Continual Adaptation of Large Language Models] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[LLMs知识过时 / LLMs' knowledge becomes outdated]\n        B --> B2[持续学习中的灾难性遗忘 / Catastrophic forgetting in continual learning]\n        B --> B3[内存库无限增长 / Memory bank grows unbounded]\n        C --> C1[内存库压缩 / Memory bank compression]\n        C --> C2[码本优化策略 / Codebook optimization strategy]\n        C --> C3[在线重置机制 / Online resetting mechanism]\n        C --> C4[KV-LoRA / Key-Value Low-Rank Adaptation]\n        D --> D1[内存库大小减少至0.3% / Memory bank size reduced to 0.3%]\n        D --> D2[保持高精度 / Maintains high retention accuracy]"
+    },
+    {
+      "title": "Geometry of Reason: Spectral Signatures of Valid Mathematical Reasoning",
+      "authors": "Valentin Noël",
+      "institution": "Devoteam",
+      "link": "https://arxiv.org/pdf/2601.00791",
+      "code": null,
+      "tags": [
+        "reasoning verification",
+        "spectral graph analysis",
+        "attention patterns",
+        "Fiedler value",
+        "high-frequency energy ratio",
+        "sliding window attention"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2b1f2999ddcf2e05565198a4f51efee7b71422414b78038f132537978df2e4e9_w640_q70.webp",
+      "contributions": "1. Introduced a training-free method for detecting valid mathematical reasoning in LLMs by performing spectral analysis on attention matrices treated as dynamic graphs. 2. Identified four interpretable spectral diagnostics (Fiedler value, HFER, smoothness, entropy) that show significant statistical differences between valid and invalid proofs across multiple model families. 3. Discovered that the method captures logical coherence rather than formal verifier acceptance and revealed an architectural dependency where different attention mechanisms (e.g., Sliding Window Attention) shift the primary discriminative spectral feature.",
+      "summary": "The paper proposes a training-free method to detect valid mathematical reasoning in large language models by analyzing the spectral properties of attention patterns. The method identifies key spectral signatures that effectively distinguish between valid and invalid proofs with high accuracy. The findings show the method captures logical coherence and its effectiveness depends on the model's attention architecture.",
+      "mindmap": "graph TB\n        Root(”Geometry of Reason: Spectral Signatures of Valid Mathematical Reasoning”) --> Problem(”核心问题/Problem: Detecting valid mathematical reasoning in LLMs”)\n        Root --> Method(”主要方法/Method: Spectral analysis of attention patterns as dynamic graphs”)\n        Root --> Results(”关键结果/Results: High classification accuracy, detects logical coherence, architectural dependency identified”)"
+    },
+    {
+      "title": "Adapting Natural Language Processing Models Across Jurisdictions: A pilot Study in Canadian Cancer Registries",
+      "authors": "Jonathan Simkin, Lovedeep Gondara, Zeeshan Rizvi, Gregory Doyle, Jeff Dowden, Dan Bond, Desmond Martin, Raymond Ng",
+      "institution": "University of British Columbia, Newfoundland & Labrador Health Services",
+      "link": "https://arxiv.org/pdf/2601.00787",
+      "code": null,
+      "tags": [
+        "domain adaptation",
+        "transformer models",
+        "ensemble learning",
+        "fine-tuning",
+        "cancer registry",
+        "pathology reports"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/20cadf176e434cff234318c2ab86906269a79285d0f4a0350b5eb92ee86ab3b0_w640_q70.webp",
+      "contributions": "1. Conducted the first cross-provincial evaluation of adapting domain-specific transformer models (BCCRTron and GatorTron) for cancer surveillance, demonstrating their ability to generalize across jurisdictions with different reporting conventions. 2. Proposed a conservative OR-ensemble method that combines complementary text representation pipelines (synoptic-focused and diagnosis-focused), substantially reducing missed cancers and improving error coverage. 3. Implemented a privacy-preserving workflow where only model weights are shared between provinces, supporting interoperable NLP infrastructure and a future pan-Canadian foundation model.",
+      "summary": "This study addresses the challenge of applying NLP models across different cancer registries with varying reporting formats. It fine-tunes two transformer models (BCCRTron and GatorTron) on data from a new jurisdiction and combines them using an OR-ensemble. The results show that this approach maintains high performance and significantly reduces missed cancer cases, demonstrating effective cross-jurisdictional adaptation with a privacy-preserving workflow.",
+      "mindmap": "graph TB\n        A[Adapting NLP Models Across Jurisdictions] --> B[核心问题/Problem: Manual abstraction in cancer registries is slow; NLP models struggle to generalize across jurisdictions]\n        A --> C[主要方法/Method: Fine-tune BCCRTron & GatorTron; Use OR-ensemble on complementary input pipelines]\n        A --> D[关键结果/Results: High recall (0.99); Reduced missed cancers; Privacy-preserving weight sharing]"
+    },
+    {
+      "title": "Learning Speech Representations with Variational Predictive Coding",
+      "authors": "Sung-Lin Yeh, Peter Bell, Hao Tang",
+      "institution": "University of Edinburgh",
+      "link": "https://arxiv.org/pdf/2601.00100",
+      "code": null,
+      "tags": [
+        "self-supervised speech representation learning",
+        "predictive coding",
+        "variational inference",
+        "HuBERT",
+        "speech representations",
+        "self-supervised learning"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ba27d9f18d7b89a2b06727180b097e2e420315e2b2adae6f4d672735f9e63346_w640_q70.webp",
+      "contributions": "1. Proposes a variational predictive coding framework as the underlying principle behind the HuBERT objective, providing a theoretical foundation. 2. Derives two simple modifications to the HuBERT objective from this framework, leading to immediate performance improvements. 3. Demonstrates the framework's generality by showing its connections to other objectives like APC, CPC, wav2vec, and BEST-RQ.",
+      "summary": "This paper identifies the lack of a theoretical principle as a bottleneck for improving the HuBERT objective for speech representation learning. It proposes a variational predictive coding framework as this underlying principle, which not only explains HuBERT but also leads to simple, effective modifications that improve performance. The improved pre-training yields significant gains on downstream tasks like phone classification and automatic speech recognition, validating the importance of the predictive coding interpretation.",
+      "mindmap": "graph TB\n        A[Learning Speech Representations with Variational Predictive Coding] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[缺乏理论原则阻碍HuBERT发展/Lack of principle stalls HuBERT development]\n        C --> C1[提出变分预测编码框架/Propose variational predictive coding framework]\n        C --> C2[推导HuBERT为特例并改进/Derive HuBERT as special case and improve it]\n        D --> D1[预训练显著改进/Pre-training brings significant improvements]\n        D --> D2[连接多种其他目标/Connects to various other objectives]"
+    },
     {
       "title": "Enriching Historical Records: An OCR and AI-Driven Approach for Database Integration",
       "authors": "Zahra Abedi, Richard M.K. van Dijk, Gijs Wijnholds, Tessa Verhoef",

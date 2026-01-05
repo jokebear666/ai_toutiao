@@ -1,8 +1,270 @@
 {
   "label": "cs.NI",
   "slug": "csni",
-  "week": "20251229-20260104",
+  "week": "20260105-20260111",
   "items": [
+    {
+      "title": "Delay-Tolerant Networking for Tsunami Evacuation on the Small Island of Hachijojima: A Study of Epidemic and Prophet Routing",
+      "authors": "Keiya Kawano, Milena Radenkovic",
+      "institution": "The University of Nottingham",
+      "link": "https://arxiv.org/pdf/2601.00109",
+      "code": null,
+      "tags": [
+        "delay-tolerant networking",
+        "DTN",
+        "Epidemic Routing",
+        "PROPHET",
+        "disaster response",
+        "evacuation simulation"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ab136e81ede0eda6060a35b88234d5d849526c86f661afe8c5aed75491a92b87_w640_q70.webp",
+      "contributions": "1. Evaluated the performance of Epidemic and PROPHET DTN routing protocols in a realistic, pre-tsunami evacuation scenario on Hachijojima island. 2. Used a simplified and pessimistic mobility model where evacuees (pedestrians, cars, emergency vehicles) are not explicitly guided to shelters, testing protocol resilience under uncoordinated movement. 3. Provided insights into which protocol offers better delivery delay and delivery ratio for getting critical information to safe shelter nodes within a limited time window before a tsunami arrives.",
+      "summary": "This paper studies the use of Delay-Tolerant Networks (DTNs) for communication during tsunami evacuations when infrastructure fails. It simulates and compares the performance of Epidemic and PROPHET routing protocols in an evacuation scenario on Hachijojima island, Japan, using a pessimistic mobility model. The study aims to determine which protocol is more effective at delivering information to safe shelters within a critical time frame.",
+      "mindmap": "graph TB\n        Root(”Delay-Tolerant Networking for Tsunami Evacuation on Hachijojima: A Study of Epidemic and Prophet Routing”) --> Problem\n        Root --> Method\n        Root --> Results\n        Problem(”核心问题/Problem: Communication infrastructure failure during tsunami evacuation”)\n        Method(”主要方法/Method: Simulate Epidemic vs. PROPHET DTN routing in Hachijojima evacuation scenario”)\n        Results(”关键结果/Results: Compare delivery delay and ratio to shelters”)"
+    },
+    {
+      "title": "CTMap: LLM-Enabled Connectivity-Aware Path Planning in Millimeter-Wave Digital Twin Networks",
+      "authors": "Md Salik Parwez, Sai Teja Srivillibhutturu, Sai Venkat Reddy Kopparthi, Asfiya Misba, Debashri Roy, Habeeb Olufowobi, Charles Kim",
+      "institution": "The University of Texas at Arlington, Howard University",
+      "link": "https://arxiv.org/pdf/2601.00110",
+      "code": null,
+      "tags": [
+        "communication & networking",
+        "digital twin",
+        "millimeter-wave networks",
+        "large language models",
+        "connectivity-aware navigation",
+        "received signal strength"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4ff3772528d79cc372ac065b865b0eefd36a80a9773747e53246ceaa611299c1_w640_q70.webp",
+      "contributions": "1. Proposes CTMap, a novel framework that integrates a digital twin for mmWave network simulation with an LLM for semantic route planning. 2. Introduces a modified Dijkstra's algorithm to generate optimal routes that maximize cumulative Received Signal Strength (RSS) for training data. 3. Enables interpretable, semantic user queries (e.g., \"find the strongest-signal path\") and demonstrates up to 10x improvement in cumulative signal strength over shortest-distance baselines.",
+      "summary": "This paper presents CTMap, a framework that combines a millimeter-wave network digital twin with a large language model to plan navigation routes that optimize wireless connectivity instead of just distance. It uses simulation tools to create signal maps, a modified pathfinding algorithm to generate optimal routes, and an instruction-tuned LLM to interpret natural language queries. Experiments show the approach can improve cumulative signal strength by up to ten times compared to traditional shortest-path methods.",
+      "mindmap": "graph TB\n        A[CTMap: LLM-Enabled Connectivity-Aware Path Planning<br>CTMap: LLM赋能的连接感知路径规划] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[传统导航忽视信号阻塞<br>Traditional navigation overlooks signal blockage]\n        C --> C1[构建毫米波数字孪生<br>Build mmWave Digital Twin]\n        C --> C2[使用改进Dijkstra算法<br>Use Modified Dijkstra's Algorithm]\n        C --> C3[LLM进行语义推理<br>LLM for Semantic Reasoning]\n        D --> D1[信号强度提升10倍<br>10x Signal Strength Improvement]"
+    },
+    {
+      "title": "A-FC: An Activity-Based Delay Tolerant Routing Protocol for Improving Future School Campus Emergency Communications",
+      "authors": "Chengjun Jiang, Milena Radenkovic",
+      "institution": "University of Nottingham",
+      "link": "https://arxiv.org/pdf/2601.00148",
+      "code": null,
+      "tags": [
+        "delay-tolerant networking",
+        "Delay-Tolerant Networks (DTN)",
+        "Activity-based First Contact (A-FC)",
+        "emergency communication",
+        "school campus safety",
+        "disaster simulation"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9ebbe912186314fb027a3ad663a5928df20b56eee52d2896b430e19e4facc32d_w640_q70.webp",
+      "contributions": "1. Proposes the Activity-based First Contact (A-FC) protocol, a novel DTN routing scheme that leverages real-world social roles (e.g., staff nodes) to improve message delivery. 2. Constructs a realistic evaluation scenario based on the physical topology of a real school (Fuzhou No. 1 Middle School) for simulation. 3. Demonstrates that A-FC significantly outperforms baseline protocols (e.g., Direct Delivery, First Contact) in delivery probability, delay, and hop count for campus emergency scenarios.",
+      "summary": "This paper proposes the A-FC protocol, a delay-tolerant routing method that uses active \"staff nodes\" to relay messages during school campus disasters when infrastructure fails. Simulation results show A-FC achieves higher message delivery rates and lower delays compared to traditional DTN protocols, establishing a reliable backup communication model.",
+      "mindmap": "graph TB\n        A[A-FC: An Activity-Based Delay Tolerant Routing Protocol<br>基于活动的容迟路由协议] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[校园紧急通信系统在灾害中失效<br>School emergency comms fail in disasters]\n        B --> B2[传统DTN协议延迟高、投递率低<br>Traditional DTN has high latency, low delivery]\n        C --> C1[利用现实社会角色（教职工节点）<br>Leverage real-world social roles (staff nodes)]\n        C --> C2[强制上传消息至高活跃节点<br>Mandatory upload to highly active nodes]\n        D --> D1[约68%消息投递概率<br>~68% message delivery probability]\n        D --> D2[平均延迟降至4311秒<br>Avg delay reduced to 4311s]\n        D --> D3[平均跳数仅1.68<br>Avg hop count merely 1.68]"
+    },
+    {
+      "title": "Reinforcement-Learned Unequal Error Protection for Quantized Semantic Embeddings",
+      "authors": "Moirangthem Tiken Singh, Adnan Arif",
+      "institution": "Department of Computer Science and Engineering, Dibrugarh University Institute of Engineering and Technology, Dibrugarh University",
+      "link": "https://arxiv.org/pdf/2601.00186",
+      "code": null,
+      "tags": [
+        "semantic communication",
+        "reinforcement learning",
+        "unequal error protection",
+        "adaptive repetition coding",
+        "semantic distortion metric",
+        "per-dimension protection"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/eb4eade98aeb895832aed0b8cd026ed4c334838f42e2fd62ce3cdef3c7aea4d0_w640_q70.webp",
+      "contributions": "1. A novel reinforcement learning framework for per-dimension unequal error protection of quantized semantic embeddings, 2. A composite semantic distortion metric that balances global embedding similarity with entity-level preservation to guide the RL agent, 3. The demonstration that simple, intelligently allocated repetition coding can outperform conventional codes like LDPC for fine-grained semantic protection",
+      "summary": "This paper proposes a reinforcement learning framework to protect quantized semantic embeddings transmitted over noisy channels. The method uses adaptive repetition coding to provide unequal error protection per embedding dimension, guided by a novel semantic distortion metric. The results show that this approach significantly outperforms uniform protection, challenging traditional channel coding paradigms by aligning code structure with semantic granularity.",
+      "mindmap": "graph TB\n        A[Reinforcement-Learned Unequal Error Protection for Quantized Semantic Embeddings] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[带宽受限下保持语义/Bandwidth-constrained Semantic Preservation]\n        C --> C1[基于RL的自适应重复编码/RL-based Adaptive Repetition Coding]\n        C --> C2[复合语义失真度量/Composite Semantic Distortion Metric]\n        D --> D1[性能显著超越均匀保护/Significant Gains Over Uniform Protection]\n        D --> D2[挑战传统信道编码范式/Challenges Traditional Channel Coding]"
+    },
+    {
+      "title": "μACP: A Formal Calculus for Expressive, Resource-Constrained Agent Communication",
+      "authors": "Arnab Mallick, Indraveni Chebolu",
+      "institution": "Center for Development of Advanced Computing (C-DAC), Hyderabad",
+      "link": "https://arxiv.org/pdf/2601.00219",
+      "code": null,
+      "tags": [
+        "agent system",
+        "formal calculus",
+        "resource-constrained communication",
+        "semantic compression",
+        "multi-agent systems",
+        "consensus"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/576ee220ff5d9e07ae8e367107aed97b22132ae73d9984e8ae5aa51b0d947780_w640_q70.webp",
+      "contributions": "1. A formal Resource-Constrained Agent Communication (RCAC) model for reasoning about expressiveness vs. resource trade-offs. 2. A proof that a minimal four-verb basis \\{PING, TELL, ASK, OBSERVE\\} is complete for encoding finite-state FIPA protocols under constraints. 3. A semantic compression theory establishing tight information-theoretic bounds on message complexity and showing the protocol can implement consensus under partial synchrony.",
+      "summary": "This paper proposes μACP, a formal calculus for agent communication designed to operate under severe resource constraints like those in edge and IoT environments. It proves that a minimal set of four communication verbs is sufficient to encode expressive protocols and establishes theoretical bounds on message complexity, achieving low latency in simulations. The main contribution is a unified framework that reconciles semantic richness with provable efficiency for resource-constrained multi-agent systems.",
+      "mindmap": "graph TB\n        Root(”μACP: A Formal Calculus for Expressive, Resource-Constrained Agent Communication”)\n        Root --> Problem(”核心问题/Problem”)\n        Root --> Method(”主要方法/Method”)\n        Root --> Results(”关键结果/Results”)\n        Problem --> P1(”传统ACL协议资源消耗大/Traditional ACLs are resource-intensive”)\n        Problem --> P2(”轻量级IoT协议缺乏表达性/Lightweight IoT protocols lack expressiveness”)\n        Method --> M1(”形式化RCAC模型/Formal RCAC Model”)\n        Method --> M2(”最小四动词基础集/Minimal 4-verb basis”)\n        Method --> M3(”语义压缩理论/Semantic Compression Theory”)\n        Results --> R1(”理论:消息复杂度有界/Theoretical: Bounded message complexity”)\n        Results --> R2(”实践:实现共识/Implementation: Achieves consensus”)\n        Results --> R3(”验证:低延迟与安全性/Verification: Low latency & safety”)"
+    },
+    {
+      "title": "Next Generation Intelligent Low-Altitude Economy Deployments: The O-RAN Perspective",
+      "authors": "Aly Sabri Abdalla, Vuk Marojevic",
+      "institution": "Mississippi State University",
+      "link": "https://arxiv.org/pdf/2601.00257",
+      "code": null,
+      "tags": [
+        "wireless networking",
+        "O-RAN",
+        "UAV",
+        "trajectory optimization",
+        "RIC",
+        "low-altitude economy"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/74cae00fb3b22c64bae2b8ae14c12c3a5262a87f4a6954a5d6578c0a24172848_w640_q70.webp",
+      "contributions": "1. Proposes an O-RAN-enabled framework for intelligent orchestration of Low-Altitude Economy (LAE) operations, integrating disaggregated RAN architecture with AI-driven RAN Intelligent Controllers (RICs). 2. Presents a semantic-aware rApp and a reinforcement learning-enabled xApp for closed-loop, context-aware trajectory planning of UAV swarms. 3. Surveys available UAV testbeds for LAE research and identifies critical research challenges and standardization needs for future deployments.",
+      "summary": "This paper addresses the challenge of orchestrating UAV missions in complex, signal-constrained environments for the Low-Altitude Economy (LAE). It proposes a novel framework that leverages the Open Radio Access Network (O-RAN) architecture, using AI-driven controllers (RICs) and specialized apps (rApp/xApp) for semantic-aware, real-time trajectory planning. The work concludes by evaluating the framework's feasibility and outlining future research and standardization directions for scalable LAE deployments.",
+      "mindmap": "graph TB\n        Root[”Next Generation Intelligent Low-Altitude Economy Deployments: The O-RAN Perspective”] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[”核心问题/Problem: Lack of real-time, resilient orchestration for UAVs in complex environments”] --> P1[”子问题/Sub-Problem: Absence of AI-integrated, context-aware control for LAE”]\n        Method[”主要方法/Method: O-RAN-enabled LAE framework with AI-driven RICs”] --> M1[”组件/Component: Semantic-aware rApp (terrain interpreter)”]\n        Method --> M2[”组件/Component: RL-enabled xApp (trajectory planner)”]\n        Results[”关键结果/Results: Framework enables closed-loop, AI-optimized LAE operations”] --> R1[”评估/Evaluation: Feasibility and performance analysis presented”]\n        Results --> R2[”展望/Outlook: Research challenges and standardization needs surveyed”]"
+    },
+    {
+      "title": "On the Error Floor Evaluation of NOMA-Irregular Repetition Slotted ALOHA",
+      "authors": "Estefanía Recayte",
+      "institution": "German Aerospace Center (DLR)",
+      "link": "https://arxiv.org/pdf/2601.00317",
+      "code": null,
+      "tags": [
+        "wireless communication",
+        "random access",
+        "NOMA",
+        "IRSA",
+        "error floor",
+        "packet loss rate",
+        "successive interference cancellation"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0e772de55ebe86a310b5ea15f9899e61deefd0352599d21d56e4837efdcd539d_w640_q70.webp",
+      "contributions": "1. Provides a simple and tight analytical approximation for the packet loss rate in the error floor region of a NOMA-IRSA scheme. 2. Derives the packet loss rate expression specifically for the finite length regime, enabling prompt evaluation. 3. Validates the analytical model's accuracy through Monte-Carlo simulations, showing a strong match across various channel loads, including those beyond the low load regime.",
+      "summary": "This paper proposes a tight analytical model to approximate the packet loss rate in the error floor region for a NOMA-based IRSA random access scheme used in IoT scenarios. The method combines user-selected replica counts and power levels with SIC at the receiver. The derived expression is validated by simulations, showing high accuracy across a range of channel loads.",
+      "mindmap": "graph TB\n        A[On the Error Floor Evaluation of NOMA-IRSA] --> B(核心问题/Problem: 评估NOMA-IRSA方案的错误平层/Evaluate the error floor of NOMA-IRSA scheme)\n        A --> C(主要方法/Method: 提出有限长度下的分组丢失率解析近似/Propose analytical approximation of packet loss rate in finite length regime)\n        A --> D(关键结果/Results: 解析模型与仿真高度匹配/Analytical model shows strong match with simulations across loads)"
+    },
+    {
+      "title": "Multi-Satellite NOMA-Irregular Repetition Slotted ALOHA for IoT Networks",
+      "authors": "Estefanía Recayte, Carla Amatetti",
+      "institution": "German Aerospace Center (DLR), University of Bologna",
+      "link": "https://arxiv.org/pdf/2601.00341",
+      "code": null,
+      "tags": [
+        "wireless networks",
+        "NOMA",
+        "IRSA",
+        "satellite networks",
+        "IoT",
+        "random access"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f1d053bf2a7b584e3006230b1ea29daef69dfa8b09d48b4db4f4d47daff085cb_w640_q70.webp",
+      "contributions": "1. Evaluates the impact of multi-satellite receiver diversity on IoT network performance using a NOMA-IRSA protocol. 2. Derives a lower bound for system performance that accounts for satellite channel impairments, providing a fast evaluation tool. 3. Identifies key trade-offs between network design parameters, specifically packet loss rate and energy efficiency.",
+      "summary": "This paper addresses the challenge of high collision probability in satellite-based IoT networks by proposing a system where IoT nodes use a NOMA-IRSA protocol and can be seen by multiple satellites. The authors analyze this multi-receiver scenario, derive a performance lower bound, and show that visibility of even one extra satellite significantly improves system performance.",
+      "mindmap": "graph TB\n        A[Multi-Satellite NOMA-IRSA for IoT Networks] --> B[核心问题/Problem: 卫星网络IoT设备激增导致高碰撞概率/High collision probability from massive IoT devices in satellite networks]\n        A --> C[主要方法/Method: 评估多卫星接收分集的NOMA-IRSA协议/Evaluating multi-satellite receiver diversity with NOMA-IRSA protocol]\n        A --> D[关键结果/Results: 增加一个可见卫星即可显著提升性能/Visibility of one extra satellite yields significant performance gains]"
+    },
+    {
+      "title": "Two-Step Interference Cancellation for Energy Saving in Irregular Repetition Slotted ALOHA",
+      "authors": "Estefanía Recayte, Leonardo Badia, Andrea Munari",
+      "institution": "German Aerospace Center (DLR), University of Padova",
+      "link": "https://arxiv.org/pdf/2601.00343",
+      "code": null,
+      "tags": [
+        "wireless networking",
+        "random access protocols",
+        "Irregular Repetition Slotted ALOHA (IRSA)",
+        "energy efficiency",
+        "interference cancellation",
+        "low load regime",
+        "transmission termination"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d35c8ee6f7c5d45ef1a130552180415615db4190cf97c939ed51201d0a122d6b_w640_q70.webp",
+      "contributions": "1. Proposes a modified IRSA protocol with intermediate decoding and early transmission termination to save energy. 2. Develops an analytical model for energy consumption and success probability in finite-length, low-load scenarios, addressing a gap in existing asymptotic analyses. 3. Demonstrates through analysis and simulation that the technique significantly reduces energy consumption (e.g., 33% at 10% load) while maintaining performance gains over standard ALOHA.",
+      "summary": "The paper addresses the energy inefficiency of Irregular Repetition Slotted ALOHA (IRSA) protocols, especially at low traffic loads. It proposes a two-step modification where nodes can stop transmitting early upon successful decoding, avoiding redundant transmissions. Analysis and simulations confirm the method achieves substantial energy savings (e.g., 33%) without compromising throughput performance.",
+      "mindmap": "graph TB\n        A[Two-Step Interference Cancellation for Energy Saving in IRSA] --> B(核心问题/Problem: IRSA能耗高，尤其在低负载时/IRSA energy consumption high, especially at low load)\n        A --> C(主要方法/Method: 引入中间解码与提前终止传输/Introduce intermediate decoding & early transmission termination)\n        A --> D(关键结果/Results: 显著节能且不影响吞吐量/Significant energy saving without affecting throughput)"
+    },
+    {
+      "title": "NOS-Gate: Queue-Aware Streaming IDS for Consumer Gateways under Timing-Controlled Evasion",
+      "authors": "Muhammad Bilal, Omer Tariq, Hasan Ahmed",
+      "institution": "Lancaster University, Korea Advanced Institute of Science and Technology (KAIST)",
+      "link": "https://arxiv.org/pdf/2601.00389",
+      "code": null,
+      "tags": [
+        "network intrusion detection",
+        "timing-controlled evasion",
+        "weighted fair queueing (WFQ)",
+        "network-optimised spiking (NOS)",
+        "metadata-only detection",
+        "streaming IDS"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/16e859896027b80a597ad555df2beab42dc7cf683d8aef57af2a60ff1820126c_w640_q70.webp",
+      "contributions": "1. Proposed NOS-Gate, a lightweight, streaming IDS for consumer gateways that uses a two-state unit derived from Network-Optimised Spiking dynamics per flow. 2. Introduced a queue-aware, reversible mitigation action that temporarily reduces a flagged flow's weight under Weighted Fair Queueing (WFQ). 3. Developed an executable 'worlds' benchmark for evaluating IDS under timing-controlled evasion, specifying benign processes, attacker budgets, and enabling packet-level WFQ replay.",
+      "summary": "The paper addresses the challenge of detecting intrusions in encrypted traffic on resource-constrained consumer gateways, where attackers can evade detection by manipulating timing patterns. It proposes NOS-Gate, a lightweight streaming IDS that uses metadata features and a novel mitigation strategy integrated with queue management. The evaluation shows NOS-Gate achieves higher detection recall and reduces queueing delays compared to baselines, with low computational overhead.",
+      "mindmap": "graph TB\n        Root[NOS-Gate: Queue-Aware Streaming IDS] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem] --> P1[加密流量中时序模式泄露/Timing patterns leak through encryption]\n        Problem --> P2[攻击者进行时序控制规避/Attacker uses timing-controlled evasion]\n        Problem --> P3[网关资源严格受限/Gateway has tight CPU & latency budget]\n        Method[主要方法/Method] --> M1[轻量级双态单元/Lightweight two-state NOS unit per flow]\n        Method --> M2[基于元数据窗口的评分/Score fixed-length metadata windows]\n        Method --> M3[可逆的WFQ权重缓解/Reversible WFQ weight mitigation]\n        Results[关键结果/Results] --> R1[高事件召回率/High incident recall (0.952)]\n        Results --> R2[降低排队延迟/Reduced p99.9 queueing delay]\n        Results --> R3[低计算开销/Low scoring cost (~2.09 µs)]"
+    },
+    {
+      "title": "MAESTRO: Multi-Agent Evaluation Suite for Testing, Reliability, and Observability",
+      "authors": "Tie Ma, Yixi Chen, Vaastav Anand, Alessandro Cornacchia, Amândio R. Faustino, Guanheng Liu, Shan Zhang, Hongbin Luo, Suhaib A. Fahmy, Zafar A. Qazi, Marco Canini",
+      "institution": "KAUST, Beihang University, MPI-SWS, LUMS",
+      "link": "https://arxiv.org/pdf/2601.00481",
+      "code": null,
+      "tags": [
+        "agent system",
+        "multi-agent systems",
+        "evaluation suite",
+        "observability",
+        "execution traces",
+        "reliability"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8621fc3bb6613fb26f1974a1a10ce1d6783df8fc57e3246b8e7ef34f2a5f4391_w640_q70.webp",
+      "contributions": "1. Proposes MAESTRO, a unified evaluation suite for standardizing the configuration, execution, and observability of LLM-based Multi-Agent Systems (MAS). 2. Provides a repository of examples and adapters to integrate diverse MAS frameworks and exports framework-agnostic execution traces with system-level signals (e.g., latency, cost). 3. Through controlled experiments with 12 MAS, demonstrates that MAS architecture is the dominant factor affecting resource profiles, reproducibility, and trade-offs, often outweighing changes in backend models or tools.",
+      "summary": "The paper introduces MAESTRO, a benchmark suite designed to systematically evaluate the testing, reliability, and observability of LLM-based multi-agent systems. It standardizes execution and provides detailed traces, enabling controlled comparisons. The study finds that MAS architecture is the primary driver of performance variance and system behavior, more so than model or tool changes.",
+      "mindmap": "graph TB\n        Root[MAESTRO: Multi-Agent Evaluation Suite] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem] --> P1[LLM-based MAS are stochastic and hard to debug]\n        Problem --> P2[Lack of standardized system-level benchmarks]\n        Method[主要方法/Method] --> M1[Unified interface for MAS configuration]\n        Method --> M2[Repository & adapters for integration]\n        Method --> M3[Exports framework-agnostic traces & signals]\n        Results[关键结果/Results] --> R1[MAS executions are structurally stable but temporally variable]\n        Results --> R2[MAS architecture is the dominant driver of performance]"
+    },
+    {
+      "title": "HFedMoE: Resource-aware Heterogeneous Federated Learning with Mixture-of-Experts",
+      "authors": "Zihan Fang, Zheng Lin, Senkang Hu, Yanan Ma, Yihang Tao, Yiqin Deng, Xianhao Chen, Yuguang Fang",
+      "institution": "City University of Hong Kong, The University of Hong Kong",
+      "link": "https://arxiv.org/pdf/2601.00583",
+      "code": null,
+      "tags": [
+        "federated learning",
+        "Mixture-of-Experts",
+        "federated fine-tuning",
+        "resource-aware",
+        "expert selection",
+        "sparsity-aware aggregation"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3a4349d6a95221a61360e261ad370cd60546e55c0ae19bef19bfe4f05de72ff4_w640_q70.webp",
+      "contributions": "1. Introduces a method to identify expert importance based on contributions to fine-tuning performance, enabling informed expert selection. 2. Proposes an adaptive expert subset selection mechanism from an information bottleneck perspective to align with heterogeneous client computing budgets. 3. Designs a sparsity-aware model aggregation strategy that weights updates from actively fine-tuned experts and gating parameters to mitigate destructive interference during global aggregation.",
+      "summary": "This paper proposes HFedMoE, a heterogeneous federated learning framework for fine-tuning large language models using Mixture-of-Experts. It addresses challenges in expert selection, resource heterogeneity, and aggregation interference by customizing expert subsets per client and using importance-weighted aggregation. Experiments show HFedMoE outperforms state-of-the-art methods in accuracy and convergence speed.",
+      "mindmap": "graph TB\n        A[HFedMoE: Resource-aware Heterogeneous Federated Learning with Mixture-of-Experts] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[LLM联邦微调中MoE面临的挑战/Challenges in MoE for FL fine-tuning]\n        B1 --> B2[专家选择困难/Difficulty in expert selection]\n        B1 --> B3[客户端资源异构性/Client resource heterogeneity]\n        B1 --> B4[聚合干扰/Aggregation interference]\n        C --> C1[定制化专家子集/Customized expert subset per client]\n        C1 --> C2[基于重要性的专家选择/Importance-based expert selection]\n        C1 --> C3[信息瓶颈视角的适配/Adaptation via information bottleneck]\n        C --> C4[稀疏感知的模型聚合/Sparsity-aware model aggregation]\n        D --> D1[更高的训练精度/Higher training accuracy]\n        D --> D2[更快的收敛速度/Faster convergence speed]"
+    },
+    {
+      "title": "Scheduling for TWDM-EPON-Based Fronthaul Without a Dedicated Registration Wavelength",
+      "authors": "Akash Kumar, Sourav Dutta, Goutam Das",
+      "institution": "Indian Institute of Technology Kharagpur, Indian Institute of Technology Mandi",
+      "link": "https://arxiv.org/pdf/2601.00661",
+      "code": null,
+      "tags": [
+        "optical networking",
+        "TWDM-EPON",
+        "fronthaul scheduling",
+        "registration process",
+        "C-RAN",
+        "eCPRI"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a2637ebe4d37d430a836f082fc3cb7e76124bc2faca7d671a0b109ca07f11cc2_w640_q70.webp",
+      "contributions": "1. Proposes a novel scheduling framework for TWDM-EPON-based fronthaul that eliminates the need for a dedicated registration wavelength. 2. Enables periodic registration of Radio Units (RUs) without interrupting ongoing data transmissions, thereby meeting stringent eCPRI delay/jitter requirements. 3. Demonstrates a significant performance improvement, supporting up to 71% more RUs for a given number of wavelengths compared to the baseline dedicated-wavelength scheme.",
+      "summary": "This paper addresses the problem of inefficient bandwidth utilization in TWDM-EPON fronthaul caused by the traditional registration process halting data traffic. The authors propose a new scheduling framework that allows periodic registration to occur without dedicating a separate wavelength channel. The main result is that this method can support up to 71% more Radio Units compared to the baseline approach, significantly improving fronthaul capacity.",
+      "mindmap": "graph TB\n        Root[”Scheduling for TWDM-EPON-Based Fronthaul Without a Dedicated Registration Wavelength<br/>论文标题”]\n        Root --> Problem[”传统EPON注册中断数据传输，违反eCPRI时延要求<br/>Traditional EPON registration halts data, violating eCPRI delay”]\n        Root --> Method[”提出无需专用注册波长的TWDM-EPON调度框架<br/>Proposed scheduling framework without dedicated registration wavelength”]\n        Root --> Results[”支持RU数量提升高达71%<br/>Up to 71% increase in supported RUs”]"
+    },
     {
       "title": "Network Traffic Analysis with Process Mining: The UPSIDE Case Study",
       "authors": "Francesco Vitale, Paolo Palmiero, Massimiliano Rak, Nicola Mazzocca",

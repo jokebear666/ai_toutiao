@@ -1,8 +1,622 @@
 {
   "label": "cs.CR",
   "slug": "cscr",
-  "week": "20251229-20260104",
+  "week": "20260105-20260111",
   "items": [
+    {
+      "title": "The Trojan in the Vocabulary: Stealthy Sabotage of LLM Composition",
+      "authors": "Xiaoze Liu, Weichen Yu, Matt Fredrikson, Xiaoqian Wang, Jing Gao",
+      "institution": "Purdue University, Carnegie Mellon University",
+      "link": "https://arxiv.org/pdf/2601.00065",
+      "code": "https://github.com/xz-liu/tokenforge",
+      "tags": [
+        "llm inference",
+        "tokenizer transplant",
+        "model composition",
+        "supply-chain vulnerability",
+        "sparse solver",
+        "spectral mimicry"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/bac901d101e76e81a328892233109e7f05c25f328de683add53ccd17ae81590e_w640_q70.webp",
+      "contributions": "1. Identifies tokenizer transplant as a novel attack surface in the LLM composition supply chain, 2. Introduces the concept of a \"breaker token\"—a single, engineered token that is inert in a donor model but maliciously activates after transplant, 3. Formalizes and instantiates the attack as a dual-objective optimization problem solved with a sparse solver, demonstrating its training-free nature, stealth, and persistence.",
+      "summary": "This paper identifies a security vulnerability in the tokenizer transplant step required for composing different LLMs. The authors propose a method to engineer a single \"breaker token\" that, when added to a donor model, remains harmless but sabotages a base model after transplant by exploiting coefficient reuse. The attack is stealthy, training-free, and persistent, revealing a hidden risk in modular AI pipelines.",
+      "mindmap": "graph TB\n        A[The Trojan in the Vocabulary: Stealthy Sabotage of LLM Composition] --> B\n        A --> C\n        A --> D\n        B[核心问题/Problem<br>Tokenizer transplant introduces a supply-chain vulnerability for LLM composition]\n        C[主要方法/Method<br>Engineer a single ”breaker token” exploiting coefficient reuse via sparse solver]\n        D[关键结果/Results<br>Stealthy, training-free attack that persists against fine-tuning and merging]"
+    },
+    {
+      "title": "Large Empirical Case Study: Go-Explore adapted for AI Red Team Testing",
+      "authors": "Manish Bhatt, Adrian Wood, Idan Habler, Ammar Al-Kahfah",
+      "institution": "OWASP, Amazon, Dropbox, CISCO, AWS",
+      "link": "https://arxiv.org/pdf/2601.00042",
+      "code": "https://github.com/mbhatt1/competitionscratch",
+      "tags": [
+        "LLM Security",
+        "Go-Explore",
+        "Prompt Injection",
+        "Adversarial Testing",
+        "Agent Safety",
+        "Multi-Hop Attacks"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d5fd9dc0076e96f0b8282984cab768d0355248ad4e2af52c17ac7798bb446d49_w640_q70.webp",
+      "contributions": "1. Adapted the Go-Explore reinforcement learning algorithm for systematic security testing of LLM agents. 2. Conducted a large-scale empirical study revealing that random seed variance dominates algorithmic parameter choices in this domain. 3. Provided actionable insights for practitioners, such as the ineffectiveness of reward shaping and the benefits of using ensembles and simple state signatures.",
+      "summary": "This paper adapts the Go-Explore algorithm to test the security of safety-trained LLM agents against prompt injection attacks. Through 28 experimental runs on GPT-4o-mini, the study finds that random seed variance is a major factor, reward shaping is harmful, and simple state signatures work best. The results suggest that managing seed variance and applying domain knowledge are more critical than algorithmic sophistication for effective security testing.",
+      "mindmap": "graph TB\n        Root[”Large Empirical Case Study: Go-Explore adapted for AI Red Team Testing<br/>大型实证案例研究：用于AI红队测试的Go-Explore”] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[”核心问题/Problem<br/>Testing security of safety-trained LLM agents<br/>测试经过安全训练的LLM代理的安全性”] --> P1[”Prompt Injection<br/>提示注入”]\n        Method[”主要方法/Method<br/>Adapt Go-Explore algorithm<br/>改编Go-Explore算法”] --> M1[”Systematic exploration from archive<br/>从存档进行系统探索”]\n        Results[”关键结果/Results<br/>Key Findings<br/>关键发现”] --> R1[”Seed variance dominates<br/>种子方差占主导”]\n        Results --> R2[”Reward shaping harms performance<br/>奖励塑形损害性能”]\n        Results --> R3[”Simple signatures outperform<br/>简单签名效果更好”]\n        Results --> R4[”Ensembles provide diversity<br/>集成提供多样性”]"
+    },
+    {
+      "title": "Understanding Security Risks of AI Agents' Dependency Updates",
+      "authors": "Tanmay Singla, Berk Çakar, Paschal C. Amusuo, James C. Davis",
+      "institution": "Purdue University",
+      "link": "https://arxiv.org/pdf/2601.00205",
+      "code": null,
+      "tags": [
+        "software supply chain security",
+        "dependency management",
+        "AI coding agents",
+        "vulnerability analysis",
+        "pull requests",
+        "software ecosystems"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5e340be99f3d9cc00ed390c752392deee81c8ecf465ac558d9d715ac49e66836_w640_q70.webp",
+      "contributions": "1. Conducted a large-scale empirical study comparing dependency changes in AI agent-authored and human-authored pull requests across seven software ecosystems. 2. Quantified that AI agents select known-vulnerable dependency versions more frequently than humans and that their vulnerable selections are more disruptive to remediate, often requiring major-version upgrades. 3. Demonstrated that, at an aggregate level, agent-driven dependency work leads to a net increase in vulnerabilities, whereas human-authored work leads to a net reduction.",
+      "summary": "This paper investigates the security risks of dependency updates introduced by AI coding agents. By analyzing over 117,000 dependency changes, the study finds that agents are more likely than humans to select vulnerable versions and that fixing these selections is more disruptive. The results indicate current AI agents can worsen a project's security posture, motivating the need for new guardrails.",
+      "mindmap": "graph TB\n        Root[理解AI代理依赖更新的安全风险<br/>Understanding Security Risks of AI Agents' Dependency Updates] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem<br/>AI代理的依赖决策是否引入独特的安全风险?<br/>Do AI agents' dependency decisions introduce distinct security risks?]\n        Method[主要方法/Method<br/>大规模实证研究: 分析来自7个生态系统的代理与人类PR中的依赖变更<br/>Large-scale empirical study: Analyze dependency changes in agent/human PRs across 7 ecosystems]\n        Results[关键结果/Results<br/>代理更频繁选择已知漏洞版本且修复更困难; 代理工作导致漏洞净增加<br/>Agents select vulnerable versions more often & remediation is harder; Agent work yields net vulnerability increase]"
+    },
+    {
+      "title": "Overlooked Safety Vulnerability in LLMs: Malicious Intelligent Optimization Algorithm Request and its Jailbreak",
+      "authors": "Haoran Gu, Handing Wang, Yi Mei, Mengjie Zhang, Yaochu Jin",
+      "institution": "Xidian University, Victoria University of Wellington, Westlake University",
+      "link": "https://arxiv.org/pdf/2601.00213",
+      "code": null,
+      "tags": [
+        "llm safety & alignment",
+        "jailbreak",
+        "algorithm design",
+        "safety benchmark",
+        "optimization algorithm",
+        "malicious prompt"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f6ccef5999a7edaf6824967fee78721c43b0e003d14334de2a1bb59ce1410a85_w640_q70.webp",
+      "contributions": "1. Identifies and investigates a novel safety vulnerability in LLMs related to automated malicious optimization algorithm design. 2. Introduces MalOptBench, a benchmark of 60 malicious optimization algorithm requests for evaluating this vulnerability. 3. Proposes MOBjailbreak, a tailored jailbreak method for this scenario, and demonstrates its high effectiveness against current LLMs and defenses.",
+      "summary": "This paper investigates a safety vulnerability where LLMs can be prompted to generate malicious optimization algorithms. It introduces the MalOptBench benchmark and the MOBjailbreak attack method, finding that current LLMs and plug-and-play defenses are highly susceptible, highlighting a need for stronger alignment techniques.",
+      "mindmap": "graph TB\n        Root[”Overlooked Safety Vulnerability in LLMs: Malicious Intelligent Optimization Algorithm Request and its Jailbreak”] --> Problem[”核心问题/Problem: LLMs在自动化算法设计中的安全漏洞未被充分探索/Underexplored safety vulnerability in LLM-driven automated algorithm design”]\n        Root --> Method[”主要方法/Method: 提出基准MalOptBench和越狱方法MOBjailbreak/Propose benchmark MalOptBench and jailbreak method MOBjailbreak”]\n        Root --> Results[”关键结果/Results: LLMs高度脆弱，现有防御效果有限/LLMs are highly susceptible, current defenses are marginally effective”]"
+    },
+    {
+      "title": "Evolution of Android's Permission-based Security Model and Challenges",
+      "authors": "Rajendra Kumar Solanki, Vijay Laxmi, Manoj Singh Gaur",
+      "institution": "Malaviya National Institute of Technology Jaipur (Inferred from authors' names and typical affiliation patterns; specific institution not explicitly stated in provided content, but authors are known to be affiliated with MNIT Jaipur)",
+      "link": "https://arxiv.org/pdf/2601.00252",
+      "code": null,
+      "tags": [
+        "mobile security",
+        "Android Permissions",
+        "Permission Model",
+        "API-Permission Mapping",
+        "Security Policy",
+        "Literature Survey"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/aee700bccb2e69c13a072aa6775b9befb7bcbc8d29ad48d8b5925449465689ec_w640_q70.webp",
+      "contributions": "1. Conducts a comprehensive literature survey systematizing knowledge on Android API calls to permissions mapping, permission model evolution, and permission checking mechanisms. 2. Identifies and documents unresolved permission-related security and privacy challenges in the Android ecosystem over a 12-year period (2010-2022). 3. Summarizes research gaps and proposes future directions for securing Android's permission-based model.",
+      "summary": "This paper presents a comprehensive survey analyzing the evolution and persistent challenges of Android's permission-based security model from 2010 to 2022. It systematically reviews research on API-permission mapping, permission model changes, and enforcement mechanisms. The study concludes by identifying critical research gaps and outlining future directions for improving Android security and privacy.",
+      "mindmap": "graph TB\n        Root[”Evolution of Android’s Permission-based Security Model and Challenges<br>Android基于权限的安全模型演变与挑战”]\n        Root --> Problem[”核心问题/Problem<br>Android权限模型存在未解决的安全与隐私挑战”]\n        Root --> Method[”主要方法/Method<br>对2010-2022年文献进行系统性综述与比较分析”]\n        Root --> Results[”关键结果/Results<br>识别研究空白并提出未来方向”]"
+    },
+    {
+      "title": "Rectifying Adversarial Examples Using Their Vulnerabilities",
+      "authors": "Fumiya Morimoto, Ryuto Morita, Satoshi Ono",
+      "institution": "Kagoshima University",
+      "link": "https://arxiv.org/pdf/2601.00270",
+      "code": null,
+      "tags": [
+        "adversarial defense",
+        "adversarial examples",
+        "label rectification",
+        "re-attack",
+        "white-box attack",
+        "black-box attack"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c32aaba927fb42e32f98d767a04b8c60ecebe5d8f0f13c4c25f72d7d23e5138c_w640_q70.webp",
+      "contributions": "1. Proposes a novel adversarial example rectification method based on \"re-attacking\" AEs to move them beyond the decision boundary for correct label estimation. 2. The method is designed to be straightforward, requiring only AEs as input without parameter adjustments or preliminary training, enabling it to address diverse attack types. 3. Demonstrates consistent performance and superior stability against various attacks, including targeted and black-box attacks, compared to conventional rectification and input transformation methods.",
+      "summary": "This paper addresses the problem of rectifying adversarial examples (AEs) to recover the correct labels of the original inputs, which is crucial for applications like autonomous driving. The proposed method works by \"re-attacking\" the AEs to push them across the model's decision boundary. The results show that this method performs consistently across different attack types and is more stable than existing approaches.",
+      "mindmap": "graph TB\n        A[Rectifying Adversarial Examples Using Their Vulnerabilities] --> B(核心问题/Problem: DNNs misclassify adversarial examples, needing correct label recovery)\n        A --> C(主要方法/Method: Re-attack AEs to move them beyond decision boundary)\n        A --> D(关键结果/Results: Consistent performance across attacks, outperforms conventional methods in stability)"
+    },
+    {
+      "title": "From Consensus to Chaos: A Vulnerability Assessment of the RAFT Algorithm",
+      "authors": "Tamer Afifi, Abdelfatah Hegazy, Ehab Abousaif",
+      "institution": "Arab Academy for Science, Technology and Maritime Transport (AASTMT)",
+      "link": "https://arxiv.org/pdf/2601.00273",
+      "code": null,
+      "tags": [
+        "distributed consensus",
+        "RAFT",
+        "replay attack",
+        "message forgery",
+        "authenticated verification",
+        "freshness check"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f61353e1cee5179dd015df5e513ba3552de676525e8ac5e6c2fb0a48786e62f3_w640_q70.webp",
+      "contributions": "1. A systematic security analysis of the RAFT protocol, identifying its susceptibility to message replay and forgery attacks. 2. Examination of the practical feasibility of these attacks through simulated scenarios. 3. Proposal of a novel cryptographic approach for enhancing RAFT's security, incorporating authenticated message verification and freshness checks.",
+      "summary": "This paper identifies security vulnerabilities in the RAFT distributed consensus algorithm, specifically to replay and forgery attacks, which can disrupt consensus and cause data inconsistency. To address this, the authors propose a novel security framework using cryptography, authenticated message verification, and freshness checks. The proposed solution aims to enhance the security of RAFT implementations and guide the development of more resilient distributed systems.",
+      "mindmap": "graph TB\n        Root[”From Consensus to Chaos: A Vulnerability Assessment of the RAFT Algorithm”] --> Problem[”核心问题/Problem: RAFT协议的安全漏洞未被充分认知/Security vulnerabilities in RAFT are not fully recognized”]\n        Root --> Method[”主要方法/Method: 系统安全分析与基于密码学的解决方案/Systematic security analysis & cryptographic solution”]\n        Root --> Results[”关键结果/Results: 提出增强安全性的框架/Proposed a framework for enhancing security”]\n        Problem --> P1[”攻击类型/Attack Types: 消息重放与伪造/Message replay & forgery”]\n        Problem --> P2[”后果/Consequence: 共识破坏与数据不一致/Consensus disruption & data inconsistency”]\n        Method --> M1[”分析/Analysis: 模拟攻击场景/Simulated attack scenarios”]\n        Method --> M2[”方案/Solution: 认证、验证与新鲜性检查/Authentication, verification & freshness check”]\n        Results --> R1[”成果/Outcome: 识别设计弱点/Identified design weaknesses”]\n        Results --> R2[”成果/Outcome: 提供安全增强框架/Provided security enhancement framework”]"
+    },
+    {
+      "title": "Making Theft Useless: Adulteration-Based Protection of Proprietary Knowledge Graphs in GraphRAG Systems",
+      "authors": "Weijie Wang, Peizhuo Lv, Yan Wang, Rujie Dai, Guokun Xu, Qiujian Lv, Hangcheng Liu, Weiqing Huang, Wei Dong, Jiaheng Zhang",
+      "institution": "Institute of Information Engineering, Chinese Academy of Sciences; National University of Singapore; Nanyang Technological University; Beijing University of Technology",
+      "link": "https://arxiv.org/pdf/2601.00274",
+      "code": null,
+      "tags": [
+        "rag (retrieval-augmented generation)",
+        "Knowledge Graph Protection",
+        "Data Adulteration",
+        "GraphRAG",
+        "Intellectual Property",
+        "Adversarial Robustness"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/50c777366fe765c9d297e005bcbe5739db9859375ed6c345273ae3617db208d0_w640_q70.webp",
+      "contributions": "1. Proposes AURA, a novel data adulteration framework to protect proprietary Knowledge Graphs (KGs) in GraphRAG systems by making stolen data useless for attackers. 2. Introduces a mechanism where authorized users can efficiently filter out injected false data (adulterants) using a secret key, ensuring accurate query results with negligible overhead. 3. Demonstrates high effectiveness and robustness, significantly degrading unauthorized system performance to 5.3% accuracy while maintaining 100% fidelity for authorized users and resisting sanitization attempts.",
+      "summary": "The paper addresses the problem of protecting proprietary Knowledge Graphs (KGs) from theft in GraphRAG systems, where traditional defenses like watermarking are ineffective. It proposes AURA, a framework that preemptively injects plausible false data (adulterants) into the KG; authorized users can filter these out with a key, but attackers receive corrupted context, leading to incorrect responses. The evaluation shows AURA reduces unauthorized system accuracy to 5.3% while maintaining perfect accuracy for authorized users with minimal overhead.",
+      "mindmap": "graph TB\n        A[”Making Theft Useless: Adulteration-Based Protection of Proprietary Knowledge Graphs in GraphRAG Systems”] --> B[”核心问题/Problem: Proprietary KG theft in GraphRAG for private use, making passive defenses ineffective”]\n        A --> C[”主要方法/Method: AURA framework using Data Adulteration to inject false data; authorized users filter with a key”]\n        A --> D[”关键结果/Results: Unauthorized accuracy drops to 5.3%; authorized fidelity stays 100% with low overhead”]"
+    },
+    {
+      "title": "Applications of Secure Multi-Party Computation in Financial Services",
+      "authors": "Brahim Khalil Sedraoui, Abdelmadjid Benmachiche, Amina Makhlouf, Chaouki Chemam",
+      "institution": "University of Chadli Bendjedid, Faculty of Sciences & Technology",
+      "link": "https://arxiv.org/pdf/2601.00334",
+      "code": null,
+      "tags": [
+        "cryptographic protocols",
+        "Secure Multi-Party Computation",
+        "data security",
+        "privacy-preserving",
+        "financial services",
+        "cryptographic protocols"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/871d8c0e8ff768a353b1f953847314d2af1f851afbb1b4d858549ee5930684bb_w640_q70.webp",
+      "contributions": "1. Discusses the application of Secure Multi-Party Computation (SMPC) to enable privacy-preserving collaborative analysis in the financial sector. 2. Identifies and analyzes key practical challenges for SMPC deployment, including scalability, computational efficiency, and handling large datasets. 3. Outlines future research directions aimed at making SMPC protocols more practical and efficient for real-world financial services.",
+      "summary": "This paper explores the application of Secure Multi-Party Computation (SMPC) to financial services, enabling collaborative data analysis while preserving privacy. It discusses the main challenges of scalability and efficiency with large datasets and concludes that SMPC has significant potential to facilitate secure and trustworthy transactions in the digital financial ecosystem.",
+      "mindmap": "graph TB\n        Root[Applications of Secure Multi-Party Computation in Financial Services] --> Problem(核心问题/Problem)\n        Root --> Method(主要方法/Method)\n        Root --> Results(关键结果/Results)\n        Problem --> P1[金融数据隐私保护/Privacy Protection in Financial Data]\n        Problem --> P2[遵守严格法规/Compliance with Stringent Regulations]\n        Method --> M1[安全多方计算协议/Secure Multi-Party Computation Protocols]\n        Results --> R1[实现安全透明的交易/Enable Secure & Transparent Transactions]\n        Results --> R2[促进数字生态信任/Foster Trust in Digital Ecosystem]"
+    },
+    {
+      "title": "PQC standards alternatives -- reliable semantically secure key encapsulation mechanism and digital signature protocols using the rank-deficient matrix power function",
+      "authors": "Juan Pedro Hecht, Hugo Daniel Scolnik",
+      "institution": "University of Buenos Aires",
+      "link": "https://arxiv.org/pdf/2601.00332",
+      "code": null,
+      "tags": [
+        "post-quantum cryptography",
+        "key encapsulation mechanism",
+        "digital signature algorithm",
+        "rank-deficient matrix power function",
+        "IND-CCA2",
+        "UF-CMA"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/aea9c77feb93ae5ac3fa4a7916b91bd90cc1ed453c8b50949972da353f718358_w640_q70.webp",
+      "contributions": "1. Introduces a novel Key Encapsulation Mechanism (FO-RDMPF-KEM) based on the Rank-Deficient Matrix Power Function (RDMPF) to provide semantic security against quantum attacks. 2. Proposes a novel Digital Signature Algorithm (FO-RDMPF-DSA) based on the same RDMPF framework, ensuring unforgeability. 3. Enhances the RDMPF primitive with security transforms (Fujisaki-Okamoto, implicit rejection) to provide provable security in the Random Oracle Model and protect against linear attacks.",
+      "summary": "This paper proposes new post-quantum cryptographic protocols to secure internet traffic against quantum adversaries. The core method uses a rank-deficient matrix power function, enhanced with security transforms, to build a key encapsulation mechanism and a digital signature scheme. The goal is to provide compact, fast, and provably secure alternatives for TLS 1.3 to counter the \"harvest now, decrypt later\" threat.",
+      "mindmap": "graph TB\n        A[PQC standards alternatives using RDMPF] --> B[核心问题/Problem: Need post-quantum secure protocols for TLS 1.3 to counter ”harvest now, decrypt later” threat]\n        A --> C[主要方法/Method: Use Rank-Deficient Matrix Power Function (RDMPF) with FO transform to build KEM and DSA]\n        A --> D[关键结果/Results: Proposes FO-RDMPF-KEM and FO-RDMPF-DSA as compact, fast, and provably secure PQC alternatives]"
+    },
+    {
+      "title": "Traffic-MoE: A Sparse Foundation Model for Network Traffic Analysis",
+      "authors": "Jiajun Zhou, Changhui Sun, Meng Shen, Shanqing Yu, Qi Xuan",
+      "institution": "Zhejiang University of Technology, Beijing Institute of Technology",
+      "link": "https://arxiv.org/pdf/2601.00357",
+      "code": null,
+      "tags": [
+        "llm inference",
+        "Mixture-of-Experts",
+        "Sparse Foundation Model",
+        "Network Traffic Analysis",
+        "Inference Efficiency",
+        "Adversarial Robustness"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/849bca2297c253e16da54f139beb70b7768aae242e30b3691e99e033978cd2d5_w640_q70.webp",
+      "contributions": "1. Introduces Traffic-MoE, a sparse foundation model that uses dynamic token routing to a subset of experts, decoupling model capacity from computational cost for real-time inference. 2. Demonstrates significant efficiency gains, including a 91.62% throughput increase, 47.81% latency reduction, and 38.72% lower peak GPU memory usage compared to dense models. 3. Shows the model's superior robustness against adversarial traffic shaping and maintains high performance in few-shot learning scenarios for security tasks.",
+      "summary": "This paper proposes Traffic-MoE, a sparse foundation model for network traffic analysis that uses a Mixture-of-Experts architecture to enable efficient real-time inference. It achieves better detection performance and significantly higher throughput with lower latency and memory usage than dense models, while also being more robust to adversarial attacks.",
+      "mindmap": "graph TB\n        A[Traffic-MoE: A Sparse Foundation Model for Network Traffic Analysis] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[大模型计算成本高，阻碍实时网络防御部署/High computational cost of large models hinders real-time network defense deployment]\n        C --> C1[稀疏专家混合模型，动态路由流量令牌/Sparse Mixture-of-Experts model with dynamic traffic token routing]\n        D --> D1[检测性能提升达12.38%/Up to 12.38% improvement in detection performance]\n        D --> D2[吞吐量提升91.62%，延迟降低47.81%/91.62% throughput increase, 47.81% latency reduction]\n        D --> D3[对抗流量整形鲁棒性更强/Superior robustness against adversarial traffic shaping]"
+    },
+    {
+      "title": "Diamond: Design and Implementation of Breach-Resilient Authenticated Encryption Framework For Internet of Things",
+      "authors": "Saif E. Nouma, Gokhan Mumcu, Attila A. Yavuz",
+      "institution": "University of South Florida",
+      "link": "https://arxiv.org/pdf/2601.00353",
+      "code": null,
+      "tags": [
+        "lightweight cryptography",
+        "forward-secure authenticated encryption",
+        "tag aggregation",
+        "offline-online optimization"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cc991a1dddc8a1110fdbbb0c3a7dbde4d40783e1bfe14708d0118b56e8962d9f_w640_q70.webp",
+      "contributions": "1. Introduces Diamond, the first provably secure Forward-secure and Aggregate Authenticated Encryption (FAAE) framework for IoT, featuring a lightweight key evolution mechanism. 2. Proposes an offline-online optimized computation pipeline and performance-tiered instantiations, reducing amortized offline preprocessing by up to 47% and end-to-end latency by an order of magnitude. 3. Provides a comprehensive evaluation across diverse IoT architectures (ARM Cortex, AVR), showing it outperforms baseline FAAE variants and NIST lightweight AE candidates in throughput and latency.",
+      "summary": "The paper introduces Diamond, a new authenticated encryption framework designed for resource-constrained IoT devices. It combines forward security and tag aggregation with an offline-online optimized pipeline to significantly improve performance. The evaluation shows Diamond outperforms existing standards and variants across multiple IoT hardware platforms.",
+      "mindmap": "graph TB\n        Root[Diamond: Breach-Resilient AE Framework] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem] --> P1[IoT设备资源受限/Resource-constrained IoT devices]\n        Problem --> P2[现有AE缺乏前向安全等特性/Existing AE lacks forward-security, aggregation, OO optimization]\n        Method[主要方法/Method] --> M1[前向安全聚合AE框架/FAAE Framework]\n        Method --> M2[轻量级密钥演化机制/Lightweight Key Evolution]\n        Method --> M3[离线-在线优化管道/OO-Optimized Pipeline]\n        Results[关键结果/Results] --> R1[降低预处理延迟达47%/Reduces offline preprocessing up to 47%]\n        Results --> R2[端到端延迟降低一个数量级/End-to-end latency reduced by an order-of-magnitude]\n        Results --> R3[在多种架构上性能优越/Outperforms baselines across multiple architectures]"
+    },
+    {
+      "title": "PatchBlock: A Lightweight Defense Against Adversarial Patches for Embedded EdgeAI Devices",
+      "authors": "Nandish Chattopadhyay, Abdul Basit, Amira Guesmi, Muhammad Abdullah Hanif, Bassem Ouni, Muhammad Shafique",
+      "institution": "New York University (NYU) Abu Dhabi, DakAI",
+      "link": "https://arxiv.org/pdf/2601.00367",
+      "code": null,
+      "tags": [
+        "on-device ai",
+        "adversarial patches",
+        "outlier detection",
+        "isolation forest",
+        "dimensionality reduction",
+        "edge computing"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/931ca070f14402ab68d228644f7d6df1ed1c402686c4fae0127234e1c588df8d_w640_q70.webp",
+      "contributions": "1. Proposes PatchBlock, a lightweight, model-agnostic pre-processing framework for detecting and mitigating adversarial patches on resource-constrained edge devices. 2. Introduces a redesigned isolation forest algorithm with targeted cuts for efficient anomaly detection in image chunks. 3. Demonstrates high robustness recovery (up to 77% accuracy) and superior efficiency (computation time, energy) compared to state-of-the-art defenses, with minimal impact on clean accuracy.",
+      "summary": "This paper presents PatchBlock, a lightweight defense framework that uses outlier detection and dimensionality reduction to identify and neutralize adversarial patches in images for EdgeAI systems. It operates efficiently on CPUs in parallel with GPU inference, making it suitable for resource-constrained devices. Evaluations show it significantly recovers model accuracy under strong patch attacks while maintaining high efficiency and portability.",
+      "mindmap": "graph TB\n        Root[PatchBlock: A Lightweight Defense Against Adversarial Patches] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem] --> P1[对抗性补丁威胁边缘AI/Patch attacks threaten EdgeAI]\n        P1 --> P2[资源受限设备需要轻量级防御/Resource-constrained devices need lightweight defense]\n        Method[主要方法/Method] --> M1[分块/Chunking]\n        Method --> M2[基于改进隔离林的异常检测/Anomaly Detection via redesigned Isolation Forest]\n        Method --> M3[降维缓解/Dimensionality Reduction Mitigation]\n        Results[关键结果/Results] --> R1[恢复高达77%的准确率/Recovers up to 77% accuracy]\n        Results --> R2[高效，CPU并行，低开销/Efficient, CPU-parallel, low overhead]\n        Results --> R3[模型与补丁无关，可移植/Model- & patch-agnostic, portable]"
+    },
+    {
+      "title": "Ouroboros AutoSyn: Time Based Permissionless Synchrony Model for PoS",
+      "authors": "Joshua Shen",
+      "institution": "Not specified in provided content",
+      "link": "https://arxiv.org/pdf/2601.00370",
+      "code": null,
+      "tags": [
+        "consensus protocols",
+        "proof-of-stake",
+        "permissionless synchrony",
+        "real-time round model",
+        "dynamic availability",
+        "epoch adjustment"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f33186f8757ecc52001c54893488b0575572db93f15102bd01829ed78158a41e_w640_q70.webp",
+      "contributions": "1. Proposes a time-based synchrony model for PoS that eliminates the need for a central clock or global function to maintain round information for participants. 2. Introduces a real-time based round model that incorporates message delivery delay into round length calculation. 3. Enables dynamic round length adjustment based on changing network conditions at the start of each new epoch.",
+      "summary": "This paper proposes Ouroboros AutoSyn, a new synchrony model for Proof-of-Stake blockchains. It replaces the reliance on a central clock with a real-time based round model that accounts for network delays and allows for dynamic adjustment, aiming to support dynamic availability in permissionless settings.",
+      "mindmap": "graph TB\n        A[Ouroboros AutoSyn: Time Based Permissionless Synchrony Model for PoS] --> B[核心问题/Problem: PoS protocols rely on a central clock for synchrony, which is a bottleneck.]\n        A --> C[主要方法/Method: Real-time based round model using a global clock, incorporating message delay, with adaptive round length per epoch.]\n        A --> D[关键结果/Results: A permissionless synchrony model for PoS that supports dynamic availability without a central coordinator.]"
+    },
+    {
+      "title": "LLM-Powered Analysis of IoT User Reviews: Tracking and Ranking Security and Privacy Concerns",
+      "authors": "Taufiq Islam Protick, Sai Teja Peddinti, Nina Taft, Anupam Das",
+      "institution": "North Carolina State University, Google Inc.",
+      "link": "https://arxiv.org/pdf/2601.00372",
+      "code": null,
+      "tags": [
+        "IoT security & privacy",
+        "GPT-3.5 fine-tuning",
+        "dynamic few-shot prompting",
+        "automated review analysis"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c69cdb019d0c3e8cf4f69b3d0a8fcc7292862c45269cb7582d4b896010243723_w640_q70.webp",
+      "contributions": "1. Developed a novel LLM-powered pipeline (Classifier-Rationalizer-Categorizer and Thematic Mapper) for identifying and categorizing security and privacy concerns in IoT user reviews with over 97% precision and recall. 2. Applied the pipeline to 91K Amazon reviews, revealing longitudinal trends and device-specific prevalence of S&P concerns, significantly outperforming prior methods. 3. Uncovered two previously unreported themes concerning inadequate controls for account separation and data access in multi-user/multi-device IoT environments.",
+      "summary": "This paper proposes an automated pipeline using fine-tuned GPT-3.5-Turbo to analyze IoT user reviews for security and privacy concerns. The method achieves high accuracy and uncovers persistent issues like surveillance and data control, as well as new challenges in account separation, providing actionable insights for developers.",
+      "mindmap": "graph TB\n        A[LLM-Powered Analysis of IoT User Reviews] --> B[核心问题/Problem: Understanding IoT users' security and privacy concerns from reviews]\n        A --> C[主要方法/Method: Fine-tuned GPT-3.5 pipeline with dynamic few-shot prompting]\n        A --> D[关键结果/Results: High-precision detection, longitudinal trends, new themes uncovered]"
+    },
+    {
+      "title": "Engineering Attack Vectors and Detecting Anomalies in Additive Manufacturing",
+      "authors": "Md Mahbub Hasan, Marcus Sternhagen, Krishna Chandra Roy",
+      "institution": "New Mexico Institute of Mining and Technology",
+      "link": "https://arxiv.org/pdf/2601.00384",
+      "code": null,
+      "tags": [
+        "cyber-physical systems security",
+        "intrusion detection system",
+        "anomaly detection",
+        "G-code manipulation",
+        "transformer encoder",
+        "self-attention autoencoder"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b296e2b64944be1e0ab79e116131c11acbb4a662a6a9c3e8adaf377db0c3190e_w640_q70.webp",
+      "contributions": "1. Investigation of stealthy Man-in-the-Middle (MitM) attack vectors targeting the CAD-to-machine interface in Fused Deposition Modeling (FDM) 3D printers. 2. Proposal of an unsupervised Intrusion Detection System (IDS) that uses a frozen Transformer-based encoder and contrastive learning to create anomaly-sensitive embeddings from machine logs. 3. Demonstration of effective anomaly classification using a combination of clustering and a self-attention autoencoder on real 3D printing systems.",
+      "summary": "This paper investigates stealthy cyberattacks that manipulate G-code in additive manufacturing systems, leading to structurally defective parts. To detect these attacks, the authors propose an unsupervised intrusion detection system that uses a Transformer-based encoder and contrastive learning to analyze machine logs. Their method successfully distinguishes between normal and compromised printing executions.",
+      "mindmap": "graph TB\n    A[Engineering Attack Vectors and Detecting Anomalies in Additive Manufacturing] --> B(核心问题/Problem)\n    A --> C(主要方法/Method)\n    A --> D(关键结果/Results)\n    B --> B1[AM系统的新攻击面 / New Attack Surfaces in AM]\n    B --> B2[隐秘的中间人攻击 / Stealthy MitM Attacks]\n    C --> C1[基于日志的无监督IDS / Unsupervised IDS from Logs]\n    C --> C2[Transformer编码器 / Transformer Encoder]\n    C --> C3[对比学习与自注意力 / Contrastive Learning & Self-Attention]\n    D --> D1[有效区分正常与攻击 / Effectively Distinguishes Benign & Compromised]"
+    },
+    {
+      "title": "Exploring the Integration of Differential Privacy in Cybersecurity Analytics: Balancing Data Utility and Privacy in Threat Intelligence",
+      "authors": "Brahim Khalil Sedraoui, Abdelmadjid Benmachiche, Amina Makhlouf, Chaouki Chemam",
+      "institution": "University of Chadli Bendjedid, Faculty of Sciences & Technology",
+      "link": "https://arxiv.org/pdf/2601.00385",
+      "code": null,
+      "tags": [
+        "privacy-preserving analytics",
+        "Differential Privacy",
+        "Cybersecurity Analytics",
+        "SIEM",
+        "Threat Intelligence",
+        "Privacy-Utility Trade-off"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/05c5e937ece0c6e964a0d44cbd026d7e99c46607412244e494cd51122d4be247_w640_q70.webp",
+      "contributions": "1. Proposes the integration of Differential Privacy (DP) into cybersecurity analytics, specifically for threat intelligence, to balance data utility and privacy. 2. Highlights the application of DP in Security Information and Event Management (SIEM) systems to protect event logs and threat data without compromising analytical efficiency. 3. Analyzes the privacy-utility trade-offs governed by the epsilon parameter in DP and demonstrates its transformative potential for safe data sharing and collaborative threat intelligence through case studies.",
+      "summary": "This paper explores the application of Differential Privacy (DP) to cybersecurity analytics to protect sensitive data in threat intelligence. It proposes using DP, particularly in SIEM systems, to add controlled noise to data outputs, thereby enabling privacy-preserving analysis. The work concludes that DP is a key strategy for enhancing secure data sharing and collaborative analytics in cybersecurity.",
+      "mindmap": "graph TB\n        A[Exploring DP in Cybersecurity Analytics / 探索网络安全分析中的差分隐私] --> B[Problem: Privacy vs. Utility in Threat Intelligence / 问题: 威胁情报中的隐私与效用权衡]\n        A --> C[Method: Apply Differential Privacy (DP) / 方法: 应用差分隐私(DP)]\n        A --> D[Results: DP enables secure sharing & analysis / 结果: DP实现安全共享与分析]\n        C --> E[Add controlled noise / 添加可控噪声]\n        C --> F[Focus on SIEM systems / 聚焦SIEM系统]\n        D --> G[Balances privacy-utility trade-off / 平衡隐私-效用权衡]\n        D --> H[Key strategy for cybersecurity / 网络安全的关键策略]"
+    },
+    {
+      "title": "NOS-Gate: Queue-Aware Streaming IDS for Consumer Gateways under Timing-Controlled Evasion",
+      "authors": "Muhammad Bilal, Omer Tariq, Hasan Ahmed",
+      "institution": "Lancaster University, Korea Advanced Institute of Science and Technology (KAIST)",
+      "link": "https://arxiv.org/pdf/2601.00389",
+      "code": null,
+      "tags": [
+        "network intrusion detection",
+        "timing-controlled evasion",
+        "weighted fair queueing (WFQ)",
+        "network-optimised spiking (NOS)",
+        "metadata-only detection",
+        "streaming IDS"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/16e859896027b80a597ad555df2beab42dc7cf683d8aef57af2a60ff1820126c_w640_q70.webp",
+      "contributions": "1. Proposed NOS-Gate, a lightweight, streaming IDS for consumer gateways that uses a two-state unit derived from Network-Optimised Spiking dynamics per flow. 2. Introduced a queue-aware, reversible mitigation action that temporarily reduces a flagged flow's weight under Weighted Fair Queueing (WFQ). 3. Developed an executable 'worlds' benchmark for evaluating IDS under timing-controlled evasion, specifying benign processes, attacker budgets, and enabling packet-level WFQ replay.",
+      "summary": "The paper addresses the challenge of detecting intrusions in encrypted traffic on resource-constrained consumer gateways, where attackers can evade detection by manipulating timing patterns. It proposes NOS-Gate, a lightweight streaming IDS that uses metadata features and a novel mitigation strategy integrated with queue management. The evaluation shows NOS-Gate achieves higher detection recall and reduces queueing delays compared to baselines, with low computational overhead.",
+      "mindmap": "graph TB\n        Root[NOS-Gate: Queue-Aware Streaming IDS] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem] --> P1[加密流量中时序模式泄露/Timing patterns leak through encryption]\n        Problem --> P2[攻击者进行时序控制规避/Attacker uses timing-controlled evasion]\n        Problem --> P3[网关资源严格受限/Gateway has tight CPU & latency budget]\n        Method[主要方法/Method] --> M1[轻量级双态单元/Lightweight two-state NOS unit per flow]\n        Method --> M2[基于元数据窗口的评分/Score fixed-length metadata windows]\n        Method --> M3[可逆的WFQ权重缓解/Reversible WFQ weight mitigation]\n        Results[关键结果/Results] --> R1[高事件召回率/High incident recall (0.952)]\n        Results --> R2[降低排队延迟/Reduced p99.9 queueing delay]\n        Results --> R3[低计算开销/Low scoring cost (~2.09 µs)]"
+    },
+    {
+      "title": "Secure, Verifiable, and Scalable Multi-Client Data Sharing via Consensus-Based Privacy-Preserving Data Distribution",
+      "authors": "Prajwal Panth, Sahaj Raj Malla",
+      "institution": "KIIT University, Kathmandu University",
+      "link": "https://arxiv.org/pdf/2601.00418",
+      "code": null,
+      "tags": [
+        "Privacy-preserving data aggregation",
+        "unanimous-release confidentiality",
+        "consensus locking",
+        "malicious deviation detection"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d1a94aa63b5803d44299e228782541c1d2830c11c784cb2a9d0a55df2b0c6765_w640_q70.webp",
+      "contributions": "1. Proposes the CPPDD framework, a lightweight protocol for secure multi-client data aggregation using per-client affine masking and priority-driven sequential consensus locking to enforce unanimous-release confidentiality. 2. Introduces decentralized integrity verification via step and data checksums (σ_S, σ_D) enabling autonomous malicious deviation detection and atomic abort without persistent coordination. 3. Formally proves the framework's properties (correctness, CDIF, IND-CPA security) and empirically demonstrates linear scalability up to 500 clients with significantly lower computational overhead compared to MPC and HE baselines.",
+      "summary": "The paper proposes the CPPDD framework to address the problem of secure and verifiable multi-client data sharing. The method combines affine masking and consensus locking for privacy, and uses checksums for integrity verification, enabling efficient, scalable aggregation with malicious security. The framework is proven secure and shown to be orders of magnitude more efficient than traditional cryptographic approaches like MPC and HE.",
+      "mindmap": "graph TB\n        A[Secure, Verifiable, and Scalable Multi-Client Data Sharing<br>安全、可验证、可扩展的多客户端数据共享] --> B(核心问题/Problem: Secure multi-client data aggregation with privacy and verifiability<br>安全、可验证的多客户端隐私数据聚合)\n        A --> C(主要方法/Method: Consensus-Based Privacy-Preserving Data Distribution (CPPDD)<br>基于共识的隐私保护数据分发)\n        C --> C1(Affine Masking & Consensus Locking<br>仿射掩码与共识锁定)\n        C --> C2(Step/Data Checksums (σ_S, σ_D)<br>步骤/数据校验和)\n        A --> D(关键结果/Results: Linear scalability, 100% deviation detection, lower FLOPs vs MPC/HE<br>线性可扩展性，100%异常检测，相比MPC/HE更低的计算量)"
+    },
+    {
+      "title": "Security in the Age of AI Teammates: An Empirical Study of Agentic Pull Requests on GitHub",
+      "authors": "Mohammed Latif Siddiq, Xinye Zhao, Vinicius Carvalho Lopes, Beatrice Casey, Joanna C. S. Santos",
+      "institution": "University of Notre Dame (inferred from author email domains and affiliations)",
+      "link": "https://arxiv.org/pdf/2601.00477",
+      "code": null,
+      "tags": [
+        "software security",
+        "empirical software engineering",
+        "autonomous coding agents",
+        "pull requests",
+        "software security",
+        "empirical study",
+        "GitHub"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/552f0e29d5e90f293ddef225bc41d40fffefe1a15da3287c3a8d69df70dcf6a8_w640_q70.webp",
+      "contributions": "1. Quantified the prevalence and characteristics of security-related contributions from autonomous coding agents on GitHub, identifying 1,293 confirmed cases. 2. Analyzed acceptance outcomes and review latency, finding lower merge rates and longer review times for security-related PRs, indicating heightened human scrutiny. 3. Identified that PR rejection is more strongly associated with complexity and verbosity than with explicit security topics, and characterized the supportive security hardening activities agents perform.",
+      "summary": "This paper conducts a large-scale empirical study to understand how autonomous AI coding agents contribute to software security via pull requests on GitHub. By analyzing over 33,000 agent-authored PRs, the authors find that security-related PRs constitute about 4% of agent activity, often involve supportive hardening tasks, and face lower acceptance rates and longer review times due to increased human scrutiny, with rejection linked more to PR complexity than security content.",
+      "mindmap": "graph TB\n        Root[”Security in the Age of AI Teammates: An Empirical Study of Agentic Pull Requests on GitHub”] --> Problem[”核心问题/Problem<br>How do autonomous AI coding agents impact software security in practice?”]\n        Root --> Method[”主要方法/Method<br>Large-scale empirical analysis of 33k+ agent-authored GitHub PRs using keyword filtering & manual validation”]\n        Root --> Results[”关键结果/Results<br>4% of agent PRs are security-related; Lower merge rates & longer review times; Rejection linked to complexity, not security terms”]"
+    },
+    {
+      "title": "Improving LLM-Assisted Secure Code Generation through Retrieval-Augmented-Generation and Multi-Tool Feedback",
+      "authors": "Vidyut Sriram, Sawan Pandita, Achintya Lakshmanan, Aneesh Shamraj, Suman Saha",
+      "institution": "Pennsylvania State University",
+      "link": "https://arxiv.org/pdf/2601.00509",
+      "code": null,
+      "tags": [
+        "rag (retrieval-augmented generation)",
+        "Retrieval-Augmented Generation",
+        "CodeQL",
+        "KLEE",
+        "Self-Repair",
+        "Symbolic Execution"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cdcdc91c311cf046454507445fa7f6baef39a437738ec8e32b2eb087f6fbfa91_w640_q70.webp",
+      "contributions": "1. Proposes a retrieval-augmented, multi-tool repair workflow integrating compiler diagnostics, CodeQL security scanning, and KLEE symbolic execution for iterative LLM self-repair. 2. Utilizes a lightweight embedding model for semantic retrieval of security-focused repair examples to guide code generation. 3. Demonstrates significant robustness improvements, reducing security vulnerabilities by up to 96% for DeepSeek-Coder and from 58.55% to 22.19% for CodeLlama.",
+      "summary": "The paper addresses the problem of LLM-generated code containing security vulnerabilities and errors. It proposes a method where a code-generating LLM iteratively refines its output using feedback from multiple tools (compiler, CodeQL, KLEE) and retrieval of past successful repairs. The results show this approach significantly reduces security defects, even for larger, more stubborn models.",
+      "mindmap": "graph TB\n        Root[”Improving LLM-Assisted Secure Code Generation<br>提升LLM辅助安全代码生成”] --> Problem[”LLM生成代码存在安全漏洞<br>LLM-generated code has security vulnerabilities”]\n        Root --> Method[”检索增强的多工具自修复工作流<br>Retrieval-Augmented Multi-Tool Self-Repair Workflow”]\n        Root --> Results[”安全漏洞显著减少<br>Security vulnerabilities significantly reduced”]\n        Problem --> P1[”逻辑不一致<br>Logical inconsistencies”]\n        Problem --> P2[”编译错误<br>Compilation errors”]\n        Method --> M1[”检索修复示例<br>Retrieve repair examples”]\n        Method --> M2[”工具反馈(编译器/CodeQL/KLEE)<br>Tool feedback (Compiler/CodeQL/KLEE)”]\n        Method --> M3[”迭代自修复<br>Iterative self-repair”]\n        Results --> R1[”DeepSeek漏洞减少96%<br>DeepSeek vulnerabilities reduced 96%”]\n        Results --> R2[”CodeLlama关键缺陷率22.19%<br>CodeLlama critical defect rate 22.19%”]"
+    },
+    {
+      "title": "The CoinAlg Bind: Profitability-Fairness Tradeoffs in Collective Investment Algorithms",
+      "authors": "Andrés Fábrega, James Austgen, Samuel Breckenridge, Jay Yu, Amy Zhao, Sarah Allen, Aditya Saraf, Ari Juels",
+      "institution": "Cornell Tech, IC3, Pantera Capital, Ava Labs, Flashbots",
+      "link": "https://arxiv.org/pdf/2601.00523",
+      "code": null,
+      "tags": [
+        "algorithmic fairness",
+        "game theory",
+        "decentralized finance",
+        "collective investment algorithms",
+        "profitability-fairness tradeoff",
+        "arbitrage",
+        "privacy",
+        "transparency"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/18ee281908d18c83e757a24f60a6d4c85436fa1dd9dbccb373ae547812e6eb06_w640_q70.webp",
+      "contributions": "1. Formally defines the \"CoinAlg Bind,\" a fundamental tradeoff where collective investment algorithms cannot simultaneously ensure economic fairness and avoid profit loss to arbitrage. 2. Presents a formal model of CoinAlgs with definitions of privacy and economic fairness, proving that privacy enables insider attacks while transparency enables arbitrage. 3. Empirically validates both sides of the tradeoff using data from the Uniswap decentralized exchange, quantifying arbitrage impact and demonstrating risks from covert-channel leaks.",
+      "summary": "This paper identifies a fundamental tradeoff in Collective Investment Algorithms (CoinAlgs), called the CoinAlg Bind, where algorithms must choose between privacy (risking unfair insider value extraction) and transparency (risking profit erosion from arbitrage). The authors present a formal model and game-theoretic proofs to demonstrate this bind and empirically validate it using data from Uniswap. The main conclusion is that CoinAlgs inherently cannot guarantee both economic fairness and full profitability.",
+      "mindmap": "graph TB\n        A[The CoinAlg Bind: Profitability-Fairness Tradeoffs] --> B[核心问题/Problem]\n        A --> C[主要方法/Method]\n        A --> D[关键结果/Results]\n        B --> B1[CoinAlgs cannot ensure fairness without losing profit/CoinAlgs无法在不损失利润的情况下确保公平]\n        C --> C1[Formal model & game theory/形式化模型与博弈论]\n        C --> C2[Empirical study on Uniswap/基于Uniswap的实证研究]\n        D --> D1[Privacy enables insider attacks/隐私性导致内部攻击]\n        D --> D2[Transparency enables arbitrage/透明性导致套利]\n        D --> D3[Empirical validation of the bind/实证验证了该困境]"
+    },
+    {
+      "title": "Cyberscurity Threats and Defense Mechanisms in IoT network",
+      "authors": "Trung Dao, Minh Nguyen, Son Do, Hoang Tran",
+      "institution": "Based on the author names, likely Vietnamese institutions (e.g., University of Engineering and Technology, VNU). Specific institution cannot be definitively inferred from the provided text.",
+      "link": "https://arxiv.org/pdf/2601.00556",
+      "code": null,
+      "tags": [
+        "IoT Security",
+        "Zero Trust Architecture",
+        "Blockchain",
+        "Anomaly Detection",
+        "Denial-of-Service",
+        "Five-layer Model"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/16b8670791d7782c4b423ed35d18ad9f0ad9f7e91004a1a3f73326dfb108e3af_w640_q70.webp",
+      "contributions": "1. Provides a comprehensive integrative review of IoT cybersecurity threats and defenses, analyzing 59 articles. 2. Proposes a novel five-layer IoT model for structuring security analysis. 3. Outlines future research directions involving quantum computing and 6G networks for IoT resilience.",
+      "summary": "This survey paper analyzes cybersecurity challenges in IoT networks, focusing on threats like DoS attacks and vulnerabilities at the sensor and cloud levels. It reviews advanced defense mechanisms using AI, Blockchain, and Zero Trust Architecture. The paper concludes by proposing a new five-layer IoT model and suggesting future work in quantum and 6G technologies to enhance security.",
+      "mindmap": "graph TB\n        Root[Cybersecurity Threats and Defense Mechanisms in IoT Networks / IoT网络安全威胁与防御机制] --> Problem\n        Root --> Method\n        Root --> Results\n        Problem[核心问题/Problem: IoT proliferation increases security complexity / IoT设备激增增加安全复杂性]\n        Method[主要方法/Method: Integrative review of 59 articles / 对59篇文章的综合评述]\n        Results[关键结果/Results: Identifies threats & AI/Blockchain/ZTA defenses, proposes 5-layer model / 识别威胁及AI/区块链/ZTA防御，提出五层模型]"
+    },
+    {
+      "title": "Cracking IoT Security: Can LLMs Outsmart Static Analysis Tools?",
+      "authors": "Jason Quantrill, Noura Khajehnouri, Zihan Guo, Manar H. Alalfi",
+      "institution": "Toronto Metropolitan University",
+      "link": "https://arxiv.org/pdf/2601.00559",
+      "code": "https://github.com/JasonQuantrill/llm-v-static-results",
+      "tags": [
+        "IoT Security",
+        "Interaction Threats",
+        "Static Analysis",
+        "Large Language Models",
+        "Trigger-Action-Condition Rules",
+        "Symbolic Reasoning"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/88e5908c842c3a16fa536e15c334b07eda4e7076715625cdb48ee93058227761_w640_q70.webp",
+      "contributions": "1. Conducted the first comprehensive evaluation of LLMs for detecting multi-category interaction threats in IoT TAC rules. 2. Introduced a structurally challenging Mutation dataset to test model robustness under rule transformations. 3. Demonstrated that symbolic reasoning baselines outperform LLMs in structural reasoning tasks, highlighting the need for hybrid architectures.",
+      "summary": "This paper evaluates the ability of Large Language Models (LLMs) to detect security threats in IoT automation rules, comparing them against traditional static analysis. The results show that while LLMs have good semantic understanding, they struggle with structural reasoning and are outperformed by symbolic methods, indicating they are not yet reliable for this safety-critical task alone.",
+      "mindmap": "graph TB\n        A[Cracking IoT Security: Can LLMs Outsmart Static Analysis Tools?] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[IoT规则交互威胁/IoT Rule Interaction Threats]\n        C --> C1[评估LLMs与静态分析/Evaluating LLMs vs. Static Analysis]\n        C --> C2[使用原始与变异数据集/Using Original & Mutation Datasets]\n        D --> D1[LLMs语义理解好但结构推理差/LLMs Good at Semantics, Poor at Structural Reasoning]\n        D --> D2[符号方法稳定可靠/Symbolic Method Stable & Reliable]"
+    },
+    {
+      "title": "Low Rank Comes with Low Security: Gradient Assembly Poisoning Attacks against Distributed LoRA-based LLM Systems",
+      "authors": "Yueyan Dong, Minghui Xu, Qin Hu, Yinhao Xiao, Qi Luo, Yechao Zhang, Yue Zhang, Xiuzhen Cheng",
+      "institution": "Shandong University, Guangdong University of Finance and Economics, Hong Kong University of Science and Technology, Huazhong University of Science and Technology",
+      "link": "https://arxiv.org/pdf/2601.00566",
+      "code": null,
+      "tags": [
+        "federated learning",
+        "LoRA",
+        "Gradient Assembly Poisoning",
+        "Federated Fine-tuning",
+        "Model Security"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/dd1442bf22b9d2944502ed95e8460cb6526939df2c5a34cbe85bea5e00d057b9_w640_q70.webp",
+      "contributions": "1. Identifies a critical security vulnerability in LoRA-based federated learning systems where clients submit A and B matrices separately, creating a verification blind spot for the composite update AB. 2. Proposes a novel Gradient Assembly Poisoning (GAP) attack that crafts individually benign A and B matrices to produce a malicious product, operating stealthily without data access or client coordination. 3. Validates the attack's effectiveness across multiple LLMs (LLaMA, ChatGLM, GPT-2), demonstrating significant performance degradation and error increase while evading standard anomaly detectors.",
+      "summary": "This paper identifies a security vulnerability in federated LoRA systems where the separate submission of low-rank matrices A and B is never directly verified. It proposes the Gradient Assembly Poisoning (GAP) attack, which crafts benign-looking A and B matrices that multiply to produce a malicious update. The attack successfully degrades model performance across several LLMs while remaining undetected, revealing a new class of stealthy threats in distributed fine-tuning.",
+      "mindmap": "graph TB\n        Root(”Low Rank Comes with Low Security: Gradient Assembly Poisoning Attacks against Distributed LoRA-based LLM Systems”) --> Problem(”核心问题/Problem”)\n        Root --> Method(”主要方法/Method”)\n        Root --> Results(”关键结果/Results”)\n        Problem --> P1(”LoRA联邦微调中A/B矩阵分离提交的验证盲区/Verification Blind Spot for Separate A/B Submission in Federated LoRA”)\n        Method --> M1(”梯度组装投毒攻击/Gradient Assembly Poisoning (GAP)”)\n        Results --> R1(”性能显著下降/Significant Performance Degradation”)\n        Results --> R2(”攻击隐蔽，难以检测/Stealthy and Hard to Detect”)"
+    },
+    {
+      "title": "Threat Intelligence Driven IP Protection for Entrepreneurial SMEs",
+      "authors": "Sam Pitruzzello, Atif Ahmad, Sean Maynard",
+      "institution": "University of Melbourne",
+      "link": "https://arxiv.org/pdf/2601.00571",
+      "code": null,
+      "tags": [
+        "threat intelligence",
+        "threat intelligence",
+        "intellectual property protection",
+        "dynamic capabilities",
+        "knowledge-based view",
+        "entrepreneurial SMEs"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cf8bea3ce0941fd4b5382ca4805175c2208ac7da3d9a5277370750c67878f4c4_w640_q70.webp",
+      "contributions": "1. Proposes the Threat Intelligence-driven IP Protection (TI-IPP) model to address a critical research gap in protecting SME intellectual property. 2. Integrates Dynamic Capabilities and Knowledge-Based View theories to frame cybersecurity and IP protection for entrepreneurial SMEs. 3. Outlines a qualitative, case-study-based research methodology to validate the model in resource-constrained environments.",
+      "summary": "This paper addresses the cybersecurity challenges faced by entrepreneurial SMEs in protecting their intellectual property. It proposes a conceptual Threat Intelligence-driven IP Protection (TI-IPP) model that integrates threat intelligence with IP practices to help SMEs adapt their strategies. The model is a work-in-progress to be validated through case studies.",
+      "mindmap": "graph TB\n        A[Threat Intelligence Driven IP Protection for Entrepreneurial SMEs] --> B[核心问题/Problem: E-SMEs face cybersecurity challenges protecting IP]\n        A --> C[主要方法/Method: Propose TI-IPP model with two modes & four phases]\n        A --> D[关键结果/Results: Conceptual model for safeguarding IP and maintaining advantage]"
+    },
+    {
+      "title": "Toward a Dynamic Intellectual Property Protection Model in High-Growth SMEs",
+      "authors": "Sam Pitruzzello, Sean Maynard, Atif Ahmad",
+      "institution": "University of Melbourne",
+      "link": "https://arxiv.org/pdf/2601.00572",
+      "code": null,
+      "tags": [
+        "cybersecurity management",
+        "intellectual property protection",
+        "dynamic capabilities",
+        "knowledge-based view",
+        "open innovation",
+        "qualitative methodology"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9b8f63db9c6d59aa7e5f6cfaf3b3543f5946b10743c31ec78cd99adaab762b91_w640_q70.webp",
+      "contributions": "1. Identifies and examines the underexplored intersection of cybersecurity, IP protection, and rapid scaling in High-Growth SMEs (HG-SMEs). 2. Proposes a novel conceptual framework for dynamic IP protection, integrating theories of Dynamic Capabilities (DC), Knowledge-based View (KBV), and open innovation. 3. Outlines a qualitative research methodology to validate and refine the proposed model, aiming to provide practical guidance for balancing IP security with collaborative innovation.",
+      "summary": "This paper addresses the challenge for High-Growth SMEs (HG-SMEs) to protect intellectual property (IP) from cybersecurity threats while engaging in open innovation during rapid scaling. It proposes a conceptual framework based on Dynamic Capabilities and Knowledge-based View theories to guide IP management. The work is a research-in-progress that outlines a qualitative methodology to validate the model and provide practical guidance for these companies.",
+      "mindmap": "graph TB\n        A[Toward a Dynamic Intellectual Property Protection Model in High-Growth SMEs] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[HG-SMEs struggle to balance IP protection with open innovation during rapid growth]\n        C --> C1[Proposes a conceptual framework integrating DC, KBV, and open innovation theories]\n        C --> C2[Outlines a qualitative methodology for model validation]\n        D --> D1[Aims to provide practical guidance for managing IP cybersecurity]"
+    },
+    {
+      "title": "Towards Understanding and Characterizing Vulnerabilities in Intelligent Connected Vehicles through Real-World Exploits",
+      "authors": "Yuelin Wang, Yuqiao Ning, Yanbang Sun, Xiaofei Xie, Zhihua Xie, Yang Chen, Zhen Guo, Shihao Xue, Junjie Wang, Sen Chen",
+      "institution": "Tianjin University, China Automotive Technology & Research Center Co., Ltd., Singapore Management University, Nankai University",
+      "link": "https://arxiv.org/pdf/2601.00627",
+      "code": null,
+      "tags": [
+        "automotive security",
+        "Intelligent Connected Vehicles",
+        "vulnerability taxonomy",
+        "empirical study"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b54d1ae7155015517ea41f4712b72855a6ad2dca04602d214eb8c70115598c03_w640_q70.webp",
+      "contributions": "1. Conducted the first large-scale empirical study on ICV vulnerabilities using a dataset of 649 real-world exploits. 2. Evaluated and extended existing vulnerability taxonomies, discovering one new vulnerability location and 13 new vulnerability types. 3. Categorized vulnerabilities into threat types and risk levels, providing a data-driven analysis for researchers and practitioners.",
+      "summary": "This paper addresses the lack of systematic understanding of vulnerabilities in Intelligent Connected Vehicles (ICVs) by conducting a large-scale empirical study. The authors collected 649 real-world exploitable vulnerabilities, primarily from competitions, to assess and extend existing vulnerability taxonomies. The study provides a comprehensive, data-driven characterization of ICV vulnerabilities, identifying new types and offering actionable insights for security improvement.",
+      "mindmap": "graph TB\n        Root[”Towards Understanding and Characterizing Vulnerabilities in Intelligent Connected Vehicles through Real-World Exploits”] --> Problem[”核心问题/Problem: Lack of systematic, validated understanding of ICV vulnerabilities”]\n        Root --> Method[”主要方法/Method: Large-scale empirical study using 649 real-world exploits from competitions”]\n        Root --> Results[”关键结果/Results: Extended taxonomy with new location & types, categorized threats & risks”]"
+    },
+    {
+      "title": "Improving Router Security using BERT",
+      "authors": "John Carter, Spiros Mancoridis, Pavlos Protopapas, Brian Mitchell, Benji Lilley",
+      "institution": "Drexel University, Harvard University",
+      "link": "https://arxiv.org/pdf/2601.00783",
+      "code": null,
+      "tags": [
+        "anomaly detection",
+        "BERT",
+        "contrastive augmented learning",
+        "eBPF",
+        "network packet abstraction language",
+        "router security"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5428ab04b986b524b01d7024f06f52534ed781a9b04d0386f63375080add6594_w640_q70.webp",
+      "contributions": "1. Introduces contrastive augmented learning with controlled mutation of negative samples to improve BERT-based anomaly detection at low false positive rates. 2. Proposes a network packet abstraction language to create a complementary detection pipeline for network-focused malware. 3. Implements and validates the methods in an online router anomaly detection framework within an IoT deployment environment.",
+      "summary": "This paper improves router security by enhancing a BERT-based anomaly detection system. It uses a high-fidelity eBPF sensor and contrastive augmented learning for better system call analysis, and introduces a network packet abstraction language to incorporate network behavior signals. The combined approach yields improved malware detection performance at low false positive rates, validated in an online IoT router framework.",
+      "mindmap": "graph TB\n        A[Improving Router Security using BERT] --> B(核心问题/Problem)\n        A --> C(主要方法/Method)\n        A --> D(关键结果/Results)\n        B --> B1[现有基于BERT的检测方法在低误报率下性能有限 / Prior BERT-based detection has limited performance at low FPR]\n        C --> C1[使用高保真eBPF系统调用传感器 / Use high-fidelity eBPF system call sensor]\n        C --> C2[引入对比增强学习 / Introduce contrastive augmented learning]\n        C --> C3[提出网络数据包抽象语言 / Propose network packet abstraction language]\n        C --> C4[在线路由器异常检测框架 / Online router anomaly detection framework]\n        D --> D1[在低误报率下提升检测性能 / Improved detection performance at low FPR]\n        D --> D2[网络行为提供互补检测信号 / Network behavior provides complementary signals]\n        D --> D3[在IoT部署环境中验证 / Validated in IoT deployment]"
+    },
+    {
+      "title": "When Does Quantum Differential Privacy Compose?",
+      "authors": "Daniel Alabi, Theshani Nuradha",
+      "institution": "University of Illinois at Urbana-Champaign",
+      "link": "https://arxiv.org/pdf/2601.00337",
+      "code": null,
+      "tags": [
+        "quantum differential privacy",
+        "quantum differential privacy",
+        "composition theorems",
+        "privacy loss",
+        "quantum moments accountant",
+        "measured Rényi divergence"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/22dd1b813c54a9a9604aaf1424ad2d33aa1f390d5516e41897be8b911fee949f_w640_q70.webp",
+      "contributions": "1. Showed that classical-style composition fails in full generality for POVM-based approximate quantum differential privacy (QDP), as individually private channels can lose privacy when combined via correlated implementations. 2. Introduced a quantum moments accountant based on an operator-valued notion of privacy loss and a matrix moment-generating function for tensor-product channels on product neighboring inputs. 3. Proved that controlling the moments of their defined Rényi-type divergence suffices to bound measured Rényi divergence, yielding advanced-composition-style bounds with the same leading-order behavior as classical theory.",
+      "summary": "This paper investigates when composition theorems, a cornerstone of classical differential privacy, can be extended to the quantum setting. It shows that classical composition fails generally for quantum differential privacy but introduces a quantum moments accountant framework that restores clean composition guarantees for tensor-product channels on product inputs, achieving bounds with the same leading-order behavior as classical theory.",
+      "mindmap": "graph TB\n        Root(”When Does Quantum Differential Privacy Compose?”) --> Problem(”核心问题/Problem”)\n        Root --> Method(”主要方法/Method”)\n        Root --> Results(”关键结果/Results”)\n        Problem --> P1(”经典组合在量子差分隐私中失效/Classical composition fails for QDP”)\n        Problem --> P2(”需要明确何时有意义的组合保证成立/Need to clarify when meaningful composition holds”)\n        Method --> M1(”引入量子矩会计/Introduce quantum moments accountant”)\n        Method --> M2(”基于算子值隐私损失和矩阵矩生成函数/Based on operator-valued privacy loss & matrix MGF”)\n        Results --> R1(”为张量积通道恢复组合保证/Restore composition guarantees for tensor-product channels”)\n        Results --> R2(”获得与经典理论相同主导阶的边界/Achieve bounds with same leading-order as classical theory”)"
+    },
+    {
+      "title": "Three results on twisted $G-$codes and skew twisted $G-$codes",
+      "authors": "Alvaro Otero Sanchez",
+      "institution": "Universidad de Almería",
+      "link": "https://arxiv.org/pdf/2601.00752",
+      "code": null,
+      "tags": [
+        "coding theory",
+        "twisted group codes",
+        "skew group codes",
+        "checkable codes",
+        "group algebra",
+        "error-correcting codes"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/772572de6c9186da4862191f11550a4c149ad4c30f2ea6f759efdbf20fa4e68e_w640_q70.webp",
+      "contributions": "1. Solves an open question about when a twisted skew group code is checkable. 2. Proves that all ideals of dimension 3 over a twisted group algebra are abelian group codes, generalizing a previous result. 3. Proves a bound on the dimension and distance of a twisted group code and characterizes when the bound is reached.",
+      "summary": "This paper presents three theoretical results in algebraic coding theory concerning codes derived from group algebras. It solves an open problem about the checkability of twisted skew group codes, generalizes a classification result for 3-dimensional ideals, and establishes a new bound on code parameters. The work advances the mathematical understanding of twisted and skew group codes.",
+      "mindmap": "graph TB\n    A[Three results on twisted G-codes and skew twisted G-codes] --> B(核心问题/Problem)\n    A --> C(主要方法/Method)\n    A --> D(关键结果/Results)\n    B --> B1[Open question: When is a twisted skew group code checkable?]\n    C --> C1[Algebraic analysis of twisted group algebras and ideals]\n    D --> D1[Solved the open checkability question]\n    D --> D2[Proved 3D ideals are abelian group codes]\n    D --> D3[Proved bound on dimension/distance]"
+    },
     {
       "title": "Audited Skill-Graph Self-Improvement for Agentic LLMs via Verifiable Rewards, Experience Synthesis, and Continual Memory",
       "authors": "Ken Huang, Jerry Huang",

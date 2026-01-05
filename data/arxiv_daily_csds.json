@@ -1,8 +1,91 @@
 {
   "label": "cs.DS",
   "slug": "csds",
-  "week": "20251229-20260104",
+  "week": "20260105-20260111",
   "items": [
+    {
+      "title": "Bounds on Longest Simple Cycles in Weighted Directed Graphs via Optimum Cycle Means",
+      "authors": "Ali Dasdan",
+      "institution": "KD Consulting",
+      "link": "https://arxiv.org/pdf/2601.00094",
+      "code": null,
+      "tags": [
+        "graph algorithms",
+        "longest simple cycle",
+        "optimum cycle means",
+        "weighted directed graphs",
+        "algebraic bounds",
+        "heuristic approximations"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f91ce51ca3513f1ba03d0bc651207d28bc3a73c00d26a8987551dc93debe8db2_w640_q70.webp",
+      "contributions": "1. Introduces polynomial-time computable strict algebraic bounds for the longest simple cycle using optimum cycle means. 2. Proposes heuristic approximations for the longest cycle's weight and length based on these means, offering high accuracy. 3. Provides a rigorous algebraic analysis linking cycle mean statistics to longest/shortest cycle properties and validates the trade-off between bounds and approximations on benchmark circuits.",
+      "summary": "This paper addresses the NP-hard problem of finding the longest simple cycle in a weighted directed graph. It proposes using efficiently computable optimum cycle means to derive both strict algebraic bounds for search space pruning and accurate heuristic approximations for the cycle's value. Experiments on circuit benchmarks show the heuristic approximations achieve low median errors (6-14%), while the strict bounds, though loose, are useful for pruning, and they also observe a correlation between long cycles and large weights.",
+      "mindmap": "graph TB\n        A(论文标题: Bounds on Longest Simple Cycles in Weighted Directed Graphs via Optimum Cycle Means) --> B(核心问题: 寻找有向加权图中的最长简单环是NP难问题 / Problem: Finding the longest simple cycle in a weighted directed graph is NP-hard)\n        A --> C(主要方法: 利用最优环均值计算严格代数界和启发式近似 / Method: Using optimum cycle means to derive strict algebraic bounds and heuristic approximations)\n        A --> D(关键结果: 启发式近似误差小(6-14%)，严格界可用于剪枝，长环常具大权重 / Results: Heuristic approximations have low error (6-14%), strict bounds are useful for pruning, long cycles often have large weights)"
+    },
+    {
+      "title": "Efficient Algorithms for Adversarially Robust Approximate Nearest Neighbor Search",
+      "authors": "Alexandr Andoni, Themistoklis Haris, Esty Kelman, Krzysztof Onak",
+      "institution": "Columbia University, Boston University, Massachusetts Institute of Technology",
+      "link": "https://arxiv.org/pdf/2601.00272",
+      "code": null,
+      "tags": [
+        "privacy-preserving algorithms",
+        "adaptive adversary",
+        "approximate nearest neighbor",
+        "locality-sensitive hashing",
+        "differential privacy",
+        "fairness"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f7e3fe5ddcef8f5187b965ed1f0cfa85fc0a705f1f3b4754dfcc600aa13fccab_w640_q70.webp",
+      "contributions": "1. Establishes a novel connection between adaptive security and fairness for ANN search, using fair ANN to hide internal randomness. 2. Introduces a novel concentric-annuli LSH construction that synthesizes fairness and differential privacy to break the inherent √n query time barrier. 3. Proposes specialized algorithms with strong \"for-all\" guarantees for the low-dimensional regime, based on novel metric covering constructions for Hamming and ℓ_p spaces.",
+      "summary": "This paper tackles the Approximate Nearest Neighbor (ANN) search problem under a powerful adaptive adversary. It proposes a sequence of algorithms, primarily for high dimensions, that combine concepts from fairness and differential privacy with a novel concentric-annuli LSH structure to achieve robust, data-independent performance and break a fundamental query time barrier. For low dimensions, it introduces new metric covering constructions to guarantee correctness on every possible query.",
+      "mindmap": "graph TB\n        Root(”Efficient Algorithms for Adversarially Robust Approximate Nearest Neighbor Search<br>对抗鲁棒近似最近邻搜索的高效算法”) --> Problem(”核心问题/Problem”)\n        Root --> Method(”主要方法/Method”)\n        Root --> Results(”关键结果/Results”)\n    \n        Problem --> P1(”高维ANN受自适应对手攻击<br>High-dim ANN under Adaptive Adversary”)\n        Problem --> P2(”需要数据无关的性能保证<br>Need Data-Independent Performance”)\n    \n        Method --> M1(”连接自适应安全与公平性<br>Link Adaptive Security & Fairness”)\n        Method --> M2(”使用差分隐私的鲁棒决策<br>Robust Decision via Differential Privacy”)\n        Method --> M3(”新型同心环LSH构造<br>Novel Concentric-Annuli LSH”)\n        Method --> M4(”低维专用算法与度量覆盖<br>Low-dim Algorithms & Metric Coverings”)\n    \n        Results --> R1(”打破√n查询时间壁垒<br>Break √n Query Time Barrier”)\n        Results --> R2(”改进公平ANN结果<br>Improve Fair ANN Results”)\n        Results --> R3(”为所有查询提供强保证<br>Strong 'For-All' Guarantee for Queries”)"
+    },
+    {
+      "title": "Deterministic Coreset for Lp Subspace",
+      "authors": "Rachit Chhaya, Anirban Dasgupta, Dan Feldman, Supratim Shit",
+      "institution": "Dhirubhai Ambani University, IIT Gandhinagar, University of Haifa, IIIT-Delhi",
+      "link": "https://arxiv.org/pdf/2601.00361",
+      "code": null,
+      "tags": [
+        "randomized algorithms",
+        "numerical linear algebra",
+        "data summarization",
+        "coreset",
+        "subspace embedding",
+        "ℓp regression",
+        "deterministic algorithm",
+        "iterative algorithm"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b23fc2c49cea022bba3ab19cb79b7de330860628aab1b669177840bc826ecda1_w640_q70.webp",
+      "contributions": "1. Introduces the first iterative algorithm for constructing a deterministic ε-coreset for ℓp subspace embedding for any p in [1,∞). 2. Achieves an optimal coreset size of O(d^\\{max(1,p/2)\\}/ε²), removing long-standing logarithmic factors. 3. Provides a deterministic guarantee for the coreset, enabling its use for approximately solving ℓp regression deterministically.",
+      "summary": "This paper presents a new iterative algorithm for constructing a deterministic coreset that provides an ℓp subspace embedding for any p≥1. The method ensures bounded loss in each iteration, leading to a coreset whose size is optimal and free of logarithmic factors. The result solves a long-standing open problem and enables deterministic approximate solutions to ℓp regression.",
+      "mindmap": "graph TB\n        Root(”Deterministic Coreset for Lp Subspace”) --> Problem(”核心问题/Problem”)\n        Root --> Method(”主要方法/Method”)\n        Root --> Results(”关键结果/Results”)\n        Problem --> P1(”需要为 ℓp 子空间嵌入构建确定性核心集 / Need deterministic coreset for ℓp subspace embedding”)\n        Problem --> P2(”现有核心集存在对数因子 / Existing coresets have log factors”)\n        Method --> M1(”迭代算法 / Iterative algorithm”)\n        Method --> M2(”确保有界损失 / Ensures bounded loss”)\n        Results --> R1(”核心集大小: O(d^{max(1,p/2)}/ε²) / Coreset size: O(d^{max(1,p/2)}/ε²)”)\n        Results --> R2(”移除对数因子 / Removes log factors”)\n        Results --> R3(”确定性保证 / Deterministic guarantee”)"
+    },
+    {
+      "title": "Mind the Gap. Doubling Constant Parametrization of Weighted Problems: TSP, Max-Cut, and More",
+      "authors": "Mihail Stoian",
+      "institution": "University of Technology Nuremberg",
+      "link": "https://arxiv.org/pdf/2601.00768",
+      "code": null,
+      "tags": [
+        "parameterized complexity",
+        "approximation algorithms",
+        "doubling constant",
+        "Freiman's theorem",
+        "polynomial embedding",
+        "weighted NP-hard problems",
+        "meta-algorithm"
+      ],
+      "day": "2026-01-05",
+      "thumbnail": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fa64a4712c595b8ff5c4fad574e0eace93482c8ffa086d82a78c4f2bb511a9b3_w640_q70.webp",
+      "contributions": "1. Introduces a new method to repurpose unweighted problem algorithms for their weighted versions without incurring pseudo-polynomial overhead for instances with small doubling. 2. Applies a constructive version of Freiman's theorem to convert input weights into polynomially bounded integers. 3. Shows that the time complexity for problems like TSP and Max-Cut becomes proportional to their unweighted versions under the small doubling condition.",
+      "summary": "This paper addresses the difficulty of speeding up weighted NP-hard problems like TSP and Max-Cut. It proposes a meta-algorithm that uses a constructive Freiman's theorem to convert weights into polynomially bounded integers before applying polynomial embedding, making the runtime proportional to the unweighted version when the set of input weights has a small doubling constant. The main conclusion is that this approach provides a practical speedup for weighted instances with structured weight sets.",
+      "mindmap": "graph TB\n        A[Paper Title: Mind the Gap. Doubling Constant Parametrization of Weighted Problems] --> B[核心问题/Problem: Weighted NP-hard problems resist speedups, unlike unweighted versions]\n        A --> C[主要方法/Method: Meta-algorithm using constructive Freiman's theorem to convert weights to polynomially bounded integers]\n        A --> D[关键结果/Results: Time complexity proportional to unweighted version for problems with small doubling constant]"
+    },
     {
       "title": "Sparse Random Matrices for Dimensionality Reduction",
       "authors": "Pierre Mackenzie",

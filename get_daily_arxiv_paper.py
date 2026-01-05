@@ -19,6 +19,12 @@ import concurrent.futures
 from tqdm import tqdm
 from bs4 import BeautifulSoup
 import sys
+from supabase import create_client, Client
+
+# Supabase 配置
+SUPABASE_URL = os.environ.get("SUPABASE_URL")
+SUPABASE_KEY = os.environ.get("SUPABASE_SERVICE_ROLE_KEY") or os.environ.get("SUPABASE_ANON_KEY")
+
 
 # PDF处理相关
 try:
@@ -1146,6 +1152,66 @@ graph TB
         formatted_text += "\n"
         return formatted_text
 
+    def save_papers_to_supabase(self, papers):
+        """保存论文到 Supabase 数据库"""
+        if not SUPABASE_URL or not SUPABASE_KEY:
+            print("Supabase 环境变量未配置，跳过数据库保存")
+            return
+
+        try:
+            supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
+            
+            db_papers = []
+            for paper in papers:
+                # 转换字段以匹配数据库 schema
+                # 假设 categories 是列表，转换为 JSONB 或数组字符串
+                # 数据库 schema: id, title, authors, summary, published_date, updated_date, link, pdf_link, 
+                #               categories, comment, journal_ref, doi, primary_category, created_at
+                #               tags, institution, code, contributions, thumbnail, llm_summary, mindmap
+                
+                # 处理日期格式
+                published = paper.get('published', '')
+                if published == 'N/A': published = None
+                
+                updated = paper.get('updated', '')
+                if updated == 'N/A': updated = None
+
+                db_paper = {
+                    "title": paper.get('title'),
+                    "authors": paper.get('authors', []),
+                    "summary": paper.get('summary'),
+                    "published_date": published,
+                    "updated_date": updated,
+                    "link": paper.get('id'), # arXiv ID url as link
+                    "pdf_link": paper.get('pdf_link'),
+                    "categories": paper.get('categories', []),
+                    "tags": [t.strip() for t in paper.get('tag3', '').split(',')] if paper.get('tag3') else [],
+                    "institution": paper.get('institution'),
+                    "code_url": paper.get('code') if paper.get('code') != 'None' else None,
+                    "contributions": paper.get('contributions'),
+                    "thumbnail": paper.get('thumbnail'),
+                    "llm_summary": paper.get('llm_summary'),
+                    "mindmap": paper.get('mermaid'),
+                    # 额外字段映射
+                    "category_slug": (paper.get('categories', [])[0] if paper.get('categories') else 'unknown').replace('.', '_')
+                }
+                db_papers.append(db_paper)
+            
+            if not db_papers:
+                return
+
+            # 批量插入/更新
+            # 分批处理以避免请求过大
+            batch_size = 50
+            for i in range(0, len(db_papers), batch_size):
+                batch = db_papers[i:i+batch_size]
+                response = supabase.table('papers').upsert(batch, on_conflict='link').execute()
+                
+            print(f"成功保存 {len(db_papers)} 篇论文到 Supabase")
+            
+        except Exception as e:
+            print(f"保存到 Supabase 失败: {e}")
+
     def update_markdown_file(self, filepath, papers, date_str):
         # ...实现不变...
         if not papers:
@@ -1464,24 +1530,9 @@ graph TB
         # 3. 统计结果
         print(f"处理完成！总共 {len(processed_papers)} 篇论文")
 
-        # 4. 更新markdown文件
-        print("步骤3: 更新markdown文件...")
-        weekly_file = self.find_or_create_weekly_file(single_date)
-        if weekly_file:
-            self.update_markdown_file(weekly_file, processed_papers, single_date)
-            print(f"处理完成！论文已添加到: {weekly_file}")
-        else:
-            print("无法创建或找到周文件")
-
-        category_map = {}
-        for p in processed_papers:
-            for cat in (p.get('categories') or []):
-                category_map.setdefault(cat, []).append(p)
-        for cat, cat_papers in category_map.items():
-            cat_weekly_file = self.find_or_create_weekly_file_for_category(single_date, cat)
-            if cat_weekly_file:
-                self.update_markdown_file_for_category(cat_weekly_file, cat_papers, single_date, cat)
-                print(f"类别 {cat} 的论文已添加到: {cat_weekly_file}")
+        # 4. 保存到数据库
+        print("步骤3: 保存到 Supabase 数据库...")
+        self.save_papers_to_supabase(processed_papers)
         
         # 完成后写入arxiv_date.txt
         append_to_processed(single_date)

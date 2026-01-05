@@ -13,6 +13,7 @@ type PaperItem = {
   tags?: string[];
   day?: string;
   thumbnail?: string;
+  img?: string; // Legacy support
   contributions?: string;
   summary?: string;
   mindmap?: string;
@@ -56,7 +57,18 @@ const DetailModal = ({ paper, onClose }: { paper: PaperItem; onClose: () => void
                 {/* Slide 0: Image */}
                 <div style={{ width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexShrink: 0 }}>
                     {paper.thumbnail ? (
-                        <img src={paper.thumbnail} alt={paper.title} />
+                        <img 
+                            src={paper.thumbnail} 
+                            alt={paper.title} 
+                            referrerPolicy="no-referrer"
+                            onError={(e) => {
+                                e.currentTarget.style.display = 'none';
+                                const parent = e.currentTarget.parentElement;
+                                if (parent) {
+                                    parent.innerHTML = '<div style="color: #999">Image Load Failed</div>';
+                                }
+                            }}
+                        />
                     ) : (
                         <div style={{color: '#999'}}>No Image Available</div>
                     )}
@@ -240,71 +252,169 @@ const CalendarWidget = ({ availableDates, selectedDate, onSelectDate }: { availa
     );
 };
 
+import { supabase, isSupabaseConfigured } from '../lib/supabaseClient';
+
+const CATEGORIES = [
+    { label: "cs.AI", slug: "csai" }, { label: "cs.AR", slug: "csar" }, { label: "cs.CC", slug: "cscc" }, { label: "cs.CE", slug: "csce" },
+    { label: "cs.CG", slug: "cscg" }, { label: "cs.CL", slug: "cscl" }, { label: "cs.CR", slug: "cscr" }, { label: "cs.CV", slug: "cscv" },
+    { label: "cs.CY", slug: "cscy" }, { label: "cs.DB", slug: "csdb" }, { label: "cs.DC", slug: "csdc" }, { label: "cs.DL", slug: "csdl" },
+    { label: "cs.DM", slug: "csdm" }, { label: "cs.DS", slug: "csds" }, { label: "cs.ET", slug: "cset" }, { label: "cs.FL", slug: "csfl" },
+    { label: "cs.GR", slug: "csgr" }, { label: "cs.GT", slug: "csgt" }, { label: "cs.HC", slug: "cshc" }, { label: "cs.IR", slug: "csir" },
+    { label: "cs.IT", slug: "csit" }, { label: "cs.LG", slug: "cslg" }, { label: "cs.LO", slug: "cslo" }, { label: "cs.MA", slug: "csma" },
+    { label: "cs.MM", slug: "csmm" }, { label: "cs.MS", slug: "csms" }, { label: "cs.NE", slug: "csne" }, { label: "cs.NI", slug: "csni" },
+    { label: "cs.OH", slug: "csoh" }, { label: "cs.OS", slug: "csos" }, { label: "cs.PF", slug: "cspf" }, { label: "cs.PL", slug: "cspl" },
+    { label: "cs.RO", slug: "csro" }, { label: "cs.SC", slug: "cssc" }, { label: "cs.SD", slug: "cssd" }, { label: "cs.SE", slug: "csse" },
+    { label: "cs.SI", slug: "cssi" }
+];
+
 export default function ArxivDailyPage() {
   const {siteConfig} = useDocusaurusContext();
-  const [data, setData] = useState<CategoryData[]>([]);
+  const [data, setData] = useState<CategoryData[]>(() => CATEGORIES.map(c => ({...c, items: []})));
   const [loadedCats, setLoadedCats] = useState<Set<string>>(new Set());
-  const [searchIndex, setSearchIndex] = useState<PaperItem[]>([]);
-  const [active, setActive] = useState<string>('csai');
-  const [selectedPaper, setSelectedPaper] = useState<PaperItem | null>(null);
-  const dataUrl = useBaseUrl('/data/arxiv_daily.json');
-  const baseUrl = siteConfig.baseUrl || '/';
-  const hotAds = (siteConfig?.themeConfig as any)?.hotAds || [];
+  const [searchResults, setSearchResults] = useState<PaperItem[]>([]);
+   const [isSearching, setIsSearching] = useState(false);
+   const [active, setActive] = useState<string>('csai');
+   const [selectedPaper, setSelectedPaper] = useState<PaperItem | null>(null);
+   const baseUrl = siteConfig.baseUrl || '/';
+   const hotAds = (siteConfig?.themeConfig as any)?.hotAds || [];
+   
+   const [searchQuery, setSearchQuery] = useState('');
+   const [translatedQuery, setTranslatedQuery] = useState('');
 
-  // 1. Load Metadata (Categories list)
-  useEffect(() => {
-    let cancelled = false;
-    (async () => {
-      try {
-        const res = await fetch(dataUrl);
-        if (!res.ok) return;
-        const json = await res.json();
-        const cats: CategoryData[] = json.categories || [];
-        if (!cancelled) {
-          // Initialize items as empty array to avoid undefined errors
-          const safeCats = cats.map(c => ({...c, items: c.items || []}));
-          setData(safeCats);
-          if (safeCats.length && !safeCats.find(c => c.slug === active)) {
-            setActive(safeCats[0].slug);
-          }
-        }
-      } catch {}
-    })();
-    return () => { cancelled = true; };
-  }, [dataUrl]);
+   // Auto-translate Chinese query to English for better search results
+   useEffect(() => {
+     const query = searchQuery.trim();
+     if (!query) {
+       setTranslatedQuery('');
+       return;
+     }
+ 
+     // Check if query contains Chinese characters
+     const hasChinese = /[\u4e00-\u9fa5]/.test(query);
+     if (!hasChinese) {
+       setTranslatedQuery(query);
+       return;
+     }
+ 
+     // Debounce translation to avoid too many requests
+     const timer = setTimeout(async () => {
+       try {
+         const res = await fetch(`https://translate.googleapis.com/translate_a/single?client=gtx&sl=zh-CN&tl=en&dt=t&q=${encodeURIComponent(query)}`);
+         const data = await res.json();
+         if (data && data[0] && data[0][0] && data[0][0][0]) {
+             setTranslatedQuery(data[0][0][0]);
+         }
+       } catch (e) {
+         // Fallback to original query on error
+         setTranslatedQuery(query);
+       }
+     }, 500);
+ 
+     return () => clearTimeout(timer);
+   }, [searchQuery]);
+   
+   // Flag to check if we are using Supabase
+   const useSupabase = isSupabaseConfigured();
 
-  // 2. Load Active Category Data
-  useEffect(() => {
-    if (!active || loadedCats.has(active)) return;
-    
-    (async () => {
-        try {
-            const cleanBase = baseUrl.endsWith('/') ? baseUrl : baseUrl + '/';
-            const url = `${cleanBase}data/arxiv_daily_${active}.json`;
-            const res = await fetch(url);
-            if (!res.ok) return;
-            const catData = await res.json();
-            
-            setData(prev => prev.map(c => c.slug === active ? { ...c, items: catData.items || [] } : c));
-            setLoadedCats(prev => new Set(prev).add(active));
-        } catch (e) { console.error("Failed to load category", active, e); }
-    })();
-  }, [active, loadedCats, baseUrl]);
+   // 2. Load Active Category Data (Supabase only)
+   useEffect(() => {
+     if (!active || loadedCats.has(active)) return;
+     
+     (async () => {
+         try {
+             console.log("Fetching category:", active, "Use Supabase:", useSupabase);
+             if (useSupabase && supabase) {
+                 // Convert slug (e.g. 'csai') to DB category format (e.g. 'cs_AI')
+                 // We assume the DB uses the folder name format which was likely 'cs_AI' derived from 'cs.AI'
+                 const categoryDef = CATEGORIES.find(c => c.slug === active);
+                 const dbCategory = categoryDef ? categoryDef.label.replace('.', '_') : active;
+                 console.log("DB Category Slug:", dbCategory);
 
-  // 3. Load Search Index
-  useEffect(() => {
-      (async () => {
-          try {
-             const cleanBase = baseUrl.endsWith('/') ? baseUrl : baseUrl + '/';
-             const url = `${cleanBase}data/arxiv_daily_search.json`;
-             const res = await fetch(url);
-             if (res.ok) {
-                 const idx = await res.json();
-                 setSearchIndex(idx);
+                 const { data: papers, error } = await supabase
+                     .from('papers')
+                     .select('*')
+                     .eq('category_slug', dbCategory)
+                     .order('published_date', { ascending: false })
+                     .limit(1280);
+                 
+                 if (error) {
+                    console.error("Supabase Error:", error);
+                 }
+                 console.log("Supabase Data:", papers?.length);
+
+                 if (!error && papers) {
+                      const mappedItems: PaperItem[] = papers.map((p: any) => ({
+                          title: p.title,
+                          day: p.published_date,
+                          thumbnail: p.thumbnail_url,
+                          img: p.thumbnail_url,
+                          link: p.link,
+                          code: p.code_url,
+                          tags: p.tags || [],
+                          authors: p.authors,
+                          institution: p.institution,
+                          summary: p.summary,
+                          contributions: p.contributions,
+                          mindmap: p.mindmap,
+                          slug: p.category_slug
+                      }));
+                      
+                      setData(prev => prev.map(c => c.slug === active ? { ...c, items: mappedItems } : c));
+                      setLoadedCats(prev => new Set(prev).add(active));
+                 } else {
+                      console.error("Failed to load category from Supabase", active, error);
+                 }
              }
-          } catch {}
-      })();
-  }, [baseUrl]);
+         } catch (e) { console.error("Failed to load category", active, e); }
+     })();
+   }, [active, loadedCats, baseUrl, useSupabase]);
+
+   // 3. Search (Supabase)
+  useEffect(() => {
+      const query = translatedQuery || searchQuery;
+      if (!query.trim()) {
+          setSearchResults([]);
+          return;
+      }
+
+      let cancelled = false;
+      const doSearch = async () => {
+          setIsSearching(true);
+          try {
+             if (useSupabase && supabase) {
+                 const { data, error } = await supabase
+                    .from('papers')
+                    .select('*')
+                    .or(`title.ilike.%${query}%,summary.ilike.%${query}%`)
+                    .limit(50);
+                 
+                 if (!cancelled && !error && data) {
+                     const mapped: PaperItem[] = data.map((p: any) => ({
+                         title: p.title,
+                         day: p.published_date,
+                         thumbnail: p.thumbnail_url,
+                         img: p.thumbnail_url,
+                         link: p.link,
+                         code: p.code_url,
+                         tags: p.tags || [],
+                         authors: p.authors,
+                         institution: p.institution,
+                         summary: p.summary,
+                         contributions: p.contributions,
+                         mindmap: p.mindmap,
+                         slug: p.category_slug
+                     }));
+                     setSearchResults(mapped);
+                 }
+             }
+          } catch (e) { console.error("Search failed", e); }
+          finally { if (!cancelled) setIsSearching(false); }
+      };
+
+      // Debounce slightly to avoid rapid fire
+      const timer = setTimeout(doSearch, 300);
+      return () => { cancelled = true; clearTimeout(timer); };
+  }, [translatedQuery, searchQuery, useSupabase]);
 
   const zhMap = useMemo(() => ({
     ai: '人工智能', ce: '计算工程', cl: '计算语言学', cv: '计算机视觉', lg: '机器学习', dc: '分布式计算',
@@ -352,61 +462,21 @@ export default function ArxivDailyPage() {
     }
   }, [active, availableDates]);
 
-  const [googleTranslateInit, setGoogleTranslateInit] = useState(false);
-  
-  // ... (google translate useEffect) ...
+  // googleTranslateInit was unused or part of duplicate block, removing if not used elsewhere
 
-  const [searchQuery, setSearchQuery] = useState('');
-  const [translatedQuery, setTranslatedQuery] = useState('');
-
-  // Auto-translate Chinese query to English for better search results
-  useEffect(() => {
-    const query = searchQuery.trim();
-    if (!query) {
-      setTranslatedQuery('');
-      return;
-    }
-
-    // Check if query contains Chinese characters
-    const hasChinese = /[\u4e00-\u9fa5]/.test(query);
-    if (!hasChinese) {
-      setTranslatedQuery(query);
-      return;
-    }
-
-    // Debounce translation to avoid too many requests
-    const timer = setTimeout(async () => {
-      try {
-        const res = await fetch(`https://translate.googleapis.com/translate_a/single?client=gtx&sl=zh-CN&tl=en&dt=t&q=${encodeURIComponent(query)}`);
-        const data = await res.json();
-        if (data && data[0] && data[0][0] && data[0][0][0]) {
-            setTranslatedQuery(data[0][0][0]);
-        }
-      } catch (e) {
-        // Fallback to original query on error
-        setTranslatedQuery(query);
-      }
-    }, 500);
-
-    return () => clearTimeout(timer);
-  }, [searchQuery]);
 
   const displayItems = useMemo(() => {
     // Use translatedQuery for filtering if available, otherwise searchQuery
     const effectiveQuery = translatedQuery || searchQuery;
     
     if (effectiveQuery.trim()) {
-      const lowerQuery = effectiveQuery.toLowerCase();
-      // Use searchIndex for search
-      return searchIndex.filter(it => {
-        const titleMatch = (it.title || '').toLowerCase().includes(lowerQuery);
-        const tagsMatch = (it.tags || []).some(tag => tag.toLowerCase().includes(lowerQuery));
-        return titleMatch || tagsMatch;
-      });
+       // When searching, we use the results from Supabase (searchResults)
+       // These are already filtered by the query in the useEffect
+       return searchResults;
     }
     if (!selectedDate) return activeItems;
     return activeItems.filter(it => it.day === selectedDate);
-  }, [activeItems, searchIndex, selectedDate, searchQuery, translatedQuery]);
+  }, [activeItems, searchResults, selectedDate, searchQuery, translatedQuery]);
 
   const handleCardClick = async (it: PaperItem) => {
       // If search mode and item has slug (from search index), we might need to load full data
@@ -415,33 +485,10 @@ export default function ArxivDailyPage() {
           if (targetSlug !== active) {
               setActive(targetSlug);
           }
-
-          let fullItem = it;
-          // Check if we need to fetch full data
-          if (!loadedCats.has(targetSlug)) {
-             try {
-                 const cleanBase = baseUrl.endsWith('/') ? baseUrl : baseUrl + '/';
-                 const url = `${cleanBase}data/arxiv_daily_${targetSlug}.json`;
-                 const res = await fetch(url);
-                 const catData = await res.json();
-                 
-                 // Update state
-                 setData(prev => prev.map(c => c.slug === targetSlug ? { ...c, items: catData.items || [] } : c));
-                 setLoadedCats(prev => new Set(prev).add(targetSlug));
-                 
-                 // Find full item
-                 const found = catData.items?.find((i: PaperItem) => i.title === it.title);
-                 if (found) fullItem = found;
-             } catch (e) { console.error("Error loading details", e); }
-          } else {
-             // Already loaded, find it in data
-             const cat = data.find(c => c.slug === targetSlug);
-             const found = cat?.items?.find(i => i.title === it.title);
-             if (found) fullItem = found;
-          }
-          setSelectedPaper(fullItem);
+          // The item from searchResults (it) should already have full data from Supabase
+          setSelectedPaper(it);
       } else {
-          // Normal mode or item without slug (shouldn't happen in search index)
+          // Normal mode or item without slug
           setSelectedPaper(it);
       }
   };
@@ -530,18 +577,30 @@ export default function ArxivDailyPage() {
                 <div key={idx} className="arxiv-card" onClick={() => handleCardClick(it)}>
                   <div className="arxiv-card-image">
                     {it.thumbnail ? (
-                      <img src={it.thumbnail} loading="lazy" alt="" />
+                      <img 
+                        src={it.thumbnail} 
+                        loading="lazy" 
+                        alt="" 
+                        referrerPolicy="no-referrer"
+                        onError={(e) => {
+                          e.currentTarget.style.display = 'none';
+                          e.currentTarget.parentElement?.classList.add('image-error');
+                        }}
+                      />
                     ) : null}
                   </div>
                   <div className="arxiv-card-footer">
                     <div className="arxiv-footer-title">{it.title}</div>
                     {it.tags && Array.isArray(it.tags) && it.tags.length > 0 && (
                       <div className="arxiv-card-tag-row">
-                        <span className="arxiv-card-tag">{it.tags[0]}</span>
+                        <span className="arxiv-card-tag">{it.tags[1] || it.tags[0]}</span>
                       </div>
                     )}
                     <div className="arxiv-footer-line">
-                      <span className="arxiv-author">{firstAuthor}</span>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '8px', overflow: 'hidden' }}>
+                        {it.day && <span className="arxiv-author">{it.day}</span>}
+                        <span className="arxiv-author">{firstAuthor}</span>
+                      </div>
                       <div className="arxiv-actions">
                         {it.code && it.code !== 'None' && (
                           <a className="arxiv-btn arxiv-btn-code" href={it.code} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()}>

@@ -5,8 +5,14 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
+import 'dotenv/config';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
+
+console.log("Supabase Config Loaded:", {
+  url: process.env.SUPABASE_URL,
+  hasKey: !!process.env.SUPABASE_ANON_KEY
+});
 
 const isDev = process.env.NODE_ENV === 'development';
 const isVercel = !!process.env.VERCEL;
@@ -27,6 +33,12 @@ const config = {
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: dynamicBaseUrl,
+
+  customFields: {
+    // Put your custom environment here
+    supabaseUrl: process.env.SUPABASE_URL,
+    supabaseAnonKey: process.env.SUPABASE_ANON_KEY,
+  },
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.

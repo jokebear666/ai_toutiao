@@ -20,4 +20,4 @@ yarn-debug.log*
 yarn-error.log*
 
 temp_pdfs
-*.pyc
+*.pyc.env

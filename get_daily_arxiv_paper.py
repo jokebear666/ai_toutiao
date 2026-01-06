@@ -188,6 +188,11 @@ class CompletePaperProcessor:
                     # 跳过修订版
                     if paper_info.get('replaced', False):
                         continue
+                    # 如果提供了目标日期，覆盖默认推断的日期
+                    if target_date:
+                        paper_info['published'] = target_date
+                        paper_info['updated'] = target_date
+
                     # 标注关键词匹配情况（用于统计展示）
                     summary_lower = (paper_info.get("summary", "") or "").lower()
                     paper_info['rl_match'] = "reinforcement learning" in summary_lower

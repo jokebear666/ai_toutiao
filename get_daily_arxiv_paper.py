@@ -1164,33 +1164,28 @@ graph TB
             db_papers = []
             for paper in papers:
                 # 转换字段以匹配数据库 schema
-                # 假设 categories 是列表，转换为 JSONB 或数组字符串
-                # 数据库 schema: id, title, authors, summary, published_date, updated_date, link, pdf_link, 
-                #               categories, comment, journal_ref, doi, primary_category, created_at
-                #               tags, institution, code, contributions, thumbnail, llm_summary, mindmap
-                
+                # 数据库 schema: id, category_slug, title, published_date, authors, institution, 
+                #               link, code_url, thumbnail_url, summary, contributions, mindmap, tags
+
                 # 处理日期格式
                 published = paper.get('published', '')
                 if published == 'N/A': published = None
                 
-                updated = paper.get('updated', '')
-                if updated == 'N/A': updated = None
+                # 处理作者列表转字符串
+                authors_list = paper.get('authors', [])
+                authors_str = ', '.join(authors_list) if isinstance(authors_list, list) else str(authors_list)
 
                 db_paper = {
                     "title": paper.get('title'),
-                    "authors": paper.get('authors', []),
-                    "summary": paper.get('summary'),
+                    "authors": authors_str,
+                    "summary": paper.get('llm_summary') or paper.get('summary'), # 优先使用 LLM 摘要
                     "published_date": published,
-                    "updated_date": updated,
                     "link": paper.get('id'), # arXiv ID url as link
-                    "pdf_link": paper.get('pdf_link'),
-                    "categories": paper.get('categories', []),
                     "tags": [t.strip() for t in paper.get('tag3', '').split(',')] if paper.get('tag3') else [],
                     "institution": paper.get('institution'),
                     "code_url": paper.get('code') if paper.get('code') != 'None' else None,
                     "contributions": paper.get('contributions'),
-                    "thumbnail": paper.get('thumbnail'),
-                    "llm_summary": paper.get('llm_summary'),
+                    "thumbnail_url": paper.get('thumbnail'), # Schema字段名为 thumbnail_url
                     "mindmap": paper.get('mermaid'),
                     # 额外字段映射
                     "category_slug": (paper.get('categories', [])[0] if paper.get('categories') else 'unknown').replace('.', '_')

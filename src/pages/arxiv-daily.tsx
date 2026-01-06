@@ -432,6 +432,7 @@ export default function ArxivDailyPage() {
                     .from('papers')
                     .select('*')
                     .or(`title.ilike.%${query}%,summary.ilike.%${query}%`)
+                    .order('published_date', { ascending: false })
                     .limit(50);
                  
                  if (!cancelled && !error && data) {

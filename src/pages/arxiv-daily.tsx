@@ -19,7 +19,7 @@ type PaperItem = {
   mindmap?: string;
   slug?: string;
 };
-type CategoryData = { label: string; slug: string; week?: string; items?: PaperItem[] };
+type CategoryData = { label: string; slug: string; week?: string; items?: PaperItem[]; dates?: string[] };
 
 const CodeIcon = () => (
   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -362,9 +362,22 @@ export default function ArxivDailyPage() {
    // Flag to check if we are using Supabase
    const useSupabase = isSupabaseConfigured();
 
+  const [loadingMore, setLoadingMore] = useState(false);
+  const [hasMore, setHasMore] = useState(true);
+  
+  // New states for date filtering
+  const [filteredItems, setFilteredItems] = useState<PaperItem[]>([]);
+  const [loadingDate, setLoadingDate] = useState(false);
+
    // 2. Load Active Category Data (Supabase only)
    useEffect(() => {
-     if (!active || loadedCats.has(active)) return;
+     if (!active) return;
+     // Reset state when category changes
+     setHasMore(true);
+     setLoadingMore(false);
+     setFilteredItems([]); // Clear filtered items
+     
+     if (loadedCats.has(active)) return;
      
      (async () => {
          try {
@@ -376,19 +389,36 @@ export default function ArxivDailyPage() {
                  const dbCategory = categoryDef ? categoryDef.label.replace('.', '_') : active;
                  console.log("DB Category Slug:", dbCategory);
 
-                 const { data: papers, error } = await supabase
+                 // Parallel fetch: 1. Latest Papers, 2. All Available Dates
+                 const papersPromise = supabase
                      .from('papers')
                      .select('title, published_date, thumbnail_url, link, code_url, tags, authors, institution, category_slug')
                      .eq('category_slug', dbCategory)
                      .order('published_date', { ascending: false })
-                     .limit(1280);
-                 
-                 if (error) {
-                    console.error("Supabase Error:", error);
-                 }
-                 console.log("Supabase Data:", papers?.length);
+                     .limit(20); // Initial load 20 items
 
-                 if (!error && papers) {
+                 const datesPromise = supabase
+                     .from('papers')
+                     .select('published_date')
+                     .eq('category_slug', dbCategory)
+                     .order('published_date', { ascending: false });
+                     // We get all dates to populate the calendar history
+                 
+                 const [papersResult, datesResult] = await Promise.all([papersPromise, datesPromise]);
+                 const { data: papers, error: papersError } = papersResult;
+                 const { data: datesData, error: datesError } = datesResult;
+                 
+                 if (papersError) console.error("Supabase Papers Error:", papersError);
+                 if (datesError) console.error("Supabase Dates Error:", datesError);
+
+                 // Process Dates
+                 let uniqueDates: string[] = [];
+                 if (datesData) {
+                     uniqueDates = Array.from(new Set(datesData.map(d => d.published_date).filter(Boolean) as string[]));
+                 }
+
+                 // Process Papers
+                 if (!papersError && papers) {
                       const mappedItems: PaperItem[] = papers.map((p: any) => ({
                           title: p.title,
                           day: p.published_date,
@@ -405,15 +435,85 @@ export default function ArxivDailyPage() {
                           slug: p.category_slug
                       }));
                       
-                      setData(prev => prev.map(c => c.slug === active ? { ...c, items: mappedItems } : c));
+                      setData(prev => prev.map(c => c.slug === active ? { ...c, items: mappedItems, dates: uniqueDates } : c));
                       setLoadedCats(prev => new Set(prev).add(active));
+                      // If less than 20 returned, no more data
+                      if (papers.length < 20) setHasMore(false);
                  } else {
-                      console.error("Failed to load category from Supabase", active, error);
+                      console.error("Failed to load category from Supabase", active, papersError);
                  }
              }
          } catch (e) { console.error("Failed to load category", active, e); }
      })();
    }, [active, loadedCats, baseUrl, useSupabase]);
+
+   const loadMore = async () => {
+      if (!useSupabase || !supabase || loadingMore || !hasMore || !active) return;
+      
+      setLoadingMore(true);
+      try {
+          const currentItems = data.find(c => c.slug === active)?.items || [];
+          const currentCount = currentItems.length;
+          
+          const categoryDef = CATEGORIES.find(c => c.slug === active);
+          const dbCategory = categoryDef ? categoryDef.label.replace('.', '_') : active;
+
+          const { data: papers, error } = await supabase
+             .from('papers')
+             .select('title, published_date, thumbnail_url, link, code_url, tags, authors, institution, category_slug')
+             .eq('category_slug', dbCategory)
+             .order('published_date', { ascending: false })
+             .range(currentCount, currentCount + 49); // Load next 50
+
+          if (!error && papers) {
+              if (papers.length === 0) {
+                  setHasMore(false);
+              } else {
+                  const mappedItems: PaperItem[] = papers.map((p: any) => ({
+                      title: p.title,
+                      day: p.published_date,
+                      thumbnail: p.thumbnail_url,
+                      img: p.thumbnail_url,
+                      link: p.link,
+                      code: p.code_url,
+                      tags: p.tags || [],
+                      authors: p.authors,
+                      institution: p.institution,
+                      summary: p.summary,
+                      contributions: p.contributions,
+                      mindmap: p.mindmap,
+                      slug: p.category_slug
+                  }));
+                  
+                  setData(prev => prev.map(c => c.slug === active ? { ...c, items: [...(c.items || []), ...mappedItems] } : c));
+                  if (papers.length < 50) setHasMore(false);
+              }
+          }
+      } catch (e) {
+          console.error("Load more failed", e);
+      } finally {
+          setLoadingMore(false);
+      }
+   };
+
+   // Scroll listener for infinite scrolling
+   useEffect(() => {
+       const handleScroll = () => {
+           if (loadingMore || !hasMore) return;
+           
+           // Check if we are near bottom of page
+           const scrollHeight = document.documentElement.scrollHeight;
+           const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+           const clientHeight = document.documentElement.clientHeight;
+           
+           if (scrollTop + clientHeight >= scrollHeight - 300) { // Load when 300px from bottom
+               loadMore();
+           }
+       };
+       
+       window.addEventListener('scroll', handleScroll);
+       return () => window.removeEventListener('scroll', handleScroll);
+   }, [loadingMore, hasMore, active, data]); // Depend on data/active to ensure correct context
 
    // 3. Search (Supabase)
   useEffect(() => {
@@ -492,22 +592,99 @@ export default function ArxivDailyPage() {
   const overflowCats = useMemo(() => displayCats.slice(8), [displayCats]);
   const [moreOpen, setMoreOpen] = useState(false);
   const activeItems = useMemo(() => (data.find(c => c.slug === active)?.items || []), [data, active]);
+  const activeDates = useMemo(() => (data.find(c => c.slug === active)?.dates || []), [data, active]);
   const allItems = useMemo(() => data.flatMap(c => c.items || []), [data]);
 
   const availableDates = useMemo(() => {
+    // If we have explicit dates from DB, use them
+    if (activeDates.length > 0) return activeDates;
+    
+    // Fallback to deriving from items (e.g. if fetch failed or loading)
     const dates = new Set(activeItems.map(it => it.day).filter(Boolean) as string[]);
     return Array.from(dates).sort().reverse();
-  }, [activeItems]);
+  }, [activeItems, activeDates]);
 
   const [selectedDate, setSelectedDate] = useState<string | null>(null);
   
+  // Initialize selectedDate only once when dates first become available
+  // or when switching categories (active changes)
   useEffect(() => {
+    // If we already have a selection that is valid, don't change it
+    if (selectedDate && availableDates.includes(selectedDate)) {
+        return;
+    }
+    
+    // If no selection or invalid selection, default to the latest date (first one)
     if (availableDates.length > 0) {
       setSelectedDate(availableDates[0]);
     } else {
       setSelectedDate(null);
     }
-  }, [active, availableDates]);
+    // We intentionally do NOT include availableDates in dependency to avoid resetting on loadMore
+    // We only want to reset when 'active' category changes
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [active]);
+
+  // Update selectedDate if the current selection becomes invalid (e.g. data cleared)
+  // This handles the edge case where data is completely replaced
+  useEffect(() => {
+      if (selectedDate && availableDates.length > 0 && !availableDates.includes(selectedDate)) {
+          setSelectedDate(availableDates[0]);
+      }
+  }, [availableDates, selectedDate]);
+
+  // Fetch papers for specific date
+   useEffect(() => {
+     if (!selectedDate || !active || !useSupabase || !supabase) {
+         setFilteredItems([]);
+         setLoadingDate(false);
+         return;
+     }
+ 
+     const client = supabase;
+
+     let cancelled = false;
+     const fetchDatePapers = async () => {
+         setLoadingDate(true);
+         try {
+              const categoryDef = CATEGORIES.find(c => c.slug === active);
+              const dbCategory = categoryDef ? categoryDef.label.replace('.', '_') : active;
+              
+              const { data, error } = await client
+                 .from('papers')
+                 .select('title, published_date, thumbnail_url, link, code_url, tags, authors, institution, category_slug')
+                 .eq('category_slug', dbCategory)
+                 .eq('published_date', selectedDate)
+                 .order('published_date', { ascending: false }); 
+             
+             if (!cancelled && !error && data) {
+                 const mappedItems: PaperItem[] = data.map((p: any) => ({
+                      title: p.title,
+                      day: p.published_date,
+                      thumbnail: p.thumbnail_url,
+                      img: p.thumbnail_url,
+                      link: p.link,
+                      code: p.code_url,
+                      tags: p.tags || [],
+                      authors: p.authors,
+                      institution: p.institution,
+                      summary: p.summary,
+                      contributions: p.contributions,
+                      mindmap: p.mindmap,
+                      slug: p.category_slug
+                  }));
+                 setFilteredItems(mappedItems);
+             }
+        } catch (e) {
+            console.error(e);
+        } finally {
+            if (!cancelled) setLoadingDate(false);
+        }
+    };
+    
+    fetchDatePapers();
+    return () => { cancelled = true; };
+  }, [selectedDate, active, useSupabase]);
 
   // googleTranslateInit was unused or part of duplicate block, removing if not used elsewhere
 
@@ -521,9 +698,9 @@ export default function ArxivDailyPage() {
        // These are already filtered by the query in the useEffect
        return searchResults;
     }
-    if (!selectedDate) return activeItems;
-    return activeItems.filter(it => it.day === selectedDate);
-  }, [activeItems, searchResults, selectedDate, searchQuery, translatedQuery]);
+    if (selectedDate) return filteredItems;
+    return activeItems;
+  }, [activeItems, searchResults, selectedDate, searchQuery, translatedQuery, filteredItems]);
 
   const handleCardClick = async (it: PaperItem) => {
       // If search mode and item has slug (from search index), we might need to load full data
@@ -618,7 +795,11 @@ export default function ArxivDailyPage() {
             )}
           </div>
           <div className="arxiv-grid">
-            {displayItems.map((it, idx) => {
+            {loadingDate ? (
+               <div style={{gridColumn: '1 / -1', textAlign: 'center', padding: '40px', color: '#666'}}>
+                  正在加载 {selectedDate} 的论文...
+               </div>
+            ) : displayItems.map((it, idx) => {
               const firstAuthor = ((it.authors || '').split(',')[0] || '').trim();
               return (
                 <div key={idx} className="arxiv-card" onClick={() => handleCardClick(it)}>
@@ -669,6 +850,8 @@ export default function ArxivDailyPage() {
                 </div>
               );
             })}
+            {loadingMore && <div className="loading-more" style={{textAlign: 'center', padding: '20px'}}>加载更多...</div>}
+            {!hasMore && activeItems.length > 0 && <div className="no-more-data" style={{textAlign: 'center', padding: '20px', color: '#888'}}>没有更多数据了</div>}
           </div>
         </main>
         <aside className="arxiv-right-ads">

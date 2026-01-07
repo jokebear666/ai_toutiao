@@ -703,6 +703,10 @@ body, .main-wrapper { background: #ffffff; }
 
 /* Desktop Layout Fixes for New DOM Structure */
 @media (min-width: 997px) {
+  .arxiv-sidebar-toggle, .arxiv-sidebar-overlay {
+    display: none;
+  }
+
   .arxiv-mobile-left-col,
   .arxiv-mobile-right-col {
     display: contents;
@@ -748,46 +752,49 @@ body, .main-wrapper { background: #ffffff; }
 /* Mobile Layout */
 @media (max-width: 996px) {
   .arxiv-page {
-    display: flex;
-    flex-direction: row; /* Side by side layout */
+    position: relative;
     height: calc(100vh - var(--ifm-navbar-height, 60px));
-    overflow: hidden; /* Prevent body scroll */
+    overflow: hidden;
+    display: block;
     padding: 0;
-    gap: 0;
   }
 
-  /* Flatten .arxiv-main to let children participate */
   .arxiv-main {
     display: contents;
   }
 
-  /* Left Column (Navigation/Filters) */
+  /* Left Column (Drawer) */
   .arxiv-mobile-left-col {
-    width: 200px; /* Reduced width for better fit */
-    min-width: 200px;
-    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 280px;
+    background: #fff;
+    z-index: 1000;
+    transform: translateX(-100%);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 4px 0 16px rgba(0,0,0,0.1);
+    border-right: none;
     overflow-y: auto;
-    padding: 12px;
-    background: #f9fafb;
-    border-right: 1px solid #e5e7eb;
+    padding: 16px;
     display: flex;
     flex-direction: column;
     gap: 16px;
-    z-index: 2;
-    -webkit-overflow-scrolling: touch;
   }
 
-  /* Right Column (Papers) - The Scroll Container */
+  .arxiv-mobile-left-col.is-open {
+    transform: translateX(0);
+  }
+
+  /* Right Column (Papers) - Full Width */
   .arxiv-mobile-right-col {
-    flex: 1;
-    min-width: 0; /* Allow shrinking */
+    width: 100%;
     height: 100%;
-    overflow-y: auto; /* Scroll handled here */
-    -webkit-overflow-scrolling: touch;
+    overflow-y: auto;
     padding: 12px;
-    background: #fff;
-    position: relative;
-    z-index: 1;
+    background: #f3f4f6;
+    -webkit-overflow-scrolling: touch;
   }
 
   /* Reset child widths in left col */
@@ -797,122 +804,82 @@ body, .main-wrapper { background: #ffffff; }
     margin-bottom: 0;
   }
   
-  .arxiv-top {
-    flex-shrink: 0;
-  }
+  .arxiv-top { flex-shrink: 0; }
+  .arxiv-search { max-width: 100%; }
+  .arxiv-leftbar { position: static; height: auto; overflow: visible; flex-shrink: 0; }
+  .arxiv-left-logo { display: none; }
+  .arxiv-pills { display: flex; flex-direction: column; padding: 0; gap: 8px; flex-shrink: 0; }
+  .arxiv-pills-row { flex-direction: column; width: 100%; gap: 8px; }
+  .arxiv-pill { width: 100%; text-align: center; display: block; }
+  .arxiv-more { width: 100%; }
+  .arxiv-more-menu { width: 100%; position: static; box-shadow: none; border: 1px solid #e5e7eb; margin-top: 8px; display: none; gap: 8px; }
+  .arxiv-more.is-open .arxiv-more-menu { display: flex; flex-direction: column; }
+  .arxiv-right-ads { position: static; display: flex; flex-direction: column; gap: 12px; flex-shrink: 0; }
+  .arxiv-ad { width: 100%; }
+  .arxiv-ad img { width: 100%; height: auto; }
 
-  .arxiv-search {
-    max-width: 100%;
-  }
-
-  .arxiv-leftbar {
-    position: static;
-    height: auto;
-    overflow: visible;
-    flex-shrink: 0;
-  }
-  
-  .arxiv-left-logo {
-    display: none; 
-  }
-
-  .arxiv-pills {
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    gap: 8px;
-    flex-shrink: 0;
-  }
-
-  .arxiv-pills-row {
-    flex-direction: column;
-    width: 100%;
-    gap: 8px;
-  }
-  
-  .arxiv-pill {
-    width: 100%;
-    text-align: center;
-    display: block;
-  }
-
-  .arxiv-more {
-    width: 100%;
-  }
-
-  .arxiv-more-menu {
-    width: 100%;
-    position: static;
-    box-shadow: none;
-    border: 1px solid #e5e7eb;
-    margin-top: 8px;
-    display: none; /* Hidden by default */
-    gap: 8px;
-  }
-
-  .arxiv-more.is-open .arxiv-more-menu {
-    display: flex; /* Show when open */
-    flex-direction: column;
-  }
-
-  .arxiv-right-ads {
-    position: static;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    flex-shrink: 0;
-  }
-  
-  .arxiv-ad {
-    width: 100%;
-  }
-
-  .arxiv-ad img {
-    width: 100%;
-    height: auto;
-  }
-
-  /* Papers List - Inside Right Column */
+  /* Papers Grid */
   .arxiv-grid {
     display: flex;
     flex-direction: column;
     gap: 16px;
     width: 100%;
-    height: auto;
-    overflow: visible;
     margin: 0;
-    padding: 0;
   }
 
-  /* Explicit card sizing for mobile to prevent collapse */
   .arxiv-grid .arxiv-card {
-    flex-shrink: 0;
     width: 100%;
-    height: auto;
-    min-height: auto;
     display: flex;
     flex-direction: column;
+    margin: 0;
   }
-
+  
   .arxiv-grid .arxiv-card-image {
     width: 100%;
     aspect-ratio: 16/9;
     flex-shrink: 0;
   }
 
-  .arxiv-grid .arxiv-card-footer {
-    flex: 1;
-    height: auto;
+  /* Toggle Button */
+  .arxiv-sidebar-toggle {
+    display: flex;
+    position: fixed;
+    bottom: 24px;
+    left: 24px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #fff;
+    color: #333;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    z-index: 1100;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+  .arxiv-sidebar-toggle:active {
+    transform: scale(0.95);
   }
 
-  /* Back to Top - Fixed to screen */
+  /* Overlay */
+  .arxiv-sidebar-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 900;
+    backdrop-filter: blur(2px);
+    animation: fadeIn 0.2s;
+  }
+
+  /* Back to Top */
   .back-to-top {
     position: fixed;
     bottom: 24px;
     right: 24px;
-    grid-column: auto;
-    grid-row: auto;
-    margin: 0;
     z-index: 1000;
+    margin: 0;
   }
 }

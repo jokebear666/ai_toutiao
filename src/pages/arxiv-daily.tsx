@@ -664,6 +664,7 @@ export default function ArxivDailyPage() {
   }, [activeItems, activeDates]);
 
   const [selectedDate, setSelectedDate] = useState<string | null>(null);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   
   // Initialize selectedDate only once when dates first become available
   // or when switching categories (active changes)
@@ -779,7 +780,26 @@ export default function ArxivDailyPage() {
   return (
     <Layout title="Arxiv每日论文">
       <div className="arxiv-page">
-        <div className="arxiv-mobile-left-col">
+        <button 
+            className="arxiv-sidebar-toggle" 
+            onClick={() => setIsSidebarOpen(!isSidebarOpen)}
+            aria-label="Toggle Sidebar"
+        >
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <line x1="4" y1="21" x2="4" y2="14"></line>
+                <line x1="4" y1="10" x2="4" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="12"></line>
+                <line x1="12" y1="8" x2="12" y2="3"></line>
+                <line x1="20" y1="21" x2="20" y2="16"></line>
+                <line x1="20" y1="12" x2="20" y2="3"></line>
+                <line x1="1" y1="14" x2="7" y2="14"></line>
+                <line x1="9" y1="8" x2="15" y2="8"></line>
+                <line x1="17" y1="16" x2="23" y2="16"></line>
+            </svg>
+        </button>
+        {isSidebarOpen && <div className="arxiv-sidebar-overlay" onClick={() => setIsSidebarOpen(false)} />}
+
+        <div className={`arxiv-mobile-left-col ${isSidebarOpen ? 'is-open' : ''}`}>
           <div className="arxiv-top">
             <div className="arxiv-search">
               <input 
@@ -827,7 +847,7 @@ export default function ArxivDailyPage() {
             {displayCats.length ? (
               <div className="arxiv-pills-row">
                 {visibleCats.map((c) => (
-                  <button key={c.slug} className={"arxiv-pill" + (c.slug === active ? ' is-active' : '')} onClick={() => { setActive(c.slug); setMoreOpen(false); }}>
+                  <button key={c.slug} className={"arxiv-pill" + (c.slug === active ? ' is-active' : '')} onClick={() => { setActive(c.slug); setMoreOpen(false); setIsSidebarOpen(false); }}>
                     {c.label}
                   </button>
                 ))}
@@ -836,7 +856,7 @@ export default function ArxivDailyPage() {
                     <button className="arxiv-pill" onClick={() => setMoreOpen(!moreOpen)}>更多类型</button>
                     <div className="arxiv-more-menu">
                       {overflowCats.map((c) => (
-                        <button key={c.slug} className={"arxiv-more-item" + (c.slug === active ? ' is-active' : '')} onClick={() => { setActive(c.slug); setMoreOpen(false); }}>
+                        <button key={c.slug} className={"arxiv-more-item" + (c.slug === active ? ' is-active' : '')} onClick={() => { setActive(c.slug); setMoreOpen(false); setIsSidebarOpen(false); }}>
                           {c.label}
                         </button>
                       ))}

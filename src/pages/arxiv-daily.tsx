@@ -313,6 +313,65 @@ const CATEGORIES = [
     { label: "cs.SI", slug: "cssi" }
 ];
 
+const BackToTop = () => {
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      // Check both window (desktop) and right column container (mobile) scroll
+      const winScroll = window.scrollY;
+      const mobileCol = document.querySelector('.arxiv-mobile-right-col');
+      const mobileScroll = mobileCol ? mobileCol.scrollTop : 0;
+      
+      if (winScroll > 300 || mobileScroll > 300) {
+        setVisible(true);
+      } else {
+        setVisible(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    
+    // Add listener to mobile right column
+    const mobileCol = document.querySelector('.arxiv-mobile-right-col');
+    if (mobileCol) {
+      mobileCol.addEventListener('scroll', handleScroll);
+    }
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      if (mobileCol) mobileCol.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+    // Also scroll mobile container
+    const mobileCol = document.querySelector('.arxiv-mobile-right-col');
+    if (mobileCol) {
+      mobileCol.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    }
+  };
+
+  return (
+    <>
+      {visible && (
+        <button className="back-to-top" onClick={scrollToTop} aria-label="Back to Top">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M18 15l-6-6-6 6"/>
+          </svg>
+        </button>
+      )}
+    </>
+  );
+};
+
 export default function ArxivDailyPage() {
   const {siteConfig} = useDocusaurusContext();
   const [data, setData] = useState<CategoryData[]>(() => CATEGORIES.map(c => ({...c, items: []})));
@@ -720,18 +779,7 @@ export default function ArxivDailyPage() {
   return (
     <Layout title="Arxiv每日论文">
       <div className="arxiv-page">
-        <aside className="arxiv-leftbar">
-          <div className="arxiv-left-logo">每日论文速递</div>
-          <CalendarWidget 
-              availableDates={availableDates} 
-              selectedDate={selectedDate} 
-              onSelectDate={(date) => {
-                setSelectedDate(date);
-                setSearchQuery(''); // Clear search when date is selected
-              }} 
-          />
-        </aside>
-        <main className="arxiv-main">
+        <div className="arxiv-mobile-left-col">
           <div className="arxiv-top">
             <div className="arxiv-search">
               <input 
@@ -762,6 +810,19 @@ export default function ArxivDailyPage() {
               )}
             </div>
           </div>
+
+          <aside className="arxiv-leftbar">
+            <div className="arxiv-left-logo">每日论文速递</div>
+            <CalendarWidget 
+                availableDates={availableDates} 
+                selectedDate={selectedDate} 
+                onSelectDate={(date) => {
+                  setSelectedDate(date);
+                  setSearchQuery(''); // Clear search when date is selected
+                }} 
+            />
+          </aside>
+
           <div className="arxiv-pills">
             {displayCats.length ? (
               <div className="arxiv-pills-row">
@@ -794,6 +855,17 @@ export default function ArxivDailyPage() {
               </div>
             )}
           </div>
+
+          <aside className="arxiv-right-ads">
+            {hotAds && Array.isArray(hotAds) && hotAds.map((a: any, idx: number) => (
+              <a key={idx} className="arxiv-ad" href={a.href} target="_blank" rel="noopener noreferrer">
+                <img src={useBaseUrl('/' + a.img)} alt={a.alt || ''} loading="lazy" decoding="async" />
+              </a>
+            ))}
+          </aside>
+        </div>
+
+        <div className="arxiv-mobile-right-col">
           <div className="arxiv-grid">
             {loadingDate ? (
                <div style={{gridColumn: '1 / -1', textAlign: 'center', padding: '40px', color: '#666'}}>
@@ -853,14 +925,9 @@ export default function ArxivDailyPage() {
             {loadingMore && <div className="loading-more" style={{textAlign: 'center', padding: '20px'}}>加载更多...</div>}
             {!hasMore && activeItems.length > 0 && <div className="no-more-data" style={{textAlign: 'center', padding: '20px', color: '#888'}}>没有更多数据了</div>}
           </div>
-        </main>
-        <aside className="arxiv-right-ads">
-          {hotAds && Array.isArray(hotAds) && hotAds.map((a: any, idx: number) => (
-            <a key={idx} className="arxiv-ad" href={a.href} target="_blank" rel="noopener noreferrer">
-              <img src={useBaseUrl('/' + a.img)} alt={a.alt || ''} loading="lazy" decoding="async" />
-            </a>
-          ))}
-        </aside>
+        </div>
+
+        <BackToTop />
       </div>
       {selectedPaper && <DetailModal paper={selectedPaper} onClose={() => setSelectedPaper(null)} />}
     </Layout>

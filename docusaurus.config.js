@@ -16,7 +16,7 @@ console.log("Supabase Config Loaded:", {
 
 const isDev = process.env.NODE_ENV === 'development';
 const isVercel = !!process.env.VERCEL;
-const dynamicBaseUrl = process.env.DOCUSAURUS_BASE_URL || ((isDev || isVercel) ? '/' : '/ai_toutiao');
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'AI头条',
@@ -32,7 +32,7 @@ const config = {
   url: 'https://jokebear666.github.io',
  // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: dynamicBaseUrl,
+  baseUrl: '/',
 
   customFields: {
     supabaseUrl: process.env.SUPABASE_URL,
@@ -43,7 +43,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'jokebear666', // Usually your GitHub org/user name.
   projectName: 'ai_toutiao', // Usually your repo name.
-  trailingSlash: false,
+  trailingSlash: true,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

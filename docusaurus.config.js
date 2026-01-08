@@ -118,10 +118,10 @@ const config = {
           //   activeBaseRegex: '^/category/paper'
           // },
           {
-            to: '/sponsor/advertise',
+            to: '/docs/sponsor/advertise',
             label: '赞助商',
             position: 'right',
-            activeBaseRegex: '^/sponsor/'
+            activeBaseRegex: '^/docs/sponsor/'
           },
           // {
           //   href: 'https://github.com/jokebear666',

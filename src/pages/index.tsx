@@ -66,8 +66,17 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   
   useEffect(() => {
-      // Trigger prefetch on mount
-      prefetchDailyPapers();
+      // Defer prefetch to avoid blocking initial render
+      // Wait for 3 seconds or when browser is idle
+      const timer = setTimeout(() => {
+        if ('requestIdleCallback' in window) {
+           (window as any).requestIdleCallback(() => prefetchDailyPapers());
+        } else {
+           prefetchDailyPapers();
+        }
+      }, 3000);
+
+      return () => clearTimeout(timer);
   }, []);
 
   return (

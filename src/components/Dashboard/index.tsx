@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './styles.module.css';
 import CalendarWidget from './Calendar';
-import { DonutChart, ComparisonChart, COLORS } from './Charts';
+import { COLORS } from './Charts';
 import useBaseUrl from '@docusaurus/useBaseUrl';
+
+// Lazy load heavy chart components
+const DonutChart = React.lazy(() => import('./Charts').then(module => ({ default: module.DonutChart })));
+const ComparisonChart = React.lazy(() => import('./Charts').then(module => ({ default: module.ComparisonChart })));
 
 // Icons
 const MoreIcon = () => (
@@ -115,8 +119,10 @@ export default function Dashboard() {
                     </div>
                     <div style={{display:'flex', alignItems:'center', height:'100%'}}>
                         <div style={{flex:1, position:'relative', height:200}}>
+                        <Suspense fallback={<div style={{height: 180, display: 'flex', alignItems: 'center', justifyContent: 'center'}}>Loading...</div>}>
                             <DonutChart />
-                            <div style={{position:'absolute', top:'50%', left:'50%', transform:'translate(-50%, -50%)', textAlign:'center', color:'#4b5563', fontSize:'0.9rem', fontWeight:600}}>
+                        </Suspense>
+                        <div style={{position:'absolute', top:'50%', left:'50%', transform:'translate(-50%, -50%)', textAlign:'center', color:'#4b5563', fontSize:'0.9rem', fontWeight:600}}>
                                 60<br/>
                                 <span style={{fontSize:'0.75rem', fontWeight:400, color:'#9ca3af'}}>Robotiss</span>
                             </div>
@@ -145,7 +151,9 @@ export default function Dashboard() {
                 <div className={styles.card}>
                     <div className={styles.cardTitle}>热门领域趋势对比 (CV vs NLP)</div>
                     <div style={{flex:1, display:'flex', alignItems:'flex-end'}}>
-                        <ComparisonChart />
+                        <Suspense fallback={<div style={{height: 180, width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>Loading...</div>}>
+                            <ComparisonChart />
+                        </Suspense>
                     </div>
                     {/* X-Axis labels are handled in the chart component, but we can add custom legend if needed */}
                 </div>

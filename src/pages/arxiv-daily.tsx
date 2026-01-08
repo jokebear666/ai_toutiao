@@ -893,13 +893,15 @@ export default function ArxivDailyPage() {
                </div>
             ) : displayItems.map((it, idx) => {
               const firstAuthor = ((it.authors || '').split(',')[0] || '').trim();
+              const isPriority = idx < 2;
               return (
                 <div key={idx} className="arxiv-card" onClick={() => handleCardClick(it)}>
                   <div className="arxiv-card-image">
                     {it.thumbnail ? (
                       <img 
                         src={it.thumbnail} 
-                        loading="lazy" 
+                        loading={isPriority ? "eager" : "lazy"}
+                        fetchPriority={isPriority ? "high" : "auto"}
                         alt="" 
                         referrerPolicy="no-referrer"
                         onError={(e) => {

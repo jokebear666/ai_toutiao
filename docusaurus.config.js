@@ -68,7 +68,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          routeBasePath: '/',
+          routeBasePath: 'docs',
           showLastUpdateTime: true,
           remarkPlugins: [require('remark-math')],
           rehypePlugins: [require('rehype-katex')],

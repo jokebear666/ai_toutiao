@@ -3,6 +3,7 @@ import Layout from '@theme/Layout';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Mermaid from '@theme/Mermaid';
+import { getCachedData, setCachedData } from '../utils/paperCache';
 
 type PaperItem = {
   title: string;
@@ -496,6 +497,8 @@ export default function ArxivDailyPage() {
                       
                       setData(prev => prev.map(c => c.slug === active ? { ...c, items: mappedItems, dates: uniqueDates } : c));
                       setLoadedCats(prev => new Set(prev).add(active));
+                      // Update Cache
+                      setCachedData(active, papers, datesData || []);
                       // If less than 20 returned, no more data
                       if (papers.length < 20) setHasMore(false);
                  } else {

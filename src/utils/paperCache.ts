@@ -7,8 +7,8 @@ export type PaperCacheItem = {
 // Global cache object
 export const globalPaperCache: Record<string, PaperCacheItem> = {};
 
-// Cache TTL (5 minutes)
-export const CACHE_TTL = 5 * 60 * 1000;
+// Cache TTL (30 minutes)
+export const CACHE_TTL = 30 * 60 * 1000;
 
 export const getCachedData = (slug: string) => {
     const item = globalPaperCache[slug];

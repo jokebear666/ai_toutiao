@@ -1,6 +1,6 @@
 .container {
   display: grid;
-  grid-template-columns: 320px 1fr;
+  grid-template-columns: 220px 1fr;
   gap: 24px;
   padding: 24px;
   background-color: #f3f4f6;
@@ -16,20 +16,20 @@
 .mainCol {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 12px;
 }
 
 /* Header */
 .headerCard {
   background: #2563eb;
   color: white;
-  padding: 32px;
+  padding: 16px 32px;
   border-radius: 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-  min-height: 140px;
+  min-height: 70px;
 }
 
 .headerTitle {
@@ -42,7 +42,7 @@
 .cardRow {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 24px;
+  gap: 12px;
 }
 
 .card {
@@ -52,47 +52,23 @@
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
   display: flex;
   flex-direction: column;
-  min-height: 280px;
+  min-height: 200px;
   position: relative;
 }
 
 .cardTitle {
   font-size: 1.125rem;
-  font-weight: 600;
-  color: #111827;
-  margin-bottom: 24px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/* Specific Cards */
-.bigNumber {
-  font-size: 5rem;
   font-weight: 700;
-  color: #111827;
-  line-height: 1;
+  color: #000;
   margin-bottom: 24px;
-  letter-spacing: -2px;
 }
 
-.growth {
-  display: inline-flex;
-  align-items: center;
-  background: #ecfdf5;
-  color: #10b981;
-  padding: 8px 16px;
-  border-radius: 999px;
-  font-size: 1.1rem;
-  font-weight: 600;
-  width: fit-content;
-}
-
-/* Today's Paper Thumbnails */
+/* Paper Preview List */
 .paperPreviewList {
   display: flex;
-  gap: 16px;
+  gap: 8px;
   height: 100%;
+  margin: 0 -8px; /* Offset the padding of the items to align with container edges if needed, or just leave it */
 }
 
 .paperPreviewItem {
@@ -100,15 +76,28 @@
   display: flex;
   flex-direction: column;
   gap: 8px;
+  min-width: 0; /* Prevent flex overflow */
+  padding: 8px;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+}
+
+.paperPreviewItem:hover {
+  background-color: #f8fafc;
+  border-color: #e5e7eb;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
 }
 
 .paperPreviewImg {
   width: 100%;
-  aspect-ratio: 3/2;
+  aspect-ratio: 16/10;
   background-color: #f3f4f6;
   border-radius: 8px;
   border: 1px solid #e5e7eb;
-  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .paperPreviewMeta {
@@ -116,7 +105,36 @@
   justify-content: space-between;
   align-items: center;
   font-size: 0.75rem;
-  color: #6b7280;
+  color: #9ca3af;
+  margin-top: auto;
+}
+
+@media (max-width: 996px) {
+    .container {
+        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mainCol {
+        order: -1; /* Move main content to top */
+    }
+
+    .leftCol {
+        /* Calendar & Ads will follow naturally below */
+    }
+    
+    .cardRow {
+        grid-template-columns: 1fr;
+    }
+    
+    .paperPreviewList {
+        flex-direction: column;
+    }
+    
+    .paperPreviewImg {
+        aspect-ratio: 21/9;
+    }
 }
 
 /* Ads */
@@ -135,7 +153,7 @@
 .calendarWidget {
   background: white;
   border-radius: 16px;
-  padding: 24px;
+  padding: 16px;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
@@ -143,34 +161,34 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
   font-weight: 700;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   color: #111827;
 }
 
 .calendarHeader button {
   background: none;
   border: none;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   cursor: pointer;
   color: #9ca3af;
-  padding: 0 8px;
+  padding: 0 4px;
 }
 
 .calendarGrid {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  gap: 12px;
+  gap: 6px;
   text-align: center;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .calendarDayHeader {
   color: #9ca3af;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 500;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 .calendarDay {
@@ -178,7 +196,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 600;
   border-radius: 50%;
   cursor: pointer;
@@ -196,14 +214,14 @@
 
 .calendarAllBtn {
   width: 100%;
-  padding: 12px;
+  padding: 10px;
   border: 1px solid #2563eb;
   color: #2563eb;
   background: white;
   border-radius: 8px;
   cursor: pointer;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 0.9rem;
   transition: all 0.2s;
 }
 

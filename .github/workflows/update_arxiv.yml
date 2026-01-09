@@ -51,6 +51,9 @@ jobs:
             python get_daily_arxiv_paper.py --generate-thumbnails $SKIP_ARG
           fi
 
+      - name: Update Dashboard Data
+        run: python scripts/update_dashboard.py
+
       # - name: Build arXiv daily JSON (last 3 months)
       #   run: |
       #     python build_arxiv_daily_json.py --months 3 --max-items-per-cat 1024 --output static/data/arxiv_daily.json

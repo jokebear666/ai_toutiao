@@ -19,11 +19,14 @@ const prefetchDailyPapers = async () => {
         if (!supabase) return;
 
         try {
+            // Convert dot to underscore for DB query
+            const dbSlug = slug.replace('.', '_');
+
             // Fetch first page only
             const { data: papers, error } = await supabase
                 .from('papers')
                 .select('*')
-                .contains('categories', [slug])
+                .eq('category_slug', dbSlug)
                 .order('published_date', { ascending: false })
                 .range(0, 19);
 

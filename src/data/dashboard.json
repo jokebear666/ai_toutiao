@@ -1,0 +1,178 @@
+{
+  "ai": [
+    {
+      "id": 9090,
+      "title": "Active Sensing Shapes Real-World Decision-Making through Dynamic Evidence Accumulation",
+      "date": "2026-01-09",
+      "author": "Hongliang Lu",
+      "tags": [
+        {
+          "label": "evidence accumulation modelling",
+          "color": "#60a5fa"
+        }
+      ],
+      "hasCode": false,
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1ba933504dd7306c246dc56fe091a4fb72ee4f3ae03c91202ff6eaa31a67fb6c_w640_q70.webp"
+    },
+    {
+      "id": 9102,
+      "title": "SAGE-32B: Agentic Reasoning via Iterative Distillation",
+      "date": "2026-01-09",
+      "author": "Basab Jha",
+      "tags": [
+        {
+          "label": "iterative distillation",
+          "color": "#34d399"
+        }
+      ],
+      "hasCode": false,
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4199bc5bf82aaf8b5bcf6635e48b61f313840f01779a97ddac6fb1c8e8e4930c_w640_q70.webp"
+    },
+    {
+      "id": 9104,
+      "title": "Actively Obtaining Environmental Feedback for Autonomous Action Evaluation Without Predefined Measurements",
+      "date": "2026-01-09",
+      "author": "Hong Su",
+      "tags": [
+        {
+          "label": "active feedback acquisition",
+          "color": "#818cf8"
+        }
+      ],
+      "hasCode": false,
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/17c4ae96d341ceec48f84b7a9fc212783131b15128b181373c8503db739392a0_w640_q70.webp"
+    }
+  ],
+  "cv": [
+    {
+      "id": 9153,
+      "title": "Embedding Textual Information in Images Using Quinary Pixel Combinations",
+      "date": "2026-01-09",
+      "author": "A V Uday Kiran Kandala",
+      "tags": [
+        {
+          "label": "quinary combinations",
+          "color": "#60a5fa"
+        }
+      ],
+      "hasCode": false,
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/bc69eaa4586fc949568e3cc4054eba4f93ee4f30e1dd82cf93e25238d355dfeb_w640_q70.webp"
+    },
+    {
+      "id": 9156,
+      "title": "Beyond Binary Preference: Aligning Diffusion Models to Fine-grained Criteria by Decoupling Attributes",
+      "date": "2026-01-09",
+      "author": "Chenye Meng",
+      "tags": [
+        {
+          "label": "diffusion models",
+          "color": "#34d399"
+        }
+      ],
+      "hasCode": false,
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a1b0114a8c204fb81fd28d9ceb39a60a72f56c28634925c8ca517a29d13d822d_w640_q70.webp"
+    },
+    {
+      "id": 9158,
+      "title": "ReHyAt: Recurrent Hybrid Attention for Video Diffusion Transformers",
+      "date": "2026-01-09",
+      "author": "Mohsen Ghafoorian",
+      "tags": [
+        {
+          "label": "Recurrent Hybrid Attention",
+          "color": "#818cf8"
+        }
+      ],
+      "hasCode": false,
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8a896c1eb1755bd744406ca4d44fa025bd1ec287196e8076e1ffee7ca0363edb_w640_q70.webp"
+    }
+  ],
+  "ml": [
+    {
+      "id": 9076,
+      "title": "The Forgotten Shield: Safety Grafting in Parameter-Space for Medical MLLMs",
+      "date": "2026-01-09",
+      "author": "Jiale Zhao",
+      "tags": [
+        {
+          "label": "safety alignment",
+          "color": "#60a5fa"
+        }
+      ],
+      "hasCode": false,
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4863c0a909f7be71545dabcc47126347fed4a463fa68aa302eb55fbbdaf1f2e9_w640_q70.webp"
+    },
+    {
+      "id": 9115,
+      "title": "Green MLOps: Closed-Loop, Energy-Aware Inference with NVIDIA Triton, FastAPI, and Bio-Inspired Thresholding",
+      "date": "2026-01-09",
+      "author": "Mustapha Hamdi",
+      "tags": [
+        {
+          "label": "energy-aware inference",
+          "color": "#34d399"
+        }
+      ],
+      "hasCode": false,
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7b67f191bc2c03a855e887ddc3238995b1e7cd83dfda053a69e58eb9853e6684_w640_q70.webp"
+    },
+    {
+      "id": 9122,
+      "title": "Safety-Utility Conflicts Are Not Global: Surgical Alignment via Head-Level Diagnosis",
+      "date": "2026-01-09",
+      "author": "Wang Cai",
+      "tags": [
+        {
+          "label": "safety-utility trade-off",
+          "color": "#818cf8"
+        }
+      ],
+      "hasCode": false,
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/983502ad9acefd46e71999e876f87a32449b73a1dbaf35107627e1b5ade2cee8_w640_q70.webp"
+    }
+  ],
+  "other": [
+    {
+      "id": 9459,
+      "title": "Analyzing Message-Code Inconsistency in AI Coding Agent-Authored Pull Requests",
+      "date": "2026-01-09",
+      "author": "Jingzhi Gong",
+      "tags": [
+        {
+          "label": "pull request",
+          "color": "#60a5fa"
+        }
+      ],
+      "hasCode": false,
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/46a520ccb74d8a22f0dcb92607e9d9878bd90e21b1b75e3a2584c296027e95c8_w640_q70.webp"
+    },
+    {
+      "id": 9472,
+      "title": "Decentralized Privacy-Preserving Federal Learning of Computer Vision Models on Edge Devices",
+      "date": "2026-01-09",
+      "author": "Damian Haren\u010d\u00e1k",
+      "tags": [
+        {
+          "label": "gradient compression",
+          "color": "#34d399"
+        }
+      ],
+      "hasCode": false,
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b9ddcb7cc0f30b31349d8b5f10a543fb464de5028ebba128e805f52a9d88ec50_w640_q70.webp"
+    },
+    {
+      "id": 9079,
+      "title": "FronTalk: Benchmarking Front-End Development as Conversational Code Generation with Multi-Modal Feedback",
+      "date": "2026-01-09",
+      "author": "Xueqing Wu",
+      "tags": [
+        {
+          "label": "conversational code generation",
+          "color": "#818cf8"
+        }
+      ],
+      "hasCode": false,
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/da2d2ebad3e79c7f25deae8b34d71fe1ec3d7c3972221a261cefb06270ba6b59_w640_q70.webp"
+    }
+  ]
+}

@@ -2,6 +2,7 @@ import React, {useEffect, useMemo, useState} from 'react';
 import Layout from '@theme/Layout';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import { useLocation } from '@docusaurus/router';
 import Mermaid from '@theme/Mermaid';
 import { getCachedData, setCachedData } from '../utils/paperCache';
 
@@ -375,6 +376,7 @@ const BackToTop = () => {
 
 export default function ArxivDailyPage() {
   const {siteConfig} = useDocusaurusContext();
+  const location = useLocation();
   const [data, setData] = useState<CategoryData[]>(() => CATEGORIES.map(c => ({...c, items: []})));
   const [loadedCats, setLoadedCats] = useState<Set<string>>(new Set());
   const [searchResults, setSearchResults] = useState<PaperItem[]>([]);
@@ -388,6 +390,16 @@ export default function ArxivDailyPage() {
    const [translatedQuery, setTranslatedQuery] = useState('');
 
    // Auto-translate Chinese query to English for better search results
+   useEffect(() => {
+     const params = new URLSearchParams(location.search);
+     const cat = params.get('category');
+     if (cat) {
+         // Validate cat exists in CATEGORIES
+         const exists = CATEGORIES.some(c => c.slug === cat);
+         if (exists) setActive(cat);
+     }
+   }, [location]);
+
    useEffect(() => {
      const query = searchQuery.trim();
      if (!query) {

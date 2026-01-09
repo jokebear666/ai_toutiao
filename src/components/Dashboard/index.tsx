@@ -1,13 +1,10 @@
-import React, { Suspense } from 'react';
+import React from 'react';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import Link from '@docusaurus/Link';
 import styles from './styles.module.css';
 import CalendarWidget from './Calendar';
-import { COLORS } from './Charts';
 import useBaseUrl from '@docusaurus/useBaseUrl';
-
-// Lazy load heavy chart components
-const DonutChart = React.lazy(() => import('./Charts').then(module => ({ default: module.DonutChart })));
-const ComparisonChart = React.lazy(() => import('./Charts').then(module => ({ default: module.ComparisonChart })));
+import dashboardData from '../../data/dashboard.json';
 
 // Icons
 const MoreIcon = () => (
@@ -28,135 +25,116 @@ const PdfIcon = () => (
     </svg>
 );
 
+const CodeIcon = () => (
+    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <polyline points="16 18 22 12 16 6"></polyline>
+        <polyline points="8 6 2 12 8 18"></polyline>
+    </svg>
+);
+
+interface PaperCardProps {
+    title: string;
+    link?: string;
+    papers: Array<{
+        id: number;
+        title: string;
+        date: string;
+        author: string;
+        tags: Array<{label: string, color: string}>;
+        hasCode?: boolean;
+        imgUrl?: string;
+    }>;
+}
+
+const CategoryCard = ({ title, link, papers }: PaperCardProps) => (
+    <Link to={link} className={styles.card} style={{textDecoration: 'none', color: 'inherit', cursor: link ? 'pointer' : 'default'}}>
+        <div className={styles.cardTitle}>{title}</div>
+        <div className={styles.paperPreviewList}>
+            {papers.map((paper, i) => (
+                <div key={i} className={styles.paperPreviewItem}>
+                    <div className={styles.paperPreviewImg} style={{
+                        backgroundImage: `url(${paper.imgUrl || useBaseUrl('/img/docusaurus-social-card.jpg')})`,
+                        backgroundSize: 'cover'
+                    }}></div>
+                    
+                    <div style={{fontSize:'0.8rem', color:'#111827', fontWeight:600, lineHeight:1.4, height:'2.8em', overflow:'hidden', display:'-webkit-box', WebkitLineClamp:2, WebkitBoxOrient:'vertical'}}>
+                        {paper.title}
+                    </div>
+
+                    <div style={{display:'flex', gap:4, flexWrap:'wrap'}}>
+                        {paper.tags.map((tag, idx) => (
+                            <span key={idx} style={{
+                                fontSize:'0.65rem', 
+                                padding:'2px 6px', 
+                                borderRadius:4, 
+                                background: tag.color, 
+                                color:'#fff',
+                                whiteSpace:'nowrap'
+                            }}>
+                                {tag.label}
+                            </span>
+                        ))}
+                    </div>
+
+                    <div className={styles.paperPreviewMeta} style={{marginTop:'auto'}}>
+                        <span>{paper.date} · {paper.author}</span>
+                        <div style={{display:'flex', gap:4}}>
+                            {paper.hasCode && (
+                                <span style={{display:'flex', alignItems:'center', gap:2, background:'#f3f4f6', padding:'2px 6px', borderRadius:4, fontSize:'0.65rem'}}>
+                                    <CodeIcon /> CODE
+                                </span>
+                            )}
+                            <span style={{display:'flex', alignItems:'center', gap:2, background:'#f3f4f6', padding:'2px 6px', borderRadius:4, fontSize:'0.65rem'}}>
+                                <PdfIcon /> PDF
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            ))}
+        </div>
+    </Link>
+);
+
 export default function Dashboard() {
   const {siteConfig} = useDocusaurusContext();
+  const hotAds = (siteConfig?.themeConfig as any)?.hotAds || [];
   
+  // Use data from JSON file
+  const mockPapers = dashboardData.ai || [];
+  const cvPapers = dashboardData.cv || [];
+  const mlPapers = dashboardData.ml || [];
+  const otherPapers = dashboardData.other || [];
+
   return (
     <div className={styles.container}>
         {/* Left Column: Calendar & Ads */}
         <div className={styles.leftCol}>
             <CalendarWidget />
             
-            <div className={styles.adCard}>
-                <img src={useBaseUrl('/img/ads_1.png')} alt="Ad 1" className={styles.adImg} />
-            </div>
-            <div className={styles.adCard}>
-                <img src={useBaseUrl('/img/ads_2.png')} alt="Ad 2" className={styles.adImg} />
-            </div>
+            {hotAds.map((ad: any, i: number) => (
+                <a key={i} href={ad.href} target="_blank" rel="noopener noreferrer" className={styles.adCard} style={{display: 'block'}}>
+                    <img src={useBaseUrl('/' + ad.img)} alt={ad.alt || `Ad ${i+1}`} className={styles.adImg} />
+                </a>
+            ))}
         </div>
 
         {/* Right Column: Main Content */}
         <div className={styles.mainCol}>
             <div className={styles.headerCard}>
-                <h1 className={styles.headerTitle}>Today's Dashboard</h1>
+                <h1 className={styles.headerTitle}>Today's Papers</h1>
                 <button style={{background:'rgba(255,255,255,0.2)', border:'none', borderRadius:'50%', width:48, height:48, display:'flex', alignItems:'center', justifyContent:'center', color:'white', cursor:'pointer'}}>
                     <MoreIcon />
                 </button>
             </div>
 
             <div className={styles.cardRow}>
-                {/* Today's Paper (3 Previews) */}
-                <div className={styles.card}>
-                    <div className={styles.cardTitle}>Today's Paper</div>
-                    <div className={styles.paperPreviewList}>
-                        {[1, 2, 3].map((i) => (
-                            <div key={i} className={styles.paperPreviewItem}>
-                                <div className={styles.paperPreviewImg} style={{
-                                    backgroundImage: i === 1 ? `url(${useBaseUrl('/img/docusaurus-social-card.jpg')})` : undefined,
-                                    backgroundSize: 'cover'
-                                }}></div>
-                                <div className={styles.paperPreviewMeta}>
-                                    <span>2026-01-08</span>
-                                    <span style={{display:'flex', alignItems:'center', gap:4}}>
-                                        <PdfIcon /> PDF
-                                    </span>
-                                </div>
-                                <div style={{fontSize:'0.75rem', color:'#111827', fontWeight:600, lineHeight:1.4}}>
-                                    Mastering the Game of Go with Self-play...
-                                </div>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-
-                {/* Today's Paper Count */}
-                <div className={styles.card}>
-                    <div className={styles.cardTitle}>
-                        Today's Paper Count
-                        <span style={{fontSize:'0.85rem', color:'#9ca3af', fontWeight:400}}>Goralue netwac-</span>
-                    </div>
-                    <div style={{flex:1, display:'flex', flexDirection:'column', justifyContent:'center'}}>
-                        <div className={styles.bigNumber}>152</div>
-                        <div className={styles.growth}>↑ +15%</div>
-                    </div>
-                    
-                    {/* Decorative Node Graph (Bottom Right) */}
-                    <div style={{position:'absolute', bottom:24, right:24}}>
-                        <svg width="100" height="60" viewBox="0 0 100 60">
-                             {/* Nodes */}
-                            <circle cx="20" cy="20" r="8" fill="#e5e7eb" />
-                            <circle cx="50" cy="40" r="8" fill="#e5e7eb" />
-                            <circle cx="80" cy="20" r="8" fill="#e5e7eb" />
-                            <circle cx="35" cy="50" r="8" fill="#8b5cf6" />
-                            <circle cx="65" cy="50" r="8" fill="#8b5cf6" />
-                            
-                            {/* Lines */}
-                            <line x1="20" y1="20" x2="50" y2="40" stroke="#d1d5db" strokeWidth="2" />
-                            <line x1="80" y1="20" x2="50" y2="40" stroke="#d1d5db" strokeWidth="2" />
-                            <line x1="35" y1="50" x2="50" y2="40" stroke="#d1d5db" strokeWidth="2" />
-                            <line x1="65" y1="50" x2="50" y2="40" stroke="#d1d5db" strokeWidth="2" />
-                        </svg>
-                    </div>
-                </div>
+                <CategoryCard title="Artificial Intelligence" papers={mockPapers} link="/arxiv-daily?category=csai" />
+                <CategoryCard title="Computer Vision" papers={cvPapers} link="/arxiv-daily?category=cscv" />
             </div>
 
             <div className={styles.cardRow}>
-                {/* Donut Chart */}
-                <div className={styles.card}>
-                    <div className={styles.cardTitle}>
-                        Today's Paper Count by 
-                        <span style={{background:'#f3f4f6', padding:'4px 12px', borderRadius:'6px', fontSize:'0.85rem', color:'#4b5563', fontWeight:500}}>神经系统概览</span>
-                    </div>
-                    <div style={{display:'flex', alignItems:'center', height:'100%'}}>
-                        <div style={{flex:1, position:'relative', height:200}}>
-                        <Suspense fallback={<div style={{height: 180, display: 'flex', alignItems: 'center', justifyContent: 'center'}}>Loading...</div>}>
-                            <DonutChart />
-                        </Suspense>
-                        <div style={{position:'absolute', top:'50%', left:'50%', transform:'translate(-50%, -50%)', textAlign:'center', color:'#4b5563', fontSize:'0.9rem', fontWeight:600}}>
-                                60<br/>
-                                <span style={{fontSize:'0.75rem', fontWeight:400, color:'#9ca3af'}}>Robotiss</span>
-                            </div>
-                        </div>
-                        <div style={{flex:1, paddingLeft:20}}>
-                            <div style={{display:'flex', flexDirection:'column', gap:12}}>
-                                {[
-                                    {label: 'AI/ML', color: COLORS[0]},
-                                    {label: 'Semppen', color: COLORS[1]},
-                                    {label: 'Robs (N.P)', color: COLORS[2]},
-                                    {label: 'Computer Vision', color: COLORS[3]},
-                                    {label: 'NLP', color: COLORS[4]},
-                                    {label: 'Theory', color: COLORS[5]},
-                                ].map((item, i) => (
-                                    <div key={i} style={{display:'flex', alignItems:'center', gap:'10px'}}>
-                                        <div style={{width:10, height:10, background: item.color, borderRadius:2}}></div>
-                                        <span style={{color:'#4b5563', fontSize:'0.85rem', fontWeight:500}}>{item.label}</span>
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                {/* Bar Chart */}
-                <div className={styles.card}>
-                    <div className={styles.cardTitle}>热门领域趋势对比 (CV vs NLP)</div>
-                    <div style={{flex:1, display:'flex', alignItems:'flex-end'}}>
-                        <Suspense fallback={<div style={{height: 180, width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>Loading...</div>}>
-                            <ComparisonChart />
-                        </Suspense>
-                    </div>
-                    {/* X-Axis labels are handled in the chart component, but we can add custom legend if needed */}
-                </div>
+                <CategoryCard title="Machine Learning" papers={mlPapers} link="/arxiv-daily?category=cslg" />
+                <CategoryCard title="Other Fields" papers={otherPapers} link="/arxiv-daily?category=csoh" />
             </div>
         </div>
     </div>

@@ -2,8 +2,12 @@ import React, { useState } from 'react';
 import styles from './styles.module.css';
 
 export default function CalendarWidget() {
-  const [currentMonth, setCurrentMonth] = useState(new Date(2026, 0, 1)); // Mock 2026 Jan
-  const [selectedDate, setSelectedDate] = useState<number | null>(23); // Mock selection
+  const [currentMonth, setCurrentMonth] = useState(new Date()); // Default to current date
+  const today = new Date();
+  
+  // Only select today if it's in the current month view
+  const isCurrentMonth = today.getMonth() === currentMonth.getMonth() && today.getFullYear() === currentMonth.getFullYear();
+  const selectedDate = isCurrentMonth ? today.getDate() : null;
 
   const daysInMonth = new Date(currentMonth.getFullYear(), currentMonth.getMonth() + 1, 0).getDate();
   const firstDay = new Date(currentMonth.getFullYear(), currentMonth.getMonth(), 1).getDay();
@@ -28,19 +32,15 @@ export default function CalendarWidget() {
             ))}
             {days.map((d, i) => {
                 if (!d) return <div key={i} className={styles.calendarDay}></div>;
-                const hasData = availableDays.includes(d);
                 const isSelected = selectedDate === d;
                 
-                // Hardcoded style for 17 to match screenshot (dark blue/black)
-                const isDark = d === 17;
-
                 return (
                     <div 
                         key={i} 
-                        className={`${styles.calendarDay} ${hasData ? styles.hasData : ''}`}
+                        className={styles.calendarDay}
                         style={{ 
-                            backgroundColor: isSelected ? '#2563eb' : (isDark ? '#1f2937' : undefined), 
-                            color: (isSelected || isDark) ? 'white' : undefined 
+                            backgroundColor: isSelected ? '#2563eb' : undefined, 
+                            color: isSelected ? 'white' : undefined 
                         }}
                     >
                         {d}
@@ -48,7 +48,6 @@ export default function CalendarWidget() {
                 );
             })}
         </div>
-        <button className={styles.calendarAllBtn}>显示全部 Paper</button>
     </div>
   );
 }

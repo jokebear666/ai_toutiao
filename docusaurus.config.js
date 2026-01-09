@@ -131,8 +131,8 @@ const config = {
         ],
       },
       hotAds: [
-        { img: 'img/ads_1.png', href: 'https://xhslink.com/m/2lTbaZQ1RbP', alt: 'AI头条' },
-        { img: 'img/ads_2.png', href: 'https://xhslink.com/m/2lTbaZQ1RbP', alt: '草莓师姐' }
+        { img: 'img/ads_1.webp', href: 'https://xhslink.com/m/2lTbaZQ1RbP', alt: 'AI头条' },
+        { img: 'img/ads_2.webp', href: 'https://xhslink.com/m/2lTbaZQ1RbP', alt: '草莓师姐' }
       ],
       // footer: {
       //   style: 'dark',

@@ -1,178 +1,178 @@
 {
   "ai": [
     {
-      "id": 9090,
-      "title": "Active Sensing Shapes Real-World Decision-Making through Dynamic Evidence Accumulation",
-      "date": "2026-01-09",
-      "author": "Hongliang Lu",
+      "id": 10024,
+      "title": "Joint Optimization of Neural Autoregressors via Scoring rules",
+      "date": "2026-01-12",
+      "author": "Jonas Landsgesell",
       "tags": [
         {
-          "label": "evidence accumulation modelling",
+          "label": "TabPFN",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1ba933504dd7306c246dc56fe091a4fb72ee4f3ae03c91202ff6eaa31a67fb6c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3f7fd11eddec35488e713d860bf3ce9e1ecfd37d714cd2b25bb17bd7705c3cc9_w640_q70.webp"
     },
     {
-      "id": 9102,
-      "title": "SAGE-32B: Agentic Reasoning via Iterative Distillation",
-      "date": "2026-01-09",
-      "author": "Basab Jha",
+      "id": 10004,
+      "title": "Evolving Cognitive Architectures",
+      "date": "2026-01-12",
+      "author": "Alexander Serov",
       "tags": [
         {
-          "label": "iterative distillation",
+          "label": "cognitive architecture",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4199bc5bf82aaf8b5bcf6635e48b61f313840f01779a97ddac6fb1c8e8e4930c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/926f15d1073ffa78a9a81d6e0ab7f3f83702343fe8704c5e4c8731ca89806d18_w640_q70.webp"
     },
     {
-      "id": 9104,
-      "title": "Actively Obtaining Environmental Feedback for Autonomous Action Evaluation Without Predefined Measurements",
-      "date": "2026-01-09",
-      "author": "Hong Su",
+      "id": 9666,
+      "title": "Naiad: Novel Agentic Intelligent Autonomous System for Inland Water Monitoring",
+      "date": "2026-01-12",
+      "author": "Eirini Baltzi",
       "tags": [
         {
-          "label": "active feedback acquisition",
+          "label": "agentic AI",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/17c4ae96d341ceec48f84b7a9fc212783131b15128b181373c8503db739392a0_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/164a310a1718eb8a0027c766d8bec42e41142394220f8bf313058122a0975a8d_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 9153,
-      "title": "Embedding Textual Information in Images Using Quinary Pixel Combinations",
-      "date": "2026-01-09",
-      "author": "A V Uday Kiran Kandala",
+      "id": 9694,
+      "title": "Bi-Orthogonal Factor Decomposition for Vision Transformers",
+      "date": "2026-01-12",
+      "author": "Fenil R. Doshi",
       "tags": [
         {
-          "label": "quinary combinations",
+          "label": "self-attention",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/bc69eaa4586fc949568e3cc4054eba4f93ee4f30e1dd82cf93e25238d355dfeb_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5e86c4065937ccaaca5ef39e61e100543059ddf00e39a4b02f07782cb319baf0_w640_q70.webp"
     },
     {
-      "id": 9156,
-      "title": "Beyond Binary Preference: Aligning Diffusion Models to Fine-grained Criteria by Decoupling Attributes",
-      "date": "2026-01-09",
-      "author": "Chenye Meng",
+      "id": 9701,
+      "title": "Coding the Visual World: From Image to Simulation Using Vision Language Models",
+      "date": "2026-01-12",
+      "author": "Sagi Eppel",
       "tags": [
         {
-          "label": "diffusion models",
+          "label": "Vision Language Models",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a1b0114a8c204fb81fd28d9ceb39a60a72f56c28634925c8ca517a29d13d822d_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/28411d5576d1ebf43c0d716496678cd14e282f03c9b0b4df9d7ba323c76eed56_w640_q70.webp"
     },
     {
-      "id": 9158,
-      "title": "ReHyAt: Recurrent Hybrid Attention for Video Diffusion Transformers",
-      "date": "2026-01-09",
-      "author": "Mohsen Ghafoorian",
+      "id": 9706,
+      "title": "MOSAIC-GS: Monocular Scene Reconstruction via Advanced Initialization for Complex Dynamic Environments",
+      "date": "2026-01-12",
+      "author": "Svitlana Morkva",
       "tags": [
         {
-          "label": "Recurrent Hybrid Attention",
+          "label": "Gaussian Splatting",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8a896c1eb1755bd744406ca4d44fa025bd1ec287196e8076e1ffee7ca0363edb_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a71bb8b04b5254bf6a72408e7fed489baf064211cb5063bf2e5c81fd5a7d82e6_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 9076,
-      "title": "The Forgotten Shield: Safety Grafting in Parameter-Space for Medical MLLMs",
-      "date": "2026-01-09",
-      "author": "Jiale Zhao",
+      "id": 9999,
+      "title": "LookAroundNet: Extending Temporal Context with Transformers for Clinically Viable EEG Seizure Detection",
+      "date": "2026-01-12",
+      "author": "\u00de\u00f3r Sverrisson",
       "tags": [
         {
-          "label": "safety alignment",
+          "label": "transformer",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4863c0a909f7be71545dabcc47126347fed4a463fa68aa302eb55fbbdaf1f2e9_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/05a5ca0aa0cc67db46e9d4c0169a772877f97f2ba8caf812bb912733a79cadb9_w640_q70.webp"
     },
     {
-      "id": 9115,
-      "title": "Green MLOps: Closed-Loop, Energy-Aware Inference with NVIDIA Triton, FastAPI, and Bio-Inspired Thresholding",
-      "date": "2026-01-09",
-      "author": "Mustapha Hamdi",
+      "id": 9685,
+      "title": "MoEBlaze: Breaking the Memory Wall for Efficient MoE Training on Modern GPUs",
+      "date": "2026-01-12",
+      "author": "Jiyuan Zhang",
       "tags": [
         {
-          "label": "energy-aware inference",
+          "label": "Mixture-of-Experts (MoE)",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7b67f191bc2c03a855e887ddc3238995b1e7cd83dfda053a69e58eb9853e6684_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5474dea240da62e94040a00e3dd8e7cc0374d59416eaf81472b81fe447819d79_w640_q70.webp"
     },
     {
-      "id": 9122,
-      "title": "Safety-Utility Conflicts Are Not Global: Surgical Alignment via Head-Level Diagnosis",
-      "date": "2026-01-09",
-      "author": "Wang Cai",
+      "id": 9689,
+      "title": "TIME: Temporally Intelligent Meta-reasoning Engine for Context Triggered Explicit Reasoning",
+      "date": "2026-01-12",
+      "author": "Susmit Das",
       "tags": [
         {
-          "label": "safety-utility trade-off",
+          "label": "explicit reasoning",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/983502ad9acefd46e71999e876f87a32449b73a1dbaf35107627e1b5ade2cee8_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e5a0c5608b5b5848c357c391f9557c454bf5f6fd401abcbb8d28dcf07a85ad39_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 9459,
-      "title": "Analyzing Message-Code Inconsistency in AI Coding Agent-Authored Pull Requests",
-      "date": "2026-01-09",
-      "author": "Jingzhi Gong",
+      "id": 9676,
+      "title": "Enhancing Foundation Models in Transaction Understanding with LLM-based Sentence Embeddings",
+      "date": "2026-01-12",
+      "author": "Xiran Fan",
       "tags": [
         {
-          "label": "pull request",
+          "label": "sentence embeddings",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/46a520ccb74d8a22f0dcb92607e9d9878bd90e21b1b75e3a2584c296027e95c8_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f2fb48064472d02f652bfd706ef9577a297bc9455a4b77bc0354e913cb4f662f_w640_q70.webp"
     },
     {
-      "id": 9472,
-      "title": "Decentralized Privacy-Preserving Federal Learning of Computer Vision Models on Edge Devices",
-      "date": "2026-01-09",
-      "author": "Damian Haren\u010d\u00e1k",
+      "id": 9684,
+      "title": "A Survey of Agentic AI and Cybersecurity: Challenges, Opportunities and Use-case Prototypes",
+      "date": "2026-01-12",
+      "author": "Sahaya Jestus Lazer",
       "tags": [
         {
-          "label": "gradient compression",
+          "label": "agentic ai",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b9ddcb7cc0f30b31349d8b5f10a543fb464de5028ebba128e805f52a9d88ec50_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/be45928d6bfa57fa52228837409397e1b4d74b7e33683bbc65f1efc834f1f047_w640_q70.webp"
     },
     {
-      "id": 9079,
-      "title": "FronTalk: Benchmarking Front-End Development as Conversational Code Generation with Multi-Modal Feedback",
-      "date": "2026-01-09",
-      "author": "Xueqing Wu",
+      "id": 9698,
+      "title": "Intent at a Glance: Gaze-Guided Robotic Manipulation via Foundation Models",
+      "date": "2026-01-12",
+      "author": "Tracey Yee Hsin Tay",
       "tags": [
         {
-          "label": "conversational code generation",
+          "label": "gaze tracking",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/da2d2ebad3e79c7f25deae8b34d71fe1ec3d7c3972221a261cefb06270ba6b59_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/24d03e318352169fde36c19c0fba1de3f7a89914037338a3c951110e1c5c53b0_w640_q70.webp"
     }
   ]
 }

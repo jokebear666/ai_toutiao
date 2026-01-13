@@ -1,178 +1,178 @@
 {
   "ai": [
     {
-      "id": 10024,
-      "title": "Joint Optimization of Neural Autoregressors via Scoring rules",
-      "date": "2026-01-12",
-      "author": "Jonas Landsgesell",
+      "id": 10065,
+      "title": "\"They parted illusions -- they parted disclaim marinade\": Misalignment as structural fidelity in LLMs",
+      "date": "2026-01-13",
+      "author": "Mariana Lins Costa",
       "tags": [
         {
-          "label": "TabPFN",
+          "label": "structural fidelity",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3f7fd11eddec35488e713d860bf3ce9e1ecfd37d714cd2b25bb17bd7705c3cc9_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/72ca4d40d844881a6cb9798433305af847456148eb4b1ff7f967dae15d2bcbfa_w640_q70.webp"
     },
     {
-      "id": 10004,
-      "title": "Evolving Cognitive Architectures",
-      "date": "2026-01-12",
-      "author": "Alexander Serov",
+      "id": 10092,
+      "title": "Automatic Question Generation for Intuitive Learning Utilizing Causal Graph Guided Chain of Thought Reasoning",
+      "date": "2026-01-13",
+      "author": "Nicholas X. Wang",
       "tags": [
         {
-          "label": "cognitive architecture",
+          "label": "causal graph",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/926f15d1073ffa78a9a81d6e0ab7f3f83702343fe8704c5e4c8731ca89806d18_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/26ced3f0efab52a4e779fe794d473367a3b8662ce6cd70d5bee182836df02a7b_w640_q70.webp"
     },
     {
-      "id": 9666,
-      "title": "Naiad: Novel Agentic Intelligent Autonomous System for Inland Water Monitoring",
-      "date": "2026-01-12",
-      "author": "Eirini Baltzi",
+      "id": 10096,
+      "title": "Dynamic Intelligence Ceilings: Measuring Long-Horizon Limits of Planning and Creativity in Artificial Systems",
+      "date": "2026-01-13",
+      "author": "Truong Xuan Khanh",
       "tags": [
         {
-          "label": "agentic AI",
+          "label": "dynamic intelligence ceiling",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/164a310a1718eb8a0027c766d8bec42e41142394220f8bf313058122a0975a8d_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5360bb0070407a7a2c31cce5119ba88ba4d1c8f7701b4aceca2261dd83c067ed_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 9694,
-      "title": "Bi-Orthogonal Factor Decomposition for Vision Transformers",
-      "date": "2026-01-12",
-      "author": "Fenil R. Doshi",
+      "id": 10084,
+      "title": "OptFormer: Optical Flow-Guided Attention and Phase Space Reconstruction for SST Forecasting",
+      "date": "2026-01-13",
+      "author": "Yin Wang",
       "tags": [
         {
-          "label": "self-attention",
+          "label": "optical flow-guided attention",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5e86c4065937ccaaca5ef39e61e100543059ddf00e39a4b02f07782cb319baf0_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/88ed2df8abb781df871554ae937554d751e408655ba271e010526e7e7b6ff41d_w640_q70.webp"
     },
     {
-      "id": 9701,
-      "title": "Coding the Visual World: From Image to Simulation Using Vision Language Models",
-      "date": "2026-01-12",
-      "author": "Sagi Eppel",
+      "id": 10086,
+      "title": "HyperTopo-Adapters: Geometry- and Topology-Aware Segmentation of Leaf Lesions on Frozen Encoders",
+      "date": "2026-01-13",
+      "author": "Chimdi Walter Ndubuisi",
       "tags": [
         {
-          "label": "Vision Language Models",
+          "label": "product manifold",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/28411d5576d1ebf43c0d716496678cd14e282f03c9b0b4df9d7ba323c76eed56_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/87d6b318cb1e9a8ef18796d237f6559880aa7487ecc52131737dbe6e604af76a_w640_q70.webp"
     },
     {
-      "id": 9706,
-      "title": "MOSAIC-GS: Monocular Scene Reconstruction via Advanced Initialization for Complex Dynamic Environments",
-      "date": "2026-01-12",
-      "author": "Svitlana Morkva",
+      "id": 10098,
+      "title": "Semantic Event Graphs for Long-Form Video Question Answering",
+      "date": "2026-01-13",
+      "author": "Aradhya Dixit",
       "tags": [
         {
-          "label": "Gaussian Splatting",
+          "label": "Temporal Scene Graph",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a71bb8b04b5254bf6a72408e7fed489baf064211cb5063bf2e5c81fd5a7d82e6_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e3698cc8adade3ca51df2bac8d0f80d98e7abd35ae71a8ee023d384ffc5e15ec_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 9999,
-      "title": "LookAroundNet: Extending Temporal Context with Transformers for Clinically Viable EEG Seizure Detection",
-      "date": "2026-01-12",
-      "author": "\u00de\u00f3r Sverrisson",
+      "id": 10573,
+      "title": "A Robust Certified Machine Unlearning Method Under Distribution Shift",
+      "date": "2026-01-13",
+      "author": "Jinduo Guo",
       "tags": [
         {
-          "label": "transformer",
+          "label": "certified unlearning",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/05a5ca0aa0cc67db46e9d4c0169a772877f97f2ba8caf812bb912733a79cadb9_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a0e2e5dcceb48508d7a79ac115efa720bee25ecf3931c281a364dd763843a02f_w640_q70.webp"
     },
     {
-      "id": 9685,
-      "title": "MoEBlaze: Breaking the Memory Wall for Efficient MoE Training on Modern GPUs",
-      "date": "2026-01-12",
-      "author": "Jiyuan Zhang",
+      "id": 10054,
+      "title": "Tree-Preconditioned Differentiable Optimization and Axioms as Layers",
+      "date": "2026-01-13",
+      "author": "Yuexin Liao",
       "tags": [
         {
-          "label": "Mixture-of-Experts (MoE)",
+          "label": "Random Utility Models",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5474dea240da62e94040a00e3dd8e7cc0374d59416eaf81472b81fe447819d79_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d54e19953ed66d067c6901b6e5f7b410ff640c57923e332e6b580bd7c9125bba_w640_q70.webp"
     },
     {
-      "id": 9689,
-      "title": "TIME: Temporally Intelligent Meta-reasoning Engine for Context Triggered Explicit Reasoning",
-      "date": "2026-01-12",
-      "author": "Susmit Das",
+      "id": 10056,
+      "title": "CrossTrafficLLM: A Human-Centric Framework for Interpretable Traffic Intelligence via Large Language Model",
+      "date": "2026-01-13",
+      "author": "Zeming Du",
       "tags": [
         {
-          "label": "explicit reasoning",
+          "label": "Large Language Model",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e5a0c5608b5b5848c357c391f9557c454bf5f6fd401abcbb8d28dcf07a85ad39_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/af4e6fed9a04b3d48c83aabf7ccbe45b8950b7deb8bdfb147e1caabd0fd3aede_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 9676,
-      "title": "Enhancing Foundation Models in Transaction Understanding with LLM-based Sentence Embeddings",
-      "date": "2026-01-12",
-      "author": "Xiran Fan",
+      "id": 10592,
+      "title": "Zer0n: An AI-Assisted Vulnerability Discovery and Blockchain-Backed Integrity Framework",
+      "date": "2026-01-13",
+      "author": "Harshil Parmar",
       "tags": [
         {
-          "label": "sentence embeddings",
+          "label": "blockchain",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f2fb48064472d02f652bfd706ef9577a297bc9455a4b77bc0354e913cb4f662f_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e54c5c9845343653ffe134f424f0ddcda5358d44482e8ce3e68d6f80cecc17a3_w640_q70.webp"
     },
     {
-      "id": 9684,
-      "title": "A Survey of Agentic AI and Cybersecurity: Challenges, Opportunities and Use-case Prototypes",
-      "date": "2026-01-12",
-      "author": "Sahaya Jestus Lazer",
+      "id": 10069,
+      "title": "A Multi-Stage Workflow for the Review of Marketing Content with Reasoning Large Language Models",
+      "date": "2026-01-13",
+      "author": "Alberto Purpura",
       "tags": [
         {
-          "label": "agentic ai",
+          "label": "Group Relative Policy Optimization (GRPO)",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/be45928d6bfa57fa52228837409397e1b4d74b7e33683bbc65f1efc834f1f047_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8fe45642c7e941274a6dc7b8fdccbcf6ac4dd768f5c8caf0623e1ea8c2daf843_w640_q70.webp"
     },
     {
-      "id": 9698,
-      "title": "Intent at a Glance: Gaze-Guided Robotic Manipulation via Foundation Models",
-      "date": "2026-01-12",
-      "author": "Tracey Yee Hsin Tay",
+      "id": 10041,
+      "title": "Autonomous QA Agent: A Retrieval-Augmented Framework for Reliable Selenium Script Generation",
+      "date": "2026-01-13",
+      "author": "Dudekula Kasim Vali",
       "tags": [
         {
-          "label": "gaze tracking",
+          "label": "Retrieval-Augmented Generation (RAG)",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/24d03e318352169fde36c19c0fba1de3f7a89914037338a3c951110e1c5c53b0_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5dfe6ae8565f2fdfac783d7cfdb596db9487c06a8e8236e3ef559bccb7c7701f_w640_q70.webp"
     }
   ]
 }

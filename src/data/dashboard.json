@@ -1,178 +1,178 @@
 {
   "ai": [
     {
-      "id": 10065,
-      "title": "\"They parted illusions -- they parted disclaim marinade\": Misalignment as structural fidelity in LLMs",
-      "date": "2026-01-13",
-      "author": "Mariana Lins Costa",
+      "id": 11057,
+      "title": "Bridging the Trust Gap: Clinician-Validated Hybrid Explainable AI for Maternal Health Risk Assessment in Bangladesh",
+      "date": "2026-01-14",
+      "author": "Farjana Yesmin",
       "tags": [
         {
-          "label": "structural fidelity",
+          "label": "fuzzy logic",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/72ca4d40d844881a6cb9798433305af847456148eb4b1ff7f967dae15d2bcbfa_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/bba433751194601a2e804cdee2e8b82873218788f5594bc9a524dc4261fda1a3_w640_q70.webp"
     },
     {
-      "id": 10092,
-      "title": "Automatic Question Generation for Intuitive Learning Utilizing Causal Graph Guided Chain of Thought Reasoning",
-      "date": "2026-01-13",
-      "author": "Nicholas X. Wang",
+      "id": 11090,
+      "title": "Executable Ontologies in Game Development: From Algorithmic Control to Semantic World Modeling",
+      "date": "2026-01-14",
+      "author": "Alexander Boldachev",
       "tags": [
         {
-          "label": "causal graph",
+          "label": "executable ontologies",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/26ced3f0efab52a4e779fe794d473367a3b8662ce6cd70d5bee182836df02a7b_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7779a0c07c58c14057ea9c52c1eb4ed2710c68defd4be154b4348893ae94848f_w640_q70.webp"
     },
     {
-      "id": 10096,
-      "title": "Dynamic Intelligence Ceilings: Measuring Long-Horizon Limits of Planning and Creativity in Artificial Systems",
-      "date": "2026-01-13",
-      "author": "Truong Xuan Khanh",
+      "id": 11091,
+      "title": "When Models Know When They Do Not Know: Calibration, Cascading, and Cleaning",
+      "date": "2026-01-14",
+      "author": "Chenjie Hao",
       "tags": [
         {
-          "label": "dynamic intelligence ceiling",
+          "label": "model calibration",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5360bb0070407a7a2c31cce5119ba88ba4d1c8f7701b4aceca2261dd83c067ed_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d5ebae44092ff9cd2b4528a6c35118246156d3894d8debf189862ae57e1b3d79_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 10084,
-      "title": "OptFormer: Optical Flow-Guided Attention and Phase Space Reconstruction for SST Forecasting",
-      "date": "2026-01-13",
-      "author": "Yin Wang",
+      "id": 11056,
+      "title": "An Empirical Study on Knowledge Transfer under Domain and Label Shifts in 3D LiDAR Point Clouds",
+      "date": "2026-01-14",
+      "author": "Subeen Lee",
       "tags": [
         {
-          "label": "optical flow-guided attention",
+          "label": "continual learning",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/88ed2df8abb781df871554ae937554d751e408655ba271e010526e7e7b6ff41d_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ef449f193afb756adbde59b875c9fd18d0ba4f127f583a6b34fd0efd528b348b_w640_q70.webp"
     },
     {
-      "id": 10086,
-      "title": "HyperTopo-Adapters: Geometry- and Topology-Aware Segmentation of Leaf Lesions on Frozen Encoders",
-      "date": "2026-01-13",
-      "author": "Chimdi Walter Ndubuisi",
+      "id": 11059,
+      "title": "Edge-AI Perception Node for Cooperative Road-Safety Enforcement and Connected-Vehicle Integration",
+      "date": "2026-01-14",
+      "author": "Shree Charran R",
       "tags": [
         {
-          "label": "product manifold",
+          "label": "YOLOv8",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/87d6b318cb1e9a8ef18796d237f6559880aa7487ecc52131737dbe6e604af76a_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/80d1d1fc4efab8ec3141903569a116ef80b405faa1225f903f5bc7b3fec174f0_w640_q70.webp"
     },
     {
-      "id": 10098,
-      "title": "Semantic Event Graphs for Long-Form Video Question Answering",
-      "date": "2026-01-13",
-      "author": "Aradhya Dixit",
+      "id": 11080,
+      "title": "Moonworks Lunara Aesthetic Dataset",
+      "date": "2026-01-14",
+      "author": "Yan Wang",
       "tags": [
         {
-          "label": "Temporal Scene Graph",
+          "label": "text-to-image generation",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e3698cc8adade3ca51df2bac8d0f80d98e7abd35ae71a8ee023d384ffc5e15ec_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0ffb5df68f83bb054964fdb1c7a0dfad92ffdac6aaecf594355662a87427458b_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 10573,
-      "title": "A Robust Certified Machine Unlearning Method Under Distribution Shift",
-      "date": "2026-01-13",
-      "author": "Jinduo Guo",
+      "id": 11058,
+      "title": "Affect and Effect: Limitations of regularisation-based continual learning in EEG-based emotion classification",
+      "date": "2026-01-14",
+      "author": "Nina Peire",
       "tags": [
         {
-          "label": "certified unlearning",
+          "label": "EEG",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a0e2e5dcceb48508d7a79ac115efa720bee25ecf3931c281a364dd763843a02f_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/81c436841e128b1716475eb0fb69c9e8b66780b279cc7c172a4da3095e4b5a86_w640_q70.webp"
     },
     {
-      "id": 10054,
-      "title": "Tree-Preconditioned Differentiable Optimization and Axioms as Layers",
-      "date": "2026-01-13",
-      "author": "Yuexin Liao",
+      "id": 11060,
+      "title": "Hierarchical Sparse Plus Low Rank Compression of LLM",
+      "date": "2026-01-14",
+      "author": "Pawan Kumar",
       "tags": [
         {
-          "label": "Random Utility Models",
+          "label": "hierarchical sparse plus low-rank",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d54e19953ed66d067c6901b6e5f7b410ff640c57923e332e6b580bd7c9125bba_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9b833bbf939bba0955a2a40c1d3834f41508584f1205e23c8e2085aec71fed10_w640_q70.webp"
     },
     {
-      "id": 10056,
-      "title": "CrossTrafficLLM: A Human-Centric Framework for Interpretable Traffic Intelligence via Large Language Model",
-      "date": "2026-01-13",
-      "author": "Zeming Du",
+      "id": 11061,
+      "title": "Multiplicative Orthogonal Sequential Editing for Language Models",
+      "date": "2026-01-14",
+      "author": "Hao-Xiang Xu",
       "tags": [
         {
-          "label": "Large Language Model",
+          "label": "knowledge editing",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/af4e6fed9a04b3d48c83aabf7ccbe45b8950b7deb8bdfb147e1caabd0fd3aede_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5f83708f7b3d11f339bce5d52c3ebbc1b289994d33d0803c50b21059b15b3d31_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 10592,
-      "title": "Zer0n: An AI-Assisted Vulnerability Discovery and Blockchain-Backed Integrity Framework",
-      "date": "2026-01-13",
-      "author": "Harshil Parmar",
+      "id": 11051,
+      "title": "FinVault: Benchmarking Financial Agent Safety in Execution-Grounded Environments",
+      "date": "2026-01-14",
+      "author": "Zhi Yang",
       "tags": [
         {
-          "label": "blockchain",
+          "label": "financial agents",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e54c5c9845343653ffe134f424f0ddcda5358d44482e8ce3e68d6f80cecc17a3_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4729f04492b93ee59259bee1d253638c8f0c00f56e2e85b5cb8d42f40576fb62_w640_q70.webp"
     },
     {
-      "id": 10069,
-      "title": "A Multi-Stage Workflow for the Review of Marketing Content with Reasoning Large Language Models",
-      "date": "2026-01-13",
-      "author": "Alberto Purpura",
+      "id": 11053,
+      "title": "Post-Quantum Cryptography Key Expansion Method and Anonymous Certificate Scheme Based on NTRU",
+      "date": "2026-01-14",
+      "author": "Abel C. H. Chen",
       "tags": [
         {
-          "label": "Group Relative Policy Optimization (GRPO)",
+          "label": "NTRU",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8fe45642c7e941274a6dc7b8fdccbcf6ac4dd768f5c8caf0623e1ea8c2daf843_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/179cf4c42cc68404085d2eb7ab9497c8abfd050c068bd7efb3aa196268ce090b_w640_q70.webp"
     },
     {
-      "id": 10041,
-      "title": "Autonomous QA Agent: A Retrieval-Augmented Framework for Reliable Selenium Script Generation",
-      "date": "2026-01-13",
-      "author": "Dudekula Kasim Vali",
+      "id": 11055,
+      "title": "EmbeddingRWKV: State-Centric Retrieval with Reusable States",
+      "date": "2026-01-14",
+      "author": "Haowen Hou",
       "tags": [
         {
-          "label": "Retrieval-Augmented Generation (RAG)",
+          "label": "State-Centric Retrieval",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5dfe6ae8565f2fdfac783d7cfdb596db9487c06a8e8236e3ef559bccb7c7701f_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6d2d3f4477b27182ea7bcb2cf5cbee8c2c9ab9b01078b6c8efac2fd57b4aab26_w640_q70.webp"
     }
   ]
 }

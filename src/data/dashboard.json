@@ -1,178 +1,178 @@
 {
   "ai": [
     {
-      "id": 11633,
-      "title": "ConvoLearn: A Dataset of Constructivist Tutor-Student Dialogue",
-      "date": "2026-01-15",
-      "author": "Mayank Sharma",
+      "id": 12216,
+      "title": "State of AI: An Empirical 100 Trillion Token Study with OpenRouter",
+      "date": "2026-01-16",
+      "author": "Malika Aubakirova",
       "tags": [
         {
-          "label": "QLoRA",
+          "label": "reasoning models",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/bfa9c734705f28d22581c4c35d17ed406e2fdaf495378d3dfbbef8c5f9edeea5_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/94ccc378dfea951289d7a5ab8993a70987bd07f1bdb50faf0be0115b7944a257_w640_q70.webp"
     },
     {
-      "id": 11651,
-      "title": "ART: Action-based Reasoning Task Benchmarking for Medical AI Agents",
-      "date": "2026-01-15",
-      "author": "Ananya Mantravadi",
+      "id": 12221,
+      "title": "MATRIX AS PLAN: Structured Logical Reasoning with Feedback-Driven Replanning",
+      "date": "2026-01-16",
+      "author": "Ke Chen",
       "tags": [
         {
-          "label": "clinical reasoning evaluation",
+          "label": "Chain-of-Thought",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/51742ac2e7d5993715f73a2636cca259fea7a97e93309de8a162c58b79010ef5_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/266f3ded0b6703fdb7beec954ec60a6b264a8a72c0d4f452fcfccfabe3fbe5ca_w640_q70.webp"
     },
     {
-      "id": 11667,
-      "title": "The Hierarchy of Agentic Capabilities: Evaluating Frontier Models on Realistic RL Environments",
-      "date": "2026-01-15",
-      "author": "Logan Ritchie",
+      "id": 12345,
+      "title": "C-GRASP: Clinically-Grounded Reasoning for Affective Signal Processing",
+      "date": "2026-01-16",
+      "author": "Cheng Lin Cheng",
       "tags": [
         {
-          "label": "agentic capabilities",
+          "label": "heart rate variability",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/89e7f147793671bc8ea06946f5868922ca513f0d2691b6e9ab19b52f9c983d6a_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1d14f7a6b6211aa1a07783ff94a14357f407d5b51f5eda7e91ca8ccece15b3a0_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 12007,
-      "title": "Comprehensive Machine Learning Benchmarking for Fringe Projection Profilometry with Photorealistic Synthetic Data",
-      "date": "2026-01-15",
-      "author": "Anush Lakshman S",
+      "id": 12162,
+      "title": "DR$^2$Seg: Decomposed Two-Stage Rollouts for Efficient Reasoning Segmentation in Multimodal Large Language Models",
+      "date": "2026-01-16",
+      "author": "Yulin He",
       "tags": [
         {
-          "label": "fringe projection profilometry",
+          "label": "self-rewarding framework",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/87822867cf323e82be5f201a2ce9e3c837cf7eb27f32562f63bf6e3e1ae0de9c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/293996a74fa08026e1ec052ac0214dd7472d74356f5f2ede6338874b0f77e08a_w640_q70.webp"
     },
     {
-      "id": 11927,
-      "title": "GlovEgo-HOI: Bridging the Synthetic-to-Real Gap for Industrial Egocentric Human-Object Interaction Detection",
-      "date": "2026-01-15",
-      "author": "Alfio Spoto",
+      "id": 12084,
+      "title": "Diffusion-Driven Deceptive Patches: Adversarial Manipulation and Forensic Detection in Facial Identity Verification",
+      "date": "2026-01-16",
+      "author": "Shahrzad Sayyafzadeh",
       "tags": [
         {
-          "label": "synthetic data generation",
+          "label": "adversarial patches",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/356c61351cbbf303ef896a55e82a1c7d6fdd76c31f96382e9732501fc8422a1b_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/09ecb58e474bcc310c7669ca6f75b3953d6931f6a03aea938de83857a40579e1_w640_q70.webp"
     },
     {
-      "id": 11832,
-      "title": "Frequency Error-Guided Under-sampling Optimization for Multi-Contrast MRI Reconstruction",
-      "date": "2026-01-15",
-      "author": "Xinming Fang",
+      "id": 12089,
+      "title": "LCF3D: A Robust and Real-Time Late-Cascade Fusion Framework for 3D Object Detection in Autonomous Driving",
+      "date": "2026-01-16",
+      "author": "Carlo Sgaravatti",
       "tags": [
         {
-          "label": "multi-contrast MRI",
+          "label": "sensor fusion",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/54f52a4b625fc2db329a5bf45b3cd013ca36bd10eb240f3f2edff55fe3b13711_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9df415a7b6aace208dcbf2c43b261cd9edd6b40788b1747b876705d73c827c94_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 11893,
-      "title": "On the Hardness of Computing Counterfactual and Semifactual Explanations in XAI",
-      "date": "2026-01-15",
-      "author": "Andr\u00e9 Artelt",
+      "id": 12351,
+      "title": "PLGC: Pseudo-Labeled Graph Condensation",
+      "date": "2026-01-16",
+      "author": "Jay Nandy",
       "tags": [
         {
-          "label": "counterfactual explanations",
+          "label": "graph condensation",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/928a1064fa4637fc9b9aa9f6b97cb4e8bb9046936a55cb54cf2eea53c385f6b0_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/84efbefb683c4b28c83205356d243801f2c6961d0292603d7ab9470865c6217e_w640_q70.webp"
     },
     {
-      "id": 11898,
-      "title": "SimMerge: Learning to Select Merge Operators from Similarity Signals",
-      "date": "2026-01-15",
-      "author": "Oliver Bolton",
+      "id": 12040,
+      "title": "Social Determinants of Health Prediction for ICD-9 Code with Reasoning Models",
+      "date": "2026-01-16",
+      "author": "Sharim Khan",
       "tags": [
         {
-          "label": "model merging",
+          "label": "Social Determinants of Health",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0392015157feabdafc546b081dc1b3e846f0b7084c4285eb3e2fb1107b6eb249_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/aa2abac335679dd97c21300a19c8be40ac90f623325d86d03cc44ec21d974155_w640_q70.webp"
     },
     {
-      "id": 11900,
-      "title": "Terminally constrained flow-based generative models from an optimal control perspective",
-      "date": "2026-01-15",
-      "author": "Weiguo Gao",
+      "id": 12080,
+      "title": "The Geometry of Thought: Disclosing the Transformer as a Tropical Polynomial Circuit",
+      "date": "2026-01-16",
+      "author": "Faruk Alpay",
       "tags": [
         {
-          "label": "optimal control",
+          "label": "tropical semiring",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e0ca33e7fc7cff1854f711fdee7a95339cf84001ebb3cae0f5bf721d2895f11f_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8e14329b6f230b99a0ab0855f554921130eab8dff6a1006c56dd72361d9800ac_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 11962,
-      "title": "SysPro: Reproducing System-level Concurrency Bugs from Bug Reports",
-      "date": "2026-01-15",
-      "author": "Tarannum Shaila Zaman",
+      "id": 12289,
+      "title": "A Unified Framework for Kinematic Simulation of Rigid Foldable Structures",
+      "date": "2026-01-16",
+      "author": "Dongwook Kwak",
       "tags": [
         {
-          "label": "concurrency bugs",
+          "label": "rigid foldable structures",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a68c2ab66fd738910d6b91dd12594ad9376373cd5a5c664eaa52b5bd53d81533_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/bf416734b901970f0b7d565cedae013e96e877f269f6dfa440fe8e9a18859e36_w640_q70.webp"
     },
     {
-      "id": 11839,
-      "title": "Improving Implicit Hate Speech Detection via a Community-Driven Multi-Agent Framework",
-      "date": "2026-01-15",
-      "author": "Ewelina Gajewska",
+      "id": 12036,
+      "title": "LLM-Driven Preference Data Synthesis for Proactive Prediction of the Next User Utterance in Human-Machine Dialogue",
+      "date": "2026-01-16",
+      "author": "Jinqiang Wang",
       "tags": [
         {
-          "label": "multi-agent system",
+          "label": "preference data synthesis",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c467737346618b818b97823b2745bb2a20abefecdb3ab86bc60634f805d45db9_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f8b2715354dc003ab85517ddd9ebc8bd7e49fca895bc8edc87fd6c2fa0c31296_w640_q70.webp"
     },
     {
-      "id": 11947,
-      "title": "Multimodal Signal Processing For Thermo-Visible-Lidar Fusion In Real-time 3D Semantic Mapping",
-      "date": "2026-01-15",
-      "author": "Jiajun Sun",
+      "id": 12069,
+      "title": "Instalaci\u00f3n, configuraci\u00f3n y utilizaci\u00f3n de un nodo Bitcoin en Linux",
+      "date": "2026-01-16",
+      "author": "Jose Eduardo Ulloa",
       "tags": [
         {
-          "label": "thermal-visible-LiDAR fusion",
+          "label": "Bitcoin Core",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b7960eddeaab1c5b1517cb5b2ffd55de101f50b266d102935257504aa8b1d8e3_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b6ec8511b3569d36c48a4a17b1a76fa86bd7df00f0563d8fbfdbd51a3d63e613_w640_q70.webp"
     }
   ]
 }

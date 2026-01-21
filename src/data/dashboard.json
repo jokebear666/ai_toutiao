@@ -1,178 +1,178 @@
 {
   "ai": [
     {
-      "id": 12554,
-      "title": "ORBITFLOW: SLO-Aware Long-Context LLM Serving with Fine-Grained KV Cache Reconfiguration",
-      "date": "2026-01-19",
-      "author": "Xinyue Ma",
+      "id": 12984,
+      "title": "MIMIC-RD: Can LLMs differentially diagnose rare diseases in real-world clinical settings?",
+      "date": "2026-01-21",
+      "author": "Zilal Eiz AlDin",
       "tags": [
         {
-          "label": "KV cache",
+          "label": "rare disease",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/55e2453624bdf3f55f0d36b1e28b1a337faf99859317a57436f0ed47b1a9acfa_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6b69c743521c806e189593921a34870958545c84508ce297a2b0697e2a856b6a_w640_q70.webp"
     },
     {
-      "id": 12563,
-      "title": "Optimisation of complex product innovation processes based on trend models with three-valued logic",
-      "date": "2026-01-19",
-      "author": "Nina Bo\u010dkov\u00e1",
+      "id": 13022,
+      "title": "A Mind Cannot Be Smeared Across Time",
+      "date": "2026-01-21",
+      "author": "Michael Timothy Bennett",
       "tags": [
         {
-          "label": "trend-based modelling",
+          "label": "Stack Theory",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e43ecb885c7bd2d1ee7d90971dd9acbc23e1e79d471484617641a1476eca9050_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5d0d667193330d53205f5478c5927f31b51e5508a5b1f71440565d15d3c66962_w640_q70.webp"
     },
     {
-      "id": 12548,
-      "title": "Building AI Agents to Improve Job Referral Requests to Strangers",
-      "date": "2026-01-19",
-      "author": "Ross Chu",
+      "id": 13025,
+      "title": "Dynamical Systems Analysis Reveals Functional Regimes in Large Language Models",
+      "date": "2026-01-21",
+      "author": "Hassan Ugail",
       "tags": [
         {
-          "label": "retrieval-augmented generation",
+          "label": "dynamical systems",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5e029287a2be00ddac2010287f700de527761e2e4ce2d21ce701c35b8b3e5870_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/70bac3f0f2dc25a14f4427ae2a8c3214cfec66be9ad2f22f1596858a009361a7_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 12634,
-      "title": "Sparse Data Tree Canopy Segmentation: Fine-Tuning Leading Pretrained Models on Only 150 Images",
-      "date": "2026-01-19",
-      "author": "David Szczecina",
+      "id": 13918,
+      "title": "Deep Image Prior with L0 Gradient Regularizer for Image Smoothing",
+      "date": "2026-01-21",
+      "author": "Nhat Thanh Tran",
       "tags": [
         {
-          "label": "tree canopy segmentation",
+          "label": "deep image prior",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/34262b0548184c0b82fe4213ddd27f2ab1115fec9aeecce893872c642c48c23d_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d8176b904771f752b1dae3ded2f76c632eaaf4049d20bc44cb5cf2f3be441f6f_w640_q70.webp"
     },
     {
-      "id": 12571,
-      "title": "Future Optical Flow Prediction Improves Robot Control & Video Generation",
-      "date": "2026-01-19",
-      "author": "Kanchana Ranasinghe",
+      "id": 13019,
+      "title": "PointSLAM++: Robust Dense Neural Gaussian Point Cloud-based SLAM",
+      "date": "2026-01-21",
+      "author": "Xu Wang",
       "tags": [
         {
-          "label": "optical flow forecasting",
+          "label": "3D Gaussian Splatting",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/913b92b61236a747326a490b12d8bf9a7033b532e222a6732bc55fafe796137a_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c0f0902f7a381112709fd3e9a915a0052729f7400a08e411055f3c8bc4a32830_w640_q70.webp"
     },
     {
-      "id": 12576,
-      "title": "ICONIC-444: A 3.1-Million-Image Dataset for OOD Detection Research",
-      "date": "2026-01-19",
-      "author": "Gerhard Krumpl",
+      "id": 13017,
+      "title": "Multi-modal MRI-Based Alzheimer's Disease Diagnosis with Transformer-based Image Synthesis and Transfer Learning",
+      "date": "2026-01-21",
+      "author": "Jason Qiu",
       "tags": [
         {
-          "label": "dataset",
+          "label": "TransUNet",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fc7a76453da1c4b8f5360f5dbcde38d24afd6cdc4618fb4c7e1536e986837d1b_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fc44b21d2abc9a9b22455325463b6f13760147341eccf0fa4080ac6647f553e1_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 12926,
-      "title": "Memorize Early, Then Query: Inlier-Memorization-Guided Active Outlier Detection",
-      "date": "2026-01-19",
-      "author": "Minseo Kang",
+      "id": 12972,
+      "title": "CSyMR: Benchmarking Compositional Symbolic Muisc Reasoning With MIR Tool Integration",
+      "date": "2026-01-21",
+      "author": "Boyang Wang",
       "tags": [
         {
-          "label": "inlier-memorization",
+          "label": "symbolic music reasoning",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4ccb68688e8d49ab668920c923ec0976df5acf33a87b4b3033e7605a66baa487_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2e0eb3d3c8485e54a58bb821614e660211f2643e1c51aea7da09bfd11948851d_w640_q70.webp"
     },
     {
-      "id": 12937,
-      "title": "Model-free policy gradient for discrete-time mean-field control",
-      "date": "2026-01-19",
-      "author": "Matthieu Meunier",
+      "id": 13010,
+      "title": "A Multimodal Data Processing Pipeline for MIMIC-IV Dataset",
+      "date": "2026-01-21",
+      "author": "Farzana Islam Adiba",
       "tags": [
         {
-          "label": "mean-field control",
+          "label": "MIMIC-IV",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b9e1657ffa68a9c0ce97dae7923c3b4839141be33f721e81ecd583a3cf6a9ddf_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/23d7f6443c3e591d0e6b7e67d47b9764c30cab639415fdb2ee496d3c026fc97b_w640_q70.webp"
     },
     {
-      "id": 12608,
-      "title": "Unit-Consistent (UC) Adjoint for GSD and Backprop in Deep Learning Applications",
-      "date": "2026-01-19",
-      "author": "Jeffrey Uhlmann",
+      "id": 12982,
+      "title": "AdaFRUGAL: Adaptive Memory-Efficient Training with Dynamic Control",
+      "date": "2026-01-21",
+      "author": "Quang-Hung Bui",
       "tags": [
         {
-          "label": "Unit-Consistent (UC) adjoint",
+          "label": "memory-efficient training",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2aed19694463c5dbed112495b6b4c701bda5df750b4a40244d2e010b6100a6b8_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6d5f5857d97c93cd721f54f7ca0c4c79c386cee9fb4c9e4bf5eb68c90260cc46_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 12553,
-      "title": "Adaptive Sliding Mode Control for Vehicle Platoons with State-Dependent Friction Uncertainty",
-      "date": "2026-01-19",
-      "author": "Rishabh Dev Yadav",
+      "id": 12989,
+      "title": "An Empirical Analysis of Fine-Tuning Large Language Models on Bioinformatics Literature: PRSGPT and BioStarsGPT",
+      "date": "2026-01-21",
+      "author": "Muhammad Muneeb",
       "tags": [
         {
-          "label": "adaptive sliding mode control",
+          "label": "fine-tuning",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e9da229ea80e080b6be7361f07277ef548822c8a0200b3012539e2dec8aedc64_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0d07b603f3c5bfdbc1bd8fde9876c8b4ce080d7592d4d7154e7ae5d802dd3d92_w640_q70.webp"
     },
     {
-      "id": 12547,
-      "title": "Multi-Agent Formation Navigation Using Diffusion-Based Trajectory Generation",
-      "date": "2026-01-19",
-      "author": "Hieu Do Quang",
+      "id": 12978,
+      "title": "Context Discipline and Performance Correlation: Analyzing LLM Performance and Quality Degradation Under Varying Context Lengths",
+      "date": "2026-01-21",
+      "author": "Ahilan Ayyachamy Nadar Ponnusamy",
       "tags": [
         {
-          "label": "diffusion models",
+          "label": "KV cache",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a7ed7821a2f9722ef7b2ebcdd00e2550e1f61282cd61b768824994847e1b5eed_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/70181be3d1e88f3d7e7b891c9775581603570c46a5a668f2a7076dfe158dbbfb_w640_q70.webp"
     },
     {
-      "id": 12549,
-      "title": "Collaborative Continuum Robots: A Survey",
-      "date": "2026-01-19",
-      "author": "Xinyu Li",
+      "id": 12980,
+      "title": "Measuring Stability Beyond Accuracy in Small Open-Source Medical Large Language Models for Pediatric Endocrinology",
+      "date": "2026-01-21",
+      "author": "Vanessa D'Amario",
       "tags": [
         {
-          "label": "collaborative continuum robots",
+          "label": "prompt variation",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/105031065f75f3cf74a13eeb4d312d79057bf5804250e1da05a7fa9dcf6d36b2_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4c307b8c8a629b8fcd67c5eafe62004192fa7049b6a66e69a435480c5e435fbb_w640_q70.webp"
     }
   ]
 }

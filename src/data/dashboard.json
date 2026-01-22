@@ -1,178 +1,178 @@
 {
   "ai": [
     {
-      "id": 12984,
-      "title": "MIMIC-RD: Can LLMs differentially diagnose rare diseases in real-world clinical settings?",
-      "date": "2026-01-21",
-      "author": "Zilal Eiz AlDin",
+      "id": 14468,
+      "title": "The Ontological Neutrality Theorem: Why Neutral Ontological Substrates Must Be Pre-Causal and Pre-Normative",
+      "date": "2026-01-22",
+      "author": "Denise M. Case",
       "tags": [
         {
-          "label": "rare disease",
+          "label": "ontological neutrality",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6b69c743521c806e189593921a34870958545c84508ce297a2b0697e2a856b6a_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fab21179dd43b706a5874ea392d4a9142c7ddbd63bbc6e653db9c168f73e627c_w640_q70.webp"
     },
     {
-      "id": 13022,
-      "title": "A Mind Cannot Be Smeared Across Time",
-      "date": "2026-01-21",
-      "author": "Michael Timothy Bennett",
+      "id": 14485,
+      "title": "Epistemic Constitutionalism Or: how to avoid coherence bias",
+      "date": "2026-01-22",
+      "author": "Michele Loi",
       "tags": [
         {
-          "label": "Stack Theory",
+          "label": "Epistemic Constitutionalism",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5d0d667193330d53205f5478c5927f31b51e5508a5b1f71440565d15d3c66962_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/466ae500201843040e9719884e7dee9945e5dc25688f6d2b6797e590efcb0e8e_w640_q70.webp"
     },
     {
-      "id": 13025,
-      "title": "Dynamical Systems Analysis Reveals Functional Regimes in Large Language Models",
-      "date": "2026-01-21",
-      "author": "Hassan Ugail",
+      "id": 14529,
+      "title": "VisTIRA: Closing the Image-Text Modality Gap in Visual Math Reasoning via Structured Tool Integration",
+      "date": "2026-01-22",
+      "author": "Saeed Khaki",
       "tags": [
         {
-          "label": "dynamical systems",
+          "label": "modality gap",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/70bac3f0f2dc25a14f4427ae2a8c3214cfec66be9ad2f22f1596858a009361a7_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5cf103b676790d9d442063967171923767a26ffb200a10493049783272e7b220_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 13918,
-      "title": "Deep Image Prior with L0 Gradient Regularizer for Image Smoothing",
-      "date": "2026-01-21",
-      "author": "Nhat Thanh Tran",
+      "id": 14460,
+      "title": "A Cloud-Based Cross-Modal Transformer for Emotion Recognition and Adaptive Human-Computer Interaction",
+      "date": "2026-01-22",
+      "author": "Ziwen Zhong",
       "tags": [
         {
-          "label": "deep image prior",
+          "label": "Cross-Modal Transformer",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d8176b904771f752b1dae3ded2f76c632eaaf4049d20bc44cb5cf2f3be441f6f_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a491c5da3b1671743e689753178a86f9849a155fc87ccd009f320aaffdc8ccf2_w640_q70.webp"
     },
     {
-      "id": 13019,
-      "title": "PointSLAM++: Robust Dense Neural Gaussian Point Cloud-based SLAM",
-      "date": "2026-01-21",
-      "author": "Xu Wang",
+      "id": 14464,
+      "title": "SOSControl: Enhancing Human Motion Generation through Saliency-Aware Symbolic Orientation and Timing Control",
+      "date": "2026-01-22",
+      "author": "Ho Yin Au",
       "tags": [
         {
-          "label": "3D Gaussian Splatting",
+          "label": "Salient Orientation Symbolic (SOS) script",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c0f0902f7a381112709fd3e9a915a0052729f7400a08e411055f3c8bc4a32830_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7142ce25fb8beee6ad47edac88bcccc578560bd3b6f4737d34edfe5626533585_w640_q70.webp"
     },
     {
-      "id": 13017,
-      "title": "Multi-modal MRI-Based Alzheimer's Disease Diagnosis with Transformer-based Image Synthesis and Transfer Learning",
-      "date": "2026-01-21",
-      "author": "Jason Qiu",
+      "id": 14466,
+      "title": "Intelligent Power Grid Design Review via Active Perception-Enabled Multimodal Large Language Models",
+      "date": "2026-01-22",
+      "author": "Taoliang Tan",
       "tags": [
         {
-          "label": "TransUNet",
+          "label": "Multimodal Large Language Models (MLLMs)",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fc44b21d2abc9a9b22455325463b6f13760147341eccf0fa4080ac6647f553e1_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/93f5ef6e6cef4db2ea60171f854fadf4f6801b828e216372832b83e0edeab1e7_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 12972,
-      "title": "CSyMR: Benchmarking Compositional Symbolic Muisc Reasoning With MIR Tool Integration",
-      "date": "2026-01-21",
-      "author": "Boyang Wang",
+      "id": 14458,
+      "title": "GCG Attack On A Diffusion LLM",
+      "date": "2026-01-22",
+      "author": "Ruben Neyroud",
       "tags": [
         {
-          "label": "symbolic music reasoning",
+          "label": "GCG",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2e0eb3d3c8485e54a58bb821614e660211f2643e1c51aea7da09bfd11948851d_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/112514793b59eb2856ef24e3be974ad83f4adccd3b03d2ef055c7adab3992da7_w640_q70.webp"
     },
     {
-      "id": 13010,
-      "title": "A Multimodal Data Processing Pipeline for MIMIC-IV Dataset",
-      "date": "2026-01-21",
-      "author": "Farzana Islam Adiba",
+      "id": 14465,
+      "title": "Call2Instruct: Automated Pipeline for Generating Q&A Datasets from Call Center Recordings for LLM Fine-Tuning",
+      "date": "2026-01-22",
+      "author": "Alex Echeverria",
       "tags": [
         {
-          "label": "MIMIC-IV",
+          "label": "audio diarization",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/23d7f6443c3e591d0e6b7e67d47b9764c30cab639415fdb2ee496d3c026fc97b_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ed08fd0f7af679da7f73a81d40abc4e943bce293604d1ba18172e94e8f96b2ba_w640_q70.webp"
     },
     {
-      "id": 12982,
-      "title": "AdaFRUGAL: Adaptive Memory-Efficient Training with Dynamic Control",
-      "date": "2026-01-21",
-      "author": "Quang-Hung Bui",
+      "id": 14479,
+      "title": "Chain-of-Memory: Lightweight Memory Construction with Dynamic Evolution for LLM Agents",
+      "date": "2026-01-22",
+      "author": "Xiucheng Xu",
       "tags": [
         {
-          "label": "memory-efficient training",
+          "label": "external memory",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6d5f5857d97c93cd721f54f7ca0c4c79c386cee9fb4c9e4bf5eb68c90260cc46_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/547d0a209ae3e96888bb88b6ecc39529ffc64c3b84784435cd738617e1cd5be6_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 12989,
-      "title": "An Empirical Analysis of Fine-Tuning Large Language Models on Bioinformatics Literature: PRSGPT and BioStarsGPT",
-      "date": "2026-01-21",
-      "author": "Muhammad Muneeb",
+      "id": 14459,
+      "title": "From Chaos to Clarity: Schema-Constrained AI for Auditable Biomedical Evidence Extraction from Full-Text PDFs",
+      "date": "2026-01-22",
+      "author": "Pouria Mortezaagha",
       "tags": [
         {
-          "label": "fine-tuning",
+          "label": "schema-constrained extraction",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0d07b603f3c5bfdbc1bd8fde9876c8b4ce080d7592d4d7154e7ae5d802dd3d92_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3ccea7b1eff54821703827d4eef09eade91659abc2b894fcc9dc25f0b518f1db_w640_q70.webp"
     },
     {
-      "id": 12978,
-      "title": "Context Discipline and Performance Correlation: Analyzing LLM Performance and Quality Degradation Under Varying Context Lengths",
-      "date": "2026-01-21",
-      "author": "Ahilan Ayyachamy Nadar Ponnusamy",
+      "id": 14684,
+      "title": "ARISE - Adaptive Refinement and Iterative Scenario Engineering",
+      "date": "2026-01-22",
+      "author": "Konstantin Poddubnyy",
       "tags": [
         {
-          "label": "KV cache",
+          "label": "traffic scenario generation",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/70181be3d1e88f3d7e7b891c9775581603570c46a5a668f2a7076dfe158dbbfb_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1967ddc25a21623236b541e7b563c366436067217fffb3d699d26d04b6a2e7e1_w640_q70.webp"
     },
     {
-      "id": 12980,
-      "title": "Measuring Stability Beyond Accuracy in Small Open-Source Medical Large Language Models for Pediatric Endocrinology",
-      "date": "2026-01-21",
-      "author": "Vanessa D'Amario",
+      "id": 14469,
+      "title": "Opening the Black Box: A Survey on the Mechanisms of Multi-Step Reasoning in Large Language Models",
+      "date": "2026-01-22",
+      "author": "Liangming Pan",
       "tags": [
         {
-          "label": "prompt variation",
+          "label": "multi-step reasoning",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4c307b8c8a629b8fcd67c5eafe62004192fa7049b6a66e69a435480c5e435fbb_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/388aad44f917469f33312935a3ffbe5397314292e59171064a6a8b1bb0654eda_w640_q70.webp"
     }
   ]
 }

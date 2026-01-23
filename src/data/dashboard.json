@@ -1,178 +1,178 @@
 {
   "ai": [
     {
-      "id": 14468,
-      "title": "The Ontological Neutrality Theorem: Why Neutral Ontological Substrates Must Be Pre-Causal and Pre-Normative",
-      "date": "2026-01-22",
-      "author": "Denise M. Case",
+      "id": 14983,
+      "title": "DeepSurvey-Bench: Evaluating Academic Value of Automatically Generated Scientific Survey",
+      "date": "2026-01-23",
+      "author": "Guo-Biao Zhang",
       "tags": [
         {
-          "label": "ontological neutrality",
+          "label": "survey generation",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fab21179dd43b706a5874ea392d4a9142c7ddbd63bbc6e653db9c168f73e627c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d44fc6e1c37d935459cc249a27513808584997c0ee8a3814a8c7c4437fe2e9a5_w640_q70.webp"
     },
     {
-      "id": 14485,
-      "title": "Epistemic Constitutionalism Or: how to avoid coherence bias",
-      "date": "2026-01-22",
-      "author": "Michele Loi",
+      "id": 14987,
+      "title": "Uncovering Latent Bias in LLM-Based Emergency Department Triage Through Proxy Variables",
+      "date": "2026-01-23",
+      "author": "Ethan Zhang",
       "tags": [
         {
-          "label": "Epistemic Constitutionalism",
+          "label": "proxy variables",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/466ae500201843040e9719884e7dee9945e5dc25688f6d2b6797e590efcb0e8e_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4b851ed2122829b3a4e4416ebe779d87941939e1a2c7713669aa74dfe3cd9606_w640_q70.webp"
     },
     {
-      "id": 14529,
-      "title": "VisTIRA: Closing the Image-Text Modality Gap in Visual Math Reasoning via Structured Tool Integration",
-      "date": "2026-01-22",
-      "author": "Saeed Khaki",
+      "id": 14989,
+      "title": "The Paradigm Shift: A Comprehensive Survey on Large Vision Language Models for Multimodal Fake News Detection",
+      "date": "2026-01-23",
+      "author": "Wei Ai",
       "tags": [
         {
-          "label": "modality gap",
+          "label": "large vision-language models",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5cf103b676790d9d442063967171923767a26ffb200a10493049783272e7b220_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/29eee130934c561031b9ea3d7b890cf145e53038911dbaf99580dbd0696e1ecd_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 14460,
-      "title": "A Cloud-Based Cross-Modal Transformer for Emotion Recognition and Adaptive Human-Computer Interaction",
-      "date": "2026-01-22",
-      "author": "Ziwen Zhong",
+      "id": 15072,
+      "title": "Controllable Layered Image Generation for Real-World Editing",
+      "date": "2026-01-23",
+      "author": "Jinrui Yang",
       "tags": [
         {
-          "label": "Cross-Modal Transformer",
+          "label": "layered image generation",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a491c5da3b1671743e689753178a86f9849a155fc87ccd009f320aaffdc8ccf2_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c389735a0676a372dacf477e8fd55e60b5067c165ff1b081af351d9890ca0c95_w640_q70.webp"
     },
     {
-      "id": 14464,
-      "title": "SOSControl: Enhancing Human Motion Generation through Saliency-Aware Symbolic Orientation and Timing Control",
-      "date": "2026-01-22",
-      "author": "Ho Yin Au",
+      "id": 15092,
+      "title": "VIOLA: Towards Video In-Context Learning with Minimal Annotations",
+      "date": "2026-01-23",
+      "author": "Ryo Fujii",
       "tags": [
         {
-          "label": "Salient Orientation Symbolic (SOS) script",
+          "label": "in-context learning",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7142ce25fb8beee6ad47edac88bcccc578560bd3b6f4737d34edfe5626533585_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f571af2acd9a432e863f7dc897ea9ce2d0d29c7827132b54a7158b4c1d74bacd_w640_q70.webp"
     },
     {
-      "id": 14466,
-      "title": "Intelligent Power Grid Design Review via Active Perception-Enabled Multimodal Large Language Models",
-      "date": "2026-01-22",
-      "author": "Taoliang Tan",
+      "id": 15014,
+      "title": "AI-Based Culvert-Sewer Inspection",
+      "date": "2026-01-23",
+      "author": "Christina Thrainer",
       "tags": [
         {
-          "label": "Multimodal Large Language Models (MLLMs)",
+          "label": "defect segmentation",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/93f5ef6e6cef4db2ea60171f854fadf4f6801b828e216372832b83e0edeab1e7_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0e5c8f045284fbb66e91d5c19ae51b6942896f44eeb4530c869590cceb86f4e1_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 14458,
-      "title": "GCG Attack On A Diffusion LLM",
-      "date": "2026-01-22",
-      "author": "Ruben Neyroud",
+      "id": 15409,
+      "title": "Beyond Predictive Uncertainty: Reliable Representation Learning with Structural Constraints",
+      "date": "2026-01-23",
+      "author": "Yiyao Yang",
       "tags": [
         {
-          "label": "GCG",
+          "label": "representation-level uncertainty",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/112514793b59eb2856ef24e3be974ad83f4adccd3b03d2ef055c7adab3992da7_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/497e87879a595ed3955d5e9a952c540b4f6ea53c5bdd71732e32e258194cb2ef_w640_q70.webp"
     },
     {
-      "id": 14465,
-      "title": "Call2Instruct: Automated Pipeline for Generating Q&A Datasets from Call Center Recordings for LLM Fine-Tuning",
-      "date": "2026-01-22",
-      "author": "Alex Echeverria",
+      "id": 15001,
+      "title": "Empowering LLMs for Structure-Based Drug Design via Exploration-Augmented Latent Inference",
+      "date": "2026-01-23",
+      "author": "Xuanning Hu",
       "tags": [
         {
-          "label": "audio diarization",
+          "label": "Bayesian optimization",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ed08fd0f7af679da7f73a81d40abc4e943bce293604d1ba18172e94e8f96b2ba_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9745e66b4a3d8ef0fc67a2034bcdfa742e3e23f7413078d5e8ced4c942374d2d_w640_q70.webp"
     },
     {
-      "id": 14479,
-      "title": "Chain-of-Memory: Lightweight Memory Construction with Dynamic Evolution for LLM Agents",
-      "date": "2026-01-22",
-      "author": "Xiucheng Xu",
+      "id": 15006,
+      "title": "Language Models Entangle Language and Culture",
+      "date": "2026-01-23",
+      "author": "Shourya Jain",
       "tags": [
         {
-          "label": "external memory",
+          "label": "multilingual LLM",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/547d0a209ae3e96888bb88b6ecc39529ffc64c3b84784435cd738617e1cd5be6_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/59cb44129f7f88ff016e527edaaf6bdc4476e1f6cbfdc7c0270b905ddcfe78b1_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 14459,
-      "title": "From Chaos to Clarity: Schema-Constrained AI for Auditable Biomedical Evidence Extraction from Full-Text PDFs",
-      "date": "2026-01-22",
-      "author": "Pouria Mortezaagha",
+      "id": 15071,
+      "title": "ViT Registers and Fractal ViT",
+      "date": "2026-01-23",
+      "author": "Jason Chuan-Chih Chou",
       "tags": [
         {
-          "label": "schema-constrained extraction",
+          "label": "Vision Transformer (ViT)",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3ccea7b1eff54821703827d4eef09eade91659abc2b894fcc9dc25f0b518f1db_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/75bc453ca27e5b81b065255b8d910ade4d939f15afb1863fffe12e5fc1610568_w640_q70.webp"
     },
     {
-      "id": 14684,
-      "title": "ARISE - Adaptive Refinement and Iterative Scenario Engineering",
-      "date": "2026-01-22",
-      "author": "Konstantin Poddubnyy",
+      "id": 15073,
+      "title": "AdversaRiskQA: An Adversarial Factuality Benchmark for High-Risk Domains",
+      "date": "2026-01-23",
+      "author": "Adam Szelestey",
       "tags": [
         {
-          "label": "traffic scenario generation",
+          "label": "adversarial factuality",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1967ddc25a21623236b541e7b563c366436067217fffb3d699d26d04b6a2e7e1_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/59f380f78269311150a1be8445532b33ba7b42e3f275f8a38635406265901481_w640_q70.webp"
     },
     {
-      "id": 14469,
-      "title": "Opening the Black Box: A Survey on the Mechanisms of Multi-Step Reasoning in Large Language Models",
-      "date": "2026-01-22",
-      "author": "Liangming Pan",
+      "id": 14974,
+      "title": "AfriEconQA: A Benchmark Dataset for African Economic Analysis based on World Bank Reports",
+      "date": "2026-01-23",
+      "author": "Edward Ajayi",
       "tags": [
         {
-          "label": "multi-step reasoning",
+          "label": "retrieval-augmented generation",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/388aad44f917469f33312935a3ffbe5397314292e59171064a6a8b1bb0654eda_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cfdb363f1ffddf21c5b8cbc1829da442fb75710d834227040e34fd8da356f1a3_w640_q70.webp"
     }
   ]
 }

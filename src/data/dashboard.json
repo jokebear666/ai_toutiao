@@ -1,178 +1,178 @@
 {
   "ai": [
     {
-      "id": 17061,
-      "title": "Balancing Sustainability And Performance: The Role Of Small-Scale Llms In Agentic Artificial Intelligence Systems",
-      "date": "2026-01-28",
-      "author": "Anh Khoa Ngo Ho",
+      "id": 17598,
+      "title": "ECG-Agent: On-Device Tool-Calling Agent for ECG Multi-Turn Dialogue",
+      "date": "2026-01-29",
+      "author": "Hyunseung Chung",
       "tags": [
         {
-          "label": "energy efficiency",
+          "label": "tool-calling agent",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e919eb993e1ef06b000cb6d036fa8a35b68bc2922066ac839d920b80f22ddc1f_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/064ceb71e0259e913ae636441442599b6ce2b6b8a604d4a8e6a52e98cb652422_w640_q70.webp"
     },
     {
-      "id": 16816,
-      "title": "Agentic Business Process Management Systems",
-      "date": "2026-01-28",
-      "author": "Marlon Dumas",
+      "id": 17414,
+      "title": "NeuroAI and Beyond",
+      "date": "2026-01-29",
+      "author": "Jean-Marc Fellous",
       "tags": [
         {
-          "label": "Agentic AI",
+          "label": "NeuroAI",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b14b35f4387638c1d7753255016f501ff1373364b6b30a8dd369f3536be24b90_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6f9a7752009eea9650c3969487eb03c8b6d8d73c5386f8ae74b80d14edcd2b54_w640_q70.webp"
     },
     {
-      "id": 16828,
-      "title": "LLM Driven Design of Continuous Optimization Problems with Controllable High-level Properties",
-      "date": "2026-01-28",
-      "author": "Urban Skvorc",
+      "id": 17434,
+      "title": "Teaching LLMs to Ask: Self-Querying Category-Theoretic Planning for Under-Specified Reasoning",
+      "date": "2026-01-29",
+      "author": "Shuhui Qu",
       "tags": [
         {
-          "label": "exploratory landscape analysis",
+          "label": "self-querying",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/60eb4042ca819567e823d7d50eb7574b6b73ed9b5b5f4c7f5aa5abd781ab6c47_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1104cc3e5e39e19aac64db31c052daa4bd415289da10c7a46a0f8f1968089860_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 16825,
-      "title": "Dynamic Mask-Based Backdoor Attack Against Vision AI Models: A Case Study on Mushroom Detection",
-      "date": "2026-01-28",
-      "author": "Zeineb Dridi",
+      "id": 17451,
+      "title": "Size Matters: Reconstructing Real-Scale 3D Models from Monocular Images for Food Portion Estimation",
+      "date": "2026-01-29",
+      "author": "Gautham Vinod",
       "tags": [
         {
-          "label": "backdoor attack",
+          "label": "monocular 3D reconstruction",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f6eaf721617cfa757c879757ab902de5413cb3a08c6344987d976c97e4c207ca_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/892135ba7111a3349409f476eafeef06c07e5761b5b6de4385075e14eeaf0fb1_w640_q70.webp"
     },
     {
-      "id": 16826,
-      "title": "Audio-Driven Talking Face Generation with Blink Embedding and Hash Grid Landmarks Encoding",
-      "date": "2026-01-28",
-      "author": "Yuhui Zhang",
+      "id": 17456,
+      "title": "DiSa: Saliency-Aware Foreground-Background Disentangled Framework for Open-Vocabulary Semantic Segmentation",
+      "date": "2026-01-29",
+      "author": "Zhen Yao",
       "tags": [
         {
-          "label": "Neural Radiance Fields (NeRF)",
+          "label": "open-vocabulary segmentation",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/309d6ef1ce341a6fb1513f715517e838f5d63744df8411de9a155f743e42519f_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/53f6879552daa0c4a5fd007096984a1ed2310d0374955fd049393e031905207a_w640_q70.webp"
     },
     {
-      "id": 16829,
-      "title": "SelfieAvatar: Real-time Head Avatar reenactment from a Selfie Video",
-      "date": "2026-01-28",
-      "author": "Wei Liang",
+      "id": 17461,
+      "title": "Sparse CLIP: Co-Optimizing Interpretability and Performance in Contrastive Learning",
+      "date": "2026-01-29",
+      "author": "Chuan Qin",
       "tags": [
         {
-          "label": "3D Morphable Model (3DMM)",
+          "label": "sparsity",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7e280f19db28989ef801b9cc5c8282280d073f6848fecea3a88b96668bfff09f_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/10d6f6849907ff4ac029b7e50941baa5318c2c51ecd3201eb4c782e87593b1a4_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 16805,
-      "title": "Variational Quantum Circuit-Based Reinforcement Learning for Dynamic Portfolio Optimization",
-      "date": "2026-01-28",
-      "author": "Vincent Gurgul",
+      "id": 17557,
+      "title": "C2:Cross learning module enhanced decision transformer with Constraint-aware loss for auto-bidding",
+      "date": "2026-01-29",
+      "author": "Jinren Ding",
       "tags": [
         {
-          "label": "Quantum Reinforcement Learning",
+          "label": "Decision Transformer",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8ad032d0dc6a254a0212d6f7140fa894dd376ed6eff0f1e6c5474c09748ff8c1_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c5da1bc07b95f39aa5579c503ada1a48fbae6e7aa72763e90f1e9c712159a535_w640_q70.webp"
     },
     {
-      "id": 16806,
-      "title": "Latent Structural Similarity Networks for Unsupervised Discovery in Multivariate Time Series",
-      "date": "2026-01-28",
-      "author": "Olusegun Owoeye",
+      "id": 17741,
+      "title": "A Foundation Model for Virtual Sensors",
+      "date": "2026-01-29",
+      "author": "Leon G\u00f6tz",
       "tags": [
         {
-          "label": "unsupervised learning",
+          "label": "virtual sensors",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c6dcbc9afea3e01137b3a4f8e9e0f7e93c42bb56ad275ebd8353196750a7b9ff_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/26fea3208133df8406ff4cb94636c7f8a33e62558cc7d315cd81a84778083df8_w640_q70.webp"
     },
     {
-      "id": 16813,
-      "title": "VAE with Hyperspherical Coordinates: Improving Anomaly Detection from Hypervolume-Compressed Latent Space",
-      "date": "2026-01-28",
-      "author": "Alejandro Ascarate",
+      "id": 17401,
+      "title": "DecHW: Heterogeneous Decentralized Federated Learning Exploiting Second-Order Information",
+      "date": "2026-01-29",
+      "author": "Adnan Ahmad",
       "tags": [
         {
-          "label": "variational autoencoder",
+          "label": "Decentralized Federated Learning",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/218b0bc286c50fec20181b1ff428f0b0be1d769f140518c8a5d05d75d718c796_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1a4529bc34aaea45ceec7d719004671f6ba65af2f823263744c390f3e328b559_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 17201,
-      "title": "RATE: Reviewer Profiling and Annotation-free Training for Expertise Ranking in Peer Review Systems",
-      "date": "2026-01-28",
-      "author": "Weicong Liu",
+      "id": 17755,
+      "title": "GPO: Growing Policy Optimization for Legged Robot Locomotion and Whole-Body Control",
+      "date": "2026-01-29",
+      "author": "Shuhao Liao",
       "tags": [
         {
-          "label": "expertise ranking",
+          "label": "policy optimization",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fc5437885dcbbd9731ccd22b8a75d407d0700deab845fd7ff50a43f4e237b9ca_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3e270e0cd4a68fef15eb8fcc794713fca50bc0582bc0b9f450f07f199c02a057_w640_q70.webp"
     },
     {
-      "id": 16815,
-      "title": "Automated structural testing of LLM-based agents: methods, framework, and case studies",
-      "date": "2026-01-28",
-      "author": "Jens Kohl",
+      "id": 17608,
+      "title": "Multimodal Multi-Agent Ransomware Analysis Using AutoGen",
+      "date": "2026-01-29",
+      "author": "Asifullah Khan",
       "tags": [
         {
-          "label": "structural testing",
+          "label": "multi-agent system",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/838cd5e5b08e9f252f4a1aea11a7cabf12b0b94cd1b405909adbcd875d9e2e80_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/288992d423fb30ec8e5457212d6d49864f713526258b8a4f2a56e5a52bdaf636_w640_q70.webp"
     },
     {
-      "id": 16818,
-      "title": "CanaryBench: Stress Testing Privacy Leakage in Cluster-Level Conversation Summaries",
-      "date": "2026-01-28",
-      "author": "Deep Mehta",
+      "id": 17383,
+      "title": "PaperAudit-Bench: Benchmarking Error Detection in Research Papers for Critical Automated Peer Review",
+      "date": "2026-01-29",
+      "author": "Songjun Tu",
       "tags": [
         {
-          "label": "canary injection",
+          "label": "error detection",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8dc64082ee217e26c94fb0f8a0238de7c6acc899e1f13e3886b4f804ce7175ac_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/706d9b072cf9761cb02124b5af50be92b6d3431cfde6d6bacbff7a8f1173eb2b_w640_q70.webp"
     }
   ]
 }

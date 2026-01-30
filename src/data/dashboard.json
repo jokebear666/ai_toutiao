@@ -1,178 +1,178 @@
 {
   "ai": [
     {
-      "id": 17598,
-      "title": "ECG-Agent: On-Device Tool-Calling Agent for ECG Multi-Turn Dialogue",
-      "date": "2026-01-29",
-      "author": "Hyunseung Chung",
+      "id": 18360,
+      "title": "FBS: Modeling Native Parallel Reading inside a Transformer",
+      "date": "2026-01-30",
+      "author": "Tongxi Wang",
       "tags": [
         {
-          "label": "tool-calling agent",
+          "label": "Parafovea-Attention Window",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/064ceb71e0259e913ae636441442599b6ce2b6b8a604d4a8e6a52e98cb652422_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/06cdc5bf7b16d2520a61807a5982a0ab8a3e71c5b0840c1cb1eeb921f6e850a6_w640_q70.webp"
     },
     {
-      "id": 17414,
-      "title": "NeuroAI and Beyond",
-      "date": "2026-01-29",
-      "author": "Jean-Marc Fellous",
+      "id": 18451,
+      "title": "astra-langchain4j: Experiences Combining LLMs and Agent Programming",
+      "date": "2026-01-30",
+      "author": "Rem Collier",
       "tags": [
         {
-          "label": "NeuroAI",
+          "label": "Agent Programming",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6f9a7752009eea9650c3969487eb03c8b6d8d73c5386f8ae74b80d14edcd2b54_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e5ce753a4419df6fe2fcd388cb95738e32e262e9bf50e9033d89d10d1b44720b_w640_q70.webp"
     },
     {
-      "id": 17434,
-      "title": "Teaching LLMs to Ask: Self-Querying Category-Theoretic Planning for Under-Specified Reasoning",
-      "date": "2026-01-29",
-      "author": "Shuhui Qu",
+      "id": 18070,
+      "title": "TIDE: Tuning-Integrated Dynamic Evolution for LLM-Based Automated Heuristic Design",
+      "date": "2026-01-30",
+      "author": "Chentong Chen",
       "tags": [
         {
-          "label": "self-querying",
+          "label": "Automated Heuristic Design",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1104cc3e5e39e19aac64db31c052daa4bd415289da10c7a46a0f8f1968089860_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/614709632282574e1ff5176362af23f889aed032e978908bd06c354192003a09_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 17451,
-      "title": "Size Matters: Reconstructing Real-Scale 3D Models from Monocular Images for Food Portion Estimation",
-      "date": "2026-01-29",
-      "author": "Gautham Vinod",
+      "id": 17897,
+      "title": "MA-LipNet: Multi-Dimensional Attention Networks for Robust Lipreading",
+      "date": "2026-01-30",
+      "author": "Matteo Rossi",
       "tags": [
         {
-          "label": "monocular 3D reconstruction",
+          "label": "lipreading",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/892135ba7111a3349409f476eafeef06c07e5761b5b6de4385075e14eeaf0fb1_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/19af37e6461bbc122e781cd2254dd665cb4f9c9183a98471f6e7157448000aad_w640_q70.webp"
     },
     {
-      "id": 17456,
-      "title": "DiSa: Saliency-Aware Foreground-Background Disentangled Framework for Open-Vocabulary Semantic Segmentation",
-      "date": "2026-01-29",
-      "author": "Zhen Yao",
+      "id": 17924,
+      "title": "Non-Markov Multi-Round Conversational Image Generation with History-Conditioned MLLMs",
+      "date": "2026-01-30",
+      "author": "Haochen Zhang",
       "tags": [
         {
-          "label": "open-vocabulary segmentation",
+          "label": "non-Markov multi-round",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/53f6879552daa0c4a5fd007096984a1ed2310d0374955fd049393e031905207a_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1899493c3d5a857d780a2af5eeeb6a6e12c3156e4cc476b525cccc7c85a39d0e_w640_q70.webp"
     },
     {
-      "id": 17461,
-      "title": "Sparse CLIP: Co-Optimizing Interpretability and Performance in Contrastive Learning",
-      "date": "2026-01-29",
-      "author": "Chuan Qin",
+      "id": 17941,
+      "title": "Text controllable PET denoising",
+      "date": "2026-01-30",
+      "author": "Xuehua Ye",
       "tags": [
         {
-          "label": "sparsity",
+          "label": "PET denoising",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/10d6f6849907ff4ac029b7e50941baa5318c2c51ecd3201eb4c782e87593b1a4_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/25e2dcf539ce598b32a4102fa495e5dee365aee614fcc0dcc81ab07ba4369ae1_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 17557,
-      "title": "C2:Cross learning module enhanced decision transformer with Constraint-aware loss for auto-bidding",
-      "date": "2026-01-29",
-      "author": "Jinren Ding",
+      "id": 18370,
+      "title": "Amortized Spectral Kernel Discovery via Prior-Data Fitted Network",
+      "date": "2026-01-30",
+      "author": "Kaustubh Sharma",
       "tags": [
         {
-          "label": "Decision Transformer",
+          "label": "Prior-Data Fitted Networks",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c5da1bc07b95f39aa5579c503ada1a48fbae6e7aa72763e90f1e9c712159a535_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e029db3ccc9578be036eb67c25cf884c190a99a739f7a2cc3b85fa9e8006d60a_w640_q70.webp"
     },
     {
-      "id": 17741,
-      "title": "A Foundation Model for Virtual Sensors",
-      "date": "2026-01-29",
-      "author": "Leon G\u00f6tz",
+      "id": 17969,
+      "title": "SMKC: Sketch Based Kernel Correlation Images for Variable Cardinality Time Series Anomaly Detection",
+      "date": "2026-01-30",
+      "author": "Haokun Zhou",
       "tags": [
         {
-          "label": "virtual sensors",
+          "label": "feature hashing",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/26fea3208133df8406ff4cb94636c7f8a33e62558cc7d315cd81a84778083df8_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/55f5827d1683e3bab7e285c4fc63c0c3da7795e70adb41d10a38063cb2e7ad6c_w640_q70.webp"
     },
     {
-      "id": 17401,
-      "title": "DecHW: Heterogeneous Decentralized Federated Learning Exploiting Second-Order Information",
-      "date": "2026-01-29",
-      "author": "Adnan Ahmad",
+      "id": 18065,
+      "title": "PHDME: Physics-Informed Diffusion Models without Explicit Governing Equations",
+      "date": "2026-01-30",
+      "author": "Kaiyuan Tan",
       "tags": [
         {
-          "label": "Decentralized Federated Learning",
+          "label": "port-Hamiltonian systems",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1a4529bc34aaea45ceec7d719004671f6ba65af2f823263744c390f3e328b559_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/388430550b25ec9d6f095c1ea49b92626f82650ba2c63d4fc84fbccde3e65ddb_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 17755,
-      "title": "GPO: Growing Policy Optimization for Legged Robot Locomotion and Whole-Body Control",
-      "date": "2026-01-29",
-      "author": "Shuhao Liao",
+      "id": 17901,
+      "title": "DevOps-Gym: Benchmarking AI Agents in Software DevOps Cycle",
+      "date": "2026-01-30",
+      "author": "Yuheng Tang",
       "tags": [
         {
-          "label": "policy optimization",
+          "label": "AI agents",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3e270e0cd4a68fef15eb8fcc794713fca50bc0582bc0b9f450f07f199c02a057_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/525de8135c438b8a4e041a97415701b23952d6ab694f1f67979c42eb98cd3812_w640_q70.webp"
     },
     {
-      "id": 17608,
-      "title": "Multimodal Multi-Agent Ransomware Analysis Using AutoGen",
-      "date": "2026-01-29",
-      "author": "Asifullah Khan",
+      "id": 17903,
+      "title": "A Survey on Large Language Model Impact on Software Evolvability and Maintainability: the Good, the Bad, the Ugly, and the Remedy",
+      "date": "2026-01-30",
+      "author": "Bruno Claudino Matias",
       "tags": [
         {
-          "label": "multi-agent system",
+          "label": "systematic literature review",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/288992d423fb30ec8e5457212d6d49864f713526258b8a4f2a56e5a52bdaf636_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9729f5041527cb6c4cfe10ae1c04228f8fe2e4e36327c61f0cef7ec8e169fef4_w640_q70.webp"
     },
     {
-      "id": 17383,
-      "title": "PaperAudit-Bench: Benchmarking Error Detection in Research Papers for Critical Automated Peer Review",
-      "date": "2026-01-29",
-      "author": "Songjun Tu",
+      "id": 17909,
+      "title": "IDE-Bench: Evaluating Large Language Models as IDE Agents on Real-World Software Engineering Tasks",
+      "date": "2026-01-30",
+      "author": "Spencer Mateega",
       "tags": [
         {
-          "label": "error detection",
+          "label": "IDE agent",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/706d9b072cf9761cb02124b5af50be92b6d3431cfde6d6bacbff7a8f1173eb2b_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8066e43d1962676d9d5fb29bd7857125e61cfac8867654c2c1bc13b117194688_w640_q70.webp"
     }
   ]
 }

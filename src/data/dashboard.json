@@ -1,178 +1,178 @@
 {
   "ai": [
     {
-      "id": 20620,
-      "title": "SIDiffAgent: Self-Improving Diffusion Agent",
-      "date": "2026-02-03",
-      "author": "Shivank Garg",
+      "id": 21043,
+      "title": "CreditAudit: 2D Auditing for LLM Evaluation and Selection",
+      "date": "2026-02-04",
+      "author": "Yiliang Song",
       "tags": [
         {
-          "label": "diffusion models",
+          "label": "model evaluation",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/af9995f3c23b362d6173438beaa46be5948815d85f7988180e56145ce11e614a_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8e10a17c3d9a9cc7050b2dbd35e08ad35038856c9ed577751d5cf015d922c02f_w640_q70.webp"
     },
     {
-      "id": 19394,
-      "title": "Scalable and Secure AI Inference in Healthcare: A Comparative Benchmarking of FastAPI and Triton Inference Server on Kubernetes",
-      "date": "2026-02-03",
-      "author": "Ratul Ali",
+      "id": 21079,
+      "title": "Experience-Driven Multi-Agent Systems Are Training-free Context-aware Earth Observers",
+      "date": "2026-02-04",
+      "author": "Pengyu Dai",
       "tags": [
         {
-          "label": "Triton Inference Server",
+          "label": "multi-agent system",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/69c72a22217bd4ae3e2408e869f05147576963fee44187e041b43983593cd9c3_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/445e6a8f3795a3de375a00d7310c111ad292e5eb1bf94cb1c4468033cb6f8a04_w640_q70.webp"
     },
     {
-      "id": 19484,
-      "title": "Learning to Price: Interpretable Attribute-Level Models for Dynamic Markets",
-      "date": "2026-02-03",
-      "author": "Srividhya Sethuraman",
+      "id": 21096,
+      "title": "Uncertainty and Fairness Awareness in LLM-Based Recommendation Systems",
+      "date": "2026-02-04",
+      "author": "Chandan Kumar Sah",
       "tags": [
         {
-          "label": "additive feature decomposition",
+          "label": "uncertainty quantification",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6f8ecb989688acf875616b2651da09356e75462e1f00a7c59cc6fd2cc4b129bc_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/66a294fce86e697ecce76d02b4c72db7bcd7ad78c13e0db698dde32f51a47042_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 20579,
-      "title": "Leveraging Latent Vector Prediction for Localized Control in Image Generation via Diffusion Models",
-      "date": "2026-02-03",
-      "author": "Pablo Domingo-Gregorio",
+      "id": 21251,
+      "title": "DoubleTake: Contrastive Reasoning for Faithful Decision-Making in Medical Imaging",
+      "date": "2026-02-04",
+      "author": "Daivik Patel",
       "tags": [
         {
-          "label": "diffusion models",
+          "label": "contrastive reasoning",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a9cc3914bfab4e96603032529befb62ef251c86d1230f7f328a3d7819ede7b88_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8599f858c9100175855a9a85aa5e672ab9c9baaa67f67b62292419b4045f5c74_w640_q70.webp"
     },
     {
-      "id": 19681,
-      "title": "NPNet: A Non-Parametric Network with Adaptive Gaussian-Fourier Positional Encoding for 3D Classification and Segmentation",
-      "date": "2026-02-03",
-      "author": "Mohammad Saeid",
+      "id": 21063,
+      "title": "WorldVQA: Measuring Atomic World Knowledge in Multimodal Large Language Models",
+      "date": "2026-02-04",
+      "author": "Runjie Zhou",
       "tags": [
         {
-          "label": "non-parametric network",
+          "label": "benchmark",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/769954431471dd3ac1c83cd212cb26a74e284a546a8189df64a423abaeb02744_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/308878cb87c1d5e8c69396149cdb47acec29b484bf9689da2b14fccdae9e9b70_w640_q70.webp"
     },
     {
-      "id": 19424,
-      "title": "EDU-CIRCUIT-HW: Evaluating Multimodal Large Language Models on Real-World University-Level STEM Student Handwritten Solutions",
-      "date": "2026-02-03",
-      "author": "Weiyu Sun",
+      "id": 21142,
+      "title": "AdaptMMBench: Benchmarking Adaptive Multimodal Reasoning for Mode Selection and Reasoning Process",
+      "date": "2026-02-04",
+      "author": "Xintong Zhang",
       "tags": [
         {
-          "label": "multimodal large language models",
+          "label": "adaptive multimodal reasoning",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/40b767b1ece2c3094835c867453d5b4715f9ff786c5334d55fb08bc84e7b5d63_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c0f7862930703583cc9fd0939d34fb3e561f4fcdabbc1d23661c79ac626761d3_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 20944,
-      "title": "Hessian Spectral Analysis at Foundation Model Scale",
-      "date": "2026-02-03",
-      "author": "Diego Granziol",
+      "id": 21398,
+      "title": "Enhanced Parcel Arrival Forecasting for Logistic Hubs: An Ensemble Deep Learning Approach",
+      "date": "2026-02-04",
+      "author": "Xinyue Pan",
       "tags": [
         {
-          "label": "Hessian Spectral Analysis",
+          "label": "ensemble deep learning",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ad98afb063460bbd01db1b2f2017a4a500efe3936ffb732352cadac28e58f930_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6643246c864fca89b8a2afe6e60a7b056298d7cdd422d01077d791b07e62e340_w640_q70.webp"
     },
     {
-      "id": 20968,
-      "title": "Robust Sublinear Convergence Rates for Iterative Bregman Projections",
-      "date": "2026-02-03",
-      "author": "Gabriel Peyr\u00e9",
+      "id": 21595,
+      "title": "Causal Inference on Networks under Misspecified Exposure Mappings: A Partial Identification Framework",
+      "date": "2026-02-04",
+      "author": "Maresa Schr\u00f6der",
       "tags": [
         {
-          "label": "Bregman projections",
+          "label": "partial identification",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b8a0375271f5c79b22e57275065468689e80a7f684366375184b71cbb8836d2e_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1bdd0e801b6c805d92531d8a2e21fb65c79d9f247cf14adf4d414f99b71bc3ea_w640_q70.webp"
     },
     {
-      "id": 19721,
-      "title": "Actor-Dual-Critic Dynamics for Zero-sum and Identical-Interest Stochastic Games",
-      "date": "2026-02-03",
-      "author": "Ahmed Said Donmez",
+      "id": 21027,
+      "title": "UNSO: Unified Newton Schulz Orthogonalization",
+      "date": "2026-02-04",
+      "author": "Chen Hu",
       "tags": [
         {
-          "label": "actor-critic",
+          "label": "Newton-Schulz iteration",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d66bdc1bc30a3f507f225003e1e68ee75dd67fe1c088ab75dacbd280eb7a783c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4c32e01dcebeef49f23b2235e396adcde63cb3d10341b177b776ca1dddce1f53_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 19800,
-      "title": "ExperienceWeaver: Optimizing Small-sample Experience Learning for LLM-based Clinical Text Improvement",
-      "date": "2026-02-03",
-      "author": "Ziyan Xiao",
+      "id": 21359,
+      "title": "ReMiT: RL-Guided Mid-Training for Iterative LLM Evolution",
+      "date": "2026-02-04",
+      "author": "Junjie Huang",
       "tags": [
         {
-          "label": "experience distillation",
+          "label": "reinforcement learning",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0acd644edf57385b961a0ed032d50a49cc28ac938eb72f1590f0578320cf96dd_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/908c4bb313adc209cee29c48a31887254dfc1a137789db25c041078f4489de2b_w640_q70.webp"
     },
     {
-      "id": 19820,
-      "title": "Test Behaviors, Not Methods! Detecting Tests Obsessed by Methods",
-      "date": "2026-02-03",
-      "author": "Andre Hora",
+      "id": 21174,
+      "title": "PokeNet: Learning Kinematic Models of Articulated Objects from Human Observations",
+      "date": "2026-02-04",
+      "author": "Anmol Gupta",
       "tags": [
         {
-          "label": "test smell",
+          "label": "articulation modeling",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/89fe4207d18b37767b1db081e86a57134b76f23449b2164f6f78dcb6914b77b5_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c35a01963b6336c9c4ccc9015a7ff9e0980cd2772b9c4d31e727fd58a709d603_w640_q70.webp"
     },
     {
-      "id": 19542,
-      "title": "Semantics-Preserving Evasion of LLM Vulnerability Detectors",
-      "date": "2026-02-03",
-      "author": "Luze Sun",
+      "id": 21025,
+      "title": "Test-Time Detoxification without Training or Learning Anything",
+      "date": "2026-02-04",
+      "author": "Baturay Saglam",
       "tags": [
         {
-          "label": "semantics-preserving evasion",
+          "label": "test-time detoxification",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4c765b44c8bc0c28267b3dfcd424636f13bf161c81c1ad4af0d9cb9986de09dc_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fa122e8e90e2f6f83bb0627927c6a9da9cfa79d2679a15a803d87d9707e46e37_w640_q70.webp"
     }
   ]
 }

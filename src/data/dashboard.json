@@ -1,178 +1,178 @@
 {
   "ai": [
     {
-      "id": 21043,
-      "title": "CreditAudit: 2D Auditing for LLM Evaluation and Selection",
-      "date": "2026-02-04",
-      "author": "Yiliang Song",
+      "id": 21895,
+      "title": "Knowledge Model Prompting Increases LLM Performance on Planning Tasks",
+      "date": "2026-02-05",
+      "author": "Erik Goh",
       "tags": [
         {
-          "label": "model evaluation",
+          "label": "Task-Method-Knowledge (TMK) framework",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8e10a17c3d9a9cc7050b2dbd35e08ad35038856c9ed577751d5cf015d922c02f_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/568ce13b43be4db96bf39ce32522f52e5af433d87bda82050b2e04878c11a784_w640_q70.webp"
     },
     {
-      "id": 21079,
-      "title": "Experience-Driven Multi-Agent Systems Are Training-free Context-aware Earth Observers",
-      "date": "2026-02-04",
-      "author": "Pengyu Dai",
+      "id": 21917,
+      "title": "Enhancing Mathematical Problem Solving in LLMs through Execution-Driven Reasoning Augmentation",
+      "date": "2026-02-05",
+      "author": "Aditya Basarkar",
       "tags": [
         {
-          "label": "multi-agent system",
+          "label": "iterative refinement",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/445e6a8f3795a3de375a00d7310c111ad292e5eb1bf94cb1c4468033cb6f8a04_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7ea8a3defee2075e1d015910904f7859620ff284cbabc96e1c552c0017a755b3_w640_q70.webp"
     },
     {
-      "id": 21096,
-      "title": "Uncertainty and Fairness Awareness in LLM-Based Recommendation Systems",
-      "date": "2026-02-04",
-      "author": "Chandan Kumar Sah",
+      "id": 21919,
+      "title": "AgentArk: Distilling Multi-Agent Intelligence into a Single LLM Agent",
+      "date": "2026-02-05",
+      "author": "Yinyi Luo",
       "tags": [
         {
-          "label": "uncertainty quantification",
+          "label": "knowledge distillation",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/66a294fce86e697ecce76d02b4c72db7bcd7ad78c13e0db698dde32f51a47042_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3158958840d1bb6bc357ba548912b9eb0d6a20a236651261d3eb894a43d8decf_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 21251,
-      "title": "DoubleTake: Contrastive Reasoning for Faithful Decision-Making in Medical Imaging",
-      "date": "2026-02-04",
-      "author": "Daivik Patel",
+      "id": 21882,
+      "title": "Intellectual Property Protection for 3D Gaussian Splatting Assets: A Survey",
+      "date": "2026-02-05",
+      "author": "Longjie Zhao",
       "tags": [
         {
-          "label": "contrastive reasoning",
+          "label": "3D Gaussian Splatting",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8599f858c9100175855a9a85aa5e672ab9c9baaa67f67b62292419b4045f5c74_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/170e36b0e4303e32da073fb665c0c4609f35999a013f1ac6bca547fd4614ef1f_w640_q70.webp"
     },
     {
-      "id": 21063,
-      "title": "WorldVQA: Measuring Atomic World Knowledge in Multimodal Large Language Models",
-      "date": "2026-02-04",
-      "author": "Runjie Zhou",
+      "id": 21884,
+      "title": "DiGAN: Diffusion-Guided Attention Network for Early Alzheimer's Disease Detection",
+      "date": "2026-02-05",
+      "author": "Maxx Richard Rahman",
       "tags": [
         {
-          "label": "benchmark",
+          "label": "diffusion model",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/308878cb87c1d5e8c69396149cdb47acec29b484bf9689da2b14fccdae9e9b70_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5c43a955c6497051324214b2b07ea7c0abddf9a7e8c9f5ac561ee8f50a43bde6_w640_q70.webp"
     },
     {
-      "id": 21142,
-      "title": "AdaptMMBench: Benchmarking Adaptive Multimodal Reasoning for Mode Selection and Reasoning Process",
-      "date": "2026-02-04",
-      "author": "Xintong Zhang",
+      "id": 21886,
+      "title": "PriorProbe: Recovering Individual-Level Priors for Personalizing Neural Networks in Facial Expression Recognition",
+      "date": "2026-02-05",
+      "author": "Haijiang Yan",
       "tags": [
         {
-          "label": "adaptive multimodal reasoning",
+          "label": "Markov Chain Monte Carlo with People",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c0f7862930703583cc9fd0939d34fb3e561f4fcdabbc1d23661c79ac626761d3_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2de76b0ebf902709e0fe3843f3379e10bc5d9bf9f3ed3aae582798141af3278b_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 21398,
-      "title": "Enhanced Parcel Arrival Forecasting for Logistic Hubs: An Ensemble Deep Learning Approach",
-      "date": "2026-02-04",
-      "author": "Xinyue Pan",
+      "id": 21879,
+      "title": "Understanding the Impact of Differentially Private Training on Memorization of Long-Tailed Data",
+      "date": "2026-02-05",
+      "author": "Jiaming Zhang",
       "tags": [
         {
-          "label": "ensemble deep learning",
+          "label": "DP-SGD",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6643246c864fca89b8a2afe6e60a7b056298d7cdd422d01077d791b07e62e340_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/bbf4e621f1f2cc6157b6909e5dfaf793fdb6e3a086e2a5c0950f6af4e1c7cf0a_w640_q70.webp"
     },
     {
-      "id": 21595,
-      "title": "Causal Inference on Networks under Misspecified Exposure Mappings: A Partial Identification Framework",
-      "date": "2026-02-04",
-      "author": "Maresa Schr\u00f6der",
+      "id": 21883,
+      "title": "GOPO: Policy Optimization using Ranked Rewards",
+      "date": "2026-02-05",
+      "author": "Kyuseong Choi",
       "tags": [
         {
-          "label": "partial identification",
+          "label": "policy optimization",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1bdd0e801b6c805d92531d8a2e21fb65c79d9f247cf14adf4d414f99b71bc3ea_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/46cda667e94381b235d89b1797af05eb2caa94bb7c204dd8487d9fe60a88dc18_w640_q70.webp"
     },
     {
-      "id": 21027,
-      "title": "UNSO: Unified Newton Schulz Orthogonalization",
-      "date": "2026-02-04",
-      "author": "Chen Hu",
+      "id": 21887,
+      "title": "Reversible Deep Learning for 13C NMR in Chemoinformatics: On Structures and Spectra",
+      "date": "2026-02-05",
+      "author": "Stefan Kuhn",
       "tags": [
         {
-          "label": "Newton-Schulz iteration",
+          "label": "invertible neural networks",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4c32e01dcebeef49f23b2235e396adcde63cb3d10341b177b776ca1dddce1f53_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/21d734b3fb2caec1aead27b10f0a07f767ddd89fca31adb433cc8598e13bc8ea_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 21359,
-      "title": "ReMiT: RL-Guided Mid-Training for Iterative LLM Evolution",
-      "date": "2026-02-04",
-      "author": "Junjie Huang",
+      "id": 21901,
+      "title": "Beyond the Vehicle: Cooperative Localization by Fusing Point Clouds for GPS-Challenged Urban Scenarios",
+      "date": "2026-02-05",
+      "author": "Kuo-Yi Chao",
       "tags": [
         {
-          "label": "reinforcement learning",
+          "label": "cooperative localization",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/908c4bb313adc209cee29c48a31887254dfc1a137789db25c041078f4489de2b_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e5f5d5de3c1c119c5bf4f138968c3e2111beb3115d931310b298e79794e4598a_w640_q70.webp"
     },
     {
-      "id": 21174,
-      "title": "PokeNet: Learning Kinematic Models of Articulated Objects from Human Observations",
-      "date": "2026-02-04",
-      "author": "Anmol Gupta",
+      "id": 21908,
+      "title": "How Users Understand Robot Foundation Model Performance through Task Success Rates and Beyond",
+      "date": "2026-02-05",
+      "author": "Isaac Sheidlower",
       "tags": [
         {
-          "label": "articulation modeling",
+          "label": "robot foundation models",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c35a01963b6336c9c4ccc9015a7ff9e0980cd2772b9c4d31e727fd58a709d603_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9f2f3bda38f24c8fb6de001e1c8cb45fbb4a1703ae3f6995ec1c6e99fc3cf20c_w640_q70.webp"
     },
     {
-      "id": 21025,
-      "title": "Test-Time Detoxification without Training or Learning Anything",
-      "date": "2026-02-04",
-      "author": "Baturay Saglam",
+      "id": 21913,
+      "title": "Linguistic Blind Spots in Clinical Decision Extraction",
+      "date": "2026-02-05",
+      "author": "Mohamed Elgaar",
       "tags": [
         {
-          "label": "test-time detoxification",
+          "label": "clinical decision extraction",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fa122e8e90e2f6f83bb0627927c6a9da9cfa79d2679a15a803d87d9707e46e37_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f4d526fb315a2da7d037c29adc132c3c484f2d3eed12b2b1b71375b2bbb93229_w640_q70.webp"
     }
   ]
 }

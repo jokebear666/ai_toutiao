@@ -1,178 +1,178 @@
 {
   "ai": [
     {
-      "id": 21895,
-      "title": "Knowledge Model Prompting Increases LLM Performance on Planning Tasks",
-      "date": "2026-02-05",
-      "author": "Erik Goh",
+      "id": 22531,
+      "title": "Artificial Intelligence as Strange Intelligence: Against Linear Models of Intelligence",
+      "date": "2026-02-06",
+      "author": "Kendra Chilson",
       "tags": [
         {
-          "label": "Task-Method-Knowledge (TMK) framework",
+          "label": "strange intelligence",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/568ce13b43be4db96bf39ce32522f52e5af433d87bda82050b2e04878c11a784_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/dcbb015d15bb9acee3b71b98a64543fb005000e94a5280e8295af525d0f834ae_w640_q70.webp"
     },
     {
-      "id": 21917,
-      "title": "Enhancing Mathematical Problem Solving in LLMs through Execution-Driven Reasoning Augmentation",
-      "date": "2026-02-05",
-      "author": "Aditya Basarkar",
+      "id": 22549,
+      "title": "DeepRead: Document Structure-Aware Reasoning to Enhance Agentic Search",
+      "date": "2026-02-06",
+      "author": "Zhanli Li",
       "tags": [
         {
-          "label": "iterative refinement",
+          "label": "Agentic RAG",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7ea8a3defee2075e1d015910904f7859620ff284cbabc96e1c552c0017a755b3_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5cc7287c27297d3c487f80ba6f3a6f58e74178d85d514472a7eec72dbedee4a4_w640_q70.webp"
     },
     {
-      "id": 21919,
-      "title": "AgentArk: Distilling Multi-Agent Intelligence into a Single LLM Agent",
-      "date": "2026-02-05",
-      "author": "Yinyi Luo",
+      "id": 22561,
+      "title": "MINT: Minimal Information Neuro-Symbolic Tree for Objective-Driven Knowledge-Gap Reasoning and Active Elicitation",
+      "date": "2026-02-06",
+      "author": "Zeyu Fang",
       "tags": [
         {
-          "label": "knowledge distillation",
+          "label": "neuro-symbolic reasoning",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3158958840d1bb6bc357ba548912b9eb0d6a20a236651261d3eb894a43d8decf_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1fd8dc3481f703d1b6c97b13adbe93f562a457646edfa7843b2424a55d8c177c_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 21882,
-      "title": "Intellectual Property Protection for 3D Gaussian Splatting Assets: A Survey",
-      "date": "2026-02-05",
-      "author": "Longjie Zhao",
+      "id": 22539,
+      "title": "SIDeR: Semantic Identity Decoupling for Unrestricted Face Privacy",
+      "date": "2026-02-06",
+      "author": "Zhuosen Bao",
       "tags": [
         {
-          "label": "3D Gaussian Splatting",
+          "label": "semantic decoupling",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/170e36b0e4303e32da073fb665c0c4609f35999a013f1ac6bca547fd4614ef1f_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c6f979b388f45810da03e536da3c8211044c3f38165add67597622978cead091_w640_q70.webp"
     },
     {
-      "id": 21884,
-      "title": "DiGAN: Diffusion-Guided Attention Network for Early Alzheimer's Disease Detection",
-      "date": "2026-02-05",
-      "author": "Maxx Richard Rahman",
+      "id": 22563,
+      "title": "UniTrack: Differentiable Graph Representation Learning for Multi-Object Tracking",
+      "date": "2026-02-06",
+      "author": "Bishoy Galoaa",
       "tags": [
         {
-          "label": "diffusion model",
+          "label": "differentiable graph representation learning",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5c43a955c6497051324214b2b07ea7c0abddf9a7e8c9f5ac561ee8f50a43bde6_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2d57f7d237c65bdecdfab662a711d83256aa67a44ce3a3be16e2ae055d2551ff_w640_q70.webp"
     },
     {
-      "id": 21886,
-      "title": "PriorProbe: Recovering Individual-Level Priors for Personalizing Neural Networks in Facial Expression Recognition",
-      "date": "2026-02-05",
-      "author": "Haijiang Yan",
+      "id": 22565,
+      "title": "VISTA: Enhancing Visual Conditioning via Track-Following Preference Optimization in Vision-Language-Action Models",
+      "date": "2026-02-06",
+      "author": "Yiye Chen",
       "tags": [
         {
-          "label": "Markov Chain Monte Carlo with People",
+          "label": "preference optimization",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2de76b0ebf902709e0fe3843f3379e10bc5d9bf9f3ed3aae582798141af3278b_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/657172c3deaf3a336749b2f8ba800eef3b49646a402361ca1879a7cb18299d3b_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 21879,
-      "title": "Understanding the Impact of Differentially Private Training on Memorization of Long-Tailed Data",
-      "date": "2026-02-05",
-      "author": "Jiaming Zhang",
+      "id": 22538,
+      "title": "EntRGi: Entropy Aware Reward Guidance for Diffusion Language Models",
+      "date": "2026-02-06",
+      "author": "Atula Tejaswi",
       "tags": [
         {
-          "label": "DP-SGD",
+          "label": "reward guidance",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/bbf4e621f1f2cc6157b6909e5dfaf793fdb6e3a086e2a5c0950f6af4e1c7cf0a_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5a97bf71be14bcdd75798531e1f9cbed6b57770884e27155e35adb650b688a65_w640_q70.webp"
     },
     {
-      "id": 21883,
-      "title": "GOPO: Policy Optimization using Ranked Rewards",
-      "date": "2026-02-05",
-      "author": "Kyuseong Choi",
+      "id": 22506,
+      "title": "SLAY: Geometry-Aware Spherical Linearized Attention with Yat-Kernel",
+      "date": "2026-02-06",
+      "author": "Jose Miguel Luna",
       "tags": [
         {
-          "label": "policy optimization",
+          "label": "linear-time attention",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/46cda667e94381b235d89b1797af05eb2caa94bb7c204dd8487d9fe60a88dc18_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5e7dc325a708d13d5e2a253154a5e4023ab8e56b9c09ba7d7a8d75da0abc265d_w640_q70.webp"
     },
     {
-      "id": 21887,
-      "title": "Reversible Deep Learning for 13C NMR in Chemoinformatics: On Structures and Spectra",
-      "date": "2026-02-05",
-      "author": "Stefan Kuhn",
+      "id": 22485,
+      "title": "A Causal Perspective for Enhancing Jailbreak Attack and Defense",
+      "date": "2026-02-06",
+      "author": "Licheng Pan",
       "tags": [
         {
-          "label": "invertible neural networks",
+          "label": "causal discovery",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/21d734b3fb2caec1aead27b10f0a07f767ddd89fca31adb433cc8598e13bc8ea_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0726f26dddfbf5f7802d5e6c889f1114ffe7682fbf223ccdb6c9b2e03c085c46_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 21901,
-      "title": "Beyond the Vehicle: Cooperative Localization by Fusing Point Clouds for GPS-Challenged Urban Scenarios",
-      "date": "2026-02-05",
-      "author": "Kuo-Yi Chao",
+      "id": 22949,
+      "title": "A Bayesian Optimization-Based AutoML Framework for Non-Intrusive Load Monitoring",
+      "date": "2026-02-06",
+      "author": "Nazanin Siavash",
       "tags": [
         {
-          "label": "cooperative localization",
+          "label": "Bayesian Optimization",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e5f5d5de3c1c119c5bf4f138968c3e2111beb3115d931310b298e79794e4598a_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/234053277805687efc1f62186e818a6597701f8fcb1d9184a7201a5a4b22daef_w640_q70.webp"
     },
     {
-      "id": 21908,
-      "title": "How Users Understand Robot Foundation Model Performance through Task Success Rates and Beyond",
-      "date": "2026-02-05",
-      "author": "Isaac Sheidlower",
+      "id": 22481,
+      "title": "Privacy Amplification Persists under Unlimited Synthetic Data Release",
+      "date": "2026-02-06",
+      "author": "Cl\u00e9ment Pierquin",
       "tags": [
         {
-          "label": "robot foundation models",
+          "label": "privacy amplification",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9f2f3bda38f24c8fb6de001e1c8cb45fbb4a1703ae3f6995ec1c6e99fc3cf20c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cfee1395b96cc8311d6c42df173c8da7180dfeb17d0d0ecb89f9b685883f09ce_w640_q70.webp"
     },
     {
-      "id": 21913,
-      "title": "Linguistic Blind Spots in Clinical Decision Extraction",
-      "date": "2026-02-05",
-      "author": "Mohamed Elgaar",
+      "id": 22482,
+      "title": "Phantom Transfer: Data-level Defences are Insufficient Against Data Poisoning",
+      "date": "2026-02-06",
+      "author": "Andrew Draganov",
       "tags": [
         {
-          "label": "clinical decision extraction",
+          "label": "data poisoning",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f4d526fb315a2da7d037c29adc132c3c484f2d3eed12b2b1b71375b2bbb93229_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5923f7a219f90360127a845f93a247bfa1b7cf3c2e93840dd572d54fe6335172_w640_q70.webp"
     }
   ]
 }

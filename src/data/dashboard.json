@@ -1,178 +1,178 @@
 {
   "ai": [
     {
-      "id": 22531,
-      "title": "Artificial Intelligence as Strange Intelligence: Against Linear Models of Intelligence",
-      "date": "2026-02-06",
-      "author": "Kendra Chilson",
+      "id": 23209,
+      "title": "Jackpot: Optimal Budgeted Rejection Sampling for Extreme Actor-Policy Mismatch Reinforcement Learning",
+      "date": "2026-02-09",
+      "author": "Zhuoming Chen",
       "tags": [
         {
-          "label": "strange intelligence",
+          "label": "Optimal Budget Rejection Sampling (OBRS)",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/dcbb015d15bb9acee3b71b98a64543fb005000e94a5280e8295af525d0f834ae_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a05eaa693f452eff21ded3a7a9a92a9ce5c9637c821cf930a83da8a401eeadae_w640_q70.webp"
     },
     {
-      "id": 22549,
-      "title": "DeepRead: Document Structure-Aware Reasoning to Enhance Agentic Search",
-      "date": "2026-02-06",
-      "author": "Zhanli Li",
+      "id": 23234,
+      "title": "Large Language Model Reasoning Failures",
+      "date": "2026-02-09",
+      "author": "Peiyang Song",
       "tags": [
         {
-          "label": "Agentic RAG",
+          "label": "reasoning failures",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5cc7287c27297d3c487f80ba6f3a6f58e74178d85d514472a7eec72dbedee4a4_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a572b4ba8013d63cba6a9557060917004dbc6785373b8e88089082a6ed6739cf_w640_q70.webp"
     },
     {
-      "id": 22561,
-      "title": "MINT: Minimal Information Neuro-Symbolic Tree for Objective-Driven Knowledge-Gap Reasoning and Active Elicitation",
-      "date": "2026-02-06",
-      "author": "Zeyu Fang",
+      "id": 23259,
+      "title": "Do It for HER: First-Order Temporal Logic Reward Specification in Reinforcement Learning (Extended Version)",
+      "date": "2026-02-09",
+      "author": "Pierriccardo Olivieri",
       "tags": [
         {
-          "label": "neuro-symbolic reasoning",
+          "label": "LTLfMT",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1fd8dc3481f703d1b6c97b13adbe93f562a457646edfa7843b2424a55d8c177c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5bd981e55dfe32a07198494054b63445f0100f3358315811bca059137a921747_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 22539,
-      "title": "SIDeR: Semantic Identity Decoupling for Unrestricted Face Privacy",
-      "date": "2026-02-06",
-      "author": "Zhuosen Bao",
+      "id": 23213,
+      "title": "From Blurry to Believable: Enhancing Low-quality Talking Heads with 3D Generative Priors",
+      "date": "2026-02-09",
+      "author": "Ding-Jiun Huang",
       "tags": [
         {
-          "label": "semantic decoupling",
+          "label": "3D Gaussian Splatting",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c6f979b388f45810da03e536da3c8211044c3f38165add67597622978cead091_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0373418161a3faf004a83186af8a39c8d52fdcba9eec6c55ebb7d7119c2f514d_w640_q70.webp"
     },
     {
-      "id": 22563,
-      "title": "UniTrack: Differentiable Graph Representation Learning for Multi-Object Tracking",
-      "date": "2026-02-06",
-      "author": "Bishoy Galoaa",
+      "id": 23219,
+      "title": "EgoAVU: Egocentric Audio-Visual Understanding",
+      "date": "2026-02-09",
+      "author": "Ashish Seth",
       "tags": [
         {
-          "label": "differentiable graph representation learning",
+          "label": "egocentric video",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2d57f7d237c65bdecdfab662a711d83256aa67a44ce3a3be16e2ae055d2551ff_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e7bb42aa7b739a9ac2100249848d5b0e1d072a7a7a6ae7d410a751f061e30b0e_w640_q70.webp"
     },
     {
-      "id": 22565,
-      "title": "VISTA: Enhancing Visual Conditioning via Track-Following Preference Optimization in Vision-Language-Action Models",
-      "date": "2026-02-06",
-      "author": "Yiye Chen",
+      "id": 23226,
+      "title": "MGP-KAD: Multimodal Geometric Priors and Kolmogorov-Arnold Decoder for Single-View 3D Reconstruction in Complex Scenes",
+      "date": "2026-02-09",
+      "author": "Luoxi Zhang",
       "tags": [
         {
-          "label": "preference optimization",
+          "label": "multimodal feature fusion",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/657172c3deaf3a336749b2f8ba800eef3b49646a402361ca1879a7cb18299d3b_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c007ff767b6c6f4d9301fd71d688d33b5a66096f2f397b81268da7907f8e4422_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 22538,
-      "title": "EntRGi: Entropy Aware Reward Guidance for Diffusion Language Models",
-      "date": "2026-02-06",
-      "author": "Atula Tejaswi",
+      "id": 23205,
+      "title": "NanoNet: Parameter-Efficient Learning with Label-Scarce Supervision for Lightweight Text Mining Model",
+      "date": "2026-02-09",
+      "author": "Qianren Mao",
       "tags": [
         {
-          "label": "reward guidance",
+          "label": "parameter-efficient learning",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5a97bf71be14bcdd75798531e1f9cbed6b57770884e27155e35adb650b688a65_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4c476d01eb178557a3063714b1245718ebcfe606a36d5b809f7d185c85b99b2d_w640_q70.webp"
     },
     {
-      "id": 22506,
-      "title": "SLAY: Geometry-Aware Spherical Linearized Attention with Yat-Kernel",
-      "date": "2026-02-06",
-      "author": "Jose Miguel Luna",
+      "id": 23206,
+      "title": "Agentic Workflow Using RBA$_\u03b8$ for Event Prediction",
+      "date": "2026-02-09",
+      "author": "Purbak Sengupta",
       "tags": [
         {
-          "label": "linear-time attention",
+          "label": "Ramping Behaviour Analysis (RBA)",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5e7dc325a708d13d5e2a253154a5e4023ab8e56b9c09ba7d7a8d75da0abc265d_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e665fcecfa170c462de4a2804a4e1c6244ac72f001b5c2b4d457d51ee9743307_w640_q70.webp"
     },
     {
-      "id": 22485,
-      "title": "A Causal Perspective for Enhancing Jailbreak Attack and Defense",
-      "date": "2026-02-06",
-      "author": "Licheng Pan",
+      "id": 23207,
+      "title": "Toward Faithful and Complete Answer Construction from a Single Document",
+      "date": "2026-02-09",
+      "author": "Zhaoyang Chen",
       "tags": [
         {
-          "label": "causal discovery",
+          "label": "faithfulness",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0726f26dddfbf5f7802d5e6c889f1114ffe7682fbf223ccdb6c9b2e03c085c46_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e581cc7a930ee7fb9695742bfc0ae5a03907250e214616879de12896bb3c5e05_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 22949,
-      "title": "A Bayesian Optimization-Based AutoML Framework for Non-Intrusive Load Monitoring",
-      "date": "2026-02-06",
-      "author": "Nazanin Siavash",
+      "id": 23182,
+      "title": "Rethinking Memory Mechanisms of Foundation Agents in the Second Half",
+      "date": "2026-02-09",
+      "author": "Wei-Chieh Huang",
       "tags": [
         {
-          "label": "Bayesian Optimization",
+          "label": "agent memory",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/234053277805687efc1f62186e818a6597701f8fcb1d9184a7201a5a4b22daef_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/861dd4be970a294bb83ecdf86f903346f2db4010c0390708a77cd97c4a0c3cd5_w640_q70.webp"
     },
     {
-      "id": 22481,
-      "title": "Privacy Amplification Persists under Unlimited Synthetic Data Release",
-      "date": "2026-02-06",
-      "author": "Cl\u00e9ment Pierquin",
+      "id": 23208,
+      "title": "Coding Agents with Environment Interaction: A Theoretical Perspective",
+      "date": "2026-02-09",
+      "author": "Nicolas Menet",
       "tags": [
         {
-          "label": "privacy amplification",
+          "label": "coding agents",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cfee1395b96cc8311d6c42df173c8da7180dfeb17d0d0ecb89f9b685883f09ce_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ed8042ca2a9bb99e843aeb9aaec7152dba8a5a461be09e7f3d528fcabdb10fcd_w640_q70.webp"
     },
     {
-      "id": 22482,
-      "title": "Phantom Transfer: Data-level Defences are Insufficient Against Data Poisoning",
-      "date": "2026-02-06",
-      "author": "Andrew Draganov",
+      "id": 23176,
+      "title": "Multi-Agent-Driven Cognitive Secure Communications in Satellite-Terrestrial Networks",
+      "date": "2026-02-09",
+      "author": "Yujie Ling",
       "tags": [
         {
-          "label": "data poisoning",
+          "label": "satellite-terrestrial networks",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5923f7a219f90360127a845f93a247bfa1b7cf3c2e93840dd572d54fe6335172_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/355335d6e81e1e984f41c2b6259dc25305345c113d3b0fcd689dc211e2f3d94d_w640_q70.webp"
     }
   ]
 }

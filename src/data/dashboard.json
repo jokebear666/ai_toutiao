@@ -1,178 +1,178 @@
 {
   "ai": [
     {
-      "id": 23209,
-      "title": "Jackpot: Optimal Budgeted Rejection Sampling for Extreme Actor-Policy Mismatch Reinforcement Learning",
-      "date": "2026-02-09",
-      "author": "Zhuoming Chen",
+      "id": 24721,
+      "title": "The Use of AI Tools to Develop and Validate Q-Matrices",
+      "date": "2026-02-10",
+      "author": "Kevin Fan",
       "tags": [
         {
-          "label": "Optimal Budget Rejection Sampling (OBRS)",
+          "label": "cs.AI",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a05eaa693f452eff21ded3a7a9a92a9ce5c9637c821cf930a83da8a401eeadae_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8a94e5ea63edcad79f14020a24717985dba14ccd09255ace5fd24899304023ad_w640_q70.webp"
     },
     {
-      "id": 23234,
-      "title": "Large Language Model Reasoning Failures",
-      "date": "2026-02-09",
-      "author": "Peiyang Song",
+      "id": 24566,
+      "title": "Reinforcement Inference: Leveraging Uncertainty for Self-Correcting Language Model Reasoning",
+      "date": "2026-02-10",
+      "author": "Xinhai Sun",
       "tags": [
         {
-          "label": "reasoning failures",
+          "label": "cs.AI",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a572b4ba8013d63cba6a9557060917004dbc6785373b8e88089082a6ed6739cf_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/31aeecc794b31bcd6727e5d8a99c6ba6c0e1f960bdd50424ed003a88e1c4344f_w640_q70.webp"
     },
     {
-      "id": 23259,
-      "title": "Do It for HER: First-Order Temporal Logic Reward Specification in Reinforcement Learning (Extended Version)",
-      "date": "2026-02-09",
-      "author": "Pierriccardo Olivieri",
+      "id": 24487,
+      "title": "Circuit Representations of Random Forests with Applications to XAI",
+      "date": "2026-02-10",
+      "author": "Chunxi Ji",
       "tags": [
         {
-          "label": "LTLfMT",
+          "label": "cs.AI",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5bd981e55dfe32a07198494054b63445f0100f3358315811bca059137a921747_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2f5d0b2486de2a1394ddc6a5355db372dc121a76d161191d32e3ec06d5ceb835_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 23213,
-      "title": "From Blurry to Believable: Enhancing Low-quality Talking Heads with 3D Generative Priors",
-      "date": "2026-02-09",
-      "author": "Ding-Jiun Huang",
+      "id": 24719,
+      "title": "Multimodal Learning for Arcing Detection in Pantograph-Catenary Systems",
+      "date": "2026-02-10",
+      "author": "Hao Dong",
       "tags": [
         {
-          "label": "3D Gaussian Splatting",
+          "label": "cs.CV",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0373418161a3faf004a83186af8a39c8d52fdcba9eec6c55ebb7d7119c2f514d_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0e7b14d610772d05b492a0885d7050166830b2b6c4ede9e6517461db4204a064_w640_q70.webp"
     },
     {
-      "id": 23219,
-      "title": "EgoAVU: Egocentric Audio-Visual Understanding",
-      "date": "2026-02-09",
-      "author": "Ashish Seth",
+      "id": 23813,
+      "title": "Privacy in Image Datasets: A Case Study on Pregnancy Ultrasounds",
+      "date": "2026-02-10",
+      "author": "Rawisara Lohanimit",
       "tags": [
         {
-          "label": "egocentric video",
+          "label": "LAION-400M",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e7bb42aa7b739a9ac2100249848d5b0e1d072a7a7a6ae7d410a751f061e30b0e_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ba4dfc38cbf07eaec1d8f518465f25fb7db1b1dd52bdde1c508edf2356ab59a0_w640_q70.webp"
     },
     {
-      "id": 23226,
-      "title": "MGP-KAD: Multimodal Geometric Priors and Kolmogorov-Arnold Decoder for Single-View 3D Reconstruction in Complex Scenes",
-      "date": "2026-02-09",
-      "author": "Luoxi Zhang",
+      "id": 23762,
+      "title": "Neural Sentinel: Unified Vision Language Model (VLM) for License Plate Recognition with Human-in-the-Loop Continual Learning",
+      "date": "2026-02-10",
+      "author": "Karthik Sivakoti",
       "tags": [
         {
-          "label": "multimodal feature fusion",
+          "label": "Vision Language Model (VLM)",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c007ff767b6c6f4d9301fd71d688d33b5a66096f2f397b81268da7907f8e4422_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c0138a712c7a0f1e47a93ab9c8cba87bae5c153cb5fc524e3239f883fd591081_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 23205,
-      "title": "NanoNet: Parameter-Efficient Learning with Label-Scarce Supervision for Lightweight Text Mining Model",
-      "date": "2026-02-09",
-      "author": "Qianren Mao",
+      "id": 24567,
+      "title": "Bridging Academia and Industry: A Comprehensive Benchmark for Attributed Graph Clustering",
+      "date": "2026-02-10",
+      "author": "Yunhui Liu",
       "tags": [
         {
-          "label": "parameter-efficient learning",
+          "label": "cs.LG",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4c476d01eb178557a3063714b1245718ebcfe606a36d5b809f7d185c85b99b2d_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5f8414c5ff0868ad6ec228de247fec3decdaef47e3ee3124cd3b2a152deccbeb_w640_q70.webp"
     },
     {
-      "id": 23206,
-      "title": "Agentic Workflow Using RBA$_\u03b8$ for Event Prediction",
-      "date": "2026-02-09",
-      "author": "Purbak Sengupta",
+      "id": 24928,
+      "title": "Discrete Adjoint Schr\u00f6dinger Bridge Sampler",
+      "date": "2026-02-10",
+      "author": "Wei Guo",
       "tags": [
         {
-          "label": "Ramping Behaviour Analysis (RBA)",
+          "label": "cs.LG",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e665fcecfa170c462de4a2804a4e1c6244ac72f001b5c2b4d457d51ee9743307_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/dc5fb89629dbeda1f3e56d0e1df285b7ddf7139275b5f301d78aae8a2675d7f9_w640_q70.webp"
     },
     {
-      "id": 23207,
-      "title": "Toward Faithful and Complete Answer Construction from a Single Document",
-      "date": "2026-02-09",
-      "author": "Zhaoyang Chen",
+      "id": 24929,
+      "title": "Schr\u00f6dinger bridge problem via empirical risk minimization",
+      "date": "2026-02-10",
+      "author": "Denis Belomestny",
       "tags": [
         {
-          "label": "faithfulness",
+          "label": "cs.LG",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e581cc7a930ee7fb9695742bfc0ae5a03907250e214616879de12896bb3c5e05_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2a93fbaac5dd8392e78c6154b7a2b6afeb3b517b47d3d9c177a8a03173b4eeab_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 23182,
-      "title": "Rethinking Memory Mechanisms of Foundation Agents in the Second Half",
-      "date": "2026-02-09",
-      "author": "Wei-Chieh Huang",
+      "id": 24720,
+      "title": "LakeHopper: Cross Data Lakes Column Type Annotation through Model Adaptation",
+      "date": "2026-02-10",
+      "author": "Yushi Sun",
       "tags": [
         {
-          "label": "agent memory",
+          "label": "cs.CL",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/861dd4be970a294bb83ecdf86f903346f2db4010c0390708a77cd97c4a0c3cd5_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6a9deaa1c16ef827a439f955c5563ab5d5b0213d5d7eda6aa0528bafbc6820fc_w640_q70.webp"
     },
     {
-      "id": 23208,
-      "title": "Coding Agents with Environment Interaction: A Theoretical Perspective",
-      "date": "2026-02-09",
-      "author": "Nicolas Menet",
+      "id": 24661,
+      "title": "Old wine in old glasses: Comparing computational and qualitative methods in identifying incivility on Persian Twitter during the #MahsaAmini movement",
+      "date": "2026-02-10",
+      "author": "Hossein Kermani",
       "tags": [
         {
-          "label": "coding agents",
+          "label": "cs.CL",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ed8042ca2a9bb99e843aeb9aaec7152dba8a5a461be09e7f3d528fcabdb10fcd_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6ed0b6fb05c4a91146e28408e2d924dd094a5a3306edd71819b1d25278b4eeba_w640_q70.webp"
     },
     {
-      "id": 23176,
-      "title": "Multi-Agent-Driven Cognitive Secure Communications in Satellite-Terrestrial Networks",
-      "date": "2026-02-09",
-      "author": "Yujie Ling",
+      "id": 24718,
+      "title": "Mind the Gap: Learning Implicit Impedance in Visuomotor Policies via Intent-Execution Mismatch",
+      "date": "2026-02-10",
+      "author": "Cuijie Xu",
       "tags": [
         {
-          "label": "satellite-terrestrial networks",
+          "label": "cs.RO",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/355335d6e81e1e984f41c2b6259dc25305345c113d3b0fcd689dc211e2f3d94d_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/43319fd7eef043cd0e2c7ffef4337e5124c7b7afaa16c9c9014b033ed5653c58_w640_q70.webp"
     }
   ]
 }

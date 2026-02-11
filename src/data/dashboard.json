@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 24721,
-      "title": "The Use of AI Tools to Develop and Validate Q-Matrices",
-      "date": "2026-02-10",
-      "author": "Kevin Fan",
+      "id": 25100,
+      "title": "Image Quality in the Era of Artificial Intelligence",
+      "date": "2026-02-11",
+      "author": "Jana G. Delfino",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8a94e5ea63edcad79f14020a24717985dba14ccd09255ace5fd24899304023ad_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/60988c2eb53268d3d943ac60e1e9b252211fa266e9788ac5bcddc7fe3ff3a590_w640_q70.webp"
     },
     {
-      "id": 24566,
-      "title": "Reinforcement Inference: Leveraging Uncertainty for Self-Correcting Language Model Reasoning",
-      "date": "2026-02-10",
-      "author": "Xinhai Sun",
+      "id": 24978,
+      "title": "A Small-Scale System for Autoregressive Program Synthesis Enabling Controlled Experimentation",
+      "date": "2026-02-11",
+      "author": "Russ Webb",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/31aeecc794b31bcd6727e5d8a99c6ba6c0e1f960bdd50424ed003a88e1c4344f_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a518cfad206b56746104ed0c2481d7ffe457695435f1667253e87af2e2d3b921_w640_q70.webp"
     },
     {
-      "id": 24487,
-      "title": "Circuit Representations of Random Forests with Applications to XAI",
-      "date": "2026-02-10",
-      "author": "Chunxi Ji",
+      "id": 24988,
+      "title": "Uncertainty-Aware Multimodal Emotion Recognition through Dirichlet Parameterization",
+      "date": "2026-02-11",
+      "author": "R\u00e9mi Grzeczkowicz",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2f5d0b2486de2a1394ddc6a5355db372dc121a76d161191d32e3ec06d5ceb835_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3906692dfa01d95d868bcec96bba5651bcac4cd43c77981388508f546d4b73b9_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 24719,
-      "title": "Multimodal Learning for Arcing Detection in Pantograph-Catenary Systems",
-      "date": "2026-02-10",
-      "author": "Hao Dong",
+      "id": 24983,
+      "title": "UI-Venus-1.5 Technical Report",
+      "date": "2026-02-11",
+      "author": "Veuns-Team",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,43 +56,43 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0e7b14d610772d05b492a0885d7050166830b2b6c4ede9e6517461db4204a064_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/04e7630f7e53b16708196655936465449103768c0f4123a1d48a04f015e13fe9_w640_q70.webp"
     },
     {
-      "id": 23813,
-      "title": "Privacy in Image Datasets: A Case Study on Pregnancy Ultrasounds",
-      "date": "2026-02-10",
-      "author": "Rawisara Lohanimit",
+      "id": 24980,
+      "title": "Agent Banana: High-Fidelity Image Editing with Agentic Thinking and Tooling",
+      "date": "2026-02-11",
+      "author": "Ruijie Ye",
       "tags": [
         {
-          "label": "LAION-400M",
+          "label": "cs.CV",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ba4dfc38cbf07eaec1d8f518465f25fb7db1b1dd52bdde1c508edf2356ab59a0_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f62cb4dc3c9a4708c1d5ff3fc01ce92471bb8de87961e5c5c0adf6122ff3b428_w640_q70.webp"
     },
     {
-      "id": 23762,
-      "title": "Neural Sentinel: Unified Vision Language Model (VLM) for License Plate Recognition with Human-in-the-Loop Continual Learning",
-      "date": "2026-02-10",
-      "author": "Karthik Sivakoti",
+      "id": 24998,
+      "title": "A Hybrid Deterministic Framework for Named Entity Extraction in Broadcast News Video",
+      "date": "2026-02-11",
+      "author": "Andrea Filiberto Lucas",
       "tags": [
         {
-          "label": "Vision Language Model (VLM)",
+          "label": "cs.CV",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c0138a712c7a0f1e47a93ab9c8cba87bae5c153cb5fc524e3239f883fd591081_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c4f83938bc48e54bb293d29e4031ab97a1ebde0d170488b98aeef9fce45ee984_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 24567,
-      "title": "Bridging Academia and Industry: A Comprehensive Benchmark for Attributed Graph Clustering",
-      "date": "2026-02-10",
-      "author": "Yunhui Liu",
+      "id": 25069,
+      "title": "The Laplacian Mechanism Improves Transformers by Reshaping Token Geometry",
+      "date": "2026-02-11",
+      "author": "Yuchong Zhang",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5f8414c5ff0868ad6ec228de247fec3decdaef47e3ee3124cd3b2a152deccbeb_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/49104d4aeb240ed8dee464ea0c3a8f0164e4bf9314a18f9c289984fc43dc80f3_w640_q70.webp"
     },
     {
-      "id": 24928,
-      "title": "Discrete Adjoint Schr\u00f6dinger Bridge Sampler",
-      "date": "2026-02-10",
-      "author": "Wei Guo",
+      "id": 25110,
+      "title": "Latent Poincar\u00e9 Shaping for Agentic Reinforcement Learning",
+      "date": "2026-02-11",
+      "author": "Hanchen Xia",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/dc5fb89629dbeda1f3e56d0e1df285b7ddf7139275b5f301d78aae8a2675d7f9_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0d93ba63eeeee58f8226bc23d0be8f6f0fbc3148aae88a09b66d7c01126ed10f_w640_q70.webp"
     },
     {
-      "id": 24929,
-      "title": "Schr\u00f6dinger bridge problem via empirical risk minimization",
-      "date": "2026-02-10",
-      "author": "Denis Belomestny",
+      "id": 25527,
+      "title": "Continual Learning for non-stationary regression via Memory-Efficient Replay",
+      "date": "2026-02-11",
+      "author": "Pablo Garc\u00eda-Santaclara",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,43 +128,43 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2a93fbaac5dd8392e78c6154b7a2b6afeb3b517b47d3d9c177a8a03173b4eeab_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1b6a85f00698c0aa5588f4edb7f83f6a4fc6cafa6bee746b3cfcd2d2a7d75210_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 24720,
-      "title": "LakeHopper: Cross Data Lakes Column Type Annotation through Model Adaptation",
-      "date": "2026-02-10",
-      "author": "Yushi Sun",
+      "id": 25111,
+      "title": "Timing and Memory Telemetry on GPUs for AI Governance",
+      "date": "2026-02-11",
+      "author": "Saleh K. Monfared",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.CR",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6a9deaa1c16ef827a439f955c5563ab5d5b0213d5d7eda6aa0528bafbc6820fc_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c6448c3aa0992ac01d03968b2221ded7eab15448471ccbb44710323a588c6c41_w640_q70.webp"
     },
     {
-      "id": 24661,
-      "title": "Old wine in old glasses: Comparing computational and qualitative methods in identifying incivility on Persian Twitter during the #MahsaAmini movement",
-      "date": "2026-02-10",
-      "author": "Hossein Kermani",
+      "id": 24958,
+      "title": "RuleFlow : Generating Reusable Program Optimizations with LLMs",
+      "date": "2026-02-11",
+      "author": "Avaljot Singh",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.SE",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6ed0b6fb05c4a91146e28408e2d924dd094a5a3306edd71819b1d25278b4eeba_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0b9f9e9e3db116d2e91a13d4481277ec6d75365d52da8f76bb477eff51578cad_w640_q70.webp"
     },
     {
-      "id": 24718,
-      "title": "Mind the Gap: Learning Implicit Impedance in Visuomotor Policies via Intent-Execution Mismatch",
-      "date": "2026-02-10",
-      "author": "Cuijie Xu",
+      "id": 24962,
+      "title": "Feasible Static Workspace Optimization of Tendon Driven Continuum Robot based on Euclidean norm",
+      "date": "2026-02-11",
+      "author": "Mohammad Jabari",
       "tags": [
         {
           "label": "cs.RO",
@@ -172,7 +172,7 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/43319fd7eef043cd0e2c7ffef4337e5124c7b7afaa16c9c9014b033ed5653c58_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e3e3c05bb15b7993b139c46718618464cd0eee64635305b91bcdec9461bd48dc_w640_q70.webp"
     }
   ]
 }

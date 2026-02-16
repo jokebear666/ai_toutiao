@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 26561,
-      "title": "Intelligent AI Delegation",
-      "date": "2026-02-13",
-      "author": "Nenad Toma\u0161ev",
+      "id": 27159,
+      "title": "Information-theoretic analysis of world models in optimal reward maximizers",
+      "date": "2026-02-16",
+      "author": "Alfred Harwood",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d7695266718afa70b795403675a5aeeb4e951b1697054ae0eebd8bf4d675a7e9_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a43e7a9eedc2a196d7708471acfa41791496bebaa8a7c5f0bb43a9e8b47b8e7c_w640_q70.webp"
     },
     {
-      "id": 26712,
-      "title": "Value Alignment Tax: Measuring Value Trade-offs in LLM Alignment",
-      "date": "2026-02-13",
-      "author": "Jiajun Chen",
+      "id": 26828,
+      "title": "Energy-Aware Reinforcement Learning for Robotic Manipulation of Articulated Components in Infrastructure Operation and Maintenance",
+      "date": "2026-02-16",
+      "author": "Xiaowen Tao",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/152c5283ed8100e94f19e82eb75f9cfe8547ea96abe80837b3ca84c819b70b59_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3190c89e0813d138cdaa3784d008fa9356200dbfe1d01cf448e4fb76381f84cc_w640_q70.webp"
     },
     {
-      "id": 26778,
-      "title": "CM2: Reinforcement Learning with Checklist Rewards for Multi-Turn and Multi-Step Agentic Tool Use",
-      "date": "2026-02-13",
-      "author": "Zhen Zhang",
+      "id": 26831,
+      "title": "Adaptive traffic signal control optimization using a novel road partition and multi-channel state representation method",
+      "date": "2026-02-16",
+      "author": "Maojiang Deng",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/18e5c5d6ecfd0afec7708cf8c8bf1ace5ed3ffddb109f26d4508d3488db3bca3_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/014e00cc2aaf8b687d4a7a33b85edab5800e88bef214881dce95442798acfd9a_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 26622,
-      "title": "Calibrated Bayesian Deep Learning for Explainable Decision Support Systems Based on Medical Imaging",
-      "date": "2026-02-13",
-      "author": "Hua Xu",
+      "id": 26939,
+      "title": "LiDAR-Anchored Collaborative Distillation for Robust 2D Representations",
+      "date": "2026-02-16",
+      "author": "Wonjun Jo",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ce50a3ff3a30d33a306d256f1fcbe7697c8e999af87c6f4219b030ab7b6ef114_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/981104654db11a64f106cc8111daac5446663da5de5f36c6351fdd82e7b9d11e_w640_q70.webp"
     },
     {
-      "id": 26681,
-      "title": "AssetFormer: Modular 3D Assets Generation with Autoregressive Transformer",
-      "date": "2026-02-13",
-      "author": "Lingting Zhu",
+      "id": 26855,
+      "title": "Thermal Imaging for Contactless Cardiorespiratory and Sudomotor Response Monitoring",
+      "date": "2026-02-16",
+      "author": "Constantino \u00c1lvarez Casado",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b868ce4622f9e658127f81026105b562df65390a99aea6ac2b50cfee2ebf83e0_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/51c7d32e50b3927fbba0ec3f63698cc7054c055fd383023b84444ef48cbe8b51_w640_q70.webp"
     },
     {
-      "id": 26207,
-      "title": "DD-MDN: Human Trajectory Forecasting with Diffusion-Based Dual Mixture Density Networks and Uncertainty Self-Calibration",
-      "date": "2026-02-13",
-      "author": "Manuel Hetzel",
+      "id": 26858,
+      "title": "LLaMo: Scaling Pretrained Language Models for Unified Motion Understanding and Generation with Continuous Autoregressive Tokens",
+      "date": "2026-02-16",
+      "author": "Zekun Li",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fe45c5b4946721442e5f842dc13a3b6f1483a24197acb5a442c4ff3dd65980a1_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4151f1446e74097ee70314b0582b5224c2b4fefc552f33c821722d07de841fa7_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 26168,
-      "title": "Automated Optimization Modeling via a Localizable Error-Driven Perspective",
-      "date": "2026-02-13",
-      "author": "Weiting Liu",
+      "id": 27301,
+      "title": "Annealing in variational inference mitigates mode collapse: A theoretical study on Gaussian mixtures",
+      "date": "2026-02-16",
+      "author": "Luigi Fogliani",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/71b93d79ce7180c2521d8195bf0f3834ce700f80a9e357f17e8843e8d2f89b01_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8e916245f7a720c0ce97f290a58139a8fc5edbd17534a3a9ea03c6c597456458_w640_q70.webp"
     },
     {
-      "id": 26186,
-      "title": "KBVQ-MoE: KLT-guided SVD with Bias-Corrected Vector Quantization for MoE Large Language Models",
-      "date": "2026-02-13",
-      "author": "Zukang Xu",
+      "id": 26845,
+      "title": "Intrinsic Credit Assignment for Long Horizon Interaction",
+      "date": "2026-02-16",
+      "author": "Ilze Amanda Auzina",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/25b949bb68cbbd7d1128bb0cd09006249a3a2dc33f64f3a309583c4e6a521186_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ab243c34338bf9d73cb6d2156160f86d97ba1911ef06c205a8442500c0c8340c_w640_q70.webp"
     },
     {
-      "id": 26188,
-      "title": "Spectra: Rethinking Optimizers for LLMs Under Spectral Anisotropy",
-      "date": "2026-02-13",
-      "author": "Zhendong Huang",
+      "id": 26833,
+      "title": "String-Level Ground Fault Localization for TN-Earthed Three-Phase Photovoltaic Systems",
+      "date": "2026-02-16",
+      "author": "Yuanliang Li",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,43 +128,43 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/86a6e4784e8614211d3bec2b91293787e7465313b832ac92c15f863be373c5af_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8aa11c045d06f2521adf4b816ff894043f0f0be2a2dc0781f748389c0ae6d45b_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 26611,
-      "title": "Scaling Model and Data for Multilingual Machine Translation with Open Large Language Models",
-      "date": "2026-02-13",
-      "author": "Yuzhe Shang",
+      "id": 27161,
+      "title": "Cryptographic Choreographies",
+      "date": "2026-02-16",
+      "author": "Sebastian M\u00f6dersheim",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.CR",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/bd71b4788bfbf58734202ab69b705bb72dfb8e942a79df47baac2b7c140814fb_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e6f8d1baa075939af82d659e46e9fc7167cc95221bfb0fbad29a7748851ab6e3_w640_q70.webp"
     },
     {
-      "id": 26621,
-      "title": "DHPLT: large-scale multilingual diachronic corpora and word representations for semantic change modelling",
-      "date": "2026-02-13",
-      "author": "Mariia Fedorova",
+      "id": 27160,
+      "title": "INHerit-SG: Incremental Hierarchical Semantic Scene Graphs with RAG-Style Retrieval",
+      "date": "2026-02-16",
+      "author": "YukTungSamuel Fang",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.RO",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cbbc2c2a6c7a7b2e5350099a2fe71bead96e70db92ff9243b694dcf8dacecbbc_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c6fd70a6abc2adc276d839fca12b9d75d6eed62fcc7dfe28c02ce52c53cb0da7_w640_q70.webp"
     },
     {
-      "id": 26170,
-      "title": "Visualizing and Benchmarking LLM Factual Hallucination Tendencies via Internal State Analysis and Clustering",
-      "date": "2026-02-13",
-      "author": "Nathan Mao",
+      "id": 26827,
+      "title": "A Lightweight LLM Framework for Disaster Humanitarian Information Classification",
+      "date": "2026-02-16",
+      "author": "Han Jinzhen",
       "tags": [
         {
           "label": "cs.CL",
@@ -172,7 +172,7 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8ef9fee1f1a747619f6b6333f4090c3e1391901e84a569065526f1c4f430caa4_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7187bf550e68403d548f8aa54c791fd9a0ad034aa42adef26f37b5155460848c_w640_q70.webp"
     }
   ]
 }

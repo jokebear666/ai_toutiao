@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 27159,
-      "title": "Information-theoretic analysis of world models in optimal reward maximizers",
-      "date": "2026-02-16",
-      "author": "Alfred Harwood",
+      "id": 27614,
+      "title": "OneLatent: Single-Token Compression for Visual Latent Reasoning",
+      "date": "2026-02-17",
+      "author": "Bo Lv",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a43e7a9eedc2a196d7708471acfa41791496bebaa8a7c5f0bb43a9e8b47b8e7c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1acc036595b05905579a849823623a7a516478e1766bfa2e9313645e438d5cc9_w640_q70.webp"
     },
     {
-      "id": 26828,
-      "title": "Energy-Aware Reinforcement Learning for Robotic Manipulation of Articulated Components in Infrastructure Operation and Maintenance",
-      "date": "2026-02-16",
-      "author": "Xiaowen Tao",
+      "id": 27371,
+      "title": "ProMoral-Bench: Evaluating Prompting Strategies for Moral Reasoning and Safety in LLMs",
+      "date": "2026-02-17",
+      "author": "Rohan Subramanian Thomas",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3190c89e0813d138cdaa3784d008fa9356200dbfe1d01cf448e4fb76381f84cc_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5e787cae2174ee88f9454fa87ca7e57d9379407d93c2a1b41906429b7834f2e8_w640_q70.webp"
     },
     {
-      "id": 26831,
-      "title": "Adaptive traffic signal control optimization using a novel road partition and multi-channel state representation method",
-      "date": "2026-02-16",
-      "author": "Maojiang Deng",
+      "id": 28156,
+      "title": "EmbeWebAgent: Embedding Web Agents into Any Customized UI",
+      "date": "2026-02-17",
+      "author": "Chenyang Ma",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/014e00cc2aaf8b687d4a7a33b85edab5800e88bef214881dce95442798acfd9a_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0fce91c90c25f615d719adc0087a0eebf35b0212f527b6ddc1865f63a8ecdc95_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 26939,
-      "title": "LiDAR-Anchored Collaborative Distillation for Robust 2D Representations",
-      "date": "2026-02-16",
-      "author": "Wonjun Jo",
+      "id": 27419,
+      "title": "Zwitscherkasten -- DIY Audiovisual bird monitoring",
+      "date": "2026-02-17",
+      "author": "Dominik Blum",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/981104654db11a64f106cc8111daac5446663da5de5f36c6351fdd82e7b9d11e_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e1cc061566e8aa057b44a659451326e0c49259fe63ffa31b8a094c7402129483_w640_q70.webp"
     },
     {
-      "id": 26855,
-      "title": "Thermal Imaging for Contactless Cardiorespiratory and Sudomotor Response Monitoring",
-      "date": "2026-02-16",
-      "author": "Constantino \u00c1lvarez Casado",
+      "id": 28225,
+      "title": "Image Generation with a Sphere Encoder",
+      "date": "2026-02-17",
+      "author": "Kaiyu Yue",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/51c7d32e50b3927fbba0ec3f63698cc7054c055fd383023b84444ef48cbe8b51_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/391087ca04c6d70ea4237b4df4acc5d18036c6f91a13176a916734b18189ae8e_w640_q70.webp"
     },
     {
-      "id": 26858,
-      "title": "LLaMo: Scaling Pretrained Language Models for Unified Motion Understanding and Generation with Continuous Autoregressive Tokens",
-      "date": "2026-02-16",
-      "author": "Zekun Li",
+      "id": 28227,
+      "title": "Deep Learning CNN for Pneumonia Detection: Advancing Digital Health in Society 5.0",
+      "date": "2026-02-17",
+      "author": "Hadi Almohab",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4151f1446e74097ee70314b0582b5224c2b4fefc552f33c821722d07de841fa7_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c29ac8df7d975f3ee783225b14c0bd020bb0e62681820887bca9500846120a0b_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 27301,
-      "title": "Annealing in variational inference mitigates mode collapse: A theoretical study on Gaussian mixtures",
-      "date": "2026-02-16",
-      "author": "Luigi Fogliani",
+      "id": 28150,
+      "title": "Atomix: Timely, Transactional Tool Use for Reliable Agentic Workflows",
+      "date": "2026-02-17",
+      "author": "Bardia Mohammadi",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8e916245f7a720c0ce97f290a58139a8fc5edbd17534a3a9ea03c6c597456458_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/027873212e6772922c4cdb3aeff4a4c33297bc033f330dc37adcb52873fde4fe_w640_q70.webp"
     },
     {
-      "id": 26845,
-      "title": "Intrinsic Credit Assignment for Long Horizon Interaction",
-      "date": "2026-02-16",
-      "author": "Ilze Amanda Auzina",
+      "id": 28170,
+      "title": "Additive Control Variates Dominate Self-Normalisation in Off-Policy Evaluation",
+      "date": "2026-02-17",
+      "author": "Olivier Jeunen",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ab243c34338bf9d73cb6d2156160f86d97ba1911ef06c205a8442500c0c8340c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/aa3a7d9555dff52cedd66c6007cccd3522d0ec2da68fd085f071f31df8193a74_w640_q70.webp"
     },
     {
-      "id": 26833,
-      "title": "String-Level Ground Fault Localization for TN-Earthed Three-Phase Photovoltaic Systems",
-      "date": "2026-02-16",
-      "author": "Yuanliang Li",
+      "id": 27433,
+      "title": "The Speed-up Factor: A Quantitative Multi-Iteration Active Learning Performance Metric",
+      "date": "2026-02-17",
+      "author": "Hannes Kath",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,51 +128,51 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8aa11c045d06f2521adf4b816ff894043f0f0be2a2dc0781f748389c0ae6d45b_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/bf4616f930063ce85a782439cc47ceb89e0fab810c8c89a40ca12f57c86bc792_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 27161,
-      "title": "Cryptographic Choreographies",
-      "date": "2026-02-16",
-      "author": "Sebastian M\u00f6dersheim",
+      "id": 28120,
+      "title": "Multi-Agent Comedy Club: Investigating Community Discussion Effects on LLM Humor Generation",
+      "date": "2026-02-17",
+      "author": "Shiwei Hong",
       "tags": [
         {
-          "label": "cs.CR",
+          "label": "cs.CL",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e6f8d1baa075939af82d659e46e9fc7167cc95221bfb0fbad29a7748851ab6e3_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/55cd51d77741399510b55cc9977e1145ae90b39ab322e74c705023d11891acab_w640_q70.webp"
     },
     {
-      "id": 27160,
-      "title": "INHerit-SG: Incremental Hierarchical Semantic Scene Graphs with RAG-Style Retrieval",
-      "date": "2026-02-16",
-      "author": "YukTungSamuel Fang",
+      "id": 28121,
+      "title": "A Geometric Analysis of Small-sized Language Model Hallucinations",
+      "date": "2026-02-17",
+      "author": "Emanuele Ricco",
       "tags": [
         {
-          "label": "cs.RO",
+          "label": "cs.CL",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c6fd70a6abc2adc276d839fca12b9d75d6eed62fcc7dfe28c02ce52c53cb0da7_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/dd1abba00742cf49b20b79a87896d7e146df9366a0edf6d2d12df35158a04f07_w640_q70.webp"
     },
     {
-      "id": 26827,
-      "title": "A Lightweight LLM Framework for Disaster Humanitarian Information Classification",
-      "date": "2026-02-16",
-      "author": "Han Jinzhen",
+      "id": 27727,
+      "title": "Joint Task Assistance Planning via Nested Branch and Bound (Extended Version)",
+      "date": "2026-02-17",
+      "author": "Omer Daube",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.RO",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7187bf550e68403d548f8aa54c791fd9a0ad034aa42adef26f37b5155460848c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0dbf50a71fd7cc1001e8f32e52a17453417dac17c63337898622882839df6794_w640_q70.webp"
     }
   ]
 }

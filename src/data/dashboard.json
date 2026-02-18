@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 27614,
-      "title": "OneLatent: Single-Token Compression for Visual Latent Reasoning",
-      "date": "2026-02-17",
-      "author": "Bo Lv",
+      "id": 28543,
+      "title": "RUVA: Personalized Transparent On-Device Graph Reasoning",
+      "date": "2026-02-18",
+      "author": "Gabriele Conte",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1acc036595b05905579a849823623a7a516478e1766bfa2e9313645e438d5cc9_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f5159d251cb72d1b530e0ab97edda1675accb1a774b1b19fa8d00133ab376df6_w640_q70.webp"
     },
     {
-      "id": 27371,
-      "title": "ProMoral-Bench: Evaluating Prompting Strategies for Moral Reasoning and Safety in LLMs",
-      "date": "2026-02-17",
-      "author": "Rohan Subramanian Thomas",
+      "id": 28648,
+      "title": "Developing AI Agents with Simulated Data: Why, what, and how?",
+      "date": "2026-02-18",
+      "author": "Xiaoran Liu",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5e787cae2174ee88f9454fa87ca7e57d9379407d93c2a1b41906429b7834f2e8_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a7e78ca42e75a402674d95055957f7b8efaaf5ceb5013c7d3213965b88d78143_w640_q70.webp"
     },
     {
-      "id": 28156,
-      "title": "EmbeWebAgent: Embedding Web Agents into Any Customized UI",
-      "date": "2026-02-17",
-      "author": "Chenyang Ma",
+      "id": 28322,
+      "title": "Attention-gated U-Net model for semantic segmentation of brain tumors and feature extraction for survival prognosis",
+      "date": "2026-02-18",
+      "author": "Rut Pate",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0fce91c90c25f615d719adc0087a0eebf35b0212f527b6ddc1865f63a8ecdc95_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5727d3d01f458a5954f171a380c9cfed6513879928bb92c32f9893c3b3ec0f1a_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 27419,
-      "title": "Zwitscherkasten -- DIY Audiovisual bird monitoring",
-      "date": "2026-02-17",
-      "author": "Dominik Blum",
+      "id": 28330,
+      "title": "GRAFNet: Multiscale Retinal Processing via Guided Cortical Attention Feedback for Enhancing Medical Image Polyp Segmentation",
+      "date": "2026-02-18",
+      "author": "Abdul Joseph Fofanah",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e1cc061566e8aa057b44a659451326e0c49259fe63ffa31b8a094c7402129483_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c7dab70235849129f683631a45e85ec6c56b8dd86eaf9b9d2ea29152d1a02ccf_w640_q70.webp"
     },
     {
-      "id": 28225,
-      "title": "Image Generation with a Sphere Encoder",
-      "date": "2026-02-17",
-      "author": "Kaiyu Yue",
+      "id": 28338,
+      "title": "Zero-shot HOI Detection with MLLM-based Detector-agnostic Interaction Recognition",
+      "date": "2026-02-18",
+      "author": "Shiyu Xuan",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/391087ca04c6d70ea4237b4df4acc5d18036c6f91a13176a916734b18189ae8e_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fde37c41ed31465a18690846c7ea962c34d12e7c87e8ac1a072867be86d0f4b1_w640_q70.webp"
     },
     {
-      "id": 28227,
-      "title": "Deep Learning CNN for Pneumonia Detection: Advancing Digital Health in Society 5.0",
-      "date": "2026-02-17",
-      "author": "Hadi Almohab",
+      "id": 28348,
+      "title": "MB-DSMIL-CL-PL: Scalable Weakly Supervised Ovarian Cancer Subtype Classification and Localisation Using Contrastive and Prototype Learning with Frozen Patch Features",
+      "date": "2026-02-18",
+      "author": "Marcus Jenkins",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c29ac8df7d975f3ee783225b14c0bd020bb0e62681820887bca9500846120a0b_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/445b9d4eef224b23c77079b79c9394ab673a52e75bd5ded8f1e1973490324f26_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 28150,
-      "title": "Atomix: Timely, Transactional Tool Use for Reliable Agentic Workflows",
-      "date": "2026-02-17",
-      "author": "Bardia Mohammadi",
+      "id": 28428,
+      "title": "The Information Geometry of Softmax: Probing and Steering",
+      "date": "2026-02-18",
+      "author": "Kiho Park",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/027873212e6772922c4cdb3aeff4a4c33297bc033f330dc37adcb52873fde4fe_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4bf37330d68c142b45fe38b76a9ca72e8516728ed2a814be369181fec10af4a7_w640_q70.webp"
     },
     {
-      "id": 28170,
-      "title": "Additive Control Variates Dominate Self-Normalisation in Off-Policy Evaluation",
-      "date": "2026-02-17",
-      "author": "Olivier Jeunen",
+      "id": 28433,
+      "title": "On Surprising Effectiveness of Masking Updates in Adaptive Optimizers",
+      "date": "2026-02-18",
+      "author": "Taejong Joo",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/aa3a7d9555dff52cedd66c6007cccd3522d0ec2da68fd085f071f31df8193a74_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3856881bd5ba50ac89188ec8721aa2262431b832d3d9af7253a6720caaa63562_w640_q70.webp"
     },
     {
-      "id": 27433,
-      "title": "The Speed-up Factor: A Quantitative Multi-Iteration Active Learning Performance Metric",
-      "date": "2026-02-17",
-      "author": "Hannes Kath",
+      "id": 28676,
+      "title": "Beyond Reinforcement Learning: Fast and Scalable Quantum Circuit Synthesis",
+      "date": "2026-02-18",
+      "author": "Lukas Theissinger",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,15 +128,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/bf4616f930063ce85a782439cc47ceb89e0fab810c8c89a40ca12f57c86bc792_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fbc6eb9b0b0eba6f700de627b7ee68204e11ae6c0a9a93bf128e2af66a12cfbe_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 28120,
-      "title": "Multi-Agent Comedy Club: Investigating Community Discussion Effects on LLM Humor Generation",
-      "date": "2026-02-17",
-      "author": "Shiwei Hong",
+      "id": 28521,
+      "title": "Fine-Refine: Iterative Fine-grained Refinement for Mitigating Dialogue Hallucination",
+      "date": "2026-02-18",
+      "author": "Xiangyan Chen",
       "tags": [
         {
           "label": "cs.CL",
@@ -144,13 +144,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/55cd51d77741399510b55cc9977e1145ae90b39ab322e74c705023d11891acab_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cacd831a27813af3a263e8c6dddc67ba0fbaaf68a423e627c01603e62187f41a_w640_q70.webp"
     },
     {
-      "id": 28121,
-      "title": "A Geometric Analysis of Small-sized Language Model Hallucinations",
-      "date": "2026-02-17",
-      "author": "Emanuele Ricco",
+      "id": 28317,
+      "title": "Indic-TunedLens: Interpreting Multilingual Models in Indian Languages",
+      "date": "2026-02-18",
+      "author": "Mihir Panchal",
       "tags": [
         {
           "label": "cs.CL",
@@ -158,21 +158,21 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/dd1abba00742cf49b20b79a87896d7e146df9366a0edf6d2d12df35158a04f07_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/89aa1d01c5f2626d4e836caf663efa7f8db9164abc594e4e7fabeee9bdc93f27_w640_q70.webp"
     },
     {
-      "id": 27727,
-      "title": "Joint Task Assistance Planning via Nested Branch and Bound (Extended Version)",
-      "date": "2026-02-17",
-      "author": "Omer Daube",
+      "id": 28318,
+      "title": "EduResearchBench: A Hierarchical Atomic Task Decomposition Benchmark for Full-Lifecycle Educational Research",
+      "date": "2026-02-18",
+      "author": "Houping Yue",
       "tags": [
         {
-          "label": "cs.RO",
+          "label": "cs.CL",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0dbf50a71fd7cc1001e8f32e52a17453417dac17c63337898622882839df6794_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6c5dd4d89776d202dfbf3d67ce5d775cbc1192817ec0b2f3fd082eac208c1986_w640_q70.webp"
     }
   ]
 }

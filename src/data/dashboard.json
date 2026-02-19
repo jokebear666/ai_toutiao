@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 28543,
-      "title": "RUVA: Personalized Transparent On-Device Graph Reasoning",
-      "date": "2026-02-18",
-      "author": "Gabriele Conte",
+      "id": 28824,
+      "title": "Towards Efficient Constraint Handling in Neural Solvers for Routing Problems",
+      "date": "2026-02-19",
+      "author": "Jieyi Bi",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f5159d251cb72d1b530e0ab97edda1675accb1a774b1b19fa8d00133ab376df6_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fb5fbea156b79a7b116cfcfeca58388e8880102f53a3bc65d1e906d0f877bba2_w640_q70.webp"
     },
     {
-      "id": 28648,
-      "title": "Developing AI Agents with Simulated Data: Why, what, and how?",
-      "date": "2026-02-18",
-      "author": "Xiaoran Liu",
+      "id": 28837,
+      "title": "Optimization Instability in Autonomous Agentic Workflows for Clinical Symptom Detection",
+      "date": "2026-02-19",
+      "author": "Cameron Cagan",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a7e78ca42e75a402674d95055957f7b8efaaf5ceb5013c7d3213965b88d78143_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/07fafb1061cf92c4b2f4318347b237cfee9e56220f8dc02b010ddecf05084765_w640_q70.webp"
     },
     {
-      "id": 28322,
-      "title": "Attention-gated U-Net model for semantic segmentation of brain tumors and feature extraction for survival prognosis",
-      "date": "2026-02-18",
-      "author": "Rut Pate",
+      "id": 28838,
+      "title": "How Uncertain Is the Grade? A Benchmark of Uncertainty Metrics for LLM-Based Automatic Assessment",
+      "date": "2026-02-19",
+      "author": "Hang Li",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5727d3d01f458a5954f171a380c9cfed6513879928bb92c32f9893c3b3ec0f1a_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2858d86d08e49c92059f82a2976f43c14e740fdf6cceab16d30f5d5a15e8cf75_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 28330,
-      "title": "GRAFNet: Multiscale Retinal Processing via Guided Cortical Attention Feedback for Enhancing Medical Image Polyp Segmentation",
-      "date": "2026-02-18",
-      "author": "Abdul Joseph Fofanah",
+      "id": 28767,
+      "title": "Egocentric Bias in Vision-Language Models",
+      "date": "2026-02-19",
+      "author": "Maijunxian Wang",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c7dab70235849129f683631a45e85ec6c56b8dd86eaf9b9d2ea29152d1a02ccf_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1b5f1ad529306a3c1e915edf980231bb51bd953ac3ac4ea0ccae605197f2df83_w640_q70.webp"
     },
     {
-      "id": 28338,
-      "title": "Zero-shot HOI Detection with MLLM-based Detector-agnostic Interaction Recognition",
-      "date": "2026-02-18",
-      "author": "Shiyu Xuan",
+      "id": 28781,
+      "title": "A Comprehensive Survey on Deep Learning-Based LiDAR Super-Resolution for Autonomous Driving",
+      "date": "2026-02-19",
+      "author": "June Moh Goo",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fde37c41ed31465a18690846c7ea962c34d12e7c87e8ac1a072867be86d0f4b1_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/dbabaaf1788f25f1aded0ab1cc39881951f1f2b7f14feb17db9ba0c77d94cea3_w640_q70.webp"
     },
     {
-      "id": 28348,
-      "title": "MB-DSMIL-CL-PL: Scalable Weakly Supervised Ovarian Cancer Subtype Classification and Localisation Using Contrastive and Prototype Learning with Frozen Patch Features",
-      "date": "2026-02-18",
-      "author": "Marcus Jenkins",
+      "id": 28783,
+      "title": "MaS-VQA: A Mask-and-Select Framework for Knowledge-Based Visual Question Answering",
+      "date": "2026-02-19",
+      "author": "Xianwei Mao",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/445b9d4eef224b23c77079b79c9394ab673a52e75bd5ded8f1e1973490324f26_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f8387aec6befb865935fc053c2b39c79cdd7788ee5dbbeaf25be3d779906f704_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 28428,
-      "title": "The Information Geometry of Softmax: Probing and Steering",
-      "date": "2026-02-18",
-      "author": "Kiho Park",
+      "id": 28804,
+      "title": "Fast Online Learning with Gaussian Prior-Driven Hierarchical Unimodal Thompson Sampling",
+      "date": "2026-02-19",
+      "author": "Tianchi Zhao",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4bf37330d68c142b45fe38b76a9ca72e8516728ed2a814be369181fec10af4a7_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c2d0311bfc009a6b4005d7e7839a6b1f056aad0db67aba8b4d8b33042a4686c0_w640_q70.webp"
     },
     {
-      "id": 28433,
-      "title": "On Surprising Effectiveness of Masking Updates in Adaptive Optimizers",
-      "date": "2026-02-18",
-      "author": "Taejong Joo",
+      "id": 28910,
+      "title": "Graphon Mean-Field Subsampling for Cooperative Heterogeneous Multi-Agent Reinforcement Learning",
+      "date": "2026-02-19",
+      "author": "Emile Anand",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3856881bd5ba50ac89188ec8721aa2262431b832d3d9af7253a6720caaa63562_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/51cd73087441347b17f6ddd1c00807fb54e133495b2bb5fe59193cc8f6c914c4_w640_q70.webp"
     },
     {
-      "id": 28676,
-      "title": "Beyond Reinforcement Learning: Fast and Scalable Quantum Circuit Synthesis",
-      "date": "2026-02-18",
-      "author": "Lukas Theissinger",
+      "id": 28948,
+      "title": "Fast KV Compaction via Attention Matching",
+      "date": "2026-02-19",
+      "author": "Adam Zweiger",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,29 +128,29 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fbc6eb9b0b0eba6f700de627b7ee68204e11ae6c0a9a93bf128e2af66a12cfbe_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ff306ba519cedef157ed8d1a53f4daa8eaa13bc0a3468d570b4c130d632a4c75_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 28521,
-      "title": "Fine-Refine: Iterative Fine-grained Refinement for Mitigating Dialogue Hallucination",
-      "date": "2026-02-18",
-      "author": "Xiangyan Chen",
+      "id": 28714,
+      "title": "A Decade of Human-Robot Interaction through Immersive Lenses: A Literature Review on Extended Reality as a Research Instrument in Social Robotics",
+      "date": "2026-02-19",
+      "author": "Andr\u00e9 Helgert",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.RO",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cacd831a27813af3a263e8c6dddc67ba0fbaaf68a423e627c01603e62187f41a_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/81508cf6a50464970bb25d65caf0bd666c772c50a8db2363535cf903995b7e8b_w640_q70.webp"
     },
     {
-      "id": 28317,
-      "title": "Indic-TunedLens: Interpreting Multilingual Models in Indian Languages",
-      "date": "2026-02-18",
-      "author": "Mihir Panchal",
+      "id": 28840,
+      "title": "CLAA: Cross-Layer Attention Aggregation for Accelerating LLM Prefill",
+      "date": "2026-02-19",
+      "author": "Bradley McDanel",
       "tags": [
         {
           "label": "cs.CL",
@@ -158,13 +158,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/89aa1d01c5f2626d4e836caf663efa7f8db9164abc594e4e7fabeee9bdc93f27_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/25786adfa67b0cfd9fa4a6c3b8de1b569303aab723ea8780889ec0beb61395b6_w640_q70.webp"
     },
     {
-      "id": 28318,
-      "title": "EduResearchBench: A Hierarchical Atomic Task Decomposition Benchmark for Full-Lifecycle Educational Research",
-      "date": "2026-02-18",
-      "author": "Houping Yue",
+      "id": 28949,
+      "title": "Aladdin-FTI @ AMIYA Three Wishes for Arabic NLP: Fidelity, Diglossia, and Multidialectal Generation",
+      "date": "2026-02-19",
+      "author": "Jonathan Mutal",
       "tags": [
         {
           "label": "cs.CL",
@@ -172,7 +172,7 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6c5dd4d89776d202dfbf3d67ce5d775cbc1192817ec0b2f3fd082eac208c1986_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8ec652e8d4d338d929e70af2acea754a6f9e4af80ff14b2a8f6f4677568b0c2e_w640_q70.webp"
     }
   ]
 }

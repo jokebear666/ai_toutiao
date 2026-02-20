@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 28824,
-      "title": "Towards Efficient Constraint Handling in Neural Solvers for Routing Problems",
-      "date": "2026-02-19",
-      "author": "Jieyi Bi",
+      "id": 29629,
+      "title": "AI Gamestore: Scalable, Open-Ended Evaluation of Machine General Intelligence with Human Games",
+      "date": "2026-02-20",
+      "author": "Lance Ying",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fb5fbea156b79a7b116cfcfeca58388e8880102f53a3bc65d1e906d0f877bba2_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/971e6d2c2593dc4c38bf0d89d5f2482ff4021e410408c43a9ecb21d468b0eef7_w640_q70.webp"
     },
     {
-      "id": 28837,
-      "title": "Optimization Instability in Autonomous Agentic Workflows for Clinical Symptom Detection",
-      "date": "2026-02-19",
-      "author": "Cameron Cagan",
+      "id": 29201,
+      "title": "Contextuality from Single-State Representations: An Information-Theoretic Principle for Adaptive Intelligence",
+      "date": "2026-02-20",
+      "author": "Song-Ju Kim",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/07fafb1061cf92c4b2f4318347b237cfee9e56220f8dc02b010ddecf05084765_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/64b4d8c484a3150dd49951f2e769211c4b4932ea6cc0f2c9189361b766d3019c_w640_q70.webp"
     },
     {
-      "id": 28838,
-      "title": "How Uncertain Is the Grade? A Benchmark of Uncertainty Metrics for LLM-Based Automatic Assessment",
-      "date": "2026-02-19",
-      "author": "Hang Li",
+      "id": 29202,
+      "title": "Retrieval Augmented (Knowledge Graph), and Large Language Model-Driven Design Structure Matrix (DSM) Generation of Cyber-Physical Systems",
+      "date": "2026-02-20",
+      "author": "H. Sinan Bank",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2858d86d08e49c92059f82a2976f43c14e740fdf6cceab16d30f5d5a15e8cf75_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ee5a8c4822cf2f17a89d783f1970ad39e72871059fc22149d95366726925e3c9_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 28767,
-      "title": "Egocentric Bias in Vision-Language Models",
-      "date": "2026-02-19",
-      "author": "Maijunxian Wang",
+      "id": 29439,
+      "title": "BadCLIP++: Stealthy and Persistent Backdoors in Multimodal Contrastive Learning",
+      "date": "2026-02-20",
+      "author": "Siyuan Liang",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1b5f1ad529306a3c1e915edf980231bb51bd953ac3ac4ea0ccae605197f2df83_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d2572b03d664981e08b2edba57f38ca8a75086cd7277d2010795cd4b638e16d3_w640_q70.webp"
     },
     {
-      "id": 28781,
-      "title": "A Comprehensive Survey on Deep Learning-Based LiDAR Super-Resolution for Autonomous Driving",
-      "date": "2026-02-19",
-      "author": "June Moh Goo",
+      "id": 29630,
+      "title": "Art2Mus: Artwork-to-Music Generation via Visual Conditioning and Large-Scale Cross-Modal Alignment",
+      "date": "2026-02-20",
+      "author": "Ivan Rinaldi",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/dbabaaf1788f25f1aded0ab1cc39881951f1f2b7f14feb17db9ba0c77d94cea3_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ad7a09dd5cde2e718fc944373c24d66f4e6e706d8a7a7b26a406c97d488a1309_w640_q70.webp"
     },
     {
-      "id": 28783,
-      "title": "MaS-VQA: A Mask-and-Select Framework for Knowledge-Based Visual Question Answering",
-      "date": "2026-02-19",
-      "author": "Xianwei Mao",
+      "id": 29297,
+      "title": "Xray-Visual Models: Scaling Vision models on Industry Scale Data",
+      "date": "2026-02-20",
+      "author": "Shlok Mishra",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f8387aec6befb865935fc053c2b39c79cdd7788ee5dbbeaf25be3d779906f704_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d5cedf6aa5e3b962c549a5a7ab3693ae273e788eebc08448b022d7f824088920_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 28804,
-      "title": "Fast Online Learning with Gaussian Prior-Driven Hierarchical Unimodal Thompson Sampling",
-      "date": "2026-02-19",
-      "author": "Tianchi Zhao",
+      "id": 29440,
+      "title": "In-Context Learning in Linear vs. Quadratic Attention Models: An Empirical Study on Regression Tasks",
+      "date": "2026-02-20",
+      "author": "Ayush Goel",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c2d0311bfc009a6b4005d7e7839a6b1f056aad0db67aba8b4d8b33042a4686c0_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6824f4f7667ac8b172cc92c33c9d0b89b503b5871fa704159bded27a41e4ec59_w640_q70.webp"
     },
     {
-      "id": 28910,
-      "title": "Graphon Mean-Field Subsampling for Cooperative Heterogeneous Multi-Agent Reinforcement Learning",
-      "date": "2026-02-19",
-      "author": "Emile Anand",
+      "id": 29605,
+      "title": "Variational inference via radial transport",
+      "date": "2026-02-20",
+      "author": "Luca Ghafourpour",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/51cd73087441347b17f6ddd1c00807fb54e133495b2bb5fe59193cc8f6c914c4_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a7ec0da27aa1b6e88d12b9221641e38afef6d722f5c96add5cd69aef0241559c_w640_q70.webp"
     },
     {
-      "id": 28948,
-      "title": "Fast KV Compaction via Attention Matching",
-      "date": "2026-02-19",
-      "author": "Adam Zweiger",
+      "id": 29277,
+      "title": "Position: Why a Dynamical Systems Perspective is Needed to Advance Time Series Modeling",
+      "date": "2026-02-20",
+      "author": "Daniel Durstewitz",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,51 +128,51 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ff306ba519cedef157ed8d1a53f4daa8eaa13bc0a3468d570b4c130d632a4c75_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2f8375e5a0be35ae63d20e9e1c2e958dfe187b09d272c33605e86ebe3fc37627_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 28714,
-      "title": "A Decade of Human-Robot Interaction through Immersive Lenses: A Literature Review on Extended Reality as a Research Instrument in Social Robotics",
-      "date": "2026-02-19",
-      "author": "Andr\u00e9 Helgert",
+      "id": 29631,
+      "title": "The Cascade Equivalence Hypothesis: When Do Speech LLMs Behave Like ASR$\\rightarrow$LLM Pipelines?",
+      "date": "2026-02-20",
+      "author": "Jayadev Billa",
       "tags": [
         {
-          "label": "cs.RO",
+          "label": "cs.CL",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/81508cf6a50464970bb25d65caf0bd666c772c50a8db2363535cf903995b7e8b_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/161357bb06e664a161555e7f17a70026226b4661ec3f851a384a42d25fbdc97d_w640_q70.webp"
     },
     {
-      "id": 28840,
-      "title": "CLAA: Cross-Layer Attention Aggregation for Accelerating LLM Prefill",
-      "date": "2026-02-19",
-      "author": "Bradley McDanel",
+      "id": 29470,
+      "title": "Disjunction Composition of BDD Transition Systems for Model-Based Testing",
+      "date": "2026-02-20",
+      "author": "Tannaz Zameni",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.SE",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/25786adfa67b0cfd9fa4a6c3b8de1b569303aab723ea8780889ec0beb61395b6_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0b9d4f36b85ac7ba975997d15d46d0d08c9f5ebf566a9c2031558fc4255a64d7_w640_q70.webp"
     },
     {
-      "id": 28949,
-      "title": "Aladdin-FTI @ AMIYA Three Wishes for Arabic NLP: Fidelity, Diglossia, and Multidialectal Generation",
-      "date": "2026-02-19",
-      "author": "Jonathan Mutal",
+      "id": 29204,
+      "title": "Is Mamba Reliable for Medical Imaging?",
+      "date": "2026-02-20",
+      "author": "Banafsheh Saber Latibari",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.CR",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8ec652e8d4d338d929e70af2acea754a6f9e4af80ff14b2a8f6f4677568b0c2e_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c7efaf492874342beef965ed1a87641d5dfaf9951c150bc9ac3761ce3cf5ae89_w640_q70.webp"
     }
   ]
 }

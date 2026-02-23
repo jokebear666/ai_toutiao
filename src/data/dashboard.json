@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 29629,
-      "title": "AI Gamestore: Scalable, Open-Ended Evaluation of Machine General Intelligence with Human Games",
-      "date": "2026-02-20",
-      "author": "Lance Ying",
+      "id": 29712,
+      "title": "Epistemic Traps: Rational Misalignment Driven by Model Misspecification",
+      "date": "2026-02-23",
+      "author": "Xingcheng Xu",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/971e6d2c2593dc4c38bf0d89d5f2482ff4021e410408c43a9ecb21d468b0eef7_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/484ca9436d75f80ce7d23b3a4af70e0087cd43cee259e921532e5e596f80ae8d_w640_q70.webp"
     },
     {
-      "id": 29201,
-      "title": "Contextuality from Single-State Representations: An Information-Theoretic Principle for Adaptive Intelligence",
-      "date": "2026-02-20",
-      "author": "Song-Ju Kim",
+      "id": 29787,
+      "title": "The Token Games: Evaluating Language Model Reasoning with Puzzle Duels",
+      "date": "2026-02-23",
+      "author": "Simon Henniger",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/64b4d8c484a3150dd49951f2e769211c4b4932ea6cc0f2c9189361b766d3019c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3b868cceab7966578b4228e66ebe4f634834e45e2523d789924eb7e4eac70ce2_w640_q70.webp"
     },
     {
-      "id": 29202,
-      "title": "Retrieval Augmented (Knowledge Graph), and Large Language Model-Driven Design Structure Matrix (DSM) Generation of Cyber-Physical Systems",
-      "date": "2026-02-20",
-      "author": "H. Sinan Bank",
+      "id": 29792,
+      "title": "Ontology-Guided Neuro-Symbolic Inference: Grounding Language Models with Mathematical Domain Knowledge",
+      "date": "2026-02-23",
+      "author": "Marcelo Labre",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ee5a8c4822cf2f17a89d783f1970ad39e72871059fc22149d95366726925e3c9_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e2b5f8d579999a4d7c3357206b962c58c5652f17519f3d564bf6c9e4b7edf041_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 29439,
-      "title": "BadCLIP++: Stealthy and Persistent Backdoors in Multimodal Contrastive Learning",
-      "date": "2026-02-20",
-      "author": "Siyuan Liang",
+      "id": 29762,
+      "title": "KPM-Bench: A Kinematic Parsing Motion Benchmark for Fine-grained Motion-centric Video Understanding",
+      "date": "2026-02-23",
+      "author": "Boda Lin",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d2572b03d664981e08b2edba57f38ca8a75086cd7277d2010795cd4b638e16d3_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7aa2530b4e428ec67d42a71fc0cb46c4d4a3dfc1468330d028d9f74d05cfdfc5_w640_q70.webp"
     },
     {
-      "id": 29630,
-      "title": "Art2Mus: Artwork-to-Music Generation via Visual Conditioning and Large-Scale Cross-Modal Alignment",
-      "date": "2026-02-20",
-      "author": "Ivan Rinaldi",
+      "id": 29763,
+      "title": "CLUTCH: Contextualized Language model for Unlocking Text-Conditioned Hand motion modelling in the wild",
+      "date": "2026-02-23",
+      "author": "Balamurugan Thambiraja",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ad7a09dd5cde2e718fc944373c24d66f4e6e706d8a7a7b26a406c97d488a1309_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4c00886942a72b68ab8ee39630f655093df1d9d4f2f88fd93245fdd0f4e86c5c_w640_q70.webp"
     },
     {
-      "id": 29297,
-      "title": "Xray-Visual Models: Scaling Vision models on Industry Scale Data",
-      "date": "2026-02-20",
-      "author": "Shlok Mishra",
+      "id": 29766,
+      "title": "Multi-Modal Monocular Endoscopic Depth and Pose Estimation with Edge-Guided Self-Supervision",
+      "date": "2026-02-23",
+      "author": "Xinwei Ju",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d5cedf6aa5e3b962c549a5a7ab3693ae273e788eebc08448b022d7f824088920_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/83991fa10e0d44ea01f8f3dcd300dec13eeacca7ee68db0e2e05427d23890fad_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 29440,
-      "title": "In-Context Learning in Linear vs. Quadratic Attention Models: An Empirical Study on Regression Tasks",
-      "date": "2026-02-20",
-      "author": "Ayush Goel",
+      "id": 29727,
+      "title": "Probabilistic NDVI Forecasting from Sparse Satellite Time Series and Weather Covariates",
+      "date": "2026-02-23",
+      "author": "Irene Iele",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6824f4f7667ac8b172cc92c33c9d0b89b503b5871fa704159bded27a41e4ec59_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9554c27e5c380cbf3f05b7a87614c689a01009202165f44298d5f2bc95777005_w640_q70.webp"
     },
     {
-      "id": 29605,
-      "title": "Variational inference via radial transport",
-      "date": "2026-02-20",
-      "author": "Luca Ghafourpour",
+      "id": 29733,
+      "title": "Tethered Reasoning: Decoupling Entropy from Hallucination in Quantized LLMs via Manifold Steering",
+      "date": "2026-02-23",
+      "author": "Craig Atkinson",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a7ec0da27aa1b6e88d12b9221641e38afef6d722f5c96add5cd69aef0241559c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b983186ec29843405a03a9f8885d177b6bb153dddc6f52cc74c56890b677773c_w640_q70.webp"
     },
     {
-      "id": 29277,
-      "title": "Position: Why a Dynamical Systems Perspective is Needed to Advance Time Series Modeling",
-      "date": "2026-02-20",
-      "author": "Daniel Durstewitz",
+      "id": 29744,
+      "title": "Certified Learning under Distribution Shift: Sound Verification and Identifiable Structure",
+      "date": "2026-02-23",
+      "author": "Chandrasekhar Gokavarapu",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,29 +128,29 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2f8375e5a0be35ae63d20e9e1c2e958dfe187b09d272c33605e86ebe3fc37627_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1da17b49fe07e77db9ce085fda94c321415a697cc5cb98f069242fc4e5987cd5_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 29631,
-      "title": "The Cascade Equivalence Hypothesis: When Do Speech LLMs Behave Like ASR$\\rightarrow$LLM Pipelines?",
-      "date": "2026-02-20",
-      "author": "Jayadev Billa",
+      "id": 30035,
+      "title": "Drawing the LINE: Cryptographic Analysis and Security Improvements for the LINE E2EE Protocol",
+      "date": "2026-02-23",
+      "author": "Benjamin Dowling",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.CR",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/161357bb06e664a161555e7f17a70026226b4661ec3f851a384a42d25fbdc97d_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/933465b36860283ff7d1ca83532a2fa88377dc4add4d5f3e85e235c57cd1a3ba_w640_q70.webp"
     },
     {
-      "id": 29470,
-      "title": "Disjunction Composition of BDD Transition Systems for Model-Based Testing",
-      "date": "2026-02-20",
-      "author": "Tannaz Zameni",
+      "id": 29753,
+      "title": "Five Fatal Assumptions: Why T-Shirt Sizing Systematically Fails for AI Projects",
+      "date": "2026-02-23",
+      "author": "Raja Soundaramourty",
       "tags": [
         {
           "label": "cs.SE",
@@ -158,21 +158,21 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0b9d4f36b85ac7ba975997d15d46d0d08c9f5ebf566a9c2031558fc4255a64d7_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6416f18ea1bec3139bb4b47bef738002768620a6ccb627bee60a2b7b46e1624a_w640_q70.webp"
     },
     {
-      "id": 29204,
-      "title": "Is Mamba Reliable for Medical Imaging?",
-      "date": "2026-02-20",
-      "author": "Banafsheh Saber Latibari",
+      "id": 29755,
+      "title": "Nested Training for Mutual Adaptation in Human-AI Teaming",
+      "date": "2026-02-23",
+      "author": "Upasana Biswas",
       "tags": [
         {
-          "label": "cs.CR",
+          "label": "cs.RO",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c7efaf492874342beef965ed1a87641d5dfaf9951c150bc9ac3761ce3cf5ae89_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/dc8e365120ac9adaf6aac72d8aa2b056b040ad712c410c268955e0330e12f438_w640_q70.webp"
     }
   ]
 }

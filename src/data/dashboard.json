@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 29712,
-      "title": "Epistemic Traps: Rational Misalignment Driven by Model Misspecification",
-      "date": "2026-02-23",
-      "author": "Xingcheng Xu",
+      "id": 30929,
+      "title": "Beyond Mimicry: Toward Lifelong Adaptability in Imitation Learning",
+      "date": "2026-02-24",
+      "author": "Nathan Gavenski",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/484ca9436d75f80ce7d23b3a4af70e0087cd43cee259e921532e5e596f80ae8d_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cbd25933cfbb2f30900855373e43651d43ba125abccb8baeb7ad753db3762a5d_w640_q70.webp"
     },
     {
-      "id": 29787,
-      "title": "The Token Games: Evaluating Language Model Reasoning with Puzzle Duels",
-      "date": "2026-02-23",
-      "author": "Simon Henniger",
+      "id": 31072,
+      "title": "CosyAccent: Duration-Controllable Accent Normalization Using Source-Synthesis Training Data",
+      "date": "2026-02-24",
+      "author": "Qibing Bai",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3b868cceab7966578b4228e66ebe4f634834e45e2523d789924eb7e4eac70ce2_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fc658bee681a3e2fbaf9a58921e5094dc974be7bc6ec0fb705d687e93ee60b5c_w640_q70.webp"
     },
     {
-      "id": 29792,
-      "title": "Ontology-Guided Neuro-Symbolic Inference: Grounding Language Models with Mathematical Domain Knowledge",
-      "date": "2026-02-23",
-      "author": "Marcelo Labre",
+      "id": 30206,
+      "title": "Hierarchical Reward Design from Language: Enhancing Alignment of Agent Behavior with Human Specifications",
+      "date": "2026-02-24",
+      "author": "Zhiqin Qian",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e2b5f8d579999a4d7c3357206b962c58c5652f17519f3d564bf6c9e4b7edf041_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a1896969589999640f66ad918d19c453954d21660b23a4cff4603b1e35f20601_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 29762,
-      "title": "KPM-Bench: A Kinematic Parsing Motion Benchmark for Fine-grained Motion-centric Video Understanding",
-      "date": "2026-02-23",
-      "author": "Boda Lin",
+      "id": 31040,
+      "title": "A Very Big Video Reasoning Suite",
+      "date": "2026-02-24",
+      "author": "Maijunxian Wang",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7aa2530b4e428ec67d42a71fc0cb46c4d4a3dfc1468330d028d9f74d05cfdfc5_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3bc897566f9cf57ed4e6a177acdf3f83262589c4d234086a23ff58d36929865c_w640_q70.webp"
     },
     {
-      "id": 29763,
-      "title": "CLUTCH: Contextualized Language model for Unlocking Text-Conditioned Hand motion modelling in the wild",
-      "date": "2026-02-23",
-      "author": "Balamurugan Thambiraja",
+      "id": 30891,
+      "title": "Open-vocabulary 3D scene perception in industrial environments",
+      "date": "2026-02-24",
+      "author": "Keno Moenck",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4c00886942a72b68ab8ee39630f655093df1d9d4f2f88fd93245fdd0f4e86c5c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/710ae8e9738ab3a7949127d4f5a89ce6d51c5f466a864906959bc612a6da0e65_w640_q70.webp"
     },
     {
-      "id": 29766,
-      "title": "Multi-Modal Monocular Endoscopic Depth and Pose Estimation with Edge-Guided Self-Supervision",
-      "date": "2026-02-23",
-      "author": "Xinwei Ju",
+      "id": 30919,
+      "title": "Gradient based Severity Labeling for Biomarker Classification in OCT",
+      "date": "2026-02-24",
+      "author": "Kiran Kokilepersaud",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/83991fa10e0d44ea01f8f3dcd300dec13eeacca7ee68db0e2e05427d23890fad_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/540ddc4101ccc39110206258f237edf240ec8786208f505dbf2718a36c418dfb_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 29727,
-      "title": "Probabilistic NDVI Forecasting from Sparse Satellite Time Series and Weather Covariates",
-      "date": "2026-02-23",
-      "author": "Irene Iele",
+      "id": 30873,
+      "title": "Drift Localization using Conformal Predictions",
+      "date": "2026-02-24",
+      "author": "Fabian Hinder",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9554c27e5c380cbf3f05b7a87614c689a01009202165f44298d5f2bc95777005_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/25b22b47e6e22b86ca780225e7e1e63a76ef7ac06600ecda0ed72ae1a879bd02_w640_q70.webp"
     },
     {
-      "id": 29733,
-      "title": "Tethered Reasoning: Decoupling Entropy from Hallucination in Quantized LLMs via Manifold Steering",
-      "date": "2026-02-23",
-      "author": "Craig Atkinson",
+      "id": 30870,
+      "title": "Unsupervised Anomaly Detection in NSL-KDD Using $\u03b2$-VAE: A Latent Space and Reconstruction Error Approach",
+      "date": "2026-02-24",
+      "author": "Dylan Baptiste",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b983186ec29843405a03a9f8885d177b6bb153dddc6f52cc74c56890b677773c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4b5977a27c867b8de76b5518aacfc907186bed0c50d1ba1fdfb47fcf98c471dd_w640_q70.webp"
     },
     {
-      "id": 29744,
-      "title": "Certified Learning under Distribution Shift: Sound Verification and Identifiable Structure",
-      "date": "2026-02-23",
-      "author": "Chandrasekhar Gokavarapu",
+      "id": 30662,
+      "title": "In Defense of Cosine Similarity: Normalization Eliminates the Gauge Freedom",
+      "date": "2026-02-24",
+      "author": "Taha Bouhsine",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,15 +128,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1da17b49fe07e77db9ce085fda94c321415a697cc5cb98f069242fc4e5987cd5_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8353972bd9dd66880f2199c898298b4d270cc5dc06b35787db1148b51c5f3d3f_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 30035,
-      "title": "Drawing the LINE: Cryptographic Analysis and Security Improvements for the LINE E2EE Protocol",
-      "date": "2026-02-23",
-      "author": "Benjamin Dowling",
+      "id": 30189,
+      "title": "Poster: Privacy-Preserving Compliance Checks on Ethereum via Selective Disclosure",
+      "date": "2026-02-24",
+      "author": "Supriya Khadka",
       "tags": [
         {
           "label": "cs.CR",
@@ -144,13 +144,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/933465b36860283ff7d1ca83532a2fa88377dc4add4d5f3e85e235c57cd1a3ba_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fe6aa23ab4d19bb367b502c146851de8e263c39188f9fdda1ea59a125b41c14f_w640_q70.webp"
     },
     {
-      "id": 29753,
-      "title": "Five Fatal Assumptions: Why T-Shirt Sizing Systematically Fails for AI Projects",
-      "date": "2026-02-23",
-      "author": "Raja Soundaramourty",
+      "id": 30200,
+      "title": "Refactoring for Novices in Java: An Eye Tracking Study on the Extract vs. Inline Methods",
+      "date": "2026-02-24",
+      "author": "Jos\u00e9 Aldo Silva da Costa",
       "tags": [
         {
           "label": "cs.SE",
@@ -158,13 +158,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6416f18ea1bec3139bb4b47bef738002768620a6ccb627bee60a2b7b46e1624a_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/05ee7a936b037ad68a61eec08b21dd97c5747f99492715a8a12a25228ff9994d_w640_q70.webp"
     },
     {
-      "id": 29755,
-      "title": "Nested Training for Mutual Adaptation in Human-AI Teaming",
-      "date": "2026-02-23",
-      "author": "Upasana Biswas",
+      "id": 30982,
+      "title": "Hydrodynamic Performance Enhancement of Unmanned Underwater Gliders with Soft Robotic Morphing Wings for Agility Improvement",
+      "date": "2026-02-24",
+      "author": "A. Giordano",
       "tags": [
         {
           "label": "cs.RO",
@@ -172,7 +172,7 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/dc8e365120ac9adaf6aac72d8aa2b056b040ad712c410c268955e0330e12f438_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ce93fd3381af6c3d6ca30b18bc632cc6722f914ce5539556dbc7441758a3ba61_w640_q70.webp"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 30929,
-      "title": "Beyond Mimicry: Toward Lifelong Adaptability in Imitation Learning",
-      "date": "2026-02-24",
-      "author": "Nathan Gavenski",
+      "id": 31330,
+      "title": "Grounding LLMs in Scientific Discovery via Embodied Actions",
+      "date": "2026-02-25",
+      "author": "Bo Zhang",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cbd25933cfbb2f30900855373e43651d43ba125abccb8baeb7ad753db3762a5d_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/46e381eb8632c2d229a87c535e40ed0c76cf7408a708791dd0c61017cfb9215e_w640_q70.webp"
     },
     {
-      "id": 31072,
-      "title": "CosyAccent: Duration-Controllable Accent Normalization Using Source-Synthesis Training Data",
-      "date": "2026-02-24",
-      "author": "Qibing Bai",
+      "id": 31384,
+      "title": "PyVision-RL: Forging Open Agentic Vision Models via RL",
+      "date": "2026-02-25",
+      "author": "Shitian Zhao",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fc658bee681a3e2fbaf9a58921e5094dc974be7bc6ec0fb705d687e93ee60b5c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/aa762842a39627fd9fe967cd5501c98d6dfd71e1573edb7715f56763e4e31d2c_w640_q70.webp"
     },
     {
-      "id": 30206,
-      "title": "Hierarchical Reward Design from Language: Enhancing Alignment of Agent Behavior with Human Specifications",
-      "date": "2026-02-24",
-      "author": "Zhiqin Qian",
+      "id": 31165,
+      "title": "Multilevel Determinants of Overweight and Obesity Among U.S. Children Aged 10-17: Comparative Evaluation of Statistical and Machine Learning Approaches Using the 2021 National Survey of Children's Health",
+      "date": "2026-02-25",
+      "author": "Joyanta Jyoti Mondal",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a1896969589999640f66ad918d19c453954d21660b23a4cff4603b1e35f20601_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e131e651303a3838cf1a07e3977b357841b777d99f098120e53b8a8b701a4577_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 31040,
-      "title": "A Very Big Video Reasoning Suite",
-      "date": "2026-02-24",
-      "author": "Maijunxian Wang",
+      "id": 31170,
+      "title": "N4MC: Neural 4D Mesh Compression",
+      "date": "2026-02-25",
+      "author": "Guodong Chen",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3bc897566f9cf57ed4e6a177acdf3f83262589c4d234086a23ff58d36929865c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c8605fcb5c29695c969db11dfa729b67a698730c0d362534c689e8ce9162474d_w640_q70.webp"
     },
     {
-      "id": 30891,
-      "title": "Open-vocabulary 3D scene perception in industrial environments",
-      "date": "2026-02-24",
-      "author": "Keno Moenck",
+      "id": 31358,
+      "title": "Onboard-Targeted Segmentation of Straylight in Space Camera Sensors",
+      "date": "2026-02-25",
+      "author": "Riccardo Gallon",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/710ae8e9738ab3a7949127d4f5a89ce6d51c5f466a864906959bc612a6da0e65_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/166361e947fb68e197b6328b464a3eef1694e413d8e703f6d57f3fef26122839_w640_q70.webp"
     },
     {
-      "id": 30919,
-      "title": "Gradient based Severity Labeling for Biomarker Classification in OCT",
-      "date": "2026-02-24",
-      "author": "Kiran Kokilepersaud",
+      "id": 31177,
+      "title": "Circuit Tracing in Vision-Language Models: Understanding the Internal Mechanisms of Multimodal Thinking",
+      "date": "2026-02-25",
+      "author": "Jingcheng Yang",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/540ddc4101ccc39110206258f237edf240ec8786208f505dbf2718a36c418dfb_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6f1eeaaf44ca4313612ba72d1707bce9ddf40e9f86ac2883630971b48788569b_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 30873,
-      "title": "Drift Localization using Conformal Predictions",
-      "date": "2026-02-24",
-      "author": "Fabian Hinder",
+      "id": 31163,
+      "title": "Learning to Solve Complex Problems via Dataset Decomposition",
+      "date": "2026-02-25",
+      "author": "Wanru Zhao",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/25b22b47e6e22b86ca780225e7e1e63a76ef7ac06600ecda0ed72ae1a879bd02_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/39e69d97dd1e8f57223d1a4350c2af16255251b8a7fbfb9af8a2647e14f359fd_w640_q70.webp"
     },
     {
-      "id": 30870,
-      "title": "Unsupervised Anomaly Detection in NSL-KDD Using $\u03b2$-VAE: A Latent Space and Reconstruction Error Approach",
-      "date": "2026-02-24",
-      "author": "Dylan Baptiste",
+      "id": 31169,
+      "title": "QuantVLA: Scale-Calibrated Post-Training Quantization for Vision-Language-Action Models",
+      "date": "2026-02-25",
+      "author": "Jingxuan Zhang",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4b5977a27c867b8de76b5518aacfc907186bed0c50d1ba1fdfb47fcf98c471dd_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/97314cf96e8e9eaa664d07fcb1714349c5a31cfe88502d63b6d2fe459fa4a107_w640_q70.webp"
     },
     {
-      "id": 30662,
-      "title": "In Defense of Cosine Similarity: Normalization Eliminates the Gauge Freedom",
-      "date": "2026-02-24",
-      "author": "Taha Bouhsine",
+      "id": 31176,
+      "title": "CaDrift: A Time-dependent Causal Generator of Drifting Data Streams",
+      "date": "2026-02-25",
+      "author": "Eduardo V. L. Barboza",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,51 +128,51 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8353972bd9dd66880f2199c898298b4d270cc5dc06b35787db1148b51c5f3d3f_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7702865955e54ae30d092d7ce63dbef734911fd30b57d91a371f6291bdb8f6a3_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 30189,
-      "title": "Poster: Privacy-Preserving Compliance Checks on Ethereum via Selective Disclosure",
-      "date": "2026-02-24",
-      "author": "Supriya Khadka",
+      "id": 31114,
+      "title": "Benchmarking Distilled Language Models: Performance and Efficiency in Resource-Constrained Settings",
+      "date": "2026-02-25",
+      "author": "Sachin Gopal Wani",
       "tags": [
         {
-          "label": "cs.CR",
+          "label": "cs.CL",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fe6aa23ab4d19bb367b502c146851de8e263c39188f9fdda1ea59a125b41c14f_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/658a028170e7ae768b6bdeb43067b5dbf41215a0452ae8d38faa7c601ea0fda1_w640_q70.webp"
     },
     {
-      "id": 30200,
-      "title": "Refactoring for Novices in Java: An Eye Tracking Study on the Extract vs. Inline Methods",
-      "date": "2026-02-24",
-      "author": "Jos\u00e9 Aldo Silva da Costa",
+      "id": 31116,
+      "title": "Talking to Yourself: Defying Forgetting in Large Language Models",
+      "date": "2026-02-25",
+      "author": "Yutao Sun",
       "tags": [
         {
-          "label": "cs.SE",
+          "label": "cs.CL",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/05ee7a936b037ad68a61eec08b21dd97c5747f99492715a8a12a25228ff9994d_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9debd12791db590b65674efcdc6eebdb9f8578540eefdd83440a907d471e1094_w640_q70.webp"
     },
     {
-      "id": 30982,
-      "title": "Hydrodynamic Performance Enhancement of Unmanned Underwater Gliders with Soft Robotic Morphing Wings for Agility Improvement",
-      "date": "2026-02-24",
-      "author": "A. Giordano",
+      "id": 31136,
+      "title": "Right to History: A Sovereignty Kernel for Verifiable AI Agent Execution",
+      "date": "2026-02-25",
+      "author": "Jing Zhang",
       "tags": [
         {
-          "label": "cs.RO",
+          "label": "cs.CR",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ce93fd3381af6c3d6ca30b18bc632cc6722f914ce5539556dbc7441758a3ba61_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8e771323ec716237e12bad68231c81dab6db8f376591cc8179fcf3d39da9dc96_w640_q70.webp"
     }
   ]
 }

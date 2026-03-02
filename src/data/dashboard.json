@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 32594,
-      "title": "Three AI-agents walk into a bar . . . . `Lord of the Flies' tribalism emerges among smart AI-Agents",
-      "date": "2026-02-27",
-      "author": "Dhwanil M. Mori",
+      "id": 32786,
+      "title": "An Agentic LLM Framework for Adverse Media Screening in AML Compliance",
+      "date": "2026-03-02",
+      "author": "Pavel Chernakov",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5232c13876f5af4bfa57dc5ca127b5fdac89ce38e9660dd961b080d2c44839d5_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0e87e269083e94f8a7c0d77d011a02ea26a7f43264469993fc1a866e58aa17f9_w640_q70.webp"
     },
     {
-      "id": 32669,
-      "title": "Mitigating Legibility Tax with Decoupled Prover-Verifier Games",
-      "date": "2026-02-27",
-      "author": "Yegon Kim",
+      "id": 32788,
+      "title": "HumanMCP: A Human-Like Query Dataset for Evaluating MCP Tool Retrieval Performance",
+      "date": "2026-03-02",
+      "author": "Shubh Laddha",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b025ac69b3863e02693a00bbb3a18f0cd222f80e93683496a5e724242783d2bd_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f9a16beeb0c6304076bec729295ae42ee38b2483f73c22bededb42b296ecdda4_w640_q70.webp"
     },
     {
-      "id": 32696,
-      "title": "The logic of KM belief update is contained in the logic of AGM belief revision",
-      "date": "2026-02-27",
-      "author": "Giacomo Bonanno",
+      "id": 32850,
+      "title": "Planning under Distribution Shifts with Causal POMDPs",
+      "date": "2026-03-02",
+      "author": "Matteo Ceriscioli",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/73a06105eaadba8c2df24a87e5bab815bbf61d2cdac9f0176b9a096c0809310b_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/23034acd773c97141b27085f94ae430cd700d54669e48cc4131cfa82105744df_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 32616,
-      "title": "No Labels, No Look-Ahead: Unsupervised Online Video Stabilization with Classical Priors",
-      "date": "2026-02-27",
-      "author": "Tao Liu",
+      "id": 33048,
+      "title": "Micro-expression Recognition Based on Dual-branch Feature Extraction and Fusion",
+      "date": "2026-03-02",
+      "author": "Mingjie Zhang",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/00acf4f97d62206b0810f5059d42401fda1d2377788e51717e4cccea6bd279da_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0c05b7a816460377df8232612737c31a643ff873e216eafa99cbe356daec483e_w640_q70.webp"
     },
     {
-      "id": 32647,
-      "title": "Motion-aware Event Suppression for Event Cameras",
-      "date": "2026-02-27",
-      "author": "Roberto Pellerito",
+      "id": 32815,
+      "title": "DesignSense: A Human Preference Dataset and Reward Modeling Framework for Graphic Layout Generation",
+      "date": "2026-03-02",
+      "author": "Varun Gopal",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ebc8458196fd1f6d57875a26f12474fa6bcc3c9104887c16dcaa00b43ca35549_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a5fb75872374346deb45d3a66ff93a4ec727c37eaa74f20e3acd4d0b701341b1_w640_q70.webp"
     },
     {
-      "id": 32364,
-      "title": "CRAG: Can 3D Generative Models Help 3D Assembly?",
-      "date": "2026-02-27",
-      "author": "Zeyu Jiang",
+      "id": 32866,
+      "title": "No Calibration, No Depth, No Problem: Cross-Sensor View Synthesis with 3D Consistency",
+      "date": "2026-03-02",
+      "author": "Cho-Ying Wu",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a5fdc23ba3719399043c7c341bc57f94ff7eb9aa6071a268e030ff25650ba279_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/56c0520423f55c4f18ee2d49065c21c0a0542b8410e1c70f2cdb31113455cbee_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 32732,
-      "title": "Stochastic Neural Networks for Quantum Devices",
-      "date": "2026-02-27",
-      "author": "Bodo Rosenhahn",
+      "id": 33102,
+      "title": "Leveraging Non-linear Dimension Reduction and Random Walk Co-occurrence for Node Embedding",
+      "date": "2026-03-02",
+      "author": "Ryan DeWolfe",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/37e4901b440d5255f0ab2a05dd4e9aa33b911ec75f135b9c3402eaef364dbeb2_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ca41db637d3bf578b4de4f64101e9024950810840580f3e6fe7993536b1c317f_w640_q70.webp"
     },
     {
-      "id": 32307,
-      "title": "Predicting Tennis Serve directions with Machine Learning",
-      "date": "2026-02-27",
-      "author": "Ying Zhu",
+      "id": 32794,
+      "title": "Detoxifying LLMs via Representation Erasure-Based Preference Optimization",
+      "date": "2026-03-02",
+      "author": "Nazanin Mohammadi Sepahvand",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ee2a2087c98e7690dd8a1692bdab27fde8179ce7be8ce0d34390181d667e3b0c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1ee2df4d71239ea505c00af26c6328816f9f09d76201be4ed74bbb6ebe60a930_w640_q70.webp"
     },
     {
-      "id": 32318,
-      "title": "Relatron: Automating Relational Machine Learning over Relational Databases",
-      "date": "2026-02-27",
-      "author": "Zhikai Chen",
+      "id": 32799,
+      "title": "U-CAN: Utility-Aware Contrastive Attenuation for Efficient Unlearning in Generative Recommendation",
+      "date": "2026-03-02",
+      "author": "Zezheng Wu",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,29 +128,29 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/dc9346490265d9dfabc434d180d04636df06ffa49136476065188ce76e78f135_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ed96b2addd349f375ea6d69eeec7f8e8f335516e775a75efcfc4154f8b3a32f7_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 32138,
-      "title": "Cybersecurity Data Extraction from Common Crawl",
-      "date": "2026-02-27",
-      "author": "Ashim Mahara",
+      "id": 32787,
+      "title": "Toward General Semantic Chunking: A Discriminative Framework for Ultra-Long Documents",
+      "date": "2026-03-02",
+      "author": "Kaifeng Wu",
       "tags": [
         {
-          "label": "cs.CR",
+          "label": "cs.CL",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/96ff2c13d693f873ce0597a7038e7651473d7e1a623c0c023e79d8439fce16ca_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/623af0f3781a7127f9f61c5e409434d0949cfeb5f4ad39a1afdce814cde35583_w640_q70.webp"
     },
     {
-      "id": 32286,
-      "title": "Importance of Prompt Optimisation for Error Detection in Medical Notes Using Language Models",
-      "date": "2026-02-27",
-      "author": "Craig Myles",
+      "id": 32792,
+      "title": "Task-Lens: Cross-Task Utility Based Speech Dataset Profiling for Low-Resource Indian Languages",
+      "date": "2026-03-02",
+      "author": "Swati Sharma",
       "tags": [
         {
           "label": "cs.CL",
@@ -158,21 +158,21 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/819f030258351a60caf063b4eaa967eb7cf985f4040cddb986a9169488ef2648_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7a8f5ba61b7cffbc4ba93c709f2f94bc03918c6343c41f31aa410e5734edaaaf_w640_q70.webp"
     },
     {
-      "id": 32422,
-      "title": "Pixel2Catch: Multi-Agent Sim-to-Real Transfer for Agile Manipulation with a Single RGB Camera",
-      "date": "2026-02-27",
-      "author": "Seongyong Kim",
+      "id": 32800,
+      "title": "Lifecycle-Integrated Security for AI-Cloud Convergence in Cyber-Physical Infrastructure",
+      "date": "2026-03-02",
+      "author": "S M Zia Ur Rashid",
       "tags": [
         {
-          "label": "cs.RO",
+          "label": "cs.CR",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b6a42735c82a13fb5fdc2e4f2ee9fc43fa72ffee1e09f25d17965a0e21613fef_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/021eea4c9838d53129b9654da224d8fa21a289c1fcc8467de420741ee384f3cc_w640_q70.webp"
     }
   ]
 }

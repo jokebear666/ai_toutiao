@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 33649,
-      "title": "LiTS: A Modular Framework for LLM Tree Search",
-      "date": "2026-03-03",
-      "author": "Xinzhe Li",
+      "id": 34609,
+      "title": "Federated Inference: Toward Privacy-Preserving Collaborative and Incentivized Model Serving",
+      "date": "2026-03-04",
+      "author": "Jungwon Seo",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6d800607fd8d0bba522e53027430a7f26f045b7519f502de0bc2d800e6f55f5b_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/de03a408fea19a53043a4a9732fc67a070b609e66bd459d644b191e000434566_w640_q70.webp"
     },
     {
-      "id": 34077,
-      "title": "SciDER: Scientific Data-centric End-to-end Researcher",
-      "date": "2026-03-03",
-      "author": "Ke Lin",
+      "id": 34629,
+      "title": "Engineering Reasoning and Instruction (ERI) Benchmark: A Large Taxonomy-driven Dataset for Foundation Models and Agents",
+      "date": "2026-03-04",
+      "author": "MZ Naser",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ff7a14192a8cb27058ebf68d74746d0144a8b6f02d0eab05a8f2153e99fe9078_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/97123bd46df0605e0f6cd329f470866373f3b350afb89336d48b8dfc641bbad6_w640_q70.webp"
     },
     {
-      "id": 33435,
-      "title": "Multi-Sourced, Multi-Agent Evidence Retrieval for Fact-Checking",
-      "date": "2026-03-03",
-      "author": "Shuzhi Gong",
+      "id": 34631,
+      "title": "SuperLocalMemory: Privacy-Preserving Multi-Agent Memory with Bayesian Trust Defense Against Memory Poisoning",
+      "date": "2026-03-04",
+      "author": "Varun Pratap Bhardwaj",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/69d7502ee006734ba6ea8b4a7babc3e7a75979d4486af3637e6c19359afa923f_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7762dc0f8f56f50a2c378ea649ff6efa9da78d414996c26c6e33910474cda1ee_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 33666,
-      "title": "Direct low-field MRI super-resolution using undersampled k-space",
-      "date": "2026-03-03",
-      "author": "Daniel Tweneboah Anyimadu",
+      "id": 34983,
+      "title": "TC-Pad\u00e9: Trajectory-Consistent Pad\u00e9 Approximation for Diffusion Acceleration",
+      "date": "2026-03-04",
+      "author": "Benlei Cui",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/42005b2920dd4c2b1a235a9e752b9cb179a88a67fafcaeb8352e89257f33cb34_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7fecbb4347811fdf693d7418ecb7c32742f07c2c6e689c664c532de0605e3fe9_w640_q70.webp"
     },
     {
-      "id": 33366,
-      "title": "Towards Data-driven Nitrogen Estimation in Wheat Fields using Multispectral Images",
-      "date": "2026-03-03",
-      "author": "Andreas Tritsarolis",
+      "id": 34647,
+      "title": "Social-JEPA: Emergent Geometric Isomorphism",
+      "date": "2026-03-04",
+      "author": "Haoran Zhang",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2d1f74661b55d35e79d9665f55adae2f043b7e435d35c84c12ee8ac4dd152ff9_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cc84efb04f6708e923f5aa97865a1fe6fc899a45f33bbc9839d5a6e860441046_w640_q70.webp"
     },
     {
-      "id": 34527,
-      "title": "GazeXPErT: An Expert Eye-tracking Dataset for Interpretable and Explainable AI in Oncologic FDG-PET/CT Scans",
-      "date": "2026-03-03",
-      "author": "Joy T Wu",
+      "id": 34643,
+      "title": "CamDirector: Towards Long-Term Coherent Video Trajectory Editing",
+      "date": "2026-03-04",
+      "author": "Zhihao Shi",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1b9ee0956aaa12c02a3966fe2e437600eccc4f948cccd533afab11884f78d6ab_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4595508b91374351036e870195d9e5ddae252083ab2899256c21fd3a4e95847c_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 34370,
-      "title": "Semantic Similarity is a Spurious Measure of Comic Understanding: Lessons Learned from Hallucinations in a Benchmarking Experiment",
-      "date": "2026-03-03",
-      "author": "Christopher Driggers-Ellis",
+      "id": 34654,
+      "title": "A Comparative Study of UMAP and Other Dimensionality Reduction Methods",
+      "date": "2026-03-04",
+      "author": "Guanzhe Zhang",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f713524b079a3cd90f70c3e1471608a0598568ccb7c1e1bb001c87e30ee7fa2f_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/19e638bc26ab0d71fa9ffee0d8c53c4a901787e3da74a2d6c8da57f85f833078_w640_q70.webp"
     },
     {
-      "id": 33457,
-      "title": "Vectorized Adaptive Histograms for Sparse Oblique Forests",
-      "date": "2026-03-03",
-      "author": "Ariel Lubonja",
+      "id": 34711,
+      "title": "Manifold Aware Denoising Score Matching (MAD)",
+      "date": "2026-03-04",
+      "author": "Alona Levy-Jurgenson",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9c842109cdcb219a065794ac21d867e139a09b11d9de5ae86695c44cb65094f1_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7e91ddde34a832f161d5977b88f97ba3daafa1e5492d915033f8a5f6307a94b4_w640_q70.webp"
     },
     {
-      "id": 34487,
-      "title": "Reservoir Subspace Injection for Online ICA under Top-n Whitening",
-      "date": "2026-03-03",
-      "author": "Wenjun Xiao",
+      "id": 34648,
+      "title": "PRISM: Exploring Heterogeneous Pretrained EEG Foundation Model Transfer to Clinical Differential Diagnosis",
+      "date": "2026-03-04",
+      "author": "Jeet Bandhu Lahiri",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,15 +128,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b7faa76c7af9513336f5a4fa0e270eee7b3306f99062d50eb9d790a703fb2e8b_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4f247ee32545458246c4987cb62f01e4f1040e8e9a802a30d0cbbc8520cfbef6_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 33667,
-      "title": "Polynomial Mixing for Efficient Self-supervised Speech Encoders",
-      "date": "2026-03-03",
-      "author": "Eva Feillet",
+      "id": 34677,
+      "title": "RO-N3WS: Enhancing Generalization in Low-Resource ASR with Diverse Romanian Speech Benchmarks",
+      "date": "2026-03-04",
+      "author": "Alexandra Diaconu",
       "tags": [
         {
           "label": "cs.CL",
@@ -144,13 +144,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6d105987015af7a42188c9780c1605b6c05ccc9f45dec5645e20a333901e13a3_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/19275ef290b0eacde0a299ec59f0aa7eb390f989ed8ccd36752ec9d312f44fd7_w640_q70.webp"
     },
     {
-      "id": 33735,
-      "title": "A Comprehensive Evaluation of LLM Unlearning Robustness under Multi-Turn Interaction",
-      "date": "2026-03-03",
-      "author": "Ruihao Pan",
+      "id": 34605,
+      "title": "A Zipf-preserving, long-range correlated surrogate for written language and other symbolic sequences",
+      "date": "2026-03-04",
+      "author": "Marcelo A. Montemurro",
       "tags": [
         {
           "label": "cs.CL",
@@ -158,21 +158,21 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8aff72f098eeb70d31acc3223a8318f102b4b0687229376c768c2b16706c6c96_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fa01440158e9a76484ebe6071306221e06ac9f5e96037048ea18af237e95f1a1_w640_q70.webp"
     },
     {
-      "id": 33390,
-      "title": "Design Framework and Manufacturing of an Active Magnetic Bearing Spindle for Micro-Milling Applications",
-      "date": "2026-03-03",
-      "author": "Kazi Sher Ahmed",
+      "id": 34638,
+      "title": "Silent Sabotage During Fine-Tuning: Few-Shot Rationale Poisoning of Compact Medical LLMs",
+      "date": "2026-03-04",
+      "author": "Jingyuan Xie",
       "tags": [
         {
-          "label": "cs.RO",
+          "label": "cs.CR",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2506ea3704ae699be4e10a5ffa5860d0bcfe160778cb92f8adf41101047d2178_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1be8f697a2b348759ed864d53ce3a0bee1b0b3d2085de34a3d70668649496948_w640_q70.webp"
     }
   ]
 }

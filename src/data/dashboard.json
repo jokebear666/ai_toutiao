@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 34609,
-      "title": "Federated Inference: Toward Privacy-Preserving Collaborative and Incentivized Model Serving",
-      "date": "2026-03-04",
-      "author": "Jungwon Seo",
+      "id": 35282,
+      "title": "Asymmetric Goal Drift in Coding Agents Under Value Conflict",
+      "date": "2026-03-05",
+      "author": "Magnus Saebo",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/de03a408fea19a53043a4a9732fc67a070b609e66bd459d644b191e000434566_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/76eab0a5069136c01d1c1fb8e4c62ae6cc81233db38cc8704daab6e81d8c03f1_w640_q70.webp"
     },
     {
-      "id": 34629,
-      "title": "Engineering Reasoning and Instruction (ERI) Benchmark: A Large Taxonomy-driven Dataset for Foundation Models and Agents",
-      "date": "2026-03-04",
-      "author": "MZ Naser",
+      "id": 35500,
+      "title": "From Threat Intelligence to Firewall Rules: Semantic Relations in Hybrid AI Agent and Expert System Architectures",
+      "date": "2026-03-05",
+      "author": "Chiara Bonfanti",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/97123bd46df0605e0f6cd329f470866373f3b350afb89336d48b8dfc641bbad6_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/585250e27cfdea4623e5367f50c223fe5d45efd740509b6f607025ae7398cd00_w640_q70.webp"
     },
     {
-      "id": 34631,
-      "title": "SuperLocalMemory: Privacy-Preserving Multi-Agent Memory with Bayesian Trust Defense Against Memory Poisoning",
-      "date": "2026-03-04",
-      "author": "Varun Pratap Bhardwaj",
+      "id": 35330,
+      "title": "Build, Judge, Optimize: A Blueprint for Continuous Improvement of Multi-Agent Consumer Assistants",
+      "date": "2026-03-05",
+      "author": "Alejandro Breen Herrera",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7762dc0f8f56f50a2c378ea649ff6efa9da78d414996c26c6e33910474cda1ee_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/16d831c6f83f2682eead53743b9b3ee48021c53085f88e3cd82250ec5622df13_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 34983,
-      "title": "TC-Pad\u00e9: Trajectory-Consistent Pad\u00e9 Approximation for Diffusion Acceleration",
-      "date": "2026-03-04",
-      "author": "Benlei Cui",
+      "id": 35545,
+      "title": "GeoSeg: Training-Free Reasoning-Driven Segmentation in Remote Sensing Imagery",
+      "date": "2026-03-05",
+      "author": "Lifan Jiang",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7fecbb4347811fdf693d7418ecb7c32742f07c2c6e689c664c532de0605e3fe9_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/64c2963ec9c6e043af62017e3848b2e480581482cf3aa33ecfbe91807154693f_w640_q70.webp"
     },
     {
-      "id": 34647,
-      "title": "Social-JEPA: Emergent Geometric Isomorphism",
-      "date": "2026-03-04",
-      "author": "Haoran Zhang",
+      "id": 35272,
+      "title": "mHC-HSI: Clustering-Guided Hyper-Connection Mamba for Hyperspectral Image Classification",
+      "date": "2026-03-05",
+      "author": "Yimin Zhu",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cc84efb04f6708e923f5aa97865a1fe6fc899a45f33bbc9839d5a6e860441046_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e3aa17f17cad0565d7285117e046b10252ff5a5cfe1b9742c34f8b952bc0a871_w640_q70.webp"
     },
     {
-      "id": 34643,
-      "title": "CamDirector: Towards Long-Term Coherent Video Trajectory Editing",
-      "date": "2026-03-04",
-      "author": "Zhihao Shi",
+      "id": 35274,
+      "title": "Proact-VL: A Proactive VideoLLM for Real-Time AI Companions",
+      "date": "2026-03-05",
+      "author": "Weicai Yan",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4595508b91374351036e870195d9e5ddae252083ab2899256c21fd3a4e95847c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/44309582e1b9cd76dc6f3660ace6591f5152911334061e2874a4445392c2812a_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 34654,
-      "title": "A Comparative Study of UMAP and Other Dimensionality Reduction Methods",
-      "date": "2026-03-04",
-      "author": "Guanzhe Zhang",
+      "id": 35453,
+      "title": "When and Where to Reset Matters for Long-Term Test-Time Adaptation",
+      "date": "2026-03-05",
+      "author": "Taejun Lim",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/19e638bc26ab0d71fa9ffee0d8c53c4a901787e3da74a2d6c8da57f85f833078_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4a41c1ed4db004867b7986d8f6e751428623b78238bd110f679dd53853565707_w640_q70.webp"
     },
     {
-      "id": 34711,
-      "title": "Manifold Aware Denoising Score Matching (MAD)",
-      "date": "2026-03-04",
-      "author": "Alona Levy-Jurgenson",
+      "id": 35783,
+      "title": "SELDON: Supernova Explosions Learned by Deep ODE Networks",
+      "date": "2026-03-05",
+      "author": "Jiezhong Wu",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7e91ddde34a832f161d5977b88f97ba3daafa1e5492d915033f8a5f6307a94b4_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/dd449708d6fce38d5d838cd35fc0d250ac893af71083e75426dc77e03e024801_w640_q70.webp"
     },
     {
-      "id": 34648,
-      "title": "PRISM: Exploring Heterogeneous Pretrained EEG Foundation Model Transfer to Clinical Differential Diagnosis",
-      "date": "2026-03-04",
-      "author": "Jeet Bandhu Lahiri",
+      "id": 35468,
+      "title": "Large-Margin Hyperdimensional Computing: A Learning-Theoretical Perspective",
+      "date": "2026-03-05",
+      "author": "Nikita Zeulin",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,15 +128,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4f247ee32545458246c4987cb62f01e4f1040e8e9a802a30d0cbbc8520cfbef6_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/18814dbfe47f2ff8a1c5de9c7dc2c0f6f4628a285093d1f7dff00ba377cc9e9d_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 34677,
-      "title": "RO-N3WS: Enhancing Generalization in Low-Resource ASR with Diverse Romanian Speech Benchmarks",
-      "date": "2026-03-04",
-      "author": "Alexandra Diaconu",
+      "id": 35227,
+      "title": "DIALEVAL: Automated Type-Theoretic Evaluation of LLM Instruction Following",
+      "date": "2026-03-05",
+      "author": "Nardine Basta",
       "tags": [
         {
           "label": "cs.CL",
@@ -144,35 +144,35 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/19275ef290b0eacde0a299ec59f0aa7eb390f989ed8ccd36752ec9d312f44fd7_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a5e225be76089148bed1d2ecdfe1940a3bcb0b5d9518c96840d0d02a935a152a_w640_q70.webp"
     },
     {
-      "id": 34605,
-      "title": "A Zipf-preserving, long-range correlated surrogate for written language and other symbolic sequences",
-      "date": "2026-03-04",
-      "author": "Marcelo A. Montemurro",
+      "id": 35378,
+      "title": "Reckless Designs and Broken Promises: Privacy Implications of Targeted Interactive Advertisements on Social Media Platforms",
+      "date": "2026-03-05",
+      "author": "Julia B. Kieserman",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.CR",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fa01440158e9a76484ebe6071306221e06ac9f5e96037048ea18af237e95f1a1_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9bd0710fc54d4d1e00d4a4d1e5c5ec684ea247fbf1f08260e1e511ab3166779a_w640_q70.webp"
     },
     {
-      "id": 34638,
-      "title": "Silent Sabotage During Fine-Tuning: Few-Shot Rationale Poisoning of Compact Medical LLMs",
-      "date": "2026-03-04",
-      "author": "Jingyuan Xie",
+      "id": 35209,
+      "title": "From Exact Hits to Close Enough: Semantic Caching for LLM Embeddings",
+      "date": "2026-03-05",
+      "author": "Dvir David Biton",
       "tags": [
         {
-          "label": "cs.CR",
+          "label": "cs.CL",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1be8f697a2b348759ed864d53ce3a0bee1b0b3d2085de34a3d70668649496948_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/629455ef2fc5f362e5cc15ed7016ff984ae159a22e0f3fb8bd1698b52e8c8f5a_w640_q70.webp"
     }
   ]
 }

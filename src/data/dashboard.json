@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 35282,
-      "title": "Asymmetric Goal Drift in Coding Agents Under Value Conflict",
-      "date": "2026-03-05",
-      "author": "Magnus Saebo",
+      "id": 35918,
+      "title": "Using Vision + Language Models to Predict Item Difficulty",
+      "date": "2026-03-06",
+      "author": "Samin Khan",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/76eab0a5069136c01d1c1fb8e4c62ae6cc81233db38cc8704daab6e81d8c03f1_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/810878387b099d086e60c56b0714c31b057d3c0fc5a5da5e23e3f2c4dc7c6eb0_w640_q70.webp"
     },
     {
-      "id": 35500,
-      "title": "From Threat Intelligence to Firewall Rules: Semantic Relations in Hybrid AI Agent and Expert System Architectures",
-      "date": "2026-03-05",
-      "author": "Chiara Bonfanti",
+      "id": 35832,
+      "title": "SkillNet: Create, Evaluate, and Connect AI Skills",
+      "date": "2026-03-06",
+      "author": "Yuan Liang",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/585250e27cfdea4623e5367f50c223fe5d45efd740509b6f607025ae7398cd00_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/348b120a43a775ce8e76a1f192d033b4a5499425eb7a761b9511ee0e48f5d358_w640_q70.webp"
     },
     {
-      "id": 35330,
-      "title": "Build, Judge, Optimize: A Blueprint for Continuous Improvement of Multi-Agent Consumer Assistants",
-      "date": "2026-03-05",
-      "author": "Alejandro Breen Herrera",
+      "id": 35833,
+      "title": "Capability Thresholds and Manufacturing Topology: How Embodied Intelligence Triggers Phase Transitions in Economic Geography",
+      "date": "2026-03-06",
+      "author": "Xinmin Fang",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/16d831c6f83f2682eead53743b9b3ee48021c53085f88e3cd82250ec5622df13_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e8fd6e49a4914805683864046d518a5ac377bc928dfc64c960aa9945e41fd3f2_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 35545,
-      "title": "GeoSeg: Training-Free Reasoning-Driven Segmentation in Remote Sensing Imagery",
-      "date": "2026-03-05",
-      "author": "Lifan Jiang",
+      "id": 35790,
+      "title": "Lost in Translation: How Language Re-Aligns Vision for Cross-Species Pathology",
+      "date": "2026-03-06",
+      "author": "Ekansh Arora",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/64c2963ec9c6e043af62017e3848b2e480581482cf3aa33ecfbe91807154693f_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f867f15880e56a01f32fb8736c8ac2584d76fb22aed5e8207f21d0fbaef1a1fb_w640_q70.webp"
     },
     {
-      "id": 35272,
-      "title": "mHC-HSI: Clustering-Guided Hyper-Connection Mamba for Hyperspectral Image Classification",
-      "date": "2026-03-05",
-      "author": "Yimin Zhu",
+      "id": 36090,
+      "title": "VisionPangu: A Compact and Fine-Grained Multimodal Assistant with 1.7B Parameters",
+      "date": "2026-03-06",
+      "author": "Jiaxin Fan",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e3aa17f17cad0565d7285117e046b10252ff5a5cfe1b9742c34f8b952bc0a871_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/465965ed00bd37f87221e14d3f18baf06725765ef32991f0249627e1c78cf9b3_w640_q70.webp"
     },
     {
-      "id": 35274,
-      "title": "Proact-VL: A Proactive VideoLLM for Real-Time AI Companions",
-      "date": "2026-03-05",
-      "author": "Weicai Yan",
+      "id": 36104,
+      "title": "A Simple Baseline for Unifying Understanding, Generation, and Editing via Vanilla Next-token Prediction",
+      "date": "2026-03-06",
+      "author": "Jie Zhu",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/44309582e1b9cd76dc6f3660ace6591f5152911334061e2874a4445392c2812a_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/20030cdeeaedaa7cb6114db87c9f38d6c908274ce8cdc2b24646351744c023fb_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 35453,
-      "title": "When and Where to Reset Matters for Long-Term Test-Time Adaptation",
-      "date": "2026-03-05",
-      "author": "Taejun Lim",
+      "id": 36091,
+      "title": "WaterSIC: information-theoretically (near) optimal linear layer quantization",
+      "date": "2026-03-06",
+      "author": "Egor Lifar",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4a41c1ed4db004867b7986d8f6e751428623b78238bd110f679dd53853565707_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3a059c6a06529f419163181665675d13e535e01f87b3741188a50664894c900e_w640_q70.webp"
     },
     {
-      "id": 35783,
-      "title": "SELDON: Supernova Explosions Learned by Deep ODE Networks",
-      "date": "2026-03-05",
-      "author": "Jiezhong Wu",
+      "id": 35805,
+      "title": "Decorrelating the Future: Joint Frequency Domain Learning for Spatio-temporal Forecasting",
+      "date": "2026-03-06",
+      "author": "Zepu Wang",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/dd449708d6fce38d5d838cd35fc0d250ac893af71083e75426dc77e03e024801_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/02f3957cccadd8ba703c9e9b1a3b145b13fc13e2e98b8cbd6eecb2572b62035e_w640_q70.webp"
     },
     {
-      "id": 35468,
-      "title": "Large-Margin Hyperdimensional Computing: A Learning-Theoretical Perspective",
-      "date": "2026-03-05",
-      "author": "Nikita Zeulin",
+      "id": 35806,
+      "title": "Machine Learning for Complex Systems Dynamics: Detecting Bifurcations in Dynamical Systems with Deep Neural Networks",
+      "date": "2026-03-06",
+      "author": "Swadesh Pal",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,51 +128,51 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/18814dbfe47f2ff8a1c5de9c7dc2c0f6f4628a285093d1f7dff00ba377cc9e9d_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cb0c1c74348a87153157784a021f9653f55b0efae6efeb005a64e339745ce8b6_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 35227,
-      "title": "DIALEVAL: Automated Type-Theoretic Evaluation of LLM Instruction Following",
-      "date": "2026-03-05",
-      "author": "Nardine Basta",
+      "id": 35972,
+      "title": "Designing and Validating a Self-Aligning Tool Changer for Modular Reconfigurable Manipulation Robots",
+      "date": "2026-03-06",
+      "author": "Mahfudz Maskur",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.RO",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a5e225be76089148bed1d2ecdfe1940a3bcb0b5d9518c96840d0d02a935a152a_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/15e0e5c98c911c23f111c6fc89595f7d24921b9e4358584e7d9e10012a403d50_w640_q70.webp"
     },
     {
-      "id": 35378,
-      "title": "Reckless Designs and Broken Promises: Privacy Implications of Targeted Interactive Advertisements on Social Media Platforms",
-      "date": "2026-03-05",
-      "author": "Julia B. Kieserman",
+      "id": 36097,
+      "title": "When Weak LLMs Speak with Confidence, Preference Alignment Gets Stronger",
+      "date": "2026-03-06",
+      "author": "Amirabbas Afzali",
       "tags": [
         {
-          "label": "cs.CR",
+          "label": "cs.CL",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9bd0710fc54d4d1e00d4a4d1e5c5ec684ea247fbf1f08260e1e511ab3166779a_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4b319db282b0ecd4ea97027f7d40fed0acb8a303b708e94935853b9860db3f92_w640_q70.webp"
     },
     {
-      "id": 35209,
-      "title": "From Exact Hits to Close Enough: Semantic Caching for LLM Embeddings",
-      "date": "2026-03-05",
-      "author": "Dvir David Biton",
+      "id": 36124,
+      "title": "Observer Design for Augmented Reality-based Teleoperation of Soft Robots",
+      "date": "2026-03-06",
+      "author": "Jorge Francisco Garc\u00eda-Samart\u00edn",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.RO",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/629455ef2fc5f362e5cc15ed7016ff984ae159a22e0f3fb8bd1698b52e8c8f5a_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/440730eb2947a89ffd879aaac594836391299185ce9476038c6a5353a7b98a70_w640_q70.webp"
     }
   ]
 }

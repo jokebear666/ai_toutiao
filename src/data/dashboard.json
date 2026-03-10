@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 36431,
-      "title": "RoboLayout: Differentiable 3D Scene Generation for Embodied Agents",
-      "date": "2026-03-09",
-      "author": "Ali Shamsaddinlou",
+      "id": 36962,
+      "title": "Autonomous AI Agents for Option Hedging: Enhancing Financial Stability through Shortfall Aware Reinforcement Learning",
+      "date": "2026-03-10",
+      "author": "Minxuan Hu",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7d4723f8d3e866192442e20f123b13da71ecceae67c3cb33ee2004c33a06d7ba_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a3f34dc880eb61cbd64a2709d515c66622d05aa674226fad790cae3b5aa413e7_w640_q70.webp"
     },
     {
-      "id": 36461,
-      "title": "Real-Time AI Service Economy: A Framework for Agentic Computing Across the Continuum",
-      "date": "2026-03-09",
-      "author": "Lauri Lov\u00e9n",
+      "id": 36987,
+      "title": "Scaling Strategy, Not Compute: A Stand-Alone, Open-Source StarCraft II Benchmark for Accessible Reinforcement Learning Research",
+      "date": "2026-03-10",
+      "author": "Sourav Panda",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ec70daf65ffdf0f74b2c716ab4c3d3e377f5d566134cd03fd95dc37a4af4cd05_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/00a8c8a81608f8412c7496f6ced9510d35dc639ca528d9e529c6f60e0eb6563c_w640_q70.webp"
     },
     {
-      "id": 36503,
-      "title": "Reasoning Models Struggle to Control their Chains of Thought",
-      "date": "2026-03-09",
-      "author": "Chen Yueh-Han",
+      "id": 37045,
+      "title": "MultiGen: Level-Design for Editable Multiplayer Worlds in Diffusion Game Engines",
+      "date": "2026-03-10",
+      "author": "Ryan Po",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/83cdde0589f549e33c851efd7137608fb90318fd05996ef370530a0301dca0bc_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/de967ca59abb5235b50dc546974ae03d55d4cf0b4b5d79cb36d49107f808bfc8_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 36784,
-      "title": "Hierarchical Collaborative Fusion for 3D Instance-aware Referring Expression Segmentation",
-      "date": "2026-03-09",
-      "author": "Keshen Zhou",
+      "id": 37568,
+      "title": "Looking Into the Water by Unsupervised Learning of the Surface Shape",
+      "date": "2026-03-10",
+      "author": "Ori Lifschitz",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fb023bddde600380ffd183420be7da64eed7d8d254986a6c20a58e1f7a8ab944_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fc7f8917d86aa976201723b45d4c41ae612db470d17c8c6a1837fe1cd180549b_w640_q70.webp"
     },
     {
-      "id": 36598,
-      "title": "Mitigating Bias in Concept Bottleneck Models for Fair and Interpretable Image Classification",
-      "date": "2026-03-09",
-      "author": "Schrasing Tong",
+      "id": 38072,
+      "title": "PCFEx: Point Cloud Feature Extraction for Graph Neural Networks",
+      "date": "2026-03-10",
+      "author": "Abdullah Al Masud",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/900c5c06f71edd2a1bab27a994e41cbc4f7bd18512cdb1ed22ab85aa57bf1b6c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/aa371a8a41cd15d1ea1cd7b9f8dc569229e74174639798858ca3cd10f6189197_w640_q70.webp"
     },
     {
-      "id": 36599,
-      "title": "PixARMesh: Autoregressive Mesh-Native Single-View Scene Reconstruction",
-      "date": "2026-03-09",
-      "author": "Xiang Zhang",
+      "id": 38185,
+      "title": "Task learning increases information redundancy of neural responses in macaque visual cortex",
+      "date": "2026-03-10",
+      "author": "Shizhao Liu",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/447b7b8c68331a17d2d7c1b015e4b0ffe643d0a46a69ae8d8713920fbd199996_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b808956d99b69db87229d4ca26b937c5ff2922f1f4bf602fd37fea72a4ba8b2f_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 36641,
-      "title": "Omni-Masked Gradient Descent: Memory-Efficient Optimization via Mask Traversal with Improved Convergence",
-      "date": "2026-03-09",
-      "author": "Hui Yang",
+      "id": 38215,
+      "title": "Sign Identifiability of Causal Effects in Stationary Stochastic Dynamical Systems",
+      "date": "2026-03-10",
+      "author": "Gijs van Seeventer",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8032130f0c2a09d90af1844515489ecfd2f48cbc6c3cda20231a08c8ac8625f5_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8d0b7669b212e4ba8d35875e76d0609bbaeb03b4a852ab2b7bb8e9d3bcd5885f_w640_q70.webp"
     },
     {
-      "id": 36487,
-      "title": "The Value of Graph-based Encoding in NBA Salary Prediction",
-      "date": "2026-03-09",
-      "author": "Junhao Su",
+      "id": 38207,
+      "title": "Local Constrained Bayesian Optimization",
+      "date": "2026-03-10",
+      "author": "Jing Jingzhe",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d3dd16d6f5450817a1eda1852b452501b4d472259aaa15e8e2a6cc342f3a2929_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b8c2471ee0565e01820507bcc5eb7c9f97b06d002298e4da962107a88537f067_w640_q70.webp"
     },
     {
-      "id": 36417,
-      "title": "Traversal-as-Policy: Log-Distilled Gated Behavior Trees as Externalized, Verifiable Policies for Safe, Robust, and Efficient Agents",
-      "date": "2026-03-09",
-      "author": "Peiran Li",
+      "id": 38214,
+      "title": "Beyond ReinMax: Low-Variance Gradient Estimators for Discrete Latent Variables",
+      "date": "2026-03-10",
+      "author": "Daniel Wang",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,43 +128,43 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/47e28713fd56d704682e0551b3afbae4456fbd2fdea61ce54699576462742384_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/212895bcfd0d72de11d9c3aecb176b62cdd56fcdb5fa480c10477498319ee9c1_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 36731,
-      "title": "PQC-LEO: An Evaluation Framework for Post-Quantum Cryptographic Algorithms",
-      "date": "2026-03-09",
-      "author": "Callum Turino",
+      "id": 37774,
+      "title": "Aero-Promptness: Drag-Aware Aerodynamic Manipulability for Propeller-driven Vehicles",
+      "date": "2026-03-10",
+      "author": "Antonio Franchi",
       "tags": [
         {
-          "label": "cs.CR",
+          "label": "cs.RO",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/95cb18e670d00902540cbbc7b0109170ac38a4404e7639fa74c9ac4f008445d5_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/11e246ba72ebe32bf3af24995219d6faaf3429055ad996be6f0132b196fda92e_w640_q70.webp"
     },
     {
-      "id": 36425,
-      "title": "Verify as You Go: An LLM-Powered Browser Extension for Fake News Detection",
-      "date": "2026-03-09",
-      "author": "Dorsaf Sallami",
+      "id": 38058,
+      "title": "Rethinking the semantic classification of indoor places by mobile robots",
+      "date": "2026-03-10",
+      "author": "Oscar Martinez Mozos",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.RO",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/477651b6ed675e49e74344e699fb6a6c987776213944aafc4eb8c84d7ac5bb5f_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e2ac37be59a1e3f5b56224c296e085c8d9fb605bd5d704df189b05ace21ec582_w640_q70.webp"
     },
     {
-      "id": 36519,
-      "title": "NERdME: a Named Entity Recognition Dataset for Indexing Research Artifacts in Code Repositories",
-      "date": "2026-03-09",
-      "author": "Genet Asefa Gesese",
+      "id": 37285,
+      "title": "Enhancing Consistency of Werewolf AI through Dialogue Summarization and Persona Information",
+      "date": "2026-03-10",
+      "author": "Yoshiki Tanaka",
       "tags": [
         {
           "label": "cs.CL",
@@ -172,7 +172,7 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/106baae30d23c311c4b198f33f1c499c0a1cc10d6c7f109f635101acb67c5360_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/72a6b46c4753355cae8054296e0869004dcd28f4b296df73cbe1c5c6d60d1089_w640_q70.webp"
     }
   ]
 }

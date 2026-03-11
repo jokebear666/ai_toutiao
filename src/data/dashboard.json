@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 36962,
-      "title": "Autonomous AI Agents for Option Hedging: Enhancing Financial Stability through Shortfall Aware Reinforcement Learning",
-      "date": "2026-03-10",
-      "author": "Minxuan Hu",
+      "id": 38323,
+      "title": "Quantifying the Accuracy and Cost Impact of Design Decisions in Budget-Constrained Agentic LLM Search",
+      "date": "2026-03-11",
+      "author": "Kyle McCleary",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a3f34dc880eb61cbd64a2709d515c66622d05aa674226fad790cae3b5aa413e7_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a790f58f6350a6da809f74428d7525eb0ea26ff7bef28f5016b8213c32a8cbff_w640_q70.webp"
     },
     {
-      "id": 36987,
-      "title": "Scaling Strategy, Not Compute: A Stand-Alone, Open-Source StarCraft II Benchmark for Accessible Reinforcement Learning Research",
-      "date": "2026-03-10",
-      "author": "Sourav Panda",
+      "id": 38302,
+      "title": "MASEval: Extending Multi-Agent Evaluation from Models to Systems",
+      "date": "2026-03-11",
+      "author": "Cornelius Emde",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/00a8c8a81608f8412c7496f6ced9510d35dc639ca528d9e529c6f60e0eb6563c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/67cf7704bbf133d7e3c5d709023e7550bbea9fcc3db59fc9c13df0eda77a9d99_w640_q70.webp"
     },
     {
-      "id": 37045,
-      "title": "MultiGen: Level-Design for Editable Multiplayer Worlds in Diffusion Game Engines",
-      "date": "2026-03-10",
-      "author": "Ryan Po",
+      "id": 38307,
+      "title": "LDP: An Identity-Aware Protocol for Multi-Agent LLM Systems",
+      "date": "2026-03-11",
+      "author": "Sunil Prakash",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/de967ca59abb5235b50dc546974ae03d55d4cf0b4b5d79cb36d49107f808bfc8_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a763284d66aa07d00765c5950f638fe85af9cd69d8c66e094d9d41cbf18b32b0_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 37568,
-      "title": "Looking Into the Water by Unsupervised Learning of the Surface Shape",
-      "date": "2026-03-10",
-      "author": "Ori Lifschitz",
+      "id": 38640,
+      "title": "SurgFed: Language-guided Multi-Task Federated Learning for Surgical Video Understanding",
+      "date": "2026-03-11",
+      "author": "Zheng Fang",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fc7f8917d86aa976201723b45d4c41ae612db470d17c8c6a1837fe1cd180549b_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/94dcd8b0f73428a76079fd93cabe7d9d363c49d64d36ee82e8e75acccffe55d9_w640_q70.webp"
     },
     {
-      "id": 38072,
-      "title": "PCFEx: Point Cloud Feature Extraction for Graph Neural Networks",
-      "date": "2026-03-10",
-      "author": "Abdullah Al Masud",
+      "id": 38286,
+      "title": "Where, What, Why: Toward Explainable 3D-GS Watermarking",
+      "date": "2026-03-11",
+      "author": "Mingshu Cai",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/aa371a8a41cd15d1ea1cd7b9f8dc569229e74174639798858ca3cd10f6189197_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/dac6737a1b9fc6de1a2a6bab91b03cd4d1d6d9a60d1f01bd8185eb1d4640a6d8_w640_q70.webp"
     },
     {
-      "id": 38185,
-      "title": "Task learning increases information redundancy of neural responses in macaque visual cortex",
-      "date": "2026-03-10",
-      "author": "Shizhao Liu",
+      "id": 38288,
+      "title": "Granulon: Awakening Pixel-Level Visual Encoders with Adaptive Multi-Granularity Semantics for MLLM",
+      "date": "2026-03-11",
+      "author": "Junyuan Mao",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b808956d99b69db87229d4ca26b937c5ff2922f1f4bf602fd37fea72a4ba8b2f_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e02eae4f2cad989243fd22871cfcf3ac6652f82ea85723586d3df4280fc93c12_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 38215,
-      "title": "Sign Identifiability of Causal Effects in Stationary Stochastic Dynamical Systems",
-      "date": "2026-03-10",
-      "author": "Gijs van Seeventer",
+      "id": 38641,
+      "title": "Temporal-Conditioned Normalizing Flows for Multivariate Time Series Anomaly Detection",
+      "date": "2026-03-11",
+      "author": "David Baumgartner",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8d0b7669b212e4ba8d35875e76d0609bbaeb03b4a852ab2b7bb8e9d3bcd5885f_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3fe4273e12ba84a37d162aa631c6a752fd342f90dd6c9e3f44151c83418805f7_w640_q70.webp"
     },
     {
-      "id": 38207,
-      "title": "Local Constrained Bayesian Optimization",
-      "date": "2026-03-10",
-      "author": "Jing Jingzhe",
+      "id": 38710,
+      "title": "GNNs for Time Series Anomaly Detection: An Open-Source Framework and a Critical Evaluation",
+      "date": "2026-03-11",
+      "author": "Federico Bello",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b8c2471ee0565e01820507bcc5eb7c9f97b06d002298e4da962107a88537f067_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/429af0225d8f45fe431955b45fac54e009020a1ac93f38d15913460407f4fd8c_w640_q70.webp"
     },
     {
-      "id": 38214,
-      "title": "Beyond ReinMax: Low-Variance Gradient Estimators for Discrete Latent Variables",
-      "date": "2026-03-10",
-      "author": "Daniel Wang",
+      "id": 38240,
+      "title": "Equitable Multi-Task Learning for AI-RANs",
+      "date": "2026-03-11",
+      "author": "Panayiotis Raptis",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,29 +128,29 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/212895bcfd0d72de11d9c3aecb176b62cdd56fcdb5fa480c10477498319ee9c1_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1ad875a186d5e6fcb37b4bf17e6dad5d2b0043635ec118b928f8e53329a60a77_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 37774,
-      "title": "Aero-Promptness: Drag-Aware Aerodynamic Manipulability for Propeller-driven Vehicles",
-      "date": "2026-03-10",
-      "author": "Antonio Franchi",
+      "id": 38639,
+      "title": "EmbC-Test: How to Speed Up Embedded Software Testing Using LLMs and RAG",
+      "date": "2026-03-11",
+      "author": "Maximilian Harnot",
       "tags": [
         {
-          "label": "cs.RO",
+          "label": "cs.SE",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/11e246ba72ebe32bf3af24995219d6faaf3429055ad996be6f0132b196fda92e_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7eea4906e174a4889b783cb83f1543839495041b9fac2e0b4b04a0c56e756478_w640_q70.webp"
     },
     {
-      "id": 38058,
-      "title": "Rethinking the semantic classification of indoor places by mobile robots",
-      "date": "2026-03-10",
-      "author": "Oscar Martinez Mozos",
+      "id": 38683,
+      "title": "A Generalized Voronoi Graph based Coverage Control Approach for Non-Convex Environment",
+      "date": "2026-03-11",
+      "author": "Zuyi Guo",
       "tags": [
         {
           "label": "cs.RO",
@@ -158,21 +158,21 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e2ac37be59a1e3f5b56224c296e085c8d9fb605bd5d704df189b05ace21ec582_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/68f3f5c251b3fd30f7ff2e027827d5ba94e902bfa32cd02f784da65c07702357_w640_q70.webp"
     },
     {
-      "id": 37285,
-      "title": "Enhancing Consistency of Werewolf AI through Dialogue Summarization and Persona Information",
-      "date": "2026-03-10",
-      "author": "Yoshiki Tanaka",
+      "id": 38684,
+      "title": "Benchmarking Dataset for Presence-Only Passive Reconnaissance in Wireless Smart-Grid Communications",
+      "date": "2026-03-11",
+      "author": "Bochra Al Agha",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.CR",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/72a6b46c4753355cae8054296e0869004dcd28f4b296df73cbe1c5c6d60d1089_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0ccc0cdb8b33cd8a5cf86048bd6f7887e1d2d7c963629b99871199da307eb07f_w640_q70.webp"
     }
   ]
 }

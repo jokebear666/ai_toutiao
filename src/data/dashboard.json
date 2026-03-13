@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 39025,
-      "title": "Agentic Control Center for Data Product Optimization",
-      "date": "2026-03-12",
-      "author": "Priyadarshini Tamilselvan",
+      "id": 39974,
+      "title": "LABSHIELD: A Multimodal Benchmark for Safety-Critical Reasoning and Planning in Scientific Laboratories",
+      "date": "2026-03-13",
+      "author": "Qianpu Sun",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/71fb236bb6f4b114ba5f44a933c8cc795fb5b55ed55ca4178fed662b0fdedcbb_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d7500a357e1a7648fb42733813e438d1e7058dd00d33bdd564610c0b8eaa8884_w640_q70.webp"
     },
     {
-      "id": 39100,
-      "title": "Hybrid Self-evolving Structured Memory for GUI Agents",
-      "date": "2026-03-12",
-      "author": "Sibo Zhu",
+      "id": 39534,
+      "title": "DIVE: Scaling Diversity in Agentic Task Synthesis for Generalizable Tool Use",
+      "date": "2026-03-13",
+      "author": "Aili Chen",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cfec800ded0a2073dd0d3363615b1357d2869e1bae44ce3309e663d8439b0043_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a4462883f88d35654d416d42137410d54d92e0ffa59ba0f0e573563912e3547b_w640_q70.webp"
     },
     {
-      "id": 39103,
-      "title": "Simulation-in-the-Reasoning (SiR): A Conceptual Framework for Empirically Grounded AI in Autonomous Transportation",
-      "date": "2026-03-12",
-      "author": "Wuping Xin",
+      "id": 39551,
+      "title": "A Survey of Reasoning in Autonomous Driving Systems: Open Challenges and Emerging Paradigms",
+      "date": "2026-03-13",
+      "author": "Kejin Yu",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/16673538ee510b6e5c934321255a14a5954e85b55358be29e9c1b31f22f3c9e3_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e8faefeae78ff6e606252f5ff85b3a71e4701776f8f9e93234540db98410ad97_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 39027,
-      "title": "Unbalanced Optimal Transport Dictionary Learning for Unsupervised Hyperspectral Image Clustering",
-      "date": "2026-03-12",
-      "author": "Joshua Lentz",
+      "id": 39973,
+      "title": "AstroSplat: Physics-Based Gaussian Splatting for Rendering and Reconstruction of Small Celestial Bodies",
+      "date": "2026-03-13",
+      "author": "Jennifer Nolan",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6e31b001180a38a07387c656395dc66aa0bd31ff0c006ea75cc8cfe8f698c9a0_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c1acb670b95e3b11781616e12ed05584833759c341ffdcc2529f630ec3d7eb68_w640_q70.webp"
     },
     {
-      "id": 39410,
-      "title": "Lifelong Imitation Learning with Multimodal Latent Replay and Incremental Adjustment",
-      "date": "2026-03-12",
-      "author": "Fanqi Yu",
+      "id": 39634,
+      "title": "UNet-AF: An alias-free UNet for image restoration",
+      "date": "2026-03-13",
+      "author": "J\u00e9r\u00e9my Scanvic",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/72441a6b6df0cb90b32e3c0213e66f4d2a33e5ee1cf6634c9f194c68e29ce34d_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b70ec530c7d94cb93e9f0a6316d836c05dbd279226095b9958560dca76f26331_w640_q70.webp"
     },
     {
-      "id": 39028,
-      "title": "4DEquine: Disentangling Motion and Appearance for 4D Equine Reconstruction from Monocular Video",
-      "date": "2026-03-12",
-      "author": "Jin Lyu",
+      "id": 39554,
+      "title": "RC-NF: Robot-Conditioned Normalizing Flow for Real-Time Anomaly Detection in Robotic Manipulation",
+      "date": "2026-03-13",
+      "author": "Shijie Zhou",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ab55e4b053bcfb8085fe69fbcee87b521b3347c728bd62d6ca4f239681262679_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2b73ac050f95317661d66cf20be4b70698db8fb62dc1a987f933543c19e6ef9b_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 39496,
-      "title": "Quantization Robustness of Monotone Operator Equilibrium Networks",
-      "date": "2026-03-12",
-      "author": "James Li",
+      "id": 39951,
+      "title": "Geometry-Aware Probabilistic Circuits via Voronoi Tessellations",
+      "date": "2026-03-13",
+      "author": "Sahil Sidheekh",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9dd803845d30c59213fccbbb5a32720ba61c5c4c54bb88dbb1a9fc4bb6e98e08_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ea2e6c849237cc629b0f1317fceda50f46f6ab28ff1be3e45ce65f661459443c_w640_q70.webp"
     },
     {
-      "id": 39108,
-      "title": "How to make the most of your masked language model for protein engineering",
-      "date": "2026-03-12",
-      "author": "Calvin McCarter",
+      "id": 40110,
+      "title": "Efficient Approximation to Analytic and $L^p$ functions by Height-Augmented ReLU Networks",
+      "date": "2026-03-13",
+      "author": "ZeYu Li",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e9cb236b9593ba84b7702eb549eb79a680e61700ca52009637c76e3f0789569d_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8fea5d739ca397ea3440bd87bac4bca19a5e60385fa50407a879b83ac869674e_w640_q70.webp"
     },
     {
-      "id": 39009,
-      "title": "Digging Deeper: Learning Multi-Level Concept Hierarchies",
-      "date": "2026-03-12",
-      "author": "Oscar Hill",
+      "id": 39985,
+      "title": "Flowcean - Model Learning for Cyber-Physical Systems",
+      "date": "2026-03-13",
+      "author": "Maximilian Schmidt",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,43 +128,43 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e291e3138f09d5259f6640f9a0d4fc7be33ff8e2810fa23cce0fef5db3370330_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e0d1ff897511d7625e5a23f82a0f78cecf04f6f57b0f6bcbe8242713e071fc8f_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 39232,
-      "title": "End-to-End Chatbot Evaluation with Adaptive Reasoning and Uncertainty Filtering",
-      "date": "2026-03-12",
-      "author": "Nhi Dang",
+      "id": 39654,
+      "title": "Resolving Java Code Repository Issues with iSWE Agent",
+      "date": "2026-03-13",
+      "author": "Jatin Ganhotra",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.SE",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e9800c7b86bcf5a64da6105946672267cb473376f4f4a948e438136a1d50e00c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/01b93ee66d704f6b2e8df09638efe286861e7f5b3f0af587ca0f708c44154087_w640_q70.webp"
     },
     {
-      "id": 38931,
-      "title": "There Are No Silly Questions: Evaluation of Offline LLM Capabilities from a Turkish Perspective",
-      "date": "2026-03-12",
-      "author": "Edibe Yilmaz",
+      "id": 39655,
+      "title": "Novelty Adaptation Through Hybrid Large Language Model (LLM)-Symbolic Planning and LLM-guided Reinforcement Learning",
+      "date": "2026-03-13",
+      "author": "Hong Lu",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.RO",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5c7255a53c38fdad5c28ef216572d5367cc9ef87ef4a29b601a65e2632a6afc1_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4a47087bcd2054ff3f3826142bed9bc203e943c34ba93c9b561e764bcb37e2e9_w640_q70.webp"
     },
     {
-      "id": 39015,
-      "title": "Detecting Privilege Escalation with Temporal Braid Groups",
-      "date": "2026-03-12",
-      "author": "Christophe Parisel",
+      "id": 39952,
+      "title": "Delayed Backdoor Attacks: Exploring the Temporal Dimension as a New Attack Surface in Pre-Trained Models",
+      "date": "2026-03-13",
+      "author": "Zikang Ding",
       "tags": [
         {
           "label": "cs.CR",
@@ -172,7 +172,7 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/92ac20d821d48237b89ecafa9f90abba121e610e469274d3881388f63b694506_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9a9c7d0438dbb7ed5cebc47d950b1a5113b5bf0e39657baf1a1d28daf66b51f8_w640_q70.webp"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 41694,
-      "title": "Consequentialist Objectives and Catastrophe",
-      "date": "2026-03-17",
-      "author": "Henrik Marklund",
+      "id": 42142,
+      "title": "Did You Check the Right Pocket? Cost-Sensitive Store Routing for Memory-Augmented Agents",
+      "date": "2026-03-18",
+      "author": "Madhava Gaikwad",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": null
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/133c331015b67f4b5eb22b343dfa1ccdfa61db0446e2fe3895503f21e75bc823_w640_q70.webp"
     },
     {
-      "id": 41804,
-      "title": "Why the Valuable Capabilities of LLMs Are Precisely the Unexplainable Ones",
-      "date": "2026-03-17",
-      "author": "Quan Cheng",
+      "id": 42534,
+      "title": "From Natural Language to Executable Option Strategies via Large Language Models",
+      "date": "2026-03-18",
+      "author": "Haochen Luo",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0cf7f0493f581de146793a118e3e1f07ee91ef20f6b90cf110ac2e306a227a60_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3b4a86072ad1f281429966ed782362117d60a47cc54eefba3c2b0fb97ca55279_w640_q70.webp"
     },
     {
-      "id": 40865,
-      "title": "Executable Archaeology: Reanimating the Logic Theorist from its IPL-V Source",
-      "date": "2026-03-17",
-      "author": "Jeff Shrager",
+      "id": 42118,
+      "title": "Neural-Symbolic Logic Query Answering in Non-Euclidean Space",
+      "date": "2026-03-18",
+      "author": "Lihui Liu",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/eb86dda1bae4e617021781123645ed1f67db5121625c3f248797d4974b646075_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e5e1d0da255acb6c4cf5f91769d767d509d4d0dcf00ae00451952739a76c1519_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 40839,
-      "title": "Draft-and-Target Sampling for Video Generation Policy",
-      "date": "2026-03-17",
-      "author": "Qikang Zhang",
+      "id": 42389,
+      "title": "STARK: Spatio-Temporal Attention for Representation of Keypoints for Continuous Sign Language Recognition",
+      "date": "2026-03-18",
+      "author": "Suvajit Patra",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4e2f3b43b662fdc6e2adc910d7781ce54ab5758062405663a50a419b1d3feb07_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c2904267ce1c5c66d7e2f79c178419211fd6dc8606f75bdcf3c843832a202cd6_w640_q70.webp"
     },
     {
-      "id": 41926,
-      "title": "Anchor then Polish for Low-light Enhancement",
-      "date": "2026-03-17",
-      "author": "Tianle Du",
+      "id": 42120,
+      "title": "SAC-NeRF: Adaptive Ray Sampling for Neural Radiance Fields via Soft Actor-Critic Reinforcement Learning",
+      "date": "2026-03-18",
+      "author": "Chenyu Ge",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": null
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/59d4c4f6f197f5adca8774eb3522dbdd8233c0f36a38d04d019bac704a6f71e3_w640_q70.webp"
     },
     {
-      "id": 41310,
-      "title": "Personalized Cell Segmentation: Benchmark and Framework for Reference-Guided Cell Type Segmentation",
-      "date": "2026-03-17",
-      "author": "Bisheng Wang",
+      "id": 42125,
+      "title": "Exploring the Use of VLMs for Navigation Assistance for People with Blindness and Low Vision",
+      "date": "2026-03-18",
+      "author": "Yu Li",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": null
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/aeb01986c270282e93e1b2fe3dd7606cfae9edc4345177ebb883d1b29ba9d981_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 41805,
-      "title": "Decomposing Probabilistic Scores: Reliability, Information Loss and Uncertainty",
-      "date": "2026-03-17",
-      "author": "Arthur Charpentier",
+      "id": 42136,
+      "title": "How to Achieve Prototypical Birth and Death for OOD Detection?",
+      "date": "2026-03-18",
+      "author": "Ningkang Peng",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/69a8eb80c89d8c49364d0395930b93d142f76b8c1b686b945be1c58638c49e43_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/533bb5e7b8c4f8557c386c2c2c4c2f83f2da880e0a662a72d11280c08964f875_w640_q70.webp"
     },
     {
-      "id": 41810,
-      "title": "Directional Embedding Smoothing for Robust Vision Language Models",
-      "date": "2026-03-17",
-      "author": "Ye Wang",
+      "id": 42128,
+      "title": "XLinear: Frequency-Enhanced MLP with CrossFilter for Robust Long-Range Forecasting",
+      "date": "2026-03-18",
+      "author": "Xiang Ao",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": null
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b755ecf6be92013c176301252eed2909a17aabd433f099f0de5c26b468ec6b27_w640_q70.webp"
     },
     {
-      "id": 41849,
-      "title": "Data Augmentation via Causal-Residual Bootstrapping",
-      "date": "2026-03-17",
-      "author": "Mateusz Gajewski",
+      "id": 42130,
+      "title": "Tokenization Tradeoffs in Structured EHR Foundation Models",
+      "date": "2026-03-18",
+      "author": "Lin Lawrence Guo",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,15 +128,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": null
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ef7c0a0420fa925317c3062d0f56b40ef2a42e43f70104d3f593fb214cdf648c_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 41848,
-      "title": "Encirclement Guaranteed Finite-Time Capture against Unknown Evader Strategies",
-      "date": "2026-03-17",
-      "author": "Dinesh Patra",
+      "id": 42594,
+      "title": "ASCENT: Transformer-Based Aircraft Trajectory Prediction in Non-Towered Terminal Airspace",
+      "date": "2026-03-18",
+      "author": "Alexander Prutsch",
       "tags": [
         {
           "label": "cs.RO",
@@ -144,35 +144,35 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/529256a4a1b5361922fdfa5767878db82ea089dad6fb6eed7857147d5863afb2_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4a25374daa78cab5f60c2c6824798e7f1e8bb787d208baac4170958ec1a81ecc_w640_q70.webp"
     },
     {
-      "id": 41901,
-      "title": "Invisible failures in human-AI interactions",
-      "date": "2026-03-17",
-      "author": "Christopher Potts",
+      "id": 42135,
+      "title": "Quantum Key Distribution Secured Federated Learning for Channel Estimation and Radar Spectrum Sensing in 6G Networks",
+      "date": "2026-03-18",
+      "author": "Ferhat Ozgur Catak",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.CR",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": null
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f1189f997836a11fcfad43984de746e902070800cb7496767735c0f7511c495c_w640_q70.webp"
     },
     {
-      "id": 41927,
-      "title": "On the Derivation of Tightly-Coupled LiDAR-Inertial Odometry with VoxelMap",
-      "date": "2026-03-17",
-      "author": "Zhihao Zhan",
+      "id": 42137,
+      "title": "Recursive Language Models Meet Uncertainty: The Surprising Effectiveness of Self-Reflective Program Search for Long Context",
+      "date": "2026-03-18",
+      "author": "Keivan Alizadeh",
       "tags": [
         {
-          "label": "cs.RO",
+          "label": "cs.CL",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": null
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/bfe24ad631278d8e7607e052c56e19465c905192e712c37bcf6a0f1d1d95f563_w640_q70.webp"
     }
   ]
 }

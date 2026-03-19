@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 42142,
-      "title": "Did You Check the Right Pocket? Cost-Sensitive Store Routing for Memory-Augmented Agents",
-      "date": "2026-03-18",
-      "author": "Madhava Gaikwad",
+      "id": 42826,
+      "title": "PowerModelsGAT-AI: Physics-Informed Graph Attention for Multi-System Power Flow with Continual Learning",
+      "date": "2026-03-19",
+      "author": "Chidozie Ezeakunne",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/133c331015b67f4b5eb22b343dfa1ccdfa61db0446e2fe3895503f21e75bc823_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/02d080a19b2da76fd0e36dcff24b3ea8dc211d9723ba44e85337643ab6f5edf5_w640_q70.webp"
     },
     {
-      "id": 42534,
-      "title": "From Natural Language to Executable Option Strategies via Large Language Models",
-      "date": "2026-03-18",
-      "author": "Haochen Luo",
+      "id": 42889,
+      "title": "Generative AI-assisted Participatory Modeling in Socio-Environmental Planning under Deep Uncertainty",
+      "date": "2026-03-19",
+      "author": "Zhihao Pei",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3b4a86072ad1f281429966ed782362117d60a47cc54eefba3c2b0fb97ca55279_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1058b07aa3066444a03ea853411b9e5fc6a4de66fddfce73a0310659623c24b0_w640_q70.webp"
     },
     {
-      "id": 42118,
-      "title": "Neural-Symbolic Logic Query Answering in Non-Euclidean Space",
-      "date": "2026-03-18",
-      "author": "Lihui Liu",
+      "id": 42903,
+      "title": "Transformers are Bayesian Networks",
+      "date": "2026-03-19",
+      "author": "Gregory Coppola",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e5e1d0da255acb6c4cf5f91769d767d509d4d0dcf00ae00451952739a76c1519_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/37bed5ee7aa781d272f5b6627fce477cdce818997daf680a49d38d7bd68c6866_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 42389,
-      "title": "STARK: Spatio-Temporal Attention for Representation of Keypoints for Continuous Sign Language Recognition",
-      "date": "2026-03-18",
-      "author": "Suvajit Patra",
+      "id": 42828,
+      "title": "Multi-Modal Multi-Agent Reinforcement Learning for Radiology Report Generation: Radiologist-Like Workflow with Clinically Verifiable Rewards",
+      "date": "2026-03-19",
+      "author": "Kaito Baba",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c2904267ce1c5c66d7e2f79c178419211fd6dc8606f75bdcf3c843832a202cd6_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/feced3fe91632f1b95c4bb26332ec521b4fb36512b9b0af67327a74c3b2083c3_w640_q70.webp"
     },
     {
-      "id": 42120,
-      "title": "SAC-NeRF: Adaptive Ray Sampling for Neural Radiance Fields via Soft Actor-Critic Reinforcement Learning",
-      "date": "2026-03-18",
-      "author": "Chenyu Ge",
+      "id": 42832,
+      "title": "Tokenization vs. Augmentation: A Systematic Study of Writer Variance in IMU-Based Online Handwriting Recognition",
+      "date": "2026-03-19",
+      "author": "Jindong Li",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/59d4c4f6f197f5adca8774eb3522dbdd8233c0f36a38d04d019bac704a6f71e3_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e452e0b37d40fdc898dee51f2a0efd8c586428ea44129f9416f7b987788d3214_w640_q70.webp"
     },
     {
-      "id": 42125,
-      "title": "Exploring the Use of VLMs for Navigation Assistance for People with Blindness and Low Vision",
-      "date": "2026-03-18",
-      "author": "Yu Li",
+      "id": 42854,
+      "title": "GenLie: A Global-Enhanced Lie Detection Network under Sparsity and Semantic Interference",
+      "date": "2026-03-19",
+      "author": "Zongshun Zhang",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/aeb01986c270282e93e1b2fe3dd7606cfae9edc4345177ebb883d1b29ba9d981_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/19fe84fd7bbfcb8669a0152bb6eb7a1bff82bffb046bbd54fa4455ff765899fb_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 42136,
-      "title": "How to Achieve Prototypical Birth and Death for OOD Detection?",
-      "date": "2026-03-18",
-      "author": "Ningkang Peng",
+      "id": 43117,
+      "title": "Efficient Soft Actor-Critic with LLM-Based Action-Level Guidance for Continuous Control",
+      "date": "2026-03-19",
+      "author": "Hao Ma",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/533bb5e7b8c4f8557c386c2c2c4c2f83f2da880e0a662a72d11280c08964f875_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/080ed0620c8d34313c02b279b3db50cd016ea7ab4e27055d3ff6c9a89dce4db6_w640_q70.webp"
     },
     {
-      "id": 42128,
-      "title": "XLinear: Frequency-Enhanced MLP with CrossFilter for Robust Long-Range Forecasting",
-      "date": "2026-03-18",
-      "author": "Xiang Ao",
+      "id": 42823,
+      "title": "Federated Multi Agent Deep Learning and Neural Networks for Advanced Distributed Sensing in Wireless Networks",
+      "date": "2026-03-19",
+      "author": "Nadine Muller",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b755ecf6be92013c176301252eed2909a17aabd433f099f0de5c26b468ec6b27_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/139f4585f46c092ca0ac28ae8eafa403682c200ebb7daeb6e04e33edee0c8c61_w640_q70.webp"
     },
     {
-      "id": 42130,
-      "title": "Tokenization Tradeoffs in Structured EHR Foundation Models",
-      "date": "2026-03-18",
-      "author": "Lin Lawrence Guo",
+      "id": 42827,
+      "title": "A foundation model for electrodermal activity data",
+      "date": "2026-03-19",
+      "author": "Leonardo Alchieri",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,15 +128,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ef7c0a0420fa925317c3062d0f56b40ef2a42e43f70104d3f593fb214cdf648c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/691175951235384dbcbbbe1f124098a8487cf802782765b462a7f4f147de504c_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 42594,
-      "title": "ASCENT: Transformer-Based Aircraft Trajectory Prediction in Non-Towered Terminal Airspace",
-      "date": "2026-03-18",
-      "author": "Alexander Prutsch",
+      "id": 42822,
+      "title": "The Port-Hamiltonian Structure of Vehicle Manipulator Systems",
+      "date": "2026-03-19",
+      "author": "Ramy Rashad",
       "tags": [
         {
           "label": "cs.RO",
@@ -144,27 +144,27 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4a25374daa78cab5f60c2c6824798e7f1e8bb787d208baac4170958ec1a81ecc_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/537f15c8e8382961488bf3bb0076d27b7ae1ef30202b6690fd9c8ea8182c481d_w640_q70.webp"
     },
     {
-      "id": 42135,
-      "title": "Quantum Key Distribution Secured Federated Learning for Channel Estimation and Radar Spectrum Sensing in 6G Networks",
-      "date": "2026-03-18",
-      "author": "Ferhat Ozgur Catak",
+      "id": 42821,
+      "title": "Enhancing Financial Report Question-Answering: A Retrieval-Augmented Generation System with Reranking Analysis",
+      "date": "2026-03-19",
+      "author": "Zhiyuan Cheng",
       "tags": [
         {
-          "label": "cs.CR",
+          "label": "cs.CL",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f1189f997836a11fcfad43984de746e902070800cb7496767735c0f7511c495c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d27afcc9da2b7337b7aba968fb651326ca37bc7781a973579efcd3d534fa967c_w640_q70.webp"
     },
     {
-      "id": 42137,
-      "title": "Recursive Language Models Meet Uncertainty: The Surprising Effectiveness of Self-Reflective Program Search for Long Context",
-      "date": "2026-03-18",
-      "author": "Keivan Alizadeh",
+      "id": 42824,
+      "title": "Trust, Safety, and Accuracy: Assessing LLMs for Routine Maternity Advice",
+      "date": "2026-03-19",
+      "author": "V Sai Divya",
       "tags": [
         {
           "label": "cs.CL",
@@ -172,7 +172,7 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/bfe24ad631278d8e7607e052c56e19465c905192e712c37bcf6a0f1d1d95f563_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9e055228d4737f0f704a815746077d091cd241a42f9b44bb13ae393d166c1e85_w640_q70.webp"
     }
   ]
 }

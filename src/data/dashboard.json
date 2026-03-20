@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 42826,
-      "title": "PowerModelsGAT-AI: Physics-Informed Graph Attention for Multi-System Power Flow with Continual Learning",
-      "date": "2026-03-19",
-      "author": "Chidozie Ezeakunne",
+      "id": 43469,
+      "title": "DEAF: A Benchmark for Diagnostic Evaluation of Acoustic Faithfulness in Audio Language Models",
+      "date": "2026-03-20",
+      "author": "Jiaqi Xiong",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/02d080a19b2da76fd0e36dcff24b3ea8dc211d9723ba44e85337643ab6f5edf5_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/be6d7296d2f46b2b042c21988ad28b73a044efd7dece8c514a0888297a249c1a_w640_q70.webp"
     },
     {
-      "id": 42889,
-      "title": "Generative AI-assisted Participatory Modeling in Socio-Environmental Planning under Deep Uncertainty",
-      "date": "2026-03-19",
-      "author": "Zhihao Pei",
+      "id": 43485,
+      "title": "Continually self-improving AI",
+      "date": "2026-03-20",
+      "author": "Zitong Yang",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1058b07aa3066444a03ea853411b9e5fc6a4de66fddfce73a0310659623c24b0_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9f66953626ae9709fac6a8eb9ddf354cc94950f0c97ab51bed9d4ce604b9487e_w640_q70.webp"
     },
     {
-      "id": 42903,
-      "title": "Transformers are Bayesian Networks",
-      "date": "2026-03-19",
-      "author": "Gregory Coppola",
+      "id": 43488,
+      "title": "Multi-Trait Subspace Steering to Reveal the Dark Side of Human-AI Interaction",
+      "date": "2026-03-20",
+      "author": "Xin Wei Chia",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/37bed5ee7aa781d272f5b6627fce477cdce818997daf680a49d38d7bd68c6866_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/97800be3c6c77b05ad28fadf0d5c06d0382e6ba53c8382789e7dd29f4ed1d274_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 42828,
-      "title": "Multi-Modal Multi-Agent Reinforcement Learning for Radiology Report Generation: Radiologist-Like Workflow with Clinically Verifiable Rewards",
-      "date": "2026-03-19",
-      "author": "Kaito Baba",
+      "id": 43467,
+      "title": "RARE disease detection from Capsule Endoscopic Videos based on Vision Transformers",
+      "date": "2026-03-20",
+      "author": "X. Gao",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/feced3fe91632f1b95c4bb26332ec521b4fb36512b9b0af67327a74c3b2083c3_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/225e3f0e561180abea94ea26d185dfe73e2c86f0900827ee35d91d203a24fced_w640_q70.webp"
     },
     {
-      "id": 42832,
-      "title": "Tokenization vs. Augmentation: A Systematic Study of Writer Variance in IMU-Based Online Handwriting Recognition",
-      "date": "2026-03-19",
-      "author": "Jindong Li",
+      "id": 43476,
+      "title": "S3T-Former: A Purely Spike-Driven State-Space Topology Transformer for Skeleton Action Recognition",
+      "date": "2026-03-20",
+      "author": "Naichuan Zheng",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e452e0b37d40fdc898dee51f2a0efd8c586428ea44129f9416f7b987788d3214_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5590ef5d43a6b5bed3114aab017ba6c465040a13369e415d8a22129f54e91414_w640_q70.webp"
     },
     {
-      "id": 42854,
-      "title": "GenLie: A Global-Enhanced Lie Detection Network under Sparsity and Semantic Interference",
-      "date": "2026-03-19",
-      "author": "Zongshun Zhang",
+      "id": 43496,
+      "title": "Action Draft and Verify: A Self-Verifying Framework for Vision-Language-Action Model",
+      "date": "2026-03-20",
+      "author": "Chen Zhao",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/19fe84fd7bbfcb8669a0152bb6eb7a1bff82bffb046bbd54fa4455ff765899fb_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b0881021b700c9cf5e47c75d4573cbac2f400023174aec04895fd2617c523546_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 43117,
-      "title": "Efficient Soft Actor-Critic with LLM-Based Action-Level Guidance for Continuous Control",
-      "date": "2026-03-19",
-      "author": "Hao Ma",
+      "id": 43460,
+      "title": "Adapting Methods for Domain-Specific Japanese Small LMs: Scale, Architecture, and Quantization",
+      "date": "2026-03-20",
+      "author": "Takato Yasuno",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/080ed0620c8d34313c02b279b3db50cd016ea7ab4e27055d3ff6c9a89dce4db6_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e48b6e3b4af31a15906c3ac49f3ffc5503030c2e9babd8c5e37a6aff7a23c0d2_w640_q70.webp"
     },
     {
-      "id": 42823,
-      "title": "Federated Multi Agent Deep Learning and Neural Networks for Advanced Distributed Sensing in Wireless Networks",
-      "date": "2026-03-19",
-      "author": "Nadine Muller",
+      "id": 43466,
+      "title": "MST-Direct: Matching via Sinkhorn Transport for Multivariate Geostatistical Simulation with Complex Non-Linear Dependencies",
+      "date": "2026-03-20",
+      "author": "Tchalies Bachmann Schmitz",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/139f4585f46c092ca0ac28ae8eafa403682c200ebb7daeb6e04e33edee0c8c61_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e6659a47e94fe0573a36dbf0f974a1566db5b239098c64af48396658f1bdf5d2_w640_q70.webp"
     },
     {
-      "id": 42827,
-      "title": "A foundation model for electrodermal activity data",
-      "date": "2026-03-19",
-      "author": "Leonardo Alchieri",
+      "id": 43453,
+      "title": "Frayed RoPE and Long Inputs: A Geometric Perspective",
+      "date": "2026-03-20",
+      "author": "Davis Wertheimer",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,29 +128,29 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/691175951235384dbcbbbe1f124098a8487cf802782765b462a7f4f147de504c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a732b1545d6216c8135ba6906e2685173c7ec4c6d5e8f585b7c0b29fa134ff75_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 42822,
-      "title": "The Port-Hamiltonian Structure of Vehicle Manipulator Systems",
-      "date": "2026-03-19",
-      "author": "Ramy Rashad",
+      "id": 43444,
+      "title": "DynaRAG: Bridging Static and Dynamic Knowledge in Retrieval-Augmented Generation",
+      "date": "2026-03-20",
+      "author": "Penghao Liang",
       "tags": [
         {
-          "label": "cs.RO",
+          "label": "cs.CL",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/537f15c8e8382961488bf3bb0076d27b7ae1ef30202b6690fd9c8ea8182c481d_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/97c2232115d342d1ddeb959c87ad59b8472d087c4615759a4905f77b6fc0c26c_w640_q70.webp"
     },
     {
-      "id": 42821,
-      "title": "Enhancing Financial Report Question-Answering: A Retrieval-Augmented Generation System with Reranking Analysis",
-      "date": "2026-03-19",
-      "author": "Zhiyuan Cheng",
+      "id": 43440,
+      "title": "Agentic Framework for Political Biography Extraction",
+      "date": "2026-03-20",
+      "author": "Yifei Zhu",
       "tags": [
         {
           "label": "cs.CL",
@@ -158,13 +158,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d27afcc9da2b7337b7aba968fb651326ca37bc7781a973579efcd3d534fa967c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2fd48b9084784309cdb5e1f689000bb6af560cd92dc5d29deb7370406fd6a46c_w640_q70.webp"
     },
     {
-      "id": 42824,
-      "title": "Trust, Safety, and Accuracy: Assessing LLMs for Routine Maternity Advice",
-      "date": "2026-03-19",
-      "author": "V Sai Divya",
+      "id": 43441,
+      "title": "Learned but Not Expressed: Capability-Expression Dissociation in Large Language Models",
+      "date": "2026-03-20",
+      "author": "Toshiyuki Shigemura",
       "tags": [
         {
           "label": "cs.CL",
@@ -172,7 +172,7 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9e055228d4737f0f704a815746077d091cd241a42f9b44bb13ae393d166c1e85_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8fef1c61a517aa4486324536b8bae4cf4acc6fdf7b1ba28b914e6f47e11d301b_w640_q70.webp"
     }
   ]
 }

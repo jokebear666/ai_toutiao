@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 44505,
-      "title": "On the Ability of Transformers to Verify Plans",
-      "date": "2026-03-23",
-      "author": "Yash Sarrof",
+      "id": 45838,
+      "title": "CayleyPy-4: AI-Holography. Towards analogs of holographic string dualities for AI tasks",
+      "date": "2026-03-24",
+      "author": "A. Chervov",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/377ac6d1fa316a2d1945ab6e9c1faf67b02876a4d3f7e2d392cbf59a230ad1db_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/57b9291f00d625e183bd7436a70d97e772976e6d8df85f80a602aab301c5a1b0_w640_q70.webp"
     },
     {
-      "id": 44239,
-      "title": "When both Grounding and not Grounding are Bad -- A Partially Grounded Encoding of Planning into SAT (Extended Version)",
-      "date": "2026-03-23",
-      "author": "Jo\u00e3o Filipe",
+      "id": 45292,
+      "title": "A transformer architecture alteration to incentivise externalised reasoning",
+      "date": "2026-03-24",
+      "author": "Elizabeth Pavlova",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b26d014e063e15a396daf797a1e09237a87de92c09e0554e100416d873451bb7_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/55024a87f2302d5bc6dc748dd4f9507829de979ce264249d7f35c023e1cc83dd_w640_q70.webp"
     },
     {
-      "id": 44254,
-      "title": "Hyperagents",
-      "date": "2026-03-23",
-      "author": "Jenny Zhang",
+      "id": 45659,
+      "title": "GSEM: Graph-based Self-Evolving Memory for Experience Augmented Clinical Reasoning",
+      "date": "2026-03-24",
+      "author": "Xiao Han",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/acc17a3dde98a302b12bc4fae3880aef64b89d5fba5c8e40e084e62699b4e685_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d02042e738c58756f2335a4131b4c8e03b6445dbbb2bed17ff14f2f391dabec3_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 44446,
-      "title": "Enhancing Alignment for Unified Multimodal Models via Semantically-Grounded Supervision",
-      "date": "2026-03-23",
-      "author": "Jiyeong Kim",
+      "id": 44717,
+      "title": "Efficient AI-Driven Multi-Section Whole Slide Image Analysis for Biochemical Recurrence Prediction in Prostate Cancer",
+      "date": "2026-03-24",
+      "author": "Yesung Cho",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1dea39ca6b3866319444b751f5a61ff9350e2c20268e3f845c2f48b768ebf753_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/39011f95d070aeb020c43b681ee86068ba4dd3057613d378cec784db0b1bed6d_w640_q70.webp"
     },
     {
-      "id": 44668,
-      "title": "Layered Quantum Architecture Search for 3D Point Cloud Classification",
-      "date": "2026-03-23",
-      "author": "Natacha Kuete Meli",
+      "id": 44718,
+      "title": "Understanding Pruning Regimes in Vision-Language Models Through Domain-Aware Layer Selection",
+      "date": "2026-03-24",
+      "author": "Saeed Khaki",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2db5801c3475efff1764162bea7ecd0ccd2b7674c0e7a3b528e4a27abb7144b1_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/112c10a9447079041d197b67d2e1b9e1c5bab446c18b2d0d59c3d1d3bf785db2_w640_q70.webp"
     },
     {
-      "id": 44204,
-      "title": "Diffusion-Guided Semantic Consistency for Multimodal Heterogeneity",
-      "date": "2026-03-23",
-      "author": "Jing Liu",
+      "id": 44726,
+      "title": "Mix-and-Match Pruning: Globally Guided Layer-Wise Sparsification of DNNs",
+      "date": "2026-03-24",
+      "author": "Danial Monachan",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/492acab353f9f6da3f19243829f50d2baa6702d334ba3bd61b3517ae5a22346a_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/259baa184a24b5797101c6a3ac7609439642698ca808dabb0740db60edc388b8_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 44531,
-      "title": "A Super Fast K-means for Indexing Vector Embeddings",
-      "date": "2026-03-23",
-      "author": "Leonardo Kuffo",
+      "id": 45797,
+      "title": "Time-adaptive functional Gaussian Process regression",
+      "date": "2026-03-24",
+      "author": "MD Ruiz-Medina",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/359239e47fd1fb5bc248c87a9676c26ec7e725c44f79afd436a57e87478b8928_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cef88f297d432c4d4c3a957aad1a1df4cce20af4a1f9c571bb94dc605e819a96_w640_q70.webp"
     },
     {
-      "id": 44596,
-      "title": "Beyond Single Tokens: Distilling Discrete Diffusion Models via Discrete MMD",
-      "date": "2026-03-23",
-      "author": "Emiel Hoogeboom",
+      "id": 45836,
+      "title": "Data Curation for Machine Learning Interatomic Potentials by Determinantal Point Processes",
+      "date": "2026-03-24",
+      "author": "Joanna Zou",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e007d02e3afd3d4c01de0595e7dd658a42bbae50db90611a7c3428a7015bcd59_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ec5ca7473b89ef2a5d5b35d4b17075113c7bc15700eda2dcabada281b7cf651f_w640_q70.webp"
     },
     {
-      "id": 44164,
-      "title": "Speculating Experts Accelerates Inference for Mixture-of-Experts",
-      "date": "2026-03-23",
-      "author": "Vivan Madan",
+      "id": 44719,
+      "title": "JointFM-0.1: A Foundation Model for Multi-Target Joint Distributional Prediction",
+      "date": "2026-03-24",
+      "author": "Stefan Hackmann",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,15 +128,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/59a817c0c3b8d385b836042819e1c35c97e6e01e74e1275491e81beca3caba78_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d5bd66034cc081b47b3475821393a8e401c3d743d3e79d4b7508c26fd50455ab_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 44520,
-      "title": "Trojan's Whisper: Stealthy Manipulation of OpenClaw through Injected Bootstrapped Guidance",
-      "date": "2026-03-23",
-      "author": "Fazhong Liu",
+      "id": 45347,
+      "title": "Hardening Confidential Federated Compute against Side-channel Attacks",
+      "date": "2026-03-24",
+      "author": "James Bell-Clark",
       "tags": [
         {
           "label": "cs.CR",
@@ -144,35 +144,35 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a1e2f13c44fb8fb76f1ecbdb0dc0b93461845e7e9fd7152988b7a509e42b0d67_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/500cd07f3feee8b56d1b40fcd17b6e630788bb0261932ef048d82465bd988869_w640_q70.webp"
     },
     {
-      "id": 44134,
-      "title": "Can Structural Cues Save LLMs? Evaluating Language Models in Massive Document Streams",
-      "date": "2026-03-23",
-      "author": "Yukyung Lee",
+      "id": 44828,
+      "title": "An Open Source Computer Vision and Machine Learning Framework for Affordable Life Science Robotic Automation",
+      "date": "2026-03-24",
+      "author": "Zachary Logan",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.RO",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/11102a14655eccac10e2522b230deca7223c516dab2aa5fab85912027a71f576_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/89011ba4c2627cfa3c3922c58d4a3b6e308f2b5c2a719907c123bd92002dc4fe_w640_q70.webp"
     },
     {
-      "id": 44469,
-      "title": "Beyond detection: cooperative multi-agent reasoning for rapid onboard EO crisis response",
-      "date": "2026-03-23",
-      "author": "Alejandro D. Mousist",
+      "id": 45574,
+      "title": "Ara-Best-RQ: Multi Dialectal Arabic SSL",
+      "date": "2026-03-24",
+      "author": "Haroun Elleuch",
       "tags": [
         {
-          "label": "cs.RO",
+          "label": "cs.CL",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/196d082820a90795bf94a1cd8c4e97736c61d96444f597b3dd9563308daf85f0_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4339c42477ccb89c57ed1dd655881c87aba9d574c2eb0ddc9aa889edc817fa84_w640_q70.webp"
     }
   ]
 }

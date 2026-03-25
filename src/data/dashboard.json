@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 45838,
-      "title": "CayleyPy-4: AI-Holography. Towards analogs of holographic string dualities for AI tasks",
-      "date": "2026-03-24",
-      "author": "A. Chervov",
+      "id": 46024,
+      "title": "Benchmarking Multi-Agent LLM Architectures for Financial Document Processing: A Comparative Study of Orchestration Patterns, Cost-Accuracy Tradeoffs and Production Scaling Strategies",
+      "date": "2026-03-25",
+      "author": "Siddhant Kulkarni",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/57b9291f00d625e183bd7436a70d97e772976e6d8df85f80a602aab301c5a1b0_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/084e70d2c3c8c0b1bae63cff5d38253d69ebe803048950760086bfcd044ad360_w640_q70.webp"
     },
     {
-      "id": 45292,
-      "title": "A transformer architecture alteration to incentivise externalised reasoning",
-      "date": "2026-03-24",
-      "author": "Elizabeth Pavlova",
+      "id": 46356,
+      "title": "LLM Olympiad: Why Model Evaluation Needs a Sealed Exam",
+      "date": "2026-03-25",
+      "author": "Jan Christian Blaise Cruz",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/55024a87f2302d5bc6dc748dd4f9507829de979ce264249d7f35c023e1cc83dd_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/58cf093243eb0bb6dee0ea3f1d6c88b9e325b61ef5422eda0098908d38d8faef_w640_q70.webp"
     },
     {
-      "id": 45659,
-      "title": "GSEM: Graph-based Self-Evolving Memory for Experience Augmented Clinical Reasoning",
-      "date": "2026-03-24",
-      "author": "Xiao Han",
+      "id": 45857,
+      "title": "The Efficiency Attenuation Phenomenon: A Computational Challenge to the Language of Thought Hypothesis",
+      "date": "2026-03-25",
+      "author": "Di Zhang",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d02042e738c58756f2335a4131b4c8e03b6445dbbb2bed17ff14f2f391dabec3_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/517e289368bc298834f148f959c0d1ce94a5cac1ebfbac960d28846f5e705834_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 44717,
-      "title": "Efficient AI-Driven Multi-Section Whole Slide Image Analysis for Biochemical Recurrence Prediction in Prostate Cancer",
-      "date": "2026-03-24",
-      "author": "Yesung Cho",
+      "id": 46142,
+      "title": "Gau-Occ: Geometry-Completed Gaussians for Multi-Modal 3D Occupancy Prediction",
+      "date": "2026-03-25",
+      "author": "Chengxin Lv",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/39011f95d070aeb020c43b681ee86068ba4dd3057613d378cec784db0b1bed6d_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a46528e56bb324115a83a8f1b66d833b8e5ca0487f8b656ef870e4a48201bbc8_w640_q70.webp"
     },
     {
-      "id": 44718,
-      "title": "Understanding Pruning Regimes in Vision-Language Models Through Domain-Aware Layer Selection",
-      "date": "2026-03-24",
-      "author": "Saeed Khaki",
+      "id": 46223,
+      "title": "Cog3DMap: Multi-View Vision-Language Reasoning with 3D Cognitive Maps",
+      "date": "2026-03-25",
+      "author": "Chanyoung Gwak",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/112c10a9447079041d197b67d2e1b9e1c5bab446c18b2d0d59c3d1d3bf785db2_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3972f3fed8845ab5953639c59a0c41e4b68b0376dd5e97f6376459e14b19b48c_w640_q70.webp"
     },
     {
-      "id": 44726,
-      "title": "Mix-and-Match Pruning: Globally Guided Layer-Wise Sparsification of DNNs",
-      "date": "2026-03-24",
-      "author": "Danial Monachan",
+      "id": 46023,
+      "title": "MAGICIAN: Efficient Long-Term Planning with Imagined Gaussians for Active Mapping",
+      "date": "2026-03-25",
+      "author": "Shiyao Li",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/259baa184a24b5797101c6a3ac7609439642698ca808dabb0740db60edc388b8_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/56edb377fc69736d740ee48433f4747f52250a0867ee6395df82906f9061f3fb_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 45797,
-      "title": "Time-adaptive functional Gaussian Process regression",
-      "date": "2026-03-24",
-      "author": "MD Ruiz-Medina",
+      "id": 45866,
+      "title": "Bridging the Gap Between Climate Science and Machine Learning in Climate Model Emulation",
+      "date": "2026-03-25",
+      "author": "Luca Schmidt",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cef88f297d432c4d4c3a957aad1a1df4cce20af4a1f9c571bb94dc605e819a96_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b541d3702ea88db5abcad50cc8383628c8875620af649fa4e943db3cfa8092e9_w640_q70.webp"
     },
     {
-      "id": 45836,
-      "title": "Data Curation for Machine Learning Interatomic Potentials by Determinantal Point Processes",
-      "date": "2026-03-24",
-      "author": "Joanna Zou",
+      "id": 45871,
+      "title": "DAQ: Delta-Aware Quantization for Post-Training LLM Weight Compression",
+      "date": "2026-03-25",
+      "author": "Xiaoming Yu",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ec5ca7473b89ef2a5d5b35d4b17075113c7bc15700eda2dcabada281b7cf651f_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4842aacc1e2f396ea9b5ae96bd22920796cb9abcece790bdca5023b7abf4cd1b_w640_q70.webp"
     },
     {
-      "id": 44719,
-      "title": "JointFM-0.1: A Foundation Model for Multi-Target Joint Distributional Prediction",
-      "date": "2026-03-24",
-      "author": "Stefan Hackmann",
+      "id": 45872,
+      "title": "Enhancing AI-Based Tropical Cyclone Track and Intensity Forecasting via Systematic Bias Correction",
+      "date": "2026-03-25",
+      "author": "Peisong Niu",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,15 +128,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d5bd66034cc081b47b3475821393a8e401c3d743d3e79d4b7508c26fd50455ab_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fa2cdc27ca31724999e23e3fa067a10d3a1e398f10ce592466bfb94b360b91c0_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 45347,
-      "title": "Hardening Confidential Federated Compute against Side-channel Attacks",
-      "date": "2026-03-24",
-      "author": "James Bell-Clark",
+      "id": 46137,
+      "title": "Secure Two-Party Matrix Multiplication from Lattices and Its Application to Encrypted Control",
+      "date": "2026-03-25",
+      "author": "Kaoru Teranishi",
       "tags": [
         {
           "label": "cs.CR",
@@ -144,27 +144,27 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/500cd07f3feee8b56d1b40fcd17b6e630788bb0261932ef048d82465bd988869_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b8f2afdb1e45de4c285de8605ccebd46252e940bd26fe3655427454fc6f3270c_w640_q70.webp"
     },
     {
-      "id": 44828,
-      "title": "An Open Source Computer Vision and Machine Learning Framework for Affordable Life Science Robotic Automation",
-      "date": "2026-03-24",
-      "author": "Zachary Logan",
+      "id": 46285,
+      "title": "Why AI-Generated Text Detection Fails: Evidence from Explainable AI Beyond Benchmark Accuracy",
+      "date": "2026-03-25",
+      "author": "Shushanta Pudasaini",
       "tags": [
         {
-          "label": "cs.RO",
+          "label": "cs.CL",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/89011ba4c2627cfa3c3922c58d4a3b6e308f2b5c2a719907c123bd92002dc4fe_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8ad4f13f22e7010cdb9e42817ada7b8c83af979d91eb9376277cbc8d8ca756fb_w640_q70.webp"
     },
     {
-      "id": 45574,
-      "title": "Ara-Best-RQ: Multi Dialectal Arabic SSL",
-      "date": "2026-03-24",
-      "author": "Haroun Elleuch",
+      "id": 45846,
+      "title": "Evaluating Large Language Models' Responses to Sexual and Reproductive Health Queries in Nepali",
+      "date": "2026-03-25",
+      "author": "Medha Sharma",
       "tags": [
         {
           "label": "cs.CL",
@@ -172,7 +172,7 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4339c42477ccb89c57ed1dd655881c87aba9d574c2eb0ddc9aa889edc817fa84_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/08a3326aa11a9743649719ea37f6d98abe28598c8844410d8ff05b5a3d4dcdf2_w640_q70.webp"
     }
   ]
 }

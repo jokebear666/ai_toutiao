@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 46539,
-      "title": "PLDR-LLMs Reason At Self-Organized Criticality",
-      "date": "2026-03-26",
-      "author": "Burc Gokden",
+      "id": 47201,
+      "title": "On the Foundations of Trustworthy Artificial Intelligence",
+      "date": "2026-03-27",
+      "author": "TJ Dunham",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b065ab35a5ea0f7e89c93eace1c40e72e9c1da78d4b9f2e115ef1cb5e432bc97_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b38af6718b7e832294ecf1cdbf35ebac37c7919ab7d9aaf8bc98bc28f1d3798b_w640_q70.webp"
     },
     {
-      "id": 46563,
-      "title": "Environment Maps: Structured Environmental Representations for Long-Horizon Agents",
-      "date": "2026-03-26",
-      "author": "Yenchia Feng",
+      "id": 47081,
+      "title": "ARC-AGI-3: A New Challenge for Frontier Agentic Intelligence",
+      "date": "2026-03-27",
+      "author": "ARC Prize Foundation",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ff6ba8aec395c9e8c5ec25a0da7771c6147d5abaec69afbe5b14538779bd1ece_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4873d9960e0fad3cb165e5f20c340489b3ed9629750c4e3086acbdc99e484e36_w640_q70.webp"
     },
     {
-      "id": 46568,
-      "title": "Evaluating a Multi-Agent Voice-Enabled Smart Speaker for Care Homes: A Safety-Focused Framework",
-      "date": "2026-03-26",
-      "author": "Zeinab Dehghani",
+      "id": 47100,
+      "title": "When Is Collective Intelligence a Lottery? Multi-Agent Scaling Laws for Memetic Drift in LLMs",
+      "date": "2026-03-27",
+      "author": "Hidenori Tanaka",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f396561439ec4b5bfc9271f7e8ae921d9c35ebd284493af4e715cb63bde6a436_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/17ee55b850a7cd0d4c7bead0dd27c051829483affe47fbf58b3544e241c721ab_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 46650,
-      "title": "Re-Prompting SAM 3 via Object Retrieval: 3rd of the 5th PVUW MOSE Track",
-      "date": "2026-03-26",
-      "author": "Mingqi Gao",
+      "id": 47291,
+      "title": "Learning Explicit Continuous Motion Representation for Dynamic Gaussian Splatting from Monocular Videos",
+      "date": "2026-03-27",
+      "author": "Xuankai Zhang",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/905fe126ea8494fb65c7f12397bc40e50ea80f3b3f744b8e821d6ed8e260239d_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3b73372aef979bb71584d9b52cac7844bcd8939628fc7e64a6d3084b599e5c00_w640_q70.webp"
     },
     {
-      "id": 46570,
-      "title": "Ukrainian Visual Word Sense Disambiguation Benchmark",
-      "date": "2026-03-26",
-      "author": "Yurii Laba",
+      "id": 47096,
+      "title": "MedOpenClaw: Auditable Medical Imaging Agents Reasoning over Uncurated Full Studies",
+      "date": "2026-03-27",
+      "author": "Weixiang Shen",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/961c9f6fabbfbb69aa7b7e96bf82c00f0368e2474799eff6eb025af5e22513a0_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ecc1303fa8b4344be98b0927478820ea11b45d990b80b14311937925aca82821_w640_q70.webp"
     },
     {
-      "id": 46564,
-      "title": "LongTail Driving Scenarios with Reasoning Traces: The KITScenes LongTail Dataset",
-      "date": "2026-03-26",
-      "author": "Royden Wagner",
+      "id": 47099,
+      "title": "KitchenTwin: Semantically and Geometrically Grounded 3D Kitchen Digital Twins",
+      "date": "2026-03-27",
+      "author": "Quanyun Wu",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/13352df313d866d1eb34bee53918ecaddbd74248bb963cfba539d342a9cfb6a1_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e5f5bf32cea8c61eb3f6f7ea29206bf86a5487563087dfd75de23e82239ba5c1_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 46872,
-      "title": "Identification of NMF by choosing maximum-volume basis vectors",
-      "date": "2026-03-26",
-      "author": "Qianqian Qi",
+      "id": 47282,
+      "title": "The Order Is The Message",
+      "date": "2026-03-27",
+      "author": "Jordan LeDoux",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/bffa6893b3768f45847977f704e8ce53ed0a24b9d690e0eef2d260da2eaa1dfa_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ceb31ee9f07498c09d9473d311735426f691c69c114016e1642e181e3f5ab350_w640_q70.webp"
     },
     {
-      "id": 46657,
-      "title": "Deep Neural Regression Collapse",
-      "date": "2026-03-26",
-      "author": "Akshay Rangamani",
+      "id": 47149,
+      "title": "Local learning for stable backpropagation-free neural network training towards physical learning",
+      "date": "2026-03-27",
+      "author": "Yaqi Guo",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/24f798ebb74f93298c0678488eab27564b07f3fec6892af86654788672e4b524_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e726391fd33a9d6aee5f20c023a9cd3203dbf7553d46c69a300a4976be7cb856_w640_q70.webp"
     },
     {
-      "id": 46520,
-      "title": "Beyond Accuracy: Introducing a Symbolic-Mechanistic Approach to Interpretable Evaluation",
-      "date": "2026-03-26",
-      "author": "Reza Habibi",
+      "id": 47087,
+      "title": "Experiential Reflective Learning for Self-Improving LLM Agents",
+      "date": "2026-03-27",
+      "author": "Marc-Antoine Allard",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,29 +128,29 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2dad5d918132fb9786e40d5379b4c81eb47b3ee10a1466ae72f76dce913511a5_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a18ffc485a7c832677e19d4ff779266e9717e27322e4371e55449f9364dff699_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 47001,
-      "title": "A Sociolinguistic Analysis of Automatic Speech Recognition Bias in Newcastle English",
-      "date": "2026-03-26",
-      "author": "Dana Serditova",
+      "id": 47202,
+      "title": "Integrated Multi-Drone Task Allocation, Sequencing, and Optimal Trajectory Generation in Obstacle-Rich 3D Environments",
+      "date": "2026-03-27",
+      "author": "Yunes Alqudsi",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.RO",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d9008536cbab3eebe705eb47afd7ac81ffe44ea380e0f2412426136d9fdf3385_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3247f00d6290b74f357290d15c9d208997f164f9d2b9b57540d3bcd7d02fa251_w640_q70.webp"
     },
     {
-      "id": 46603,
-      "title": "Learning What Can Be Picked: Active Reachability Estimation for Efficient Robotic Fruit Harvesting",
-      "date": "2026-03-26",
-      "author": "Nur Afsa Syeda",
+      "id": 47327,
+      "title": "Dissimilarity-Based Persistent Coverage Control of Multi-Robot Systems for Improving Solar Irradiance Prediction Accuracy in Solar Thermal Power Plants",
+      "date": "2026-03-27",
+      "author": "Haruki Kawase",
       "tags": [
         {
           "label": "cs.RO",
@@ -158,21 +158,21 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/39e294f9d6ad1a4bb128dffb9c7852061246423a43ac1fa37160ed605708aadb_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/75927e28753cf32ba203d920af4e94ce6dd3254e244eef8121d4927a360c5bc1_w640_q70.webp"
     },
     {
-      "id": 46618,
-      "title": "Form-Fitting, Large-Area Sensor Mounting for Obstacle Detection",
-      "date": "2026-03-26",
-      "author": "Anna Soukhovei",
+      "id": 47333,
+      "title": "Goodness-of-pronunciation without phoneme time alignment",
+      "date": "2026-03-27",
+      "author": "Jeremy H. M. Wong",
       "tags": [
         {
-          "label": "cs.RO",
+          "label": "cs.CL",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/94f119d15591ff33c64cf8812d2837184c22acab5639176cc292178a67cc799d_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0541e483952372c0dd44467fe70ac6202f227924146ecbe9c7dc0eb56947d962_w640_q70.webp"
     }
   ]
 }

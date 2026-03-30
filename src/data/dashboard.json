@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 47201,
-      "title": "On the Foundations of Trustworthy Artificial Intelligence",
-      "date": "2026-03-27",
-      "author": "TJ Dunham",
+      "id": 47656,
+      "title": "BeSafe-Bench: Unveiling Behavioral Safety Risks of Situated Agents in Functional Environments",
+      "date": "2026-03-30",
+      "author": "Yuxuan Li",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b38af6718b7e832294ecf1cdbf35ebac37c7919ab7d9aaf8bc98bc28f1d3798b_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ceb534ca001dd9323ae7db2ef534c69118a41824593f1c911f2884da59a19ca1_w640_q70.webp"
     },
     {
-      "id": 47081,
-      "title": "ARC-AGI-3: A New Challenge for Frontier Agentic Intelligence",
-      "date": "2026-03-27",
-      "author": "ARC Prize Foundation",
+      "id": 48099,
+      "title": "Beyond identifiability: Learning causal representations with few environments and finite samples",
+      "date": "2026-03-30",
+      "author": "Inbeom Lee",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4873d9960e0fad3cb165e5f20c340489b3ed9629750c4e3086acbdc99e484e36_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/33c55582e7e67405eb90e390a5f83b860994430496f7e3d1c2b40f3bf4ebaebe_w640_q70.webp"
     },
     {
-      "id": 47100,
-      "title": "When Is Collective Intelligence a Lottery? Multi-Agent Scaling Laws for Memetic Drift in LLMs",
-      "date": "2026-03-27",
-      "author": "Hidenori Tanaka",
+      "id": 48107,
+      "title": "Longitudinal Boundary Sharpness Coefficient Slopes Predict Time to Alzheimer's Disease Conversion in Mild Cognitive Impairment: A Survival Analysis Using the ADNI Cohort",
+      "date": "2026-03-30",
+      "author": "Ishaan Cherukuri",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/17ee55b850a7cd0d4c7bead0dd27c051829483affe47fbf58b3544e241c721ab_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/79f66973d681b66c9d902155fbde281ccadbd6195cb0804e8f8342bcde3d10c5_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 47291,
-      "title": "Learning Explicit Continuous Motion Representation for Dynamic Gaussian Splatting from Monocular Videos",
-      "date": "2026-03-27",
-      "author": "Xuankai Zhang",
+      "id": 47654,
+      "title": "A Survey of OCR Evaluation Methods and Metrics and the Invisibility of Historical Documents",
+      "date": "2026-03-30",
+      "author": "Fitsum Sileshi Beyene",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3b73372aef979bb71584d9b52cac7844bcd8939628fc7e64a6d3084b599e5c00_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/66289a6c34f4a4f3736c6245ef92dc95254e6f4ecfdbe4d8d1e498ed156de202_w640_q70.webp"
     },
     {
-      "id": 47096,
-      "title": "MedOpenClaw: Auditable Medical Imaging Agents Reasoning over Uncurated Full Studies",
-      "date": "2026-03-27",
-      "author": "Weixiang Shen",
+      "id": 47655,
+      "title": "Evaluating Synthetic Images as Effective Substitutes for Experimental Data in Surface Roughness Classification",
+      "date": "2026-03-30",
+      "author": "Binwei Chen",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ecc1303fa8b4344be98b0927478820ea11b45d990b80b14311937925aca82821_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8a939ef338847f39989883470aad7c477d02f657e4d03357f4b17582525577c2_w640_q70.webp"
     },
     {
-      "id": 47099,
-      "title": "KitchenTwin: Semantically and Geometrically Grounded 3D Kitchen Digital Twins",
-      "date": "2026-03-27",
-      "author": "Quanyun Wu",
+      "id": 47701,
+      "title": "Speech-Synchronized Whiteboard Generation via VLM-Driven Structured Drawing Representations",
+      "date": "2026-03-30",
+      "author": "Suraj Prasad",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e5f5bf32cea8c61eb3f6f7ea29206bf86a5487563087dfd75de23e82239ba5c1_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/dda4b6742ca7f2767da60bdd74fd15ca857d8a9e41b57ce56eebc2cb72c4b4a4_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 47282,
-      "title": "The Order Is The Message",
-      "date": "2026-03-27",
-      "author": "Jordan LeDoux",
+      "id": 47840,
+      "title": "TinyML for Acoustic Anomaly Detection in IoT Sensor Networks",
+      "date": "2026-03-30",
+      "author": "Amar Almaini",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ceb31ee9f07498c09d9473d311735426f691c69c114016e1642e181e3f5ab350_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1eb22d3d1c10d12ced5e6ace4c8aa97b5627d262d1c85049e0826d4fc57cbf9d_w640_q70.webp"
     },
     {
-      "id": 47149,
-      "title": "Local learning for stable backpropagation-free neural network training towards physical learning",
-      "date": "2026-03-27",
-      "author": "Yaqi Guo",
+      "id": 48131,
+      "title": "Kantorovich--Kernel Neural Operators: Approximation Theory, Asymptotics, and Neural Network Interpretation",
+      "date": "2026-03-30",
+      "author": "Tian-Xiao He",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e726391fd33a9d6aee5f20c023a9cd3203dbf7553d46c69a300a4976be7cb856_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/dc9910ba89d176cd8516535e1c077f4f539f9ee9cf790d8e7c2cb2990e2417df_w640_q70.webp"
     },
     {
-      "id": 47087,
-      "title": "Experiential Reflective Learning for Self-Improving LLM Agents",
-      "date": "2026-03-27",
-      "author": "Marc-Antoine Allard",
+      "id": 47669,
+      "title": "Empowering Epidemic Response: The Role of Reinforcement Learning in Infectious Disease Control",
+      "date": "2026-03-30",
+      "author": "Mutong Liu",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,43 +128,43 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a18ffc485a7c832677e19d4ff779266e9717e27322e4371e55449f9364dff699_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0fc824a851b3c49f4f1d8d5608af8eb8f0304b77f8d0e1ac117fed91e7aafb72_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 47202,
-      "title": "Integrated Multi-Drone Task Allocation, Sequencing, and Optimal Trajectory Generation in Obstacle-Rich 3D Environments",
-      "date": "2026-03-27",
-      "author": "Yunes Alqudsi",
+      "id": 47667,
+      "title": "IncreRTL: Traceability-Guided Incremental RTL Generation under Requirement Evolution",
+      "date": "2026-03-30",
+      "author": "Luanrong Chen",
       "tags": [
         {
-          "label": "cs.RO",
+          "label": "cs.SE",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3247f00d6290b74f357290d15c9d208997f164f9d2b9b57540d3bcd7d02fa251_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cff333f53251f1b7285adbb861a216e3c0ee54293feac6f4e5a3104e270261ee_w640_q70.webp"
     },
     {
-      "id": 47327,
-      "title": "Dissimilarity-Based Persistent Coverage Control of Multi-Robot Systems for Improving Solar Irradiance Prediction Accuracy in Solar Thermal Power Plants",
-      "date": "2026-03-27",
-      "author": "Haruki Kawase",
+      "id": 47653,
+      "title": "Relational graph-driven differential denoising and diffusion attention fusion for multimodal conversation emotion recognition",
+      "date": "2026-03-30",
+      "author": "Ying Liu",
       "tags": [
         {
-          "label": "cs.RO",
+          "label": "cs.CL",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/75927e28753cf32ba203d920af4e94ce6dd3254e244eef8121d4927a360c5bc1_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2369728e072140fbbc4ef5f5ff5d26e65014a3d5a57fb3193042f4588e35bc9f_w640_q70.webp"
     },
     {
-      "id": 47333,
-      "title": "Goodness-of-pronunciation without phoneme time alignment",
-      "date": "2026-03-27",
-      "author": "Jeremy H. M. Wong",
+      "id": 48039,
+      "title": "MemBoost: A Memory-Boosted Framework for Cost-Aware LLM Inference",
+      "date": "2026-03-30",
+      "author": "Joris K\u00f6ster",
       "tags": [
         {
           "label": "cs.CL",
@@ -172,7 +172,7 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0541e483952372c0dd44467fe70ac6202f227924146ecbe9c7dc0eb56947d962_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ecc69bacf91e22559db245df41b97a9d3d49c23bd52b07240d64aac8f5f89c14_w640_q70.webp"
     }
   ]
 }

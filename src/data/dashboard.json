@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 49319,
-      "title": "MRI-to-CT synthesis using drifting models",
-      "date": "2026-03-31",
-      "author": "Qing Lyu",
+      "id": 49725,
+      "title": "Optimizing Donor Outreach for Blood Collection Sessions: A Scalable Decision Support Framework",
+      "date": "2026-04-01",
+      "author": "Andr\u00e9 Carneiro",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/562583f9d06a93e64f29aef7f2fda3d8cef16dc8280e0f6310f9aada05cd1f60_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3db0c5e23cf5c41ae1b05cef42b33f9660867b08c514db4753821dbbe795aecf_w640_q70.webp"
     },
     {
-      "id": 49303,
-      "title": "Q-DIVER: Integrated Quantum Transfer Learning and Differentiable Quantum Architecture Search with EEG Data",
-      "date": "2026-03-31",
-      "author": "Junghoon Justin Park",
+      "id": 49742,
+      "title": "Beyond the Steeper Curve: AI-Mediated Metacognitive Decoupling and the Limits of the Dunning-Kruger Metaphor",
+      "date": "2026-04-01",
+      "author": "Christopher Koch",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/234df1271f157b84e143764a976da4374747d4ffa1230a2f885c0f9ac92ed9b7_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a7dfdf23eb4137bc646fa41710a18ff9899b4c889004e1ad69629943e6fac57a_w640_q70.webp"
     },
     {
-      "id": 48642,
-      "title": "From indicators to biology: the calibration problem in artificial consciousness",
-      "date": "2026-03-31",
-      "author": "Florentin Koch",
+      "id": 49501,
+      "title": "SimMOF: AI agent for Automated MOF Simulations",
+      "date": "2026-04-01",
+      "author": "Jaewoong Lee",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/03b6128e6cb00dad75629bb7f278db7e8d80d1b8cfaa7f3cd76d7f272304d88f_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a362bfb6c9d03e97e61f7fd6a161146602c322958ba7c377caf517af7b7a76a2_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 48715,
-      "title": "AI-Powered Facial Mask Removal Is Not Suitable For Biometric Identification",
-      "date": "2026-03-31",
-      "author": "Emily A Cooper",
+      "id": 49387,
+      "title": "Decoding Functional Networks for Visual Categories via GNNs",
+      "date": "2026-04-01",
+      "author": "Shira Karmi",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/edb9b73ca4a80ac47afbb218c12bab8fe4178f6dc9415e57de57601b00cc2221_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/829977624841346c1114134ad4e4235760baf06ef40e4e7b65bf243673650c89_w640_q70.webp"
     },
     {
-      "id": 48184,
-      "title": "Beyond Static Visual Tokens: Structured Sequential Visual Chain-of-Thought Reasoning",
-      "date": "2026-03-31",
-      "author": "Guangfu Guo",
+      "id": 49875,
+      "title": "NeuroBRIDGE: Behavior-Conditioned Koopman Dynamics with Riemannian Alignment for Early Substance Use Initiation Prediction from Longitudinal Functional Connectome",
+      "date": "2026-04-01",
+      "author": "Badhan Mazumder",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/11936df5cbb1792515a038f425134dda5b09e3142f5eb31312d11d86f011d8cb_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d56db48ac1022506ed4dcf193b74a0a34d384180a9bc4e850493f58e4b8f0440_w640_q70.webp"
     },
     {
-      "id": 48174,
-      "title": "A Multimodal Deep Learning Framework for Edema Classification Using HCT and Clinical Data",
-      "date": "2026-03-31",
-      "author": "Aram Ansary Ogholbake",
+      "id": 49333,
+      "title": "DF-ACBlurGAN: Structure-Aware Conditional Generation of Internally Repeated Patterns for Biomaterial Microtopography Design",
+      "date": "2026-04-01",
+      "author": "Rongjun Dong",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ee5e821e364a323a405f4da3b9b743b5e53b820d9d6874b05d71a6c42950b170_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/46d87054dfa72dcdab25e2531ee9f7cd04c78d10c0802c3b89a225bc2595cd13_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 49304,
-      "title": "Nonlinear Factor Decomposition via Kolmogorov-Arnold Networks: A Spectral Approach to Asset Return Analysis",
-      "date": "2026-03-31",
-      "author": "David Breazu",
+      "id": 49365,
+      "title": "OneComp: One-Line Revolution for Generative AI Model Compression",
+      "date": "2026-04-01",
+      "author": "Yuma Ichikawa",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d0144d605d2906633d5adfdaa3e60f0f7342ee32377964ae6ee51a6cf9846b47_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8de636fbe9965602763d460bd26cdb1f50c99fcc5b22f93d1f1c29263df80dae_w640_q70.webp"
     },
     {
-      "id": 48147,
-      "title": "Mitigating Forgetting in Continual Learning with Selective Gradient Projection",
-      "date": "2026-03-31",
-      "author": "Anika Singh",
+      "id": 49382,
+      "title": "Structural Pass Analysis in Football: Learning Pass Archetypes and Tactical Impact from Spatio-Temporal Tracking Data",
+      "date": "2026-04-01",
+      "author": "Oktay Karaku\u015f",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e1c1e557b33d69b8f2ff2b89f4a7ae31baceaf5e9b734916ade2b3c02e117a70_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/579ac2aa8dbf9414d55e92a54cc7d337645e114e487be0298b3b765d6fd68a1a_w640_q70.webp"
     },
     {
-      "id": 48171,
-      "title": "Boundary-aware Prototype-driven Adversarial Alignment for Cross-Corpus EEG Emotion Recognition",
-      "date": "2026-03-31",
-      "author": "Guangli Li",
+      "id": 49390,
+      "title": "Beta-Scheduling: Momentum from Critical Damping as a Diagnostic and Correction Tool for Neural Network Training",
+      "date": "2026-04-01",
+      "author": "Ivan Pasichnyk",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,29 +128,29 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8af8c062465bb3c8e3f9fd0655a872af6ed566f4f29de71a647abd88df441f6b_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7cc8d207cad2819e00202c5f3d6f1dd440c1b42d1e5633afe4aaa33e4c8babd2_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 48493,
-      "title": "Where-to-Learn: Analytical Policy Gradient Directed Exploration for On-Policy Robotic Reinforcement Learning",
-      "date": "2026-03-31",
-      "author": "Leixin Chang",
+      "id": 49438,
+      "title": "An Empirical Recipe for Universal Phone Recognition",
+      "date": "2026-04-01",
+      "author": "Shikhar Bharadwaj",
       "tags": [
         {
-          "label": "cs.RO",
+          "label": "cs.CL",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d0b8fa50ba15185d7d8ed538535b459f472bc9d54a37bbe294e4808764f7f155_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a11bfc84993cc737ef4db45b3ba0108c9ab2abefb4e8937725364ee7d3533260_w640_q70.webp"
     },
     {
-      "id": 48765,
-      "title": "What can LLMs tell us about the mechanisms behind polarity illusions in humans? Experiments across model scales and training steps",
-      "date": "2026-03-31",
-      "author": "Dario Paape",
+      "id": 49448,
+      "title": "On the limited utility of parallel data for learning shared multilingual representations",
+      "date": "2026-04-01",
+      "author": "Julius Leino",
       "tags": [
         {
           "label": "cs.CL",
@@ -158,13 +158,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fbcfa8bf81495a44d9a02d673aa50eaf476a36bc07b6ef7a701c46ee55840c6b_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b88e2d2d2a78588bbf85b8441f61b1cf545275b4b999dc08dc80a9fa72151675_w640_q70.webp"
     },
     {
-      "id": 48772,
-      "title": "HumMusQA: A Human-written Music Understanding QA Benchmark Dataset",
-      "date": "2026-03-31",
-      "author": "Benno Weck",
+      "id": 49463,
+      "title": "APEX-EM: Non-Parametric Online Learning for Autonomous Agents via Structured Procedural-Episodic Experience Replay",
+      "date": "2026-04-01",
+      "author": "Pratyay Banerjee",
       "tags": [
         {
           "label": "cs.CL",
@@ -172,7 +172,7 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7e17e04a3ac42690977f559d8ec661074b5b837bc02198b1807852a8d892a5bb_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b26ae5cc40410453fadee5078da17cb42b85739073d97abdd018fd222e9eef48_w640_q70.webp"
     }
   ]
 }

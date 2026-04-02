@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 49725,
-      "title": "Optimizing Donor Outreach for Blood Collection Sessions: A Scalable Decision Support Framework",
-      "date": "2026-04-01",
-      "author": "Andr\u00e9 Carneiro",
+      "id": 49973,
+      "title": "How Emotion Shapes the Behavior of LLMs and Agents: A Mechanistic Study",
+      "date": "2026-04-02",
+      "author": "Moran Sun",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3db0c5e23cf5c41ae1b05cef42b33f9660867b08c514db4753821dbbe795aecf_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f3299c4c8bd573c7c127e8bfefedf8b4b2d2a4e149dc071d77e40570895fc267_w640_q70.webp"
     },
     {
-      "id": 49742,
-      "title": "Beyond the Steeper Curve: AI-Mediated Metacognitive Decoupling and the Limits of the Dunning-Kruger Metaphor",
-      "date": "2026-04-01",
-      "author": "Christopher Koch",
+      "id": 50017,
+      "title": "One Panel Does Not Fit All: Case-Adaptive Multi-Agent Deliberation for Clinical Prediction",
+      "date": "2026-04-02",
+      "author": "Yuxing Lu",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a7dfdf23eb4137bc646fa41710a18ff9899b4c889004e1ad69629943e6fac57a_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3cd06b6fd4f67162bbbc0a3f2a137b08aa808eb79f5f22fff40eb8f7b1244b55_w640_q70.webp"
     },
     {
-      "id": 49501,
-      "title": "SimMOF: AI agent for Automated MOF Simulations",
-      "date": "2026-04-01",
-      "author": "Jaewoong Lee",
+      "id": 50036,
+      "title": "Open, Reliable, and Collective: A Community-Driven Framework for Tool-Using AI Agents",
+      "date": "2026-04-02",
+      "author": "Hy Dang",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a362bfb6c9d03e97e61f7fd6a161146602c322958ba7c377caf517af7b7a76a2_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5a295f6137fafc56ad9aee6297b852a1494d47d6240f908762c4b85c42dfe741_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 49387,
-      "title": "Decoding Functional Networks for Visual Categories via GNNs",
-      "date": "2026-04-01",
-      "author": "Shira Karmi",
+      "id": 50022,
+      "title": "Hierarchical Pre-Training of Vision Encoders with Large Language Models",
+      "date": "2026-04-02",
+      "author": "Eugene Lee",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/829977624841346c1114134ad4e4235760baf06ef40e4e7b65bf243673650c89_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/489f8443e24047322f24f415d275062cf3fd47bc3e874738e5ec0199c2bac75f_w640_q70.webp"
     },
     {
-      "id": 49875,
-      "title": "NeuroBRIDGE: Behavior-Conditioned Koopman Dynamics with Riemannian Alignment for Early Substance Use Initiation Prediction from Longitudinal Functional Connectome",
-      "date": "2026-04-01",
-      "author": "Badhan Mazumder",
+      "id": 50026,
+      "title": "RawGen: Learning Camera Raw Image Generation",
+      "date": "2026-04-02",
+      "author": "Dongyoung Kim",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d56db48ac1022506ed4dcf193b74a0a34d384180a9bc4e850493f58e4b8f0440_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ca6b188188d75ca3282e9d12da54e260543e86aa319a1d61c890e3dc71f038a6_w640_q70.webp"
     },
     {
-      "id": 49333,
-      "title": "DF-ACBlurGAN: Structure-Aware Conditional Generation of Internally Repeated Patterns for Biomaterial Microtopography Design",
-      "date": "2026-04-01",
-      "author": "Rongjun Dong",
+      "id": 50049,
+      "title": "Q-Mask: Query-driven Causal Masks for Text Anchoring in OCR-Oriented Vision-Language Models",
+      "date": "2026-04-02",
+      "author": "Longwei Xu",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/46d87054dfa72dcdab25e2531ee9f7cd04c78d10c0802c3b89a225bc2595cd13_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/216ad968c4cb9554f0a8a99bee11dc1eeea352ddc49566918667ff3ea6762d36_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 49365,
-      "title": "OneComp: One-Line Revolution for Generative AI Model Compression",
-      "date": "2026-04-01",
-      "author": "Yuma Ichikawa",
+      "id": 50020,
+      "title": "Learning to Play Blackjack: A Curriculum Learning Perspective",
+      "date": "2026-04-02",
+      "author": "Amirreza Alasti",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8de636fbe9965602763d460bd26cdb1f50c99fcc5b22f93d1f1c29263df80dae_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3efc59ebc103da2cca2dcbb2b785eaf953073a3a1e8b64c2464e973256313a7f_w640_q70.webp"
     },
     {
-      "id": 49382,
-      "title": "Structural Pass Analysis in Football: Learning Pass Archetypes and Tactical Impact from Spatio-Temporal Tracking Data",
-      "date": "2026-04-01",
-      "author": "Oktay Karaku\u015f",
+      "id": 49978,
+      "title": "Two-Stage Optimizer-Aware Online Data Selection for Large Language Models",
+      "date": "2026-04-02",
+      "author": "Fangxin Wang",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/579ac2aa8dbf9414d55e92a54cc7d337645e114e487be0298b3b765d6fd68a1a_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ed2129cea6384f33a666ee689ff5c196063430e795397bb4fedc4280547380a7_w640_q70.webp"
     },
     {
-      "id": 49390,
-      "title": "Beta-Scheduling: Momentum from Critical Damping as a Diagnostic and Correction Tool for Neural Network Training",
-      "date": "2026-04-01",
-      "author": "Ivan Pasichnyk",
+      "id": 50001,
+      "title": "Task-Centric Personalized Federated Fine-Tuning of Language Models",
+      "date": "2026-04-02",
+      "author": "Gabriel U. Talasso",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,15 +128,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7cc8d207cad2819e00202c5f3d6f1dd440c1b42d1e5633afe4aaa33e4c8babd2_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/78778d3da1a12646d675da750122132d70c3f3bb326ac63820c1904fe618d07f_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 49438,
-      "title": "An Empirical Recipe for Universal Phone Recognition",
-      "date": "2026-04-01",
-      "author": "Shikhar Bharadwaj",
+      "id": 49969,
+      "title": "Can LLMs Perceive Time? An Empirical Investigation",
+      "date": "2026-04-02",
+      "author": "Aniketh Garikaparthi",
       "tags": [
         {
           "label": "cs.CL",
@@ -144,13 +144,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a11bfc84993cc737ef4db45b3ba0108c9ab2abefb4e8937725364ee7d3533260_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/865ceb104860f3f1bb3ba4d80cb163136d8bc750fac97e5139fae578fa714972_w640_q70.webp"
     },
     {
-      "id": 49448,
-      "title": "On the limited utility of parallel data for learning shared multilingual representations",
-      "date": "2026-04-01",
-      "author": "Julius Leino",
+      "id": 50276,
+      "title": "English to Central Kurdish Speech Translation: Corpus Creation, Evaluation, and Orthographic Standardization",
+      "date": "2026-04-02",
+      "author": "Mohammad Mohammadamini",
       "tags": [
         {
           "label": "cs.CL",
@@ -158,13 +158,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b88e2d2d2a78588bbf85b8441f61b1cf545275b4b999dc08dc80a9fa72151675_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cd0ab5174a85a51afe3adc52c1a57317258935fb1e17c684bc66b24d6eaf540a_w640_q70.webp"
     },
     {
-      "id": 49463,
-      "title": "APEX-EM: Non-Parametric Online Learning for Autonomous Agents via Structured Procedural-Episodic Experience Replay",
-      "date": "2026-04-01",
-      "author": "Pratyay Banerjee",
+      "id": 49979,
+      "title": "Are they human? Detecting large language models by probing human memory constraints",
+      "date": "2026-04-02",
+      "author": "Simon Schug",
       "tags": [
         {
           "label": "cs.CL",
@@ -172,7 +172,7 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b26ae5cc40410453fadee5078da17cb42b85739073d97abdd018fd222e9eef48_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7c408a266dc38d923ffc2a34f935e31bf8c0b308f01214e3013614a691317f59_w640_q70.webp"
     }
   ]
 }

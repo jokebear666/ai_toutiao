@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 49973,
-      "title": "How Emotion Shapes the Behavior of LLMs and Agents: A Mechanistic Study",
-      "date": "2026-04-02",
-      "author": "Moran Sun",
+      "id": 51219,
+      "title": "All Substitution Is Local",
+      "date": "2026-04-03",
+      "author": "Nidhish Shah",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f3299c4c8bd573c7c127e8bfefedf8b4b2d2a4e149dc071d77e40570895fc267_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/156afb36f09c178117cda5fdca2dc93e4b63b780f726890acff9740cfaca3c41_w640_q70.webp"
     },
     {
-      "id": 50017,
-      "title": "One Panel Does Not Fit All: Case-Adaptive Multi-Agent Deliberation for Clinical Prediction",
-      "date": "2026-04-02",
-      "author": "Yuxing Lu",
+      "id": 50634,
+      "title": "Runtime Burden Allocation for Structured LLM Routing in Agentic Expert Systems: A Full-Factorial Cross-Backend Methodology",
+      "date": "2026-04-03",
+      "author": "Zhou Hanlin",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3cd06b6fd4f67162bbbc0a3f2a137b08aa808eb79f5f22fff40eb8f7b1244b55_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/314434ced1ad70398ff5fda49b048e9146808dffe5d5371d40ae14fb2b3abdc8_w640_q70.webp"
     },
     {
-      "id": 50036,
-      "title": "Open, Reliable, and Collective: A Community-Driven Framework for Tool-Using AI Agents",
-      "date": "2026-04-02",
-      "author": "Hy Dang",
+      "id": 50664,
+      "title": "The Digital Twin Counterfactual Framework: A Validation Architecture for Simulated Potential Outcomes",
+      "date": "2026-04-03",
+      "author": "Olav Laudy",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5a295f6137fafc56ad9aee6297b852a1494d47d6240f908762c4b85c42dfe741_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/92a4e0c0a592f4479e2ed40750490067a25ebe74b19b8c70a581e80d3c99037e_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 50022,
-      "title": "Hierarchical Pre-Training of Vision Encoders with Large Language Models",
-      "date": "2026-04-02",
-      "author": "Eugene Lee",
+      "id": 51238,
+      "title": "Enhanced Polarization Locking in VCSELs",
+      "date": "2026-04-03",
+      "author": "Zifeng Yuan",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/489f8443e24047322f24f415d275062cf3fd47bc3e874738e5ec0199c2bac75f_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/63ed0ea5715550213b6bb6853482c10f509f398c14c13f0731277fb360cdda20_w640_q70.webp"
     },
     {
-      "id": 50026,
-      "title": "RawGen: Learning Camera Raw Image Generation",
-      "date": "2026-04-02",
-      "author": "Dongyoung Kim",
+      "id": 50631,
+      "title": "CLPIPS: A Personalized Metric for AI-Generated Image Similarity",
+      "date": "2026-04-03",
+      "author": "Khoi Trinh",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ca6b188188d75ca3282e9d12da54e260543e86aa319a1d61c890e3dc71f038a6_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a57f8224e71b23f5048db501530c1551908ecfa2520a46ddc68ac84d71cfa8a1_w640_q70.webp"
     },
     {
-      "id": 50049,
-      "title": "Q-Mask: Query-driven Causal Masks for Text Anchoring in OCR-Oriented Vision-Language Models",
-      "date": "2026-04-02",
-      "author": "Longwei Xu",
+      "id": 50632,
+      "title": "DOne: Decoupling Structure and Rendering for High-Fidelity Design-to-Code Generation",
+      "date": "2026-04-03",
+      "author": "Xinhao Huang",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/216ad968c4cb9554f0a8a99bee11dc1eeea352ddc49566918667ff3ea6762d36_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b94d48844206406d962e001ab6beb3070b2d98b7e7742a755214e102842b9800_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 50020,
-      "title": "Learning to Play Blackjack: A Curriculum Learning Perspective",
-      "date": "2026-04-02",
-      "author": "Amirreza Alasti",
+      "id": 50696,
+      "title": "Residuals-based Offline Reinforcement Learning",
+      "date": "2026-04-03",
+      "author": "Qing Zhu",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3efc59ebc103da2cca2dcbb2b785eaf953073a3a1e8b64c2464e973256313a7f_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ab9bf98502f83c5eb64ad325293a0aad9986f1c9bf70cfc81f0278d661031aa2_w640_q70.webp"
     },
     {
-      "id": 49978,
-      "title": "Two-Stage Optimizer-Aware Online Data Selection for Large Language Models",
-      "date": "2026-04-02",
-      "author": "Fangxin Wang",
+      "id": 50649,
+      "title": "DySCo: Dynamic Semantic Compression for Effective Long-term Time Series Forecasting",
+      "date": "2026-04-03",
+      "author": "Xiang Ao",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ed2129cea6384f33a666ee689ff5c196063430e795397bb4fedc4280547380a7_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d4c4b2d69bce56857b5ecb28ff9def2ceecee084d6c9a0648a55736e4d511850_w640_q70.webp"
     },
     {
-      "id": 50001,
-      "title": "Task-Centric Personalized Federated Fine-Tuning of Language Models",
-      "date": "2026-04-02",
-      "author": "Gabriel U. Talasso",
+      "id": 50651,
+      "title": "Sven: Singular Value Descent as a Computationally Efficient Natural Gradient Method",
+      "date": "2026-04-03",
+      "author": "Samuel Bright-Thonney",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,51 +128,51 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/78778d3da1a12646d675da750122132d70c3f3bb326ac63820c1904fe618d07f_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/80a012b7ac347a5f0a8782cbc1c37982a1136957b3a2b9c4a2682bccb2d922ba_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 49969,
-      "title": "Can LLMs Perceive Time? An Empirical Investigation",
-      "date": "2026-04-02",
-      "author": "Aniketh Garikaparthi",
+      "id": 50758,
+      "title": "Distal-Stable Beam for Continuum Robots",
+      "date": "2026-04-03",
+      "author": "Ryouichi Saito",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.RO",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/865ceb104860f3f1bb3ba4d80cb163136d8bc750fac97e5139fae578fa714972_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/98db501d538799f254fcd8dac955c2ea9e211f8c01c463a94fa350568e772728_w640_q70.webp"
     },
     {
-      "id": 50276,
-      "title": "English to Central Kurdish Speech Translation: Corpus Creation, Evaluation, and Orthographic Standardization",
-      "date": "2026-04-02",
-      "author": "Mohammad Mohammadamini",
+      "id": 50759,
+      "title": "MOVis: A Visual Analytics Tool for Surfacing Missed Patches Across Software Variants",
+      "date": "2026-04-03",
+      "author": "Jorge Gonzalo Delgado Cervantes",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.SE",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cd0ab5174a85a51afe3adc52c1a57317258935fb1e17c684bc66b24d6eaf540a_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c9314beb4662b5949d661c1c700503e9bbc40d7624538d83d9c64e9166b26e36_w640_q70.webp"
     },
     {
-      "id": 49979,
-      "title": "Are they human? Detecting large language models by probing human memory constraints",
-      "date": "2026-04-02",
-      "author": "Simon Schug",
+      "id": 50644,
+      "title": "Simulating Realistic LiDAR Data Under Adverse Weather for Autonomous Vehicles: A Physics-Informed Learning Approach",
+      "date": "2026-04-03",
+      "author": "Vivek Anand",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.RO",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7c408a266dc38d923ffc2a34f935e31bf8c0b308f01214e3013614a691317f59_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cb668f44d799170a7639794dfad8136bdb98e25b2588f9be64345a388d253598_w640_q70.webp"
     }
   ]
 }

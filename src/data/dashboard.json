@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 51219,
-      "title": "All Substitution Is Local",
-      "date": "2026-04-03",
-      "author": "Nidhish Shah",
+      "id": 51364,
+      "title": "I must delete the evidence: AI Agents Explicitly Cover up Fraud and Violent Crime",
+      "date": "2026-04-06",
+      "author": "Thomas Rivasseau",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/156afb36f09c178117cda5fdca2dc93e4b63b780f726890acff9740cfaca3c41_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f9bece46c9baf39bfa000582c5d40499e8dda7fe78054f70ac533eb3ecd843f8_w640_q70.webp"
     },
     {
-      "id": 50634,
-      "title": "Runtime Burden Allocation for Structured LLM Routing in Agentic Expert Systems: A Full-Factorial Cross-Backend Methodology",
-      "date": "2026-04-03",
-      "author": "Zhou Hanlin",
+      "id": 51276,
+      "title": "Holos: A Web-Scale LLM-Based Multi-Agent System for the Agentic Web",
+      "date": "2026-04-06",
+      "author": "Xiaohang Nie",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/314434ced1ad70398ff5fda49b048e9146808dffe5d5371d40ae14fb2b3abdc8_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4a811936358b8bce8d316540804ecf63d21eb5084bcba60ed2e68344401d0a80_w640_q70.webp"
     },
     {
-      "id": 50664,
-      "title": "The Digital Twin Counterfactual Framework: A Validation Architecture for Simulated Potential Outcomes",
-      "date": "2026-04-03",
-      "author": "Olav Laudy",
+      "id": 51298,
+      "title": "Xpertbench: Expert Level Tasks with Rubrics-Based Evaluation",
+      "date": "2026-04-06",
+      "author": "Xue Liu",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/92a4e0c0a592f4479e2ed40750490067a25ebe74b19b8c70a581e80d3c99037e_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f6dd5ba8d58c141c4593e3d3648d32865a813c6cf103ef79068f90ed7bbf6687_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 51238,
-      "title": "Enhanced Polarization Locking in VCSELs",
-      "date": "2026-04-03",
-      "author": "Zifeng Yuan",
+      "id": 51301,
+      "title": "Internalized Reasoning for Long-Context Visual Document Understanding",
+      "date": "2026-04-06",
+      "author": "Austin Veselka",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/63ed0ea5715550213b6bb6853482c10f509f398c14c13f0731277fb360cdda20_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fb8c57bbeee28bb140679b41922b488a7c44db354d83c464f6579d1048635de6_w640_q70.webp"
     },
     {
-      "id": 50631,
-      "title": "CLPIPS: A Personalized Metric for AI-Generated Image Similarity",
-      "date": "2026-04-03",
-      "author": "Khoi Trinh",
+      "id": 51316,
+      "title": "Environment-Aware Channel Prediction for Vehicular Communications: A Multimodal Visual Feature Fusion Framework",
+      "date": "2026-04-06",
+      "author": "Xuejian Zhang",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a57f8224e71b23f5048db501530c1551908ecfa2520a46ddc68ac84d71cfa8a1_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/baf57b5c98384c5e6be6cc214c4ec6673184a0910193ee66bc72a69e6ca6cf77_w640_q70.webp"
     },
     {
-      "id": 50632,
-      "title": "DOne: Decoupling Structure and Rendering for High-Fidelity Design-to-Code Generation",
-      "date": "2026-04-03",
-      "author": "Xinhao Huang",
+      "id": 51317,
+      "title": "Variational Encoder--Multi-Decoder (VE-MD) for Privacy-by-functional-design (Group) Emotion Recognition",
+      "date": "2026-04-06",
+      "author": "Anderson Augusma",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b94d48844206406d962e001ab6beb3070b2d98b7e7742a755214e102842b9800_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/25849e2c4306ab834059871788701da1269b49f30814fb7ec8104638679ce78d_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 50696,
-      "title": "Residuals-based Offline Reinforcement Learning",
-      "date": "2026-04-03",
-      "author": "Qing Zhu",
+      "id": 51269,
+      "title": "Not All Denoising Steps Are Equal: Model Scheduling for Faster Masked Diffusion Language Models",
+      "date": "2026-04-06",
+      "author": "Ivan Sedykh",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ab9bf98502f83c5eb64ad325293a0aad9986f1c9bf70cfc81f0278d661031aa2_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/42b96c2ad7dc5db74db1ca35e6c61be9156f3c34747bd596acc6847570303b0f_w640_q70.webp"
     },
     {
-      "id": 50649,
-      "title": "DySCo: Dynamic Semantic Compression for Effective Long-term Time Series Forecasting",
-      "date": "2026-04-03",
-      "author": "Xiang Ao",
+      "id": 51270,
+      "title": "SIEVE: Sample-Efficient Parametric Learning from Natural Language",
+      "date": "2026-04-06",
+      "author": "Parth Asawa",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d4c4b2d69bce56857b5ecb28ff9def2ceecee084d6c9a0648a55736e4d511850_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/28bba63b25e66b3a8a59936f6649e87c0d26a96c157b38f95dc180141b92beb4_w640_q70.webp"
     },
     {
-      "id": 50651,
-      "title": "Sven: Singular Value Descent as a Computationally Efficient Natural Gradient Method",
-      "date": "2026-04-03",
-      "author": "Samuel Bright-Thonney",
+      "id": 51271,
+      "title": "Homophily-aware Supervised Contrastive Counterfactual Augmented Fair Graph Neural Network",
+      "date": "2026-04-06",
+      "author": "Mahdi Tavassoli Kejani",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,43 +128,43 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/80a012b7ac347a5f0a8782cbc1c37982a1136957b3a2b9c4a2682bccb2d922ba_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4a28f1ab94e060a113ae528b9bc263e54660d5ca9a34b8967b37f89d87c9bae0_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 50758,
-      "title": "Distal-Stable Beam for Continuum Robots",
-      "date": "2026-04-03",
-      "author": "Ryouichi Saito",
+      "id": 51460,
+      "title": "Too Polite to Disagree: Understanding Sycophancy Propagation in Multi-Agent Systems",
+      "date": "2026-04-06",
+      "author": "Vira Kasprova",
       "tags": [
         {
-          "label": "cs.RO",
+          "label": "cs.CL",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/98db501d538799f254fcd8dac955c2ea9e211f8c01c463a94fa350568e772728_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ea53aed69ca90ece6548b28c182c0e17701c215a4280898a6ebcdc203eede1d5_w640_q70.webp"
     },
     {
-      "id": 50759,
-      "title": "MOVis: A Visual Analytics Tool for Surfacing Missed Patches Across Software Variants",
-      "date": "2026-04-03",
-      "author": "Jorge Gonzalo Delgado Cervantes",
+      "id": 51293,
+      "title": "CIPHER: Conformer-based Inference of Phonemes from High-density EEG",
+      "date": "2026-04-06",
+      "author": "Varshith Madishetty",
       "tags": [
         {
-          "label": "cs.SE",
+          "label": "cs.CL",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c9314beb4662b5949d661c1c700503e9bbc40d7624538d83d9c64e9166b26e36_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e0c72fe2665e4c7eab7da0fd433a90d8ccba2c4d20b879bb621f69d89d6f6c96_w640_q70.webp"
     },
     {
-      "id": 50644,
-      "title": "Simulating Realistic LiDAR Data Under Adverse Weather for Autonomous Vehicles: A Physics-Informed Learning Approach",
-      "date": "2026-04-03",
-      "author": "Vivek Anand",
+      "id": 51590,
+      "title": "RAGE: A Tightly Coupled Radar-Aided Grip Estimator For Autonomous Race Cars",
+      "date": "2026-04-06",
+      "author": "Davide Malvezzi",
       "tags": [
         {
           "label": "cs.RO",
@@ -172,7 +172,7 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cb668f44d799170a7639794dfad8136bdb98e25b2588f9be64345a388d253598_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2a7f31eceae99514ff51a845d902d6184d47fb01107ae9532e8096a8104244ea_w640_q70.webp"
     }
   ]
 }

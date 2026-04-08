@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 51819,
-      "title": "Position: Science of AI Evaluation Requires Item-level Benchmark Data",
-      "date": "2026-04-07",
-      "author": "Han Jiang",
+      "id": 52843,
+      "title": "Proximity Measure of Information Object Features for Solving the Problem of Their Identification in Information Systems",
+      "date": "2026-04-08",
+      "author": "Volodymyr Yuzefovych",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/48cc4948ec6804461db026f0b6e2f25090c79db3e999991b0bd3e4a8cddb657c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c6d75575d75fe269abb73b02dcacc4852a3b44d8bc60ef2fd825f28ba301ef59_w640_q70.webp"
     },
     {
-      "id": 51806,
-      "title": "Structural Segmentation of the Minimum Set Cover Problem: Exploiting Universe Decomposability for Metaheuristic Optimization",
-      "date": "2026-04-07",
-      "author": "Isidora Hern\u00e1ndez",
+      "id": 52845,
+      "title": "Algebraic Structure Discovery for Real World Combinatorial Optimisation Problems: A General Framework from Abstract Algebra to Quotient Space Learning",
+      "date": "2026-04-08",
+      "author": "Min Sun",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ee9bbdededf6077a0c42edb7f06bc94119e3e62e78f5abb448a06c1f24eb8cdd_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/128f9467581ba3fe628dbfee1a123539c0bd824c36ba1d89c9aec4d5f669f95f_w640_q70.webp"
     },
     {
-      "id": 51807,
-      "title": "To Throw a Stone with Six Birds: On Agents and Agenthood",
-      "date": "2026-04-07",
-      "author": "Ioannis Tsiokos",
+      "id": 52846,
+      "title": "Pramana: Fine-Tuning Large Language Models for Epistemic Reasoning through Navya-Nyaya",
+      "date": "2026-04-08",
+      "author": "Sharath Sathish",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/81f591377d53e7b9e179ceef085c360ffabd8c33ba944e2588416e21344e10db_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b00a41f6af10a5dd5e2640aecdaf84cd8a6c7ddbe9b6868c20055210720e2bab_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 52307,
-      "title": "Hypothesis Graph Refinement: Hypothesis-Driven Exploration with Cascade Error Correction for Embodied Navigation",
-      "date": "2026-04-07",
-      "author": "Peixin Chen",
+      "id": 52859,
+      "title": "Generative AI for Video Trailer Synthesis: From Extractive Heuristics to Autoregressive Creativity",
+      "date": "2026-04-08",
+      "author": "Abhishek Dharmaratnakar",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8ee7cf04394c8bd1cb8da8dd22be839a5b544d201aaa9805ce04537b9ea7ac1b_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4c1d12d5c5f505f5730216696606210fef962a8c361392df5ddc173eb0b07053_w640_q70.webp"
     },
     {
-      "id": 51856,
-      "title": "Diffusion Path Alignment for Long-Range Motion Generation and Domain Transitions",
-      "date": "2026-04-07",
-      "author": "Haichao Wang",
+      "id": 52864,
+      "title": "RCP: Representation Consistency Pruner for Mitigating Distribution Shift in Large Vision-Language Models",
+      "date": "2026-04-08",
+      "author": "Jianwei Zhang",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7d6dd68e60f925c35b22beafae98e8df545e0ec91fd8510599d0f399054e333d_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/de6d72db1431ec082357eacd524eca35ca2a3370f07b907756af2fff21185075_w640_q70.webp"
     },
     {
-      "id": 51836,
-      "title": "SafeScreen: A Safety-First Screening Framework for Personalized Video Retrieval for Vulnerable Users",
-      "date": "2026-04-07",
-      "author": "Wenzheng Zhao",
+      "id": 52895,
+      "title": "Video-MME-v2: Towards the Next Stage in Benchmarks for Comprehensive Video Understanding",
+      "date": "2026-04-08",
+      "author": "Chaoyou Fu",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/81d987197f06b1838abcd74e3159b772759ca8d0aa71dd098f88f902daac4478_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fb23e18dc2a2c5fc49adca2083f9ceae1f818cd5bf8e34b0fbdfc5bdf4e6d681_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 52438,
-      "title": "Deep Kuratowski Embedding Neural Networks for Wasserstein Metric Learning",
-      "date": "2026-04-07",
-      "author": "Andrew Qing He",
+      "id": 53488,
+      "title": "Optimal Centered Active Excitation in Linear System Identification",
+      "date": "2026-04-08",
+      "author": "Kaito Ito",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9706efd82634bb63b63f20ca708bb049a6526e7707a4462d66c0cc7f2ce9522a_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/13971185f1c63f69826614704e70878106a473a10a469be7dcb083e7426a9bea_w640_q70.webp"
     },
     {
-      "id": 51812,
-      "title": "Integrating Artificial Intelligence, Physics, and Internet of Things: A Framework for Cultural Heritage Conservation",
-      "date": "2026-04-07",
-      "author": "Carmine Valentino",
+      "id": 52903,
+      "title": "Dynamic Linear Coregionalization for Realistic Synthetic Multivariate Time Series",
+      "date": "2026-04-08",
+      "author": "Annita Vapsi",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/06c117d1f10d555f85409f0bf59ef236b142eb4312eb447606f788e42538b05d_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/58c1e358738fb980f1fda105fcca213ac3488509470292913bc7fcd29bc6f31c_w640_q70.webp"
     },
     {
-      "id": 51813,
-      "title": "Scaling DPPs for RAG: Density Meets Diversity",
-      "date": "2026-04-07",
-      "author": "Xun Sun",
+      "id": 52904,
+      "title": "PCA-Driven Adaptive Sensor Triage for Edge AI Inference",
+      "date": "2026-04-08",
+      "author": "Ankit Hemant Lade",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,43 +128,43 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3d73b9f2e9e72c3e3c27b06db9df164d8cd2f2a55dfd3bc694b046d2979e72ee_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/df839e5dd1e816d10850be5de311288126476fe6e007f92d10222a89b481017d_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 52408,
-      "title": "Evaluating Future Air Traffic Management Security",
-      "date": "2026-04-07",
-      "author": "Konstantinos Spalas",
+      "id": 53337,
+      "title": "FRENCH-YMCA: A FRENCH Corpus meeting the language needs of Youth, froM Children to Adolescents",
+      "date": "2026-04-08",
+      "author": "Cherifa Ben Khelil",
       "tags": [
         {
-          "label": "cs.CR",
+          "label": "cs.CL",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ab26eb926a61ebb2eaa5b7bd88d02e54545b95e084fa2e5296e41c07e4ea269d_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6f194bdf768a4b6585394de5e8b60768c399d72e354d4fb2b311956fd796b39a_w640_q70.webp"
     },
     {
-      "id": 52409,
-      "title": "Adaptive Cost-Efficient Evaluation for Reliable Patent Claim Validation",
-      "date": "2026-04-07",
-      "author": "Yongmin Yoo",
+      "id": 53007,
+      "title": "ZipFold: Modular Actuators for Scaleable Adaptive Robots",
+      "date": "2026-04-08",
+      "author": "Niklas Hagemann",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.RO",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ced8d144ea1d04e00789414ee923ecf4c0171283fb7e592c4cb694dcccb4de59_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/16d14637d8428a47d0f2d65e6992d60fd31c6c6f20f7dd7f06f9adeb8c53010f_w640_q70.webp"
     },
     {
-      "id": 51838,
-      "title": "Knowledge Packs: Zero-Token Knowledge Delivery via KV Cache Injection",
-      "date": "2026-04-07",
-      "author": "Andrey Pustovit",
+      "id": 52848,
+      "title": "Inclusion-of-Thoughts: Mitigating Preference Instability via Purifying the Decision Space",
+      "date": "2026-04-08",
+      "author": "Mohammad Reza Ghasemi Madani",
       "tags": [
         {
           "label": "cs.CL",
@@ -172,7 +172,7 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/03f3a7c4da9d91b615ef84402fb18819cb3ee6ad64df55520ca3e684c6d28971_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b22007b5207f12de0e86786cc8840c165c69032693e259a897c543eb30e710bd_w640_q70.webp"
     }
   ]
 }

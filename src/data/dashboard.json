@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 52843,
-      "title": "Proximity Measure of Information Object Features for Solving the Problem of Their Identification in Information Systems",
-      "date": "2026-04-08",
-      "author": "Volodymyr Yuzefovych",
+      "id": 53534,
+      "title": "High-Precision Estimation of the State-Space Complexity of Shogi via the Monte Carlo Method",
+      "date": "2026-04-09",
+      "author": "Sotaro Ishii",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c6d75575d75fe269abb73b02dcacc4852a3b44d8bc60ef2fd825f28ba301ef59_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/831c921ec015ccd25a2ba0c5dc92f3dac7561226146f6722981df2323de9c699_w640_q70.webp"
     },
     {
-      "id": 52845,
-      "title": "Algebraic Structure Discovery for Real World Combinatorial Optimisation Problems: A General Framework from Abstract Algebra to Quotient Space Learning",
-      "date": "2026-04-08",
-      "author": "Min Sun",
+      "id": 53567,
+      "title": "Blind Refusal: Language Models Refuse to Help Users Evade Unjust, Absurd, and Illegitimate Rules",
+      "date": "2026-04-09",
+      "author": "Cameron Pattison",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/128f9467581ba3fe628dbfee1a123539c0bd824c36ba1d89c9aec4d5f669f95f_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d6e1fba0aad5767be3aab1d99df3fe66c34a02c6f8b6b65aa89c4396c1baa66e_w640_q70.webp"
     },
     {
-      "id": 52846,
-      "title": "Pramana: Fine-Tuning Large Language Models for Epistemic Reasoning through Navya-Nyaya",
-      "date": "2026-04-08",
-      "author": "Sharath Sathish",
+      "id": 53577,
+      "title": "Toward Reducing Unproductive Container Moves: Predicting Service Requirements and Dwell Times",
+      "date": "2026-04-09",
+      "author": "Elena Villalobos",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b00a41f6af10a5dd5e2640aecdaf84cd8a6c7ddbe9b6868c20055210720e2bab_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f67b98d334a789710402a1bdcdb0578b2f93a90ba59024147b74697427821a9d_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 52859,
-      "title": "Generative AI for Video Trailer Synthesis: From Extractive Heuristics to Autoregressive Creativity",
-      "date": "2026-04-08",
-      "author": "Abhishek Dharmaratnakar",
+      "id": 53574,
+      "title": "CraterBench-R: Instance-Level Crater Retrieval for Planetary Scale",
+      "date": "2026-04-09",
+      "author": "Jichao Fang",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4c1d12d5c5f505f5730216696606210fef962a8c361392df5ddc173eb0b07053_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/20fe866dba57aa8064912d2e8e0778b64983f2561829573f1d0201c3388bd217_w640_q70.webp"
     },
     {
-      "id": 52864,
-      "title": "RCP: Representation Consistency Pruner for Mitigating Distribution Shift in Large Vision-Language Models",
-      "date": "2026-04-08",
-      "author": "Jianwei Zhang",
+      "id": 53575,
+      "title": "No-reference based automatic parameter optimization for iterative reconstruction using a novel search space aware crow search algorithm",
+      "date": "2026-04-09",
+      "author": "Poorya MohammadiNasab",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/de6d72db1431ec082357eacd524eca35ca2a3370f07b907756af2fff21185075_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9d8b1a74f00a9d33cce1b26624211c2dd65cdbab751d987b0f51aaeb5f51078e_w640_q70.webp"
     },
     {
-      "id": 52895,
-      "title": "Video-MME-v2: Towards the Next Stage in Benchmarks for Comprehensive Video Understanding",
-      "date": "2026-04-08",
-      "author": "Chaoyou Fu",
+      "id": 53578,
+      "title": "DISSECT: Diagnosing Where Vision Ends and Language Priors Begin in Scientific VLMs",
+      "date": "2026-04-09",
+      "author": "Dikshant Kukreja",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fb23e18dc2a2c5fc49adca2083f9ceae1f818cd5bf8e34b0fbdfc5bdf4e6d681_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/aaec1098802e2480f9e68695f5b5fb5846d58f01a6ac0d8bd6f2d7fe0be0ab0c_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 53488,
-      "title": "Optimal Centered Active Excitation in Linear System Identification",
-      "date": "2026-04-08",
-      "author": "Kaito Ito",
+      "id": 54099,
+      "title": "Tracking Adaptation Time: Metrics for Temporal Distribution Shift",
+      "date": "2026-04-09",
+      "author": "Lorenzo Iovine",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/13971185f1c63f69826614704e70878106a473a10a469be7dcb083e7426a9bea_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/16783393ac2fd5ac2dda8323cc91bffc033845b3d6ce3e84c106ec797c8cddae_w640_q70.webp"
     },
     {
-      "id": 52903,
-      "title": "Dynamic Linear Coregionalization for Realistic Synthetic Multivariate Time Series",
-      "date": "2026-04-08",
-      "author": "Annita Vapsi",
+      "id": 53690,
+      "title": "Inference-Time Code Selection via Symbolic Equivalence Partitioning",
+      "date": "2026-04-09",
+      "author": "David Cho",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/58c1e358738fb980f1fda105fcca213ac3488509470292913bc7fcd29bc6f31c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e91b135b9a922b1fcd9eca2cf7905b1f72ea9c0c55b659f210ca32d2b0c70f8b_w640_q70.webp"
     },
     {
-      "id": 52904,
-      "title": "PCA-Driven Adaptive Sensor Triage for Edge AI Inference",
-      "date": "2026-04-08",
-      "author": "Ankit Hemant Lade",
+      "id": 53563,
+      "title": "A Benchmark of Classical and Deep Learning Models for Agricultural Commodity Price Forecasting on A Novel Bangladeshi Market Price Dataset",
+      "date": "2026-04-09",
+      "author": "Tashreef Muhammad",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,43 +128,43 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/df839e5dd1e816d10850be5de311288126476fe6e007f92d10222a89b481017d_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ba2c9a97929f4b1eda361ac6891500b64b855fd7179db063be60407d71e01c19_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 53337,
-      "title": "FRENCH-YMCA: A FRENCH Corpus meeting the language needs of Youth, froM Children to Adolescents",
-      "date": "2026-04-08",
-      "author": "Cherifa Ben Khelil",
+      "id": 54082,
+      "title": "TraceSafe: A Systematic Assessment of LLM Guardrails on Multi-Step Tool-Calling Trajectories",
+      "date": "2026-04-09",
+      "author": "Yen-Shan Chen",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.CR",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6f194bdf768a4b6585394de5e8b60768c399d72e354d4fb2b311956fd796b39a_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d05b933d09fb8678621c3b35d0976ec417e5683b6a52ec0ad87c6b36bb44e50c_w640_q70.webp"
     },
     {
-      "id": 53007,
-      "title": "ZipFold: Modular Actuators for Scaleable Adaptive Robots",
-      "date": "2026-04-08",
-      "author": "Niklas Hagemann",
+      "id": 53519,
+      "title": "LLM-Augmented Knowledge Base Construction For Root Cause Analysis",
+      "date": "2026-04-09",
+      "author": "Nguyen Phuc Tran",
       "tags": [
         {
-          "label": "cs.RO",
+          "label": "cs.CL",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/16d14637d8428a47d0f2d65e6992d60fd31c6c6f20f7dd7f06f9adeb8c53010f_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8dea65bc14c1abf188aaddfa0f0ca3f8ba2c7613478135611a4b5384a7b4ca08_w640_q70.webp"
     },
     {
-      "id": 52848,
-      "title": "Inclusion-of-Thoughts: Mitigating Preference Instability via Purifying the Decision Space",
-      "date": "2026-04-08",
-      "author": "Mohammad Reza Ghasemi Madani",
+      "id": 53553,
+      "title": "Distributional Open-Ended Evaluation of LLM Cultural Value Alignment Based on Value Codebook",
+      "date": "2026-04-09",
+      "author": "Jaehyeok Lee",
       "tags": [
         {
           "label": "cs.CL",
@@ -172,7 +172,7 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b22007b5207f12de0e86786cc8840c165c69032693e259a897c543eb30e710bd_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6b00252ee3bbcc8289eae6e69e3f2ede4205ed352fbc511d4f5085f66e7ad2ac_w640_q70.webp"
     }
   ]
 }

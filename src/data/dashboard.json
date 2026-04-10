@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 53534,
-      "title": "High-Precision Estimation of the State-Space Complexity of Shogi via the Monte Carlo Method",
-      "date": "2026-04-09",
-      "author": "Sotaro Ishii",
+      "id": 54302,
+      "title": "Trust the AI, Doubt Yourself: The Effect of Urgency on Self-Confidence in Human-AI Interaction",
+      "date": "2026-04-10",
+      "author": "Baran Shajari",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/831c921ec015ccd25a2ba0c5dc92f3dac7561226146f6722981df2323de9c699_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9eeb6f95c5267e96c306d9341d46d0733e65a02aed4f6de713ebfcd54a78bd8f_w640_q70.webp"
     },
     {
-      "id": 53567,
-      "title": "Blind Refusal: Language Models Refuse to Help Users Evade Unjust, Absurd, and Illegitimate Rules",
-      "date": "2026-04-09",
-      "author": "Cameron Pattison",
+      "id": 54262,
+      "title": "An Analysis of Artificial Intelligence Adoption in NIH-Funded Research",
+      "date": "2026-04-10",
+      "author": "Navapat Nananukul",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d6e1fba0aad5767be3aab1d99df3fe66c34a02c6f8b6b65aa89c4396c1baa66e_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cfa44a1fbef5ff823a96c7c35f3fedcffb6450823aa53cf4ed0c7a19166bfaf5_w640_q70.webp"
     },
     {
-      "id": 53577,
-      "title": "Toward Reducing Unproductive Container Moves: Predicting Service Requirements and Dwell Times",
-      "date": "2026-04-09",
-      "author": "Elena Villalobos",
+      "id": 54266,
+      "title": "Munkres' General Topology Autoformalized in Isabelle/HOL",
+      "date": "2026-04-10",
+      "author": "Dustin Bryant",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f67b98d334a789710402a1bdcdb0578b2f93a90ba59024147b74697427821a9d_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5085a00c77f0f90cf28c21691bf909b68633ea1050b87474e702da4c0c7da61e_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 53574,
-      "title": "CraterBench-R: Instance-Level Crater Retrieval for Planetary Scale",
-      "date": "2026-04-09",
-      "author": "Jichao Fang",
+      "id": 54248,
+      "title": "FORGE:Fine-grained Multimodal Evaluation for Manufacturing Scenarios",
+      "date": "2026-04-10",
+      "author": "Xiangru Jian",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/20fe866dba57aa8064912d2e8e0778b64983f2561829573f1d0201c3388bd217_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0c0e7e0b8edde32d5fb1684b8985e10c7186d4d5922144d3746b23c02804ac74_w640_q70.webp"
     },
     {
-      "id": 53575,
-      "title": "No-reference based automatic parameter optimization for iterative reconstruction using a novel search space aware crow search algorithm",
-      "date": "2026-04-09",
-      "author": "Poorya MohammadiNasab",
+      "id": 54263,
+      "title": "Personalizing Text-to-Image Generation to Individual Taste",
+      "date": "2026-04-10",
+      "author": "Anne-Sofie Maerten",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9d8b1a74f00a9d33cce1b26624211c2dd65cdbab751d987b0f51aaeb5f51078e_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/201f48aeb7171dee46f93f50b02b239f67f6e8dd62afefeb7b27f76fddcc4c0b_w640_q70.webp"
     },
     {
-      "id": 53578,
-      "title": "DISSECT: Diagnosing Where Vision Ends and Language Priors Begin in Scientific VLMs",
-      "date": "2026-04-09",
-      "author": "Dikshant Kukreja",
+      "id": 54264,
+      "title": "HY-Embodied-0.5: Embodied Foundation Models for Real-World Agents",
+      "date": "2026-04-10",
+      "author": "Tencent Robotics X",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/aaec1098802e2480f9e68695f5b5fb5846d58f01a6ac0d8bd6f2d7fe0be0ab0c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8dd7b4cf37ed7db4c67a9a4f9e2235df9264bb5b2de0c2c4affe72278fbce862_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 54099,
-      "title": "Tracking Adaptation Time: Metrics for Temporal Distribution Shift",
-      "date": "2026-04-09",
-      "author": "Lorenzo Iovine",
+      "id": 54226,
+      "title": "Decisions and Deployment: The Five-Year SAHELI Project (2020-2025) on Restless Multi-Armed Bandits for Improving Maternal and Child Health",
+      "date": "2026-04-10",
+      "author": "Shresth Verma",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/16783393ac2fd5ac2dda8323cc91bffc033845b3d6ce3e84c106ec797c8cddae_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/35f790f5269633d7d770a5bc6f53f840aaf1c0e59ef09607641ad3ea09b6034b_w640_q70.webp"
     },
     {
-      "id": 53690,
-      "title": "Inference-Time Code Selection via Symbolic Equivalence Partitioning",
-      "date": "2026-04-09",
-      "author": "David Cho",
+      "id": 54216,
+      "title": "BLEG: LLM Functions as Powerful fMRI Graph-Enhancer for Brain Network Analysis",
+      "date": "2026-04-10",
+      "author": "Rui Dong",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e91b135b9a922b1fcd9eca2cf7905b1f72ea9c0c55b659f210ca32d2b0c70f8b_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/942afba56f9b08fa315d981296073f8738b4d037cf1b6546e3223d3bf9d0182f_w640_q70.webp"
     },
     {
-      "id": 53563,
-      "title": "A Benchmark of Classical and Deep Learning Models for Agricultural Commodity Price Forecasting on A Novel Bangladeshi Market Price Dataset",
-      "date": "2026-04-09",
-      "author": "Tashreef Muhammad",
+      "id": 54217,
+      "title": "Prediction Arena: Benchmarking AI Models on Real-World Prediction Markets",
+      "date": "2026-04-10",
+      "author": "Jaden Zhang",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,29 +128,29 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ba2c9a97929f4b1eda361ac6891500b64b855fd7179db063be60407d71e01c19_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2152222129702c86ff6ae494725f3b534a1af5f79d02ca9dacf081ecd373d3a9_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 54082,
-      "title": "TraceSafe: A Systematic Assessment of LLM Guardrails on Multi-Step Tool-Calling Trajectories",
-      "date": "2026-04-09",
-      "author": "Yen-Shan Chen",
+      "id": 54212,
+      "title": "Hybrid CNN-Transformer Architecture for Arabic Speech Emotion Recognition",
+      "date": "2026-04-10",
+      "author": "Youcef Soufiane Gheffari",
       "tags": [
         {
-          "label": "cs.CR",
+          "label": "cs.CL",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d05b933d09fb8678621c3b35d0976ec417e5683b6a52ec0ad87c6b36bb44e50c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/70eedecabbf1ce786ee0b5df53d04fdbb4fbf5fcd363fcc5d204879ffa0d0a2e_w640_q70.webp"
     },
     {
-      "id": 53519,
-      "title": "LLM-Augmented Knowledge Base Construction For Root Cause Analysis",
-      "date": "2026-04-09",
-      "author": "Nguyen Phuc Tran",
+      "id": 54214,
+      "title": "Contextual Earnings-22: A Speech Recognition Benchmark with Custom Vocabulary in the Wild",
+      "date": "2026-04-10",
+      "author": "Berkin Durmus",
       "tags": [
         {
           "label": "cs.CL",
@@ -158,21 +158,21 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8dea65bc14c1abf188aaddfa0f0ca3f8ba2c7613478135611a4b5384a7b4ca08_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b9dc4d8a5217651bf94e06741e3ed0d2940435d5b5a0ca78e97f8a2f57569b2b_w640_q70.webp"
     },
     {
-      "id": 53553,
-      "title": "Distributional Open-Ended Evaluation of LLM Cultural Value Alignment Based on Value Codebook",
-      "date": "2026-04-09",
-      "author": "Jaehyeok Lee",
+      "id": 54228,
+      "title": "Evaluation as Evolution: Transforming Adversarial Diffusion into Closed-Loop Curricula for Autonomous Vehicles",
+      "date": "2026-04-10",
+      "author": "Yicheng Guo",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.RO",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6b00252ee3bbcc8289eae6e69e3f2ede4205ed352fbc511d4f5085f66e7ad2ac_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3c82bbaf0d47e13a1d8d2d93e88e82646972e08dceac1343fb0262b150cfefab_w640_q70.webp"
     }
   ]
 }

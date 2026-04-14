@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 54984,
-      "title": "Model Space Reasoning as Search in Feedback Space for Planning Domain Generation",
-      "date": "2026-04-13",
-      "author": "James Oswald",
+      "id": 56143,
+      "title": "When More Thinking Hurts: Overthinking in LLM Test-Time Compute Scaling",
+      "date": "2026-04-14",
+      "author": "Shu Zhou",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/737b324a22d17d15665400b42e485d77847a649c597d9cfa8e9ac15b533550ad_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c80e0ca747916326bbdef4f4314a8b1bd0f213936375f3b15b3fc9e0aee70494_w640_q70.webp"
     },
     {
-      "id": 54940,
-      "title": "OpenKedge: Governing Agentic Mutation with Execution-Bound Safety and Evidence Chains",
-      "date": "2026-04-13",
-      "author": "Jun He",
+      "id": 55473,
+      "title": "Linear Programming for Multi-Criteria Assessment with Cardinal and Ordinal Data: A Pessimistic Virtual Gap Analysis",
+      "date": "2026-04-14",
+      "author": "Fuh-Hwa Franklin Liu",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b5c0ef0a9d7cd773dd88af079a64fbcc00709ba16339e5d842e9617b2a123df8_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/def3a85e07cab6443172ea21f31441cb68bc701506d55f964a172bce3fa01c86_w640_q70.webp"
     },
     {
-      "id": 54942,
-      "title": "From Business Events to Auditable Decisions: Ontology-Governed Graph Simulation for Enterprise AI",
-      "date": "2026-04-13",
-      "author": "Hongyin Zhu",
+      "id": 55506,
+      "title": "Agentic Exploration of PDE Spaces using Latent Foundation Models for Parameterized Simulations",
+      "date": "2026-04-14",
+      "author": "Abhijeet Vishwasrao",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1601f80da7968a2c2a071ab830b4739096dc0adde118a3632bb46f1bb5b1f425_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/588a2249a11725927e0c2aa224ab7f3ad75114caef6a134dd8adf7aa6713a8c4_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 54947,
-      "title": "A Semi-Automated Framework for 3D Reconstruction of Medieval Manuscript Miniatures",
-      "date": "2026-04-13",
-      "author": "Riccardo Pallotto",
+      "id": 56084,
+      "title": "How to Design a Compact High-Throughput Video Camera?",
+      "date": "2026-04-14",
+      "author": "Chenxi Qiu",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1143e9cb365e2d8d737b7d951cfaf2b2ce87767b3884edc0994ea705a103134f_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/274a7e6b96066648e038c46288e58b49a598488547ae2e1b051b73227f3a493c_w640_q70.webp"
     },
     {
-      "id": 54945,
-      "title": "Detection of Hate and Threat in Digital Forensics: A Case-Driven Multimodal Approach",
-      "date": "2026-04-13",
-      "author": "Ponkoj Chandra Shill",
+      "id": 55590,
+      "title": "A Modular Zero-Shot Pipeline for Accident Detection, Localization, and Classification in Traffic Surveillance Video",
+      "date": "2026-04-14",
+      "author": "Amey Thakur",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/44054b9ab04f66040dec937a5b2425684a4d0bec64932f08ce82a84779f9c205_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/28074ed26c8923962cf2940624ce9ef652c6c19f2e302aef527247bbcb38b67a_w640_q70.webp"
     },
     {
-      "id": 54949,
-      "title": "ViSAGE @ NTIRE 2026 Challenge on Video Saliency Prediction",
-      "date": "2026-04-13",
-      "author": "Kun Wang",
+      "id": 55562,
+      "title": "3D Multi-View Stylization with Pose-Free Correspondences Matching for Robust 3D Geometry Preservation",
+      "date": "2026-04-14",
+      "author": "Shirsha Bose",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/dcdc88ac4662abd6774a775e50f87d44d84697c91729b43f91edc87d54028502_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e3520fc6b5bd7d29a0b36ae1afff3fb560209c5ffe5a300f0c998275c9a18e56_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 55325,
-      "title": "Stability Enhanced Gaussian Process Variational Autoencoders",
-      "date": "2026-04-13",
-      "author": "Carl R. Richardson",
+      "id": 56578,
+      "title": "Continuous Adversarial Flow Models",
+      "date": "2026-04-14",
+      "author": "Shanchuan Lin",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9b826eb31c7173a2187f05746284e8e14116b99c651a83ac9b169fdcca7a97e6_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9bab66ec97278c2ede76ad0df7675cb463d31bcb666f1fe73cd8ef5aa0f6ebbd_w640_q70.webp"
     },
     {
-      "id": 55326,
-      "title": "Drift-Aware Online Dynamic Learning for Nonstationary Multivariate Time Series: Application to Sintering Quality Prediction",
-      "date": "2026-04-13",
-      "author": "Yumeng Zhao",
+      "id": 55483,
+      "title": "The Diffusion-Attention Connection",
+      "date": "2026-04-14",
+      "author": "Julio Candanedo",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d0df5dc04f6d08ddde686978ed8340102063291d92b0c7eb325f945d34a6dc51_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2b792a5bcc0fdc9efb78e4b01d1c66ac1774448ebe85a7681cc6b5667dad6aef_w640_q70.webp"
     },
     {
-      "id": 55035,
-      "title": "Alleviating Community Fear in Disasters via Multi-Agent Actor-Critic Reinforcement Learning",
-      "date": "2026-04-13",
-      "author": "Yashodhan D. Hakke",
+      "id": 55567,
+      "title": "Fairboard: a quantitative framework for equity assessment of healthcare models",
+      "date": "2026-04-14",
+      "author": "James K. Ruffle",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,29 +128,29 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9f609b2836066bd378799af0e215002ce48e83ca1940c52248c6539e7911e4d6_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2979e30eb2f6aedeba672a8942356e3dc370c3b82cc9571d6114c13736db3067_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 54957,
-      "title": "Realisation-Level Privacy Filtering",
-      "date": "2026-04-13",
-      "author": "Sophie Taylor",
+      "id": 56334,
+      "title": "Sema Code: Decoupling AI Coding Agents into Programmable, Embeddable Infrastructure",
+      "date": "2026-04-14",
+      "author": "Huacan Wang",
       "tags": [
         {
-          "label": "cs.CR",
+          "label": "cs.SE",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/57e51851b1d7cfa18c03d9a5f73ff2211b190fff5a6bdebc09bd525132ed1eca_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/079e15ac04fa1ac482ab3e7768420118897d6f6204b1113646b12d732ec58e84_w640_q70.webp"
     },
     {
-      "id": 55010,
-      "title": "LLMs Underperform Graph-Based Parsers on Supervised Relation Extraction for Complex Graphs",
-      "date": "2026-04-13",
-      "author": "Paolo Gajo",
+      "id": 56647,
+      "title": "RPA-Check: A Multi-Stage Automated Framework for Evaluating Dynamic LLM-based Role-Playing Agents",
+      "date": "2026-04-14",
+      "author": "Riccardo Rosati",
       "tags": [
         {
           "label": "cs.CL",
@@ -158,13 +158,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/84cab90818bbe1d6fab3b4dd6a203ee589402d486dd426b292f994c3fe82fdb3_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4112a7bb05738c54f979d522dfa2c85b394a6cc393982c26be632d674d013d16_w640_q70.webp"
     },
     {
-      "id": 54896,
-      "title": "WAND: Windowed Attention and Knowledge Distillation for Efficient Autoregressive Text-to-Speech Models",
-      "date": "2026-04-13",
-      "author": "Hanna Lee",
+      "id": 56142,
+      "title": "BlasBench: An Open Benchmark for Irish Speech Recognition",
+      "date": "2026-04-14",
+      "author": "Jyoutir Raj",
       "tags": [
         {
           "label": "cs.CL",
@@ -172,7 +172,7 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c8cbc49e65796d090daa5d31d10efcc5444e107668b4fc7dd8e22afadeaecc6a_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e72354242ef90a7fa4bf48130e57e7640eb2983785f74e457980682bc37b52fd_w640_q70.webp"
     }
   ]
 }

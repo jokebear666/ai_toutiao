@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 56143,
-      "title": "When More Thinking Hurts: Overthinking in LLM Test-Time Compute Scaling",
-      "date": "2026-04-14",
-      "author": "Shu Zhou",
+      "id": 56865,
+      "title": "Narrative-Driven Paper-to-Slide Generation via ArcDeck",
+      "date": "2026-04-15",
+      "author": "Tarik Can Ozden",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c80e0ca747916326bbdef4f4314a8b1bd0f213936375f3b15b3fc9e0aee70494_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/034db4a6431553d89e48cac9139796c983d961902efa477e524e10b38acac033_w640_q70.webp"
     },
     {
-      "id": 55473,
-      "title": "Linear Programming for Multi-Criteria Assessment with Cardinal and Ordinal Data: A Pessimistic Virtual Gap Analysis",
-      "date": "2026-04-14",
-      "author": "Fuh-Hwa Franklin Liu",
+      "id": 56819,
+      "title": "The Non-Optimality of Scientific Knowledge: Path Dependence, Lock-In, and The Local Minimum Trap",
+      "date": "2026-04-15",
+      "author": "Mohamed Mabrok",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/def3a85e07cab6443172ea21f31441cb68bc701506d55f964a172bce3fa01c86_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7ddc41fde69b804223cd5e001ac3321e88a60c139f940513e6c18929c9c514ee_w640_q70.webp"
     },
     {
-      "id": 55506,
-      "title": "Agentic Exploration of PDE Spaces using Latent Foundation Models for Parameterized Simulations",
-      "date": "2026-04-14",
-      "author": "Abhijeet Vishwasrao",
+      "id": 56840,
+      "title": "Self-Monitoring Benefits from Structural Integration: Lessons from Metacognition in Continuous-Time Multi-Timescale Agents",
+      "date": "2026-04-15",
+      "author": "Ying Xie",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/588a2249a11725927e0c2aa224ab7f3ad75114caef6a134dd8adf7aa6713a8c4_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ccfe25fc9a97ec1e475c9715f567438c6dc32c50af660dfe8ced649b4b2cf8b5_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 56084,
-      "title": "How to Design a Compact High-Throughput Video Camera?",
-      "date": "2026-04-14",
-      "author": "Chenxi Qiu",
+      "id": 56827,
+      "title": "UniMark: Unified Adaptive Multi-bit Watermarking for Autoregressive Image Generators",
+      "date": "2026-04-15",
+      "author": "Yigit Yilmaz",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/274a7e6b96066648e038c46288e58b49a598488547ae2e1b051b73227f3a493c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f3d49aec0ffb1052131ccaa052883410ddcc230fa37e7df3634af63325913eab_w640_q70.webp"
     },
     {
-      "id": 55590,
-      "title": "A Modular Zero-Shot Pipeline for Accident Detection, Localization, and Classification in Traffic Surveillance Video",
-      "date": "2026-04-14",
-      "author": "Amey Thakur",
+      "id": 56836,
+      "title": "MedConcept: Unsupervised Concept Discovery for Interpretability in Medical VLMs",
+      "date": "2026-04-15",
+      "author": "Md Rakibul Haque",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/28074ed26c8923962cf2940624ce9ef652c6c19f2e302aef527247bbcb38b67a_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b9010c7bd57263694f1eeb3554a0839eae2f579356a8df8fb9f95841316e8c7b_w640_q70.webp"
     },
     {
-      "id": 55562,
-      "title": "3D Multi-View Stylization with Pose-Free Correspondences Matching for Robust 3D Geometry Preservation",
-      "date": "2026-04-14",
-      "author": "Shirsha Bose",
+      "id": 56839,
+      "title": "V-Nutri: Dish-Level Nutrition Estimation from Egocentric Cooking Videos",
+      "date": "2026-04-15",
+      "author": "Chengkun Yue",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e3520fc6b5bd7d29a0b36ae1afff3fb560209c5ffe5a300f0c998275c9a18e56_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/beb08cbdc492c7de5833481f6602be01e2535ddbe19b899243031bddf78a30e4_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 56578,
-      "title": "Continuous Adversarial Flow Models",
-      "date": "2026-04-14",
-      "author": "Shanchuan Lin",
+      "id": 56843,
+      "title": "Can AI Detect Life? Lessons from Artificial Life",
+      "date": "2026-04-15",
+      "author": "Ankit Gupta",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9bab66ec97278c2ede76ad0df7675cb463d31bcb666f1fe73cd8ef5aa0f6ebbd_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9ed876f2eb538c614b85e8d7093cba4105716cb49b0475d887f65261f12c0e5a_w640_q70.webp"
     },
     {
-      "id": 55483,
-      "title": "The Diffusion-Attention Connection",
-      "date": "2026-04-14",
-      "author": "Julio Candanedo",
+      "id": 57447,
+      "title": "Classical and Quantum Speedups for Non-Convex Optimization via Energy Conserving Descent",
+      "date": "2026-04-15",
+      "author": "Yihang Sun",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2b792a5bcc0fdc9efb78e4b01d1c66ac1774448ebe85a7681cc6b5667dad6aef_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7c51a96e1a4812e48669876d50d8a657e3e6373b9169321703c2a8a06ef22e57_w640_q70.webp"
     },
     {
-      "id": 55567,
-      "title": "Fairboard: a quantitative framework for equity assessment of healthcare models",
-      "date": "2026-04-14",
-      "author": "James K. Ruffle",
+      "id": 57448,
+      "title": "Token Encoding for Semantic Recovery",
+      "date": "2026-04-15",
+      "author": "Jingzhi Hu",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,51 +128,51 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2979e30eb2f6aedeba672a8942356e3dc370c3b82cc9571d6114c13736db3067_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/426964450718c13d2a4204f8b56f4884eadcbbd8321b905c6219b9a12a83e456_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 56334,
-      "title": "Sema Code: Decoupling AI Coding Agents into Programmable, Embeddable Infrastructure",
-      "date": "2026-04-14",
-      "author": "Huacan Wang",
+      "id": 57164,
+      "title": "Whole-Body Mobile Manipulation using Offline Reinforcement Learning on Sub-optimal Controllers",
+      "date": "2026-04-15",
+      "author": "Snehal Jauhri",
       "tags": [
         {
-          "label": "cs.SE",
+          "label": "cs.RO",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/079e15ac04fa1ac482ab3e7768420118897d6f6204b1113646b12d732ec58e84_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7007da077206e24e8f2c23a4c4dcde4aa87324e0628bab4943fff8ecc74e843b_w640_q70.webp"
     },
     {
-      "id": 56647,
-      "title": "RPA-Check: A Multi-Stage Automated Framework for Evaluating Dynamic LLM-based Role-Playing Agents",
-      "date": "2026-04-14",
-      "author": "Riccardo Rosati",
+      "id": 57170,
+      "title": "DeepSeek Robustness Against Semantic-Character Dual-Space Mutated Prompt Injection",
+      "date": "2026-04-15",
+      "author": "Junyu Ren",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.CR",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4112a7bb05738c54f979d522dfa2c85b394a6cc393982c26be632d674d013d16_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a8afb914fed6c94a30c8915731108739750375fe9d377fa9b0d44ff06444e4e3_w640_q70.webp"
     },
     {
-      "id": 56142,
-      "title": "BlasBench: An Open Benchmark for Irish Speech Recognition",
-      "date": "2026-04-14",
-      "author": "Jyoutir Raj",
+      "id": 56969,
+      "title": "COBALT-TLA: A Neuro-Symbolic Verification Loop for Cross-Chain Bridge Vulnerability Discovery",
+      "date": "2026-04-15",
+      "author": "Dominik Blain",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.CR",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e72354242ef90a7fa4bf48130e57e7640eb2983785f74e457980682bc37b52fd_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/937c87ebc1731d4c6efb276b91f7445de43c13404fc1e4cd3f5d9326365126fd_w640_q70.webp"
     }
   ]
 }

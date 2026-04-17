@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 57527,
-      "title": "SciFi: A Safe, Lightweight, User-Friendly, and Fully Autonomous Agentic AI Workflow for Scientific Applications",
-      "date": "2026-04-16",
-      "author": "Qibin Liu",
+      "id": 58607,
+      "title": "Ollivier-Ricci Curvature of Riemannian Manifolds and Directed Graphs with Applications to Graph Neural Networks",
+      "date": "2026-04-17",
+      "author": "Eleanor Wiesler",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a289ece07422ebbfed00a9c93496907bb13d7e30c4c06a8cefe72a401529470b_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/380431855676d8ec1a50fa2c8e226eb4b7744aa53146c5def16dfb0ce2735611_w640_q70.webp"
     },
     {
-      "id": 57522,
-      "title": "Exploration and Exploitation Errors Are Measurable for Language Model Agents",
-      "date": "2026-04-16",
-      "author": "Jaden Park",
+      "id": 58213,
+      "title": "Dissecting Failure Dynamics in Large Language Model Reasoning",
+      "date": "2026-04-17",
+      "author": "Wei Zhu",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/38dbe8a1a7917326261bddf8923bfe88b8c244999ef2268118ad50fb044b71ad_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4a6eaf933cba66ce30ec8badeb774d2c65b138e3111c4e4a7328ae1336caa8f9_w640_q70.webp"
     },
     {
-      "id": 57539,
-      "title": "Numerical Instability and Chaos: Quantifying the Unpredictability of Large Language Models",
-      "date": "2026-04-16",
-      "author": "Chashi Mahiul Islam",
+      "id": 58037,
+      "title": "NuHF Claw: A Risk Constrained Cognitive Agent Framework for Human Centered Procedure Support in Digital Nuclear Control Rooms",
+      "date": "2026-04-17",
+      "author": "Xingyu Xiao",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d1ef93837af573c7ec49f70eb5265a186c6e01d5e490bcafe33af233c8de7c48_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ac0f0f85f916680e991ea142283cd65aed76c10cc6bc7e397e74c560d7420c0c_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 57507,
-      "title": "A Lightweight Multi-Metric No-Reference Image Quality Assessment Framework for UAV Imaging",
-      "date": "2026-04-16",
-      "author": "Koffi Titus Sergio Aglin",
+      "id": 58504,
+      "title": "Building Extraction from Remote Sensing Imagery under Hazy and Low-light Conditions: Benchmark and Baseline",
+      "date": "2026-04-17",
+      "author": "Feifei Sang",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0968517237045e2baaeb4d3a5af4be50f2d8f4fdc90d554e0ce308a793d0a850_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/899758cd6f2ca9d2174dc65499a94ddbf83091e6391b4baf0e7179762b900fd4_w640_q70.webp"
     },
     {
-      "id": 57515,
-      "title": "Graph Propagated Projection Unlearning: A Unified Framework for Vision and Audio Discriminative Models",
-      "date": "2026-04-16",
-      "author": "Shreyansh Pathak",
+      "id": 58227,
+      "title": "The Fourth Challenge on Image Super-Resolution ($\\times$4) at NTIRE 2026: Benchmark Results and Method Overview",
+      "date": "2026-04-17",
+      "author": "Zheng Chen",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/829bc1775830f550d47bae23b9f5fab8e35891544d6e000710acdd5f0e952773_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/02e8f55aa64fcf5cfedcfec16f8eec80f97a6c7503d863c102866755ac422d20_w640_q70.webp"
     },
     {
-      "id": 57523,
-      "title": "3DRealHead: Few-Shot Detailed Head Avatar",
-      "date": "2026-04-16",
-      "author": "Jalees Nehvi",
+      "id": 58060,
+      "title": "QualiaNet: An Experience-Before-Inference Network",
+      "date": "2026-04-17",
+      "author": "Paul Linton",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7e26958dec03dcd16b728660c38a5152b115da078e3a9529885815dc65da6869_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f75a87295ad0a0b2e771f24b206d335b8db2cc9b6c4c6f58efcac40290ce415c_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 57550,
-      "title": "Analog Optical Inference on Million-Record Mortgage Data",
-      "date": "2026-04-16",
-      "author": "Sofia Berloff",
+      "id": 58634,
+      "title": "Scalable Model-Based Clustering with Sequential Monte Carlo",
+      "date": "2026-04-17",
+      "author": "Connie Trojan",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5ec4a5040b6007e95e1da4885c189a074d3663d0c101221354969b82326bd92b_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fd916483435952154093c9cff275af2550c0a89a8ef57c004e4fd844fa6b4943_w640_q70.webp"
     },
     {
-      "id": 57773,
-      "title": "A Bayesian Framework for Uncertainty-Aware Explanations in Power Quality Disturbance Classification",
-      "date": "2026-04-16",
-      "author": "Yinsong Chen",
+      "id": 58642,
+      "title": "Learning to Concatenate Quantum Codes",
+      "date": "2026-04-17",
+      "author": "Nico Meyer",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/884b09ae47e1ecc12d65078fbc6d650db398fb52ebb159489dc4b8c2ce62990e_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/bacc14060217a9189a7ef138a8d7d2b3e3cb486cbc6743225af4e9ef50aff6a0_w640_q70.webp"
     },
     {
-      "id": 58028,
-      "title": "Gradient Descent's Last Iterate is Often (slightly) Suboptimal",
-      "date": "2026-04-16",
-      "author": "Guy Kornowski",
+      "id": 58600,
+      "title": "Predictions of charge density distributions for nuclei with $Z \\geq 8$",
+      "date": "2026-04-17",
+      "author": "Yun Dong Wang",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,15 +128,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ef6a3630b7a759223e704cef650040a7bb70b5d95d7fc0f2ea4b1c1a43b014bb_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/98473f7e08adac3ac98644db9062a785458e4ab63ba8ae7bc42e4cdfa781204a_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 57480,
-      "title": "EVE: A Domain-Specific LLM Framework for Earth Intelligence",
-      "date": "2026-04-16",
-      "author": "\u00c0lex R. Atrio",
+      "id": 58035,
+      "title": "HUOZIIME: An On-Device LLM-enhanced Input Method for Deep Personalization",
+      "date": "2026-04-17",
+      "author": "Baocai Shan",
       "tags": [
         {
           "label": "cs.CL",
@@ -144,13 +144,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/babc1090a0f8b24e172f467d5b06ddac52ab50e686111c07f29ec023ab5ccedd_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/09a7b85f6532226deccd2c8da01798414461d2e5bba479e4beb7e3c266422ad7_w640_q70.webp"
     },
     {
-      "id": 57481,
-      "title": "Curation of a Palaeohispanic Dataset for Machine Learning",
-      "date": "2026-04-16",
-      "author": "Gonzalo Mart\u00ednez-Fern\u00e1ndez",
+      "id": 58050,
+      "title": "Chinese Essay Rhetoric Recognition Using LoRA, In-context Learning and Model Ensemble",
+      "date": "2026-04-17",
+      "author": "Yuxuan Lai",
       "tags": [
         {
           "label": "cs.CL",
@@ -158,21 +158,21 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c41f7368f75ad205c6b2aeb0be9d39ce2d9ac44198bd41e550a7672198bbcecd_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/bd8548aad5602d029b9e5caf7eb27b3f01d2cfba5ba69f90dd49fb7b9e762e25_w640_q70.webp"
     },
     {
-      "id": 57551,
-      "title": "GeoVision-Enabled Digital Twin for Hybrid Autonomous-Teleoperated Medical Responses",
-      "date": "2026-04-16",
-      "author": "Parham Kebria",
+      "id": 58051,
+      "title": "Hierarchical Retrieval Augmented Generation for Adversarial Technique Annotation in Cyber Threat Intelligence Text",
+      "date": "2026-04-17",
+      "author": "Filippo Morbiato",
       "tags": [
         {
-          "label": "cs.RO",
+          "label": "cs.CL",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/29765846142c44ba39bc961e36387cf36f89104355ffa7a9976225cf3e26bda0_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3e83320bad4faac93d673a3be815802fa1b8cb30ceadf9908946e02f23e0f0f8_w640_q70.webp"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 58607,
-      "title": "Ollivier-Ricci Curvature of Riemannian Manifolds and Directed Graphs with Applications to Graph Neural Networks",
-      "date": "2026-04-17",
-      "author": "Eleanor Wiesler",
+      "id": 58735,
+      "title": "DeepER-Med: Advancing Deep Evidence-Based Research in Medicine Through Agentic AI",
+      "date": "2026-04-20",
+      "author": "Zhizheng Wang",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/380431855676d8ec1a50fa2c8e226eb4b7744aa53146c5def16dfb0ce2735611_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4102b770f8d1097a324d7aa4d353d6b31a8b387d6bfb480978ab99a86d693fcd_w640_q70.webp"
     },
     {
-      "id": 58213,
-      "title": "Dissecting Failure Dynamics in Large Language Model Reasoning",
-      "date": "2026-04-17",
-      "author": "Wei Zhu",
+      "id": 58751,
+      "title": "GIST: Multimodal Knowledge Extraction and Spatial Grounding via Intelligent Semantic Topology",
+      "date": "2026-04-20",
+      "author": "Shivendra Agrawal",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4a6eaf933cba66ce30ec8badeb774d2c65b138e3111c4e4a7328ae1336caa8f9_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d558cfb5d638a953c00760df31b7cd0cd139f758aeba740d54e65053e6cf9250_w640_q70.webp"
     },
     {
-      "id": 58037,
-      "title": "NuHF Claw: A Risk Constrained Cognitive Agent Framework for Human Centered Procedure Support in Digital Nuclear Control Rooms",
-      "date": "2026-04-17",
-      "author": "Xingyu Xiao",
+      "id": 58765,
+      "title": "Bureaucratic Silences: What the Canadian AI Register Reveals, Omits, and Obscures",
+      "date": "2026-04-20",
+      "author": "Dipto Das",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ac0f0f85f916680e991ea142283cd65aed76c10cc6bc7e397e74c560d7420c0c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ee3f289ea59e52a0200c100b71d4dd2311cbeba08b539abfd6cf42815f8ebb41_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 58504,
-      "title": "Building Extraction from Remote Sensing Imagery under Hazy and Low-light Conditions: Benchmark and Baseline",
-      "date": "2026-04-17",
-      "author": "Feifei Sang",
+      "id": 58708,
+      "title": "Zoom Consistency: A Free Confidence Signal in Multi-Step Visual Grounding Pipelines",
+      "date": "2026-04-20",
+      "author": "Keon Kim",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/899758cd6f2ca9d2174dc65499a94ddbf83091e6391b4baf0e7179762b900fd4_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9b8708f79af285191ea5ec180df40aeaeb14f814388d2dc5249ee90a0958a9a8_w640_q70.webp"
     },
     {
-      "id": 58227,
-      "title": "The Fourth Challenge on Image Super-Resolution ($\\times$4) at NTIRE 2026: Benchmark Results and Method Overview",
-      "date": "2026-04-17",
-      "author": "Zheng Chen",
+      "id": 58730,
+      "title": "Weak-to-Strong Knowledge Distillation Accelerates Visual Learning",
+      "date": "2026-04-20",
+      "author": "Baiang Li",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/02e8f55aa64fcf5cfedcfec16f8eec80f97a6c7503d863c102866755ac422d20_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8cda6b2614d9b2dc88ddc1e942382816161e4c48a2a8725f14dfc803ac432967_w640_q70.webp"
     },
     {
-      "id": 58060,
-      "title": "QualiaNet: An Experience-Before-Inference Network",
-      "date": "2026-04-17",
-      "author": "Paul Linton",
+      "id": 58744,
+      "title": "(1D) Ordered Tokens Enable Efficient Test-Time Search",
+      "date": "2026-04-20",
+      "author": "Zhitong Gao",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f75a87295ad0a0b2e771f24b206d335b8db2cc9b6c4c6f58efcac40290ce415c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/29af1120f398762730396d249c221ca05a28360e2c4e085f319f41a73ee62eeb_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 58634,
-      "title": "Scalable Model-Based Clustering with Sequential Monte Carlo",
-      "date": "2026-04-17",
-      "author": "Connie Trojan",
+      "id": 59108,
+      "title": "JumpLoRA: Sparse Adapters for Continual Learning in Large Language Models",
+      "date": "2026-04-20",
+      "author": "Alexandra Dragomir",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fd916483435952154093c9cff275af2550c0a89a8ef57c004e4fd844fa6b4943_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/69e4c8e8ec648970e2aa878dea8a9747d45af3632b44e6a30fdac51aca1216d1_w640_q70.webp"
     },
     {
-      "id": 58642,
-      "title": "Learning to Concatenate Quantum Codes",
-      "date": "2026-04-17",
-      "author": "Nico Meyer",
+      "id": 58900,
+      "title": "Multi-objective Reinforcement Learning With Augmented States Requires Rewards After Deployment",
+      "date": "2026-04-20",
+      "author": "Peter Vamplew",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/bacc14060217a9189a7ef138a8d7d2b3e3cb486cbc6743225af4e9ef50aff6a0_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/404afdb7a160f0c293333f0c1aaf10f8e226b1667a0026a0f8072297e4f3d860_w640_q70.webp"
     },
     {
-      "id": 58600,
-      "title": "Predictions of charge density distributions for nuclei with $Z \\geq 8$",
-      "date": "2026-04-17",
-      "author": "Yun Dong Wang",
+      "id": 58688,
+      "title": "The Spectral Geometry of Thought: Phase Transitions, Instruction Reversal, Token-Level Dynamics, and Perfect Correctness Prediction in How Transformers Reason",
+      "date": "2026-04-20",
+      "author": "Yi Liu",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,51 +128,51 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/98473f7e08adac3ac98644db9062a785458e4ab63ba8ae7bc42e4cdfa781204a_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/803b7eb7d485b28dca2824bcdcf9c56552cc7724b2313dd74e0876bff685cacb_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 58035,
-      "title": "HUOZIIME: An On-Device LLM-enhanced Input Method for Deep Personalization",
-      "date": "2026-04-17",
-      "author": "Baocai Shan",
+      "id": 58701,
+      "title": "LogJack: Indirect Prompt Injection Through Cloud Logs Against LLM Debugging Agents",
+      "date": "2026-04-20",
+      "author": "Harsh Shah",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.CR",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/09a7b85f6532226deccd2c8da01798414461d2e5bba479e4beb7e3c266422ad7_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/80b18fcadaa02f855d3a60f2dc665786f4c12f8d1345d7d0c5d39a048c373aa2_w640_q70.webp"
     },
     {
-      "id": 58050,
-      "title": "Chinese Essay Rhetoric Recognition Using LoRA, In-context Learning and Model Ensemble",
-      "date": "2026-04-17",
-      "author": "Yuxuan Lai",
+      "id": 58700,
+      "title": "An Agentic Workflow for Detecting Personally Identifiable Information in Crash Narratives",
+      "date": "2026-04-20",
+      "author": "Junyi Ma",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.CR",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/bd8548aad5602d029b9e5caf7eb27b3f01d2cfba5ba69f90dd49fb7b9e762e25_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8d89381615dd2fadc67df03ba8aa98e286323235c08a01bfb9a45219efd8c2e9_w640_q70.webp"
     },
     {
-      "id": 58051,
-      "title": "Hierarchical Retrieval Augmented Generation for Adversarial Technique Annotation in Cyber Threat Intelligence Text",
-      "date": "2026-04-17",
-      "author": "Filippo Morbiato",
+      "id": 58702,
+      "title": "SoK: Security of Autonomous LLM Agents in Agentic Commerce",
+      "date": "2026-04-20",
+      "author": "Qian'ang Mao",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.CR",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3e83320bad4faac93d673a3be815802fa1b8cb30ceadf9908946e02f23e0f0f8_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/823b1582ebe18d9be3581de9b4c2ecef765fb7f2f2f4eb9a2343effe3c00db00_w640_q70.webp"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 58735,
-      "title": "DeepER-Med: Advancing Deep Evidence-Based Research in Medicine Through Agentic AI",
-      "date": "2026-04-20",
-      "author": "Zhizheng Wang",
+      "id": 59234,
+      "title": "Governing the Agentic Enterprise: A Governance Maturity Model for Managing AI Agent Sprawl in Business Operations",
+      "date": "2026-04-21",
+      "author": "Vivek Acharya",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4102b770f8d1097a324d7aa4d353d6b31a8b387d6bfb480978ab99a86d693fcd_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9ca9052da014cdd213739fa624f0ca4f5e582300aeeabbc0a377b0d229c8c3fa_w640_q70.webp"
     },
     {
-      "id": 58751,
-      "title": "GIST: Multimodal Knowledge Extraction and Spatial Grounding via Intelligent Semantic Topology",
-      "date": "2026-04-20",
-      "author": "Shivendra Agrawal",
+      "id": 59239,
+      "title": "Semantic Consensus: Process-Aware Conflict Detection and Resolution for Enterprise Multi-Agent LLM Systems",
+      "date": "2026-04-21",
+      "author": "Vivek Acharya",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d558cfb5d638a953c00760df31b7cd0cd139f758aeba740d54e65053e6cf9250_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/39368735078b2a5285c36681a34a1a8d65374881d4e7054b1e5a7c0e013b2672_w640_q70.webp"
     },
     {
-      "id": 58765,
-      "title": "Bureaucratic Silences: What the Canadian AI Register Reveals, Omits, and Obscures",
-      "date": "2026-04-20",
-      "author": "Dipto Das",
+      "id": 59300,
+      "title": "Computational Hermeneutics: Evaluating generative AI as a cultural technology",
+      "date": "2026-04-21",
+      "author": "Cody Kommers",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ee3f289ea59e52a0200c100b71d4dd2311cbeba08b539abfd6cf42815f8ebb41_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2963efc4e893170559734291aacc5dcb17771b68e34bedf818ef5627e9397b51_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 58708,
-      "title": "Zoom Consistency: A Free Confidence Signal in Multi-Step Visual Grounding Pipelines",
-      "date": "2026-04-20",
-      "author": "Keon Kim",
+      "id": 59773,
+      "title": "Instant Colorization of Gaussian Splats",
+      "date": "2026-04-21",
+      "author": "Daniel Lieber",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9b8708f79af285191ea5ec180df40aeaeb14f814388d2dc5249ee90a0958a9a8_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5ede4ffaf6a67a30c72b0771b7c845ea70a0d67e48787476bef672c60e37c9e3_w640_q70.webp"
     },
     {
-      "id": 58730,
-      "title": "Weak-to-Strong Knowledge Distillation Accelerates Visual Learning",
-      "date": "2026-04-20",
-      "author": "Baiang Li",
+      "id": 59803,
+      "title": "CDSA-Net:Collaborative Decoupling of Vascular Structure and Background for High-Fidelity Coronary Digital Subtraction Angiography",
+      "date": "2026-04-21",
+      "author": "Si Li",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8cda6b2614d9b2dc88ddc1e942382816161e4c48a2a8725f14dfc803ac432967_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ee5439ac3840734ac6270616817fdf71a1094009bcac70f48e3c28d6c2f9db3e_w640_q70.webp"
     },
     {
-      "id": 58744,
-      "title": "(1D) Ordered Tokens Enable Efficient Test-Time Search",
-      "date": "2026-04-20",
-      "author": "Zhitong Gao",
+      "id": 60093,
+      "title": "Dynamic Visual-semantic Alignment for Zero-shot Learning with Ambiguous Labels",
+      "date": "2026-04-21",
+      "author": "Jiangnan Li",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/29af1120f398762730396d249c221ca05a28360e2c4e085f319f41a73ee62eeb_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6002c0084e6ad23a55446bb44f22f9e45d4e6b0e21c229cd81c18a4cf13a3885_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 59108,
-      "title": "JumpLoRA: Sparse Adapters for Continual Learning in Large Language Models",
-      "date": "2026-04-20",
-      "author": "Alexandra Dragomir",
+      "id": 59480,
+      "title": "UniCon: Unified Framework for Efficient Contrastive Alignment via Kernels",
+      "date": "2026-04-21",
+      "author": "Hangke Sui",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/69e4c8e8ec648970e2aa878dea8a9747d45af3632b44e6a30fdac51aca1216d1_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0519aee1ac2a2d83fe8f9f6ebd7207d95fc65408e50248bc630d246e6ca3f03a_w640_q70.webp"
     },
     {
-      "id": 58900,
-      "title": "Multi-objective Reinforcement Learning With Augmented States Requires Rewards After Deployment",
-      "date": "2026-04-20",
-      "author": "Peter Vamplew",
+      "id": 60256,
+      "title": "Causally-Constrained Probabilistic Forecasting for Time-Series Anomaly Detection",
+      "date": "2026-04-21",
+      "author": "Pooyan Khosravinia",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/404afdb7a160f0c293333f0c1aaf10f8e226b1667a0026a0f8072297e4f3d860_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1ec8809d5d0a1e583b01dc83dd1cfeaf7006287cb21aca8f8d309ff48fba4980_w640_q70.webp"
     },
     {
-      "id": 58688,
-      "title": "The Spectral Geometry of Thought: Phase Transitions, Instruction Reversal, Token-Level Dynamics, and Perfect Correctness Prediction in How Transformers Reason",
-      "date": "2026-04-20",
-      "author": "Yi Liu",
+      "id": 60267,
+      "title": "RASP-Tuner: Retrieval-Augmented Soft Prompts for Context-Aware Black-Box Optimization in Non-Stationary Environments",
+      "date": "2026-04-21",
+      "author": "Enze Pan",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,51 +128,51 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/803b7eb7d485b28dca2824bcdcf9c56552cc7724b2313dd74e0876bff685cacb_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a71b1fda6dc97ab7b78e9746cdea0e6e7b97ec0faebd0665937c457af873092f_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 58701,
-      "title": "LogJack: Indirect Prompt Injection Through Cloud Logs Against LLM Debugging Agents",
-      "date": "2026-04-20",
-      "author": "Harsh Shah",
+      "id": 59200,
+      "title": "AgentGuard: A Multi-Agent Framework for Robust Package Confusion Detection via Hybrid Search and Metadata-Content Fusion",
+      "date": "2026-04-21",
+      "author": "Yu Li",
       "tags": [
         {
-          "label": "cs.CR",
+          "label": "cs.SE",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/80b18fcadaa02f855d3a60f2dc665786f4c12f8d1345d7d0c5d39a048c373aa2_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/10c16c2bdaac82c960ec1fb31798f1c7beb2eaf7b5fcc658a57605c4184ca16c_w640_q70.webp"
     },
     {
-      "id": 58700,
-      "title": "An Agentic Workflow for Detecting Personally Identifiable Information in Crash Narratives",
-      "date": "2026-04-20",
-      "author": "Junyi Ma",
+      "id": 59202,
+      "title": "Political and Ideological Pressure in Software Engineering Research: The Case of DEI Backlash",
+      "date": "2026-04-21",
+      "author": "Sonja M. Hyrynsalmi",
       "tags": [
         {
-          "label": "cs.CR",
+          "label": "cs.SE",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8d89381615dd2fadc67df03ba8aa98e286323235c08a01bfb9a45219efd8c2e9_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5a71c3c8d9f3d01fdc9b6c651c3e582d9fc4433735f1e24bcafc2ee7a2994cc3_w640_q70.webp"
     },
     {
-      "id": 58702,
-      "title": "SoK: Security of Autonomous LLM Agents in Agentic Commerce",
-      "date": "2026-04-20",
-      "author": "Qian'ang Mao",
+      "id": 59211,
+      "title": "Multimodal Claim Extraction for Fact-Checking",
+      "date": "2026-04-21",
+      "author": "Joycelyn Teo",
       "tags": [
         {
-          "label": "cs.CR",
+          "label": "cs.CL",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/823b1582ebe18d9be3581de9b4c2ecef765fb7f2f2f4eb9a2343effe3c00db00_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1c03ef2a0505cedede177613120b5a2a768ed619625a477eaac472455cf2a03e_w640_q70.webp"
     }
   ]
 }

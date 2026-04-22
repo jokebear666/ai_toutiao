@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 59234,
-      "title": "Governing the Agentic Enterprise: A Governance Maturity Model for Managing AI Agent Sprawl in Business Operations",
-      "date": "2026-04-21",
-      "author": "Vivek Acharya",
+      "id": 61253,
+      "title": "NeuroAI and Beyond: Bridging Between Advances in Neuroscience and ArtificialIntelligence",
+      "date": "2026-04-22",
+      "author": "Anthony Zador",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9ca9052da014cdd213739fa624f0ca4f5e582300aeeabbc0a377b0d229c8c3fa_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/635b5935439cf181deac6d28af04cc6027a78a8a045ce7e6ff92a65432cad871_w640_q70.webp"
     },
     {
-      "id": 59239,
-      "title": "Semantic Consensus: Process-Aware Conflict Detection and Resolution for Enterprise Multi-Agent LLM Systems",
-      "date": "2026-04-21",
-      "author": "Vivek Acharya",
+      "id": 60680,
+      "title": "On Solving the Multiple Variable Gapped Longest Common Subsequence Problem",
+      "date": "2026-04-22",
+      "author": "Marko Djukanovi\u0107",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/39368735078b2a5285c36681a34a1a8d65374881d4e7054b1e5a7c0e013b2672_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e30d617994d9f431f8b8dd6bde6e1504cbe338314a9effeaec2862f49eac2b60_w640_q70.webp"
     },
     {
-      "id": 59300,
-      "title": "Computational Hermeneutics: Evaluating generative AI as a cultural technology",
-      "date": "2026-04-21",
-      "author": "Cody Kommers",
+      "id": 60703,
+      "title": "Beyond One Output: Visualizing and Comparing Distributions of Language Model Generations",
+      "date": "2026-04-22",
+      "author": "Emily Reif",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2963efc4e893170559734291aacc5dcb17771b68e34bedf818ef5627e9397b51_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4038795896a323a89cba79dce63046e7d2ab6e39bb21a5a0f25c5609a8e6f42d_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 59773,
-      "title": "Instant Colorization of Gaussian Splats",
-      "date": "2026-04-21",
-      "author": "Daniel Lieber",
+      "id": 60737,
+      "title": "CAHAL: Clinically Applicable resolution enHAncement for Low-resolution MRI scans",
+      "date": "2026-04-22",
+      "author": "Sergio Morell-Ortega",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5ede4ffaf6a67a30c72b0771b7c845ea70a0d67e48787476bef672c60e37c9e3_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/899e564e88e3cdb5dc59b7eb18d8ff043ccd75e68ab6cfbe0c8177b6ce2d8506_w640_q70.webp"
     },
     {
-      "id": 59803,
-      "title": "CDSA-Net:Collaborative Decoupling of Vascular Structure and Background for High-Fidelity Coronary Digital Subtraction Angiography",
-      "date": "2026-04-21",
-      "author": "Si Li",
+      "id": 61109,
+      "title": "Seeing Candidates at Scale: Multimodal LLMs for Visual Political Communication on Instagram",
+      "date": "2026-04-22",
+      "author": "Michael Achmann-Denkler",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ee5439ac3840734ac6270616817fdf71a1094009bcac70f48e3c28d6c2f9db3e_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/30bd80ca0ecacb13848d5bbff437f4df356e1a94e02bd327956cb4865de354c1_w640_q70.webp"
     },
     {
-      "id": 60093,
-      "title": "Dynamic Visual-semantic Alignment for Zero-shot Learning with Ambiguous Labels",
-      "date": "2026-04-21",
-      "author": "Jiangnan Li",
+      "id": 60872,
+      "title": "Evaluation of Winning Solutions of 2025 Low Power Computer Vision Challenge",
+      "date": "2026-04-22",
+      "author": "Zihao Ye",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6002c0084e6ad23a55446bb44f22f9e45d4e6b0e21c229cd81c18a4cf13a3885_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8b10ed2ac8159f101232b1c2b11b711070848fb09c479f0e36e30317abd25716_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 59480,
-      "title": "UniCon: Unified Framework for Efficient Contrastive Alignment via Kernels",
-      "date": "2026-04-21",
-      "author": "Hangke Sui",
+      "id": 60774,
+      "title": "Subgraph Concept Networks: Concept Levels in Graph Classification",
+      "date": "2026-04-22",
+      "author": "Lucie Charlotte Magister",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0519aee1ac2a2d83fe8f9f6ebd7207d95fc65408e50248bc630d246e6ca3f03a_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/16723c85409aaaf7f81cf17f2dfe3356962fec5ad96745e58626a43c104fa0bd_w640_q70.webp"
     },
     {
-      "id": 60256,
-      "title": "Causally-Constrained Probabilistic Forecasting for Time-Series Anomaly Detection",
-      "date": "2026-04-21",
-      "author": "Pooyan Khosravinia",
+      "id": 61129,
+      "title": "Revisiting RaBitQ and TurboQuant: A Symmetric Comparison of Methods, Theory, and Experiments",
+      "date": "2026-04-22",
+      "author": "Jianyang Gao",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1ec8809d5d0a1e583b01dc83dd1cfeaf7006287cb21aca8f8d309ff48fba4980_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b58b1765be30ad6c9d96982e73cb6355c5026d8aa4ae26e58b244da0f508bb3e_w640_q70.webp"
     },
     {
-      "id": 60267,
-      "title": "RASP-Tuner: Retrieval-Augmented Soft Prompts for Context-Aware Black-Box Optimization in Non-Stationary Environments",
-      "date": "2026-04-21",
-      "author": "Enze Pan",
+      "id": 60656,
+      "title": "Compile to Compress: Boosting Formal Theorem Provers by Compiler Outputs",
+      "date": "2026-04-22",
+      "author": "Guchan Li",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,29 +128,29 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a71b1fda6dc97ab7b78e9746cdea0e6e7b97ec0faebd0665937c457af873092f_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9854e0a82eff9eaf937cff62a4ee121de0cd8bd6ec24e410c8ee0325b3d33623_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 59200,
-      "title": "AgentGuard: A Multi-Agent Framework for Robust Package Confusion Detection via Hybrid Search and Metadata-Content Fusion",
-      "date": "2026-04-21",
-      "author": "Yu Li",
+      "id": 60736,
+      "title": "Experiments or Outcomes? Probing Scientific Feasibility in Large Language Models",
+      "date": "2026-04-22",
+      "author": "Seyedali Mohammadi",
       "tags": [
         {
-          "label": "cs.SE",
+          "label": "cs.CL",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/10c16c2bdaac82c960ec1fb31798f1c7beb2eaf7b5fcc658a57605c4184ca16c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/25187358421dd13cc82dfd135e0aa4715b6bfcbc0288d0e715a15aba47c14175_w640_q70.webp"
     },
     {
-      "id": 59202,
-      "title": "Political and Ideological Pressure in Software Engineering Research: The Case of DEI Backlash",
-      "date": "2026-04-21",
-      "author": "Sonja M. Hyrynsalmi",
+      "id": 61219,
+      "title": "Predictive Autoscaling for Node.js on Kubernetes: Lower Latency, Right-Sized Capacity",
+      "date": "2026-04-22",
+      "author": "Ivan Tymoshenko",
       "tags": [
         {
           "label": "cs.SE",
@@ -158,13 +158,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5a71c3c8d9f3d01fdc9b6c651c3e582d9fc4433735f1e24bcafc2ee7a2994cc3_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/db172f51b864e3771c5fc35cc62d80208eb15046bcee2b601b24aafdaa477bae_w640_q70.webp"
     },
     {
-      "id": 59211,
-      "title": "Multimodal Claim Extraction for Fact-Checking",
-      "date": "2026-04-21",
-      "author": "Joycelyn Teo",
+      "id": 60658,
+      "title": "Two-dimensional early exit optimisation of LLM inference",
+      "date": "2026-04-22",
+      "author": "Jan H\u016fla",
       "tags": [
         {
           "label": "cs.CL",
@@ -172,7 +172,7 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1c03ef2a0505cedede177613120b5a2a768ed619625a477eaac472455cf2a03e_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ef30c71ed2f0168f0464013864b480c336489dfee355e30f33ba48d84f8199ad_w640_q70.webp"
     }
   ]
 }

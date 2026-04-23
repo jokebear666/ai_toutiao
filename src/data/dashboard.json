@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 61253,
-      "title": "NeuroAI and Beyond: Bridging Between Advances in Neuroscience and ArtificialIntelligence",
-      "date": "2026-04-22",
-      "author": "Anthony Zador",
+      "id": 61292,
+      "title": "Explainable AML Triage with LLMs: Evidence Retrieval and Counterfactual Checks",
+      "date": "2026-04-23",
+      "author": "Dorothy Torres",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/635b5935439cf181deac6d28af04cc6027a78a8a045ce7e6ff92a65432cad871_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2908e460e0df3bc805eb6e3f46876cbc308cc745d8bcfb046f9fa25792b11c43_w640_q70.webp"
     },
     {
-      "id": 60680,
-      "title": "On Solving the Multiple Variable Gapped Longest Common Subsequence Problem",
-      "date": "2026-04-22",
-      "author": "Marko Djukanovi\u0107",
+      "id": 61716,
+      "title": "Self-Guided Plan Extraction for Instruction-Following Tasks with Goal-Conditional Reinforcement Learning",
+      "date": "2026-04-23",
+      "author": "Zoya Volovikova",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e30d617994d9f431f8b8dd6bde6e1504cbe338314a9effeaec2862f49eac2b60_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/63b1b0702c3d815bee66619e225498d0aa019550a9c1bb6c1b25c5d09f77eaf3_w640_q70.webp"
     },
     {
-      "id": 60703,
-      "title": "Beyond One Output: Visualizing and Comparing Distributions of Language Model Generations",
-      "date": "2026-04-22",
-      "author": "Emily Reif",
+      "id": 61732,
+      "title": "Large Language Models Outperform Humans in Fraud Detection and Resistance to Motivated Investor Pressure",
+      "date": "2026-04-23",
+      "author": "Nattavudh Powdthavee",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4038795896a323a89cba79dce63046e7d2ab6e39bb21a5a0f25c5609a8e6f42d_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b627c3e24a56b1c1f047e25682ebea3e026bb7bc0684d9c854765ab30033ebf8_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 60737,
-      "title": "CAHAL: Clinically Applicable resolution enHAncement for Low-resolution MRI scans",
-      "date": "2026-04-22",
-      "author": "Sergio Morell-Ortega",
+      "id": 61512,
+      "title": "GSCompleter: A Distillation-Free Plugin for Metric-Aware 3D Gaussian Splatting Completion in Seconds",
+      "date": "2026-04-23",
+      "author": "Ao Gao",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/899e564e88e3cdb5dc59b7eb18d8ff043ccd75e68ab6cfbe0c8177b6ce2d8506_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5a75b6e84ecff48772e1a3aff62bd73062b5398d5de0ce3dc632974a18a46ad5_w640_q70.webp"
     },
     {
-      "id": 61109,
-      "title": "Seeing Candidates at Scale: Multimodal LLMs for Visual Political Communication on Instagram",
-      "date": "2026-04-22",
-      "author": "Michael Achmann-Denkler",
+      "id": 61735,
+      "title": "The Expense of Seeing: Attaining Trustworthy Multimodal Reasoning Within the Monolithic Paradigm",
+      "date": "2026-04-23",
+      "author": "Karan Goyal",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/30bd80ca0ecacb13848d5bbff437f4df356e1a94e02bd327956cb4865de354c1_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/724183d3edd94643e0939dc57e0508277f70fb9587520f21d7295b91d60ae0d5_w640_q70.webp"
     },
     {
-      "id": 60872,
-      "title": "Evaluation of Winning Solutions of 2025 Low Power Computer Vision Challenge",
-      "date": "2026-04-22",
-      "author": "Zihao Ye",
+      "id": 61353,
+      "title": "Rabies diagnosis in low-data settings: A comparative study on the impact of data augmentation and transfer learning",
+      "date": "2026-04-23",
+      "author": "Khalil Akremi",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8b10ed2ac8159f101232b1c2b11b711070848fb09c479f0e36e30317abd25716_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/228cf301c8cb7335e1262d8404210cd615c606f54d1d980e65938b15aee90c3f_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 60774,
-      "title": "Subgraph Concept Networks: Concept Levels in Graph Classification",
-      "date": "2026-04-22",
-      "author": "Lucie Charlotte Magister",
+      "id": 61377,
+      "title": "Super Apriel: One Checkpoint, Many Speeds",
+      "date": "2026-04-23",
+      "author": "SLAM Labs",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/16723c85409aaaf7f81cf17f2dfe3356962fec5ad96745e58626a43c104fa0bd_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0d68fa0e3e67ea808c5086da14ba119161f5a41ac0e7c332c975073d94678b1d_w640_q70.webp"
     },
     {
-      "id": 61129,
-      "title": "Revisiting RaBitQ and TurboQuant: A Symmetric Comparison of Methods, Theory, and Experiments",
-      "date": "2026-04-22",
-      "author": "Jianyang Gao",
+      "id": 61297,
+      "title": "Transparent Screening for LLM Inference and Training Impacts",
+      "date": "2026-04-23",
+      "author": "Arnault Pachot",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b58b1765be30ad6c9d96982e73cb6355c5026d8aa4ae26e58b244da0f508bb3e_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fa92ccbf4db1db2b060b548ce4b4c8dc73a2e4a0e402225a20d3537427d56d59_w640_q70.webp"
     },
     {
-      "id": 60656,
-      "title": "Compile to Compress: Boosting Formal Theorem Provers by Compiler Outputs",
-      "date": "2026-04-22",
-      "author": "Guchan Li",
+      "id": 61301,
+      "title": "WorkflowGen:an adaptive workflow generation mechanism driven by trajectory experience",
+      "date": "2026-04-23",
+      "author": "Ruocan Wei",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,15 +128,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9854e0a82eff9eaf937cff62a4ee121de0cd8bd6ec24e410c8ee0325b3d33623_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/99ec69813dafadbf3e2ec440d46ca46305f691e30699fbca6f95ce1d5bbfc01d_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 60736,
-      "title": "Experiments or Outcomes? Probing Scientific Feasibility in Large Language Models",
-      "date": "2026-04-22",
-      "author": "Seyedali Mohammadi",
+      "id": 61317,
+      "title": "Self-Describing Structured Data with Dual-Layer Guidance: A Lightweight Alternative to RAG for Precision Retrieval in Large-Scale LLM Knowledge Navigation",
+      "date": "2026-04-23",
+      "author": "Hung Ming Liu",
       "tags": [
         {
           "label": "cs.CL",
@@ -144,13 +144,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/25187358421dd13cc82dfd135e0aa4715b6bfcbc0288d0e715a15aba47c14175_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e9e737381c7c8cbf4582ba065bc0e4fc946db66d366368f11d6d97f2004bbcfc_w640_q70.webp"
     },
     {
-      "id": 61219,
-      "title": "Predictive Autoscaling for Node.js on Kubernetes: Lower Latency, Right-Sized Capacity",
-      "date": "2026-04-22",
-      "author": "Ivan Tymoshenko",
+      "id": 61296,
+      "title": "Coding with Eyes: Visual Feedback Unlocks Reliable GUI Code Generating and Debugging",
+      "date": "2026-04-23",
+      "author": "Zhilin Liu",
       "tags": [
         {
           "label": "cs.SE",
@@ -158,13 +158,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/db172f51b864e3771c5fc35cc62d80208eb15046bcee2b601b24aafdaa477bae_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/39df5947c935600ade7d6f10166dc8182018a663e3d2ad951811ee69de7a7444_w640_q70.webp"
     },
     {
-      "id": 60658,
-      "title": "Two-dimensional early exit optimisation of LLM inference",
-      "date": "2026-04-22",
-      "author": "Jan H\u016fla",
+      "id": 61304,
+      "title": "Evidence of Layered Positional and Directional Constraints in the Voynich Manuscript: Implications for Cipher-Like Structure",
+      "date": "2026-04-23",
+      "author": "Christophe Parisel",
       "tags": [
         {
           "label": "cs.CL",
@@ -172,7 +172,7 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ef30c71ed2f0168f0464013864b480c336489dfee355e30f33ba48d84f8199ad_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3030fdc0d5c28245959daeac9ea1954991d5250e284acac55ddcf22a5ef1258e_w640_q70.webp"
     }
   ]
 }

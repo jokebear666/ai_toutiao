@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 61292,
-      "title": "Explainable AML Triage with LLMs: Evidence Retrieval and Counterfactual Checks",
-      "date": "2026-04-23",
-      "author": "Dorothy Torres",
+      "id": 61903,
+      "title": "Architecture of an AI-Based Automated Course of Action Generation System for Military Operations",
+      "date": "2026-04-24",
+      "author": "Ji-il Park",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2908e460e0df3bc805eb6e3f46876cbc308cc745d8bcfb046f9fa25792b11c43_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/16be1a5db886de3078d70699e0f614f973352c4c2cc22ab86ec3fe637686d071_w640_q70.webp"
     },
     {
-      "id": 61716,
-      "title": "Self-Guided Plan Extraction for Instruction-Following Tasks with Goal-Conditional Reinforcement Learning",
-      "date": "2026-04-23",
-      "author": "Zoya Volovikova",
+      "id": 61953,
+      "title": "Escaping the Agreement Trap: Defensibility Signals for Evaluating Rule-Governed AI",
+      "date": "2026-04-24",
+      "author": "Michael O'Herlihy",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/63b1b0702c3d815bee66619e225498d0aa019550a9c1bb6c1b25c5d09f77eaf3_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4f022ca5401eb7f3b89980b69e627224c040e8c10e1cecc805a9fda1f320b4ff_w640_q70.webp"
     },
     {
-      "id": 61732,
-      "title": "Large Language Models Outperform Humans in Fraud Detection and Resistance to Motivated Investor Pressure",
-      "date": "2026-04-23",
-      "author": "Nattavudh Powdthavee",
+      "id": 61963,
+      "title": "Co-Evolving LLM Decision and Skill Bank Agents for Long-Horizon Tasks",
+      "date": "2026-04-24",
+      "author": "Xiyang Wu",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b627c3e24a56b1c1f047e25682ebea3e026bb7bc0684d9c854765ab30033ebf8_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5b3fa9b2ed4c45a58416fd84a5ef28b986f52055d940eb2929dcfcede1c0556c_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 61512,
-      "title": "GSCompleter: A Distillation-Free Plugin for Metric-Aware 3D Gaussian Splatting Completion in Seconds",
-      "date": "2026-04-23",
-      "author": "Ao Gao",
+      "id": 61955,
+      "title": "Thinking Like a Botanist: Challenging Multimodal Language Models with Intent-Driven Chain-of-Inquiry",
+      "date": "2026-04-24",
+      "author": "Syed Nazmus Sakib",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5a75b6e84ecff48772e1a3aff62bd73062b5398d5de0ce3dc632974a18a46ad5_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3e3cb09af400c2408cbbfc2dfdacbcb32bd7d040a62eff48f64a110b2a72ffa9_w640_q70.webp"
     },
     {
-      "id": 61735,
-      "title": "The Expense of Seeing: Attaining Trustworthy Multimodal Reasoning Within the Monolithic Paradigm",
-      "date": "2026-04-23",
-      "author": "Karan Goyal",
+      "id": 61975,
+      "title": "Micro-DualNet: Dual-Path Spatio-Temporal Network for Micro-Action Recognition",
+      "date": "2026-04-24",
+      "author": "Naga VS Raviteja Chappa",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/724183d3edd94643e0939dc57e0508277f70fb9587520f21d7295b91d60ae0d5_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/305e1c715f77fb64c84833d56f3f68b2083c55b25dc7bdb9fe8637eb86070005_w640_q70.webp"
     },
     {
-      "id": 61353,
-      "title": "Rabies diagnosis in low-data settings: A comparative study on the impact of data augmentation and transfer learning",
-      "date": "2026-04-23",
-      "author": "Khalil Akremi",
+      "id": 61977,
+      "title": "Linear Image Generation by Synthesizing Exposure Brackets",
+      "date": "2026-04-24",
+      "author": "Yuekun Dai",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/228cf301c8cb7335e1262d8404210cd615c606f54d1d980e65938b15aee90c3f_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a0c796678a5fe890ae821a910d692f3a906540cf79fa4c16672d0f6b6b141ae6_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 61377,
-      "title": "Super Apriel: One Checkpoint, Many Speeds",
-      "date": "2026-04-23",
-      "author": "SLAM Labs",
+      "id": 61960,
+      "title": "Differentially Private Model Merging",
+      "date": "2026-04-24",
+      "author": "Qichuan Yin",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0d68fa0e3e67ea808c5086da14ba119161f5a41ac0e7c332c975073d94678b1d_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f6b467452e21d800c8c879c7951ba58db125b6ad788b20faba8a9b42a28da2d9_w640_q70.webp"
     },
     {
-      "id": 61297,
-      "title": "Transparent Screening for LLM Inference and Training Impacts",
-      "date": "2026-04-23",
-      "author": "Arnault Pachot",
+      "id": 61921,
+      "title": "Do Masked Autoencoders Improve Downhole Prediction? An Empirical Study on Real Well Drilling Data",
+      "date": "2026-04-24",
+      "author": "Aleksander Berezowski",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fa92ccbf4db1db2b060b548ce4b4c8dc73a2e4a0e402225a20d3537427d56d59_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7ea6d82319d197926b00c6bc63e06df12e939bd36ee5b1b114117a702497d6a5_w640_q70.webp"
     },
     {
-      "id": 61301,
-      "title": "WorkflowGen:an adaptive workflow generation mechanism driven by trajectory experience",
-      "date": "2026-04-23",
-      "author": "Ruocan Wei",
+      "id": 61922,
+      "title": "Reinforcing privacy reasoning in LLMs via normative simulacra from fiction",
+      "date": "2026-04-24",
+      "author": "Matt Franchi",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,15 +128,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/99ec69813dafadbf3e2ec440d46ca46305f691e30699fbca6f95ce1d5bbfc01d_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6a3918e431bc2fd4ff59d6e1e862a4130d618cb14edadade634380190c24d031_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 61317,
-      "title": "Self-Describing Structured Data with Dual-Layer Guidance: A Lightweight Alternative to RAG for Precision Retrieval in Large-Scale LLM Knowledge Navigation",
-      "date": "2026-04-23",
-      "author": "Hung Ming Liu",
+      "id": 61914,
+      "title": "AITP: Traffic Accident Responsibility Allocation via Multimodal Large Language Models",
+      "date": "2026-04-24",
+      "author": "Zijin Zhou",
       "tags": [
         {
           "label": "cs.CL",
@@ -144,35 +144,35 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e9e737381c7c8cbf4582ba065bc0e4fc946db66d366368f11d6d97f2004bbcfc_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/bc121506a8ccf45597b3974a927612396ef7802a9f19a75910c15d71ee6de88f_w640_q70.webp"
     },
     {
-      "id": 61296,
-      "title": "Coding with Eyes: Visual Feedback Unlocks Reliable GUI Code Generating and Debugging",
-      "date": "2026-04-23",
-      "author": "Zhilin Liu",
+      "id": 61915,
+      "title": "Towards a Systematic Risk Assessment of Deep Neural Network Limitations in Autonomous Driving Perception",
+      "date": "2026-04-24",
+      "author": "Svetlana Pavlitska",
       "tags": [
         {
-          "label": "cs.SE",
+          "label": "cs.CR",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/39df5947c935600ade7d6f10166dc8182018a663e3d2ad951811ee69de7a7444_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/adba2ab1058405394bdf60b5c2908d26bf6fe464f29f7007866a87293b0ccbac_w640_q70.webp"
     },
     {
-      "id": 61304,
-      "title": "Evidence of Layered Positional and Directional Constraints in the Voynich Manuscript: Implications for Cipher-Like Structure",
-      "date": "2026-04-23",
-      "author": "Christophe Parisel",
+      "id": 61916,
+      "title": "A Tendon-Driven Wrist Abduction-Adduction Joint Improves Performance of a 5 DoF Upper Limb Exoskeleton -- Implementation and Experimental Evaluation",
+      "date": "2026-04-24",
+      "author": "Juwairiya S. Khan",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.RO",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3030fdc0d5c28245959daeac9ea1954991d5250e284acac55ddcf22a5ef1258e_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d8d7edd1fd6dfb2fa80bb037bb0d2cef2b6d86ff6208bbfcf359fe0238c6510e_w640_q70.webp"
     }
   ]
 }

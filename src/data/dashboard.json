@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 64355,
-      "title": "Automated Adversarial Collaboration for Advancing Theory Building in the Cognitive Sciences",
-      "date": "2026-04-29",
-      "author": "Suyog Chandramouli",
+      "id": 65024,
+      "title": "SongBench: A Fine-Grained Multi-Aspect Benchmark for Song Quality Assessment",
+      "date": "2026-04-30",
+      "author": "Dapeng Wu",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/95013ac896412885a2ef4ba5ce9f31140c234ae96c7556b5d61e1b0897a46205_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/60c83fcb263abaadd26bdd6313ed8a229dd1b4f1b7544cad9e1ef9c2368bf86a_w640_q70.webp"
     },
     {
-      "id": 64069,
-      "title": "Latent Agents: A Post-Training Procedure for Internalized Multi-Agent Debate",
-      "date": "2026-04-29",
-      "author": "John Seon Keun Yi",
+      "id": 65037,
+      "title": "QERNEL: a Scalable Large Electron Model",
+      "date": "2026-04-30",
+      "author": "Khachatur Nazaryan",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/156c1acf16eb157e5847c3d2b51dc16599e388a86d2512a12180438b96828357_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e0237fc76cc35fc3484ca19f6087b9b90ca433aab7218f18e917e8b3ee9a79a1_w640_q70.webp"
     },
     {
-      "id": 64072,
-      "title": "Co-Director: Agentic Generative Video Storytelling",
-      "date": "2026-04-29",
-      "author": "Yale Song",
+      "id": 64643,
+      "title": "Operating-Layer Controls for Onchain Language-Model Agents Under Real Capital",
+      "date": "2026-04-30",
+      "author": "T.J. Barton",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e01a3d1cde6b695daf690e9dbb861675d536de770cf61d6ddf7da892bc594262_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/db7a6b1df8f87f4e86fe30ac2da4cf43d38fb87aa418b4186beb01564db8ca68_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 64068,
-      "title": "Learning Illumination Control in Diffusion Models",
-      "date": "2026-04-29",
-      "author": "Nishit Anand",
+      "id": 64779,
+      "title": "Seamless Indoor-Outdoor Mapping for INGENIOUS First Responders",
+      "date": "2026-04-30",
+      "author": "J\u00fcrgen Wohlfeil",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/742f88dc5b27ebd1c622096a00199800d70c2866ffc923302fa3637131b8f190_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4b17adb6604339d25a75c1e08c017f730c1d04f1a9510d8465670acfae95cde9_w640_q70.webp"
     },
     {
-      "id": 64065,
-      "title": "ESICA: A Scalable Framework for Text-Guided 3D Medical Image Segmentation",
-      "date": "2026-04-29",
-      "author": "Yu Xin",
+      "id": 64618,
+      "title": "Report of the 5th PVUW Challenge: Towards More Diverse Modalities in Pixel-Level Understanding",
+      "date": "2026-04-30",
+      "author": "Chang Liu",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/13c48908625c7d01ab4425406c12a9aa2f7ddb55d29e23d8a19ebfca6d3c0a20_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e4e3c91c49f3f730a9c8463866f42592c13f5fb816b6eec5d8196622d2a0a47b_w640_q70.webp"
     },
     {
-      "id": 64078,
-      "title": "VibeToken: Scaling 1D Image Tokenizers and Autoregressive Models for Dynamic Resolution Generations",
-      "date": "2026-04-29",
-      "author": "Maitreya Patel",
+      "id": 64620,
+      "title": "Generalized Disguise Makeup Presentation Attack Detection Using an Attention-Guided Patch-Based Framework",
+      "date": "2026-04-30",
+      "author": "Fateme Taraghi",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1ad09d27061f435e4ce82e4f6f4102acbd31e18597731d63c8347ca62e2d16ca_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/bf31ed98afed7bcb0328b247750b0091d642da3eb0f95e11510ee9026c4b308b_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 64035,
-      "title": "Liquid Neural Network Models for Natural Gas Spot Price Time-Series Forecasting",
-      "date": "2026-04-29",
-      "author": "Yiqian Liu",
+      "id": 64723,
+      "title": "DORA: A Scalable Asynchronous Reinforcement Learning System for Language Model Training",
+      "date": "2026-04-30",
+      "author": "Tianhao Hu",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d7069758e988b66cbe542a3340851ec55d4e203276e7cfed1a984513b5486cba_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ac6ad2fe711647794ecceda5f70a5d60fb80b6bfad6c402f6d3b902a30f6d50d_w640_q70.webp"
     },
     {
-      "id": 64036,
-      "title": "Comparative Study of Bending Analysis using Physics-Informed Neural Networks and Numerical Dynamic Deflection in Perforated nanobeam",
-      "date": "2026-04-29",
-      "author": "Ramanath Garai",
+      "id": 65019,
+      "title": "Hyper Input Convex Neural Networks for Shape Constrained Learning and Optimal Transport",
+      "date": "2026-04-30",
+      "author": "Shayan Hundrieser",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/504b139e5fba584f0c3474e8d29a2cb026a1823f5a55913d80f84f1f9de89bb8_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6010178f4ffaf06a9334a5323b46ce43cdcc57342af9938dcec6a2310cacecb7_w640_q70.webp"
     },
     {
-      "id": 64040,
-      "title": "Automated detection of pediatric congenital heart disease from phonocardiograms using deep and handcrafted feature fusion",
-      "date": "2026-04-29",
-      "author": "Abdul Jabbar",
+      "id": 65063,
+      "title": "Laplace Approximation for Bayesian Tensor Network Kernel Machines",
+      "date": "2026-04-30",
+      "author": "Albert Saiapin",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,51 +128,51 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a85ffc96a722cadc79988b3f8187723cda20c8deffc6ae8ec75738814508f5b9_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/dcab58842dc24e2a38a4ce6a3af6b242832223042014d2a1d017a1396d9c3eae_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 64037,
-      "title": "V.O.I.C.E (Voice, Ownership, Identity, Control, Expression): Risk Taxonomy of Synthetic Voice Generation From Empirical Data",
-      "date": "2026-04-29",
-      "author": "Tanusree Sharma",
+      "id": 65005,
+      "title": "Bi-Level Optimization for Contact and Motion Planning in Rope-Assisted Legged Robots",
+      "date": "2026-04-30",
+      "author": "Ruben Malacarne",
       "tags": [
         {
-          "label": "cs.CR",
+          "label": "cs.RO",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/535f4b41ca76f28c9074322ee8f870e05067b487c13d8e6a109a2cee288c3045_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b34beb019c9d3effe128a9f35450c8ff60584621a01f48c964b2b881b182c60e_w640_q70.webp"
     },
     {
-      "id": 64041,
-      "title": "Elderly-Contextual Data Augmentation via Speech Synthesis for Elderly ASR",
-      "date": "2026-04-29",
-      "author": "Minsik Lee",
+      "id": 64611,
+      "title": "Multi-Periodogram Velocity Estimation with Irregular Reference Signals for Robot-Aided ISAC",
+      "date": "2026-04-30",
+      "author": "Yi Geng",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.RO",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1a96e1f894e315ee3a70765ecd84200e8b35e98ceaed130ea675dd64750c0829_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a44bb7a94765e99cb8d92f7fb568aa9fd25612cac7668d3c9a4e054f338624c8_w640_q70.webp"
     },
     {
-      "id": 64042,
-      "title": "Semantic Denial of Service in LLM-controlled robots",
-      "date": "2026-04-29",
-      "author": "Jonathan Steinberg",
+      "id": 64602,
+      "title": "Large Language Models for Multilingual Code Intelligence: A Survey",
+      "date": "2026-04-30",
+      "author": "Chao Jiang",
       "tags": [
         {
-          "label": "cs.CR",
+          "label": "cs.SE",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9006391b90857c8ee779a525759766f4fd0436c520dfb06c9c2a927415c21333_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/54d024979260357b1f0dca2c188a8c4419ffb894cb481960cbe2a6aa3c7ec6e8_w640_q70.webp"
     }
   ]
 }

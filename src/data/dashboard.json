@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 65765,
-      "title": "TADI: Tool-Augmented Drilling Intelligence via Agentic LLM Orchestration over Heterogeneous Wellsite Data",
-      "date": "2026-05-04",
-      "author": "Rong Lu",
+      "id": 66229,
+      "title": "AI Agents for Sustainable SMEs: A Green ESG Assessment Framework",
+      "date": "2026-05-05",
+      "author": "Viet Trinh",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cdb08647643106a33fd7e229bce0b5c528896c2a0e07e411b6c7f06284fe81eb_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/defee1334ffe997c7f68d81a7ec2f1cd8f8462a5649127da12a107e88d370f5e_w640_q70.webp"
     },
     {
-      "id": 65778,
-      "title": "AgentReputation: A Decentralized Agentic AI Reputation Framework",
-      "date": "2026-05-04",
-      "author": "Mohd Sameen Chishti",
+      "id": 66222,
+      "title": "2026 Roadmap on Artificial Intelligence and Machine Learning for Smart Manufacturing",
+      "date": "2026-05-05",
+      "author": "Jay Lee",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/05c3528d705e4f4c60b5d1e8effac1d6969d8f1292c4a986371c71f5ca6b5b44_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7825460f29bbf9a1c95e6646d1bf93e5c2b50143f549cd32e537351713304e98_w640_q70.webp"
     },
     {
-      "id": 65795,
-      "title": "Minimal, Local, Causal Explanations for Jailbreak Success in Large Language Models",
-      "date": "2026-05-04",
-      "author": "Shubham Kumar",
+      "id": 66225,
+      "title": "Understanding Emergent Misalignment via Feature Superposition Geometry",
+      "date": "2026-05-05",
+      "author": "Gouki Minegishi",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b35a640ac4ed397dde69f97de44bc98ce473f6bec260cee25d2186d54944d8cd_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9e76e706354af79442e253e7e0b1dbf6817db56a22058131d841ded53720e53e_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 66120,
-      "title": "UniVidX: A Unified Multimodal Framework for Versatile Video Generation via Diffusion Priors",
-      "date": "2026-05-04",
-      "author": "Houyuan Chen",
+      "id": 66215,
+      "title": "Synthetic Designed Experiments for Diagnosing Vision Model Failure",
+      "date": "2026-05-05",
+      "author": "Krisanu Sarkar",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/494714a159d736275b775a3fbbf14dd47ff14693ca34c6d337d99684d56a59c0_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6aebafc80bce6b73c53428040555c68669848c4d3cd7f92ed48cf19b66f44420_w640_q70.webp"
     },
     {
-      "id": 65779,
-      "title": "Two-View Accumulation as the Primary Training Lever for Hybrid-Capture Gaussian Splatting: A Variance-Decomposition View of When Gradient Surgery Helps",
-      "date": "2026-05-04",
-      "author": "Sungjun Cho",
+      "id": 66235,
+      "title": "Latent Space Probing for Adult Content Detection in Video Generative Models",
+      "date": "2026-05-05",
+      "author": "Alizishaan Khatri",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/bb3973258d7ddc78c1b7716d58f49f9ddbfdefb5f475492e948a9aa5df8a8381_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ee64e5ef9a7e2769f3a137db66f3e8538c074f2d352bf36223e4b2a06e21041c_w640_q70.webp"
     },
     {
-      "id": 65780,
-      "title": "Learning from the Unseen: Generative Data Augmentation for Geometric-Semantic Accident Anticipation",
-      "date": "2026-05-04",
-      "author": "Yanchen Guan",
+      "id": 66237,
+      "title": "Visual Chart Representations for Cryptocurrency Regime Prediction: A Systematic Deep Learning Study",
+      "date": "2026-05-05",
+      "author": "Dustin M. Haggett",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6f630d28e17d8b7e8a8e53ff373f8901998d0515fba7ad15949cfc010726acc0_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8bde3fc2c972c6c3f8419af8995ccb8313c5261c8c6605f8d45e81a04e69e018_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 65801,
-      "title": "Technical Report: Activation Residual Hessian Quantization (ARHQ) for Low-Bit LLM Quantization",
-      "date": "2026-05-04",
-      "author": "YiFeng Wang",
+      "id": 67198,
+      "title": "Gradient-Discrepancy Acquisition for Pool-Based Active Learning",
+      "date": "2026-05-05",
+      "author": "Mohamadsadegh Khosravani",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8cab9b785216c9989f55f44efce7c9f42fc32132baee625fc53a5e4d54ae4261_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7dbc64b17f7c30059c6723e9fe5c65d88ea4b79edaa4077538bc1abc3fb2cfa9_w640_q70.webp"
     },
     {
-      "id": 65960,
-      "title": "Trees to Flows and Back: Unifying Decision Trees and Diffusion Models",
-      "date": "2026-05-04",
-      "author": "Sai Niranjan Ramachandran",
+      "id": 66211,
+      "title": "Agentopic: A Generative AI Agent Workflow for Explainable Topic Modeling",
+      "date": "2026-05-05",
+      "author": "Brice Valentin Kok-Shun",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6cf1f20dd2a7a4654f7401c622119496bd679643ac8fb56dbae8f239ab08e14a_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3dc084bdbb90713813c2f2466e7c113bd48264539c9b3b82f61ab42f58b8c713_w640_q70.webp"
     },
     {
-      "id": 65990,
-      "title": "Federated Learning with Hypergradient-based Online Update of Aggregation Weights",
-      "date": "2026-05-04",
-      "author": "Ayano Nakai-Kasai",
+      "id": 66214,
+      "title": "Sparse Regression under Correlation and Weak Signals: A Reproducible Benchmark of Classical and Bayesian Methods",
+      "date": "2026-05-05",
+      "author": "Hao Xiao",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,43 +128,43 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/60443d46c6327ba0cd42a0518ec1a6260263fecf0a8cdb7fd3074c46c1acf342_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6194eb5ebbd0e3d2928f97b5ebf83ebd7b6b191eaf989a64493c9fcfbd02bc28_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 65758,
-      "title": "Symbolic Execution Meets Multi-LLM Orchestration: Detecting Memory Vulnerabilities in Incomplete Rust CVE Snippets",
-      "date": "2026-05-04",
-      "author": "Zeyad Abdelrazek",
+      "id": 67233,
+      "title": "mdok-style at SemEval-2026 Task 9: Finetuning LLMs for Multilingual Polarization Detection",
+      "date": "2026-05-05",
+      "author": "Dominik Macko",
       "tags": [
         {
-          "label": "cs.CR",
+          "label": "cs.CL",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9dc228edefde0260f09a82f2811fd97a4d3877a6ac9525a628645ddb8e424922_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5e0fe904cf10417898f98e15d7f8a2a42db5a29677ea5608c5d9676a66b6e26b_w640_q70.webp"
     },
     {
-      "id": 65775,
-      "title": "XekRung Technical Report",
-      "date": "2026-05-04",
-      "author": "Jiutian Zeng",
+      "id": 66306,
+      "title": "Ablation Study of Multimodal Perception, Language Grounding, and Control for Human-Robot Interaction in an Object Detection and Grasping Task",
+      "date": "2026-05-05",
+      "author": "Zi Tian",
       "tags": [
         {
-          "label": "cs.CR",
+          "label": "cs.RO",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c5bb854393cc4fadd0bb2fe07f0b3f56de0147a8b00999e2a81fc0afce4dae53_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2782dfd0dbe27269ad40a24def02e49cb738cdf873290d767ff5fa52cd26183b_w640_q70.webp"
     },
     {
-      "id": 65754,
-      "title": "Putting HUMANS first: Efficient LAM Evaluation with Human Preference Alignment",
-      "date": "2026-05-04",
-      "author": "Woody Haosheng Gan",
+      "id": 66324,
+      "title": "A Theoretical Game of Attacks via Compositional Skills",
+      "date": "2026-05-05",
+      "author": "Xinbo Wu",
       "tags": [
         {
           "label": "cs.CL",
@@ -172,7 +172,7 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/948f8cdb303bdcb74feac5843e528169fcb75e4cf60d9cbf5dcbee16d9e86797_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/96296b91831286d20de828f31da641b3bcdc8dc96261c04e553327794e13aaad_w640_q70.webp"
     }
   ]
 }

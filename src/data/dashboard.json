@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 66229,
-      "title": "AI Agents for Sustainable SMEs: A Green ESG Assessment Framework",
-      "date": "2026-05-05",
-      "author": "Viet Trinh",
+      "id": 67473,
+      "title": "CreativityBench: Evaluating Agent Creative Reasoning via Affordance-Based Tool Repurposing",
+      "date": "2026-05-06",
+      "author": "Cheng Qian",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/defee1334ffe997c7f68d81a7ec2f1cd8f8462a5649127da12a107e88d370f5e_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c0a4b659f5b8cb76ede640f69c579915b40461f43547d9858218e6e8806dd12c_w640_q70.webp"
     },
     {
-      "id": 66222,
-      "title": "2026 Roadmap on Artificial Intelligence and Machine Learning for Smart Manufacturing",
-      "date": "2026-05-05",
-      "author": "Jay Lee",
+      "id": 67516,
+      "title": "Stable Agentic Control: Tool-Mediated LLM Architecture for Autonomous Cyber Defense",
+      "date": "2026-05-06",
+      "author": "Kerri Prinos",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7825460f29bbf9a1c95e6646d1bf93e5c2b50143f549cd32e537351713304e98_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e28aa04a7d306745422c04f63c32ca4e153edb4da49d95b9cf9ec491c6a38709_w640_q70.webp"
     },
     {
-      "id": 66225,
-      "title": "Understanding Emergent Misalignment via Feature Superposition Geometry",
-      "date": "2026-05-05",
-      "author": "Gouki Minegishi",
+      "id": 67529,
+      "title": "Computing Thiele Rules on Interval Elections and their Generalizations",
+      "date": "2026-05-06",
+      "author": "Dimitris Avramidis",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9e76e706354af79442e253e7e0b1dbf6817db56a22058131d841ded53720e53e_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0e2f912de58c1fceeb7121511f4d7b14e85c5aa94dead3fd789ed7c8fbaef2c6_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 66215,
-      "title": "Synthetic Designed Experiments for Diagnosing Vision Model Failure",
-      "date": "2026-05-05",
-      "author": "Krisanu Sarkar",
+      "id": 67962,
+      "title": "Enhanced 3D Brain Tumor Segmentation Using Assorted Precision Training",
+      "date": "2026-05-06",
+      "author": "Adwaitt Pandya",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6aebafc80bce6b73c53428040555c68669848c4d3cd7f92ed48cf19b66f44420_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/61e809dc19de588fce56066847e6172a9eabe48b88b9fbbc3f0dbf5ab00d58dd_w640_q70.webp"
     },
     {
-      "id": 66235,
-      "title": "Latent Space Probing for Adult Content Detection in Video Generative Models",
-      "date": "2026-05-05",
-      "author": "Alizishaan Khatri",
+      "id": 67525,
+      "title": "Learning to Segment using Summary Statistics and Weak Supervision",
+      "date": "2026-05-06",
+      "author": "Omkar Kulkarni",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ee64e5ef9a7e2769f3a137db66f3e8538c074f2d352bf36223e4b2a06e21041c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/30c0f8647b16ced58c465502c1e78431f5a42f0639b19094af8bb91a03f38f6e_w640_q70.webp"
     },
     {
-      "id": 66237,
-      "title": "Visual Chart Representations for Cryptocurrency Regime Prediction: A Systematic Deep Learning Study",
-      "date": "2026-05-05",
-      "author": "Dustin M. Haggett",
+      "id": 67939,
+      "title": "UnAC: Adaptive Visual Prompting with Abstraction and Stepwise Checking for Complex Multimodal Reasoning",
+      "date": "2026-05-06",
+      "author": "Yifan Wang",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8bde3fc2c972c6c3f8419af8995ccb8313c5261c8c6605f8d45e81a04e69e018_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/563de0be1c5b92e8dccced21dabaaf16c92e83455cbd1bd838c67379838efc4f_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 67198,
-      "title": "Gradient-Discrepancy Acquisition for Pool-Based Active Learning",
-      "date": "2026-05-05",
-      "author": "Mohamadsadegh Khosravani",
+      "id": 67743,
+      "title": "Bandits on graphs and structures",
+      "date": "2026-05-06",
+      "author": "Michal Valko",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7dbc64b17f7c30059c6723e9fe5c65d88ea4b79edaa4077538bc1abc3fb2cfa9_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/15adf943dfa4b6e00e0fbb35ffc67965d22c05d6c30f302c430d395c17b28460_w640_q70.webp"
     },
     {
-      "id": 66211,
-      "title": "Agentopic: A Generative AI Agent Workflow for Explainable Topic Modeling",
-      "date": "2026-05-05",
-      "author": "Brice Valentin Kok-Shun",
+      "id": 67467,
+      "title": "Mitigating the reconstruction-detection trade-off in VAE-based unsupervised anomaly detection",
+      "date": "2026-05-06",
+      "author": "Agathe Senellart",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3dc084bdbb90713813c2f2466e7c113bd48264539c9b3b82f61ab42f58b8c713_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9003f805cba2453154630a6513779cc84df210deabab0cbde88cf337777f744a_w640_q70.webp"
     },
     {
-      "id": 66214,
-      "title": "Sparse Regression under Correlation and Weak Signals: A Reproducible Benchmark of Classical and Bayesian Methods",
-      "date": "2026-05-05",
-      "author": "Hao Xiao",
+      "id": 67484,
+      "title": "A Framework for Exploring and Disentangling Intersectional Bias: A Case Study in Fetal Ultrasound",
+      "date": "2026-05-06",
+      "author": "Aya Elgebaly",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,51 +128,51 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6194eb5ebbd0e3d2928f97b5ebf83ebd7b6b191eaf989a64493c9fcfbd02bc28_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2dc7a2214461391a74a534e535c904ad7fd8a093e29b01b3a88c55b92aabc959_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 67233,
-      "title": "mdok-style at SemEval-2026 Task 9: Finetuning LLMs for Multilingual Polarization Detection",
-      "date": "2026-05-05",
-      "author": "Dominik Macko",
+      "id": 67455,
+      "title": "Safety in Embodied AI: A Survey of Risks, Attacks, and Defenses",
+      "date": "2026-05-06",
+      "author": "Xiao Li",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.CR",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5e0fe904cf10417898f98e15d7f8a2a42db5a29677ea5608c5d9676a66b6e26b_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b30cc68949191afe05dba999f102161e3c51e880f29fd28e4cf6c1135b88437b_w640_q70.webp"
     },
     {
-      "id": 66306,
-      "title": "Ablation Study of Multimodal Perception, Language Grounding, and Control for Human-Robot Interaction in an Object Detection and Grasping Task",
-      "date": "2026-05-05",
-      "author": "Zi Tian",
+      "id": 67464,
+      "title": "When Should a Language Model Trust Itself? Same-Model Self-Verification as a Conditional Confidence Signal",
+      "date": "2026-05-06",
+      "author": "Aditya Ajay Phalod",
       "tags": [
         {
-          "label": "cs.RO",
+          "label": "cs.CL",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2782dfd0dbe27269ad40a24def02e49cb738cdf873290d767ff5fa52cd26183b_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/257c2ccabb6ae59ef35801e23e77686cedf3ba872769ebd0a10677b169b73f83_w640_q70.webp"
     },
     {
-      "id": 66324,
-      "title": "A Theoretical Game of Attacks via Compositional Skills",
-      "date": "2026-05-05",
-      "author": "Xinbo Wu",
+      "id": 67495,
+      "title": "Tracing the Dynamics of Refusal: Exploiting Latent Refusal Trajectories for Robust Jailbreak Detection",
+      "date": "2026-05-06",
+      "author": "Xulin Hu",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.CR",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/96296b91831286d20de828f31da641b3bcdc8dc96261c04e553327794e13aaad_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6663cb777a8a14f072b840f8716d7443c48b0c97174efdc4fa981dd1fae58757_w640_q70.webp"
     }
   ]
 }

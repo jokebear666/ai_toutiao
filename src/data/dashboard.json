@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 67473,
-      "title": "CreativityBench: Evaluating Agent Creative Reasoning via Affordance-Based Tool Repurposing",
-      "date": "2026-05-06",
-      "author": "Cheng Qian",
+      "id": 68332,
+      "title": "AuditRepairBench: A Paired-Execution Trace Corpus for Evaluator-Channel Ranking Instability in Agent Repair",
+      "date": "2026-05-07",
+      "author": "Yuelin Hu",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c0a4b659f5b8cb76ede640f69c579915b40461f43547d9858218e6e8806dd12c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8bce62daac21f2b257dd487c32beaac906abb71104ae0423e1edf36b6a702587_w640_q70.webp"
     },
     {
-      "id": 67516,
-      "title": "Stable Agentic Control: Tool-Mediated LLM Architecture for Autonomous Cyber Defense",
-      "date": "2026-05-06",
-      "author": "Kerri Prinos",
+      "id": 68042,
+      "title": "LCM: Lossless Context Management",
+      "date": "2026-05-07",
+      "author": "Clint Ehrlich",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e28aa04a7d306745422c04f63c32ca4e153edb4da49d95b9cf9ec491c6a38709_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3bc36f13aeec73dcb5ee13061e2be452591de1a0c7a7cb995592b0f1c36bd610_w640_q70.webp"
     },
     {
-      "id": 67529,
-      "title": "Computing Thiele Rules on Interval Elections and their Generalizations",
-      "date": "2026-05-06",
-      "author": "Dimitris Avramidis",
+      "id": 68074,
+      "title": "Regularized Centered Emphatic Temporal Difference Learning",
+      "date": "2026-05-07",
+      "author": "Xingguo Chen",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0e2f912de58c1fceeb7121511f4d7b14e85c5aa94dead3fd789ed7c8fbaef2c6_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7b3a09688de31c4a9377f3c53d8ffa99c3eae607b0bde3ac9390a1777e03175a_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 67962,
-      "title": "Enhanced 3D Brain Tumor Segmentation Using Assorted Precision Training",
-      "date": "2026-05-06",
-      "author": "Adwaitt Pandya",
+      "id": 68556,
+      "title": "When Relations Break: Analyzing Relation Hallucination in Vision-Language Model Under Rotation and Noise",
+      "date": "2026-05-07",
+      "author": "Philip Wootaek Shin",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/61e809dc19de588fce56066847e6172a9eabe48b88b9fbbc3f0dbf5ab00d58dd_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/eeb2cf72bdf1b8558277a38ce28a621b825c5e5a8c41d2cee1449711edfc011d_w640_q70.webp"
     },
     {
-      "id": 67525,
-      "title": "Learning to Segment using Summary Statistics and Weak Supervision",
-      "date": "2026-05-06",
-      "author": "Omkar Kulkarni",
+      "id": 68070,
+      "title": "Are Multimodal LLMs Ready for Clinical Dermatology? A Real-World Evaluation in Dermatology",
+      "date": "2026-05-07",
+      "author": "Roy Jiang",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/30c0f8647b16ced58c465502c1e78431f5a42f0639b19094af8bb91a03f38f6e_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e83bb48f2b53d192cd86fb63f273c347633c04db23690514b2fe1a957b04a960_w640_q70.webp"
     },
     {
-      "id": 67939,
-      "title": "UnAC: Adaptive Visual Prompting with Abstraction and Stepwise Checking for Complex Multimodal Reasoning",
-      "date": "2026-05-06",
-      "author": "Yifan Wang",
+      "id": 68076,
+      "title": "MuCALD-SplitFed: Causal-Latent Diffusion for Privacy-Preserving Multi-Task Split-Federated Medical Image Segmentation",
+      "date": "2026-05-07",
+      "author": "Chamani Shiranthika",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/563de0be1c5b92e8dccced21dabaaf16c92e83455cbd1bd838c67379838efc4f_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cd18ab5ccb52e21c935078c868f82ad90b2dcb548509f6a0369e7e12aafb00b3_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 67743,
-      "title": "Bandits on graphs and structures",
-      "date": "2026-05-06",
-      "author": "Michal Valko",
+      "id": 68058,
+      "title": "Sparse Autoencoder Decomposition of Clinical Sequence Model Representations: Feature Complexity, Task Specialisation, and Mortality Prediction",
+      "date": "2026-05-07",
+      "author": "Chris Sainsbury",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/15adf943dfa4b6e00e0fbb35ffc67965d22c05d6c30f302c430d395c17b28460_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/51f2c2e24e85802df7e9dbadb3d9de1c085d36aed68b348ef4baacc3610638c0_w640_q70.webp"
     },
     {
-      "id": 67467,
-      "title": "Mitigating the reconstruction-detection trade-off in VAE-based unsupervised anomaly detection",
-      "date": "2026-05-06",
-      "author": "Agathe Senellart",
+      "id": 68037,
+      "title": "Single-Position Intervention Fails: Distributed Output Templates Drive In-Context Learning",
+      "date": "2026-05-07",
+      "author": "Bryan Cheng",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9003f805cba2453154630a6513779cc84df210deabab0cbde88cf337777f744a_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/37b546de50b9dbe8247e579bd9638b7d14fd90c2df4a8b4528abc01a24a0c4c0_w640_q70.webp"
     },
     {
-      "id": 67484,
-      "title": "A Framework for Exploring and Disentangling Intersectional Bias: A Case Study in Fetal Ultrasound",
-      "date": "2026-05-06",
-      "author": "Aya Elgebaly",
+      "id": 68038,
+      "title": "MP-ISMoE: Mixed-Precision Interactive Side Mixture-of-Experts for Efficient Transfer Learning",
+      "date": "2026-05-07",
+      "author": "Yutong Zhang",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,51 +128,51 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2dc7a2214461391a74a534e535c904ad7fd8a093e29b01b3a88c55b92aabc959_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/326c8dad801d9f7faca6e4c1eb41ae5d2c466eab2297b81aa074117d784e78a9_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 67455,
-      "title": "Safety in Embodied AI: A Survey of Risks, Attacks, and Defenses",
-      "date": "2026-05-06",
-      "author": "Xiao Li",
+      "id": 68541,
+      "title": "Detecting Hallucinations in Large Language Models via Internal Attention Divergence Signals",
+      "date": "2026-05-07",
+      "author": "Gijs van Dijk",
       "tags": [
         {
-          "label": "cs.CR",
+          "label": "cs.CL",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b30cc68949191afe05dba999f102161e3c51e880f29fd28e4cf6c1135b88437b_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6905bd7066678c5d4f46f79b68f74d480f2f7993c2a82ea28f1e9e465ef9054a_w640_q70.webp"
     },
     {
-      "id": 67464,
-      "title": "When Should a Language Model Trust Itself? Same-Model Self-Verification as a Conditional Confidence Signal",
-      "date": "2026-05-06",
-      "author": "Aditya Ajay Phalod",
+      "id": 68453,
+      "title": "Agentic Repository Mining: A Multi-Task Evaluation",
+      "date": "2026-05-07",
+      "author": "Johannes H\u00e4rtel",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.SE",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/257c2ccabb6ae59ef35801e23e77686cedf3ba872769ebd0a10677b169b73f83_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c6b942df2a062d49d2f2ff78c9281ea1d3bab445c09d66a9f660eee2174f158b_w640_q70.webp"
     },
     {
-      "id": 67495,
-      "title": "Tracing the Dynamics of Refusal: Exploiting Latent Refusal Trajectories for Robust Jailbreak Detection",
-      "date": "2026-05-06",
-      "author": "Xulin Hu",
+      "id": 68047,
+      "title": "Free Energy-Driven Reinforcement Learning with Adaptive Advantage Shaping for Unsupervised Reasoning in LLMs",
+      "date": "2026-05-07",
+      "author": "Yiming Huang",
       "tags": [
         {
-          "label": "cs.CR",
+          "label": "cs.CL",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6663cb777a8a14f072b840f8716d7443c48b0c97174efdc4fa981dd1fae58757_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/55508fe6301a2ca78084ccba1b69cb831264b7018eca6c35f6cb8a18143b5761_w640_q70.webp"
     }
   ]
 }

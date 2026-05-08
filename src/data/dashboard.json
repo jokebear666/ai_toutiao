@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 68332,
-      "title": "AuditRepairBench: A Paired-Execution Trace Corpus for Evaluator-Channel Ranking Instability in Agent Repair",
-      "date": "2026-05-07",
-      "author": "Yuelin Hu",
+      "id": 69384,
+      "title": "Knowledge Graphs, the Missing Link in Agentic AI-based Formal Verification",
+      "date": "2026-05-08",
+      "author": "Vaisakh Naduvodi Viswambharan",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8bce62daac21f2b257dd487c32beaac906abb71104ae0423e1edf36b6a702587_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/28390f16f5b3d9f8bb2385019ffe35d0486acad0393b7f5425b6f9c07e15a1b1_w640_q70.webp"
     },
     {
-      "id": 68042,
-      "title": "LCM: Lossless Context Management",
-      "date": "2026-05-07",
-      "author": "Clint Ehrlich",
+      "id": 68845,
+      "title": "Housing Potential Common Data Model and City Digital Twin",
+      "date": "2026-05-08",
+      "author": "Megan Katsumi",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3bc36f13aeec73dcb5ee13061e2be452591de1a0c7a7cb995592b0f1c36bd610_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/eba6f7b1980c8c3249770c816b292bcf607efa7fa5f374dd37f90a1f814fe10a_w640_q70.webp"
     },
     {
-      "id": 68074,
-      "title": "Regularized Centered Emphatic Temporal Difference Learning",
-      "date": "2026-05-07",
-      "author": "Xingguo Chen",
+      "id": 69085,
+      "title": "HaM-World: Soft-Hamiltonian World Models with Selective Memory for Planning",
+      "date": "2026-05-08",
+      "author": "Haoyun Tang",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7b3a09688de31c4a9377f3c53d8ffa99c3eae607b0bde3ac9390a1777e03175a_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/72792cc9e84086ca869016fc1de649a582534eb0a0147052aa679091279057ce_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 68556,
-      "title": "When Relations Break: Analyzing Relation Hallucination in Vision-Language Model Under Rotation and Noise",
-      "date": "2026-05-07",
-      "author": "Philip Wootaek Shin",
+      "id": 69366,
+      "title": "Empirical Evidence for Simply Connected Decision Regions in Image Classifiers",
+      "date": "2026-05-08",
+      "author": "Arjhun Swaminathan",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/eeb2cf72bdf1b8558277a38ce28a621b825c5e5a8c41d2cee1449711edfc011d_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b248cd67ff63ed38498c334112c94fdfc77a40c99552d24f0228b0d774548359_w640_q70.webp"
     },
     {
-      "id": 68070,
-      "title": "Are Multimodal LLMs Ready for Clinical Dermatology? A Real-World Evaluation in Dermatology",
-      "date": "2026-05-07",
-      "author": "Roy Jiang",
+      "id": 68699,
+      "title": "Layout-Aware Representation Learning for Open-Set ID Fraud Discovery",
+      "date": "2026-05-08",
+      "author": "Jinxing Li",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e83bb48f2b53d192cd86fb63f273c347633c04db23690514b2fe1a957b04a960_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/515b7fc3a071629fe59252f2443595b394d3a1b33dbeb8904ac3eb66ea972627_w640_q70.webp"
     },
     {
-      "id": 68076,
-      "title": "MuCALD-SplitFed: Causal-Latent Diffusion for Privacy-Preserving Multi-Task Split-Federated Medical Image Segmentation",
-      "date": "2026-05-07",
-      "author": "Chamani Shiranthika",
+      "id": 68742,
+      "title": "Seeing What Shouldn't Be There: Counterfactual GANs for Medical Image Attribution",
+      "date": "2026-05-08",
+      "author": "Shakeeb Murtaza",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cd18ab5ccb52e21c935078c868f82ad90b2dcb548509f6a0369e7e12aafb00b3_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6ecda9d5d7f654e686240e38d3acad30e91a1b7ddd232f2077a1189e314d2606_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 68058,
-      "title": "Sparse Autoencoder Decomposition of Clinical Sequence Model Representations: Feature Complexity, Task Specialisation, and Mortality Prediction",
-      "date": "2026-05-07",
-      "author": "Chris Sainsbury",
+      "id": 69277,
+      "title": "The Role of Node Features in Graph Pooling",
+      "date": "2026-05-08",
+      "author": "Jan von Pichowski",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/51f2c2e24e85802df7e9dbadb3d9de1c085d36aed68b348ef4baacc3610638c0_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/858a9e36556d3d7dd2225e7ac1f7064f65357545eea40a9bdb93e5d07aca5e5e_w640_q70.webp"
     },
     {
-      "id": 68037,
-      "title": "Single-Position Intervention Fails: Distributed Output Templates Drive In-Context Learning",
-      "date": "2026-05-07",
-      "author": "Bryan Cheng",
+      "id": 69298,
+      "title": "INEUS: Iterative Neural Solver for High-Dimensional PIDEs",
+      "date": "2026-05-08",
+      "author": "Jean-Loup Dupret",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/37b546de50b9dbe8247e579bd9638b7d14fd90c2df4a8b4528abc01a24a0c4c0_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/13d45d9fd7ad6e6225346562893c4020a2c7cea7b4667770cc17e2a1da48bba7_w640_q70.webp"
     },
     {
-      "id": 68038,
-      "title": "MP-ISMoE: Mixed-Precision Interactive Side Mixture-of-Experts for Efficient Transfer Learning",
-      "date": "2026-05-07",
-      "author": "Yutong Zhang",
+      "id": 69320,
+      "title": "SMolLM: Small Language Models Learn Small Molecular Grammar",
+      "date": "2026-05-08",
+      "author": "Akhil Jindal",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,51 +128,51 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/326c8dad801d9f7faca6e4c1eb41ae5d2c466eab2297b81aa074117d784e78a9_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/dda9064de0582320047e3fe1399512b68d7ba1249cb75b9af89ea53de5a4262f_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 68541,
-      "title": "Detecting Hallucinations in Large Language Models via Internal Attention Divergence Signals",
-      "date": "2026-05-07",
-      "author": "Gijs van Dijk",
+      "id": 68692,
+      "title": "A GPU-Accelerated Hybrid Method for a Class of Multi-Depot Vehicle Routing Problems",
+      "date": "2026-05-08",
+      "author": "Zhenyu Lei",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.RO",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6905bd7066678c5d4f46f79b68f74d480f2f7993c2a82ea28f1e9e465ef9054a_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/29124118502fda1572f5133b34bedfa22ca1f28bb2cadf70850b79cfcac7b51f_w640_q70.webp"
     },
     {
-      "id": 68453,
-      "title": "Agentic Repository Mining: A Multi-Task Evaluation",
-      "date": "2026-05-07",
-      "author": "Johannes H\u00e4rtel",
+      "id": 69086,
+      "title": "Hallucination as an Anomaly: Dynamic Intervention via Probabilistic Circuits",
+      "date": "2026-05-08",
+      "author": "Erik Nielsen",
       "tags": [
         {
-          "label": "cs.SE",
+          "label": "cs.CL",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c6b942df2a062d49d2f2ff78c9281ea1d3bab445c09d66a9f660eee2174f158b_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f770d82d7b7eefbe3a6c433e12a888552c98c0f65baba56ab9cc441c364008a1_w640_q70.webp"
     },
     {
-      "id": 68047,
-      "title": "Free Energy-Driven Reinforcement Learning with Adaptive Advantage Shaping for Unsupervised Reasoning in LLMs",
-      "date": "2026-05-07",
-      "author": "Yiming Huang",
+      "id": 69381,
+      "title": "Pop Quiz Attack: Black-box Membership Inference Attacks Against Large Language Models",
+      "date": "2026-05-08",
+      "author": "Zeyuan Chen",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.CR",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/55508fe6301a2ca78084ccba1b69cb831264b7018eca6c35f6cb8a18143b5761_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4f7f9c67a03e658e2fb20b516cf60d6c8e4ab9050f47ba841aea4809fc94fe59_w640_q70.webp"
     }
   ]
 }

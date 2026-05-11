@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 69384,
-      "title": "Knowledge Graphs, the Missing Link in Agentic AI-based Formal Verification",
-      "date": "2026-05-08",
-      "author": "Vaisakh Naduvodi Viswambharan",
+      "id": 70099,
+      "title": "Bounded Fitting for Expressive Description Logics",
+      "date": "2026-05-11",
+      "author": "Maurice Funk",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/28390f16f5b3d9f8bb2385019ffe35d0486acad0393b7f5425b6f9c07e15a1b1_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/07b1c3cd0232c9b893c656ec8f7b4071ce61b09abcc1a6f5d5b84711e24d5598_w640_q70.webp"
     },
     {
-      "id": 68845,
-      "title": "Housing Potential Common Data Model and City Digital Twin",
-      "date": "2026-05-08",
-      "author": "Megan Katsumi",
+      "id": 69605,
+      "title": "More Thinking, More Bias: Length-Driven Position Bias in Reasoning Models",
+      "date": "2026-05-11",
+      "author": "Xiao Wang",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/eba6f7b1980c8c3249770c816b292bcf607efa7fa5f374dd37f90a1f814fe10a_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d1d6e141cafb811e056aed8b381c5e866c277813171ea8375eb16259fbcf6bc4_w640_q70.webp"
     },
     {
-      "id": 69085,
-      "title": "HaM-World: Soft-Hamiltonian World Models with Selective Memory for Planning",
-      "date": "2026-05-08",
-      "author": "Haoyun Tang",
+      "id": 69610,
+      "title": "GraphDC: A Divide-and-Conquer Multi-Agent System for Scalable Graph Algorithm Reasoning",
+      "date": "2026-05-11",
+      "author": "Wenjin Li",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/72792cc9e84086ca869016fc1de649a582534eb0a0147052aa679091279057ce_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5411cd854f2f4538137423491ec491f298da2e039f8ed55187cc42325f21fb42_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 69366,
-      "title": "Empirical Evidence for Simply Connected Decision Regions in Image Classifiers",
-      "date": "2026-05-08",
-      "author": "Arjhun Swaminathan",
+      "id": 70068,
+      "title": "Exposing and Mitigating Temporal Attack in Deepfake Video Detection",
+      "date": "2026-05-11",
+      "author": "Zheyuan Gu",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b248cd67ff63ed38498c334112c94fdfc77a40c99552d24f0228b0d774548359_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/447394dfcd73c81677faadf48fc5f68b3cc41930583f249937f0321d8007fe8d_w640_q70.webp"
     },
     {
-      "id": 68699,
-      "title": "Layout-Aware Representation Learning for Open-Set ID Fraud Discovery",
-      "date": "2026-05-08",
-      "author": "Jinxing Li",
+      "id": 69626,
+      "title": "Visual Text Compression as Measure Transport",
+      "date": "2026-05-11",
+      "author": "Lv Tang",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/515b7fc3a071629fe59252f2443595b394d3a1b33dbeb8904ac3eb66ea972627_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/186bc4c500d1fe13e4728ee25be46d8fc09ba49553fafc45fa7c46ebd84f6ff4_w640_q70.webp"
     },
     {
-      "id": 68742,
-      "title": "Seeing What Shouldn't Be There: Counterfactual GANs for Medical Image Attribution",
-      "date": "2026-05-08",
-      "author": "Shakeeb Murtaza",
+      "id": 69631,
+      "title": "Edge Deep Learning in Computer Vision and Medical Diagnostics: A Comprehensive Survey",
+      "date": "2026-05-11",
+      "author": "Yiwen Xu",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6ecda9d5d7f654e686240e38d3acad30e91a1b7ddd232f2077a1189e314d2606_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/039d382ba9b0a9bbea0bd794c789bed8f22d3e58df41271be69d8af44fd6ea54_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 69277,
-      "title": "The Role of Node Features in Graph Pooling",
-      "date": "2026-05-08",
-      "author": "Jan von Pichowski",
+      "id": 70041,
+      "title": "FlightSense: An End-to-End MLOps Platform for Real-Time Flight Delay Prediction via Rotation-Chain Propagation Features and Agentic Conversational AI",
+      "date": "2026-05-11",
+      "author": "Aditi J. Shelke",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/858a9e36556d3d7dd2225e7ac1f7064f65357545eea40a9bdb93e5d07aca5e5e_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f947b54c86ab26ceaf5f19e0609e789eaff253d2b600e548b0df599f0d594cde_w640_q70.webp"
     },
     {
-      "id": 69298,
-      "title": "INEUS: Iterative Neural Solver for High-Dimensional PIDEs",
-      "date": "2026-05-08",
-      "author": "Jean-Loup Dupret",
+      "id": 69608,
+      "title": "Breaking the Illusion: When Positive Meets Negative in Multimodal Decoding",
+      "date": "2026-05-11",
+      "author": "Yubo Jiang",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/13d45d9fd7ad6e6225346562893c4020a2c7cea7b4667770cc17e2a1da48bba7_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f304e1be7fd40a11aec89509cb01a3670436d04b10024870ae671cd113797194_w640_q70.webp"
     },
     {
-      "id": 69320,
-      "title": "SMolLM: Small Language Models Learn Small Molecular Grammar",
-      "date": "2026-05-08",
-      "author": "Akhil Jindal",
+      "id": 70397,
+      "title": "Slowly Annealed Langevin Dynamics: Theory and Applications to Training-Free Guided Generation",
+      "date": "2026-05-11",
+      "author": "Atsushi Nitanda",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,15 +128,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/dda9064de0582320047e3fe1399512b68d7ba1249cb75b9af89ea53de5a4262f_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/adbf3945b79a81f9d0dafbd84c6f4b1a8bf27e9ab0824076ce509aefe1a7371d_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 68692,
-      "title": "A GPU-Accelerated Hybrid Method for a Class of Multi-Depot Vehicle Routing Problems",
-      "date": "2026-05-08",
-      "author": "Zhenyu Lei",
+      "id": 70042,
+      "title": "Weather-Robust Scene Semantics with Vision-Aligned 4D Radar",
+      "date": "2026-05-11",
+      "author": "Kali Hamilton",
       "tags": [
         {
           "label": "cs.RO",
@@ -144,27 +144,27 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/29124118502fda1572f5133b34bedfa22ca1f28bb2cadf70850b79cfcac7b51f_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c9e53fc3b0059568f6624b3dd76ea85d1c3b528d561e13cbf021d52b9d220c0c_w640_q70.webp"
     },
     {
-      "id": 69086,
-      "title": "Hallucination as an Anomaly: Dynamic Intervention via Probabilistic Circuits",
-      "date": "2026-05-08",
-      "author": "Erik Nielsen",
+      "id": 70415,
+      "title": "Evaluation of an Actuated Spine in Agile Quadruped Locomotion",
+      "date": "2026-05-11",
+      "author": "Nico Bohlinger",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.RO",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f770d82d7b7eefbe3a6c433e12a888552c98c0f65baba56ab9cc441c364008a1_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8206242f49c730452735eb4b8d345e8d3354e0577ba85c2908c5ce73ce5edc8d_w640_q70.webp"
     },
     {
-      "id": 69381,
-      "title": "Pop Quiz Attack: Black-box Membership Inference Attacks Against Large Language Models",
-      "date": "2026-05-08",
-      "author": "Zeyuan Chen",
+      "id": 69607,
+      "title": "Evaluating Prompt Injection Defenses for Educational LLM Tutors: Security-Usability-Latency Trade-offs",
+      "date": "2026-05-11",
+      "author": "Alexandre Cristov\u00e3o Maiorano",
       "tags": [
         {
           "label": "cs.CR",
@@ -172,7 +172,7 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4f7f9c67a03e658e2fb20b516cf60d6c8e4ab9050f47ba841aea4809fc94fe59_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/96eef9a261c0c3a7f4c1b31ff304aebb69bb6a109597da8c7182766a990b184c_w640_q70.webp"
     }
   ]
 }

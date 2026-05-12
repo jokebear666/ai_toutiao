@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 70099,
-      "title": "Bounded Fitting for Expressive Description Logics",
-      "date": "2026-05-11",
-      "author": "Maurice Funk",
+      "id": 72445,
+      "title": "Generative AI Fuels Solo Entrepreneurship, but Teams Still Lead at the Top",
+      "date": "2026-05-12",
+      "author": "Hyunso Kim",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/07b1c3cd0232c9b893c656ec8f7b4071ce61b09abcc1a6f5d5b84711e24d5598_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c1474f519a697b89e71014e6a76cf4db99e3a79409b92272ee1d941495caa68a_w640_q70.webp"
     },
     {
-      "id": 69605,
-      "title": "More Thinking, More Bias: Length-Driven Position Bias in Reasoning Models",
-      "date": "2026-05-11",
-      "author": "Xiao Wang",
+      "id": 70800,
+      "title": "Latent Personality Alignment: Improving Harmlessness Without Mentioning Harms",
+      "date": "2026-05-12",
+      "author": "Linh Le",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d1d6e141cafb811e056aed8b381c5e866c277813171ea8375eb16259fbcf6bc4_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6e2044689207a6d626198dab3574eba641f88611c500bec6c0084b13e183f056_w640_q70.webp"
     },
     {
-      "id": 69610,
-      "title": "GraphDC: A Divide-and-Conquer Multi-Agent System for Scalable Graph Algorithm Reasoning",
-      "date": "2026-05-11",
-      "author": "Wenjin Li",
+      "id": 71895,
+      "title": "Beyond Autonomy: A Dynamic Tiered AgentRunner Framework for Governable and Resilient Enterprise AI Execution",
+      "date": "2026-05-12",
+      "author": "Kai Pan",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5411cd854f2f4538137423491ec491f298da2e039f8ed55187cc42325f21fb42_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a9074c5f2afaef06670f11a3e65a58de294c06e5c6711df31ccceb34ac0a619a_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 70068,
-      "title": "Exposing and Mitigating Temporal Attack in Deepfake Video Detection",
-      "date": "2026-05-11",
-      "author": "Zheyuan Gu",
+      "id": 71229,
+      "title": "Establishing Robust Retinal Eye Tracking: A Weakly Supervised Algorithmic Framework",
+      "date": "2026-05-12",
+      "author": "Bo Wen",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/447394dfcd73c81677faadf48fc5f68b3cc41930583f249937f0321d8007fe8d_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/215bfc13e195932b967cd3930fc7a7677ec93267bde79bbcb94c15cc53846a6a_w640_q70.webp"
     },
     {
-      "id": 69626,
-      "title": "Visual Text Compression as Measure Transport",
-      "date": "2026-05-11",
-      "author": "Lv Tang",
+      "id": 70561,
+      "title": "Benchmarking ResNet Backbones in RT-DETR: Impact of Depth and Regularization under environmental conditions",
+      "date": "2026-05-12",
+      "author": "Pamela Barboza",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/186bc4c500d1fe13e4728ee25be46d8fc09ba49553fafc45fa7c46ebd84f6ff4_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e75e88525f6b5fc68fae37b116762fbf82daf0fbc47db144d461c4d7d6ff206d_w640_q70.webp"
     },
     {
-      "id": 69631,
-      "title": "Edge Deep Learning in Computer Vision and Medical Diagnostics: A Comprehensive Survey",
-      "date": "2026-05-11",
-      "author": "Yiwen Xu",
+      "id": 70569,
+      "title": "VLADriver-RAG: Retrieval-Augmented Vision-Language-Action Models for Autonomous Driving",
+      "date": "2026-05-12",
+      "author": "Rui Zhao",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/039d382ba9b0a9bbea0bd794c789bed8f22d3e58df41271be69d8af44fd6ea54_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ecca50bb121868cef11529ca7080def1ee20b25bb40a3ea6ef947bd21ef1fa2a_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 70041,
-      "title": "FlightSense: An End-to-End MLOps Platform for Real-Time Flight Delay Prediction via Rotation-Chain Propagation Features and Agentic Conversational AI",
-      "date": "2026-05-11",
-      "author": "Aditi J. Shelke",
+      "id": 71923,
+      "title": "DeepLog: A Software Framework for Modular Neurosymbolic AI",
+      "date": "2026-05-12",
+      "author": "Robin Manhaeve",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f947b54c86ab26ceaf5f19e0609e789eaff253d2b600e548b0df599f0d594cde_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ef78dae6cfab74803f18392cb5b7ae04c07bf8fe9d32aeb567a06cc7676d025d_w640_q70.webp"
     },
     {
-      "id": 69608,
-      "title": "Breaking the Illusion: When Positive Meets Negative in Multimodal Decoding",
-      "date": "2026-05-11",
-      "author": "Yubo Jiang",
+      "id": 71230,
+      "title": "WavesFM: Hierarchical Representation Learning for Longitudinal Wearable Sensor Waveforms",
+      "date": "2026-05-12",
+      "author": "Peng Cao",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f304e1be7fd40a11aec89509cb01a3670436d04b10024870ae671cd113797194_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c21eb98a0d0c4230a81a19cefb347c3d8706bcbb800f82a13b13a7b552f255b2_w640_q70.webp"
     },
     {
-      "id": 70397,
-      "title": "Slowly Annealed Langevin Dynamics: Theory and Applications to Training-Free Guided Generation",
-      "date": "2026-05-11",
-      "author": "Atsushi Nitanda",
+      "id": 71283,
+      "title": "Instance-Adaptive Online Multicalibration",
+      "date": "2026-05-12",
+      "author": "Zhiming Huang",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,51 +128,51 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/adbf3945b79a81f9d0dafbd84c6f4b1a8bf27e9ab0824076ce509aefe1a7371d_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7519b6fa8e42cab9705540a1bfc1cdde21eca491e0041e03806b8570963703d3_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 70042,
-      "title": "Weather-Robust Scene Semantics with Vision-Aligned 4D Radar",
-      "date": "2026-05-11",
-      "author": "Kali Hamilton",
+      "id": 71612,
+      "title": "cantnlp@DravidianLangTech 2026: organic domain adaptation improves multi-class hope speech detection in Tulu",
+      "date": "2026-05-12",
+      "author": "Andrew Li",
       "tags": [
         {
-          "label": "cs.RO",
+          "label": "cs.CL",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c9e53fc3b0059568f6624b3dd76ea85d1c3b528d561e13cbf021d52b9d220c0c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f52a62322b2a673c72720ba1106bbdab72883f2742e65afea258c0d0aad056bd_w640_q70.webp"
     },
     {
-      "id": 70415,
-      "title": "Evaluation of an Actuated Spine in Agile Quadruped Locomotion",
-      "date": "2026-05-11",
-      "author": "Nico Bohlinger",
+      "id": 71158,
+      "title": "Soohak: A Mathematician-Curated Benchmark for Evaluating Research-level Math Capabilities of LLMs",
+      "date": "2026-05-12",
+      "author": "Guijin Son",
       "tags": [
         {
-          "label": "cs.RO",
+          "label": "cs.CL",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8206242f49c730452735eb4b8d345e8d3354e0577ba85c2908c5ce73ce5edc8d_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ac644586b81b7ab138ddd5b3f5badd1c600329c9b7001dce8e16653ba54226a8_w640_q70.webp"
     },
     {
-      "id": 69607,
-      "title": "Evaluating Prompt Injection Defenses for Educational LLM Tutors: Security-Usability-Latency Trade-offs",
-      "date": "2026-05-11",
-      "author": "Alexandre Cristov\u00e3o Maiorano",
+      "id": 71169,
+      "title": "Smoothing Out the Edges: Continuous-Time Estimation with Gaussian Process Motion Priors on Factor Graphs",
+      "date": "2026-05-12",
+      "author": "Connor Holmes",
       "tags": [
         {
-          "label": "cs.CR",
+          "label": "cs.RO",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/96eef9a261c0c3a7f4c1b31ff304aebb69bb6a109597da8c7182766a990b184c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/28b1c0d2efa38c0338b7c5090ff4df774b70608513b505399c2f6d4df24ecab1_w640_q70.webp"
     }
   ]
 }

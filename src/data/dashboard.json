@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 72445,
-      "title": "Generative AI Fuels Solo Entrepreneurship, but Teams Still Lead at the Top",
-      "date": "2026-05-12",
-      "author": "Hyunso Kim",
+      "id": 73029,
+      "title": "Domain Restriction via Multi SAE Layer Transitions",
+      "date": "2026-05-13",
+      "author": "Elias Shaheen",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c1474f519a697b89e71014e6a76cf4db99e3a79409b92272ee1d941495caa68a_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fde060ea5bde84486a6bf09fdcec3995aa28bd385382ea9fb7349e31ede62a07_w640_q70.webp"
     },
     {
-      "id": 70800,
-      "title": "Latent Personality Alignment: Improving Harmlessness Without Mentioning Harms",
-      "date": "2026-05-12",
-      "author": "Linh Le",
+      "id": 72555,
+      "title": "A Cascaded Generative Approach for e-Commerce Recommendations",
+      "date": "2026-05-13",
+      "author": "Moein Hasani",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6e2044689207a6d626198dab3574eba641f88611c500bec6c0084b13e183f056_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1ab5a4ce50ad51de0212d62bada9c7f9c1de31272b86ce7897347d11fb64be44_w640_q70.webp"
     },
     {
-      "id": 71895,
-      "title": "Beyond Autonomy: A Dynamic Tiered AgentRunner Framework for Governable and Resilient Enterprise AI Execution",
-      "date": "2026-05-12",
-      "author": "Kai Pan",
+      "id": 72565,
+      "title": "EVOCHAMBER: Test-Time Co-evolution of Multi-Agent System at Individual, Team, and Population Scales",
+      "date": "2026-05-13",
+      "author": "Yaolun Zhang",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a9074c5f2afaef06670f11a3e65a58de294c06e5c6711df31ccceb34ac0a619a_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/94a3ead427d84320c42d4ecbba7f727b14948e47ef6c00d714d710488a9e276a_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 71229,
-      "title": "Establishing Robust Retinal Eye Tracking: A Weakly Supervised Algorithmic Framework",
-      "date": "2026-05-12",
-      "author": "Bo Wen",
+      "id": 73055,
+      "title": "H2G: Hierarchy-Aware Hyperbolic Grouping for 3D Scenes",
+      "date": "2026-05-13",
+      "author": "ByungHa Ko",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/215bfc13e195932b967cd3930fc7a7677ec93267bde79bbcb94c15cc53846a6a_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/25c252c91d07ca2d3012c65e94fcbaca9ec8d8de22dd8eaa0f013f39d55153a1_w640_q70.webp"
     },
     {
-      "id": 70561,
-      "title": "Benchmarking ResNet Backbones in RT-DETR: Impact of Depth and Regularization under environmental conditions",
-      "date": "2026-05-12",
-      "author": "Pamela Barboza",
+      "id": 72503,
+      "title": "Principle-Guided Supervision for Interpretable Uncertainty in Medical Image Segmentation",
+      "date": "2026-05-13",
+      "author": "An Sui",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e75e88525f6b5fc68fae37b116762fbf82daf0fbc47db144d461c4d7d6ff206d_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/299ba7c24049a82e9e475054a252e6f267f87883c0eebfbcdc0784ea5a6298e2_w640_q70.webp"
     },
     {
-      "id": 70569,
-      "title": "VLADriver-RAG: Retrieval-Augmented Vision-Language-Action Models for Autonomous Driving",
-      "date": "2026-05-12",
-      "author": "Rui Zhao",
+      "id": 72544,
+      "title": "Birds of a Feather Flock Together: Background-Invariant Representations via Linear Structure in VLMs",
+      "date": "2026-05-13",
+      "author": "Youssef Zaazou",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ecca50bb121868cef11529ca7080def1ee20b25bb40a3ea6ef947bd21ef1fa2a_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8f95accc11b5ab4e9e7e3645e758f54897e26ac4ee4d241bae60fccc946396f2_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 71923,
-      "title": "DeepLog: A Software Framework for Modular Neurosymbolic AI",
-      "date": "2026-05-12",
-      "author": "Robin Manhaeve",
+      "id": 72547,
+      "title": "Enabling Performant and Flexible Model-Internal Observability for LLM Inference",
+      "date": "2026-05-13",
+      "author": "Nengneng Yu",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ef78dae6cfab74803f18392cb5b7ae04c07bf8fe9d32aeb567a06cc7676d025d_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f6bd3b5cd93f9ef74b761133807584ad37cd2077f619cb0a5a70d10da7240114_w640_q70.webp"
     },
     {
-      "id": 71230,
-      "title": "WavesFM: Hierarchical Representation Learning for Longitudinal Wearable Sensor Waveforms",
-      "date": "2026-05-12",
-      "author": "Peng Cao",
+      "id": 73078,
+      "title": "Estimating Subgraph Importance with Structural Prior Domain Knowledge",
+      "date": "2026-05-13",
+      "author": "Changhyun Kim",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c21eb98a0d0c4230a81a19cefb347c3d8706bcbb800f82a13b13a7b552f255b2_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2e5a249e8b2f2c10ec39c2dfdfd03117966bb9c03ece0341b006b0e6fc549c4c_w640_q70.webp"
     },
     {
-      "id": 71283,
-      "title": "Instance-Adaptive Online Multicalibration",
-      "date": "2026-05-12",
-      "author": "Zhiming Huang",
+      "id": 73421,
+      "title": "Optimal Policy Learning under Budget and Coverage Constraints",
+      "date": "2026-05-13",
+      "author": "Giovanni Cerulli",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,15 +128,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7519b6fa8e42cab9705540a1bfc1cdde21eca491e0041e03806b8570963703d3_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/84d87811180c27d062f9014c51952d2c353dbe3188ee2bea8558d51a9626ba9c_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 71612,
-      "title": "cantnlp@DravidianLangTech 2026: organic domain adaptation improves multi-class hope speech detection in Tulu",
-      "date": "2026-05-12",
-      "author": "Andrew Li",
+      "id": 72573,
+      "title": "Decomposing Evolutionary Mixture-of-LoRA Architectures: The Routing Lever, the Lifecycle Penalty, and a Substrate-Conditional Boundary",
+      "date": "2026-05-13",
+      "author": "Ramchand Kumaresan",
       "tags": [
         {
           "label": "cs.CL",
@@ -144,35 +144,35 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f52a62322b2a673c72720ba1106bbdab72883f2742e65afea258c0d0aad056bd_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cb67853eb5b1fb3cce1fcaeccdd33c208bd326fff1d6ec0dfc8748c293d57203_w640_q70.webp"
     },
     {
-      "id": 71158,
-      "title": "Soohak: A Mathematician-Curated Benchmark for Evaluating Research-level Math Capabilities of LLMs",
-      "date": "2026-05-12",
-      "author": "Guijin Son",
+      "id": 72491,
+      "title": "PASA: A Principled Embedding-Space Watermarking Approach for LLM-Generated Text under Semantic-Invariant Attacks",
+      "date": "2026-05-13",
+      "author": "Zhenxin Ai",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.CR",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ac644586b81b7ab138ddd5b3f5badd1c600329c9b7001dce8e16653ba54226a8_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/50747d6c25f91f4e4d86d7d3a97d2c8c3d5b854e04515e06a2c31db9cd311416_w640_q70.webp"
     },
     {
-      "id": 71169,
-      "title": "Smoothing Out the Edges: Continuous-Time Estimation with Gaussian Process Motion Priors on Factor Graphs",
-      "date": "2026-05-12",
-      "author": "Connor Holmes",
+      "id": 72501,
+      "title": "Skill Drift Is Contract Violation: Proactive Maintenance for LLM Agent Skill Libraries",
+      "date": "2026-05-13",
+      "author": "Linfeng Fan",
       "tags": [
         {
-          "label": "cs.RO",
+          "label": "cs.SE",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/28b1c0d2efa38c0338b7c5090ff4df774b70608513b505399c2f6d4df24ecab1_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/93e3c0ecc0f900712d34e5239241979fbc9774fd2fc23e0698ff5701f5e7b1a0_w640_q70.webp"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 73029,
-      "title": "Domain Restriction via Multi SAE Layer Transitions",
-      "date": "2026-05-13",
-      "author": "Elias Shaheen",
+      "id": 73500,
+      "title": "Think Twice, Act Once: Verifier-Guided Action Selection For Embodied Agents",
+      "date": "2026-05-14",
+      "author": "Nishad Singhi",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fde060ea5bde84486a6bf09fdcec3995aa28bd385382ea9fb7349e31ede62a07_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/61bb3b27b06a1be547ea76dd2cf66075ede750137906088b0e1400370743bc01_w640_q70.webp"
     },
     {
-      "id": 72555,
-      "title": "A Cascaded Generative Approach for e-Commerce Recommendations",
-      "date": "2026-05-13",
-      "author": "Moein Hasani",
+      "id": 73514,
+      "title": "Macro-Action Based Multi-Agent Instruction Following through Value Cancellation",
+      "date": "2026-05-14",
+      "author": "Wo Wei Lin",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1ab5a4ce50ad51de0212d62bada9c7f9c1de31272b86ce7897347d11fb64be44_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f718a5b2626906df1c871fd9cb459514b944c6f0c33ce1309d724f52779e2fef_w640_q70.webp"
     },
     {
-      "id": 72565,
-      "title": "EVOCHAMBER: Test-Time Co-evolution of Multi-Agent System at Individual, Team, and Population Scales",
-      "date": "2026-05-13",
-      "author": "Yaolun Zhang",
+      "id": 73525,
+      "title": "Revealing Interpretable Failure Modes of VLMs",
+      "date": "2026-05-14",
+      "author": "Isha Chaudhary",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/94a3ead427d84320c42d4ecbba7f727b14948e47ef6c00d714d710488a9e276a_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c28ab44dece87bc6608955612303747491de51fc1f75aff51e7d87b6a4e39e8c_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 73055,
-      "title": "H2G: Hierarchy-Aware Hyperbolic Grouping for 3D Scenes",
-      "date": "2026-05-13",
-      "author": "ByungHa Ko",
+      "id": 73447,
+      "title": "Scale-Gest: Scalable Model-Space Synthesis and Runtime Selection for On-Device Gesture Detection",
+      "date": "2026-05-14",
+      "author": "Abdul Basit",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/25c252c91d07ca2d3012c65e94fcbaca9ec8d8de22dd8eaa0f013f39d55153a1_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/51327a0e4dd4fbe69855792eac7f7e40add3cc74e60fcba83c751e05f3a322b5_w640_q70.webp"
     },
     {
-      "id": 72503,
-      "title": "Principle-Guided Supervision for Interpretable Uncertainty in Medical Image Segmentation",
-      "date": "2026-05-13",
-      "author": "An Sui",
+      "id": 73464,
+      "title": "MorphOPC: Advancing Mask Optimization with Multi-scale Hierarchical Morphological Learning",
+      "date": "2026-05-14",
+      "author": "Yuting Hu",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/299ba7c24049a82e9e475054a252e6f267f87883c0eebfbcdc0784ea5a6298e2_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/bcb2976bb9f8653ed190af19f8e4f512fe700b660411c2e995248da05374325c_w640_q70.webp"
     },
     {
-      "id": 72544,
-      "title": "Birds of a Feather Flock Together: Background-Invariant Representations via Linear Structure in VLMs",
-      "date": "2026-05-13",
-      "author": "Youssef Zaazou",
+      "id": 73474,
+      "title": "What Happens Before Decoding? Prefill Determines GUI Grounding in VLMs",
+      "date": "2026-05-14",
+      "author": "Jiaping Lin",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8f95accc11b5ab4e9e7e3645e758f54897e26ac4ee4d241bae60fccc946396f2_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5e9812d8e0c8e3b9dca50a592da9a0811250759544d9728b2acb68f94cd22af8_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 72547,
-      "title": "Enabling Performant and Flexible Model-Internal Observability for LLM Inference",
-      "date": "2026-05-13",
-      "author": "Nengneng Yu",
+      "id": 74132,
+      "title": "MinT: Managed Infrastructure for Training and Serving Millions of LLMs",
+      "date": "2026-05-14",
+      "author": "Mind Lab",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f6bd3b5cd93f9ef74b761133807584ad37cd2077f619cb0a5a70d10da7240114_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1ca510ca476f1b48f5f68f62fa3de64aae89ccbaa5734c5cc178f85d0b22f865_w640_q70.webp"
     },
     {
-      "id": 73078,
-      "title": "Estimating Subgraph Importance with Structural Prior Domain Knowledge",
-      "date": "2026-05-13",
-      "author": "Changhyun Kim",
+      "id": 74244,
+      "title": "Causal Learning with the Invariance Principle",
+      "date": "2026-05-14",
+      "author": "Francesco Montagna",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2e5a249e8b2f2c10ec39c2dfdfd03117966bb9c03ece0341b006b0e6fc549c4c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c44c8394e18899bd77d63f3613e2166b2d7adef606198188e0d176bf19513cc5_w640_q70.webp"
     },
     {
-      "id": 73421,
-      "title": "Optimal Policy Learning under Budget and Coverage Constraints",
-      "date": "2026-05-13",
-      "author": "Giovanni Cerulli",
+      "id": 73959,
+      "title": "LIFT: Last-Mile Fine-Tuning for Table Explicitation",
+      "date": "2026-05-14",
+      "author": "Divij Khaitan",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,51 +128,51 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/84d87811180c27d062f9014c51952d2c353dbe3188ee2bea8558d51a9626ba9c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c99f382090d0cd89cc89fb6c190ad1801665bc9963272de9dade1ee825c667a4_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 72573,
-      "title": "Decomposing Evolutionary Mixture-of-LoRA Architectures: The Routing Lever, the Lifecycle Penalty, and a Substrate-Conditional Boundary",
-      "date": "2026-05-13",
-      "author": "Ramchand Kumaresan",
+      "id": 73668,
+      "title": "ThermalTap: Passive Application Fingerprinting in VR Headsets via Thermal Side Channels",
+      "date": "2026-05-14",
+      "author": "Mahsin Bin Akram",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.CR",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cb67853eb5b1fb3cce1fcaeccdd33c208bd326fff1d6ec0dfc8748c293d57203_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ff008154d45636e2614ea73e9504891bcff3227b9190a3d17a11883cb7fb30e6_w640_q70.webp"
     },
     {
-      "id": 72491,
-      "title": "PASA: A Principled Embedding-Space Watermarking Approach for LLM-Generated Text under Semantic-Invariant Attacks",
-      "date": "2026-05-13",
-      "author": "Zhenxin Ai",
+      "id": 74027,
+      "title": "AttenA+: Rectifying Action Inequality in Robotic Foundation Models",
+      "date": "2026-05-14",
+      "author": "Daojie Peng",
       "tags": [
         {
-          "label": "cs.CR",
+          "label": "cs.RO",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/50747d6c25f91f4e4d86d7d3a97d2c8c3d5b854e04515e06a2c31db9cd311416_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6e36e7b26f0d6692ff525a3127ff1b9f6cf5412ffcab0fb1688cc8595c801157_w640_q70.webp"
     },
     {
-      "id": 72501,
-      "title": "Skill Drift Is Contract Violation: Proactive Maintenance for LLM Agent Skill Libraries",
-      "date": "2026-05-13",
-      "author": "Linfeng Fan",
+      "id": 73455,
+      "title": "Bridging the Missing-Modality Gap: Improving Text-Only Calibration of Vision Language Models",
+      "date": "2026-05-14",
+      "author": "Mingyeong Kim",
       "tags": [
         {
-          "label": "cs.SE",
+          "label": "cs.CL",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/93e3c0ecc0f900712d34e5239241979fbc9774fd2fc23e0698ff5701f5e7b1a0_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c8b8cb9bc654bb48ea15829569001b2daac3f72af9cb174c79066daf1970c2a9_w640_q70.webp"
     }
   ]
 }

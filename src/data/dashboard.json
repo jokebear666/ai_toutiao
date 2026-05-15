@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 73500,
-      "title": "Think Twice, Act Once: Verifier-Guided Action Selection For Embodied Agents",
-      "date": "2026-05-14",
-      "author": "Nishad Singhi",
+      "id": 74408,
+      "title": "Agentic Systems as Boosting Weak Reasoning Models",
+      "date": "2026-05-15",
+      "author": "Varun Sunkaraneni",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/61bb3b27b06a1be547ea76dd2cf66075ede750137906088b0e1400370743bc01_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a91243f868cdf01643f31152e261d16290c779562df7c4212e40f83c4aa511ce_w640_q70.webp"
     },
     {
-      "id": 73514,
-      "title": "Macro-Action Based Multi-Agent Instruction Following through Value Cancellation",
-      "date": "2026-05-14",
-      "author": "Wo Wei Lin",
+      "id": 74409,
+      "title": "Unsteady Metrics and Benchmarking Cultures of AI Model Builders",
+      "date": "2026-05-15",
+      "author": "Stefan Baack",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f718a5b2626906df1c871fd9cb459514b944c6f0c33ce1309d724f52779e2fef_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/02302e1fcdf3d0435c42b7952e85d2a3d9def12d82b17dd79cbf3499d025a504_w640_q70.webp"
     },
     {
-      "id": 73525,
-      "title": "Revealing Interpretable Failure Modes of VLMs",
-      "date": "2026-05-14",
-      "author": "Isha Chaudhary",
+      "id": 74323,
+      "title": "PolitNuggets: Benchmarking Agentic Discovery of Long-Tail Political Facts",
+      "date": "2026-05-15",
+      "author": "Yifei Zhu",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c28ab44dece87bc6608955612303747491de51fc1f75aff51e7d87b6a4e39e8c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d1bce18c0ee2188cf716022d3e62c28415ce529bbac72c39013b443e5e04c288_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 73447,
-      "title": "Scale-Gest: Scalable Model-Space Synthesis and Runtime Selection for On-Device Gesture Detection",
-      "date": "2026-05-14",
-      "author": "Abdul Basit",
+      "id": 74957,
+      "title": "Does Synthetic Layered Design Data Benefit Layered Design Decomposition?",
+      "date": "2026-05-15",
+      "author": "Kam Man Wu",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/51327a0e4dd4fbe69855792eac7f7e40add3cc74e60fcba83c751e05f3a322b5_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/78f34f2d3b2aed1dbd2ff8dab78ff47ba6763f316939cb021d84e5c9b89e2e8b_w640_q70.webp"
     },
     {
-      "id": 73464,
-      "title": "MorphOPC: Advancing Mask Optimization with Multi-scale Hierarchical Morphological Learning",
-      "date": "2026-05-14",
-      "author": "Yuting Hu",
+      "id": 74447,
+      "title": "Automatic Landmark-Based Segmentation of Human Subcortical Structures in MRI",
+      "date": "2026-05-15",
+      "author": "Ahmed Rekik",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/bcb2976bb9f8653ed190af19f8e4f512fe700b660411c2e995248da05374325c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a78eac3f52f54a3857a4b2145cd2f6fec38ae98c6c2593c9a982c58374b5acaf_w640_q70.webp"
     },
     {
-      "id": 73474,
-      "title": "What Happens Before Decoding? Prefill Determines GUI Grounding in VLMs",
-      "date": "2026-05-14",
-      "author": "Jiaping Lin",
+      "id": 74463,
+      "title": "Generative Deep Learning for Computational Destaining and Restaining of Unregistered Digital Pathology Images",
+      "date": "2026-05-15",
+      "author": "Aarushi Kulkarni",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5e9812d8e0c8e3b9dca50a592da9a0811250759544d9728b2acb68f94cd22af8_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/aab23d6285b33aa382c00b4542a38743caee5f6b1a2aceaf0d4eb6a84bfd168a_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 74132,
-      "title": "MinT: Managed Infrastructure for Training and Serving Millions of LLMs",
-      "date": "2026-05-14",
-      "author": "Mind Lab",
+      "id": 74415,
+      "title": "Finite Sample Bounds for Learning with Score Matching",
+      "date": "2026-05-15",
+      "author": "Devin Smedira",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1ca510ca476f1b48f5f68f62fa3de64aae89ccbaa5734c5cc178f85d0b22f865_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cba4aea50cb234210f426abc67db500ef5c72d603aa7c54bf190a5d9bfb5d17a_w640_q70.webp"
     },
     {
-      "id": 74244,
-      "title": "Causal Learning with the Invariance Principle",
-      "date": "2026-05-14",
-      "author": "Francesco Montagna",
+      "id": 74442,
+      "title": "Diagnosing Training Inference Mismatch in LLM Reinforcement Learning",
+      "date": "2026-05-15",
+      "author": "Tianle Zhong",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c44c8394e18899bd77d63f3613e2166b2d7adef606198188e0d176bf19513cc5_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/38376ce778ba4aa7409b59da401e64a7f71cc83b92d02aacaa5b034901c8cd45_w640_q70.webp"
     },
     {
-      "id": 73959,
-      "title": "LIFT: Last-Mile Fine-Tuning for Table Explicitation",
-      "date": "2026-05-14",
-      "author": "Divij Khaitan",
+      "id": 74297,
+      "title": "Vision-Based Runtime Monitoring under Varying Specifications using Semantic Latent Representations",
+      "date": "2026-05-15",
+      "author": "Bardh Hoxha",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,15 +128,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c99f382090d0cd89cc89fb6c190ad1801665bc9963272de9dade1ee825c667a4_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/352ed2a47f05dfcab49deb856a6899d9ed951c0d1622955240fd539c2ff2bbcf_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 73668,
-      "title": "ThermalTap: Passive Application Fingerprinting in VR Headsets via Thermal Side Channels",
-      "date": "2026-05-14",
-      "author": "Mahsin Bin Akram",
+      "id": 74410,
+      "title": "DSTAN-Med: Dual-Channel Spatiotemporal Attention with Physiological Plausibility Filtering for False Data Injection Attack Detection in IoT-Based Medical Devices",
+      "date": "2026-05-15",
+      "author": "Md Mehedi Hasan",
       "tags": [
         {
           "label": "cs.CR",
@@ -144,35 +144,35 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ff008154d45636e2614ea73e9504891bcff3227b9190a3d17a11883cb7fb30e6_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4b2d69af1a1ec6712a5e068849a7ffd76d7b4c313294f7d6efa3588df5f2f8ab_w640_q70.webp"
     },
     {
-      "id": 74027,
-      "title": "AttenA+: Rectifying Action Inequality in Robotic Foundation Models",
-      "date": "2026-05-14",
-      "author": "Daojie Peng",
+      "id": 74462,
+      "title": "What Makes Words Hard? Sakura at BEA 2026 Shared Task on Vocabulary Difficulty Prediction",
+      "date": "2026-05-15",
+      "author": "Adam Nohejl",
       "tags": [
         {
-          "label": "cs.RO",
+          "label": "cs.CL",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6e36e7b26f0d6692ff525a3127ff1b9f6cf5412ffcab0fb1688cc8595c801157_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/03ec94dc727e01daac14acfe48b88aabfc7c5491d3874c4aede74e7f46828d6e_w640_q70.webp"
     },
     {
-      "id": 73455,
-      "title": "Bridging the Missing-Modality Gap: Improving Text-Only Calibration of Vision Language Models",
-      "date": "2026-05-14",
-      "author": "Mingyeong Kim",
+      "id": 74287,
+      "title": "Neural Code Translation of Legacy Code: APL to C#",
+      "date": "2026-05-15",
+      "author": "Abdulrahman Ramadan",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.SE",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c8b8cb9bc654bb48ea15829569001b2daac3f72af9cb174c79066daf1970c2a9_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/550780837b3c418e88f3efc2e3ad6d0eebfbfd95ae893135e5bc33614db9d2ff_w640_q70.webp"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 75610,
-      "title": "Do Biological Structural Guarantees Earn Their Complexity?",
-      "date": "2026-05-18",
-      "author": "Bogdan Banu",
+      "id": 76586,
+      "title": "Accelerating AI-Powered Research: The PuppyChatter Framework for Usable and Flexible Tooling",
+      "date": "2026-05-19",
+      "author": "Chun-Hsiung Tseng",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/140003e1905f3f51d6408cda4d6e518c601d8ace0b7a1d709c934b7d7b993842_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4018bd58cf652c6887d10887caa650157f0bbb1284ecd305fdbdc704e2f3d880_w640_q70.webp"
     },
     {
-      "id": 75106,
-      "title": "Context Pruning for Coding Agents via Multi-Rubric Latent Reasoning",
-      "date": "2026-05-18",
-      "author": "Jingjing Wang",
+      "id": 75672,
+      "title": "AgentWall: A Runtime Safety Layer for Local AI Agents",
+      "date": "2026-05-19",
+      "author": "Ashwin Aravind",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8652408ddddd801ab58b999d36c7ba3e566e4d8ea23ecbe645afa0198cef7ac9_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8cb2df2128efeeea990c0ff566ab88e7fb091fc4f32ce8783112be8f9725d45c_w640_q70.webp"
     },
     {
-      "id": 75046,
-      "title": "DeepSlide: From Artifacts to Presentation Delivery",
-      "date": "2026-05-18",
-      "author": "Ming Yang",
+      "id": 75713,
+      "title": "ANNEAL: Adapting LLM Agents via Governed Symbolic Patch Learning",
+      "date": "2026-05-19",
+      "author": "Safayat Bin Hakim",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6e14c0c9a8228bf4d6da6820c43f04fcc592b423d06503abc2ea5b399e23d650_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9b7730bd483c3d642c34aece86fc17c112254fb9916f2cb1c018510a23095ef1_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 75617,
-      "title": "From Full and Partial Intraoral Scans to Crown Proposal: A Classification-Guided Restoration Assistance Pipeline",
-      "date": "2026-05-18",
-      "author": "Rabin Kunwar",
+      "id": 76666,
+      "title": "Counting Machine Parts",
+      "date": "2026-05-19",
+      "author": "Benedict Florance Arockiaraj",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c4b3690ef9770e01733a2ab12f543ec4af3d9a6ab91e8682de08146982937f19_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/79c326da093de3df494bebce69731cef3f992a88766a6662186a416f925c6536_w640_q70.webp"
     },
     {
-      "id": 75323,
-      "title": "How to Choose Your Teacher for Fine Grained Image Recognition",
-      "date": "2026-05-18",
-      "author": "Oswin Gosal",
+      "id": 75775,
+      "title": "Vision Transformer-Conditioned UNet for Domain-Adaptive Semantic Segmentation",
+      "date": "2026-05-19",
+      "author": "Joel Valdivia Ortega",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1bd1a6f6860843831df523dac03a80dcbaead02a5d5d5d28530fb488fedd8a89_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e1241d683eb90c9c0e7be22200ea43a84e722e6b8199785cda54d1052850812f_w640_q70.webp"
     },
     {
-      "id": 75460,
-      "title": "Decomposed Vision-Language Alignment for Fine-Grained Open-Vocabulary Segmentation",
-      "date": "2026-05-18",
-      "author": "Chenhao Wang",
+      "id": 76604,
+      "title": "Why We Look Where We Look: Emergent Human-like Fixations of a Foveated Visual Language Model Maximizing Scene Understanding",
+      "date": "2026-05-19",
+      "author": "Shravan Murlidaran",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/96b7b51be320f76e7b26adb53f81284987ed81ffc7fc2dec8cbe58a1d7a51e04_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/47f424d69c0a4c9c5793a3f789b1af8feb13628ccf75668db031094eaab3a282_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 75616,
-      "title": "Quantum Feature Pyramid Gating for Seismic Image Segmentation",
-      "date": "2026-05-18",
-      "author": "Taha Gharaibeh",
+      "id": 75717,
+      "title": "When Actions Disappear: Adversarial Action Removal in Self-Play Reinforcement Learning",
+      "date": "2026-05-19",
+      "author": "Arahan Kujur",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2cf51f789d23b4fa77f663113e4ed7d2f560436ddd91ff4c6b9d97f3d20a4c8b_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/aa24bbb7e05211ce64affb195feadb2bc2989e160d1bdd0a50615828943c5754_w640_q70.webp"
     },
     {
-      "id": 75159,
-      "title": "$\u03d5$-Balancing for Mixture-of-Experts Training",
-      "date": "2026-05-18",
-      "author": "Lizhang Chen",
+      "id": 75878,
+      "title": "fPINN-DeepONet: A Physics-Informed Operator Learning Framework for Multi-term Time-fractional Mixed Diffusion-wave Equations",
+      "date": "2026-05-19",
+      "author": "Binghang Lu",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6e6c9aa6cb6101792f7696b3701556cfa5f958764c0c4e3a4ec8f94537951952_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3d6137c79f8e767adc16e7750801167ef748e64df74328925aa71396ad6f881a_w640_q70.webp"
     },
     {
-      "id": 75054,
-      "title": "TeamTR: Trust-Region Fine-Tuning for Multi-Agent LLM Coordination",
-      "date": "2026-05-18",
-      "author": "Yi Xie",
+      "id": 75671,
+      "title": "Systematic Optimization of Real-Time Diffusion Model Inference on Apple M3 Ultra",
+      "date": "2026-05-19",
+      "author": "Yoichi Ochiai",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,15 +128,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d40062798b5839cce1395a3414eca34b77d5bfaec7356e82ce44058643798a44_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/35cdf7c5f7ea14c2694b0caf153d9f13648fdbe4ca314d53bc6eff7adcc7b138_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 75446,
-      "title": "Towards Generalization of Block Attention via Automatic Segmentation and Block Distillation",
-      "date": "2026-05-18",
-      "author": "Shuaiyi Li",
+      "id": 75866,
+      "title": "Scaling Accessible Mathematics on arXiv: HTML Conversion and MathML 4",
+      "date": "2026-05-19",
+      "author": "Deyan Ginev",
       "tags": [
         {
           "label": "cs.CL",
@@ -144,35 +144,35 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2d663d9792cece1e85e057a476fd9c1b5c98bfa71769400e815488c5df55123b_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8142f744600bd5aba728a2c9379b0aa3c5e091c37a035e01ef2bdc75003478c5_w640_q70.webp"
     },
     {
-      "id": 75089,
-      "title": "Fluency and Faithfulness in Human and Machine Literary Translation",
-      "date": "2026-05-18",
-      "author": "Sarah Griebel",
+      "id": 76667,
+      "title": "Active Defense Against False Data Injection Attacks in Robotic Manipulators",
+      "date": "2026-05-19",
+      "author": "Gabriele Gualandi",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.RO",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9ebc7f555cf7d0b3f2425e25b77c7b05d90f8a862555d3f1f264ae909b413ca7_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/915bd04f4fa791427e43f81b7e8be31873c34cbcd26afcaff6bb09c4fe48b39b_w640_q70.webp"
     },
     {
-      "id": 75057,
-      "title": "Effective Harness Engineering for Algorithm Discovery with Coding Agents",
-      "date": "2026-05-18",
-      "author": "Yoichi Ishibashi",
+      "id": 76182,
+      "title": "Simple Power Analysis on Post-Quantum Code Based Cryptosystems",
+      "date": "2026-05-19",
+      "author": "Konstantinos Spalas",
       "tags": [
         {
-          "label": "cs.SE",
+          "label": "cs.CR",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b87884282572c7cfa8a8b0d3b9d7d180e4552631502d83cd2e3a51c8e4695705_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/41aa598e60a920a335e1e9e15d16931d67b4e548b247a6fcc7c688cb63a7812f_w640_q70.webp"
     }
   ]
 }

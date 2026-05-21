@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 77217,
-      "title": "Position: Let's Develop Data Probes to Fundamentally Understand How Data Affects LLM Performance",
-      "date": "2026-05-20",
-      "author": "Shiqiang Wang",
+      "id": 78023,
+      "title": "SOLAR: A Self-Optimizing Open-Ended Autonomous Agent for Lifelong Learning and Continual Adaptation",
+      "date": "2026-05-21",
+      "author": "Nitin Vetcha",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b7eb082480605abe45ab577bd61069bc0f862f46e8638638a817897f6e607b6d_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/978722bae6a22d874778c95cdbac29fa15ff1d13898c0a7f845c1ca8367643c0_w640_q70.webp"
     },
     {
-      "id": 77234,
-      "title": "Operationalizing Document AI: A Microservice Architecture for OCR and LLM Pipelines in Production",
-      "date": "2026-05-20",
-      "author": "Yao Fehlis",
+      "id": 78030,
+      "title": "Tool-Augmented Agent for Closed-loop Optimization,Simulation,and Modeling Orchestration",
+      "date": "2026-05-21",
+      "author": "Liyuan Deng",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/920f76d50d57beb67f1aeda90c90d7cdb0d26ebf6eba0aebc719d050b4f9296c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8e97629fc1e356b75550daa9f200b1ce6cf00da6cc986d720c591192e6d3626c_w640_q70.webp"
     },
     {
-      "id": 77325,
-      "title": "Evaluating the Utility of Personal Health Records in Personalized Health AI",
-      "date": "2026-05-20",
-      "author": "Rory Sayres",
+      "id": 78157,
+      "title": "OSCToM: RL-Guided Adversarial Generation for High-Order Theory of Mind",
+      "date": "2026-05-21",
+      "author": "Sharmin Sultana Srishty",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cbe3bc09447e168013e052e546bb82f4be3ec0b812e09a0c3de4e3ba3aec9703_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/409b57dd4426fd60f8d364e304782c8a0255b7b3cc12f109c3d04b4a4e056eb1_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 77326,
-      "title": "Harnessing Self-Supervised Features for Art Classification",
-      "date": "2026-05-20",
-      "author": "Federico Melis",
+      "id": 78364,
+      "title": "OSGNet with MLLM Reranking @ Ego4D Episodic Memory Challenge 2026",
+      "date": "2026-05-21",
+      "author": "Yisen Feng",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0e93eddb3e1931fcb2692d819ed513f2c35316458b092ff30c5cbb0dda0f008f_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ba3adf4f9d8d72101b97dd8d751fb866eb43f71f7cc1e3a14a5058aaa32ac8da_w640_q70.webp"
     },
     {
-      "id": 78014,
-      "title": "FGSVQA: Frequency-Guided Short-form Video Quality Assessment",
-      "date": "2026-05-20",
-      "author": "Xinyi Wang",
+      "id": 78211,
+      "title": "NeuroQA: A Large-Scale Image-Grounded Benchmark for 3D Brain MRI Understanding",
+      "date": "2026-05-21",
+      "author": "Mohammad H. Abbasi",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/335ddd2cc15f34a4f725b9ed205158a17208aba6f2ab9f987399a8b10434efca_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e72b9007020fca11b65e8b12a12a07288a2bbf4587fcd7897330eecadf909293_w640_q70.webp"
     },
     {
-      "id": 77331,
-      "title": "MotionMERGE: A Multi-granular Framework for Human Motion Editing, Reasoning, Generation, and Explanation",
-      "date": "2026-05-20",
-      "author": "Bizhu Wu",
+      "id": 78045,
+      "title": "Why Latent Actions Fail, and How to Prevent It",
+      "date": "2026-05-21",
+      "author": "Jung Min Lee",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/726a8a73d099217ec8491343878d92a55e239038b121cf94e8d23a7a5eab4d75_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/70e12d8e6cf70010547dee0547baa9a9c64cdc1583c63cde4c3d040c1320e5f0_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 77225,
-      "title": "Block-Based Double Decoders",
-      "date": "2026-05-20",
-      "author": "Asher Labovich",
+      "id": 78762,
+      "title": "Stimulus symmetries can confound representational similarity analyses",
+      "date": "2026-05-21",
+      "author": "Farhad Pashakhanloo",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ef1f2ac193ea43c857f1368c914a65216d78e0aee835a5857cdeab584aa5c3f7_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c7d1979aed1b557d6f73f37acd3a9da259f312cc7b16d4cade34ea1e62904f1d_w640_q70.webp"
     },
     {
-      "id": 77294,
-      "title": "Emergence of a Flow-Assisted Casting Strategy for Olfactory Navigation via Memory-Augmented Reinforcement Learning",
-      "date": "2026-05-20",
-      "author": "Changxu Zhao",
+      "id": 78763,
+      "title": "Semiparametric Efficient Bilevel Gradient Estimation",
+      "date": "2026-05-21",
+      "author": "Fares El Khoury",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b4a9e90873b5f48152b3c4696f019b62f5b7d2a022acfc57a863fcf498313c30_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/eb1ee0f68bda345f6daa9c6c1d747ee6837a8d90712210270dac18b87a2b7630_w640_q70.webp"
     },
     {
-      "id": 77982,
-      "title": "Do Better Volatility Forecasts Lead to Better Portfolios? Evidence from Graph Neural Networks",
-      "date": "2026-05-20",
-      "author": "Rylan Wade",
+      "id": 78205,
+      "title": "Fast Reconstruction of Exact Maxwell Dynamics from Sparse Data",
+      "date": "2026-05-21",
+      "author": "Dan DeGenaro",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,29 +128,29 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7b4cd796b9a9219fd9d7fb8a0d57c04925d022dd5cbfaa4d012cdc2537997588_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4464f69d5605afacee99873b876d22547a0a4c5e3296c2ac1873d981aa12706e_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 77206,
-      "title": "Decentralized autonomous organization and blockchain-based incentivization framework for community-based facilities management",
-      "date": "2026-05-20",
-      "author": "Reachsak Ly",
+      "id": 78547,
+      "title": "Metaphors in Literary Post-Editing: Opening Pandora's Box?",
+      "date": "2026-05-21",
+      "author": "Aletta G. Dorst",
       "tags": [
         {
-          "label": "cs.CR",
+          "label": "cs.CL",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/be39d2fdf1cc408b0a05bb71827d9cdc49a4057e5133ffbb4446566dac19038b_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4965a61daf6eeae202385b0bfdf9a3fb6937c30c2232bf311f1b8cbc1d17b12b_w640_q70.webp"
     },
     {
-      "id": 77283,
-      "title": "DarkLLM: Learning Language-Driven Adversarial Attacks with Large Language Models",
-      "date": "2026-05-20",
-      "author": "Ye Sun",
+      "id": 78581,
+      "title": "Profiling User Vulnerability to Phishing Through Psychological and Behavioral Factors",
+      "date": "2026-05-21",
+      "author": "Valeria Formisano",
       "tags": [
         {
           "label": "cs.CR",
@@ -158,21 +158,21 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e376e8c4fcfbe2baf236cb9232295549000b89399801886099db180c6722ccb2_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/704cf0f1780dfd873e1baae2ae019517d3d175d9a2d372bbcfc9fdf11cf92c1d_w640_q70.webp"
     },
     {
-      "id": 77286,
-      "title": "GenAI-FDIA: Physics-Informed Generative Models for False Data Injection Attacks",
-      "date": "2026-05-20",
-      "author": "Mohammad A. Razzaque",
+      "id": 78022,
+      "title": "Improving Quantized Model Performance in Qualitative Analysis with Multi-Pass Prompt Verification",
+      "date": "2026-05-21",
+      "author": "Aisvarya Adeseye",
       "tags": [
         {
-          "label": "cs.CR",
+          "label": "cs.CL",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6cdabe4d0bc824735609b9afada8df2f011b1e15293b81b245ae0d8d3f7d420c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3477fc6f185dce3ea9d440186820157eed7055ffbcd219d8efb6233d66db6534_w640_q70.webp"
     }
   ]
 }

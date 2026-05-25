@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 78811,
-      "title": "Benchmarking and Improving Monitors for Out-Of-Distribution Alignment Failure in LLMs",
-      "date": "2026-05-22",
-      "author": "Dylan Feng",
+      "id": 79746,
+      "title": "GENSTRAT: Toward a Science of Strategic Reasoning in Large Language Models",
+      "date": "2026-05-25",
+      "author": "Vartan Shadarevian",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/925c23c9e99fde7db585682e983c3cd4e1bf2a4e973e055de63109a15e59d16a_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/bec6c37ee29cb028e8300276d484c1ded4bdb62d9f038bf0350a8111d3596382_w640_q70.webp"
     },
     {
-      "id": 78820,
-      "title": "The Shape of Testimony: A Scalable Framework for Oral History Archive Comparison",
-      "date": "2026-05-22",
-      "author": "Itamar Trainin",
+      "id": 79554,
+      "title": "BOHM: Zero-Cost Hierarchical Attribution for Compound AI Systems",
+      "date": "2026-05-25",
+      "author": "Joss Armstrong",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/bd351d535e145bec35cdee6de68d74e79f7668d9832eeda5eb66859b9891bea9_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0e9c39c256e8ecf8aaea43c4b52d2ae39a41b748676881984f1ed0510091f99b_w640_q70.webp"
     },
     {
-      "id": 78825,
-      "title": "TO-Agents: A Multi-Agent AI Pipeline for Preference-Guided Topology Optimization",
-      "date": "2026-05-22",
-      "author": "Isabella A. Stewart",
+      "id": 79558,
+      "title": "RMA: an Agentic System for Research-Level Mathematical Problems",
+      "date": "2026-05-25",
+      "author": "Zelin Zhao",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1440a60ca7c0e1ea3e85aff0b1c5e0ef008842b9774c6481cee9543c4878dc03_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f3c0c99409f6d74a85d213782f4c8ab7f52ff71c454e329cfb4635b2e982b094_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 79053,
-      "title": "Broken Memories: Detecting and Mitigating Memorization in Diffusion Models with Degraded Generations",
-      "date": "2026-05-22",
-      "author": "Yuanmin Huang",
+      "id": 79841,
+      "title": "Online Hand Gesture Recognition Using 3D Convolutional Neural Networks",
+      "date": "2026-05-25",
+      "author": "Yinghao Qin",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ad282e5bd1db9550b4911273dbdb6f71a7365e9ed3f61a123212cb44ee1583bd_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b657f29357eb063eb30cc4f9e363ba24023a85c03b397df0f7dab64701e131ed_w640_q70.webp"
     },
     {
-      "id": 79064,
-      "title": "AgroVG: A Large-Scale Multi-Source Benchmark for Agricultural Visual Grounding",
-      "date": "2026-05-22",
-      "author": "Haocheng Li",
+      "id": 79567,
+      "title": "GEM-4D: Geometry-Enhanced Video World Models for Robot Manipulation",
+      "date": "2026-05-25",
+      "author": "Kaichen Zhou",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3471655abda4f6e726a4194bd87057ee46e6273d722a7ecdf64edea106dcd1b4_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/aa3a59e2d02294668ee0b6367177f0cf71ff63742eeed0b525a730931dcacdd9_w640_q70.webp"
     },
     {
-      "id": 79065,
-      "title": "TWINGS: Thin Plate Splines Warp-aligned Initialization for Sparse-View Gaussian Splatting",
-      "date": "2026-05-22",
-      "author": "Hyeseong Kim",
+      "id": 79578,
+      "title": "Suicide Risk Assessment from AI-powered Video Surveillance: An Interpretable Framework for Prevention in Metro Stations",
+      "date": "2026-05-25",
+      "author": "Safwen Naimi",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/aeb6b54548be6b7ccd6864e0ddba6f835429de65edf308b668d33ee9c6573a8c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/28ea06cf0d1ba3db7030a9a0f59f4387745ccb33d2cc0ffcb9e48e94eabc0c8a_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 78920,
-      "title": "Symbolic Density Estimation for Discrete Distributions",
-      "date": "2026-05-22",
-      "author": "Ziwen Liu",
+      "id": 79598,
+      "title": "Worse than Random: The Importance of a Baseline for Unsupervised Feature Selection",
+      "date": "2026-05-25",
+      "author": "Muhammad Rajabinasab",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0dd46e01f3cae9c762e199af7bf3fd7f93ca153853e030a0aa9cf4813c1473fc_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6942109143d12cf035dacef589f3d6060baaed356bdb83413cc2dc33dde259c2_w640_q70.webp"
     },
     {
-      "id": 78786,
-      "title": "DualOptim+: Bridging Shared and Decoupled Optimizer States for Better Machine Unlearning in Large Language Models",
-      "date": "2026-05-22",
-      "author": "Xuyang Zhong",
+      "id": 79764,
+      "title": "Multi-Gate Residuals",
+      "date": "2026-05-25",
+      "author": "Zhizhan Zheng",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/92ab44ddfe0053083e387f6c04fbcf9bee372ba7a484618f902177802a328757_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/48dd5747bb051368a2299d365bfe7fe65444457dabfde5c0d6c65d18fdb8ff1d_w640_q70.webp"
     },
     {
-      "id": 78769,
-      "title": "The Attribution Impossibility: No Feature Ranking Is Faithful, Stable, and Complete Under Collinearity",
-      "date": "2026-05-22",
-      "author": "Drake Caraker",
+      "id": 79771,
+      "title": "Diffusion Domain Expansion: Learning to Coordinate Pre-trained Diffusion Models",
+      "date": "2026-05-25",
+      "author": "Egor Lifar",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,51 +128,51 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a89ec16420e546096642fdbef76d2191f725e1f20c802624fb994c2a03855902_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/666aaab17cdaa6589f90214df1ca40e5840241b619e07a2d25a5a768c0202a97_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 79063,
-      "title": "ArabDiscrim: A Decade-Long Arabic Facebook Corpus on Racism and Discrimination",
-      "date": "2026-05-22",
-      "author": "Wajdi Zaghouani",
+      "id": 79540,
+      "title": "The Misattribution Gap: When Memory Poisoning Looks Like Model Failure in Agentic AI Systems",
+      "date": "2026-05-25",
+      "author": "Tanzim Ahad",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.CR",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/928de21a03ee5b6d53b24af590833edcd2ef804d590c513d5ae2e25245e39f9e_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e480a07f7f251cb142ffcbdfed24a6fa2f899813325c1ee150e3030e5eb40cb9_w640_q70.webp"
     },
     {
-      "id": 78770,
-      "title": "Autonomous LLM Agents & CTFs: A Second Look",
-      "date": "2026-05-22",
-      "author": "Youness Bouchari",
+      "id": 79668,
+      "title": "Four Simple Proprioceptive Estimators for Legged Robots",
+      "date": "2026-05-25",
+      "author": "Frank Dellaert",
       "tags": [
         {
-          "label": "cs.CR",
+          "label": "cs.RO",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/542f2f4eea2b5e3b8925b1413ca031e151930f5c972f6d7b3d63b41a45a53652_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f47dbbd1c24d769bab3511d092c6d618175604b5a0d96318bb30915da107cd6e_w640_q70.webp"
     },
     {
-      "id": 78774,
-      "title": "Chain Reactions: How Nonce Collisions in ECDSA Compromise Polygon MEV Searchers",
-      "date": "2026-05-22",
-      "author": "Yash Madhwal",
+      "id": 79532,
+      "title": "Evaluating Large Language Models in a Complex Hidden Role Game",
+      "date": "2026-05-25",
+      "author": "Niklas Bauer",
       "tags": [
         {
-          "label": "cs.CR",
+          "label": "cs.CL",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4fac6ca6b1302d55ea6a002f0d44e8cb0f2cd4b1409784e63743fac12af4c64c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/bc7f5e01a23cf285471a05d71dabd907363182e3b1b8b8e83d0c318975bb3f49_w640_q70.webp"
     }
   ]
 }

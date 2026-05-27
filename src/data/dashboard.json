@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 80117,
-      "title": "Confidence Calibration in Large Language Models",
-      "date": "2026-05-26",
-      "author": "Noam Michael",
+      "id": 81513,
+      "title": "BrickAnything: Geometry-Conditioned Buildable Brick Generation with Structure-Aware Tokenization",
+      "date": "2026-05-27",
+      "author": "Zhengyang Ni",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ef4e54ad38606d4e2276c897c2e82c48356b0cfb991eb7b59e42cbb77c2622f9_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/99597a21ba130d28d40d428f86aeecdf50e1dd4bb3564418929c34ef94a2cb78_w640_q70.webp"
     },
     {
-      "id": 80133,
-      "title": "How Much Thinking is Enough? Quantifying and Understanding Redundancy in LLM Reasoning",
-      "date": "2026-05-26",
-      "author": "Zhiyuan Zhai",
+      "id": 81534,
+      "title": "Can LLMs Introspect? A Reality Check",
+      "date": "2026-05-27",
+      "author": "Shashwat Singh",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/672e42b5a53135ef29d724ed5f07416729ff3ba9fed1cad39af81d0401b57f20_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fe041f98e355df73e0a2192865be509ce77c2380eae94b7e17ca9924735a481c_w640_q70.webp"
     },
     {
-      "id": 80134,
-      "title": "In Search of the Ingredients of Open-Endedness: Replicating Picbreeder with Large Vision-Language Models",
-      "date": "2026-05-26",
-      "author": "Sam Earle",
+      "id": 81538,
+      "title": "Is Agent Memory a Database? Rethinking Data Foundations for Long-Term AI Agent Memory",
+      "date": "2026-05-27",
+      "author": "Abdelghny Orogat",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8e378dc8cbda3331b909ce178a5362f0c064245dfe557d57958f04a0669fdaf8_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/250bfc55e0aeb8b8080feffacd54dc0ee662cb343f879785d447fc5696ec4bbd_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 80186,
-      "title": "Nano World Models: A Minimalist Implementation of Future Video Prediction",
-      "date": "2026-05-26",
-      "author": "Siqiao Huang",
+      "id": 81819,
+      "title": "CIRCLED: A Multi-turn CIR Dataset with Consistent Dialogues across Domains",
+      "date": "2026-05-27",
+      "author": "Tomohisa Takeda",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cae0a4a8640bb1b0326f230871b0efc04c26d15c8ba4701653285c7d19aa4903_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/68e403f7d4bc9a00905d1e4fa8230b8ae961741ce8b885debf5c976bb9e33867_w640_q70.webp"
     },
     {
-      "id": 80187,
-      "title": "A World Model of Radiologist Reading for Medical Image Representation Learning",
-      "date": "2026-05-26",
-      "author": "Yiwei Li",
+      "id": 81526,
+      "title": "Not All Modalities Are Equal: Instruction-Aware Gating for Multimodal Videos",
+      "date": "2026-05-27",
+      "author": "Bonan Ding",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5310a6fcfe23022d1cd9c525ea50f1bd1461e40421d5a7e2b7716d89de79f1f4_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2e30d9bf54256d6c3e989eea6b72bbb7adbac430bc8e51ef438d4ea42d7c2a21_w640_q70.webp"
     },
     {
-      "id": 80188,
-      "title": "Task-Aligned Self-Supervised Learning for Medical Image Analysis: A Systematic Review and Practical Design Guidelines",
-      "date": "2026-05-26",
-      "author": "Chathura Wimalasiri",
+      "id": 81527,
+      "title": "Geometry-Aware Representation Denoising for Robust Multi-view 3D Reconstruction",
+      "date": "2026-05-27",
+      "author": "Jin Hyeon Kim",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2d749a0070ecf4b38140bb9d325e9d6ac5bc37e9e5771a00a9afb2394b48f3ad_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ebc2c1cc49f5989aa2c5c508f7f878d180a0ce0602d385607eb43310a526f921_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 81382,
-      "title": "Optimal Non-Asymptotic Edgeworth Expansions for Multivariate Neural Network Outputs",
-      "date": "2026-05-26",
-      "author": "Lucia Celli",
+      "id": 81661,
+      "title": "Diffuse to Detect: Generative Diffusion Models for Unsupervised IC Anomaly Detection",
+      "date": "2026-05-27",
+      "author": "Yuxuan Yin",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3ff657b7efd4f5a97b5c0f28776a0954d3390ad1271e83f63057d241ed1a7b01_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2de2b8ce6deb7655f6f9eef4dfa435d791c1133132ec2068ec568504bfb7d9e8_w640_q70.webp"
     },
     {
-      "id": 81438,
-      "title": "Mean-Shift PCA by Knockoff Mean",
-      "date": "2026-05-26",
-      "author": "Mengda Li",
+      "id": 81556,
+      "title": "Two-Parameter Flows for Learning Population Dynamics of Physical Systems",
+      "date": "2026-05-27",
+      "author": "Paul Schwerdtner",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6435f8c8f841a68230bfaf357ce86b53443bc32e7f9b1ed5156895d51d4bab63_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/747b08a2c746dc8bc1bd6272801c199de6a9214af31c69ab242e4756001c5bdd_w640_q70.webp"
     },
     {
-      "id": 80285,
-      "title": "Filtered Posterior Mean Collections: A Unified Framework for Analytical Models of Diffusion Generalization",
-      "date": "2026-05-26",
-      "author": "Matthew Niedoba",
+      "id": 81570,
+      "title": "Curriculum Learning for Safety Alignment",
+      "date": "2026-05-27",
+      "author": "Sandeep Kumar",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,51 +128,51 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e636e2c84ddb29e814a0efe9a43ab9d42270918480a167b1cdea0636ab4851ef_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0d57cfce0101017c6f3b9a454bbcf8b2d41796e3c9887e55b7307105de444ca3_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 80118,
-      "title": "Document Classification Pattern Recognition via Information Fusion: A Systematic Review of Multimodal and Multiview Representation Approaches",
-      "date": "2026-05-26",
-      "author": "Marcin Micha\u0142 Miro\u0144czuk",
+      "id": 81478,
+      "title": "From user-understandable to technical process model: a model-driven approach using cuta4bpm",
+      "date": "2026-05-27",
+      "author": "Kathrin Kirchner",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.SE",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a8c0b5c4684215279ca2a4e42686537c8a4c581a838d95501d1423829ab86ade_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/24fc59d54fb5d9e87b1061909ab0480ee25da9d8c667a3a72b4e53d04be59108_w640_q70.webp"
     },
     {
-      "id": 80121,
-      "title": "SEIDM: A Safe and Efficient Intelligent Driver Model for Autonomous Driving Behavior",
-      "date": "2026-05-26",
-      "author": "Yuyang Yao",
+      "id": 81473,
+      "title": "Self-Verified Distillation: Your Language Model Is Secretly Its Own Synthetic Data Pipeline",
+      "date": "2026-05-27",
+      "author": "Tony Lee",
       "tags": [
         {
-          "label": "cs.RO",
+          "label": "cs.CL",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b0ccafd9381cdeb5d7ca58d2cba9e952717e6df07fd154ccee1ca7dcd78458aa_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d6cb2def5b91e5232d1254c3a124d8f7b0d69e87574dac66175fa96a96e60b15_w640_q70.webp"
     },
     {
-      "id": 80123,
-      "title": "Raon-Speech Technical Report",
-      "date": "2026-05-26",
-      "author": "Beomsoo Kim",
+      "id": 81482,
+      "title": "When Does Adaptive Guidance Help? Belief-Aware Privileged Distillation for Autonomous Driving Under Partial Observability",
+      "date": "2026-05-27",
+      "author": "Mehmet Haklidir",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.RO",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9185f45182b86a0aa2b9bbc2056566a4c46dd802a446206665889697c44ae8b7_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d5ee2da4813f0ca3e92be321aa9ad29823967cb2fcc379aa4bb656209d54b777_w640_q70.webp"
     }
   ]
 }

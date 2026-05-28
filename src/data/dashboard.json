@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 81513,
-      "title": "BrickAnything: Geometry-Conditioned Buildable Brick Generation with Structure-Aware Tokenization",
-      "date": "2026-05-27",
-      "author": "Zhengyang Ni",
+      "id": 82183,
+      "title": "Identifying and Understanding Human Values in Text: A Tailorable LLM-based Architecture",
+      "date": "2026-05-28",
+      "author": "Eduardo de la Cruz Fern\u00e1ndez",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/99597a21ba130d28d40d428f86aeecdf50e1dd4bb3564418929c34ef94a2cb78_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/eddefc187324044c11a558b2805bd938e5311aeae5407f6755a3f6fa2fd44fb0_w640_q70.webp"
     },
     {
-      "id": 81534,
-      "title": "Can LLMs Introspect? A Reality Check",
-      "date": "2026-05-27",
-      "author": "Shashwat Singh",
+      "id": 82187,
+      "title": "Soro: A Lightweight Foundation Model and Chatbot for Tajik",
+      "date": "2026-05-28",
+      "author": "Stanislav Liashkov",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fe041f98e355df73e0a2192865be509ce77c2380eae94b7e17ca9924735a481c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0ea3e411f1c6107aceefe7fb4571f6fbb13623f27464928a7ed07a02f6902bbd_w640_q70.webp"
     },
     {
-      "id": 81538,
-      "title": "Is Agent Memory a Database? Rethinking Data Foundations for Long-Term AI Agent Memory",
-      "date": "2026-05-27",
-      "author": "Abdelghny Orogat",
+      "id": 82277,
+      "title": "On the Origin of Synthetic Information by Means of Steganographic Inheritance",
+      "date": "2026-05-28",
+      "author": "Ching-Chun Chang",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/250bfc55e0aeb8b8080feffacd54dc0ee662cb343f879785d447fc5696ec4bbd_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e7ff4b30de18a9d5e9829e4b9680e2517a5366216b72f94e495845fc43e95005_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 81819,
-      "title": "CIRCLED: A Multi-turn CIR Dataset with Consistent Dialogues across Domains",
-      "date": "2026-05-27",
-      "author": "Tomohisa Takeda",
+      "id": 82466,
+      "title": "Towards Unified Vision-Language Models with Incomplete Multi-Modal Inputs",
+      "date": "2026-05-28",
+      "author": "Xiang Fang",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/68e403f7d4bc9a00905d1e4fa8230b8ae961741ce8b885debf5c976bb9e33867_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/63a2fdebab0e681b63d0b68d2b6f01bde1cdfd2df61020f184a4e100e6696cc8_w640_q70.webp"
     },
     {
-      "id": 81526,
-      "title": "Not All Modalities Are Equal: Instruction-Aware Gating for Multimodal Videos",
-      "date": "2026-05-27",
-      "author": "Bonan Ding",
+      "id": 82236,
+      "title": "From Affect to Complex Behavior: Advancing Multimodal Human-Centered AI at the 10th ABAW Workshop & Competition",
+      "date": "2026-05-28",
+      "author": "Dimitrios Kollias",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2e30d9bf54256d6c3e989eea6b72bbb7adbac430bc8e51ef438d4ea42d7c2a21_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0ce19daee053f12405d10957b0c1147572b5640a0c1d4aa20b2efe0e1ea1f0f4_w640_q70.webp"
     },
     {
-      "id": 81527,
-      "title": "Geometry-Aware Representation Denoising for Robust Multi-view 3D Reconstruction",
-      "date": "2026-05-27",
-      "author": "Jin Hyeon Kim",
+      "id": 82237,
+      "title": "Fine-Tuning Vision-Language Models for Understanding Current Damage and Scoring Priority with Quality Guard Agent",
+      "date": "2026-05-28",
+      "author": "Takato Yasuno",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ebc2c1cc49f5989aa2c5c508f7f878d180a0ce0602d385607eb43310a526f921_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f7070eb349dbf7be7f856b8cc0b9be87436dc4debba004bf30ecee518502717a_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 81661,
-      "title": "Diffuse to Detect: Generative Diffusion Models for Unsupervised IC Anomaly Detection",
-      "date": "2026-05-27",
-      "author": "Yuxuan Yin",
+      "id": 82197,
+      "title": "Personalized Observation Normalization for Federated Reinforcement Learning in Simulation Environments with Heterogeneity",
+      "date": "2026-05-28",
+      "author": "Yiran Pang",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2de2b8ce6deb7655f6f9eef4dfa435d791c1133132ec2068ec568504bfb7d9e8_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0048f8dd2ffa2e6a2e5d138ef33161ff9374fa507d1e2d66f935eb411b0350bd_w640_q70.webp"
     },
     {
-      "id": 81556,
-      "title": "Two-Parameter Flows for Learning Population Dynamics of Physical Systems",
-      "date": "2026-05-27",
-      "author": "Paul Schwerdtner",
+      "id": 82254,
+      "title": "Federated Learning for Multivariate Time Series Anomaly Detection in Industrial Automation",
+      "date": "2026-05-28",
+      "author": "Khayyam Nosrati",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/747b08a2c746dc8bc1bd6272801c199de6a9214af31c69ab242e4756001c5bdd_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/57fb06ef05f1d6074301cf643c59117c1375804727fd8b017b68625531765918_w640_q70.webp"
     },
     {
-      "id": 81570,
-      "title": "Curriculum Learning for Safety Alignment",
-      "date": "2026-05-27",
-      "author": "Sandeep Kumar",
+      "id": 82216,
+      "title": "IGADA-IoT: IoT Sensor Energy Optimization in Wireless Sensor Networks Driven by Automatic Data Augmentation",
+      "date": "2026-05-28",
+      "author": "Mingchun Sun",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,29 +128,29 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0d57cfce0101017c6f3b9a454bbcf8b2d41796e3c9887e55b7307105de444ca3_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/819c114cea7aad2add3c9076ffc49c628d52fe730c3f4897917f08cbe16e7e2d_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 81478,
-      "title": "From user-understandable to technical process model: a model-driven approach using cuta4bpm",
-      "date": "2026-05-27",
-      "author": "Kathrin Kirchner",
+      "id": 82625,
+      "title": "Better heads do not guarantee better binarized constituency parsing",
+      "date": "2026-05-28",
+      "author": "Zeyao Qi",
       "tags": [
         {
-          "label": "cs.SE",
+          "label": "cs.CL",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/24fc59d54fb5d9e87b1061909ab0480ee25da9d8c667a3a72b4e53d04be59108_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/41683469e931c11751bf9c6e4446071d14f69a05a6c61a8852bad753f0f118b9_w640_q70.webp"
     },
     {
-      "id": 81473,
-      "title": "Self-Verified Distillation: Your Language Model Is Secretly Its Own Synthetic Data Pipeline",
-      "date": "2026-05-27",
-      "author": "Tony Lee",
+      "id": 82184,
+      "title": "RAG-Coding: Enhancing LLM Medical Coding with Structured External Knowledge",
+      "date": "2026-05-28",
+      "author": "Yidong Gan",
       "tags": [
         {
           "label": "cs.CL",
@@ -158,21 +158,21 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d6cb2def5b91e5232d1254c3a124d8f7b0d69e87574dac66175fa96a96e60b15_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a83cef92a600f52edb4201d551b2fb11a65fb8243368c94d3f61b63dba430058_w640_q70.webp"
     },
     {
-      "id": 81482,
-      "title": "When Does Adaptive Guidance Help? Belief-Aware Privileged Distillation for Autonomous Driving Under Partial Observability",
-      "date": "2026-05-27",
-      "author": "Mehmet Haklidir",
+      "id": 82180,
+      "title": "LCO: LLM-based Constraint Optimization for Safer Agentic LLMs in Real-world Tasks",
+      "date": "2026-05-28",
+      "author": "Jiayong Wan",
       "tags": [
         {
-          "label": "cs.RO",
+          "label": "cs.CL",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/d5ee2da4813f0ca3e92be321aa9ad29823967cb2fcc379aa4bb656209d54b777_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/aeca5e5b45982f78a5c69eea5342ab0b6acd5627c9af7bc209047380c500cccc_w640_q70.webp"
     }
   ]
 }

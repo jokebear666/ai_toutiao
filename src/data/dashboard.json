@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 82183,
-      "title": "Identifying and Understanding Human Values in Text: A Tailorable LLM-based Architecture",
-      "date": "2026-05-28",
-      "author": "Eduardo de la Cruz Fern\u00e1ndez",
+      "id": 83679,
+      "title": "It`s All About Speed: AI`s Impact on Workflow in Music Production",
+      "date": "2026-05-29",
+      "author": "Finn McClellan",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/eddefc187324044c11a558b2805bd938e5311aeae5407f6755a3f6fa2fd44fb0_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/475e6648eb6d29889e25c44f2fc9945ef979c9f7d62d25b30934d7e8f9f36f66_w640_q70.webp"
     },
     {
-      "id": 82187,
-      "title": "Soro: A Lightweight Foundation Model and Chatbot for Tajik",
-      "date": "2026-05-28",
-      "author": "Stanislav Liashkov",
+      "id": 83103,
+      "title": "Behavior-Induced Mirror-Prox Temporal-Difference Learning for Faster Off-Policy Prediction",
+      "date": "2026-05-29",
+      "author": "Xingguo Chen",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0ea3e411f1c6107aceefe7fb4571f6fbb13623f27464928a7ed07a02f6902bbd_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7fb76a0f7d86df76d39d8f1703f2dfdbcdf948653a00a3698900c9520b9bd723_w640_q70.webp"
     },
     {
-      "id": 82277,
-      "title": "On the Origin of Synthetic Information by Means of Steganographic Inheritance",
-      "date": "2026-05-28",
-      "author": "Ching-Chun Chang",
+      "id": 83106,
+      "title": "The Cognitive Categorical Transformer: Category-Theoretic Inductive Biases for Language Modeling",
+      "date": "2026-05-29",
+      "author": "Al Kari",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e7ff4b30de18a9d5e9829e4b9680e2517a5366216b72f94e495845fc43e95005_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/37a5bb14922f9ddb43f3ce0fbbb3284cc246316c7dee59859a2347804c93da9f_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 82466,
-      "title": "Towards Unified Vision-Language Models with Incomplete Multi-Modal Inputs",
-      "date": "2026-05-28",
-      "author": "Xiang Fang",
+      "id": 83460,
+      "title": "Learning Representations from 3D Gaussian Splats",
+      "date": "2026-05-29",
+      "author": "Julia Farganus",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/63a2fdebab0e681b63d0b68d2b6f01bde1cdfd2df61020f184a4e100e6696cc8_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/19fc8367378bea481145b65676b7ff48f8aa2470b9a706146196a5ee0091b132_w640_q70.webp"
     },
     {
-      "id": 82236,
-      "title": "From Affect to Complex Behavior: Advancing Multimodal Human-Centered AI at the 10th ABAW Workshop & Competition",
-      "date": "2026-05-28",
-      "author": "Dimitrios Kollias",
+      "id": 83144,
+      "title": "Resolving Endpoint Underfitting in Diffusion Bridges via Noise Alignment",
+      "date": "2026-05-29",
+      "author": "Yurong Gao",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0ce19daee053f12405d10957b0c1147572b5640a0c1d4aa20b2efe0e1ea1f0f4_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a7af8b4c2758c123b35895d24a7aa31f25c75f87c74246aa266e03d0c062335f_w640_q70.webp"
     },
     {
-      "id": 82237,
-      "title": "Fine-Tuning Vision-Language Models for Understanding Current Damage and Scoring Priority with Quality Guard Agent",
-      "date": "2026-05-28",
-      "author": "Takato Yasuno",
+      "id": 83160,
+      "title": "GAP3D: Generative Alignment of VLM Latents to Patch-Level Embeddings for 3D Generation",
+      "date": "2026-05-29",
+      "author": "Polytimi Anna Gkotsi",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f7070eb349dbf7be7f856b8cc0b9be87436dc4debba004bf30ecee518502717a_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2e38c67c7efcda8d786eea804da500a6b596afc479bab2d271d32dc8992c6685_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 82197,
-      "title": "Personalized Observation Normalization for Federated Reinforcement Learning in Simulation Environments with Heterogeneity",
-      "date": "2026-05-28",
-      "author": "Yiran Pang",
+      "id": 83233,
+      "title": "RUBRIC-ARROW: Alternating Pointwise Rubric Reward Modeling for LLM Post-training in Non-verifiable Domains",
+      "date": "2026-05-29",
+      "author": "Haoxiang Jiang",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0048f8dd2ffa2e6a2e5d138ef33161ff9374fa507d1e2d66f935eb411b0350bd_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/feea637e12dcf8f902b7cf8c93eb4cd39b2c53194a1badf7b13809b1068263aa_w640_q70.webp"
     },
     {
-      "id": 82254,
-      "title": "Federated Learning for Multivariate Time Series Anomaly Detection in Industrial Automation",
-      "date": "2026-05-28",
-      "author": "Khayyam Nosrati",
+      "id": 83244,
+      "title": "TIMEGATE: Sustainable Time-Boxed Promotion Gates for Continual ML Adaptation Under Resource Constraints",
+      "date": "2026-05-29",
+      "author": "Abhijit Chakrabroty",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/57fb06ef05f1d6074301cf643c59117c1375804727fd8b017b68625531765918_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fedeb16118bfa3af730c18a570221100873675a9523cd563bc3e1cabe50355c9_w640_q70.webp"
     },
     {
-      "id": 82216,
-      "title": "IGADA-IoT: IoT Sensor Energy Optimization in Wireless Sensor Networks Driven by Automatic Data Augmentation",
-      "date": "2026-05-28",
-      "author": "Mingchun Sun",
+      "id": 83092,
+      "title": "One Mask to Rule Them All: On Hidden Facts after Editing and How to Find Them",
+      "date": "2026-05-29",
+      "author": "Ali Holmov",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,15 +128,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/819c114cea7aad2add3c9076ffc49c628d52fe730c3f4897917f08cbe16e7e2d_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9415b0d903b4c47fffc16e0b438aa6c7c97f644c7afd244646ce4d9fd0d246ec_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 82625,
-      "title": "Better heads do not guarantee better binarized constituency parsing",
-      "date": "2026-05-28",
-      "author": "Zeyao Qi",
+      "id": 83075,
+      "title": "Micro-Macro Retrieval: Reducing Long-Form Hallucination in Large Language Models",
+      "date": "2026-05-29",
+      "author": "Yujie Feng",
       "tags": [
         {
           "label": "cs.CL",
@@ -144,13 +144,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/41683469e931c11751bf9c6e4446071d14f69a05a6c61a8852bad753f0f118b9_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5fdbd18b09bf70dea62ce0d3a59313796e2632826dd1625ca656d9e363db3748_w640_q70.webp"
     },
     {
-      "id": 82184,
-      "title": "RAG-Coding: Enhancing LLM Medical Coding with Structured External Knowledge",
-      "date": "2026-05-28",
-      "author": "Yidong Gan",
+      "id": 83076,
+      "title": "Lightweight Multimodal LLM-Enabled Cost-Effective Defect Grading of Power Transmission Equipment",
+      "date": "2026-05-29",
+      "author": "Tao Wang",
       "tags": [
         {
           "label": "cs.CL",
@@ -158,13 +158,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a83cef92a600f52edb4201d551b2fb11a65fb8243368c94d3f61b63dba430058_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0632524304e19d96b6d538965c82fd39167f8d31cebc79b0cf8937b3babaecff_w640_q70.webp"
     },
     {
-      "id": 82180,
-      "title": "LCO: LLM-based Constraint Optimization for Safer Agentic LLMs in Real-world Tasks",
-      "date": "2026-05-28",
-      "author": "Jiayong Wan",
+      "id": 83077,
+      "title": "S3Mem: Structured Spatiotemporal Scene-Event Memory for Long-Horizon Interactive Question Answering",
+      "date": "2026-05-29",
+      "author": "Encheng Su",
       "tags": [
         {
           "label": "cs.CL",
@@ -172,7 +172,7 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/aeca5e5b45982f78a5c69eea5342ab0b6acd5627c9af7bc209047380c500cccc_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7aa9c607b2ec1c8f5fbb2f0403dd7755a3e226945726619ea2649893dd9a67d7_w640_q70.webp"
     }
   ]
 }

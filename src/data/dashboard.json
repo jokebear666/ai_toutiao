@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 84668,
-      "title": "Improved Distribution Estimation in $\\ell_\\infty$",
-      "date": "2026-06-01",
-      "author": "Doron Cohen",
+      "id": 85023,
+      "title": "SDR: Set-Distance Rewards for Radiology Report Generation",
+      "date": "2026-06-02",
+      "author": "Halil Ibrahim Gulluk",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f26b336753c9f652f1b49e81010340c84b934f79987c69105faf8feaf9ea8cb5_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/519ad73221d922d8fc14063e76198a0139b1c13ac392438c27a6cc9b111d1c30_w640_q70.webp"
     },
     {
-      "id": 84233,
-      "title": "COMPASS: Cognitive MCTS-Guided Process Alignment for Safe Search Agents",
-      "date": "2026-06-01",
-      "author": "Wenkai Shen",
+      "id": 86309,
+      "title": "MINTS: Minimalist Thompson Sampling",
+      "date": "2026-06-02",
+      "author": "Kaizheng Wang",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5ecbf5636bbf47ffff2f07736c2c2a631e271dbb62e017a3e1e19f4e6549df6d_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/68d74f3137d6c4ce5ef26ef37f59b6544d4d81cdb98a695f53aaae895612213a_w640_q70.webp"
     },
     {
-      "id": 84048,
-      "title": "PhyDrawGen: Physically Grounded Diagram Generation from Natural Language",
-      "date": "2026-06-01",
-      "author": "Nafiul Haque",
+      "id": 85471,
+      "title": "The Shape of Wisdom: Decision Trajectories in Language Models",
+      "date": "2026-06-02",
+      "author": "Shailesh Rana",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6ca237d476eaca8b5027f995059392b5a7b14ec7f75fcab02bb0681d3ffe61dd_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/356d5db4f736f41ddec934fc2c7375db85e1d887db795c97b42ecb13e3762687_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 84441,
-      "title": "Vanilla ViT for Automotive Point Cloud Semantic Segmentation",
-      "date": "2026-06-01",
-      "author": "Gilles Puy",
+      "id": 85022,
+      "title": "DarkVesselNet: Multi-Modal Remote Sensing and Trajectory Reasoning for Dark Vessel Detection",
+      "date": "2026-06-02",
+      "author": "Arun Sharma",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/51e58c8f5f5fdb71cef49997f27157afcae7cfb8be851bbb294be9610a77f785_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ecd601ea59c956a37fc449798f67e6658861e5a49d5f8dbd60239a62dfcf9dec_w640_q70.webp"
     },
     {
-      "id": 83994,
-      "title": "Lightweight SAR Ship Detection via Contrastive Distillation",
-      "date": "2026-06-01",
-      "author": "Surendar Devasundaram",
+      "id": 86308,
+      "title": "Physics-Aware Linearized ADMM and Its Unrolling",
+      "date": "2026-06-02",
+      "author": "Satoshi Takabe",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fea4451f4a96eaecec12073983dcd91e098d5239305279322d0c7533e70e20d4_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/42f47880d901b6a02e0a9175355dbf6ad94c0b388a996964b026b9ad72a9bdd4_w640_q70.webp"
     },
     {
-      "id": 84012,
-      "title": "Mitigating Content Shift and Hallucination in GenAI Image Editing via Structural Refinement",
-      "date": "2026-06-01",
-      "author": "Luxi Zhao",
+      "id": 84797,
+      "title": "Improved Belief-Attention in Vision Task",
+      "date": "2026-06-02",
+      "author": "Guoqiang Zhang",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5c3016fbdc55f37de26d9a9c1912633c8ca6560776ee0dcc9806889892161cf8_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/36960fdd1fc42627d0e607041ad73001eab2e2267472e94c7c3c1364fceb09f9_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 84232,
-      "title": "Cross-Layer Subspace Coupling for LLM Compression: A Unifying Framework and Its Empirical Limits",
-      "date": "2026-06-01",
-      "author": "Snigdha Chandan Khilar",
+      "id": 85534,
+      "title": "Structure and Scale in Simplicial Sequence Modelling",
+      "date": "2026-06-02",
+      "author": "Matthew Farrugia-Roberts",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cc80f76d1160b89723456f3b49d880cebc97d905441a9e2488914606182f0fab_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7c6bbaf1c83ab947c4928f662fe2a275212b762fbd21a2648adb6f3a1e0e3b5c_w640_q70.webp"
     },
     {
-      "id": 84634,
-      "title": "Functional Attention: From Pairwise Affinities to Functional Correspondences",
-      "date": "2026-06-01",
-      "author": "Jiefang Xiao",
+      "id": 85569,
+      "title": "All Models are Wrong, Knowing Where is Useful: On Model Uncertainty in Reinforcement Learning",
+      "date": "2026-06-02",
+      "author": "Bernd Frauenknecht",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/be3409daf74c156e01eaebf8c5c74e33e2fbe20b3d7fa698c91ec84d3b64724c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e8920cd25936f63e0995860af0660094036cfc1fc7cc3fc1fea17b8a48c5b853_w640_q70.webp"
     },
     {
-      "id": 84282,
-      "title": "Welfare, Improvability, and Variance: A Principal-Agent Approach to Optimal Benchmark Item Aggregation",
-      "date": "2026-06-01",
-      "author": "Andreas Haupt",
+      "id": 84911,
+      "title": "When Softmax Fails at the Top: Extreme Value Corrections for InfoNCE",
+      "date": "2026-06-02",
+      "author": "Melihcan Erol",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,29 +128,29 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9c68e7914a649e0115130aba52a9f99385a2efd84e09d59d8f0ebc959effd8d8_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0d0e2c6579a3c589b3f01fcc10f93c973ecd1c60d43a5844ef2f675892c0d559_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 84558,
-      "title": "Neuro-symbolic Syntactic Parsing: Shaping a Neural Network with the CYK Algorithm",
-      "date": "2026-06-01",
-      "author": "Fabio Massimo Zanzotto",
+      "id": 86008,
+      "title": "The Unicity Execution Layer",
+      "date": "2026-06-02",
+      "author": "Ahto Buldas",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.CR",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e95f1d1eb9b3b5a0972305f47d0f74f9a304671c30e0e455f281288be27d3438_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0b105f50a96a11f654035b9a51bc9615b5c659977219928fe9e1a6c9cc93801b_w640_q70.webp"
     },
     {
-      "id": 84271,
-      "title": "A Core-Structure-Based Automated Analysis Tool for Commercial Virtualization Obfuscation Deobfuscation",
-      "date": "2026-06-01",
-      "author": "Wanju Kim",
+      "id": 86009,
+      "title": "Unicity: Predicates and Atomic Swaps",
+      "date": "2026-06-02",
+      "author": "Ahto Buldas",
       "tags": [
         {
           "label": "cs.CR",
@@ -158,21 +158,21 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b8b28c150cad7aa1de9af5ce56c65a73868792bb25b475688296632f537851eb_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ac5ee174c0655e79b95e99c7aeddc23a1a298e6f894e355ea208d3d9b67ad051_w640_q70.webp"
     },
     {
-      "id": 84272,
-      "title": "Trajectory Planning for Non-Communicating Mobile Robots using Inverse Optimal Control",
-      "date": "2026-06-01",
-      "author": "Nina Majer",
+      "id": 84745,
+      "title": "DraDDP: A Multimodal Multi-Party Dialogue Discourse Parsing Dataset",
+      "date": "2026-06-02",
+      "author": "Shannan Liu",
       "tags": [
         {
-          "label": "cs.RO",
+          "label": "cs.CL",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c6d03fbd3084e8f8c6b3587ad2b7d80d6206b4e06d8c10619f1d1e729925500e_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/34d6750a8a32bbf4c9b1ec7e3c95dc440c820703305d9a419e2814e908d40379_w640_q70.webp"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 85023,
-      "title": "SDR: Set-Distance Rewards for Radiology Report Generation",
-      "date": "2026-06-02",
-      "author": "Halil Ibrahim Gulluk",
+      "id": 86448,
+      "title": "An Exploration of Collision-based Enemy Morphology Generation",
+      "date": "2026-06-03",
+      "author": "Johor Jara Gonzalez",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/519ad73221d922d8fc14063e76198a0139b1c13ac392438c27a6cc9b111d1c30_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/22bf931acb92cd4e99f657ef19062fc7d621d8e7058c4162a037dd3b58852687_w640_q70.webp"
     },
     {
-      "id": 86309,
-      "title": "MINTS: Minimalist Thompson Sampling",
-      "date": "2026-06-02",
-      "author": "Kaizheng Wang",
+      "id": 87049,
+      "title": "Reasoning Structure of Large Language Models",
+      "date": "2026-06-03",
+      "author": "Fr\u00e9d\u00e9ric Berdoz",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/68d74f3137d6c4ce5ef26ef37f59b6544d4d81cdb98a695f53aaae895612213a_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0cf0ef277c32d3ff67d16ae2c8da893a6b40100165a18cd5d4cb54687842336b_w640_q70.webp"
     },
     {
-      "id": 85471,
-      "title": "The Shape of Wisdom: Decision Trajectories in Language Models",
-      "date": "2026-06-02",
-      "author": "Shailesh Rana",
+      "id": 86400,
+      "title": "Visual Graph Scaffolds for Structural Reasoning in Large Language Models",
+      "date": "2026-06-03",
+      "author": "Runlin Lei",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/356d5db4f736f41ddec934fc2c7375db85e1d887db795c97b42ecb13e3762687_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c121f037d5b6761abd4658d6178ead234e480059906108607c428bb16c72d2c7_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 85022,
-      "title": "DarkVesselNet: Multi-Modal Remote Sensing and Trajectory Reasoning for Dark Vessel Detection",
-      "date": "2026-06-02",
-      "author": "Arun Sharma",
+      "id": 86616,
+      "title": "KC-3DGS: Kurtosis-Constrained Gaussian Splatting for High-Fidelity View Synthesis",
+      "date": "2026-06-03",
+      "author": "Vivekjyoti Banerjee",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ecd601ea59c956a37fc449798f67e6658861e5a49d5f8dbd60239a62dfcf9dec_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c82e11fa9406489ee275a503d4bdea4608082501316a4bb99ce736e2df5de5a8_w640_q70.webp"
     },
     {
-      "id": 86308,
-      "title": "Physics-Aware Linearized ADMM and Its Unrolling",
-      "date": "2026-06-02",
-      "author": "Satoshi Takabe",
+      "id": 86808,
+      "title": "PRISM: Synergizing Vision Foundation Models via Self-organized Expert Specialization",
+      "date": "2026-06-03",
+      "author": "Ying Tang",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/42f47880d901b6a02e0a9175355dbf6ad94c0b388a996964b026b9ad72a9bdd4_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/bd24728b9b0071a87e051c8c4254fc2d38730c6eb81d8d1fbf4a9841d4c43b95_w640_q70.webp"
     },
     {
-      "id": 84797,
-      "title": "Improved Belief-Attention in Vision Task",
-      "date": "2026-06-02",
-      "author": "Guoqiang Zhang",
+      "id": 86632,
+      "title": "$A^2$: Smaller Self-Supervised ViTs Localize Better than Larger Ones",
+      "date": "2026-06-03",
+      "author": "Sreehari Rammohan",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/36960fdd1fc42627d0e607041ad73001eab2e2267472e94c7c3c1364fceb09f9_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/260b0e95197a4f4b87b5519a85744b154994700464e8002773527c0fce969564_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 85534,
-      "title": "Structure and Scale in Simplicial Sequence Modelling",
-      "date": "2026-06-02",
-      "author": "Matthew Farrugia-Roberts",
+      "id": 86777,
+      "title": "Local Guidance, Global Impact: Gaussian-Reshaped Trust Region Unlocks Behavior Transitions",
+      "date": "2026-06-03",
+      "author": "Bingxu Liu",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/7c6bbaf1c83ab947c4928f662fe2a275212b762fbd21a2648adb6f3a1e0e3b5c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/450a3658204a02182893352cbdb7d65b173ab7816730384d9b2d2f87532e0717_w640_q70.webp"
     },
     {
-      "id": 85569,
-      "title": "All Models are Wrong, Knowing Where is Useful: On Model Uncertainty in Reinforcement Learning",
-      "date": "2026-06-02",
-      "author": "Bernd Frauenknecht",
+      "id": 86615,
+      "title": "Rethinking Neural Width for Alternating Current Optimal Power Flow Proxies",
+      "date": "2026-06-03",
+      "author": "Dhruvi Khandelwal",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/e8920cd25936f63e0995860af0660094036cfc1fc7cc3fc1fea17b8a48c5b853_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/709704da7f5dd34a06d8df1f02d06fa6fe0db4d5a89100a0397eee1a6b0510d6_w640_q70.webp"
     },
     {
-      "id": 84911,
-      "title": "When Softmax Fails at the Top: Extreme Value Corrections for InfoNCE",
-      "date": "2026-06-02",
-      "author": "Melihcan Erol",
+      "id": 86365,
+      "title": "Testing the Test: Score-Direction Instability in Class-Split Anomaly Detection",
+      "date": "2026-06-03",
+      "author": "Alejandro Ascarate",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,15 +128,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0d0e2c6579a3c589b3f01fcc10f93c973ecd1c60d43a5844ef2f675892c0d559_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/71588e85b96687ffd3924e32005daf7537a914b6b0a5c379651ce80136f3cff5_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 86008,
-      "title": "The Unicity Execution Layer",
-      "date": "2026-06-02",
-      "author": "Ahto Buldas",
+      "id": 86776,
+      "title": "AI Model Extraction Attacks: Bypassing Single-Client Assumptions in Defenses",
+      "date": "2026-06-03",
+      "author": "Maxime Schwarzer",
       "tags": [
         {
           "label": "cs.CR",
@@ -144,35 +144,35 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0b105f50a96a11f654035b9a51bc9615b5c659977219928fe9e1a6c9cc93801b_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5c7963b7a22a83521c9ab9644062ab119014ee615c424673c7e42ef8a27e8a6f_w640_q70.webp"
     },
     {
-      "id": 86009,
-      "title": "Unicity: Predicates and Atomic Swaps",
-      "date": "2026-06-02",
-      "author": "Ahto Buldas",
+      "id": 86788,
+      "title": "Selective Token-Level Cryptographic Redaction for Privacy-Preserving Clinical Deployment of Large Language Models",
+      "date": "2026-06-03",
+      "author": "Farhan Sheth",
       "tags": [
         {
-          "label": "cs.CR",
+          "label": "cs.CL",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ac5ee174c0655e79b95e99c7aeddc23a1a298e6f894e355ea208d3d9b67ad051_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/249b4ed7fe7f77dc9f66dc25ea62b43c8437f92f913161d5437c1b058ed0ecce_w640_q70.webp"
     },
     {
-      "id": 84745,
-      "title": "DraDDP: A Multimodal Multi-Party Dialogue Discourse Parsing Dataset",
-      "date": "2026-06-02",
-      "author": "Shannan Liu",
+      "id": 86904,
+      "title": "Q-FE: A Quantum-Native 6G Far-Edge Architecture Securing Industrial IoT Digital Twins via CSIDH-PQC and Asynchronous Federated Learning",
+      "date": "2026-06-03",
+      "author": "Vincenzo Sammartino",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.CR",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/34d6750a8a32bbf4c9b1ec7e3c95dc440c820703305d9a419e2814e908d40379_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8faeb280b2ad01cfc8cc887cdfbf8570ae6200e1043d8501ee0d3d1510fb87e5_w640_q70.webp"
     }
   ]
 }

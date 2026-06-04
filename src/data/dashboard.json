@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 86448,
-      "title": "An Exploration of Collision-based Enemy Morphology Generation",
-      "date": "2026-06-03",
-      "author": "Johor Jara Gonzalez",
+      "id": 87553,
+      "title": "BiNSGPS: Geometry Problem Solving via Bidirectional Neuro-Symbolic Interaction",
+      "date": "2026-06-04",
+      "author": "Qi Wang",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/22bf931acb92cd4e99f657ef19062fc7d621d8e7058c4162a037dd3b58852687_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/47401c3a5130c4dcc31c3b7bddaac59136137b8c0cf855e8cd5233288aad2a41_w640_q70.webp"
     },
     {
-      "id": 87049,
-      "title": "Reasoning Structure of Large Language Models",
-      "date": "2026-06-03",
-      "author": "Fr\u00e9d\u00e9ric Berdoz",
+      "id": 87203,
+      "title": "Toward Pre-Deployment Assurance for Enterprise AI Agents: Ontology-Grounded Simulation and Trust Certification",
+      "date": "2026-06-04",
+      "author": "Thanh Luong Tuan",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0cf0ef277c32d3ff67d16ae2c8da893a6b40100165a18cd5d4cb54687842336b_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c763352b28062c3a3952a64d97f22e1c6d1c96b273777c0cb607ebade042c076_w640_q70.webp"
     },
     {
-      "id": 86400,
-      "title": "Visual Graph Scaffolds for Structural Reasoning in Large Language Models",
-      "date": "2026-06-03",
-      "author": "Runlin Lei",
+      "id": 87254,
+      "title": "Stumbling Into AI Emotional Dependence: How Routine AI Interactions Reshape Human Connection",
+      "date": "2026-06-04",
+      "author": "Yaoxi Shi",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c121f037d5b6761abd4658d6178ead234e480059906108607c428bb16c72d2c7_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fefe525b9a05993fe0f21ece0a6abf40bb2971620364124e831a0c9abe98b030_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 86616,
-      "title": "KC-3DGS: Kurtosis-Constrained Gaussian Splatting for High-Fidelity View Synthesis",
-      "date": "2026-06-03",
-      "author": "Vivekjyoti Banerjee",
+      "id": 87286,
+      "title": "Spatial Artifact Coherence Determines Codec Robustness in Patch-Based rPPG",
+      "date": "2026-06-04",
+      "author": "Achraf Ben Ahmed",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c82e11fa9406489ee275a503d4bdea4608082501316a4bb99ce736e2df5de5a8_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/462dbe16829d679bdfccae4c43315e057c17b55a0728c3136a2e00205a22cd9a_w640_q70.webp"
     },
     {
-      "id": 86808,
-      "title": "PRISM: Synergizing Vision Foundation Models via Self-organized Expert Specialization",
-      "date": "2026-06-03",
-      "author": "Ying Tang",
+      "id": 87208,
+      "title": "Dive into the Scene: Breaking the Perceptual Bottleneck in Vision-Language Decision Making via Focus Plan Generation",
+      "date": "2026-06-04",
+      "author": "Boyuan Xiao",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/bd24728b9b0071a87e051c8c4254fc2d38730c6eb81d8d1fbf4a9841d4c43b95_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8d2adcf87039bfabaf0696d5b1ae754eac1090d4f15b071046ea9d7b94278325_w640_q70.webp"
     },
     {
-      "id": 86632,
-      "title": "$A^2$: Smaller Self-Supervised ViTs Localize Better than Larger Ones",
-      "date": "2026-06-03",
-      "author": "Sreehari Rammohan",
+      "id": 87219,
+      "title": "Intra-Modal Neighbors Never Lie: Rectifying Inter-Modal Noisy Correspondence via Graph-Based Intra-Modal Reasoning",
+      "date": "2026-06-04",
+      "author": "Yang Liu",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/260b0e95197a4f4b87b5519a85744b154994700464e8002773527c0fce969564_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/bcb4395074b203b7e4687a8e312ffb81214ecdfbbd13e39a7f681182a88b6ff4_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 86777,
-      "title": "Local Guidance, Global Impact: Gaussian-Reshaped Trust Region Unlocks Behavior Transitions",
-      "date": "2026-06-03",
-      "author": "Bingxu Liu",
+      "id": 87559,
+      "title": "Fitting scattered data with optional monotonicity constraints on GPU: LipFit package",
+      "date": "2026-06-04",
+      "author": "Gleb Beliakov",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/450a3658204a02182893352cbdb7d65b173ab7816730384d9b2d2f87532e0717_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/510885fcb32c34fc0543843579bde08eb0ac6964d781863c8bb71b4c0ad52d55_w640_q70.webp"
     },
     {
-      "id": 86615,
-      "title": "Rethinking Neural Width for Alternating Current Optimal Power Flow Proxies",
-      "date": "2026-06-03",
-      "author": "Dhruvi Khandelwal",
+      "id": 87218,
+      "title": "LLM Compression with Jointly Optimizing Architectural and Quantization choices",
+      "date": "2026-06-04",
+      "author": "Hoang-Loc La",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/709704da7f5dd34a06d8df1f02d06fa6fe0db4d5a89100a0397eee1a6b0510d6_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4a960573e969155ad6ff99447b6884dedad3d41710b312b8c12b81eff1dc2d60_w640_q70.webp"
     },
     {
-      "id": 86365,
-      "title": "Testing the Test: Score-Direction Instability in Class-Split Anomaly Detection",
-      "date": "2026-06-03",
-      "author": "Alejandro Ascarate",
+      "id": 87217,
+      "title": "Spectral Scaling Laws of Muon",
+      "date": "2026-06-04",
+      "author": "Gagik Magakyan",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,29 +128,29 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/71588e85b96687ffd3924e32005daf7537a914b6b0a5c379651ce80136f3cff5_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f263354074bc899ef6348f8e0b5de8aa1b7dff14b8cbcddc771f6bcaeb70fce4_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 86776,
-      "title": "AI Model Extraction Attacks: Bypassing Single-Client Assumptions in Defenses",
-      "date": "2026-06-03",
-      "author": "Maxime Schwarzer",
+      "id": 87746,
+      "title": "Self-Reflective APIs: Structure Beats Verbosity for AI Agent Recovery",
+      "date": "2026-06-04",
+      "author": "Arquimedes Canedo",
       "tags": [
         {
-          "label": "cs.CR",
+          "label": "cs.SE",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5c7963b7a22a83521c9ab9644062ab119014ee615c424673c7e42ef8a27e8a6f_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2f827fc638789e2275c49c185b83102226b0820797e001f86ad7ead3c1c8bee6_w640_q70.webp"
     },
     {
-      "id": 86788,
-      "title": "Selective Token-Level Cryptographic Redaction for Privacy-Preserving Clinical Deployment of Large Language Models",
-      "date": "2026-06-03",
-      "author": "Farhan Sheth",
+      "id": 87565,
+      "title": "DuDi: Dual-Signal Distillation with Cross-Lingual Verbalizer",
+      "date": "2026-06-04",
+      "author": "Patomporn Payoungkhamdee",
       "tags": [
         {
           "label": "cs.CL",
@@ -158,21 +158,21 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/249b4ed7fe7f77dc9f66dc25ea62b43c8437f92f913161d5437c1b058ed0ecce_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/60a099abe8cb3404db9d73287a59b55fe20d1c5f2efaa77bdf5f697a8102d833_w640_q70.webp"
     },
     {
-      "id": 86904,
-      "title": "Q-FE: A Quantum-Native 6G Far-Edge Architecture Securing Industrial IoT Digital Twins via CSIDH-PQC and Asynchronous Federated Learning",
-      "date": "2026-06-03",
-      "author": "Vincenzo Sammartino",
+      "id": 87250,
+      "title": "When Retrieval Doesn't Help: A Large-Scale Study of Biomedical RAG",
+      "date": "2026-06-04",
+      "author": "Erfan Nourbakhsh",
       "tags": [
         {
-          "label": "cs.CR",
+          "label": "cs.CL",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8faeb280b2ad01cfc8cc887cdfbf8570ae6200e1043d8501ee0d3d1510fb87e5_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/329a76434230b8875975e2925f19d87144a22c405ca05c3f5cf515bfd7d6c446_w640_q70.webp"
     }
   ]
 }

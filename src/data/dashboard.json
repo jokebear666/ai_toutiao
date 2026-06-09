@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 88666,
-      "title": "Detecting and Mitigating Bias by Treating Fairness as a Symmetry Operation",
-      "date": "2026-06-08",
-      "author": "Nishit Singh",
+      "id": 89617,
+      "title": "Cross-LLM Consistency in Inference: Evidence from Shared Interactions",
+      "date": "2026-06-09",
+      "author": "Siyu Lou",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3f32b7ff8555b2f1206ac559442ba6673d67b47734e682d82921532ee7a5fd38_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ca83cc5384383ed319c97d5c1b6bd4ba0285ae8c07b099524fc75a397a1d5a1a_w640_q70.webp"
     },
     {
-      "id": 89073,
-      "title": "DuMate-DeepResearch: An Auditable Multi-Agent System with Recursive Search and Rubric-Grounded Reasoning",
-      "date": "2026-06-08",
-      "author": "Lingyong Yan",
+      "id": 89847,
+      "title": "Quantitative Promise Theory: Intentionality and Inference in Autonomous Agents",
+      "date": "2026-06-09",
+      "author": "Mark Burgess",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/688616017aceae47081cb4009fe6f938cfcc76cb33e013fc989da566318e1457_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5329eaad4ad64e6ea422df0bfa69fccd248aafdc28ea69e190be18c24ace04fd_w640_q70.webp"
     },
     {
-      "id": 88720,
-      "title": "A Study of Parallel Continuous Local Search",
-      "date": "2026-06-08",
-      "author": "Cody J Christopher",
+      "id": 89290,
+      "title": "OmniMem: Perturbation-aware Memory Compression for Streaming Audio-Visual LLMs",
+      "date": "2026-06-09",
+      "author": "Guangzhi Sun",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/aa8ba73ac7d8a67570bac9333d5ef90512c4675f0647f4c42353e630da566b94_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cad2dd3aa8cbc836c61a160c0ed098685ef650d8e566eb1d0de127f3afbb6402_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 88965,
-      "title": "An Adaptive Data cleaning Framework for Noisy Label Detection",
-      "date": "2026-06-08",
-      "author": "Chen-Hsuan Fang",
+      "id": 89274,
+      "title": "Page image classifier fine-tuned on century-spanning archives of scanned documents for further content-specific processing",
+      "date": "2026-06-09",
+      "author": "Kateryna Lutsai",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b812d4be996cda589abbc552574104eb7efc067c0817bfd9567d4f2575838e88_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4b77eb8f37855fb0a6df6a1bf0605ab4845a7745ac7170d5b9521384de44bf9f_w640_q70.webp"
     },
     {
-      "id": 88671,
-      "title": "Applying Deep Learning for cockpit segmentation in the context of mixed reality",
-      "date": "2026-06-08",
-      "author": "Alexandre Leles Sousa",
+      "id": 89295,
+      "title": "SlideCheck: Guiding Self-Supervised Pretraining of Pathology Foundation Models via Dataset Distributions",
+      "date": "2026-06-09",
+      "author": "Mingyi He",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/fe9f0f6da745b8f9e193282372447e66888880ace74f9aac4242d910ec3ac259_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a80b476e4f08e1c1b27690907d6d986c3106ce824f05a2bd8d974cfee403fe2a_w640_q70.webp"
     },
     {
-      "id": 88680,
-      "title": "GOPAgen: Motion-Aware and Efficient Agentic Long-Video Understanding with Structural Memory and Hierarchical Reasoning",
-      "date": "2026-06-08",
-      "author": "Haozhe Chi",
+      "id": 89296,
+      "title": "Multimodal Group Emotion Recognition In-the-Wild Towards a Privacy-Safe Non-Individual Approach",
+      "date": "2026-06-09",
+      "author": "Anderson Augusma",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/75f8ad327f5cc7b22c574ff372f0dc706ff35640199ac815a1002977b4c078e4_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cf55eabdc08eb436cc979b2f6eeebe5fc8ee36d8f7da3cf30c6e1536edbf4a0f_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 88699,
-      "title": "Are you sure? A Comprehensive and Comprehensible Survey of Uncertainty Quantification in Symbolic Regression",
-      "date": "2026-06-08",
-      "author": "Julia Reuter",
+      "id": 90393,
+      "title": "Safe-RULE: Safe Reinforcement UnLEarning",
+      "date": "2026-06-09",
+      "author": "Shixiong Jiang",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/bfe62a5890e57b368e6eccce42ff7b58cdd6c04ebf0ff431c5566230a5c060ad_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c95a879b12848ae84614e8a5873744939620a130798a3a1709b62fbc05be7781_w640_q70.webp"
     },
     {
-      "id": 88718,
-      "title": "Capturing non-Markovian dynamics in non-equilibrium stochastic systems using flow matching",
-      "date": "2026-06-08",
-      "author": "Bhargav Sriram Siddani",
+      "id": 90032,
+      "title": "Cheap Reward Hacking Detection",
+      "date": "2026-06-09",
+      "author": "Iv\u00e1n Belenky",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/df734a31f135b42d1f9965e3ddc0a32ab31b3911d20fa66ae8d428f1c380f2ec_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/04eab4cf40b8a00cd2f4057bf3728caf2b67d8b7294be337fc891581dffcf840_w640_q70.webp"
     },
     {
-      "id": 88766,
-      "title": "TorchKM: A GPU-Oriented Library for Kernel Learning and Model Selection",
-      "date": "2026-06-08",
-      "author": "Yikai Zhang",
+      "id": 89263,
+      "title": "SPIN: Decentralized Swarm Control via Tensorized Policy Coordination",
+      "date": "2026-06-09",
+      "author": "Zhaowen Fan",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,15 +128,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/9fa331db2b33629a6a25826f2991c901526b241ddbff30f9f52c7a464bb64c8d_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/38b378e19387274633e57cc7d6fc6308641ba1ca874c877bbd644e2d0a7aef85_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 88719,
-      "title": "What Matters When Cotraining Robot Manipulation Policies on Everyday Human Videos?",
-      "date": "2026-06-08",
-      "author": "Richard Li",
+      "id": 89608,
+      "title": "Ego-Pi: VLA Fine-Tuning for Ego-Centric Human and Robot Data",
+      "date": "2026-06-09",
+      "author": "Ji Woong Kim",
       "tags": [
         {
           "label": "cs.RO",
@@ -144,27 +144,27 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/79bf30ac7769e59317306c0e2e5347a08bf7c67b2d278bd2915ae4f24018562c_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f68df5cebc8168215fab933be75a28fefa9b59f108c2a1aaa16e02f2d9674470_w640_q70.webp"
     },
     {
-      "id": 88765,
-      "title": "Modular Monolingual Adaptation using Pretrained Language Models",
-      "date": "2026-06-08",
-      "author": "Nalin Kumar",
+      "id": 89609,
+      "title": "Cybernetic Android Avatar \"Yui\": System Integration, Field Deployment, and Evaluation",
+      "date": "2026-06-09",
+      "author": "Kaoruko Shinkawa",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.RO",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/b96f715b9770ed00de2629f13bab83a985f92bb3fc25cdd934aa5f384a316f0b_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ab08d381ef2e7734238ee90eb9d0410c410cca55ec6078abb680329d9cae2f18_w640_q70.webp"
     },
     {
-      "id": 88795,
-      "title": "Korean Culture into LLM Alignment: Toward Cultural Coherence",
-      "date": "2026-06-08",
-      "author": "MinJae Jung",
+      "id": 89544,
+      "title": "Rewrite to Translate, Translate to Reward: Reinforcement Learning for Source Rewriting in Machine Translation",
+      "date": "2026-06-09",
+      "author": "Boxuan Lyu",
       "tags": [
         {
           "label": "cs.CL",
@@ -172,7 +172,7 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ad797dc26bd7a9162e361a5268a94cfb6819bf5ad87cfd494036fab1528e0fec_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f062fa8f122aeb05b1a8536c53ea6bdd3ebde855ecc8d0c6b6c232a13d95cbbe_w640_q70.webp"
     }
   ]
 }

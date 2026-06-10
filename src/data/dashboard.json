@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 89617,
-      "title": "Cross-LLM Consistency in Inference: Evidence from Shared Interactions",
-      "date": "2026-06-09",
-      "author": "Siyu Lou",
+      "id": 91385,
+      "title": "Towards Critical Branching Mechanism in Recurrent Neural Networks",
+      "date": "2026-06-10",
+      "author": "Feixiang Ren",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ca83cc5384383ed319c97d5c1b6bd4ba0285ae8c07b099524fc75a397a1d5a1a_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c90689561ab937a7477bf2d4a85b7eff50d16b16a74e1304c0c6edf0c98cea8d_w640_q70.webp"
     },
     {
-      "id": 89847,
-      "title": "Quantitative Promise Theory: Intentionality and Inference in Autonomous Agents",
-      "date": "2026-06-09",
-      "author": "Mark Burgess",
+      "id": 90761,
+      "title": "Business World Model",
+      "date": "2026-06-10",
+      "author": "Cecil Pang",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/5329eaad4ad64e6ea422df0bfa69fccd248aafdc28ea69e190be18c24ace04fd_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/81d468fda8851e1adee7e9d110adf09f0f8c3a3eb0857a759d28ce9a6ab74571_w640_q70.webp"
     },
     {
-      "id": 89290,
-      "title": "OmniMem: Perturbation-aware Memory Compression for Streaming Audio-Visual LLMs",
-      "date": "2026-06-09",
-      "author": "Guangzhi Sun",
+      "id": 90771,
+      "title": "Deployment-Time Memorization in Foundation-Model Agents",
+      "date": "2026-06-10",
+      "author": "Chen",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cad2dd3aa8cbc836c61a160c0ed098685ef650d8e566eb1d0de127f3afbb6402_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/af6dc05b6beb0764c9686fdbc395ca6c9162c806416ff93f6b932b5688456d24_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 89274,
-      "title": "Page image classifier fine-tuned on century-spanning archives of scanned documents for further content-specific processing",
-      "date": "2026-06-09",
-      "author": "Kateryna Lutsai",
+      "id": 91397,
+      "title": "Multimodal Brain Tumour Classification Using Feature Fusion",
+      "date": "2026-06-10",
+      "author": "Wajih ul Islam",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/4b77eb8f37855fb0a6df6a1bf0605ab4845a7745ac7170d5b9521384de44bf9f_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2015cb00bbba92a787fd06eeee1a0d82155b0a4a13d6fce56680d3dba4c3b19a_w640_q70.webp"
     },
     {
-      "id": 89295,
-      "title": "SlideCheck: Guiding Self-Supervised Pretraining of Pathology Foundation Models via Dataset Distributions",
-      "date": "2026-06-09",
-      "author": "Mingyi He",
+      "id": 91399,
+      "title": "Data Journalist Agent: Transforming Data into Verifiable Multimodal Stories",
+      "date": "2026-06-10",
+      "author": "Kevin Qinghong Lin",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/a80b476e4f08e1c1b27690907d6d986c3106ce824f05a2bd8d974cfee403fe2a_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0dcb13491bb23fc352f3c11d7f4e89bbdb49bdb9a996f439d02144297dd0e9ca_w640_q70.webp"
     },
     {
-      "id": 89296,
-      "title": "Multimodal Group Emotion Recognition In-the-Wild Towards a Privacy-Safe Non-Individual Approach",
-      "date": "2026-06-09",
-      "author": "Anderson Augusma",
+      "id": 91225,
+      "title": "PENet+: A Lightweight Residual Transformer Framework for Efficient Image Steganalysis",
+      "date": "2026-06-10",
+      "author": "Jincheol AN",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cf55eabdc08eb436cc979b2f6eeebe5fc8ee36d8f7da3cf30c6e1536edbf4a0f_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3a32a42600541abe5a36a2f550e0706e7f0fe16b24e964962b364d77632c2eb5_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 90393,
-      "title": "Safe-RULE: Safe Reinforcement UnLEarning",
-      "date": "2026-06-09",
-      "author": "Shixiong Jiang",
+      "id": 91398,
+      "title": "Range Penalization: Theoretical Insights with Applications in Federated Learning",
+      "date": "2026-06-10",
+      "author": "Yiyuan She",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c95a879b12848ae84614e8a5873744939620a130798a3a1709b62fbc05be7781_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8eebe8950dbc45458325d01aa42932e125813876253e996f8f2e4071b3c883cf_w640_q70.webp"
     },
     {
-      "id": 90032,
-      "title": "Cheap Reward Hacking Detection",
-      "date": "2026-06-09",
-      "author": "Iv\u00e1n Belenky",
+      "id": 91405,
+      "title": "It\u00f4 maps for any-step SDEs",
+      "date": "2026-06-10",
+      "author": "Zhengkai Pan",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/04eab4cf40b8a00cd2f4057bf3728caf2b67d8b7294be337fc891581dffcf840_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/882ea8614f4ccf346f6d02cb4cdcb0a014c639ab5a6f15ec005e1fbfed44739f_w640_q70.webp"
     },
     {
-      "id": 89263,
-      "title": "SPIN: Decentralized Swarm Control via Tensorized Policy Coordination",
-      "date": "2026-06-09",
-      "author": "Zhaowen Fan",
+      "id": 90688,
+      "title": "Operator Fusion for LLM Inference on the Tensix Architecture",
+      "date": "2026-06-10",
+      "author": "Qingbo Wu",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,51 +128,51 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/38b378e19387274633e57cc7d6fc6308641ba1ca874c877bbd644e2d0a7aef85_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/add6641e485f069314cad0d35d6d8183bfad052ff1a9c4c532f4c886f3d23e05_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 89608,
-      "title": "Ego-Pi: VLA Fine-Tuning for Ego-Centric Human and Robot Data",
-      "date": "2026-06-09",
-      "author": "Ji Woong Kim",
+      "id": 90646,
+      "title": "Automated Scoring of Arabic Text Using Large Language Models: A Literature Review",
+      "date": "2026-06-10",
+      "author": "Khaoula Dahimi",
       "tags": [
         {
-          "label": "cs.RO",
+          "label": "cs.CL",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f68df5cebc8168215fab933be75a28fefa9b59f108c2a1aaa16e02f2d9674470_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1dbc48ecf8d138138981e89745eb605ab65e4c4d42cae8bd1a3c858932d717aa_w640_q70.webp"
     },
     {
-      "id": 89609,
-      "title": "Cybernetic Android Avatar \"Yui\": System Integration, Field Deployment, and Evaluation",
-      "date": "2026-06-09",
-      "author": "Kaoruko Shinkawa",
+      "id": 90956,
+      "title": "Which LoRA? An Empirical Study on the Effectiveness of LoRA Techniques During Multilingual Instruction Tuning",
+      "date": "2026-06-10",
+      "author": "Thamali Wijewardhana",
       "tags": [
         {
-          "label": "cs.RO",
+          "label": "cs.CL",
           "color": "#34d399"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ab08d381ef2e7734238ee90eb9d0410c410cca55ec6078abb680329d9cae2f18_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ea0e362a7c1ef53e63352580d5c17c6ffcc54bafabac4227239a1492e5e8ad27_w640_q70.webp"
     },
     {
-      "id": 89544,
-      "title": "Rewrite to Translate, Translate to Reward: Reinforcement Learning for Source Rewriting in Machine Translation",
-      "date": "2026-06-09",
-      "author": "Boxuan Lyu",
+      "id": 90789,
+      "title": "SoK: Colluding Adversaries in Machine Learning Pipelines",
+      "date": "2026-06-10",
+      "author": "Vasisht Duddu",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.CR",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f062fa8f122aeb05b1a8536c53ea6bdd3ebde855ecc8d0c6b6c232a13d95cbbe_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/99c19c84c0023044da2d1ac9a99cd26f8fdbcbf005cf0b3f43c0ed987c420635_w640_q70.webp"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "ai": [
     {
-      "id": 91385,
-      "title": "Towards Critical Branching Mechanism in Recurrent Neural Networks",
-      "date": "2026-06-10",
-      "author": "Feixiang Ren",
+      "id": 91528,
+      "title": "INFRAMIND: Infrastructure-Aware Multi-Agent Orchestration",
+      "date": "2026-06-11",
+      "author": "Ahasan Kabir",
       "tags": [
         {
           "label": "cs.AI",
@@ -12,13 +12,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c90689561ab937a7477bf2d4a85b7eff50d16b16a74e1304c0c6edf0c98cea8d_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1501bd4f5a1eab33ea8b627ddace0e5b40ea046d72bd45918f07668a760821fa_w640_q70.webp"
     },
     {
-      "id": 90761,
-      "title": "Business World Model",
-      "date": "2026-06-10",
-      "author": "Cecil Pang",
+      "id": 92047,
+      "title": "Sparsified Kolmogorov-Arnold Networks for Interpretable Quantum State Tomography",
+      "date": "2026-06-11",
+      "author": "Xinge Wu",
       "tags": [
         {
           "label": "cs.AI",
@@ -26,13 +26,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/81d468fda8851e1adee7e9d110adf09f0f8c3a3eb0857a759d28ce9a6ab74571_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2ac8defeca67494ded16cd5ece57f38d039cace48be122f87eed0b6036ab2151_w640_q70.webp"
     },
     {
-      "id": 90771,
-      "title": "Deployment-Time Memorization in Foundation-Model Agents",
-      "date": "2026-06-10",
-      "author": "Chen",
+      "id": 91754,
+      "title": "AutoMine Solution for AV2 2026 Scenario Mining Challenge",
+      "date": "2026-06-11",
+      "author": "Songliang Cao",
       "tags": [
         {
           "label": "cs.AI",
@@ -40,15 +40,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/af6dc05b6beb0764c9686fdbc395ca6c9162c806416ff93f6b932b5688456d24_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6c09c54b16f8697d51642b893c069d2a852c52a121ebe1c0986bf9a7571361df_w640_q70.webp"
     }
   ],
   "cv": [
     {
-      "id": 91397,
-      "title": "Multimodal Brain Tumour Classification Using Feature Fusion",
-      "date": "2026-06-10",
-      "author": "Wajih ul Islam",
+      "id": 91948,
+      "title": "Findings of the MAGMaR 2026 Shared Task",
+      "date": "2026-06-11",
+      "author": "Alexander Martin",
       "tags": [
         {
           "label": "cs.CV",
@@ -56,13 +56,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/2015cb00bbba92a787fd06eeee1a0d82155b0a4a13d6fce56680d3dba4c3b19a_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/844a25562c2bd3a3a96fd8a5c5b3f94708a05c30b64456cdb7abc5b72d6aa313_w640_q70.webp"
     },
     {
-      "id": 91399,
-      "title": "Data Journalist Agent: Transforming Data into Verifiable Multimodal Stories",
-      "date": "2026-06-10",
-      "author": "Kevin Qinghong Lin",
+      "id": 91949,
+      "title": "Natural-Language Temporal Grounding in Hour-Long Videos is a Search Problem: A Benchmark and Empirical Decomposition",
+      "date": "2026-06-11",
+      "author": "Sukmin Seo",
       "tags": [
         {
           "label": "cs.CV",
@@ -70,13 +70,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/0dcb13491bb23fc352f3c11d7f4e89bbdb49bdb9a996f439d02144297dd0e9ca_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f8b75d6dfb55bf3f8f5a30943e06540667e640a00c7a8c37ab312c29835451df_w640_q70.webp"
     },
     {
-      "id": 91225,
-      "title": "PENet+: A Lightweight Residual Transformer Framework for Efficient Image Steganalysis",
-      "date": "2026-06-10",
-      "author": "Jincheol AN",
+      "id": 91433,
+      "title": "LAST: Bridging Vision-Language and Action Manifolds via Gromov-Wasserstein Alignment",
+      "date": "2026-06-11",
+      "author": "Huaihai Lyu",
       "tags": [
         {
           "label": "cs.CV",
@@ -84,15 +84,15 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/3a32a42600541abe5a36a2f550e0706e7f0fe16b24e964962b364d77632c2eb5_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/6a4d50d8b80895bf3b44223fce419d668be6f5508adf4bc2a8e626e16420c0bc_w640_q70.webp"
     }
   ],
   "ml": [
     {
-      "id": 91398,
-      "title": "Range Penalization: Theoretical Insights with Applications in Federated Learning",
-      "date": "2026-06-10",
-      "author": "Yiyuan She",
+      "id": 91639,
+      "title": "Bergson: An Open Source Library for Data Attribution",
+      "date": "2026-06-11",
+      "author": "Lucia Quirke",
       "tags": [
         {
           "label": "cs.LG",
@@ -100,13 +100,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/8eebe8950dbc45458325d01aa42932e125813876253e996f8f2e4071b3c883cf_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f18e037ead605f589b31960bcda35160b10e3e95d660d288648284935c04b613_w640_q70.webp"
     },
     {
-      "id": 91405,
-      "title": "It\u00f4 maps for any-step SDEs",
-      "date": "2026-06-10",
-      "author": "Zhengkai Pan",
+      "id": 91582,
+      "title": "APEX: A Network-Native Time-Series Foundation Model for Forecasting and Anomaly Detection for Wireless Edge Operations",
+      "date": "2026-06-11",
+      "author": "Swadhin Pradhan",
       "tags": [
         {
           "label": "cs.LG",
@@ -114,13 +114,13 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/882ea8614f4ccf346f6d02cb4cdcb0a014c639ab5a6f15ec005e1fbfed44739f_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/c4c192db13527c59b57fe2cf0fd5a1825fb8a2eb83dfbf1a0bc50d69a47760cd_w640_q70.webp"
     },
     {
-      "id": 90688,
-      "title": "Operator Fusion for LLM Inference on the Tensix Architecture",
-      "date": "2026-06-10",
-      "author": "Qingbo Wu",
+      "id": 91415,
+      "title": "Dual-Stance Evaluation of Sycophancy: The Structure of Agreement and the Limits of Intervention",
+      "date": "2026-06-11",
+      "author": "Matthew James Buchan",
       "tags": [
         {
           "label": "cs.LG",
@@ -128,29 +128,29 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/add6641e485f069314cad0d35d6d8183bfad052ff1a9c4c532f4c886f3d23e05_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/f92a20f3c7ee0a3c603580034e88284ccf63a9c5bc36ce95c00fe94ece6f13a4_w640_q70.webp"
     }
   ],
   "other": [
     {
-      "id": 90646,
-      "title": "Automated Scoring of Arabic Text Using Large Language Models: A Literature Review",
-      "date": "2026-06-10",
-      "author": "Khaoula Dahimi",
+      "id": 91724,
+      "title": "Human-Guided Co-Manipulation of Carbon Fiber Plies",
+      "date": "2026-06-11",
+      "author": "Rami Ojanen",
       "tags": [
         {
-          "label": "cs.CL",
+          "label": "cs.RO",
           "color": "#60a5fa"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/1dbc48ecf8d138138981e89745eb605ab65e4c4d42cae8bd1a3c858932d717aa_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/330e8dd3415c4d2236fbec9428e1a3bfbcfbf30af58346d42fe8dda89bf7503f_w640_q70.webp"
     },
     {
-      "id": 90956,
-      "title": "Which LoRA? An Empirical Study on the Effectiveness of LoRA Techniques During Multilingual Instruction Tuning",
-      "date": "2026-06-10",
-      "author": "Thamali Wijewardhana",
+      "id": 91406,
+      "title": "One Jailbreak, Many Tongues: Learning Language-Insensitive Intention Representations for Multilingual Jailbreak Detection",
+      "date": "2026-06-11",
+      "author": "Shuyu Jiang",
       "tags": [
         {
           "label": "cs.CL",
@@ -158,21 +158,21 @@
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ea0e362a7c1ef53e63352580d5c17c6ffcc54bafabac4227239a1492e5e8ad27_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/cc43bd466992b63a09cf7b489c791619e5804665565d11aba3f088060b158cb6_w640_q70.webp"
     },
     {
-      "id": 90789,
-      "title": "SoK: Colluding Adversaries in Machine Learning Pipelines",
-      "date": "2026-06-10",
-      "author": "Vasisht Duddu",
+      "id": 91407,
+      "title": "NightFeats @ MMU-RAGent NeurIPS 2025: A Context-Optimized Multi-Agent RAG System for the Text-to-Text Track",
+      "date": "2026-06-11",
+      "author": "Quentin Fever",
       "tags": [
         {
-          "label": "cs.CR",
+          "label": "cs.CL",
           "color": "#818cf8"
         }
       ],
       "hasCode": false,
-      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/99c19c84c0023044da2d1ac9a99cd26f8fdbcbf005cf0b3f43c0ed987c420635_w640_q70.webp"
+      "imgUrl": "https://pub-9ba4a5dae3bf4fc7b7d26411a74e92db.r2.dev/thumbnails/ec19fcc4821cd51d15eaa2a5e51c907986ddf671224c3216a8f7c8efe042c33a_w640_q70.webp"
     }
   ]
 }
